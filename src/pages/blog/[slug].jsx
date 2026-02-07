@@ -136,6 +136,7 @@ export default function BlogDetailPage({ blog }) {
   // Client-only state - initialize with server values to prevent hydration mismatch
   const [likes, setLikes] = useState(blog.likesCount || 0);
   const [dislikes, setDislikes] = useState(blog.dislikesCount || 0);
+  const [views, setViews] = useState(blog.viewsCount || 0);
   const [reaction, setReaction] = useState(null);
   const [visitorId, setVisitorId] = useState("");
   const [userTag, setUserTag] = useState("");
@@ -162,7 +163,25 @@ export default function BlogDetailPage({ blog }) {
     } else if (Array.isArray(blog.dislikes) && blog.dislikes.includes(id)) {
       setReaction('dislike');
     }
-  }, [blog._id, blog.likes, blog.dislikes]);
+    
+    // Track view when component mounts (after hydration)
+    const trackView = async () => {
+      try {
+        await axios.patch(`/api/blog/published?action=view&paramlink=${blog.paramlink}`, { 
+          visitorId: id 
+        });
+      } catch (err) {
+        console.error('Failed to track view:', err);
+      }
+    };
+    
+    // Only track view if it's a new visitor (not a refresh/re-hydration)
+    const hasTrackedView = localStorage.getItem(`viewed_${blog._id}`);
+    if (!hasTrackedView) {
+      trackView();
+      localStorage.setItem(`viewed_${blog._id}`, 'true');
+    }
+  }, [blog._id, blog.likes, blog.dislikes, blog.paramlink]);
   
   // Sync likes/dislikes from server periodically (but don't change on initial render)
   useEffect(() => {
@@ -175,6 +194,7 @@ export default function BlogDetailPage({ blog }) {
         if (serverBlog) {
           setLikes(serverBlog.likesCount || 0);
           setDislikes(serverBlog.dislikesCount || 0);
+          setViews(serverBlog.viewsCount || 0);
         }
       } catch (err) {
         console.error('Failed to sync reactions:', err);
@@ -186,10 +206,11 @@ export default function BlogDetailPage({ blog }) {
     return () => clearTimeout(timer);
   }, [isMounted, blog.paramlink]);
   
-  // Functions to get current reaction and likes
+  // Functions to get current reaction and counts
   const getCurrentReaction = useCallback(() => reaction, [reaction]);
   const getCurrentLikes = useCallback(() => likes, [likes]);
   const getCurrentDislikes = useCallback(() => dislikes, [dislikes]);
+  const getCurrentViews = useCallback(() => views, [views]);
 
   // Memoized values - use blog props directly to ensure SSR/client consistency
   const topics = blog.topics || [];
@@ -360,12 +381,20 @@ export default function BlogDetailPage({ blog }) {
         <div className="bg-gradient-to-b from-teal-50 to-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900">{blog.title}</h1>
-            <div className="mt-3 flex items-center gap-3 text-sm text-gray-600">
+            <div className="mt-3 flex items-center gap-3 text-sm text-gray-600 flex-wrap">
               <span>{blog.postedBy?.name || "Admin"}</span>
               <span>•</span>
               <span>{date}</span>
               <span>•</span>
               <span>{readingTime} min read</span>
+              <span>•</span>
+              <span className="flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                </svg>
+                {getCurrentViews()} views
+              </span>
             </div>
           </div>
           {/* Show featured image only if it doesn't exist in content */}

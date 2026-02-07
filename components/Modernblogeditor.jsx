@@ -46,6 +46,7 @@ const ModernBlogEditorV1 = ({
   const [toast, setToast] = useState(null);
   const [lastSaved, setLastSaved] = useState(null);
   const [currentDraftId, setCurrentDraftId] = useState(editDraftId || null);
+  const [isEditingPublishedBlog, setIsEditingPublishedBlog] = useState(!!editBlogId);
   const [showVideoOptions, setShowVideoOptions] = useState(false);
   const [activeFormats, setActiveFormats] = useState(new Set());
   const editorRef = useRef(null);
@@ -187,6 +188,9 @@ const ModernBlogEditorV1 = ({
             }, 0);
             const t = Array.isArray(b.topics) && b.topics.length ? b.topics : extractTopics(initialContent);
             setTopics(t);
+            
+            // When editing a published blog directly, we need to set the editing state
+            setIsEditingPublishedBlog(true);
           }
         } else if (editDraftId) {
           const res = await axios.get(`/api/blog/draft?id=${editDraftId}`, getAuthHeaders());
@@ -205,6 +209,9 @@ const ModernBlogEditorV1 = ({
             }, 0);
             const t = Array.isArray(d.topics) && d.topics.length ? d.topics : extractTopics(initialContent);
             setTopics(t);
+            
+            // When editing a draft, we're not editing a published blog directly
+            setIsEditingPublishedBlog(false);
           }
         }
       } catch (e) {
@@ -230,6 +237,12 @@ const ModernBlogEditorV1 = ({
       if (!typingActivityRef.current) {
         console.log('Auto-save: Skipped - no typing activity detected');
         return; // Skip auto-save if no typing activity
+      }
+
+      // Skip auto-save when editing a published blog directly (not from draft)
+      if (isEditingPublishedBlog && !currentDraftId && !editDraftId) {
+        console.log('Auto-save: Skipped - editing published blog directly, no draft to update');
+        return;
       }
 
       // Get latest values from refs (avoid stale closures)
@@ -274,7 +287,7 @@ const ModernBlogEditorV1 = ({
         clearTimeout(typingActivityTimerRef.current);
       }
     };
-  }, [currentDraftId, editDraftId]); // Re-run when draft ID changes
+  }, [currentDraftId, editDraftId, isEditingPublishedBlog]); // Re-run when draft ID or published blog edit status changes
 
   // Ensure editor always has cursor when empty
   useEffect(() => {
@@ -1649,6 +1662,24 @@ const ModernBlogEditorV1 = ({
   };
 
   const saveDraft = async (isAutoSave = false) => {
+    // If we're editing a published blog directly and don't have a draft ID yet,
+    // we should convert it to a draft first before allowing auto-save
+    if (isEditingPublishedBlog && editBlogId && !currentDraftId && !editDraftId) {
+      if (isAutoSave) {
+        // For auto-save, just skip if we're editing a published blog without a draft
+        console.log('Auto-save: Skipped - editing published blog without draft conversion');
+        return;
+      } else {
+        // For manual save, convert the published blog to a draft first
+        const draftId = await convertPublishedToDraft();
+        if (!draftId) {
+          // If conversion failed, show error and exit
+          showToast('Failed to convert published blog to draft. Manual save failed.', 'error');
+          return;
+        }
+      }
+    }
+  
     // Always capture content directly from editor DOM (most up-to-date)
     // Don't rely on state which might be stale
     let finalContent = '';
@@ -1943,10 +1974,86 @@ const ModernBlogEditorV1 = ({
     }
   };
 
+  // Function to convert a published blog to a draft when editing
+  const convertPublishedToDraft = async () => {
+    if (!editBlogId || !isEditingPublishedBlog) return null;
+    
+    try {
+      // Create a draft from the current published blog data
+      let effectiveContent = '';
+      if (editorRef.current) {
+        effectiveContent = editorRef.current.innerHTML || '';
+        setContent(effectiveContent);
+      } else {
+        effectiveContent = content || '<p><br></p>';
+      }
+      
+      // Get current title - use ref first (most up-to-date), then fallback to state
+      const currentTitleFromRef = currentTitleRef.current?.trim() || '';
+      const currentTitleFromState = title?.trim() || '';
+      const currentTitle = currentTitleFromRef || currentTitleFromState;
+
+      // Ensure paramlink exists
+      let effectiveParamlink = paramlink?.trim();
+      if (!effectiveParamlink) {
+        const base = (currentTitle || 'untitled').toString();
+        effectiveParamlink = slugify(base).slice(0, 60) || `untitled-${Date.now()}`;
+        setParamlink(effectiveParamlink);
+      }
+
+      // Append topics as hashtags to content (hidden, so they persist and can be extracted later)
+      let contentWithTopics = effectiveContent;
+      // Remove existing topic markers first to avoid duplicates
+      const topicMarkerRegex = /<p[^>]*style="display:\s*none[^"]*"[^>]*>.*?<\/p>/gi;
+      contentWithTopics = contentWithTopics.replace(topicMarkerRegex, '');
+     
+      if (topics && topics.length > 0) {
+        const topicsAsHashtags = topics.map(t => `#${t}`).join(' ');
+        // Append topics as hidden paragraph so they're preserved in content but not visible
+        contentWithTopics += `<p style="display:none;visibility:hidden;">${topicsAsHashtags}</p>`;
+      }
+
+      const draftData = {
+        title: currentTitle || 'Untitled Draft',
+        content: contentWithTopics,
+        paramlink: effectiveParamlink,
+      };
+
+      // Create a new draft from the published blog
+      const response = await axios.post('/api/blog/draft', draftData, getAuthHeaders());
+      
+      if (response.data?.success && response.data?.draft?._id) {
+        // Set the current draft ID so auto-save will work properly
+        setCurrentDraftId(response.data.draft._id);
+        setIsEditingPublishedBlog(false); // No longer editing published blog directly
+        
+        console.log('Converted published blog to draft successfully', response.data.draft._id);
+        return response.data.draft._id;
+      }
+      
+      return null;
+    } catch (error) {
+      console.error('Error converting published blog to draft:', error);
+      const errorMessage = error.response?.data?.message || error.response?.data?.error || 'Failed to convert to draft';
+      showToast(`Failed to convert to draft: ${errorMessage}`, 'error');
+      return null;
+    }
+  };
+
   const publishBlog = async () => {
     if (!title || !content) {
       alert('Title and content are required');
       return;
+    }
+
+    // If we're editing a published blog directly, convert it to draft first to avoid conflicts
+    if (isEditingPublishedBlog && editBlogId && !currentDraftId) {
+      const draftId = await convertPublishedToDraft();
+      if (!draftId) {
+        // If conversion failed, show error and exit
+        alert('Failed to prepare draft for editing. Please try again.');
+        return;
+      }
     }
 
     // Ensure paramlink exists by auto-generating when missing
