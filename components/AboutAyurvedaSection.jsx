@@ -25,7 +25,7 @@ const AboutAyurvedaSection = ({ content }) => {
   const overlayCard = content?.overlayCard || {
     number: '15+',
     smallText: 'Years of Excellence',
-    boldText: 'Trusted Ayurvedic Care'
+    boldText: 'Trusted Polyclinic for Modern Healthcare'
   };
 
   useEffect(() => {
@@ -61,7 +61,7 @@ const AboutAyurvedaSection = ({ content }) => {
         <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-10 md:gap-12 lg:gap-12 xl:gap-16 items-center">
           
           {/* Left Column - Image with Overlay Card */}
-          <div className={`order-2 lg:order-1 relative transform transition-all duration-1000 ${
+          <div className={`hidden lg:block order-2 lg:order-1 relative transform transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
           }`}>
             <div className="relative rounded-3xl overflow-hidden shadow-2xl w-full group" style={{ aspectRatio: '4/5' }}>
@@ -71,9 +71,7 @@ const AboutAyurvedaSection = ({ content }) => {
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 45vw"
-                priority
-              />
-              
+                priority /> 
               {/* Overlay Card - Bottom Left */}
               <div className="absolute bottom-5 left-5 sm:bottom-6 sm:left-6 bg-white rounded-2xl p-3.5 sm:p-4 shadow-2xl flex items-center gap-3 z-10 backdrop-blur-sm bg-white/95 transform transition-all duration-500 hover:scale-105 max-w-[240px]">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 bg-[#3d5f4a] rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
@@ -111,7 +109,30 @@ const AboutAyurvedaSection = ({ content }) => {
                 </p>
               ))}
             </div>
-
+            
+            {/* Inline image for small screens */}
+            <div className="lg:hidden relative rounded-3xl overflow-hidden shadow-2xl w-full group mb-8">
+              <div className="relative" style={{ aspectRatio: '4/5' }}>
+                <Image
+                  src={imagePath}
+                  alt={imageAlt}
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 1024px) 100vw"
+                  priority
+                />
+                <div className="absolute bottom-4 left-4 right-4 bg-white rounded-2xl p-3.5 sm:p-4 shadow-2xl flex items-center gap-3 z-10 backdrop-blur-sm bg-white/95">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-[#3d5f4a] rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
+                    <span className="text-white text-base sm:text-lg font-bold leading-none">{overlayCard.number}</span>
+                  </div>
+                  <div className="pr-1">
+                    <div className="text-xs text-gray-600 font-normal leading-tight">{overlayCard.smallText}</div>
+                    <div className="text-sm font-semibold text-[#111111] leading-tight mt-0.5">{overlayCard.boldText}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
             {/* Statistics Card */}
             <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-lg mb-8 lg:mb-9 transform transition-all duration-500 hover:shadow-xl">
               <div className="grid grid-cols-3 gap-4 sm:gap-6">

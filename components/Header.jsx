@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 import { 
   Sparkles, 
   Leaf, 
@@ -22,7 +23,13 @@ const Header = () => {
   const [openMobileDropdown, setOpenMobileDropdown] = useState(null);
   const [dropdownTimeout, setDropdownTimeout] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [toast, setToast] = useState({ show: false, type: 'success', message: '' });
   const router = useRouter();
+
+  const showToast = (message, type = 'success') => {
+    setToast({ show: true, type, message });
+    setTimeout(() => setToast(prev => ({ ...prev, show: false })), 3000);
+  };
   
   const treatmentCategories = [
     {
@@ -215,24 +222,67 @@ const Header = () => {
           from { opacity: 0; transform: translateY(20px); }
           to { opacity: 1; transform: translateY(0); }
         }
+        @keyframes toastSlideIn {
+          from { transform: translateX(120%); opacity: 0; }
+          to { transform: translateX(0); opacity: 1; }
+        }
         .dropdown-animate { animation: slideDown 0.2s ease-out; }
         .dropdown-container { transition: opacity 0.2s ease-out, transform 0.2s ease-out; }
         .dropdown-bridge { height: 8px; position: absolute; top: 100%; left: 0; right: 0; z-index: 9998; }
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
         .scrollbar-hide::-webkit-scrollbar { display: none; }
+        
+        /* Custom scrollbar for dropdowns - visible but subtle */
+        .dropdown-scroll::-webkit-scrollbar {
+          width: 6px;
+        }
+        .dropdown-scroll::-webkit-scrollbar-track {
+          background: #f1f1f1;
+          border-radius: 3px;
+        }
+        .dropdown-scroll::-webkit-scrollbar-thumb {
+          background: #c1c1c1;
+          border-radius: 3px;
+        }
+        .dropdown-scroll::-webkit-scrollbar-thumb:hover {
+          background: #a8a8a8;
+        }
+        .dropdown-scroll {
+          scrollbar-width: thin;
+          scrollbar-color: #c1c1c1 #f1f1f1;
+        }
+        
         .modal-overlay { animation: fadeIn 0.3s ease-out; }
         .modal-content { animation: slideUp 0.3s ease-out; }
       `}</style>
       
       <header className={`bg-white shadow-sm transition-all duration-300 overflow-visible ${isScrolled ? 'shadow-lg sticky top-0 z-50' : ''}`}>
+        {toast.show && (
+          <div className="fixed top-6 right-6 z-[10000]" style={{ animation: 'toastSlideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1)' }}>
+            <div className={`flex items-center gap-3 px-5 py-3.5 rounded-xl shadow-xl border backdrop-blur-sm transition-all ${
+              toast.type === 'success' 
+                ? 'bg-emerald-600/95 border-emerald-500 text-white' 
+                : 'bg-red-600/95 border-red-500 text-white'
+            }`}>
+              {toast.type === 'success' ? (
+                <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7" /></svg>
+              ) : (
+                <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M6 18L18 6M6 6l12 12" /></svg>
+              )}
+              <span className="font-medium text-sm tracking-wide">{toast.message}</span>
+            </div>
+          </div>
+        )}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="flex items-center justify-between h-16 py-1">
             <div className="flex items-center space-x-2">
-              <div className="w-12 h-12 flex items-center justify-center rounded flex-shrink-0">
-                <img
+              <div className="w-12 h-12 flex items-center justify-center rounded flex-shrink-0 relative">
+                <Image
                   src="/images/Logo.png"
                   alt="Ayurveda Dubai"
-                  className="w-10 h-10 object-contain"
+                  width={40}
+                  height={40}
+                  className="object-contain"
                 />
               </div>
               <div>
@@ -244,8 +294,9 @@ const Header = () => {
               </div>
             </div>
 
-            <nav className="hidden lg:flex items-center space-x-1.5 xl:space-x-2 flex-nowrap overflow-visible">
-              <Link href="/" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap flex-shrink-0">
+            {/* Desktop Navigation - Improved spacing for 1024px screens */}
+            <nav className="hidden lg:flex items-center space-x-1 xl:space-x-1.5 flex-nowrap overflow-visible">
+              <Link href="/" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
                 About
               </Link>
               
@@ -254,7 +305,7 @@ const Header = () => {
                 return (
                   <div key={index} className="relative flex-shrink-0" onMouseEnter={() => handleDropdownEnter(index)} onMouseLeave={handleDropdownLeave}>
                     <div className="flex items-center cursor-pointer">
-                      <Link href={`/services/${category.slug}`} className="text-gray-600 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap">
+                      <Link href={`/services/${category.slug}`} className="text-gray-600 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap px-1">
                         {category.name}
                       </Link>
                       <div className="ml-0.5 pointer-events-none">
@@ -265,7 +316,7 @@ const Header = () => {
                     {openDropdown === index && <div className="dropdown-bridge" onMouseEnter={() => handleDropdownEnter(index)} onMouseLeave={handleDropdownLeave} />}
                     
                     {openDropdown === index && (
-                      <div className="absolute top-full left-0 pt-2 w-56 z-[9999]" onMouseEnter={() => handleDropdownEnter(index)} onMouseLeave={handleDropdownLeave}>
+                      <div className="absolute top-full left-0 pt-2 w-64 z-[9999]" onMouseEnter={() => handleDropdownEnter(index)} onMouseLeave={handleDropdownLeave}>
                         <div className="bg-white rounded-md shadow-xl border border-gray-200 py-2 dropdown-animate dropdown-container">
                           <div className="px-3 py-1.5 border-b border-gray-100">
                             <div className="flex items-center gap-1.5">
@@ -273,9 +324,13 @@ const Header = () => {
                               <span className="text-[11px] font-semibold text-gray-900">{category.name}</span>
                             </div>
                           </div>
-                          <div className="max-h-96 overflow-y-auto scrollbar-hide">
+                          <div className="max-h-[400px] overflow-y-auto dropdown-scroll">
                             {category.subcategories.map((subcategory, subIndex) => (
-                              <Link key={subIndex} href={`/services/${subcategory.slug}`} className="block px-4 py-2.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-[#1a5f3f] transition-colors duration-150">
+                              <Link 
+                                key={subIndex} 
+                                href={`/services/${subcategory.slug}`} 
+                                className="block px-4 py-2.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-[#1a5f3f] transition-colors duration-150"
+                              >
                                 {subcategory.name}
                               </Link>
                             ))}
@@ -287,20 +342,24 @@ const Header = () => {
                 );
               })}
               
-              <a href="/#testimonials" onClick={handleTestimonialsClick} className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer text-xs whitespace-nowrap flex-shrink-0">
+              <a href="/#testimonials" onClick={handleTestimonialsClick} className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
                 Testimonials
               </a>
-              {/* <a href="/#gallery" onClick={handleGalleryClick} className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer text-xs whitespace-nowrap flex-shrink-0">
+              <Link href="/blog" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
+                Blogs
+              </Link>
+               
+              {/* <a href="/#gallery" onClick={handleGalleryClick} className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
                 Gallery
               </a> */}
             </nav>
 
-            <div className="hidden lg:flex items-center space-x-2">
-              <button onClick={handleCallNow} className="flex items-center space-x-1 border-2 border-[#1a5f3f] text-[#1a5f3f] rounded-md hover:bg-[#1a5f3f] hover:text-white transition-colors px-2.5 py-1 text-xs">
+            <div className="hidden lg:flex items-center space-x-1.5 xl:space-x-2">
+              <button onClick={handleCallNow} className="flex items-center space-x-1 border-2 border-[#1a5f3f] text-[#1a5f3f] rounded-md hover:bg-[#1a5f3f] hover:text-white transition-colors px-2 xl:px-2.5 py-1 text-[11px] xl:text-xs">
                 <Phone className="w-3.5 h-3.5" />
-                <span className="font-medium text-xs">Call Now</span>
+                <span className="font-medium">Call Now</span>
               </button>
-              <button onClick={handleBookAppointment} className="bg-[#1a5f3f] text-white rounded-md hover:bg-[#154a32] transition-colors font-medium px-3 py-1 text-xs whitespace-nowrap">
+              <button onClick={handleBookAppointment} className="bg-[#1a5f3f] text-white rounded-md hover:bg-[#154a32] transition-colors font-medium px-2.5 xl:px-3 py-1 text-[11px] xl:text-xs whitespace-nowrap">
                 Book Appointment
               </button>
             </div>
@@ -314,6 +373,7 @@ const Header = () => {
             </button>
           </div>
 
+          {/* Mobile Menu - Now includes Blog */}
           {isMenuOpen && (
             <div className="lg:hidden pb-3 border-t border-gray-200 animate-in slide-in-from-top-2 duration-300">
               <nav className="flex flex-col space-y-3 mt-3">
@@ -332,7 +392,7 @@ const Header = () => {
                         </button>
                       </div>
                       {openMobileDropdown === index && (
-                        <div className="ml-4 mt-2 bg-gray-50 rounded-md p-2 border border-gray-200">
+                        <div className="ml-4 mt-2 bg-gray-50 rounded-md p-2 border border-gray-200 max-h-80 overflow-y-auto dropdown-scroll">
                           {category.subcategories.map((subcategory, subIndex) => (
                             <Link key={subIndex} href={`/services/${subcategory.slug}`} className="block px-3 py-2 text-xs text-gray-700 hover:bg-white hover:text-[#1a5f3f] rounded transition-colors" onClick={() => setIsMenuOpen(false)}>
                               {subcategory.name}
@@ -347,6 +407,7 @@ const Header = () => {
                 <div className="font-semibold text-gray-800 text-sm mb-1 pt-2 border-t border-gray-200">Navigation</div>
                 <Link href="/" className="text-gray-700 hover:text-[#1a5f3f] transition-colors" onClick={() => setIsMenuOpen(false)}>About</Link>
                 <a href="/#testimonials" onClick={handleTestimonialsClick} className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer">Testimonials</a>
+                <Link href="/blog" className="text-gray-700 hover:text-[#1a5f3f] transition-colors" onClick={() => setIsMenuOpen(false)}>Blogs</Link>
                 
                 <div className="flex flex-col space-y-2 pt-2">
                   <button onClick={handleCallNow} className="flex items-center justify-center space-x-1.5 px-3 py-1.5 border-2 border-[#1a5f3f] text-[#1a5f3f] rounded-md hover:bg-[#1a5f3f] hover:text-white transition-colors">
@@ -369,7 +430,11 @@ const Header = () => {
             <button onClick={handleCloseModal} className="absolute top-4 right-4 z-10 p-2 bg-white rounded-full shadow-lg hover:bg-gray-100 transition-colors" aria-label="Close modal">
               <X className="w-6 h-6 text-gray-600" />
             </button>
-            <BeginYourHealingJourneySection isModal={true} onClose={handleCloseModal} />
+            <BeginYourHealingJourneySection 
+              isModal={true} 
+              onClose={handleCloseModal} 
+              onSubmissionSuccess={() => showToast('Appointment request submitted successfully!', 'success')}
+            />
           </div>
         </div>
       )}

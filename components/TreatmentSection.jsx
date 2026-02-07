@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 import { 
   Sparkles, Scissors, Zap, Target, Heart, Activity, Stethoscope, 
   Smile, Droplets, Brain, Shield, Pill, Users, Calendar, 
   PlusCircle, Thermometer, BarChart, ClipboardList, UserCheck, Wind , TrendingUp,
-  Crosshair,
+  Crosshair, CheckCircle2,
 } from 'lucide-react';
-
 
 const TreatmentSection = ({ category, content }) => {
   const router = useRouter();
@@ -25,7 +25,7 @@ const TreatmentSection = ({ category, content }) => {
     ),
     subtitle: 'Advanced Care for Skin & Hair Health',
     duration: '30–90 Minutes',
-    badgeColor: 'teal',
+    badgeColor: 'purple',
     benefits: [
       'Anti-aging therapies to reduce wrinkles and fine lines',
       'Treatment for acne, pigmentation, scars, and sun damage',
@@ -47,7 +47,7 @@ const TreatmentSection = ({ category, content }) => {
     ),
     subtitle: 'Complete Care for Strong Teeth & a Confident Smile',
     duration: '30–120 Minutes',
-    badgeColor: 'teal',
+    badgeColor: 'blue',
     benefits: [
       'Preventive, restorative, and cosmetic dental treatments under one roof',
       'Solutions for cavities, gum disease, sensitivity, and tooth pain',
@@ -90,7 +90,7 @@ const TreatmentSection = ({ category, content }) => {
     ),
     subtitle: ' Restoring Movement, Strength & Comfort',
     duration: '45–60 Minutes',
-    badgeColor: 'teal',
+    badgeColor: 'orange',
     benefits: [
       'Pain management for neck, back, joint, and sports injuries',
       'Improves mobility, flexibility, and muscle strength',
@@ -111,7 +111,7 @@ const TreatmentSection = ({ category, content }) => {
     ),
     subtitle: 'Complete Primary Care for Everyday Health',
     duration: '20–30 Minutes',
-    badgeColor: 'teal',
+    badgeColor: 'green',
     benefits: [
       'Management of chronic conditions like diabetes, hypertension, and asthma',
       'Preventive health checkups, vaccinations, and lifestyle guidance',
@@ -133,7 +133,7 @@ const TreatmentSection = ({ category, content }) => {
     ),
     subtitle: 'Advanced Care for Radiant, Healthy Skin',
     duration: '45–75 Minutes',
-    badgeColor: 'teal',
+    badgeColor: 'pink',
     benefits: [
       'Deep cleansing, hydration, and nourishment for glowing skin',
       'Treatment for acne, pigmentation, dullness, and uneven texture',
@@ -200,15 +200,12 @@ const TreatmentSection = ({ category, content }) => {
   };
 
   const handleLearnMore = () => {
-    // Handle different route structures
     if (selectedTreatment.fullSlug) {
       router.push(selectedTreatment.fullSlug);
     } else if (category && category !== 'all') {
-      // For category pages, link to subcategory pages
       const categorySlug = category.replace(/\s+/g, '-').toLowerCase();
       router.push(`/services/${categorySlug}-dubai/${selectedTreatment.slug}`);
     } else {
-      // For homepage, use slug with -dubai suffix
       const slugWithDubai = selectedTreatment.slug.endsWith('-dubai') 
         ? selectedTreatment.slug 
         : `${selectedTreatment.slug}-dubai`;
@@ -216,16 +213,15 @@ const TreatmentSection = ({ category, content }) => {
     }
   };
 
- const handleConsultationClick = () => {
-  const section = document.getElementById('book-consultation');
-  if (section) {
-    section.scrollIntoView({ behavior: 'smooth' });
-  }
-};
+  const handleConsultationClick = () => {
+    const section = document.getElementById('book-consultation');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <>
-      {/* Google Font Import */}
       <link 
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" 
         rel="stylesheet" 
@@ -237,13 +233,16 @@ const TreatmentSection = ({ category, content }) => {
           <div className="text-center max-w-4xl mx-auto mb-10 md:mb-12">
             {/* Pill Label */}
             <div className="inline-block mb-3 sm:mb-4">
-              <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">
+              <span className="bg-[#E8E3D8] text-[#1E5A3C] px-4 py-2 rounded-full font-medium text-sm flex items-center gap-1.5">
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
                 {badge}
               </span>
             </div>
             
             {/* Large Bold Heading */}
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-bold text-[#111827] leading-tight max-w-4xl mb-4">
               {heading.includes('\n') ? (
                 <>
                   {heading.split('\n')[0]}<br />
@@ -255,20 +254,13 @@ const TreatmentSection = ({ category, content }) => {
             </h2>
 
             {/* Subtitle Text */}
-           <p className="text-center mb-12 lg:mb-14 max-w-3xl mx-auto"
-            style={{ 
-              color: '#6B7280',
-              fontSize: '16px',
-              lineHeight: '1.6',
-              fontWeight: 400
-            }}>
-  {subtitle}
-</p>
-
+            <p className="text-[15px] text-[#6B7280] leading-relaxed font-normal max-w-3xl mx-auto">
+              {subtitle}
+            </p>
           </div>
 
           {/* Treatment Cards Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-5 mb-10 md:mb-12">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-4 mb-10 md:mb-12">
             {treatmentsList.map((treatment) => {
               const isSelected = treatment.id === selectedTreatmentId;
               const isHovered = hoveredCard === treatment.id;
@@ -280,29 +272,29 @@ const TreatmentSection = ({ category, content }) => {
                   onMouseLeave={() => setHoveredCard(null)}
                   className={`
                     relative rounded-2xl p-5 cursor-pointer
-                    transition-all duration-300
+                    transition-all duration-200
                     ${isSelected 
-                       ? 'bg-gradient-to-r from-[#245c40] to-[#1b5e3f] border-2 border-[#C9A24D] shadow-lg text-white'
+                      ? 'bg-[#1E5A3C] border-2 border-[#C9A547] shadow-lg text-white'
                       : isHovered
-                        ? 'bg-white border-2 border-[#C9A24D] shadow-md'
-                        : 'bg-white border-2 border-gray-200 shadow-sm hover:shadow-md'
+                        ? 'bg-white border-2 border-[#C9A547] shadow-md'
+                        : 'bg-white border-2 border-[#E5E7EB] shadow-sm hover:shadow-md'
                     }
                   `}
                 >
                   {/* Icon Container */}
                   <div className={`
                     w-14 h-14 rounded-xl
-                    flex items-center justify-center mb-4 mx-auto
-                    transition-all duration-300
+                    flex items-center justify-center mb-3.5 mx-auto
+                    transition-all duration-200
                     ${isSelected 
-                      ? 'bg-[#C9A24D]' 
+                      ? 'bg-[#C9A547]' 
                       : isHovered
-                        ? 'bg-gradient-to-r from-[#245c40] to-[#1b5e3f]'
+                        ? 'bg-[#1E5A3C]'
                         : 'bg-[#F5F3EE]'
                     }
                   `}>
-                    <div className={`transition-colors duration-300 ${
-                      isSelected || isHovered ? 'text-white' : 'text-[#0A3D2E]'
+                    <div className={`transition-colors duration-200 ${
+                      isSelected || isHovered ? 'text-white' : 'text-[#1E5A3C]'
                     }`}>
                       {getIconComponent(treatment.icon)}
                     </div>
@@ -311,11 +303,11 @@ const TreatmentSection = ({ category, content }) => {
                   {/* Title */}
                   <h3 className={`
                     text-center text-sm font-semibold leading-tight
-                    transition-colors duration-300
+                    transition-colors duration-200
                     ${isSelected 
                       ? 'text-white' 
                       : isHovered
-                        ? 'text-[#0A3D2E]'
+                        ? 'text-[#111827]'
                         : 'text-[#111827]'
                     }
                   `}>
@@ -327,28 +319,42 @@ const TreatmentSection = ({ category, content }) => {
           </div>
 
           {/* Detailed Treatment Preview Panel */}
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300">
+          <div className="bg-white rounded-3xl shadow-lg overflow-hidden transition-all duration-300">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
               {/* Left Side - Image */}
-              <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[450px] bg-gray-100 overflow-hidden">
-                {/* Image with alt text for SEO */}
-                <img 
+              <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[450px] bg-gray-100 overflow-hidden rounded-t-3xl lg:rounded-l-3xl lg:rounded-tr-none">
+                <Image 
                   src={selectedTreatment.image || 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'}
                   alt={selectedTreatment.alt || `${selectedTreatment.title} - ${selectedTreatment.subtitle}`}
-                  className="absolute inset-0 w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-black/10"></div>
                 
-                {/* Duration Badge - Top Left */}
-                <div className="absolute top-4 left-4 bg-[#14B8A6] text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                {/* Duration Badge - Dynamic Color Based on Treatment */}
+                {/* <div className={`absolute top-4 left-4 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg ${
+                  selectedTreatment.badgeColor === 'teal' 
+                    ? 'bg-[#14B8A6]' 
+                    : selectedTreatment.badgeColor === 'pink'
+                    ? 'bg-gradient-to-r from-[#EC4899] to-[#DB2777]'
+                    : selectedTreatment.badgeColor === 'purple'
+                    ? 'bg-gradient-to-r from-[#9333EA] to-[#7C3AED]'
+                    : selectedTreatment.badgeColor === 'orange'
+                    ? 'bg-gradient-to-r from-[#F97316] to-[#EA580C]'
+                    : selectedTreatment.badgeColor === 'blue'
+                    ? 'bg-gradient-to-r from-[#3B82F6] to-[#2563EB]'
+                    : selectedTreatment.badgeColor === 'green'
+                    ? 'bg-gradient-to-r from-[#10B981] to-[#059669]'
+                    : 'bg-[#14B8A6]'
+                }`}>
                   {selectedTreatment.duration}
-                </div>
+                </div> */}
               </div>
 
               {/* Right Side - Content */}
               <div className="p-8 lg:p-10 flex flex-col justify-center">
                 {/* Title */}
-                <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-3">
+                <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-2">
                   {selectedTreatment.title}
                 </h3>
 
@@ -365,25 +371,26 @@ const TreatmentSection = ({ category, content }) => {
                   <ul className="space-y-3">
                     {selectedTreatment.benefits.map((benefit, index) => (
                       <li key={index} className="flex items-start">
-                        {/* Green circular check icon */}
-                        <div className="w-5 h-5 rounded-full bg-[#0A3D2E] flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
-                          <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={3}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                        {/* CircleCheckBig icon with gradient background */}
+                        <div className="w-6 h-6 bg-gradient-to-br from-[#1b5e3f] to-[#c9a961] rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 mr-3">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-white">
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
                           </svg>
                         </div>
-                        <span className="text-[#4B5563] text-sm font-normal leading-relaxed">{benefit}</span>
+                        <span className="text-[#4B5563] text-[15px] font-normal leading-relaxed">{benefit}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
 
-                {/* Ideal For Section */}
+                {/* Ideal For Section - Fully rounded box */}
                 <div className="mb-6">
                   <h4 className="text-lg font-semibold text-[#111827] mb-3">
                     Ideal For:
                   </h4>
-                  <div className="bg-[#F5F3EE] border-l-4 border-[#C9A24D] rounded-r-xl p-4">
-                    <p className="text-[#4B5563] text-sm leading-relaxed font-normal">
+                  <div className="bg-[#FFFBF5] border-l-4 border-[#C9A547] rounded-xl p-4">
+                    <p className="text-[#4B5563] text-[15px] leading-relaxed font-normal">
                       {selectedTreatment.idealFor}
                     </p>
                   </div>
@@ -391,17 +398,18 @@ const TreatmentSection = ({ category, content }) => {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <button  onClick={() => window.open('https://wa.me/971566597878', '_blank')}
-                    className="flex items-center justify-center bg-gradient-to-r from-[#245c40] to-[#1b5e3f] text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-gradient-to-r from-[#245c40] to-[#1b5e3f] transition-all duration-300 shadow-md hover:shadow-lg"
+                  <button 
+                    onClick={() => window.open('https://wa.me/971566597878', '_blank')}
+                    className="flex items-center justify-center bg-[#1E5A3C] text-white px-6 py-3.5 rounded-xl font-semibold text-sm hover:bg-[#16472F] transition-all duration-300 shadow-md hover:shadow-lg hover:scale-95"
                   >
                     <span>Book This Treatment</span>
                     <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                   </button>
                   <button
                     onClick={handleLearnMore}
-                    className="flex items-center justify-center bg-white border-2 border-[#245c40] text-[#245c40] px-6 py-3 rounded-full font-semibold text-sm hover:bg-[#0A3D2E]/5 transition-all duration-300"
+                    className="flex items-center justify-center bg-white border-2 border-[#1E5A3C] text-[#1E5A3C] px-6 py-3.5 rounded-xl font-semibold text-sm hover:bg-[#1E5A3C] hover:text-white transition-all duration-300"
                   >
                     Learn More
                   </button>
@@ -413,10 +421,7 @@ const TreatmentSection = ({ category, content }) => {
           {/* Consultation CTA Block */}
           <div className="mt-12">
             <div 
-              className="rounded-2xl shadow-lg py-10 px-8 text-center transition-all duration-300 hover:shadow-xl"
-              style={{
-                background: 'linear-gradient(to right, #245c40, #1b5e3f)',
-              }}
+              className="rounded-2xl shadow-lg py-10 px-8 text-center transition-all duration-300 hover:shadow-xl bg-[#1E5A3C]"
             >
               {/* Heading */}
               <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
@@ -431,7 +436,7 @@ const TreatmentSection = ({ category, content }) => {
               {/* CTA Button */}
               <button
                 onClick={handleConsultationClick}
-                className="inline-flex items-center justify-center bg-[#C9A24D] text-white px-6 py-3 rounded-full font-semibold text-sm shadow-md hover:shadow-lg hover:bg-[#B8934D] transition-all duration-300"
+                className="inline-flex items-center justify-center bg-[#C9A547] text-white px-6 py-3 rounded-full font-semibold text-sm shadow-md hover:shadow-lg hover:bg-[#B8944A] transition-all duration-300"
               >
                 Get Free Consultation
               </button>

@@ -5363,88 +5363,117 @@ export const subcategoryContent = {
     }
   ]
 },
-
-    // Benefits Section
+  // Benefits Section
     benefits: {
-      title: 'Clinically Observed Benefits',
-      description: null,
-      benefits: [
-        {
-          id: 1,
-          title: 'Pain relief and inflammation reduction',
-          percentage: 85,
-          description:null
-        },
-        {
-          id: 2,
-          title: 'Improved blood circulation',
-          percentage: 92,
-          description: null
-        },
-        {
-          id: 3,
-          title: 'Faster tissue healing',
-          percentage: 88,
-          description: null
-        },
-        {
-          id: 4,
-          title: 'Better muscle relaxation',
-          percentage: 79,
-          description: null
-        },
-        {
-          id: 5,
-          title: 'Increased joint mobility',
-          percentage: 83,
-          description: null
-        },
-        {
-          id: 6,
-          title: 'Reduced dependence on painkillers',
-          percentage: 90,
-          description: null
-        }
-      ],
-      comparisonTitle: 'Ayurvedic Hairfall Treatment vs Conventional Methods',
-      comparisonDescription: 'Compare our holistic Ayurvedic approach with conventional hair treatment methods',
-      comparisonHeaders: {
-        feature: 'Aspect',
-        ourTreatment: 'Ayurvedic Treatment',
-        traditional: 'Conventional Methods'
-      },
-      comparisonData: [
-        {
-          feature: 'Treatment Approach',
-          ayurvedic: 'Holistic, natural, addresses root cause',
-          conventional: 'Symptomatic, chemical-based'
-        },
-        {
-          feature: 'Side Effects',
-          ayurvedic: 'Minimal to none',
-          conventional: 'Possible dryness, irritation'
-        },
-        {
-          feature: 'Duration',
-          ayurvedic: '3-6 months for visible results',
-          conventional: 'Quick initial results, may require maintenance'
-        },
-        {
-          feature: 'Long-term Sustainability',
-          ayurvedic: 'Yes, promotes natural hair health',
-          conventional: 'May require ongoing treatment'
-        },
-        {
-          feature: 'Cost Effectiveness',
-          ayurvedic: 'Moderate, one-time investment',
-          conventional: 'Ongoing costs for maintenance'
-        },
-        {
-          feature: 'Overall Wellness',
-          ayurvedic: 'Improves overall health',
-          conventional: 'Focused on hair only'
-        }
-      ]
+  title: 'Clinically Observed Results of Ultrasound Therapy in Dubai',
+  description:
+    'With 15+ years of clinical experience and 2,500+ successfully treated patients, our specialists deliver safe, evidence-based results through advanced Ultrasound Therapy in Dubai, designed to accelerate healing and restore mobility.',
+  benefits: [
+    {
+      id: 1,
+      title: 'Reduces chronic pain and inflammation effectively',
+      percentage: 91,
+      description: 'Relief reported by 91% of patients'
+    },
+    {
+      id: 2,
+      title: 'Improves blood circulation and tissue oxygenation',
+      percentage: 88,
+      description: 'Observed in 88% of cases'
+    },
+    {
+      id: 3,
+      title: 'Accelerates muscle and soft tissue healing',
+      percentage: 86,
+      description: 'Noted by 86% of patients'
+    },
+    {
+      id: 4,
+      title: 'Enhances joint flexibility and range of motion',
+      percentage: 84,
+      description: 'Improvement seen in 84% of patients'
+    },
+    {
+      id: 5,
+      title: 'Breaks down scar tissue and adhesions',
+      percentage: 79,
+      description: 'Effective in 79% of treatments'
+    },
+    {
+      id: 6,
+      title: 'Relieves stiffness caused by sports injuries and overuse',
+      percentage: 90,
+      description: 'Experienced by 90% of patients'
+    },
+    {
+      id: 7,
+      title: 'Supports faster recovery after injury or surgery',
+      percentage: 87,
+      description: 'Achieved in 87% of cases'
+    },
+    {
+      id: 8,
+      title: 'Non-invasive, safe, and pain-free therapy option',
+      percentage: 95,
+      description: 'Preferred by 95% of patients'
+    },
+    {
+      id: 9,
+      title: 'Promotes long-term musculoskeletal health',
+      percentage: 92,
+      description: 'Maintained by 92% of patients'
+    }
+  ],
+     comparisonTitle: 'Ultrasound Therapy in Dubai vs. Conventional Pain Treatment',
+comparisonDescription:
+  'A detailed comparison highlighting how Ultrasound Therapy in Dubai differs from conventional pain treatment approaches.',
+comparisonHeaders: {
+  feature: 'Aspect',
+  ourTreatment: 'Ultrasound Therapy in Dubai',
+  traditional: 'Conventional Pain Treatment'
+},
+comparisonData: [
+  {
+    feature: 'Approach',
+    ayurvedic: 'Targets the root cause by promoting deep tissue healing',
+    conventional: 'Primarily focuses on pain suppression'
+  },
+  {
+    feature: 'Treatment Method',
+    ayurvedic: 'Uses high-frequency sound waves for internal healing',
+    conventional: 'Relies on medications, injections, or rest'
+  },
+  {
+    feature: 'Invasiveness',
+    ayurvedic: 'Non-invasive and painless',
+    conventional: 'May include invasive procedures or long-term drugs'
+  },
+  {
+    feature: 'Side Effects',
+    ayurvedic: 'Minimal to none when applied professionally',
+    conventional: 'Possible stomach issues, dependency, or irritation'
+  },
+  {
+    feature: 'Results',
+    ayurvedic: 'Gradual, long-lasting improvement',
+    conventional: 'Often quick but temporary relief'
+  },
+  {
+    feature: 'Healing Process',
+    ayurvedic: 'Improves blood circulation & tissue regeneration',
+    conventional: 'Does not actively repair damaged tissues'
+  },
+  {
+    feature: 'Rehabilitation Support',
+    ayurvedic: 'Enhances effectiveness of physiotherapy & exercises',
+    conventional: 'Limited support for functional recovery'
+  },
+  {
+    feature: 'Long-Term Benefits',
+    ayurvedic: 'Reduces recurrence of pain and stiffness',
+    conventional: 'May require ongoing medication or repeat treatment'
+  }
+]
     },
 
     // Pricing / Investment Section
@@ -6033,89 +6062,117 @@ export const subcategoryContent = {
     }
   ]
 },
-
-    // Benefits Section
-    benefits: {
-      title: 'Clinically Observed Benefits',
-      description: null,
-      benefits: [
-        {
-          id: 1,
-          title: 'Effective pain relief',
-          percentage: 85,
-          description:null
-        },
-        {
-          id: 2,
-          title: 'Improved muscle activation',
-          percentage: 92,
-          description: null
-        },
-        {
-          id: 3,
-          title: 'Reduced swelling and stiffness',
-          percentage: 88,
-          description: null
-        },
-        {
-          id: 4,
-          title: 'Enhanced blood circulation',
-          percentage: 79,
-          description: null
-        },
-        {
-          id: 5,
-          title: 'Faster healing and recovery',
-          percentage: 83,
-          description: null
-        },
-        {
-          id: 6,
-          title: 'Better functional movement',
-          percentage: 90,
-          description: null
-        }
-      ],
-      comparisonTitle: 'Ayurvedic Hairfall Treatment vs Conventional Methods',
-      comparisonDescription: 'Compare our holistic Ayurvedic approach with conventional hair treatment methods',
-      comparisonHeaders: {
-        feature: 'Aspect',
-        ourTreatment: 'Ayurvedic Treatment',
-        traditional: 'Conventional Methods'
-      },
-      comparisonData: [
-        {
-          feature: 'Treatment Approach',
-          ayurvedic: 'Holistic, natural, addresses root cause',
-          conventional: 'Symptomatic, chemical-based'
-        },
-        {
-          feature: 'Side Effects',
-          ayurvedic: 'Minimal to none',
-          conventional: 'Possible dryness, irritation'
-        },
-        {
-          feature: 'Duration',
-          ayurvedic: '3-6 months for visible results',
-          conventional: 'Quick initial results, may require maintenance'
-        },
-        {
-          feature: 'Long-term Sustainability',
-          ayurvedic: 'Yes, promotes natural hair health',
-          conventional: 'May require ongoing treatment'
-        },
-        {
-          feature: 'Cost Effectiveness',
-          ayurvedic: 'Moderate, one-time investment',
-          conventional: 'Ongoing costs for maintenance'
-        },
-        {
-          feature: 'Overall Wellness',
-          ayurvedic: 'Improves overall health',
-          conventional: 'Focused on hair only'
-        }
-      ]
+benefits: {
+  title: 'Clinically Observed Results of Electrotherapy in Dubai',
+  description:
+    'Backed by 15+ years of clinical expertise and the successful treatment of 2,500+ patients, our advanced Electrotherapy in Dubai programs are designed to relieve pain, restore movement, and accelerate recovery safely and effectively.',
+  benefits: [
+    {
+      id: 1,
+      title: 'Provides fast and effective pain relief',
+      percentage: 93,
+      description: 'Improvement reported by 93% of patients'
     },
+    {
+      id: 2,
+      title: 'Reduces muscle stiffness and spasms',
+      percentage: 89,
+      description: 'Observed in 89% of cases'
+    },
+    {
+      id: 3,
+      title: 'Improves nerve stimulation and muscle activation',
+      percentage: 86,
+      description: 'Noted by 86% of patients'
+    },
+    {
+      id: 4,
+      title: 'Enhances blood circulation and tissue healing',
+      percentage: 88,
+      description: 'Experienced by 88% of patients'
+    },
+    {
+      id: 5,
+      title: 'Supports recovery from sports injuries and trauma',
+      percentage: 84,
+      description: 'Effective in 84% of treatments'
+    },
+    {
+      id: 6,
+      title: 'Helps manage chronic pain conditions',
+      percentage: 91,
+      description: 'Relief achieved by 91% of patients'
+    },
+    {
+      id: 7,
+      title: 'Improves muscle strength and functional mobility',
+      percentage: 83,
+      description: 'Seen in 83% of patients'
+    },
+    {
+      id: 8,
+      title: 'Non-invasive and drug-free pain management solution',
+      percentage: 95,
+      description: 'Preferred by 95% of patients'
+    },
+    {
+      id: 9,
+      title: 'Promotes long-term musculoskeletal and nerve health',
+      percentage: 92,
+      description: 'Maintained by 92% of patients'
+    }
+  ],
+     comparisonTitle: 'Electrotherapy in Dubai vs. Conventional Pain Treatment',
+comparisonDescription:
+  'A detailed comparison highlighting how Electrotherapy in Dubai differs from conventional pain treatment approaches.',
+comparisonHeaders: {
+  feature: 'Aspect',
+  ourTreatment: 'Electrotherapy in Dubai',
+  traditional: 'Conventional Pain Treatment'
+},
+comparisonData: [
+  {
+    feature: 'Approach',
+    ayurvedic: 'Addresses the root cause by stimulating nerves and muscles',
+    conventional: 'Focuses mainly on temporary pain relief'
+  },
+  {
+    feature: 'Treatment Method',
+    ayurvedic: 'Uses controlled electrical impulses to promote healing',
+    conventional: 'Relies on medications, injections, or rest'
+  },
+  {
+    feature: 'Invasiveness',
+    ayurvedic: 'Non-invasive and drug-free',
+    conventional: 'May involve invasive procedures or long-term medication'
+  },
+  {
+    feature: 'Side Effects',
+    ayurvedic: 'Minimal to none under professional supervision',
+    conventional: 'Possible drowsiness, dependency, or gastric issues'
+  },
+  {
+    feature: 'Results',
+    ayurvedic: 'Progressive, long-lasting improvement',
+    conventional: 'Often fast but short-term relief'
+  },
+  {
+    feature: 'Healing Process',
+    ayurvedic: 'Enhances muscle activation, circulation & nerve function',
+    conventional: 'Does not actively restore muscle or nerve health'
+  },
+  {
+    feature: 'Rehabilitation Support',
+    ayurvedic: 'Supports physiotherapy and functional recovery',
+    conventional: 'Limited role in rehabilitation'
+  },
+  {
+    feature: 'Long-Term Benefits',
+    ayurvedic: 'Reduces recurrence of pain and muscle weakness',
+    conventional: 'May require continuous treatment or medication'
+  }
+]
+},
 
     // Pricing / Investment Section
     pricing: {
@@ -6726,83 +6783,117 @@ export const subcategoryContent = {
     }
   ]
 },
-
-      // Benefits Section
-      benefits: {
-        title: 'Clinically Observed Benefits',
-        description: null,
-        benefits: [
-          {
-            id: 1,
-            title: 'Improved bladder and bowel control',
-            percentage: 85,
-            description:null
-          },
-          {
-            id: 2,
-            title: ' Reduced pelvic pain',
-            percentage: 92,
-            description: null
-          },
-          {
-            id: 3,
-            title: ' Stronger core muscles',
-            percentage: 88,
-            description: null
-          },
-          {
-            id: 4,
-            title: 'Better posture and stability',
-            percentage: 79,
-            description: null
-          },
-          {
-            id: 5,
-            title: ' Increased comfort and confidence',
-            percentage: 83,
-            description: null
-          }
-        ],
-        comparisonTitle: 'Ayurvedic Hairfall Treatment vs Conventional Methods',
-        comparisonDescription: 'Compare our holistic Ayurvedic approach with conventional hair treatment methods',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Ayurvedic Treatment',
-          traditional: 'Conventional Methods'
-        },
-        comparisonData: [
-          {
-            feature: 'Treatment Approach',
-            ayurvedic: 'Holistic, natural, addresses root cause',
-            conventional: 'Symptomatic, chemical-based'
-          },
-          {
-            feature: 'Side Effects',
-            ayurvedic: 'Minimal to none',
-            conventional: 'Possible dryness, irritation'
-          },
-          {
-            feature: 'Duration',
-            ayurvedic: '3-6 months for visible results',
-            conventional: 'Quick initial results, may require maintenance'
-          },
-          {
-            feature: 'Long-term Sustainability',
-            ayurvedic: 'Yes, promotes natural hair health',
-            conventional: 'May require ongoing treatment'
-          },
-          {
-            feature: 'Cost Effectiveness',
-            ayurvedic: 'Moderate, one-time investment',
-            conventional: 'Ongoing costs for maintenance'
-          },
-          {
-            feature: 'Overall Wellness',
-            ayurvedic: 'Improves overall health',
-            conventional: 'Focused on hair only'
-          }
-        ]
-      },
+benefits: {
+  title: 'Clinically Observed Results of Pelvic Floor Therapy in Dubai',
+  description:
+    'Supported by over 15 years of clinical experience and the successful treatment of more than 2,500 patients, our specialized Pelvic Floor Therapy programs in Dubaiare designed to restore pelvic strength, improve bladder control, and enhance overall quality of life.',
+  benefits: [
+    {
+      id: 1,
+      title: 'Improves bladder and bowel control',
+      percentage: 90,
+      description: 'Positive results reported by 90% of patients'
+    },
+    {
+      id: 2,
+      title: 'Strengthens pelvic floor muscles effectively',
+      percentage: 92,
+      description: 'Improvement seen in 92% of cases'
+    },
+    {
+      id: 3,
+      title: 'Reduces pelvic pain and discomfort',
+      percentage: 86,
+      description: 'Relief experienced by 86% of patients'
+    },
+    {
+      id: 4,
+      title: 'Supports post-pregnancy and postpartum recovery',
+      percentage: 89,
+      description: 'Effective in 89% of patients'
+    },
+    {
+      id: 5,
+      title: 'Helps manage urinary incontinence',
+      percentage: 91,
+      description: 'Improvement achieved by 91% of patients'
+    },
+    {
+      id: 6,
+      title: 'Enhances core stability and posture',
+      percentage: 84,
+      description: 'Noted by 84% of patients'
+    },
+    {
+      id: 7,
+      title: 'Improves sexual health and pelvic function',
+      percentage: 82,
+      description: 'Reported by 82% of patients'
+    },
+    {
+      id: 8,
+      title: 'Non-invasive, personalized, and discreet treatment',
+      percentage: 95,
+      description: 'Preferred by 95% of patients'
+    },
+    {
+      id: 9,
+      title: 'Promotes long-term pelvic health and confidence',
+      percentage: 93,
+      description: 'Maintained by 93% of patients'
+    }
+  ],
+       comparisonTitle: 'Pelvic Floor Therapy in Dubai vs. Conventional Pelvic Health Treatment',
+comparisonDescription:
+  'A detailed comparison highlighting how Pelvic Floor Therapy in Dubai differs from conventional pelvic health treatment approaches.',
+comparisonHeaders: {
+  feature: 'Aspect',
+  ourTreatment: 'Pelvic Floor Therapy in Dubai',
+  traditional: 'Conventional Pelvic Health Treatment'
+},
+comparisonData: [
+  {
+    feature: 'Approach',
+    ayurvedic: 'Treats the root cause by strengthening and retraining pelvic muscles',
+    conventional: 'Focuses mainly on symptom management'
+  },
+  {
+    feature: 'Treatment Method',
+    ayurvedic: 'Uses guided exercises, manual therapy & physiotherapy techniques',
+    conventional: 'Relies on medications or surgical options'
+  },
+  {
+    feature: 'Invasiveness',
+    ayurvedic: 'Non-invasive and natural',
+    conventional: 'May involve invasive procedures or long-term medication'
+  },
+  {
+    feature: 'Side Effects',
+    ayurvedic: 'Minimal to none under professional guidance',
+    conventional: 'Possible drug-related side effects or post-surgical risks'
+  },
+  {
+    feature: 'Results',
+    ayurvedic: 'Gradual, long-lasting improvement',
+    conventional: 'Often temporary or condition-dependent relief'
+  },
+  {
+    feature: 'Healing Process',
+    ayurvedic: 'Restores muscle strength, coordination & control',
+    conventional: 'Does not fully retrain pelvic muscle function'
+  },
+  {
+    feature: 'Rehabilitation Support',
+    ayurvedic: 'Supports core stability and functional recovery',
+    conventional: 'Limited rehabilitation focus'
+  },
+  {
+    feature: 'Long-Term Benefits',
+    ayurvedic: 'Reduces recurrence and improves quality of life',
+    conventional: 'May require ongoing treatment or intervention'
+  }
+]
+},
   
       // Pricing / Investment Section
       pricing: {
@@ -7413,88 +7504,101 @@ export const subcategoryContent = {
     }
   ]
 },
-
-      // Benefits Section
-      benefits: {
-        title: 'Clinically Observed Benefits',
-        description: null,
-        benefits: [
-          {
-            id: 1,
-            title: 'Improved strength and endurance',
-            percentage: 85,
-            description:null
-          },
-          {
-            id: 2,
-            title: 'Better balance and stability',
-            percentage: 92,
-            description: null
-          },
-          {
-            id: 3,
-            title: 'Reduced pain and stiffness',
-            percentage: 88,
-            description: null
-          },
-          {
-            id: 4,
-            title: 'Enhanced posture and coordination',
-            percentage: 79,
-            description: null
-          },
-          {
-            id: 5,
-            title: 'Lower risk of injury',
-            percentage: 83,
-            description: null
-          }, 
-          {
-            id: 5,
-            title: 'Improved daily activity performance',
-            percentage: 83,
-            description: null
-          }
-        ],
-        comparisonTitle: 'Ayurvedic Hairfall Treatment vs Conventional Methods',
-        comparisonDescription: 'Compare our holistic Ayurvedic approach with conventional hair treatment methods',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Ayurvedic Treatment',
-          traditional: 'Conventional Methods'
-        },
-        comparisonData: [
-          {
-            feature: 'Treatment Approach',
-            ayurvedic: 'Holistic, natural, addresses root cause',
-            conventional: 'Symptomatic, chemical-based'
-          },
-          {
-            feature: 'Side Effects',
-            ayurvedic: 'Minimal to none',
-            conventional: 'Possible dryness, irritation'
-          },
-          {
-            feature: 'Duration',
-            ayurvedic: '3-6 months for visible results',
-            conventional: 'Quick initial results, may require maintenance'
-          },
-          {
-            feature: 'Long-term Sustainability',
-            ayurvedic: 'Yes, promotes natural hair health',
-            conventional: 'May require ongoing treatment'
-          },
-          {
-            feature: 'Cost Effectiveness',
-            ayurvedic: 'Moderate, one-time investment',
-            conventional: 'Ongoing costs for maintenance'
-          },
-          {
-            feature: 'Overall Wellness',
-            ayurvedic: 'Improves overall health',
-            conventional: 'Focused on hair only'
-          }
-        ]
+benefits: {
+  title: 'Clinically Observed Results of Functional Exercise in Dubai',
+  description:
+    'With over 15 years of clinical experience and more than 2,500 patients successfully treated, our personalized Functional Exercise programs in Dubaiare designed to restore natural movement, improve strength, and support long-term physical performance.',
+  benefits: [
+    {
+      id: 1,
+      title: 'Improves overall strength and movement efficiency',
+      percentage: 91,
+      description: 'Positive results reported by 91% of patients'
+    },
+    {
+      id: 2,
+      title: 'Enhances balance, coordination, and stability',
+      percentage: 88,
+      description: 'Observed improvement in 88% of cases'
+    },
+    {
+      id: 3,
+      title: 'Reduces risk of injury during daily activities',
+      percentage: 86,
+      description: 'Effective for 86% of patients'
+    },
+    {
+      id: 4,
+      title: 'Improves posture and body alignment',
+      percentage: 84,
+      description: 'Noted by 84% of patients'
+    },
+    {
+      id: 5,
+      title: 'Supports faster recovery after injury or surgery',
+      percentage: 87,
+      description: 'Achieved by 87% of patients'
+    },
+    {
+      id: 6,
+      title: 'Increases joint mobility and flexibility',
+      percentage: 85,
+      description: 'Improvement seen in 85% of cases'
+    },
+    {
+      id: 7,
+      title: 'Strengthens core muscles for better spinal support',
+      percentage: 89,
+      description: 'Reported by 89% of patients'
+    },
+    {
+      id: 8,
+      title: 'Customized, safe, and goal-oriented exercise plans',
+      percentage: 95,
+      description: 'Preferred by 95% of patients'
+    },
+    {
+      id: 9,
+      title: 'Promotes long-term functional fitness and independence',
+      percentage: 92,
+      description: 'Maintained by 92% of patients'
+    }
+  ],
+       comparisonTitle: 'Functional Exercises vs. Conventional Workouts',
+comparisonDescription:
+  'A clear comparison highlighting the key differences between Functional Exercises in Dubai and conventional workout routines.',
+comparisonHeaders: {
+  feature: 'Aspect',
+  ourTreatment: 'Functional Exercises in Dubai',
+  traditional: 'Conventional Workouts'
+},
+comparisonData: [
+  {
+    feature: 'Focus',
+    ayurvedic: 'Trains real-life movement patterns',
+    conventional: 'Focuses on isolated muscle strength'
+  },
+  {
+    feature: 'Muscle Engagement',
+    ayurvedic: 'Works multiple muscle groups simultaneously',
+    conventional: 'Often targets single muscles'
+  },
+  {
+    feature: 'Flexibility & Balance',
+    ayurvedic: 'Improves overall body coordination',
+    conventional: 'Limited impact on balance and mobility'
+  },
+  {
+    feature: 'Relevance',
+    ayurvedic: 'Enhances daily functional strength',
+    conventional: 'Primarily aesthetic or performance-focused'
+  },
+  {
+    feature: 'Injury Prevention',
+    ayurvedic: 'Reduces risk of daily activity-related injuries',
+    conventional: 'Limited effect on functional movement safety'
+  }
+]
       },
   
       // Pricing / Investment Section
@@ -8115,82 +8219,117 @@ export const subcategoryContent = {
     }
   ]
 },
-      // Benefits Section
-      benefits: {
-        title: 'Clinically Observed Benefits',
-        description: null,
-        benefits: [
-          {
-            id: 1,
-            title: ' Reduced back and muscle pain',
-            percentage: 85,
-            description:null
-          },
-          {
-            id: 2,
-            title: 'Improved posture and balance',
-            percentage: 92,
-            description: null
-          },
-          {
-            id: 3,
-            title: 'Increased spinal flexibility',
-            percentage: 88,
-            description: null
-          },
-          {
-            id: 4,
-            title: 'Better muscle strength and support',
-            percentage: 79,
-            description: null
-          },
-          {
-            id: 5,
-            title: 'Improved daily comfort and confidence',
-            percentage: 83,
-            description: null
-          }
-        ],
-        comparisonTitle: 'Ayurvedic Hairfall Treatment vs Conventional Methods',
-        comparisonDescription: 'Compare our holistic Ayurvedic approach with conventional hair treatment methods',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Ayurvedic Treatment',
-          traditional: 'Conventional Methods'
-        },
-        comparisonData: [
-          {
-            feature: 'Treatment Approach',
-            ayurvedic: 'Holistic, natural, addresses root cause',
-            conventional: 'Symptomatic, chemical-based'
-          },
-          {
-            feature: 'Side Effects',
-            ayurvedic: 'Minimal to none',
-            conventional: 'Possible dryness, irritation'
-          },
-          {
-            feature: 'Duration',
-            ayurvedic: '3-6 months for visible results',
-            conventional: 'Quick initial results, may require maintenance'
-          },
-          {
-            feature: 'Long-term Sustainability',
-            ayurvedic: 'Yes, promotes natural hair health',
-            conventional: 'May require ongoing treatment'
-          },
-          {
-            feature: 'Cost Effectiveness',
-            ayurvedic: 'Moderate, one-time investment',
-            conventional: 'Ongoing costs for maintenance'
-          },
-          {
-            feature: 'Overall Wellness',
-            ayurvedic: 'Improves overall health',
-            conventional: 'Focused on hair only'
-          }
-        ]
-      },
+  benefits: {
+  title: 'Clinically Observed Results of Scoliosis Treatment in Dubai',
+  description:
+    'With 15+ years of clinical expertise and over 2,500 patients treated, our comprehensive Scoliosis Treatment in Dubai focuses on pain relief, spinal alignment, and long-term postural improvement through personalized, non-surgical care.',
+  benefits: [
+    {
+      id: 1,
+      title: 'Reduces back pain and spinal discomfort',
+      percentage: 90,
+      description: 'Relief reported by 90% of patients'
+    },
+    {
+      id: 2,
+      title: 'Improves spinal alignment and posture',
+      percentage: 87,
+      description: 'Positive changes observed in 87% of cases'
+    },
+    {
+      id: 3,
+      title: 'Slows the progression of spinal curvature',
+      percentage: 82,
+      description: 'Effective in 82% of patients'
+    },
+    {
+      id: 4,
+      title: 'Enhances flexibility and spinal mobility',
+      percentage: 85,
+      description: 'Improvement seen in 85% of patients'
+    },
+    {
+      id: 5,
+      title: 'Strengthens core and back muscles',
+      percentage: 88,
+      description: 'Noted by 88% of patients'
+    },
+    {
+      id: 6,
+      title: 'Improves breathing capacity and chest expansion',
+      percentage: 80,
+      description: 'Reported by 80% of patients'
+    },
+    {
+      id: 7,
+      title: 'Supports adolescent and adult scoliosis management',
+      percentage: 89,
+      description: 'Successful outcomes in 89% of cases'
+    },
+    {
+      id: 8,
+      title: 'Non-surgical, safe, and personalized treatment plans',
+      percentage: 94,
+      description: 'Preferred by 94% of patients'
+    },
+    {
+      id: 9,
+      title: 'Promotes long-term spinal health and quality of life',
+      percentage: 92,
+      description: 'Maintained by 92% of patients'
+    }
+  ],
+      comparisonTitle: 'Scoliosis Treatment in Dubai vs. Conventional Back Treatment',
+comparisonDescription:
+  'A detailed comparison highlighting how Scoliosis Treatment in Dubai differs from conventional back treatment approaches.',
+comparisonHeaders: {
+  feature: 'Aspect',
+  ourTreatment: 'Scoliosis Treatment in Dubai',
+  traditional: 'Conventional Back Treatment'
+},
+comparisonData: [
+  {
+    feature: 'Approach',
+    ayurvedic: 'Focuses on spinal correction and posture improvement',
+    conventional: 'Focuses mainly on pain relief'
+  },
+  {
+    feature: 'Treatment Method',
+    ayurvedic: 'Uses physiotherapy, corrective exercises & bracing',
+    conventional: 'Relies on medications, rest, or surgery'
+  },
+  {
+    feature: 'Invasiveness',
+    ayurvedic: 'Non-invasive options available',
+    conventional: 'May involve invasive surgery or long-term drugs'
+  },
+  {
+    feature: 'Side Effects',
+    ayurvedic: 'Minimal, depends on therapy type',
+    conventional: 'Possible surgical or medication-related risks'
+  },
+  {
+    feature: 'Results',
+    ayurvedic: 'Gradual, long-term spinal improvement',
+    conventional: 'Often temporary symptom relief'
+  },
+  {
+    feature: 'Healing Process',
+    ayurvedic: 'Strengthens core & back muscles, improves spinal alignment',
+    conventional: 'Does not actively restore spinal structure or function'
+  },
+  {
+    feature: 'Rehabilitation Support',
+    ayurvedic: 'Supports postural training and functional recovery',
+    conventional: 'Limited focus on rehabilitation'
+  },
+  {
+    feature: 'Long-Term Benefits',
+    ayurvedic: 'Reduces curvature progression and improves quality of life',
+    conventional: 'May require ongoing pain management'
+  }
+]
+  },
   
       // Pricing / Investment Section
       pricing: {
@@ -8803,83 +8942,116 @@ export const subcategoryContent = {
     }
   ]
 },
-
-  
-      // Benefits Section
-      benefits: {
-        title: 'Clinically Observed Benefits',
-        description: null,
-        benefits: [
-          {
-            id: 1,
-            title: 'Reduced muscle pain and stiffness',
-            percentage: 85,
-            description:null
-          },
-          {
-            id: 2,
-            title: 'Improved flexibility and range of motion',
-            percentage: 92,
-            description: null
-          },
-          {
-            id: 3,
-            title: 'Enhanced posture and movement',
-            percentage: 88,
-            description: null
-          },
-          {
-            id: 4,
-            title: 'Accelerated recovery from injuries',
-            percentage: 79,
-            description: null
-          },
-          {
-            id: 5,
-            title: 'Increased strength and physical performance',
-            percentage: 83,
-            description: null
-          }
-        ],
-        comparisonTitle: 'Ayurvedic Hairfall Treatment vs Conventional Methods',
-        comparisonDescription: 'Compare our holistic Ayurvedic approach with conventional hair treatment methods',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Ayurvedic Treatment',
-          traditional: 'Conventional Methods'
-        },
-        comparisonData: [
-          {
-            feature: 'Treatment Approach',
-            ayurvedic: 'Holistic, natural, addresses root cause',
-            conventional: 'Symptomatic, chemical-based'
-          },
-          {
-            feature: 'Side Effects',
-            ayurvedic: 'Minimal to none',
-            conventional: 'Possible dryness, irritation'
-          },
-          {
-            feature: 'Duration',
-            ayurvedic: '3-6 months for visible results',
-            conventional: 'Quick initial results, may require maintenance'
-          },
-          {
-            feature: 'Long-term Sustainability',
-            ayurvedic: 'Yes, promotes natural hair health',
-            conventional: 'May require ongoing treatment'
-          },
-          {
-            feature: 'Cost Effectiveness',
-            ayurvedic: 'Moderate, one-time investment',
-            conventional: 'Ongoing costs for maintenance'
-          },
-          {
-            feature: 'Overall Wellness',
-            ayurvedic: 'Improves overall health',
-            conventional: 'Focused on hair only'
-          }
-        ]
+benefits: {
+  title: 'Clinically Observed Results of Dry Needling in Dubai',
+  description:
+    'Backed by 15+ years of clinical experience and 2,500+ successfully treated patients, our expert-led Dry Needling in Dubai treatments target muscular pain, trigger points, and movement restrictions to deliver fast and lasting relief.',
+  benefits: [
+    {
+      id: 1,
+      title: 'Provides rapid relief from muscle pain and tightness',
+      percentage: 92,
+      description: 'Improvement reported by 92% of patients'
+    },
+    {
+      id: 2,
+      title: 'Releases myofascial trigger points effectively',
+      percentage: 90,
+      description: 'Positive results seen in 90% of cases'
+    },
+    {
+      id: 3,
+      title: 'Improves muscle flexibility and range of motion',
+      percentage: 87,
+      description: 'Noted by 87% of patients'
+    },
+    {
+      id: 4,
+      title: 'Reduces chronic neck, back, and shoulder pain',
+      percentage: 89,
+      description: 'Relief experienced by 89% of patients'
+    },
+    {
+      id: 5,
+      title: 'Enhances blood flow and tissue healing',
+      percentage: 85,
+      description: 'Observed in 85% of treatments'
+    },
+    {
+      id: 6,
+      title: 'Supports recovery from sports and overuse injuries',
+      percentage: 88,
+      description: 'Effective for 88% of patients'
+    },
+    {
+      id: 7,
+      title: 'Decreases muscle spasms and stiffness',
+      percentage: 91,
+      description: 'Reported improvement in 91% of cases'
+    },
+    {
+      id: 8,
+      title: 'Minimally invasive, safe, and drug-free therapy',
+      percentage: 96,
+      description: 'Preferred by 96% of patients'
+    },
+    {
+      id: 9,
+      title: 'Promotes long-term muscular health and mobility',
+      percentage: 93,
+      description: 'Maintained by 93% of patients'
+    }
+  ],
+       comparisonTitle: 'Dry Needling vs. Conventional Muscle Pain Treatment',
+comparisonDescription:
+  'A detailed comparison highlighting how Dry Needling differs from conventional muscle pain treatment approaches.',
+comparisonHeaders: {
+  feature: 'Aspect',
+  ourTreatment: 'Dry Needling',
+  traditional: 'Conventional Muscle Pain Treatment'
+},
+comparisonData: [
+  {
+    feature: 'Approach',
+    ayurvedic: 'Targets trigger points & underlying muscle tension',
+    conventional: 'Focuses mainly on pain suppression'
+  },
+  {
+    feature: 'Treatment Method',
+    ayurvedic: 'Uses thin needles to release tight muscles',
+    conventional: 'Uses medications, massage, or rest'
+  },
+  {
+    feature: 'Invasiveness',
+    ayurvedic: 'Minimally invasive and safe',
+    conventional: 'Non-invasive, but may rely on drugs or injections'
+  },
+  {
+    feature: 'Side Effects',
+    ayurvedic: 'Temporary muscle soreness or mild bruising',
+    conventional: 'Possible medication side effects or irritation'
+  },
+  {
+    feature: 'Results',
+    ayurvedic: 'Gradual, long-lasting relief and improved mobility',
+    conventional: 'Often temporary symptom relief'
+  },
+  {
+    feature: 'Healing Process',
+    ayurvedic: 'Restores muscle function, flexibility & circulation',
+    conventional: 'Does not actively restore underlying muscle health'
+  },
+  {
+    feature: 'Rehabilitation Support',
+    ayurvedic: 'Enhances physiotherapy and functional recovery',
+    conventional: 'Limited role in rehabilitation'
+  },
+  {
+    feature: 'Long-Term Benefits',
+    ayurvedic: 'Reduces recurrence of muscle pain',
+    conventional: 'May require ongoing medication or therapy'
+  }
+]
       },
   
       // Pricing / Investment Section
@@ -16745,52 +16917,76 @@ export const subcategoryContent = {
 ]
     },      
     healingJourney: {
-      title: 'Your Hypertension Care Journey',
-      description: null,
-      steps: [
-        {
-          id: 1,
-          number: '01',
-          title: 'Initial Consultation & Assessment',
-          duration: null,
-          description:
-            'Comprehensive medical history review and accurate blood pressure evaluation.',
-          keyActivities: [],
-          side: 'right'
-        },
-        {
-          id: 2,
-          number: '02',
-          title: 'Diagnostic Evaluation',
-          duration: null,
-          description:
-            'Laboratory tests and additional screenings to assess heart, kidney, and metabolic health.',
-          keyActivities: [],
-          side: 'left'
-        },
-        {
-          id: 3,
-          number: '03',
-          title: 'Personalized Treatment Planning',
-          duration: null,
-          description:
-            'Customized medication management and lifestyle recommendations.',
-          keyActivities:[] ,
-          side: 'right'
-        },
-        {
-          id: 4,
-          number: '04',
-          title: 'Ongoing Monitoring & Follow-Ups',
-          duration: null,
-          description:
-            'Regular blood pressure checks, treatment adjustments, and preventive care support.',
-          keyActivities: [],
-          side: 'left'
-        }
-      ]
+  title: 'Your Blood Pressure Control Journey: Step by Step',
+  description:
+    'A structured, evidence-based approach designed to achieve safe, effective, and long-term control through Specialized Hypertension Management in Dubai.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Comprehensive Hypertension Consultation',
+      duration: 'Week 1 – 60 Minutes',
+      description:
+        'Your journey begins with an in-depth medical evaluation to personalize your Specialized Hypertension Management in Dubai plan.',
+      keyActivities: [
+        'Detailed medical history and risk assessment',
+        'Blood pressure measurement and monitoring review',
+        'Evaluation of lifestyle, diet, and stress factors',
+        'Review of current medications and compliance',
+        'Creation of a personalized hypertension care plan'
+      ],
+      side: 'right'
     },
-    
+    {
+      id: 2,
+      number: '02',
+      title: 'Diagnostic & Risk Evaluation Phase',
+      duration: 'Weeks 1–2',
+      description:
+        'Identifying underlying causes and risk factors to optimize Specialized Hypertension Management in Dubai.',
+      keyActivities: [
+        'Serial blood pressure readings or ambulatory BP monitoring',
+        'Basic cardiac and metabolic risk assessment',
+        'Lab investigations (as required)',
+        'Identification of secondary hypertension causes',
+        'Treatment plan refinement'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Active Blood Pressure Management Phase',
+      duration: 'Weeks 3–12',
+      description:
+        'Focused treatment to stabilize blood pressure and reduce long-term cardiovascular risk.',
+      keyActivities: [
+        'Medication initiation or optimization (if required)',
+        'Dietary guidance, including salt and weight management',
+        'Lifestyle modification and physical activity advice',
+        'Stress management and sleep hygiene support',
+        'Regular follow-ups and progress monitoring'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Maintenance & Long-Term Control',
+      duration: 'Months 4–12',
+      description:
+        'Sustaining healthy blood pressure levels through ongoing Specialized Hypertension Management in Dubai.',
+      keyActivities: [
+        'Periodic blood pressure reviews',
+        'Medication adjustments as needed',
+        'Long-term lifestyle and dietary support',
+        'Prevention of complications and relapse',
+        'Continuous medical guidance and follow-up care'
+      ],
+      side: 'left'
+    }
+  ]
+},
     benefits: {
       title: 'Clinically-Observed Benefits',
       description: 'Evidence-based results from our comprehensive hypertension management.',
@@ -17500,57 +17696,77 @@ export const subcategoryContent = {
   }
 ]
     },
-
-    healingJourney: {
-      title: 'Your Check-Up Care Journey',
-      description: 'Comprehensive approach to preventive health assessment.',
-      steps: [
-        {
-          id: 1,
-          number: '01',
-          title: 'Initial Consultation & Assessment',
-          duration: null,
-          description: ' Comprehensive medical history review and physical examination to understand your health status.',
-          keyActivities: [
-            
-          ],
-          side: 'right'
-        },
-        {
-          id: 2,
-          number: '02',
-          title: 'Diagnostic Evaluation',
-          duration: null,
-          description: ' Tailored laboratory and imaging tests to assess vital organs, metabolism, and overall wellness.',
-          keyActivities: [
-           
-          ],
-          side: 'left'
-        },
-        {
-          id: 3,
-          number: '03',
-          title: 'Personalized Health Planning',
-          duration: null,
-          description: 'Customized preventive strategies, lifestyle recommendations, and follow-up schedule.',
-          keyActivities: [
-          
-          ],
-          side: 'right'
-        },
-        {
-          id: 4,
-          number: '04',
-          title: 'Ongoing Monitoring & Follow-Ups',
-          duration: null,
-          description: 'Regular check-ups to track progress, prevent risks, and optimize long-term health.',
-          keyActivities: [
-            
-          ],
-          side: 'left'
-        }
-      ]
+healingJourney: {
+  title: 'Your Preventive Care Journey: Step by Step',
+  description:
+    'A proactive, structured approach focused on early detection, prevention, and long-term wellness through our Expertise in Routine Check-Ups in Dubai.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Comprehensive Health Assessment',
+      duration: 'Week 1 – 60 Minutes',
+      description:
+        'Your journey begins with a detailed evaluation to personalize care based on your health goals and medical history.',
+      keyActivities: [
+        'Complete medical history review',
+        'Vital signs assessment (blood pressure, BMI, pulse)',
+        'Lifestyle, diet, and activity evaluation',
+        'Review of previous medical reports',
+        'Creation of a personalized routine check-up plan'
+      ],
+      side: 'right'
     },
+    {
+      id: 2,
+      number: '02',
+      title: 'Diagnostic Screening Phase',
+      duration: 'Weeks 1–2',
+      description:
+        'Identifying potential health risks early using our Expertise in Routine Check-Ups in Dubai.',
+      keyActivities: [
+        'Recommended blood and urine tests',
+        'Basic cardiac and metabolic screening',
+        'Age- and gender-specific health evaluations',
+        'Review of screening results with clear explanations',
+        'Preventive care recommendations'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Active Health Optimization Phase',
+      duration: 'Weeks 3–12',
+      description:
+        'Focused guidance to address findings and improve overall health outcomes.',
+      keyActivities: [
+        'Follow-up consultations and result tracking',
+        'Preventive treatment or referrals if needed',
+        'Lifestyle modification and nutrition advice',
+        'Stress, sleep, and fitness recommendations',
+        'Ongoing health monitoring'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Maintenance & Preventive Care',
+      duration: 'Months 4–12',
+      description:
+        'Maintaining long-term wellness through regular follow-ups and proactive care.',
+      keyActivities: [
+        'Periodic routine check-ups',
+        'Health parameter monitoring',
+        'Early intervention for emerging concerns',
+        'Long-term preventive healthcare planning',
+        'Continuous medical support and guidance'
+      ],
+      side: 'left'
+    }
+  ]
+},
     benefits: {
       title: 'Clinically-Observed Benefits',
       description: 'Evidence-based results from comprehensive routine check-ups.',
@@ -18193,48 +18409,73 @@ export const subcategoryContent = {
 ]
     },
 
-  healingJourney: {
-  title: 'Your Health Check Journey',
-  description: null,
+healingJourney: {
+  title: 'Your Complete Health Evaluation: Step by Step',
+  description:
+    'A structured and thorough approach designed to assess overall health, detect concerns early, and support long-term wellness through Comprehensive Physical Examinations in Dubai.',
   steps: [
     {
       id: 1,
       number: '01',
-      title: 'Initial Consultation & Assessment',
-      duration: null,
+      title: 'Detailed Physical Examination Consultation',
+      duration: 'Week 1 – 60 Minutes',
       description:
-        'Comprehensive medical history review and physical evaluation to understand your overall health.',
-      keyActivities: [],
+        'Your journey begins with a complete head-to-toe assessment to personalize your Comprehensive Physical Examinations in Dubai.',
+      keyActivities: [
+        'Review of medical history and current symptoms',
+        'Measurement of vital signs (blood pressure, pulse, BMI)',
+        'General physical assessment (heart, lungs, abdomen, joints)',
+        'Lifestyle and occupational health evaluation',
+        'Personalized examination and screening plan'
+      ],
       side: 'right'
     },
     {
       id: 2,
       number: '02',
-      title: 'Diagnostic Evaluation',
-      duration: null,
+      title: 'Diagnostic & Screening Phase',
+      duration: 'Weeks 1–2',
       description:
-        'Tailored laboratory tests and imaging to assess vital organs, metabolism, and overall wellness.',
-      keyActivities: [],
+        'Identifying potential health risks using our Comprehensive Physical Examinations in Dubai.',
+      keyActivities: [
+        'Recommended laboratory investigations',
+        'Basic cardiac and metabolic screenings',
+        'Age- and gender-specific health checks',
+        'Review and explanation of test results',
+        'Preventive health recommendations'
+      ],
       side: 'left'
     },
     {
       id: 3,
       number: '03',
-      title: 'Personalized Health Plan',
-      duration: null,
+      title: 'Active Health Management Phase',
+      duration: 'Weeks 3–12',
       description:
-        'Customized lifestyle and preventive strategies with clear follow-up recommendations.',
-      keyActivities: [],
+        'Addressing findings and optimizing health based on examination results.',
+      keyActivities: [
+        'Follow-up consultations and progress tracking',
+        'Preventive treatment or specialist referrals if needed',
+        'Lifestyle, nutrition, and exercise guidance',
+        'Risk-factor modification and wellness planning',
+        'Ongoing medical support'
+      ],
       side: 'right'
     },
     {
       id: 4,
       number: '04',
-      title: 'Ongoing Monitoring & Follow-Ups',
-      duration: null,
+      title: 'Maintenance & Preventive Follow-Up',
+      duration: 'Months 4–12',
       description:
-        'Regular check-ups to ensure optimal long-term health and prevent risks.',
-      keyActivities: [],
+        'Maintaining optimal health through regular Comprehensive Physical Examinations in Dubai.',
+      keyActivities: [
+        'Periodic health reviews and reassessments',
+        'Monitoring of key health parameters',
+        'Early detection of new concerns',
+        'Long-term preventive healthcare planning',
+        'Continuous care and medical guidance'
+      ],
       side: 'left'
     }
   ]
@@ -18921,47 +19162,74 @@ export const subcategoryContent = {
 ]
     },
     healingJourney: {
-      title: 'Your Signature Hydra Facial Journey',
-      description: '',
-      steps: [
-        {
-          id: 1,
-          number: '01',
-          title: 'Skin Assessment & Consultation',
-          duration: '',
-          description: 'Comprehensive evaluation of your skin type, concerns, and goals.',
-          keyActivities: [],
-          side: 'right'
-        },
-        {
-          id: 2,
-          number: '02',
-          title: 'Deep Cleansing & Exfoliation',
-          duration: '',
-          description: 'Removes impurities, dead skin cells, and prepares skin for treatment.',
-          keyActivities: [],
-          side: 'left'
-        },
-        {
-          id: 3,
-          number: '03',
-          title: 'Extraction & Hydration Infusion',
-          duration: '',
-          description: 'Gentle extraction of clogged pores and infusion of hydrating serums with antioxidants.',
-          keyActivities: [],
-          side: 'right'
-        },
-        {
-          id: 4,
-          number: '04',
-          title: 'Final Nourishing & Protection',
-          duration: '',
-          description: 'Application of serums, moisturizers, and SPF for optimal skin protection and radiance.',
-          keyActivities: [],
-          side: 'left'
-        }
-      ]
+  title: 'Your Glow Journey: Step by Step',
+  description:
+    'A transparent, structured approach designed to deliver visible results, comfort, and long-lasting skin hydration with our Signature Hydra Facial in Dubai.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Skin Consultation & Assessment',
+      duration: 'Week 1 – 60 Minutes',
+      description:
+        'Your journey begins with a detailed skin analysis to customize the Signature Hydra Facial in Dubai according to your skin needs.',
+      keyActivities: [
+        'Comprehensive skin consultation',
+        'Skin type and concern analysis',
+        'Evaluation of hydration levels, pores, and pigmentation',
+        'Discussion of lifestyle and skincare routine',
+        'Personalized Signature Hydra Facial plan creation'
+      ],
+      side: 'right'
     },
+    {
+      id: 2,
+      number: '02',
+      title: 'Skin Preparation Phase',
+      duration: 'Weeks 1–2',
+      description:
+        'Preparing your skin to maximize the benefits of the Signature Hydra Facial in Dubai.',
+      keyActivities: [
+        'Gentle skin cleansing and exfoliation guidance',
+        'Hydration-focused skincare recommendations',
+        'Lifestyle and diet advice to support skin health',
+        'Pre-facial skin conditioning'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Active Treatment Phase',
+      duration: 'Weeks 3–12',
+      description:
+        'Regular sessions of Signature Hydra Facial in Dubai to deeply cleanse, exfoliate, hydrate, and rejuvenate the skin.',
+      keyActivities: [
+        'Scheduled Hydra Facial sessions as recommended',
+        'Deep pore cleansing and extraction',
+        'Intense hydration and antioxidant infusion',
+        'Ongoing skin monitoring',
+        'Treatment adjustments based on skin response'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Maintenance & Follow-Up',
+      duration: 'Months 4–12',
+      description:
+        'Sustaining your glow and skin health with periodic Signature Hydra Facial sessions in Dubai.',
+      keyActivities: [
+        'Monthly or seasonal maintenance facials',
+        'Long-term hydration and glow enhancement',
+        'Skincare routine optimization',
+        'Continuous expert support for healthy, radiant skin'
+      ],
+      side: 'left'
+    }
+  ]
+},
     benefits: {
       title: 'Clinically-Observed Benefits',
       description: 'Evidence-based results from Signature Hydra Facial treatments.',
@@ -20235,56 +20503,75 @@ export const subcategoryContent = {
   }
 ]
     },      
-    healingJourney: {
-      title: 'Your Golden Elixir Facial Journey',
-      description: 'Luxurious approach to radiant, youthful skin.',
-      steps: [
-        {
-          id: 1,
-          number: '01',
-          title: ' Consultation & Skin Assessment',
-          duration: null,
-          description: ' Evaluation of skin type, concerns, and desired results.',
-          keyActivities: [
-           
-          ],
-          side: 'right'
-        },
-        {
-          id: 2,
-          number: '02',
-          title: ' Deep Cleansing & Exfoliation',
-          duration: null,
-          description: ' Removes impurities, dead cells, and prepares the skin for serum infusion.',
-          keyActivities: [
-           
-          ],
-          side: 'left'
-        },
-        {
-          id: 3,
-          number: '03',
-          title: '24K Gold Serum Infusion & Massage',
-          duration: null,
-          description: ' Application of gold-infused serums with gentle facial massage to boost circulation, hydration, and collagen production.',
-          keyActivities: [
-            
-          ],
-          side: 'right'
-        },
-        {
-          id: 4,
-          number: '04',
-          title: ' Final Nourishment & Protection',
-          duration: null,
-          description: ' Hydrating masks, serums, and SPF application to protect and enhance radiance.',
-          keyActivities: [
-          
-          ],
-          side: 'left'
-        }
-      ]
+   healingJourney: {
+  title: 'Your Radiance Ritual: Step by Step',
+  description:
+    'A luxurious, results-driven approach designed to rejuvenate, brighten, and nourish your skin with the Golden Elixir (24K Gold) Facial in Dubai.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Skin Consultation & Gold Facial Assessment',
+      duration: 'Week 1 – 60 Minutes',
+      description:
+        'Your journey begins with an in-depth skin evaluation to tailor the Golden Elixir (24K Gold) Facial in Dubai to your unique skin needs.',
+      keyActivities: [
+        'Detailed skin consultation and analysis',
+        'Assessment of skin tone, texture, and elasticity',
+        'Identification of pigmentation, fine lines, and dullness',
+        'Review of lifestyle and skincare habits',
+        'Customized Golden Elixir facial plan creation'
+      ],
+      side: 'right'
     },
+    {
+      id: 2,
+      number: '02',
+      title: 'Skin Preparation Phase',
+      duration: 'Weeks 1–2',
+      description:
+        'Preparing your skin to fully absorb the benefits of the Golden Elixir (24K Gold) Facial in Dubai.',
+      keyActivities: [
+        'Gentle cleansing and exfoliation',
+        'Detoxifying and hydrating skin prep',
+        'Pre-treatment skincare guidance',
+        'Lifestyle recommendations to enhance results'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Active Gold Facial Treatment Phase',
+      duration: 'Weeks 3–12',
+      description:
+        'Regular sessions of the Golden Elixir (24K Gold) Facial in Dubai to restore radiance and promote youthful skin.',
+      keyActivities: [
+        'Scheduled 24K Gold facial sessions',
+        'Deep nourishment using gold-infused serums',
+        'Stimulation of collagen and skin renewal',
+        'Improvement in skin firmness and glow',
+        'Continuous progress monitoring and plan adjustments'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Maintenance & Glow Preservation',
+      duration: 'Months 4–12',
+      description:
+        'Sustaining luminous, youthful skin with ongoing Golden Elixir (24K Gold) Facial in Dubai treatments.',
+      keyActivities: [
+        'Monthly maintenance gold facials',
+        'Long-term glow and anti-aging support',
+        'Skincare routine optimization',
+        'Expert guidance for lasting skin radiance'
+      ],
+      side: 'left'
+    }
+  ]
+},
     benefits: {
       title: 'Clinically-Observed Benefits',
       description: 'Evidence-based results from Golden Elixir (24K Gold) Facial treatments.',
@@ -20898,56 +21185,75 @@ export const subcategoryContent = {
   }
 ]
     },
-    healingJourney: {
-      title: 'Your Exosomes Facial Journey',
-      description: 'Advanced regenerative approach to youthful, healthy skin.',
-      steps: [
-        {
-          id: 1,
-          number: '01',
-          title: 'Consultation & Skin Assessment',
-          duration: null,
-          description: ' Thorough evaluation of your skin type, concerns, and rejuvenation goals.',
-          keyActivities: [
-           
-          ],
-          side: 'right'
-        },
-        {
-          id: 2,
-          number: '02',
-          title: 'Deep Cleansing & Preparation',
-          duration: 'Treatment Step 1',
-          description: ' Removes impurities and prepares the skin for exosome infusion.',
-          keyActivities: [
-         
-          ],
-          side: 'left'
-        },
-        {
-          id: 3,
-          number: '03',
-          title: ' Exosomes Application',
-          duration: null,
-          description: ' Regenerative exosomes are applied to the skin, stimulating collagen production, cell repair, and hydration.',
-          keyActivities: [
-          
-          ],
-          side: 'right'
-        },
-        {
-          id: 4,
-          number: '04',
-          title: ' Post-Treatment Care & Guidance',
-          duration: null,
-          description: ' Expert guidance on aftercare, hydration, and follow-ups to ensure long-lasting rejuvenation and optimal results.',
-          keyActivities: [
-          
-          ],
-          side: 'left'
-        }
-      ]
+   healingJourney: {
+  title: 'Your Skin Regeneration Journey: Step by Step',
+  description:
+    'A science-backed, structured approach designed to rejuvenate, repair, and restore skin health with the Exosomes Facial in Dubai.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Advanced Skin Consultation & Analysis',
+      duration: 'Week 1 – 60 Minutes',
+      description:
+        'Your journey starts with a detailed skin assessment to personalize the Exosomes Facial in Dubai for maximum regenerative results.',
+      keyActivities: [
+        'Comprehensive skin consultation',
+        'Digital skin analysis and concern mapping',
+        'Evaluation of aging signs, pigmentation, and texture',
+        'Review of medical history and skincare routine',
+        'Customized Exosomes Facial treatment plan creation'
+      ],
+      side: 'right'
     },
+    {
+      id: 2,
+      number: '02',
+      title: 'Skin Conditioning Phase',
+      duration: 'Weeks 1–2',
+      description:
+        'Preparing the skin to enhance the absorption and effectiveness of the Exosomes Facial in Dubai.',
+      keyActivities: [
+        'Gentle exfoliation and deep cleansing',
+        'Barrier repair and hydration support',
+        'Pre-treatment skincare guidance',
+        'Lifestyle and sun-protection recommendations'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Active Exosomes Treatment Phase',
+      duration: 'Weeks 3–12',
+      description:
+        'Targeted sessions of the Exosomes Facial in Dubai to stimulate cellular repair and visible skin renewal.',
+      keyActivities: [
+        'Scheduled Exosomes Facial sessions',
+        'Application of medical-grade exosome serums',
+        'Boosting collagen production and skin regeneration',
+        'Improvement in skin tone, elasticity, and texture',
+        'Continuous progress tracking and plan optimization'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Maintenance & Long-Term Skin Health',
+      duration: 'Months 4–12',
+      description:
+        'Sustaining results and supporting long-term regeneration with ongoing Exosomes Facial in Dubai care.',
+      keyActivities: [
+        'Monthly or seasonal maintenance treatments',
+        'Long-term anti-aging and repair support',
+        'Skincare routine optimization',
+        'Expert follow-ups for healthy, radiant skin'
+      ],
+      side: 'left'
+    }
+  ]
+},
     benefits: {
       title: 'Clinically-Observed Benefits',
       description: 'Evidence-based results from Exosomes Facial treatments.',
@@ -21557,56 +21863,75 @@ export const subcategoryContent = {
   }
 ]
     },
-    healingJourney: {
-      title: 'Your OxyGeneo Illuminate Facial Journey',
-      description: 'Triple-action approach to radiant, healthy skin.',
-      steps: [
-        {
-          id: 1,
-          number: '01',
-          title: 'Consultation & Skin Assessment',
-          duration: null,
-          description: 'Detailed evaluation of your skin type, concerns, and desired results.',
-          keyActivities: [
-          
-          ],
-          side: 'right'
-        },
-        {
-          id: 2,
-          number: '02',
-          title: ' Deep Exfoliation',
-          duration: null,
-          description: 'Removes dead skin cells and prepares your skin to absorb nutrients effectively.',
-          keyActivities: [
-           
-          ],
-          side: 'left'
-        },
-        {
-          id: 3,
-          number: '03',
-          title: 'Oxygenation & Nutrient Infusion',
-          duration: null,
-          description: ' Delivers essential vitamins, minerals, and hydration while oxygenating skin for natural rejuvenation.',
-          keyActivities: [
-          
-          ],
-          side: 'right'
-        },
-        {
-          id: 4,
-          number: '04',
-          title: 'Post-Treatment Care & Guidance',
-          duration: null,
-          description: ' Expert guidance on aftercare to maintain hydration, radiance, and long-lasting results.',
-          keyActivities: [
-         
-          ],
-          side: 'left'
-        }
-      ]
+   healingJourney: {
+  title: 'Your Brightening Journey: Step by Step',
+  description:
+    'A structured, results-driven approach designed to exfoliate, oxygenate, and illuminate your skin with the Oxygeneo Illuminate Facial in Dubai.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Skin Consultation & Assessment',
+      duration: 'Week 1 – 60 Minutes',
+      description:
+        'Your journey begins with a detailed skin evaluation to personalize the Oxygeneo Illuminate Facial in Dubai for optimal brightening results.',
+      keyActivities: [
+        'Comprehensive skin consultation',
+        'Skin type and pigmentation analysis',
+        'Assessment of dullness, uneven tone, and texture',
+        'Review of lifestyle and current skincare routine',
+        'Customized Oxygeneo Illuminate Facial treatment plan'
+      ],
+      side: 'right'
     },
+    {
+      id: 2,
+      number: '02',
+      title: 'Skin Preparation Phase',
+      duration: 'Weeks 1–2',
+      description:
+        'Preparing your skin to maximize the effectiveness of the Oxygeneo Illuminate Facial in Dubai.',
+      keyActivities: [
+        'Gentle exfoliation and deep cleansing',
+        'Hydration and barrier-support skincare guidance',
+        'Lifestyle and sun-protection recommendations',
+        'Pre-treatment skin conditioning'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Active Oxygeneo Illuminate Treatment Phase',
+      duration: 'Weeks 3–12',
+      description:
+        'Regular sessions of the Oxygeneo Illuminate Facial in Dubai to visibly brighten and rejuvenate the skin.',
+      keyActivities: [
+        'Scheduled Oxygeneo Illuminate Facial sessions',
+        'Triple-action treatment: exfoliation, oxygenation, and nutrient infusion',
+        'Reduction of pigmentation and uneven skin tone',
+        'Enhanced skin radiance and smoothness',
+        'Ongoing progress monitoring and plan adjustments'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Maintenance & Glow Enhancement',
+      duration: 'Months 4–12',
+      description:
+        'Maintaining luminous, even-toned skin with continued Oxygeneo Illuminate Facial in Dubai care.',
+      keyActivities: [
+        'Monthly or seasonal maintenance facials',
+        'Long-term brightening and hydration support',
+        'Skincare routine optimization',
+        'Expert follow-ups for lasting results'
+      ],
+      side: 'left'
+    }
+  ]
+},
     benefits: {
       title: 'Clinically-Observed Benefits',
       description: 'Evidence-based results from Oxygeneo Illuminate Facial treatments.',

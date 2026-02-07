@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 
 const ExpertsSection = ({ content }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -6,7 +7,7 @@ const ExpertsSection = ({ content }) => {
 
   // Use content props or defaults
   const badge = content?.badge || 'Expert Medical Team';
-  const title = content?.title || 'Meet Our DHA-Licensed Ayurvedic Physicians';
+  const title = content?.title || 'Meet Our DHA-Licensed Expertise';
   const description = content?.description || 'Highly qualified doctors with decades of combined experience, committed to your healing journey with expertise, compassion, and authentic Ayurvedic care.';
   const stats = content?.stats || [
     { value: '3', label: 'Expert Physicians' },
@@ -15,7 +16,7 @@ const ExpertsSection = ({ content }) => {
     { value: '4.9', label: 'Average Rating' }
   ];
   const ctaSection = content?.ctaSection || {
-    title: 'Ready to Consult Our Expert Physician?',
+    title: 'Ready to Consult our Expert Physician?',
     description: 'Schedule a one-on-one consultation with our DHA-licensed doctors for personalized care.',
     primaryButton: 'Book Consultation Now',
     secondaryButton: 'View All Doctors'
@@ -60,7 +61,7 @@ const ExpertsSection = ({ content }) => {
           languages: ['English','Arabic'],
           quote: 'Movement is medicine. Through precise assessment and individualized therapy, my goal is to help patients regain strength, confidence, and pain-free mobility.',
           testimonial: {
-            text: 'Jeena’s physiotherapy sessions helped me recover from long-standing shoulder pain. Very professional and extremely effective.',
+            text: 'Jeena physiotherapy sessions helped me recover from long-standing shoulder pain. Very professional and extremely effective.',
             author: 'Patient Feedback',
             location: 'Dubai'
           }
@@ -82,7 +83,7 @@ const ExpertsSection = ({ content }) => {
           languages: ['English', 'Arabic'],
           quote: 'Ayurveda is not just a system of medicine, but a way of life. By understanding the individual and treating the root cause, lasting health can be achieved.',
           testimonial: {
-            text: 'Dr. Shamna’s treatment approach was thorough and effective. I felt genuine improvement and long-term relief.',
+            text: 'Dr. Shamna treatment approach was thorough and effective. I felt genuine improvement and long-term relief.',
             author: 'Patient Feedback',
             location: 'Sharjah'
           }
@@ -111,7 +112,7 @@ const ExpertsSection = ({ content }) => {
         }
   ];
 
-  const renderStars = (rating, size = 'w-3 h-3') => {
+  const renderStars = (rating, size = 'w-4 h-4') => {
     return [1, 2, 3, 4, 5].map((star) => {
       const isFull = star <= Math.floor(rating);
       const isHalf = !isFull && star === Math.ceil(rating) && rating % 1 >= 0.5;
@@ -122,7 +123,7 @@ const ExpertsSection = ({ content }) => {
             <svg className={`${size} text-gray-300 absolute inset-0`} fill="currentColor" viewBox="0 0 20 20">
               <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
             </svg>
-            <svg className={`${size} text-yellow-400 absolute inset-0`} fill="currentColor" viewBox="0 0 20 20" style={{ clipPath: 'inset(0 50% 0 0)' }}>
+            <svg className={`${size} text-[#C9A961] absolute inset-0`} fill="currentColor" viewBox="0 0 20 20" style={{ clipPath: 'inset(0 50% 0 0)' }}>
               <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
             </svg>
           </div>
@@ -130,7 +131,7 @@ const ExpertsSection = ({ content }) => {
       }
       
       return (
-        <svg key={star} className={`${size} ${isFull ? 'text-yellow-400' : 'text-gray-300'}`} fill="currentColor" viewBox="0 0 20 20">
+        <svg key={star} className={`${size} ${isFull ? 'text-[#C9A961]' : 'text-gray-300'}`} fill="currentColor" viewBox="0 0 20 20">
           <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
       );
@@ -141,17 +142,18 @@ const ExpertsSection = ({ content }) => {
     <section 
       id="experts" 
       ref={sectionRef}
-      className="relative w-full bg-white py-8 sm:py-10 lg:py-12 overflow-hidden"
+      className="relative w-full bg-[#F9FAFB] py-12 sm:py-16 lg:py-20 overflow-hidden font-sans"
+      style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto">
-              <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">{badge}</span>
+        {/* Header Section */}
+        <div className="text-center max-w-3xl mx-auto mb-12">
+          <div className="inline-block mb-5 lg:mb-6">
            
+            <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">{badge}</span>
+          </div>
 
-          {/* Main Heading */}
-          {/* text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl */}
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold   py-2 text-[#111827] leading-tight max-w-full xl:max-w-6xl">
-
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl">
             {title.split('\n').map((line, index) => (
               <React.Fragment key={index}>
                 {line}
@@ -160,101 +162,99 @@ const ExpertsSection = ({ content }) => {
             ))}
           </h2>
 
-          {/* Supporting Paragraph */}
-          <p className={`text-xs sm:text-sm md:text-base text-[#4B5563] leading-relaxed max-w-2xl mx-auto mb-6 sm:mb-8 lg:mb-10 transform transition-all duration-1000 delay-300 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}>
+          <p className='text-[15px] text-[#6B7280] leading-relaxed'>
             {description}
           </p>
         </div>
 
         {/* Doctor Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {doctors.map((doctor) => (
-            <div key={doctor.id} className="bg-white rounded-xl overflow-hidden shadow-lg">
-              {/* Image Container - Image at top with overlay */}
-              <div className="relative h-48 sm:h-56 bg-gradient-to-br from-gray-200 to-gray-300 overflow-hidden rounded-t-xl">
-                
-                {/* 🔥 REPLACE THIS ENTIRE SECTION WITH YOUR IMAGE 🔥 */}
+            <div key={doctor.id} className="bg-white rounded-2xl overflow-hidden shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)] transition-shadow duration-300">
+              {/* Image Container with Overlay */}
+              <div className="relative h-72 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden group">
                 {doctor.image ? (
-                  // ✅ THIS IS THE ACTUAL IMAGE CODE - USE THIS
-                  <img 
+                  <Image 
                     src={doctor.image} 
                     alt={doctor.name}
-                    className="w-full h-full object-cover object-[50%_15%]"
+                    fill
+                    className="object-cover object-[50%_20%] transition-transform duration-500 group-hover:scale-110"
                   />
-                ) :  (
-                  // ❌ THIS IS THE PLACEHOLDER - IT WILL BE REMOVED WHEN YOU ADD IMAGES
-                  <div className="w-full h-full bg-gradient-to-br from-teal-100 to-blue-200 flex items-center justify-center">
-                    <svg className="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-br from-teal-50 to-blue-50 flex items-center justify-center">
+                    <svg className="w-24 h-24 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
                   </div>
                 )}
-                {/* Dark Overlay at bottom */}
-                <div className="absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-black/80 via-black/60 to-transparent"></div>
+                
+                {/* Dark gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
 
-                {/* DHA Licensed Badge - Top right on image */}
-                <div className="absolute top-2 right-2 bg-[#F5E6D3] rounded-full px-2.5 py-1 shadow-md z-10">
-                  <span className="text-[10px] font-semibold text-[#4A4A4A]">DHA Licensed</span>
+                {/* DHA Licensed Badge */}
+                <div className="absolute top-4 right-4 bg-[#C9A961] rounded-full px-3 py-1.5 shadow-lg z-10 flex items-center gap-1.5">
+                  <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span className="text-xs font-medium text-white">DHA Licensed</span>
                 </div>
 
-                {/* Star Rating - Top left of overlay */}
-                <div className="absolute bottom-14 left-4 flex items-center space-x-0.5 z-10">
-                  {renderStars(doctor.rating, 'w-3 h-3')}
-                  <span className="text-white text-xs font-semibold ml-1.5">{doctor.rating}</span>
+                {/* Bottom Info on Overlay */}
+                <div className="absolute bottom-0 left-0 right-0 p-5 z-10">
+                  {/* Rating */}
+                  <div className="flex items-center gap-1.5 mb-3">
+                    {renderStars(doctor.rating, 'w-4 h-4')}
+                    <span className="text-white text-sm font-medium ml-1">{doctor.rating}</span>
+                  </div>
+
+                  {/* Doctor Name */}
+                  <h3 className="text-xl font-medium text-white mb-1 tracking-tight">
+                    {doctor.name}
+                  </h3>
+
+                  {/* Qualifications */}
+                  <p className="text-sm text-white/90 font-normal">
+                    {doctor.qualifications}
+                  </p>
                 </div>
-
-                {/* Doctor Name - On overlay */}
-                <h3 className="absolute bottom-9 left-4 right-4 text-lg sm:text-xl font-bold text-white z-10">
-                  {doctor.name}
-                </h3>
-
-                {/* Qualifications - On overlay */}
-                <p className="absolute bottom-3 left-4 right-4 text-xs text-white z-10">
-                  {doctor.qualifications}
-                </p>
               </div>
 
-              {/* Card Body - Content below image */}
-              <div className="p-4 sm:p-5">
-
+              {/* Card Body */}
+              <div className="p-6">
                 {/* Specialization Section */}
-                <div className="mb-4 pb-4 border-b border-gray-200">
-                  <div className="flex items-center gap-1.5 mb-1.5">
-                    <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
+                <div className="mb-5 pb-5 border-b border-gray-100">
+                  <div className="flex items-center gap-2 mb-2">
+                    <svg className="w-4 h-4 text-[#1b5e3f]" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-[10px] font-medium text-[#6B7280] uppercase tracking-wide">Specialization</span>
+                    <span className="text-xs font-medium text-[#6B7280] uppercase tracking-wide">Specialization</span>
                   </div>
-                  <p className="text-sm font-semibold text-[#111111] mb-2">
+                  <p className="text-base font-normal text-[#111827] mb-3">
                     {doctor.specialization}
                   </p>
-                  <div className="inline-block bg-gray-200 text-[#111111] px-2.5 py-0.5 rounded-full text-xs font-medium">
+                  <span className="inline-block bg-[#F9FAFB] text-[#6B7280] px-3 py-1.5 rounded-full text-xs font-normal">
                     {doctor.experience}
-                  </div>
+                  </span>
                 </div>
 
                 {/* Key Expertise Section */}
-                <div className="mb-4">
-                  <h4 className="text-xs font-semibold text-[#111111] mb-2">Key Expertise</h4>
-                  <ul className="space-y-1.5">
+                <div className="mb-5">
+                  <h4 className="text-sm font-medium text-[#111827] mb-3">Key Expertise</h4>
+                  <ul className="space-y-2.5">
                     {doctor.expertise.map((item, idx) => (
-                      <li key={idx} className="flex items-start gap-1.5">
-                        <svg className="w-1.5 h-1.5 text-green-700 mt-1.5 flex-shrink-0" fill="currentColor" viewBox="0 0 8 8">
-                          <circle cx="4" cy="4" r="4" />
-                        </svg>
-                        <span className="text-xs text-[#4B5563] leading-relaxed">{item}</span>
+                      <li key={idx} className="flex items-start gap-2.5">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#C9A961] mt-2 flex-shrink-0"></span>
+                        <span className="text-sm text-[#6B7280] leading-relaxed">{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
 
                 {/* Languages */}
-                <div className="mb-4">
-                  <div className="flex flex-wrap gap-1.5">
+                <div className="mb-5">
+                  <div className="flex flex-wrap gap-2">
                     {doctor.languages.map((language, idx) => (
-                      <span key={idx} className="bg-gray-100 text-gray-700 px-2.5 py-0.5 rounded-full text-[10px] font-medium">
+                      <span key={idx} className="text-[#1b5e3f] text-xs font-medium">
                         {language}
                       </span>
                     ))}
@@ -262,62 +262,52 @@ const ExpertsSection = ({ content }) => {
                 </div>
 
                 {/* Doctor Philosophy Quote */}
-                <div className="mb-4 p-3 bg-[#F5F0E8] rounded-lg border-l-4 border-[#C9A24D] relative">
-                  <svg className="absolute top-1.5 left-1.5 w-6 h-6 text-[#C9A24D] opacity-60" fill="currentColor" viewBox="0 0 24 24">
+                <div className="mb-5 p-4 bg-[#FAF8F3] rounded-lg border-l-4 border-[#C9A961] relative">
+                  <svg className="absolute top-3 left-3 w-5 h-5 text-[#C9A961]/40" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.996 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.984zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                   </svg>
-                  <p className="text-xs text-[#4B5563] italic leading-relaxed pl-8 pr-6">
+                  <p className="text-sm text-[#6B7280] italic leading-relaxed pl-6">
                     {doctor.quote}
                   </p>
-                  <svg className="absolute bottom-1.5 right-1.5 w-6 h-6 text-[#C9A24D] opacity-60" fill="currentColor" viewBox="0 0 24 24" style={{ transform: 'scaleX(-1) scaleY(-1)' }}>
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.996 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.984zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                  </svg>
                 </div>
 
-                {/* Patient Testimonial Card */}
-                <div className="mb-4 p-3 bg-white border border-gray-200 rounded-lg">
-                  <div className="flex items-center space-x-0.5 mb-2">
-                    {renderStars(5, 'w-3 h-3')}
+                {/* Patient Testimonial */}
+                <div className="mb-5 p-4 bg-white border border-gray-200 rounded-lg">
+                  <div className="flex items-center gap-1 mb-2.5">
+                    {renderStars(5, 'w-3.5 h-3.5')}
                   </div>
-                  <p className="text-xs text-[#4B5563] italic leading-relaxed mb-2">
-                    &ldquo;{doctor.testimonial.text}&rdquo;
+                  <p className="text-sm text-[#4B5563] leading-relaxed mb-2.5">
+                    "{doctor.testimonial.text}"
                   </p>
-                  <p className="text-[10px] text-[#6B7280]">
-                    &mdash; {doctor.testimonial.author}, {doctor.testimonial.location}
+                  <p className="text-xs text-[#6B7280] font-medium">
+                    — {doctor.testimonial.author}, {doctor.testimonial.location}
                   </p>
                 </div>
 
-                {/* Primary CTA Button */}
+                {/* CTA Button */}
                 <button
-  onClick={() =>
-    document.getElementById("appointment")?.scrollIntoView({
-      behavior: "smooth",
-    })
-  }
-  className="
-    w-full bg-gradient-to-r from-[#1b5e3f] via-[#2d7a56] to-[#1b5e3f]  text-white
-    px-4 py-2.5 rounded-lg
-    font-semibold text-sm
-    transition-colors duration-200
-    hover:bg-[#134e3a]
-  "
->
-  Book with {doctor.firstName}
-</button>
-
+                  onClick={() =>
+                    document.getElementById("appointment")?.scrollIntoView({
+                      behavior: "smooth",
+                    })
+                  }
+                  className="w-full bg-gradient-to-r from-[#1b5e3f] via-[#2d7a56] to-[#1b5e3f] text-white px-6 py-3.5 rounded-xl font-medium text-sm transition-all duration-200 hover:shadow-md"
+                >
+                  Book with {doctor.firstName}
+                </button>
               </div>
             </div>
           ))}
         </div>
 
         {/* Stats Row */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mt-8 sm:mt-10 lg:mt-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-12">
           {stats.map((stat, index) => (
-            <div key={index} className="bg-white rounded-xl p-4 sm:p-5 shadow-lg text-center">
-              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1b5e3f] mb-1.5">
+            <div key={index} className="bg-white rounded-2xl p-6 text-center shadow-[0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-[0_4px_16px_rgba(0,0,0,0.1)] transition-shadow duration-300">
+              <div className="text-4xl sm:text-5xl font-semibold text-[#1b5e3f] mb-2">
                 {stat.value}
               </div>
-              <div className="text-xs sm:text-sm text-[#4B5563] font-medium">
+              <div className="text-sm text-[#6B7280] font-normal">
                 {stat.label}
               </div>
             </div>
@@ -325,22 +315,34 @@ const ExpertsSection = ({ content }) => {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-8 sm:mt-10 lg:mt-12">
-          <div className="bg-gradient-to-r from-[#1b5e3f] via-[#2d7a56] to-[#1b5e3f] rounded-2xl p-6 sm:p-8 lg:p-10 text-center shadow-lg">
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3">
-              {ctaSection.title}
-            </h2>
-            <p className="text-sm sm:text-base text-white/90 mb-6 max-w-2xl mx-auto">
-              {ctaSection.description}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-              <button onClick={() =>document.getElementById("appointment")?.scrollIntoView({behavior: "smooth", })}className="bg-[#C9A24D] text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-md">
-                {ctaSection.primaryButton}
-              </button>
-              <button onClick={() =>document.getElementById("experts")?.scrollIntoView({behavior: "smooth", })}className="bg-white border-2 border-[#1b5e3f] text-[#1b5e3f] px-6 py-2.5 rounded-full font-semibold text-sm shadow-md">
-                {ctaSection.secondaryButton}
-              </button>
-            </div>
+        <div className="bg-gradient-to-r from-[#1b5e3f] via-[#2d7a56] to-[#1b5e3f] rounded-3xl p-8 sm:p-12 text-center shadow-xl">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white mb-4">
+            {ctaSection.title}
+          </h2>
+          <p className="text-base sm:text-lg text-white/90 font-normal mb-8 max-w-2xl mx-auto">
+            {ctaSection.description}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <button 
+              onClick={() =>
+                document.getElementById("appointment")?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+              className="bg-[#C9A961] hover:bg-[#B8984E] text-white px-8 py-3.5 rounded-xl font-medium text-sm shadow-lg hover:shadow-xl transition-all duration-200"
+            >
+              {ctaSection.primaryButton}
+            </button>
+            <button 
+              onClick={() =>
+                document.getElementById("experts")?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+              className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-3.5 rounded-xl font-medium text-sm transition-all duration-200"
+            >
+              {ctaSection.secondaryButton}
+            </button>
           </div>
         </div>
       </div>

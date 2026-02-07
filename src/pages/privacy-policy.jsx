@@ -682,5 +682,4 @@ const PrivacyContent = () => (
     </div>
   </>
 );
-
 export default PolicyPages;

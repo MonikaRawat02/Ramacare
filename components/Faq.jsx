@@ -86,16 +86,16 @@ const FAQSection = ({ content }) => {
   // Icon mapping function for resources
   const getResourceIcon = (index) => {
     const icons = [
-      <svg key="icon1" className="w-5 h-5 text-[#047857]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg key="icon1" className="w-5 h-5 text-[#3d5f4a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
       </svg>,
-      <svg key="icon2" className="w-5 h-5 text-[#047857]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg key="icon2" className="w-5 h-5 text-[#3d5f4a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
       </svg>,
-      <svg key="icon3" className="w-5 h-5 text-[#047857]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg key="icon3" className="w-5 h-5 text-[#3d5f4a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
       </svg>,
-      <svg key="icon4" className="w-5 h-5 text-[#047857]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg key="icon4" className="w-5 h-5 text-[#3d5f4a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ];
@@ -115,9 +115,7 @@ const FAQSection = ({ content }) => {
           <div className="text-center mb-6 md:mb-8">
             {/* Badge */}
             <div className="flex justify-center mb-3">
-              
-                <span className="bg-[#FAFAF9] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">Common Questions</span>
-            
+              <span className="bg-[#FAFAF9] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">Common Questions</span>
             </div>
 
             {/* Main Heading */}
@@ -143,13 +141,13 @@ const FAQSection = ({ content }) => {
                     : 'border-2 border-[#E5E7EB] shadow-sm hover:border-[#047857]/50 hover:shadow-md hover:-translate-y-0.5'
                 }`}
               >
-                {/* Question Header */}
+                {/* Question Header - INCREASED FONT SIZE */}
                 <div className="flex items-center justify-between gap-4">
-                  <h3 className="text-xs md:text-sm font-semibold text-[#1F2937] select-none flex-1">
+                  <h3 className="text-sm md:text-base font-semibold text-[#1F2937] select-none flex-1">
                     {faq.question}
                   </h3>
                   <svg
-                    className={`w-4 h-4 md:w-5 md:h-5 text-[#6B7280] flex-shrink-0 transition-transform duration-300 ${
+                    className={`w-5 h-5 md:w-6 md:h-6 text-[#6B7280] flex-shrink-0 transition-transform duration-300 ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                     fill="none"
@@ -165,10 +163,10 @@ const FAQSection = ({ content }) => {
                   </svg>
                 </div>
 
-                {/* Answer Content */}
+                {/* Answer Content - INCREASED FONT SIZE */}
                 {openIndex === index && (
                   <div className="mt-4 pt-4 border-t border-[#F3F4F6]">
-                    <p className="text-[10px] md:text-xs text-[#4B5563] leading-relaxed">
+                    <p className="text-xs md:text-sm text-[#4B5563] leading-relaxed">
                       {faq.answer}
                     </p>
                   </div>
@@ -199,7 +197,8 @@ const FAQSection = ({ content }) => {
                     <div className={`${resource.bgColor || 'bg-[#ECFDF5]'} w-10 h-10 md:w-11 md:h-11 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-3`}>
                       {resource.icon || getResourceIcon(index)}
                     </div>
-                    <span className="text-xs md:text-sm font-semibold text-[#1F2937]">
+                    {/* UPDATED: Text turns green and increases font size on hover */}
+                    <span className="text-xs md:text-sm font-semibold text-[#1F2937] transition-all duration-300 group-hover:text-[#3d5f4a] group-hover:text-sm md:group-hover:text-base">
                       {resource.text}
                     </span>
                   </div>

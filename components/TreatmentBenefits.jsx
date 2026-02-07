@@ -1,42 +1,50 @@
 import React from 'react';
-
 const TreatmentBenefits = ({ content }) => {
   const defaultBenefits = [
     {
       id: 1,
-      title: 'Hair Regrowth',
-      percentage: 85,
-      description: 'Significant improvement in hair density and thickness'
+      title: 'Strengthens hair roots and follicles naturally',
+      percentage: 89
     },
     {
       id: 2,
-      title: 'Reduced Hair Fall',
-      percentage: 92,
-      description: 'Noticeable decrease in daily hair shedding'
+      title: 'Reduces dandruff and scalp dryness',
+      percentage: 92
     },
     {
       id: 3,
-      title: 'Scalp Health',
-      percentage: 88,
-      description: 'Improved scalp condition and reduced dandruff'
+      title: 'Improves scalp blood circulation',
+      percentage: 85
     },
     {
       id: 4,
-      title: 'Hair Strength',
-      percentage: 79,
-      description: 'Stronger hair strands with reduced breakage'
+      title: 'Balances aggravated Pitta and Vata doshas',
+      percentage: 94
     },
     {
       id: 5,
-      title: 'Natural Shine',
-      percentage: 83,
-      description: 'Restored natural luster and shine to hair'
+      title: 'Promotes natural hair regrowth',
+      percentage: 78
     },
     {
       id: 6,
-      title: 'Long-term Results',
-      percentage: 90,
-      description: 'Sustained improvements without side effects'
+      title: 'Prevents premature greying',
+      percentage: 71
+    },
+    {
+      id: 7,
+      title: 'Nourishes scalp with herbal nutrients',
+      percentage: 96
+    },
+    {
+      id: 8,
+      title: 'Reduces stress-related hair loss',
+      percentage: 88
+    },
+    {
+      id: 9,
+      title: 'Supports long-term hair health',
+      percentage: 91
     }
   ];
 
@@ -75,7 +83,7 @@ const TreatmentBenefits = ({ content }) => {
 
   // Use provided content or defaults
   const sectionTitle = content?.title || 'Clinically-Observed Benefits';
-  const sectionDescription = content?.description || 'Evidence-based results from our comprehensive, personalized treatment approach.';
+  const sectionDescription = content?.description || 'Based on 15+ years of treating 2,500+ patients at our Ayurvedic clinic in Dubai';
   const benefits = content?.benefits || defaultBenefits;
   const comparisonData = content?.comparisonData || defaultComparisonData;
   const comparisonTitle = content?.comparisonTitle || 'Ayurvedic vs. Conventional Hairfall Treatment';
@@ -93,9 +101,9 @@ const TreatmentBenefits = ({ content }) => {
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Badge */}
         <div className="flex justify-center mb-3">
-         
-            <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">Treatment Benefits</span>
-        
+          <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">
+            Treatment Benefits
+          </span>
         </div>
 
         {/* Section Heading */}
@@ -104,85 +112,89 @@ const TreatmentBenefits = ({ content }) => {
         </h2>
 
         {/* Section Description */}
-        <p className="text-sm md:text-base text-[#6B7280] text-center max-w-3xl mx-auto mb-12 md:mb-16 animate-fade-in-up animation-delay-200">
+        <p className="text-sm md:text-base text-[#6B7280] text-center max-w-3xl mx-auto mb-12 md:mb-16">
           {sectionDescription}
         </p>
 
-        {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 mb-6 md:mb-8">
-          {benefits.map((benefit) => (
-            <div
-              key={benefit.id}
-              className="bg-[#FAF8F5] rounded-xl p-3 md:p-4 shadow-sm hover:shadow-xl hover:scale-[1.02] hover:border hover:border-[#047857]/20 border border-transparent transition-all duration-300 cursor-pointer group"
-            >
-              {/* Icon and Title */}
-              <div className="flex items-start gap-2 mb-2">
-                <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-[#2D5F3F] to-[#3A7B51] rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-all duration-300">
-                  <svg
-                    className="w-4 h-4 md:w-5 md:h-5 text-white group-hover:scale-110 transition-transform duration-300"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={3}
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+        {/* Benefits Grid - New Horizontal Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mb-12 md:mb-16">
+          {benefits.map((benefit, index) => {
+            const fallbackById = defaultBenefits.find(d => d.id === benefit.id && typeof d.percentage === 'number');
+            const fallbackByTitle = defaultBenefits.find(d => d.title === benefit.title && typeof d.percentage === 'number');
+            const resolvedPercentage =
+              typeof benefit.percentage === 'number' && !Number.isNaN(benefit.percentage)
+                ? benefit.percentage
+                : (fallbackById?.percentage ?? fallbackByTitle?.percentage ?? 80);
+            return (
+              <div
+                key={benefit.id}
+                className={`
+              } rounded-lg p-4 md:p-5 shadow-sm hover:shadow-lg hover:scale-95 transition-all duration-300 cursor-pointer group relative overflow-hidden`}
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-[#047857]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="flex items-start gap-3 mb-3 relative z-10">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-[#2D5F3F] rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-md">
+                    <svg
+                      className="w-5 h-5 md:w-6 md:h-6 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2.5}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-sm md:text-base font-normal text-[#1F2937] leading-snug group-hover:text-[#2D5F3F] transition-colors duration-300">
+                      {benefit.title}
+                    </h3>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xs md:text-sm font-semibold text-[#1F2937] mb-1 group-hover:bg-gradient-to-r group-hover:from-[#2D5F3F] group-hover:to-[#3A7B51] group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300">
-                    {benefit.title}
-                  </h3>
-                  <p className="text-[10px] md:text-xs text-[#6B7280]">
-                    {benefit.description}
-                  </p>
+                <div className="relative z-10">
+                  <div className="w-full h-2 bg-[#D5D5C8] rounded-full overflow-hidden mb-1.5">
+                    <div
+                      className="h-full bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] rounded-full transition-all duration-700 ease-out group-hover:shadow-md"
+                      style={{ width: `${resolvedPercentage}%` }}
+                    ></div>
+                  </div>
+                  <div className="flex justify-end">
+                    <span className="text-xs text-[#6B7280] font-medium">
+                      {resolvedPercentage}% patients
+                    </span>
+                  </div>
                 </div>
               </div>
-
-              {/* Progress Bar */}
-              <div className="mt-2">
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-[10px] md:text-xs font-semibold text-[#6B7280] group-hover:bg-gradient-to-r group-hover:from-[#2D5F3F] group-hover:to-[#3A7B51] group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300">
-                    {benefit.percentage}%
-                  </span>
-                </div>
-                <div className="w-full h-1.5 bg-[#E5E7EB] rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] rounded-full transition-all duration-1000 ease-out group-hover:from-[#3A7B51] group-hover:to-[#2D5F3F] group-hover:shadow-sm"
-                    style={{ width: `${benefit.percentage}%` }}
-                  ></div>
-                </div>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Comparison Table */}
-        <div className="mt-6 md:mt-8">
-          <h3 className="md:text-xl lg:text-2xl font-bold text-[#1F2937] text-center mb-3">
+        <div className="mt-12 md:mt-16">
+          <h3 className="md:text-xl lg:text-2xl font-bold text-[#1F2937] text-center mb-8">
             {comparisonTitle}
           </h3>
           {comparisonDescription && (
-            <p className="text-sm md:text-base text-[#6B7280] text-center max-w-3xl mx-auto mb-12 md:mb-16 animate-fade-in-up animation-delay-200">
+            <p className="text-sm md:text-base text-[#6B7280] text-center max-w-3xl mx-auto mb-8">
               {comparisonDescription}
             </p>
           )}
           
-          <div className="bg-[#FAF8F5] rounded-xl p-3 md:p-4 overflow-hidden">
+          <div className="bg-[#F5F5F0] rounded-lg p-4 md:p-6 overflow-hidden shadow-sm">
             <div className="overflow-x-auto">
               <table className="w-full border-collapse">
                 <thead>
-                  <tr className="border-b border-[#E5E7EB]">
-                    <th className="text-left py-3 px-3 md:px-4 text-[10px] md:text-xs font-bold text-[#111111] w-1/4">
+                  <tr className="border-b-2 border-[#D5D5C8]">
+                    <th className="text-left py-3 px-3 md:px-4 text-xs md:text-sm font-bold text-[#111111] w-1/4">
                       {columnHeaders.feature}
                     </th>
-                    <th className="text-left py-3 px-3 md:px-4 text-[10px] md:text-xs font-bold text-[#047857] w-[37.5%]">
+                    <th className="text-left py-3 px-3 md:px-4 text-xs md:text-sm font-bold text-[#2D5F3F] w-[37.5%]">
                       {columnHeaders.ourTreatment}
                     </th>
-                    <th className="text-left py-3 px-3 md:px-4 text-[10px] md:text-xs font-bold text-[#4B5563] w-[37.5%]">
+                    <th className="text-left py-3 px-3 md:px-4 text-xs md:text-sm font-bold text-[#4B5563] w-[37.5%]">
                       {columnHeaders.traditional}
                     </th>
                   </tr>
@@ -191,15 +203,15 @@ const TreatmentBenefits = ({ content }) => {
                   {comparisonData.map((row, index) => (
                     <tr
                       key={index}
-                      className="border-b border-[#E5E7EB] last:border-b-0 hover:bg-[#F3F4F6] transition-colors duration-200"
+                      className="border-b border-[#E0E0D8] last:border-b-0 hover:bg-[#EBEBDF] transition-colors duration-200"
                     >
-                      <td className="py-3 px-3 md:px-4 text-[10px] md:text-xs text-[#1F2937] font-bold align-top">
+                      <td className="py-3 px-3 md:px-4 text-xs md:text-sm text-[#1F2937] font-semibold align-top">
                         {row.feature}
                       </td>
                       <td className="py-3 px-3 md:px-4 align-top">
                         <div className="flex items-start gap-2">
                           <svg
-                            className="w-3.5 h-3.5 text-[#047857] flex-shrink-0 mt-0.5"
+                            className="w-4 h-4 text-[#2D5F3F] flex-shrink-0 mt-0.5"
                             fill="none"
                             stroke="currentColor"
                             viewBox="0 0 24 24"
@@ -207,16 +219,16 @@ const TreatmentBenefits = ({ content }) => {
                             <path
                               strokeLinecap="round"
                               strokeLinejoin="round"
-                              strokeWidth={2}
+                              strokeWidth={2.5}
                               d="M5 13l4 4L19 7"
                             />
                           </svg>
-                          <span className="text-[10px] md:text-xs text-[#374151] font-medium">
+                          <span className="text-xs md:text-sm text-[#374151]">
                             {row.ayurvedic}
                           </span>
                         </div>
                       </td>
-                      <td className="py-3 px-3 md:px-4 text-[10px] md:text-xs text-[#6B7280] align-top">
+                      <td className="py-3 px-3 md:px-4 text-xs md:text-sm text-[#6B7280] align-top">
                         {row.conventional}
                       </td>
                     </tr>
@@ -232,4 +244,3 @@ const TreatmentBenefits = ({ content }) => {
 };
 
 export default TreatmentBenefits;
-

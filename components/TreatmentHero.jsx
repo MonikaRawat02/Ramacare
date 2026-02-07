@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const TreatmentHero = ({ categoryName, subcategoryName, description, hero }) => {
   // Default values if not provided
@@ -136,14 +137,15 @@ const categoryData = categories.find(
             {/* Treatment Image - Mobile Only */}
             {image && (
               <div className="block lg:hidden mb-6 relative overflow-hidden rounded-2xl shadow-lg group cursor-pointer">
-                <div className="h-[300px] sm:h-[350px] overflow-hidden">
-                  <img 
-                    src={image.src}
-                    alt={image.alt || `${subcategory} treatment in Dubai - Professional medical service at DHA licensed facility`}
-                    className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
-                    loading="eager"
-                  />
-                </div>
+                <Image 
+                  src={image.src}
+                  alt={image.alt || `${subcategory} treatment in Dubai - Professional medical service at DHA licensed facility`}
+                  width={800}
+                  height={600}
+                  className="w-full h-auto object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
                 {/* Subtle overlay on hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#2D5F3F]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 {/* Zoom icon indicator */}
@@ -218,13 +220,15 @@ const categoryData = categories.find(
           {/* Right Panel - Treatment Image - Desktop Only */}
           {image && (
             <div className="relative w-full order-1 lg:order-2 hidden lg:block">
-              <div className="rounded-2xl overflow-hidden shadow-lg h-[400px] sm:h-[450px] md:h-[500px] lg:h-[600px] group cursor-pointer">
+              <div className="relative rounded-2xl overflow-hidden shadow-lg h-[400px] sm:h-[450px] md:h-[500px] lg:h-[600px] group cursor-pointer">
                 {/* Image with zoom effect */}
-                <img 
+                <Image 
                   src={image.src}
                   alt={image.alt || `${subcategory} treatment in Dubai - Professional medical service at DHA licensed facility`}
-                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
-                  loading="eager"
+                  fill
+                  className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                  priority
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                 />
                 {/* Subtle overlay on hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#2D5F3F]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

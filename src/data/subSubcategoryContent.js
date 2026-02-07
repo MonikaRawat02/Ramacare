@@ -146,35 +146,35 @@ export const subSubcategoryContent = {
   rootCauses: [
   {
     id: 1,
-    title: 'Lack of Skin Hydration – High',
+    title: 'Lack of Skin Hydration ',
     description:
       'Dehydrated skin looks dull, rough, and tired, with reduced elasticity and radiance.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Fine Lines & Early Aging – Medium',
+    title: 'Fine Lines & Early Aging ',
     description:
       'Loss of moisture and collagen causes fine lines, creases, and uneven skin texture.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Uneven Skin Tone – Medium',
+    title: 'Uneven Skin Tone',
     description:
       'Sun exposure, pollution, and aging lead to pigmentation and a lack of skin clarity.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Reduced Skin Elasticity – Medium',
+    title: 'Reduced Skin Elasticity',
     description:
       'Aging slows natural collagen production, making skin appear loose and lifeless.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
 
@@ -778,35 +778,35 @@ Suitable for most skin types
 rootCauses: [
   {
     id: 1,
-    title: 'Acne Scars & Uneven Texture – High',
+    title: 'Acne Scars & Uneven Texture ',
     description:
       'Acne scars, open pores, and rough skin texture affect overall skin appearance and confidence.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Fine Lines & Wrinkles – Medium',
+    title: 'Fine Lines & Wrinkles ',
     description:
       'Aging and collagen loss lead to fine lines, wrinkles, and dull-looking skin.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Hair Thinning & Slow Growth – Medium',
+    title: 'Hair Thinning & Slow Growth',
     description:
       'Poor scalp circulation and weak follicles result in hair thinning and reduced hair density.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Uneven Skin Tone – Medium',
+    title: 'Uneven Skin Tone',
     description:
       'Pigmentation, stretch marks, and sun damage create patchy, tired-looking skin.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   }
 ],
       quickFacts: [
@@ -1396,35 +1396,35 @@ rootCauses: [
   rootCauses: [
   {
     id: 1,
-    title: 'Loss of Skin Firmness – High',
+    title: 'Loss of Skin Firmness ',
     description:
       'Aging and collagen loss cause sagging skin on the face, neck, arms, and abdomen.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Fine Lines & Wrinkles – Medium',
+    title: 'Fine Lines & Wrinkles ',
     description:
       'Reduced elasticity leads to wrinkles, creases, and tired-looking skin.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 3,
-    title: 'Post-Weight Loss Sagging – Medium',
+    title: 'Post-Weight Loss Sagging',
     description:
       'Rapid weight loss can leave excess loose skin that affects body contour.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 4,
-    title: 'Environmental Damage – Medium',
+    title: 'Environmental Damage ',
     description:
       'Sun exposure and pollution accelerate skin aging and loss of tone.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   }
 ],
       quickFacts: [
@@ -2056,35 +2056,35 @@ rootCauses: [
      rootCauses: [
   {
     id: 1,
-    title: 'Dead Skin Cell Build-Up – High',
+    title: 'Dead Skin Cell Build-Up ',
     description:
       'Accumulation of dead skin cells makes the skin look dull, rough, and uneven.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Fine Lines & Early Aging – Medium',
+    title: 'Fine Lines & Early Aging ',
     description:
       'Sun exposure and aging cause fine lines and loss of natural skin smoothness.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 3,
-    title: 'Enlarged Pores & Blackheads – Medium',
+    title: 'Enlarged Pores & Blackheads ',
     description:
       'Clogged pores lead to blackheads, whiteheads, and uneven skin texture.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 4,
-    title: 'Uneven Skin Tone – Medium',
+    title: 'Uneven Skin Tone ',
     description:
       'Pigmentation, mild scars, and tanning can make the complexion look patchy and tired.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   }
 ],
         quickFacts: [
@@ -2729,7 +2729,7 @@ rootCauses: [
     description:
       'Lack of essential vitamins, minerals, and amino acids leads to dull skin, pigmentation, fine lines, and excessive hair fall.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
@@ -2737,7 +2737,7 @@ rootCauses: [
     description:
       'Reduced circulation limits oxygen supply, resulting in dark circles, uneven skin tone, slow healing, and weak hair follicles.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 3,
@@ -2745,7 +2745,7 @@ rootCauses: [
     description:
       'With age and environmental exposure, collagen production decreases, causing wrinkles, skin laxity, and loss of firmness.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 4,
@@ -2753,7 +2753,7 @@ rootCauses: [
     description:
       'Stress, hormonal changes, and nutritional imbalance contribute to hair thinning and reduced hair density.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
@@ -2761,7 +2761,7 @@ rootCauses: [
     description:
       'Pollution, sun damage, poor diet, and stress accelerate skin aging and scalp damage.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   }
 ],
      quickFacts: [
@@ -3410,35 +3410,35 @@ rootCauses: [
       rootCauses: [
   {
     id: 1,
-    title: 'Recurring Rashes & Itching – High',
+    title: 'Recurring Rashes & Itching',
     description:
       'Allergic reactions often cause redness, itching, hives, and rashes that disturb daily comfort and sleep.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Dry, Inflamed Skin – Medium',
+    title: 'Dry, Inflamed Skin',
     description:
       'Skin allergies can lead to dryness, scaling, swelling, and a burning sensation.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 3,
-    title: 'Environmental & Food Triggers – Medium',
+    title: 'Environmental & Food Triggers',
     description:
       'Dust, pollution, cosmetics, certain foods, and weather changes can trigger allergic flare-ups.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 4,
-    title: 'Stress & Immune Imbalance – Medium',
+    title: 'Stress & Immune Imbalance',
     description:
       'Stress weakens the immune response, increasing the frequency and severity of skin allergies.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'      
   }
 ],
         quickFacts: [
@@ -4112,35 +4112,35 @@ rootCauses: [
       rootCauses: [
   {
     id: 1,
-    title: 'Excessive Underarm Sweating – High',
+    title: 'Excessive Underarm Sweating',
     description:
       'Uncontrolled sweating occurs even without heat or physical activity, causing discomfort, odor, and embarrassment.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Palms & Feet Sweating – Medium',
+    title: 'Palms & Feet Sweating',
     description:
       'Sweaty hands and feet interfere with daily activities, social interactions, and work confidence.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 3,
-    title: 'Clothing Stains & Skin Irritation – Medium',
+    title: 'Clothing Stains & Skin Irritation',
     description:
       'Constant moisture leads to visible sweat marks, rashes, and recurring skin infections.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 4,
-    title: 'Stress-Triggered Sweating – Medium',
+    title: 'Stress-Triggered Sweating',   
     description:
       'Anxiety and stress further activate sweat glands, worsening hyperhidrosis symptoms.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   }
 ],
         quickFacts: [
@@ -6302,29 +6302,29 @@ rootCauses: [
     title: 'Forehead Lines',
     description: 'Result from repeated raising of eyebrows and facial expressions',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 2,
     title: 'Frown Lines',
     description: 'Deepening due to constant brow movements',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 3,
     title: 'Crow’s Feet',
     description: 'Fine lines around the eyes from smiling and squinting',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 4,
     title: 'Loss of Facial Volume',
     description: 'Leads to hollow cheeks, thin lips, sagging appearance',
     severity: 'High',
-    severityColor: null
-  }
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'   
+  } 
 ],
       quickFacts: [
   { label: 'Treatment Type', value: 'Non-surgical injection' },
@@ -7004,35 +7004,35 @@ rootCauses: [
     title: 'Fine Lines & Wrinkles',
     description: 'Caused by aging, repeated facial movements, or sun damage',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'   
   },
   {
     id: 2,
     title: 'Pigmentation & Dark Spots',
     description: 'Sun, acne, or hormonal changes create uneven skin tone',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 3,
     title: 'Dull Skin',
     description: 'Poor hydration, stress, or environmental factors reduce radiance',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'        
   },
   {
     id: 4,
     title: 'Acne & Post-Acne Marks',
     description: 'Active acne and scars affect smoothness and texture',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'        
   },
   {
     id: 5,
     title: 'Dehydration & Sensitivity',
     description: 'Lack of moisture causes dryness, redness, and irritation',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'          
   }
 ],
   quickFacts: [
@@ -7708,35 +7708,35 @@ rootCauses: [
     title: 'Sagging Skin',
     description: 'Drooping cheeks, jawline, and neck',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'   
   },
   {
     id: 2,
     title: 'Fine Lines & Wrinkles',
     description: 'Aging, sun exposure, and facial movement',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'      
   },
   {
     id: 3,
     title: 'Loss of Facial Contours',
     description: 'Reduced jawline and cheek definition',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'      
   },
   {
     id: 4,
     title: 'Skin Laxity',
     description: 'Loose or crepey skin',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'        
   },
   {
     id: 5,
     title: 'Early Aging',
     description: 'Stress, sun damage, lifestyle factors',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'        
   }
 ],
       quickFacts: [
@@ -9160,35 +9160,35 @@ rootCauses: [
     title: 'Sunspots',
     description: 'Caused by UV exposure, more visible on face and hands',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'   
   },
   {
     id: 2,
     title: 'Melasma',
     description: 'Hormonal pigmentation, often appearing on cheeks and forehead',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'      
   },
   {
     id: 3,
     title: 'Post-Inflammatory Marks',
     description: 'Dark patches after acne, eczema, or injury',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'          
   },
   {
     id: 4,
     title: 'Uneven Skin Tone',
     description: 'Discoloration or dullness across the face',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'        
   },
   {
     id: 5,
     title: 'Aging & Lifestyle',
     description: 'Stress, pollution, and sun exposure worsen pigmentation',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'        
   }
 ],
      quickFacts: [
@@ -9862,35 +9862,35 @@ rootCauses: [
     title: 'Under-Eye Pigmentation',
     description: 'Genetic or sun-induced pigmentation causing dark discoloration',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'   
   },
   {
     id: 2,
     title: 'Volume Loss / Hollowing',
     description: 'Aging or fat loss leads to shadowing under the eyes',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'          
   },
   {
     id: 3,
     title: 'Blood Vessel Visibility',
     description: 'Thin skin shows underlying veins as dark circles',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'          
   },
   {
     id: 4,
     title: 'Lifestyle & Fatigue',
     description: 'Lack of sleep, stress, or dehydration intensifies dark circles',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'          
   },
   {
     id: 5,
     title: 'Aging & Skin Changes',
     description: 'Collagen loss and thin skin worsen under-eye darkness',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'          
   }
 ],
     quickFacts: [

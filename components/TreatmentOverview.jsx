@@ -167,78 +167,76 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
     <section id="treatment-info" className="w-full bg-gradient-to-b from-[#F9F7F4] to-white py-8 md:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Treatment Overview Badge */}
-        <div className="flex mb-3">
-          <span className="">
-            <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">Treatment Overview</span>  
+        <div className="flex mb-4">
+          <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">
+            Treatment Overview
           </span>
         </div>
 
         {/* Main Heading */}
-        <h2 className=" md:text-xl lg:text-2xl font-bold text-[#1F2937] mb-3 md:mb-6">
+        <h2 className="md:text-xl lg:text-2xl font-bold text-[#1F2937] text-left mb-3">
           {sectionTitle}
         </h2>
 
         {/* Two Column Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
           {/* Left Column */}
-          <div className="space-y-4 md:space-y-5">
+          <div className="space-y-5">
             {/* Info Cards */}
             {leftCards.map((card) => (
               <div
                 key={card.id}
-                className="bg-white rounded-xl p-4 md:p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-[#D1FAE5]"
+                className="bg-white rounded-xl p-5 shadow-[-4px_0_8px_rgba(0,0,0,0.04),0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-[-4px_0_12px_rgba(0,0,0,0.06),0_4px_12px_rgba(0,0,0,0.08)] transition-all duration-300 border border-gray-100"
               >
-                <div className="flex items-start gap-3">
+                <div className="flex items-start gap-4">
                   {/* Icon Container */}
-                  <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-[#2D5F3F] to-[#3A7B51] rounded-lg flex items-center justify-center flex-shrink-0 text-white shadow-md">
-                    <div className="w-5 h-5 md:w-6 md:h-6">
+                  <div className="w-12 h-12 bg-[#2D5F3F] rounded-lg flex items-center justify-center flex-shrink-0 text-white shadow-sm">
+                    <div className="w-6 h-6">
                       {getIconComponent(card.icon, card.title)}
                     </div>
                   </div>
                   
                   {/* Content */}
                   <div className="flex-1">
-                    <h3 className="text-sm md:text-base font-semibold text-[#1F2937] mb-1.5">
+                    <h3 className="text-base font-bold text-[#1F2937] mb-2">
                       {card.title}
                     </h3>
                     {card.sections && card.sections.length > 0 ? (
-  <div className="space-y-4">
-    {card.sections.map((section, sIndex) => (
-      <div key={sIndex}>
-        <h4 className="text-xs md:text-sm font-semibold text-[#1F2937] mb-1.5">
-          {section.heading}
-        </h4>
-
-        <ul className="text-xs md:text-sm text-[#1F2937] leading-relaxed space-y-1.5 list-none">
-          {section.items.map((item, index) => (
-            <li key={index} className="flex items-start gap-2">
-              <span className="text-[#047857] mt-1.5 flex-shrink-0 font-bold">•</span>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    ))}
-  </div>
-) : card.listItems && card.listItems.length > 0 ? (
-                    
+                      <div className="space-y-4">
+                        {card.sections.map((section, sIndex) => (
+                          <div key={sIndex}>
+                            <h4 className="text-sm font-bold text-[#1F2937] mb-2">
+                              {section.heading}
+                            </h4>
+                            <ul className="text-sm text-[#4B5563] leading-relaxed space-y-2 list-none">
+                              {section.items.map((item, index) => (
+                                <li key={index} className="flex items-start gap-2">
+                                  <span className="text-[#047857] mt-1 flex-shrink-0 font-bold">•</span>
+                                  <span>{item}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    ) : card.listItems && card.listItems.length > 0 ? (
                       <div>
                         {card.description && (
-                          <p className="text-xs md:text-sm text-[#1F2937] leading-relaxed mb-2">
+                          <p className="text-sm text-[#4B5563] leading-relaxed mb-2">
                             {card.description}
                           </p>
                         )}
-                        <ul className="text-xs md:text-sm text-[#1F2937] leading-relaxed space-y-1.5 list-none">
+                        <ul className="text-sm text-[#4B5563] leading-relaxed space-y-2 list-none">
                           {card.listItems.map((item, index) => (
                             <li key={index} className="flex items-start gap-2">
-                              <span className="text-[#047857] mt-1.5 flex-shrink-0 font-bold">•</span>
+                              <span className="text-[#047857] mt-1 flex-shrink-0 font-bold">•</span>
                               <span>{item}</span>
                             </li>
                           ))}
                         </ul>
                       </div>
                     ) : (
-                      <p className="text-xs md:text-sm text-[#1F2937] leading-relaxed">
+                      <p className="text-sm text-[#4B5563] leading-relaxed">
                         {card.description}
                       </p>
                     )}
@@ -248,17 +246,17 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
             ))}
 
             {/* Quick Facts Section */}
-            <div className="bg-gradient-to-br from-[#2D5F3F] to-[#3A7B51] rounded-xl p-4 md:p-5 shadow-lg">
-              <h3 className="text-sm md:text-base font-bold text-white mb-3">
+            <div className="bg-[#2D5F3F] rounded-xl p-5 shadow-lg">
+              <h3 className="text-base font-bold text-white mb-4">
                 Quick Facts
               </h3>
-              <div className="space-y-2.5">
+              <div className="space-y-3">
                 {quickFacts.map((fact, index) => (
                   <div key={index} className="flex justify-between items-center">
-                    <span className="text-[10px] md:text-xs font-medium text-white/90">
+                    <span className="text-sm font-medium text-white/90">
                       {fact.label}
                     </span>
-                    <span className="text-[10px] md:text-xs text-white font-semibold">
+                    <span className="text-sm text-white font-bold">
                       {fact.value}
                     </span>
                   </div>
@@ -270,32 +268,26 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
           {/* Right Column */}
           <div>
             {/* Tabs */}
-            <div className="flex border-b border-[#E5E7EB] mb-4 md:mb-5 bg-gradient-to-r from-[#F5F3F0] to-[#FAF8F5] rounded-t-lg p-1">
+            <div className="flex border-b border-[#E5E7EB] mb-5 bg-white rounded-t-lg overflow-hidden">
               <button
                 onClick={() => setActiveTab('problem')}
-                className={`relative px-3 md:px-5 py-2 text-xs md:text-sm font-medium transition-all duration-300 rounded-t-lg ${
+                className={`flex-1 px-6 py-3 text-sm font-semibold transition-all duration-300 ${
                   activeTab === 'problem'
-                    ? 'bg-white shadow-sm'
-                    : 'bg-transparent text-[#6B7280] hover:text-[#1F2937] hover:bg-white/50'
+                    ? 'bg-white text-[#1F2937] border-b-2 border-[#1F2937]'
+                    : 'bg-[#F9FAFB] text-[#6B7280] hover:text-[#1F2937] hover:bg-white'
                 }`}
               >
-                <span className={activeTab === 'problem' ? 'bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] bg-clip-text text-transparent' : ''}>The Problem</span>
-                {activeTab === 'problem' && (
-                  <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51]"></span>
-                )}
+                The Problem
               </button>
               <button
                 onClick={() => setActiveTab('solution')}
-                className={`relative px-3 md:px-5 py-2 text-xs md:text-sm font-medium transition-all duration-300 rounded-t-lg ${
+                className={`flex-1 px-6 py-3 text-sm font-semibold transition-all duration-300 ${
                   activeTab === 'solution'
-                    ? 'bg-white shadow-sm'
-                    : 'bg-transparent text-[#6B7280] hover:text-[#1F2937] hover:bg-white/50'
+                    ? 'bg-white text-[#1F2937] border-b-2 border-[#1F2937]'
+                    : 'bg-[#F9FAFB] text-[#6B7280] hover:text-[#1F2937] hover:bg-white'
                 }`}
               >
-                <span className={activeTab === 'solution' ? 'bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] bg-clip-text text-transparent' : ''}>Our Solution</span>
-                {activeTab === 'solution' && (
-                  <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#047857] to-[#059669]"></span>
-                )}
+                Our Solution
               </button>
             </div>
 
@@ -303,32 +295,32 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
             {activeTab === 'problem' && (
               <div>
                 {/* Root Causes Box */}
-                <div className="bg-[#FEF2F2] border border-red-200 rounded-xl p-3 md:p-4 mb-4 shadow-sm">
-                  <h3 className="text-sm md:text-base font-bold text-[#7F1D1D] mb-2">
+                <div className="bg-[#FEF2F2] border border-[#FEE2E2] rounded-xl p-5 mb-5 shadow-[-2px_0_6px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.04)]">
+                  <h3 className="text-base font-bold text-[#7F1D1D] mb-2">
                     {problemIntro.title}
                   </h3>
-                  <p className="text-xs font-semibold text-[#7F1D1D]">
+                  <p className="text-sm text-[#991B1B] leading-relaxed">
                     {problemIntro.description}
                   </p>
                 </div>
 
                 {/* Cause Cards */}
-                <div className="space-y-3">
+                <div className="space-y-4">
                   {rootCauses.map((cause) => (
                     <div
                       key={cause.id}
-                      className="bg-white border-l-4 border-[#FF6B6B] rounded-lg p-3 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-0.5"
+                      className="bg-white border-l-4 border-[#EF4444] rounded-lg p-4 shadow-[-2px_0_6px_rgba(0,0,0,0.04),0_2px_6px_rgba(0,0,0,0.06)] hover:shadow-[-3px_0_8px_rgba(0,0,0,0.06),0_3px_8px_rgba(0,0,0,0.08)] transition-all duration-300"
                     >
                       <div className="flex items-start justify-between gap-3">
                         <div className="flex-1">
-                          <h4 className="text-xs md:text-sm font-semibold text-[#1F2937] mb-1">
+                          <h4 className="text-sm font-bold text-[#1F2937] mb-1.5">
                             {cause.title}
                           </h4>
-                          <p className="text-[10px] md:text-xs text-[#1F2937]">
+                          <p className="text-sm text-[#4B5563] leading-relaxed">
                             {cause.description}
                           </p>
                         </div>
-                        <span className={`px-2 py-0.5 rounded-full text-[9px] md:text-[10px] font-medium ${cause.severityColor} whitespace-nowrap shadow-sm`}>
+                        <span className={`px-3 py-1 rounded-full text-xs font-bold ${cause.severityColor} whitespace-nowrap shadow-sm`}>
                           {cause.severity}
                         </span>
                       </div>
@@ -341,57 +333,54 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
             {activeTab === 'solution' && (
               <div>
                 {/* Intro Box */}
-                <div className="bg-gradient-to-br from-[#E8F5F0] to-[#D1FAE5] rounded-xl p-3 md:p-4 mb-4 shadow-sm border border-[#A7F3D0]/30">
-                  <h3 className="text-base md:text-lg font-bold bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] bg-clip-text text-transparent mb-2"> 
+                <div className="bg-[#F0FDF4] rounded-xl p-5 mb-5 shadow-[-2px_0_6px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.04)] border border-[#D1FAE5]">
+                  <h3 className="text-base font-bold text-[#065F46] mb-2">
                     {solutionIntro.title}
                   </h3>
-                  <p className="text-xs bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] bg-clip-text text-transparent leading-relaxed">
+                  <p className="text-sm text-[#047857] leading-relaxed">
                     {solutionIntro.description}
                   </p>
                 </div>
 
                 {/* Treatment Cards */}
-                <div className="space-y-3">
+                <div className="space-y-4">
                   {approachCards.map((card) => (
                     <div
                       key={card.id}
-                      className={`bg-white border-2 rounded-xl p-3 md:p-4 transition-all duration-300 shadow-sm ${
+                      className={`bg-white border-l-4 border-[#2D5F3F] rounded-lg p-4 transition-all duration-300 shadow-[-2px_0_6px_rgba(0,0,0,0.04),0_2px_6px_rgba(0,0,0,0.06)] relative ${
                         expandedCard === card.id
-                          ? 'border-[#10B981] bg-gradient-to-br from-[#F0FDF4] to-white shadow-md'
-                          : 'border-[#E5E7EB] hover:border-[#10B981] hover:shadow-md hover:-translate-y-0.5'
+                          ? 'shadow-[-3px_0_8px_rgba(0,0,0,0.06),0_3px_8px_rgba(0,0,0,0.08)]'
+                          : 'hover:shadow-[-3px_0_8px_rgba(0,0,0,0.06),0_3px_8px_rgba(0,0,0,0.08)]'
                       }`}
                     >
-                      <div className="flex items-start gap-3">
-                        {/* Left Border Accent */}
-                        <div className="w-0.5 h-full bg-gradient-to-b from-[#2D5F3F] to-[#3A7B51] rounded-full flex-shrink-0"></div>
-                        
+                      <div className="flex items-start gap-3 pr-10">
                         {/* Content */}
-                        <div className="">
-                          <h4 className="text-xs md:text-sm font-semibold text-[#1F2937] mb-1.5">
+                        <div className="flex-1">
+                          <h4 className="text-sm font-bold text-[#1F2937] mb-1.5">
                             {card.title}
                           </h4>
-                          <p className="text-[10px] md:text-xs text-[#6B7280] mb-2">
+                          <p className="text-sm text-[#4B5563] leading-relaxed">
                             {card.description}
                           </p>
                           
                           {/* Expanded Content */}
                           {expandedCard === card.id && card.expandedContent && (
-                            <div className="mt-2 pt-2 border-t border-[#E5E7EB]">
-                              <p className="text-[10px] md:text-xs text-[#1F2937]">
+                            <div className="mt-3 pt-3 border-t border-[#E5E7EB]">
+                              <p className="text-sm text-[#1F2937] leading-relaxed">
                                 {card.expandedContent}
                               </p>
                             </div>
                           )}
 
-                          {/* Learn More Link - Only show if hasLearnMore is true AND expandedContent exists, is not empty, and has meaningful content (at least 30 characters) */}
+                          {/* Learn More Link */}
                           {card.hasLearnMore && card.expandedContent && card.expandedContent.trim().length >= 30 && (
                             <button
                               onClick={() => setExpandedCard(expandedCard === card.id ? null : card.id)}
-                              className="flex items-center gap-1.5 text-[10px] md:text-xs font-medium bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] bg-clip-text text-transparent hover:from-[#3A7B51] hover:to-[#2D5F3F] transition-all duration-300 mt-2"
+                              className="flex items-center gap-1.5 text-sm font-semibold text-[#047857] hover:text-[#065F46] transition-all duration-300 mt-3"
                             >
                               <span>{expandedCard === card.id ? 'Show less' : 'Learn more'}</span>
                               <svg 
-                                className={`w-3 h-3 transition-transform ${expandedCard === card.id ? 'rotate-180' : ''}`}
+                                className={`w-4 h-4 transition-transform ${expandedCard === card.id ? 'rotate-180' : ''}`}
                                 fill="none" 
                                 stroke="currentColor" 
                                 viewBox="0 0 24 24"
@@ -403,8 +392,8 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
                         </div>
 
                         {/* Checkmark Icon */}
-                        <div className="absolute top-2 right-2 w-7 h-7 md:w-8 md:h-8 bg-gradient-to-br from-[#D1FAE5] to-[#A7F3D0]  rounded-full flex items-center justify-center  shadow-sm">
-                          <svg className="w-3.5 h-3.5 md:w-4 md:h-4 text-[#047857]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div className="absolute top-3 right-3 w-8 h-8 bg-[#D1FAE5] rounded-full flex items-center justify-center shadow-sm">
+                          <svg className="w-4 h-4 text-[#047857]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                           </svg>
                         </div>

@@ -1207,7 +1207,7 @@ export const categoryContent = {
     },
     whyChooseUs: {
       badge: 'Why Choose Us',
-      title: 'Dubai\'s Premier dental Care Centre',
+      title: 'Dubai\'s Premier Dental Care Centre',
       description: 'At RamaCare Polyclinic, we redefine dental care in Dubai. Here’s why patients trust us for their dental treatment:',
       cards: [
         {
@@ -1249,7 +1249,7 @@ export const categoryContent = {
       ]
     },
     about: {
-      badge: 'About Our dental Department',
+      badge: 'About Our Dental Department',
       title: 'Complete Oral Health Solutions',
       description: 'Our dental services encompass preventive care, cosmetic dentistry, restorative treatments, and oral surgery, ensuring your smile is healthy, beautiful, and functional for years to come.',
       paragraphs: [
@@ -1563,8 +1563,8 @@ export const categoryContent = {
       ]
     },
     whyDubai: {
-      badge: 'dental Treatment',
-      title: 'Why dental Care is Important for Dubai’s Fast-Paced Lifestyle ?',
+      badge: 'Dental Treatment',
+      title: 'Why Dental Care is Important for Dubai’s Fast-Paced Lifestyle ?',
       description: 'Dubai’s dynamic, high-paced environment — with long work hours, extreme heat, and irregular routines — often leads to oral health challenges. Residents may experience tooth sensitivity, gum problems, bad breath, and jaw discomfort due to stress, diet, and passive rituals. At RamaCare Polyclinic, we provide comprehensive dental care that goes beyond treating symptoms. Our holistic approach focuses on prevention, restoration, and cosmetic enhancement to ensure lasting oral health and confident smiles.',
       benefits: [
         {
@@ -1611,7 +1611,7 @@ export const categoryContent = {
     },
     programs: {
       badge: 'Dental Care Programs',
-      heading: 'Comprehensive dental Treatment Programs',
+      heading: 'Comprehensive Dental Treatment Programs',
       subtitle: 'Complete dental care programs designed to restore and maintain your oral health with expert care.',
       disclaimer: 'All programs are customized based on your oral health assessment and treatment needs. Duration and procedures may vary.',
       programs: [

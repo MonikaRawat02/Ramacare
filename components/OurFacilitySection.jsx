@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const OurFacilitySection = ({ content }) => {
   const [hoveredImage, setHoveredImage] = useState(null);
@@ -133,10 +134,11 @@ const OurFacilitySection = ({ content }) => {
               onMouseEnter={() => setHoveredImage(image.id)}
               onMouseLeave={() => setHoveredImage(null)}
             >
-              <img
+              <Image
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                fill
+                className="object-cover transition-transform duration-300 group-hover:scale-105"
               />
               {/* Gradient Overlay on Hover */}
               <div
@@ -164,10 +166,11 @@ const OurFacilitySection = ({ content }) => {
               onMouseEnter={() => setHoveredImage(image.id)}
               onMouseLeave={() => setHoveredImage(null)}
             >
-              <img
+              <Image
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                fill
+                className="object-cover transition-transform duration-300 group-hover:scale-105"
               />
               {/* Gradient Overlay on Hover */}
               <div

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 const HeroSection = ({ content }) => {
   const [hoveredStat, setHoveredStat] = useState(null);
@@ -64,16 +65,13 @@ const HeroSection = ({ content }) => {
       <section ref={sectionRef} className="relative w-full min-h-[70vh] sm:min-h-[75vh] md:min-h-[80vh] lg:min-h-[82vh] xl:min-h-[85vh] flex items-center justify-center overflow-hidden font-inter">
         {/* Background Image with Gradient Overlay */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src={backgroundImage}
             alt={backgroundAlt}
-            className="sr-only"
-            loading="eager"
-          />
-          <div 
-            className="absolute inset-0 bg-cover bg-center"
+            fill
+            className="object-cover"
+            priority
             style={{
-              backgroundImage: `url(${backgroundImage})`,
               transform: 'scale(1.05)',
             }}
           />

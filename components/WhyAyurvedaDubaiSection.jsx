@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 import { 
   Droplets, Brain, Sparkles, Activity, Heart, Shield, Zap, 
   Target, Scissors, Stethoscope, Smile, Users, Calendar, 
@@ -64,7 +65,7 @@ const WhyAyurvedaDubaiSection = ({ content }) => {
 
   // Use content benefits if provided, otherwise use defaults
   const benefits = content?.benefits || defaultBenefits;
-  const imagePath = content?.image || '/images/why.jpeg';
+  const [imagePath, setImagePath] = useState(content?.image || '/images/why.jpeg');
   const imageAlt = content?.imageAlt || 'Professional wellness treatment';
   const ctaCard = content?.ctaCard || {
     title: 'Perfect for Dubai Professionals',
@@ -198,12 +199,13 @@ const WhyAyurvedaDubaiSection = ({ content }) => {
             <div className="relative w-full min-w-0 h-full">
               <div className="relative h-full min-h-[500px] lg:min-h-full rounded-2xl overflow-hidden shadow-2xl group w-full">
                 {/* Image fills entire available height */}
-                <img
+                <Image
                   src={imagePath}
                   alt={imageAlt}
-                  className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
-                  onError={(e) => {
-                    e.target.src = 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800';
+                  fill
+                  className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                  onError={() => {
+                    setImagePath('https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800');
                   }}
                 />
                 

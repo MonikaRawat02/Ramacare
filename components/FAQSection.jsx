@@ -97,7 +97,7 @@ const whatsappMessage = "Hi, I’d like to know more.";
   }, [rawFaqs]);
 
   const title = content?.title || 'Frequently Asked Questions – RamaCare Polyclinic';
-  const description = content?.description || 'Everything you need to know about our Ayurvedic treatments and services in Dubai.';
+  const description = content?.description || 'Everything you need to know about our treatments and services in Dubai.';
 
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);

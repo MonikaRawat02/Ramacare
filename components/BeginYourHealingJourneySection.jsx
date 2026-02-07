@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
+import { getAllSubcategories } from '../src/data/subcategoryContent';
 
-const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
+const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmissionSuccess }) => {
   const [formData, setFormData] = useState({
     fullName: '',
     phone: '',
@@ -11,22 +12,149 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
     additionalInfo: '',
     consent: true
   });
+  const [errors, setErrors] = useState({});
+  const [toast, setToast] = useState({ show: false, type: 'success', message: '' });
+  const showToast = (message, type = 'success') => {
+    setToast({ show: true, type, message });
+    setTimeout(() => setToast(prev => ({ ...prev, show: false })), 3000);
+  };
+
+  const treatmentOptions = useMemo(() => {
+    try {
+      const all = getAllSubcategories();
+      const toTitle = (s) => s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+      const stop = new Set(['dubai', 'treatment', 'therapy', 'services', 'laser']);
+      const raw = all.map(({ key }) => {
+        const parts = key.split('-dubai-');
+        if (parts.length !== 2) return null;
+        const category = parts[0];
+        const subSlug = parts[1];
+        const words = subSlug.split('-');
+        const filteredBase = (words.filter(w => !stop.has(w))).length ? words.filter(w => !stop.has(w)) : words;
+        const deduped = filteredBase.filter((w, i) => i === 0 || w !== filteredBase[i - 1]);
+        const labelBase = toTitle(deduped.join(' ')).trim();
+        return { category, subSlug, labelBase, value: `${category}-dubai:${subSlug}` };
+      }).filter(Boolean);
+      const counts = raw.reduce((acc, r) => { acc[r.labelBase] = (acc[r.labelBase] || 0) + 1; return acc; }, {});
+      return raw.map(r => ({ value: r.value, label: counts[r.labelBase] > 1 ? `${r.labelBase} (${toTitle(r.category)})` : r.labelBase }));
+    } catch {
+      return [];
+    }
+  }, []);
+
+  const [treatmentQuery, setTreatmentQuery] = useState('');
+  const [isTreatmentOpen, setIsTreatmentOpen] = useState(false);
+  const filteredOptions = useMemo(
+    () => treatmentOptions.filter(o => o.label.toLowerCase().includes(treatmentQuery.trim().toLowerCase())),
+    [treatmentOptions, treatmentQuery]
+  );
+
+  const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const isValidPhone = (phone) => /^\+?\d{7,15}$/.test(phone);
+
+  const validateField = (name, value, all) => {
+    if (name === 'fullName') {
+      if (!value || value.trim().length < 2) return 'Please enter your full name';
+      if (!/^[A-Za-z\s'-]+$/.test(value.trim())) return 'Name can only include letters, spaces, apostrophes, hyphens';
+      return '';
+    }
+    if (name === 'phone') {
+      if (!value || !isValidPhone(value.trim())) return 'Enter a valid phone (7–15 digits, optional +)';
+      return '';
+    }
+    if (name === 'email') {
+      if (!value || !isValidEmail(value.trim())) return 'Enter a valid email address';
+      return '';
+    }
+    if (name === 'treatment') {
+      if (!value) return 'Select a treatment';
+      return '';
+    }
+    if (name === 'preferredDate') {
+      if (!value) return 'Select a preferred date';
+      const today = new Date();
+      today.setHours(0,0,0,0);
+      const selected = new Date(value);
+      if (selected < today) return 'Date cannot be in the past';
+      return '';
+    }
+    if (name === 'preferredTime') {
+      if (!value) return 'Select a time slot';
+      return '';
+    }
+    if (name === 'additionalInfo') {
+      if (value && value.trim().length > 0 && value.trim().length < 10) return 'Please provide at least 10 characters';
+      return '';
+    }
+    if (name === 'consent') {
+      if (!value) return 'Please provide consent to proceed';
+      return '';
+    }
+    return '';
+  };
 
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
+    let { name, value, type, checked } = e.target;
+    if (name === 'phone') value = value.replace(/[^\d+]/g, '');
+    if (name === 'fullName') value = value.replace(/[^A-Za-z\s'-]/g, '');
     setFormData(prev => ({
       ...prev,
       [name]: type === 'checkbox' ? checked : value
     }));
+    setErrors(prev => {
+      const all = { ...formData, [name]: type === 'checkbox' ? checked : value };
+      const msg = validateField(name, type === 'checkbox' ? checked : value, all);
+      const next = { ...prev };
+      if (msg) next[name] = msg; else delete next[name];
+      return next;
+    });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    
-    if (isModal && onClose) {
-      alert('Appointment request submitted successfully!');
-      onClose();
+    const fields = Object.keys(formData);
+    const newErrors = {};
+    fields.forEach((f) => {
+      const msg = validateField(f, formData[f], formData);
+      if (msg) newErrors[f] = msg;
+    });
+    setErrors(newErrors);
+    if (Object.keys(newErrors).length > 0) return;
+    try {
+      const res = await fetch('/api/appointment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          source: 'BeginYourHealingJourneySection',
+          action: 'request_appointment',
+          ...formData
+        })
+      });
+      if (res.ok) {
+        if (onSubmissionSuccess) {
+          onSubmissionSuccess();
+        } else {
+          showToast('Appointment request submitted successfully!', 'success');
+        }
+        setFormData({
+          fullName: '',
+          phone: '',
+          email: '',
+          treatment: '',
+          preferredDate: '',
+          preferredTime: '',
+          additionalInfo: '',
+          consent: true
+        });
+        setErrors({});
+        if (isModal && onClose) {
+          onClose();
+        }
+      } else {
+        showToast('Submission failed. Please try again.', 'error');
+      }
+    } catch {
+      showToast('Submission failed. Please try again.', 'error');
     }
   };
 
@@ -44,7 +172,6 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
       timeSlots.push(`${hour.toString().padStart(2, '0')}:30`);
     }
   }
-
   return (
     <>
       {/* System Fonts - matching Figma design */}
@@ -55,8 +182,29 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
         }
+        
+        @keyframes toastSlideIn {
+          from { transform: translateX(120%); opacity: 0; }
+          to { transform: translateX(0); opacity: 1; }
+        }
       `}</style>
-      
+      {toast.show && (
+        <div className="fixed top-6 right-6 z-[10000]" style={{ animation: 'toastSlideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1)' }}>
+          <div className={`flex items-center gap-3 px-5 py-3.5 rounded-xl shadow-xl border backdrop-blur-sm transition-all ${
+            toast.type === 'success' 
+              ? 'bg-emerald-600/95 border-emerald-500 text-white' 
+              : 'bg-red-600/95 border-red-500 text-white'
+          }`}>
+            {toast.type === 'success' ? (
+              <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7" /></svg>
+            ) : (
+              <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M6 18L18 6M6 6l12 12" /></svg>
+            )}
+            <span className="font-medium text-sm tracking-wide">{toast.message}</span>
+          </div>
+        </div>
+      )}
+    
       <section 
         id={isModal ? undefined : "appointment"} 
         className="w-full" 
@@ -104,11 +252,11 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
             style={{ 
               color: '#6B7280',
               fontSize: '16px',
-              lineHeight: '1.6',
+              lineHeight: '1.6',  
               fontWeight: 400
             }}
           >
-            Schedule your personalized consultation with our expert Ayurvedic physicians. Same-day appointments available.
+            Schedule your personalized consultation with our expertise. Same-day appointments available.
           </p>
 
           {/* Two Column Layout */}
@@ -477,7 +625,8 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                       onChange={handleChange}
                       placeholder="Enter your full name"
                       required
-                      className="w-full pl-12 pr-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-gray-50 text-gray-900 placeholder-gray-400"
+                      className={`w-full pl-12 pr-4 border rounded-lg focus:outline-none focus:ring-2 focus:border-transparent transition-all bg-gray-50 text-gray-900 placeholder-gray-400 ${errors.fullName ? 'border-red-500 focus:ring-red-500' : 'focus:ring-emerald-500'}`}
+                      pattern="[A-Za-z\s'-]+"
                       style={{ 
                         height: '50px',
                         borderColor: '#E5E7EB',
@@ -486,6 +635,9 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                         fontWeight: 400
                       }}
                     />
+                    {errors.fullName && (
+                      <p className="mt-1 text-red-600 text-xs">{errors.fullName}</p>
+                    )}
                   </div>
                 </div>
 
@@ -521,7 +673,7 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                       onChange={handleChange}
                       placeholder="(+971) XX XXX XXXX"
                       required
-                      className="w-full pl-12 pr-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-gray-50 text-gray-900 placeholder-gray-400"
+                      className={`w-full pl-12 pr-4 border rounded-lg focus:outline-none focus:ring-2 focus:border-transparent transition-all bg-gray-50 text-gray-900 placeholder-gray-400 ${errors.phone ? 'border-red-500 focus:ring-red-500' : 'focus:ring-emerald-500'}`}
                       style={{ 
                         height: '50px',
                         borderColor: '#E5E7EB',
@@ -530,6 +682,9 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                         fontWeight: 400
                       }}
                     />
+                    {errors.phone && (
+                      <p className="mt-1 text-red-600 text-xs">{errors.phone}</p>
+                    )}
                   </div>
                 </div>
 
@@ -565,7 +720,7 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                       onChange={handleChange}
                       placeholder="your.email@example.com"
                       required
-                      className="w-full pl-12 pr-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-gray-50 text-gray-900 placeholder-gray-400"
+                      className={`w-full pl-12 pr-4 border rounded-lg focus:outline-none focus:ring-2 focus:border-transparent transition-all bg-gray-50 text-gray-900 placeholder-gray-400 ${errors.email ? 'border-red-500 focus:ring-red-500' : 'focus:ring-emerald-500'}`}
                       style={{ 
                         height: '50px',
                         borderColor: '#E5E7EB',
@@ -574,6 +729,9 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                         fontWeight: 400
                       }}
                     />
+                    {errors.email && (
+                      <p className="mt-1 text-red-600 text-xs">{errors.email}</p>
+                    )}
                   </div>
                 </div>
 
@@ -589,28 +747,59 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                   >
                     Treatment of Interest <span className="text-red-500">*</span>
                   </label>
-                  <select
-                    name="treatment"
-                    value={formData.treatment}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-gray-50 text-gray-900"
-                    style={{ 
-                      height: '50px',
-                      borderColor: '#E5E7EB',
-                      fontSize: '14px',
-                      borderRadius: '10px',
-                      fontWeight: 400
-                    }}
-                  >
-                    <option value="">Select your treatment</option>
-                    <option value="ayurveda">Ayurveda</option>
-                    <option value="aesthetic-dermatology">Aesthetic Dermatology</option>
-                    <option value="dental">Dental</option>
-                    <option value="physiotherapy">Physiotherapy</option>
-                    <option value="general-physician">General Physician</option>
-                    <option value="facial">Facial</option>
-                  </select>
+                  <div className="relative">
+                    <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                      <svg 
+                        className="w-5 h-5" 
+                        style={{ color: '#9CA3AF' }}
+                        fill="none" 
+                        stroke="currentColor" 
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M10 18a8 8 0 100-16 8 8 0 000 16z" />
+                      </svg>
+                    </div>
+                    <input
+                      type="text"
+                      value={treatmentQuery}
+                      onChange={(e) => { setTreatmentQuery(e.target.value); setIsTreatmentOpen(true); }}
+                      onFocus={() => setIsTreatmentOpen(true)}
+                      onBlur={() => setTimeout(() => setIsTreatmentOpen(false), 150)}
+                      placeholder="Search and select treatment"
+                      className={`w-full pl-12 pr-4 border rounded-lg focus:outline-none focus:ring-2 focus:border-transparent transition-all bg-gray-50 text-gray-900 placeholder-gray-400 ${errors.treatment ? 'border-red-500 focus:ring-red-500' : 'focus:ring-emerald-500'}`}
+                      style={{ 
+                        height: '50px',
+                        borderColor: '#E5E7EB',
+                        fontSize: '14px',
+                        borderRadius: '10px',
+                        fontWeight: 400
+                      }}
+                    />
+                    {isTreatmentOpen && (
+                      <div className="absolute z-10 mt-2 w-full max-h-52 overflow-auto bg-white border border-gray-200 rounded-lg shadow-sm">
+                        {filteredOptions.length === 0 && (
+                          <div className="px-4 py-2 text-gray-500 text-sm">No matches</div>
+                        )}
+                        {filteredOptions.map((opt) => (
+                          <div
+                            key={opt.value}
+                            className="px-4 py-2 text-sm text-gray-900 hover:bg-gray-100 cursor-pointer"
+                            onMouseDown={() => {
+                              setFormData(prev => ({ ...prev, treatment: opt.value }));
+                              setTreatmentQuery(opt.label);
+                              setIsTreatmentOpen(false);
+                              setErrors(prev => { const next = { ...prev }; delete next.treatment; return next; });
+                            }}
+                          >
+                            {opt.label}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                  {errors.treatment && (
+                    <p className="mt-1 text-red-600 text-xs">{errors.treatment}</p>
+                  )}
                 </div>
 
                 {/* Date and Time Row */}
@@ -646,7 +835,7 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                         value={formData.preferredDate}
                         onChange={handleChange}
                         required
-                        className="w-full pl-12 pr-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-gray-50 text-gray-900"
+                        className={`w-full pl-12 pr-4 border rounded-lg focus:outline-none focus:ring-2 focus:border-transparent transition-all bg-gray-50 text-gray-900 ${errors.preferredDate ? 'border-red-500 focus:ring-red-500' : 'focus:ring-emerald-500'}`}
                         style={{ 
                           height: '50px',
                           borderColor: '#E5E7EB',
@@ -655,6 +844,9 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                           fontWeight: 400
                         }}
                       />
+                      {errors.preferredDate && (
+                        <p className="mt-1 text-red-600 text-xs">{errors.preferredDate}</p>
+                      )}
                     </div>
                   </div>
 
@@ -675,7 +867,7 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                       value={formData.preferredTime}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all bg-gray-50 text-gray-900"
+                      className={`w-full px-4 border rounded-lg focus:outline-none focus:ring-2 focus:border-transparent transition-all bg-gray-50 text-gray-900 ${errors.preferredTime ? 'border-red-500 focus:ring-red-500' : 'focus:ring-emerald-500'}`}
                       style={{ 
                         height: '50px',
                         borderColor: '#E5E7EB',
@@ -689,6 +881,9 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                         <option key={time} value={time}>{time}</option>
                       ))}
                     </select>
+                    {errors.preferredTime && (
+                      <p className="mt-1 text-red-600 text-xs">{errors.preferredTime}</p>
+                    )}
                   </div>
                 </div>
 
@@ -710,7 +905,7 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                     onChange={handleChange}
                     rows={4}
                     placeholder="Tell us about your health concerns or questions..."
-                    className="w-full px-4 py-3.5 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all resize-none bg-gray-50 text-gray-900 placeholder-gray-400"
+                    className={`w-full px-4 py-3.5 border rounded-lg focus:outline-none focus:ring-2 focus:border-transparent transition-all resize-none bg-gray-50 text-gray-900 placeholder-gray-400 ${errors.additionalInfo ? 'border-red-500 focus:ring-red-500' : 'focus:ring-emerald-500'}`}
                     style={{ 
                       borderColor: '#E5E7EB',
                       fontSize: '14px',
@@ -719,6 +914,9 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                       lineHeight: '1.6'
                     }}
                   />
+                  {errors.additionalInfo && (
+                    <p className="mt-1 text-red-600 text-xs">{errors.additionalInfo}</p>
+                  )}
                 </div>
 
                 {/* Consent Checkbox */}
@@ -745,6 +943,9 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose }) => {
                   >
                     Yes, send me appointment confirmations, wellness tips, and special offers via WhatsApp
                   </label>
+                  {errors.consent && (
+                    <p className="ml-2 mt-1 text-red-600 text-xs">{errors.consent}</p>
+                  )}
                 </div>
 
                 {/* Buttons */}
