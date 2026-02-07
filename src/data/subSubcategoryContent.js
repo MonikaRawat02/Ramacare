@@ -1919,7 +1919,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
@@ -3273,7 +3273,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
@@ -4709,7 +4709,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
@@ -5429,7 +5429,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
@@ -6163,7 +6163,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
@@ -6873,7 +6873,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
@@ -7561,7 +7561,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
@@ -8293,7 +8293,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
@@ -9017,7 +9017,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
@@ -9719,7 +9719,7 @@ rootCauses: [
             ],
             ctaButtons: {
               primary: {
-                text: 'Book Free Hair Consultation',
+                text: 'Book Free Consultation',
                 icon: 'calendar',
                 link: '#book-consultation'
               },
