@@ -254,6 +254,16 @@ const Header = () => {
         
         .modal-overlay { animation: fadeIn 0.3s ease-out; }
         .modal-content { animation: slideUp 0.3s ease-out; }
+
+        /* Custom breakpoint for 1024px to show hamburger menu */
+        @media (min-width: 1024px) and (max-width: 1279px) {
+          .hide-at-1024 {
+            display: none !important;
+          }
+          .show-at-1024 {
+            display: flex !important;
+          }
+        }
       `}</style>
       
       <header className={`bg-white shadow-sm transition-all duration-300 overflow-visible ${isScrolled ? 'shadow-lg sticky top-0 z-50' : ''}`}>
@@ -294,8 +304,8 @@ const Header = () => {
               </div>
             </div>
 
-            {/* Desktop Navigation - Improved spacing for 1024px screens */}
-            <nav className="hidden lg:flex items-center space-x-1 xl:space-x-1.5 flex-nowrap overflow-visible">
+            {/* Desktop Navigation - Hidden at 1024px, visible at 1280px+ */}
+            <nav className="hidden xl:flex items-center space-x-1 xl:space-x-1.5 flex-nowrap overflow-visible hide-at-1024">
               <Link href="/" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
                 About
               </Link>
@@ -348,13 +358,10 @@ const Header = () => {
               <Link href="/blog" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
                 Blogs
               </Link>
-               
-              {/* <a href="/#gallery" onClick={handleGalleryClick} className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
-                Gallery
-              </a> */}
             </nav>
 
-            <div className="hidden lg:flex items-center space-x-1.5 xl:space-x-2">
+            {/* Desktop Buttons - Hidden at 1024px, visible at 1280px+ */}
+            <div className="hidden xl:flex items-center space-x-1.5 xl:space-x-2 hide-at-1024">
               <button onClick={handleCallNow} className="flex items-center space-x-1 border-2 border-[#1a5f3f] text-[#1a5f3f] rounded-md hover:bg-[#1a5f3f] hover:text-white transition-colors px-2 xl:px-2.5 py-1 text-[11px] xl:text-xs">
                 <Phone className="w-3.5 h-3.5" />
                 <span className="font-medium">Call Now</span>
@@ -364,7 +371,8 @@ const Header = () => {
               </button>
             </div>
 
-            <button className="lg:hidden p-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
+            {/* Hamburger Button - Visible below 1280px (including at 1024px) */}
+            <button className="xl:hidden p-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors show-at-1024" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
               {isMenuOpen ? (
                 <X className="w-5 h-5" />
               ) : (
@@ -373,9 +381,9 @@ const Header = () => {
             </button>
           </div>
 
-          {/* Mobile Menu - Now includes Blog */}
+          {/* Mobile Menu - Visible below 1280px (including at 1024px) */}
           {isMenuOpen && (
-            <div className="lg:hidden pb-3 border-t border-gray-200 animate-in slide-in-from-top-2 duration-300">
+            <div className="xl:hidden pb-3 border-t border-gray-200 animate-in slide-in-from-top-2 duration-300">
               <nav className="flex flex-col space-y-3 mt-3">
                 <div className="font-semibold text-gray-800 text-sm mb-1">Treatment Categories</div>
                 {treatmentCategories.map((category, index) => {
@@ -441,5 +449,4 @@ const Header = () => {
     </>
   );
 };
-
 export default Header;
