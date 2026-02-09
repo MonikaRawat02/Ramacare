@@ -148,10 +148,13 @@ const AdminBlogPost = () => {
 
   const truncateText = (text, maxLength = 120) => {
     if (!text) return '';
-    const strippedText = text.replace(/<[^>]*>/g, '');
-    return strippedText.length > maxLength 
-      ? strippedText.substring(0, maxLength) + '...' 
-      : strippedText;
+    // First decode HTML entities, then strip HTML tags
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = text;
+    const decodedText = tempDiv.textContent || tempDiv.innerText || '';
+    return decodedText.length > maxLength 
+      ? decodedText.substring(0, maxLength) + '...' 
+      : decodedText;
   };
 
   // Generate random engagement stats for demo purposes
@@ -383,7 +386,6 @@ const AdminBlogPost = () => {
                     {filteredPosts.map((post) => {
                       const imageSrc = extractFirstImageSrc(post.content || '');
                       const stats = generateEngagementStats(post._id);
-                      
                       if (viewMode === 'list') {
                         return (
                           <div 
@@ -460,22 +462,19 @@ const AdminBlogPost = () => {
                               <button 
                                 onClick={() => handleCopyLink(post.paramlink)}
                                 className="p-1.5 sm:p-2 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all"
-                                title="Copy Link"
-                              >
+                                title="Copy Link">
                                 <Copy size={14} />
                               </button>
                               <button 
                                 onClick={() => handleDelete(post._id)}
                                 className="p-1.5 sm:p-2 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all"
-                                title="Delete"
-                              >
+                                title="Delete">
                                 <Trash2 size={14} />
                               </button>
                             </div>
                           </div>
                         );
                       }
-
                       return (
                         <div 
                           key={post._id} 

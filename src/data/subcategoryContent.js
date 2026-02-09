@@ -5218,35 +5218,35 @@ export const subcategoryContent = {
       rootCauses: [
   {
     id: 1,
-    title: 'Chronic Muscle Pain – High',
+    title: 'Chronic Muscle Pain ',
     description:
       'Persistent muscle pain and soreness can reduce mobility and affect daily activities, limiting overall quality of life.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Joint Stiffness & Limited Flexibility – Medium',
+    title: 'Joint Stiffness & Limited Flexibility ',
     description:
       'Arthritis, injuries, or inflammation often cause joint stiffness, making movement painful and restricted.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Soft Tissue Injuries – Medium',
+    title: 'Soft Tissue Injuries ',
     description:
       'Tendonitis, sprains, and ligament injuries can slow recovery and impact performance in sports or routine tasks.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Inflammation & Swelling – Medium',
+    title: 'Inflammation & Swelling ',
     description:
       'Localized swelling and inflammation hinder healing and increase discomfort in affected areas.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
       quickFacts: [
@@ -6640,11 +6640,11 @@ comparisonData: [
        rootCauses: [
   {
     id: 1,
-    title: 'Urinary Incontinence – High',
+    title: 'Urinary Incontinence ',
     description:
       'Weak pelvic floor muscles can lead to accidental urine leakage, affecting daily confidence and comfort.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
@@ -6652,7 +6652,7 @@ comparisonData: [
     description:
       'Chronic pelvic pain, pressure, or heaviness may interfere with routine activities and overall well-being.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
@@ -6660,7 +6660,7 @@ comparisonData: [
     description:
       'Childbirth or pelvic surgeries can weaken muscles, causing prolapse, discomfort, or functional limitations.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
@@ -6668,7 +6668,7 @@ comparisonData: [
     description:
       'Pelvic floor weakness may contribute to reduced sensitivity, pain during intercourse, or difficulty with sexual function.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
         quickFacts: [
@@ -7361,35 +7361,35 @@ comparisonData: [
        rootCauses: [
   {
     id: 1,
-    title: 'Reduced Strength & Stability – High',
+    title: 'Reduced Strength & Stability ',
     description:
       'Weak core and muscle imbalances make daily movements like bending, lifting, and reaching difficult and prone to injury.',
     severity: 'High',
-    severityColor: null
+    severityColor:'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Limited Flexibility & Range of Motion – Medium',
+    title: 'Limited Flexibility & Range of Motion ',
     description:
       'Stiff joints and tight muscles reduce overall mobility, making routine activities challenging.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Poor Posture & Balance – Medium',
+    title: 'Poor Posture & Balance ',
     description:
       'Imbalances in muscle coordination can lead to back pain, falls, and postural issues.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Reduced Athletic Performance – Medium',
+    title: 'Reduced Athletic Performance ',
     description:
       'Weak functional strength affects endurance, agility, and overall physical performance.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
         quickFacts: [
@@ -8080,7 +8080,7 @@ comparisonData: [
     description:
       'Scoliosis causes the spine to curve sideways, leading to poor posture, uneven shoulders, and back discomfort.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
@@ -8088,7 +8088,7 @@ comparisonData: [
     description:
       'Spinal curvature can put pressure on muscles and nerves, resulting in persistent back pain and stiffness.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
@@ -8096,7 +8096,7 @@ comparisonData: [
     description:
       'Severe scoliosis may restrict movement, making physical activity, bending, or twisting difficult.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
@@ -8104,7 +8104,7 @@ comparisonData: [
     description:
       'Without proper treatment, scoliosis can worsen over time, potentially leading to spinal deformity or discomfort.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
         quickFacts: [
@@ -8797,35 +8797,35 @@ comparisonData: [
        rootCauses: [
   {
     id: 1,
-    title: 'Chronic Muscle Pain – High',
+    title: 'Chronic Muscle Pain ',
     description:
       'Persistent tightness, knots, and soreness in muscles can affect daily activities and overall comfort.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Limited Mobility & Flexibility – Medium',
+    title: 'Limited Mobility & Flexibility ',
     description:
       'Muscle tension and trigger points restrict movement, making stretching, bending, and exercise difficult.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Post-Injury Muscle Dysfunction – Medium',
+    title: 'Post-Injury Muscle Dysfunction ',
     description:
       'Following injuries, muscles often remain stiff or weak, slowing rehabilitation and recovery.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Reduced Performance & Discomfort – Medium',
+    title: 'Reduced Performance & Discomfort ',
     description:
       'Muscle imbalances and pain can hinder sports performance, posture, and everyday functional movement.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
         quickFacts: [
@@ -13898,7 +13898,7 @@ comparisonData: [
     description:
       'Localized fat in the abdomen, thighs, arms, and hips is difficult to lose with diet and exercise alone.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
@@ -13906,7 +13906,7 @@ comparisonData: [
     description:
       'Poor metabolic rate leads to weight gain, low energy levels, and difficulty maintaining a healthy body shape.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
@@ -13914,7 +13914,7 @@ comparisonData: [
     description:
       'Stress, irregular eating habits, and hormonal changes affect weight management and fat storage.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
@@ -13922,7 +13922,7 @@ comparisonData: [
     description:
       'Poor digestion and lifestyle factors cause bloating and temporary weight fluctuations.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
       quickFacts: [
@@ -14636,35 +14636,35 @@ comparisonData: [
      rootCauses: [
   {
     id: 1,
-    title: 'Unexplained Weight Changes – High',
+    title: 'Unexplained Weight Changes ',
     description:
       'Thyroid dysfunction can cause sudden weight gain or loss, making it difficult to maintain a healthy body balance.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Low Energy & Fatigue – High',
+    title: 'Low Energy & Fatigue ',
     description:
       'Persistent tiredness, weakness, and reduced stamina are common symptoms of thyroid imbalance.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 3,
-    title: 'Hormonal & Metabolic Disturbance – Medium',
+    title: 'Hormonal & Metabolic Disturbance ',
     description:
       'An underactive or overactive thyroid disrupts metabolism, affecting digestion, mood, and overall health.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Hair, Skin & Mood Changes – Medium',
+    title: 'Hair, Skin & Mood Changes ',
     description:
       'Hair fall, dry skin, anxiety, depression, and mood swings are often linked to thyroid disorders.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
       quickFacts: [
@@ -15367,35 +15367,35 @@ comparisonData: [
     rootCauses: [
   {
     id: 1,
-    title: 'Breathing Difficulty & Wheezing – High',
+    title: 'Breathing Difficulty & Wheezing ',
     description:
       'Asthma and COPD cause shortness of breath, wheezing, chest tightness, and frequent coughing that affect daily life.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Frequent Respiratory Infections – Medium',
+    title: 'Frequent Respiratory Infections ',
     description:
       'Weakened lung function increases the risk of repeated chest infections and flare-ups.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Reduced Physical Endurance – Medium',
+    title: 'Reduced Physical Endurance ',
     description:
       'Limited airflow leads to fatigue, low stamina, and difficulty performing routine activities.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Environmental Triggers – Medium',
+    title: 'Environmental Triggers ',
     description:
       'Dust, pollution, smoking, and allergens in the environment worsen asthma and COPD symptoms.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],      
       quickFacts: [
@@ -16111,35 +16111,35 @@ comparisonData: [
      rootCauses: [
   {
     id: 1,
-    title: 'Uncontrolled Blood Sugar Levels – High',
+    title: 'Uncontrolled Blood Sugar Levels',
     description:
       'Fluctuating glucose levels increase the risk of complications affecting the heart, kidneys, nerves, and eyes.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Fatigue & Low Energy – Medium',
+    title: 'Fatigue & Low Energy ',
     description:
       'Poor blood sugar control often causes tiredness, weakness, and reduced daily productivity.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Weight & Metabolic Issues – Medium',
+    title: 'Weight & Metabolic Issues ',
     description:
       'Insulin resistance and metabolic imbalance make weight management difficult.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Risk of Long-Term Complications – High',
+    title: 'Risk of Long-Term Complications ',
     description:
       'Untreated or poorly managed diabetes can lead to nerve damage, slow wound healing, and frequent infections.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   }
 ],
       quickFacts: [
@@ -16836,35 +16836,35 @@ comparisonData: [
      rootCauses: [
   {
     id: 1,
-    title: 'Persistently Elevated Blood Pressure – High',
+    title: 'Persistently Elevated Blood Pressure',
     description:
       'Uncontrolled hypertension increases the risk of heart disease, stroke, kidney damage, and vision problems.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Silent Symptoms – Medium',
+    title: 'Silent Symptoms ',
     description:
       'High blood pressure often shows no early symptoms, making regular monitoring essential.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Stress & Lifestyle Factors – Medium',
+    title: 'Stress & Lifestyle Factors ',
     description:
       'Chronic stress, poor diet, lack of exercise, and smoking contribute to rising blood pressure levels.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Associated Health Conditions – Medium',
+    title: 'Associated Health Conditions ',
     description:
       'Hypertension often coexists with diabetes, obesity, and cardiovascular disorders.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
       quickFacts: [
@@ -17615,35 +17615,35 @@ comparisonData: [
      rootCauses: [
   {
     id: 1,
-    title: 'Lack of Preventive Screening – High',
+    title: 'Lack of Preventive Screening ',
     description:
       'Many health conditions develop silently without early symptoms, delaying diagnosis and treatment.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Busy Lifestyles – Medium',
+    title: 'Busy Lifestyles ',
     description:
       'Work pressure and daily responsibilities often lead people to skip regular health check-ups.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Undetected Lifestyle Disorders – Medium',
+    title: 'Undetected Lifestyle Disorders ',
     description:
       'Conditions like diabetes, hypertension, and cholesterol imbalance may remain unnoticed without routine testing.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Delayed Medical Intervention – Medium',
+    title: 'Delayed Medical Intervention ',
     description:
       'Late detection increases the risk of complications and long-term health issues.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
 
@@ -18328,35 +18328,35 @@ healingJourney: {
     rootCauses: [
   {
     id: 1,
-    title: 'Undetected Medical Conditions – High',
+    title: 'Undetected Medical Conditions ',
     description:
       'Many health issues develop without obvious symptoms, delaying diagnosis and proper treatment.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Irregular Health Monitoring – Medium',
+    title: 'Irregular Health Monitoring ',
     description:
       'Busy schedules often cause people to skip routine physical examinations.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Lifestyle-Related Health Concerns – Medium',
+    title: 'Lifestyle-Related Health Concerns ',
     description:
       'Poor diet, stress, and inactivity increase the risk of chronic conditions.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Delayed Preventive Care – Medium',
+    title: 'Delayed Preventive Care ',
     description:
       'Late detection can lead to complications and higher long-term health risks.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
       quickFacts: [
@@ -19757,7 +19757,7 @@ healingJourney: {
     description:
       'Loss of collagen and elasticity causes wrinkles, sagging skin, and early signs of aging on the face.',
     severity: 'High',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
@@ -19765,7 +19765,7 @@ healingJourney: {
     description:
       'Sun exposure, pigmentation, and stress reduce skin radiance, leaving it tired and uneven.',
     severity: 'Medium',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
@@ -19773,7 +19773,7 @@ healingJourney: {
     description:
       'Reduced tissue density and fat loss create hollow cheeks, under-eye shadows, and sagging contours.',
     severity: 'Medium',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
@@ -19781,7 +19781,7 @@ healingJourney: {
     description:
       'Post-acne scars, minor injuries, or pigmentation slow skin renewal and affect smoothness.',
     severity: 'High',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
@@ -19789,7 +19789,7 @@ healingJourney: {
     description:
       'Poor sleep, pollution, and stress impair skin repair, leading to dullness, fine lines, and loss of youthful glow.',
     severity: 'Medium',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],   
       quickFacts: [
@@ -20423,35 +20423,35 @@ healingJourney: {
      rootCauses: [
   {
     id: 1,
-    title: 'Loss of Natural Glow – High',
+    title: 'Loss of Natural Glow ',
     description:
       'Pollution, stress, and sun exposure make the skin appear dull, tired, and lifeless.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Fine Lines & Early Aging – Medium',
+    title: 'Fine Lines & Early Aging ',
     description:
       'Reduced collagen and elasticity lead to fine lines and visible signs of aging.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Uneven Skin Tone – Medium',
+    title: 'Uneven Skin Tone',
     description:
       'Pigmentation and environmental damage cause a patchy and uneven complexion.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Dehydration & Skin Fatigue – Medium',
+    title: 'Dehydration & Skin Fatigue ',
     description:
       'Lack of deep hydration results in rough texture and lack of radiance.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
       quickFacts: [
@@ -21105,35 +21105,35 @@ healingJourney: {
       rootCauses: [
   {
     id: 1,
-    title: 'Loss of Skin Regeneration – High',
+    title: 'Loss of Skin Regeneration ',
     description:
       'As we age, the skin’s natural repair process slows down, leading to dullness, delayed healing, fine lines, and weakened skin texture.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Acne Scars & Pigmentation – Medium',
+    title: 'Acne Scars & Pigmentation ',
     description:
       'Post-acne marks, sun damage, and inflammation can cause uneven skin tone, stubborn pigmentation, and visible scarring.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Reduced Skin Elasticity – Medium',
+    title: 'Reduced Skin Elasticity ',
     description:
       'Declining collagen and elastin levels result in sagging skin, loss of firmness, and early aging signs.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Environmental Stress Damage – Medium',
+    title: 'Environmental Stress Damage ',
     description:
       'Pollution, UV rays, and daily lifestyle stress weaken the skin barrier, making skin sensitive and prone to damage.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
       quickFacts: [
@@ -21783,35 +21783,34 @@ healingJourney: {
     rootCauses: [
   {
     id: 1,
-    title: 'Lack of Natural Radiance – High',
+    title: 'Lack of Natural Radiance ',
     description:
       'Dead skin buildup and poor oxygen supply make the skin appear dull, tired, and lifeless over time.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Pigmentation & Dark Spots – Medium',
+    title: 'Pigmentation & Dark Spots ',
     description:
       'Sun exposure, aging, and hormonal changes lead to uneven skin tone, melasma, and stubborn dark spots.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Rough Skin Texture – Medium',
-    description:
-      'Environmental damage and dehydration cause roughness, enlarged pores, and uneven skin surface.',
+    title: 'Rough Skin Texture ',
+    description: 'Environmental damage and dehydration cause roughness, enlarged pores, and uneven skin surface.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Early Signs of Aging – Medium',
+    title: 'Early Signs of Aging ',
     description:
       'Reduced collagen production results in fine lines, loss of firmness, and tired-looking skin.',
     severity: 'Medium',
-    severityColor: null
+    severityColor:'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
       quickFacts: [

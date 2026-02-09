@@ -19,7 +19,15 @@ import {
   Heading1,
   Heading2,
   Heading3,
-  Plus
+  Plus,
+  Type,
+  Minus,
+  Hash,
+  Code,
+  Table,
+  Strikethrough,
+  IndentIncrease,
+  IndentDecrease
 } from 'lucide-react';
 
 
@@ -42,6 +50,16 @@ const ModernBlogEditorV1 = ({
   const [showPreview, setShowPreview] = useState(false);
   const [wordCount, setWordCount] = useState(0);
   const [readTime, setReadTime] = useState(0);
+  
+  // Calculate word count and read time
+  const calculateStats = (text) => {
+    const cleanText = text.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+    const words = cleanText ? cleanText.split(/\s+/).length : 0;
+    const time = Math.ceil(words / 200); // Average reading speed is 200 words per minute
+    
+    setWordCount(words);
+    setReadTime(time);
+  };
   const [showToolbar, setShowToolbar] = useState(false);
   const [toast, setToast] = useState(null);
   const [lastSaved, setLastSaved] = useState(null);
@@ -49,6 +67,7 @@ const ModernBlogEditorV1 = ({
   const [isEditingPublishedBlog, setIsEditingPublishedBlog] = useState(!!editBlogId);
   const [showVideoOptions, setShowVideoOptions] = useState(false);
   const [activeFormats, setActiveFormats] = useState(new Set());
+  const [editorFocused, setEditorFocused] = useState(false);
   const editorRef = useRef(null);
   const fileInputRef = useRef(null);
   const videoInputRef = useRef(null);
@@ -149,22 +168,36 @@ const ModernBlogEditorV1 = ({
     };
    
     const handleMouseUp = () => {
-      setTimeout(updateActiveFormats, 10);
+      updateActiveFormats();
     };
    
-    const handleKeyUp = () => {
-      setTimeout(updateActiveFormats, 10);
+    const handleKeyDown = () => {
+      // Update formats after key press with slight delay to ensure DOM is updated
+      setTimeout(updateActiveFormats, 1);
+    };
+    
+    const handleFocus = () => {
+      setEditorFocused(true);
+      updateActiveFormats();
+    };
+    
+    const handleBlur = () => {
+      setEditorFocused(false);
     };
    
     document.addEventListener('selectionchange', handleSelectionChange);
     editorRef.current.addEventListener('mouseup', handleMouseUp);
-    editorRef.current.addEventListener('keyup', handleKeyUp);
+    editorRef.current.addEventListener('keydown', handleKeyDown);
+    editorRef.current.addEventListener('focus', handleFocus);
+    editorRef.current.addEventListener('blur', handleBlur);
    
     return () => {
       document.removeEventListener('selectionchange', handleSelectionChange);
       if (editorRef.current) {
         editorRef.current.removeEventListener('mouseup', handleMouseUp);
-        editorRef.current.removeEventListener('keyup', handleKeyUp);
+        editorRef.current.removeEventListener('keydown', handleKeyDown);
+        editorRef.current.removeEventListener('focus', handleFocus);
+        editorRef.current.removeEventListener('blur', handleBlur);
       }
     };
   }, []);
@@ -184,6 +217,8 @@ const ModernBlogEditorV1 = ({
             setTimeout(() => {
               if (editorRef.current) {
                 editorRef.current.innerHTML = initialContent;
+                // Update content and stats after loading
+                updateContent();
               }
             }, 0);
             const t = Array.isArray(b.topics) && b.topics.length ? b.topics : extractTopics(initialContent);
@@ -205,6 +240,8 @@ const ModernBlogEditorV1 = ({
             setTimeout(() => {
               if (editorRef.current) {
                 editorRef.current.innerHTML = initialContent;
+                // Update content and stats after loading
+                updateContent();
               }
             }, 0);
             const t = Array.isArray(d.topics) && d.topics.length ? d.topics : extractTopics(initialContent);
@@ -400,6 +437,25 @@ const ModernBlogEditorV1 = ({
         };
         return textAlign === commandMap[command];
       }
+      
+      // For indent/outdent commands
+      if (command === 'indent' || command === 'outdent') {
+        // Check if element has margin/padding that suggests indentation
+        const marginLeft = parseInt(window.getComputedStyle(element).marginLeft);
+        return marginLeft > 0;
+      }
+      
+      // For strike-through
+      if (command === 'strikeThrough') {
+        const textDecoration = window.getComputedStyle(element).textDecoration;
+        return textDecoration.includes('line-through');
+      }
+      
+      // For horizontal rule
+      if (command === 'insertHorizontalRule') {
+        const hrElements = editorRef.current.querySelectorAll('hr');
+        return hrElements.length > 0;
+      }
      
       // For standard commands, use queryCommandState
       try {
@@ -422,6 +478,8 @@ const ModernBlogEditorV1 = ({
     if (checkCommandState('bold')) formats.add('bold');
     if (checkCommandState('italic')) formats.add('italic');
     if (checkCommandState('underline')) formats.add('underline');
+    if (checkCommandState('strikeThrough')) formats.add('strikeThrough');
+    if (checkCommandState('insertHorizontalRule')) formats.add('insertHorizontalRule');
    
     // Check headings
     if (checkCommandState('formatBlock', '<h1>')) formats.add('h1');
@@ -432,6 +490,8 @@ const ModernBlogEditorV1 = ({
     if (checkCommandState('justifyLeft')) formats.add('justifyLeft');
     if (checkCommandState('justifyCenter')) formats.add('justifyCenter');
     if (checkCommandState('justifyRight')) formats.add('justifyRight');
+    if (checkCommandState('outdent')) formats.add('outdent');
+    if (checkCommandState('indent')) formats.add('indent');
    
     // Check lists
     if (checkCommandState('insertUnorderedList')) formats.add('insertUnorderedList');
@@ -439,6 +499,10 @@ const ModernBlogEditorV1 = ({
    
     // Check blockquote
     if (checkCommandState('formatBlock', '<blockquote>')) formats.add('blockquote');
+    
+    // Check code formatting
+    if (checkCommandState('formatBlock', '<pre>')) formats.add('pre');
+    if (checkCommandState('fontName')) formats.add('fontName');
    
     setActiveFormats(formats);
   };
@@ -558,7 +622,7 @@ const ModernBlogEditorV1 = ({
             // Find the block-level parent
             while (blockElement && blockElement !== editorRef.current) {
               const tagName = blockElement.tagName?.toLowerCase();
-              if (tagName && ['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'li'].includes(tagName)) {
+              if (tagName && ['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'li', 'pre'].includes(tagName)) {
                 break;
               }
               blockElement = blockElement.parentElement;
@@ -621,6 +685,40 @@ const ModernBlogEditorV1 = ({
           console.warn(`execCommand ${command} with value ${value} returned false`);
         }
       }
+      // Special handling for indent/outdent
+      else if (command === 'indent' || command === 'outdent') {
+        const success = document.execCommand(command, false);
+        if (!success) {
+          console.warn(`execCommand ${command} returned false`);
+          // Fallback: manually adjust margins
+          if (selection && selection.anchorOffset !== undefined) {
+            const selectedText = selection.toString();
+            if (selectedText) {
+              const range = selection.getRangeAt(0);
+              const element = range.startContainer.parentElement;
+              if (element && element.tagName !== 'LI') {
+                const currentMargin = parseInt(window.getComputedStyle(element).marginLeft) || 0;
+                if (command === 'indent') {
+                  element.style.marginLeft = (currentMargin + 20) + 'px';
+                } else {
+                  element.style.marginLeft = Math.max(0, currentMargin - 20) + 'px';
+                }
+              }
+            }
+          }
+        }
+      }
+      // Special handling for horizontal rule
+      else if (command === 'insertHorizontalRule') {
+        document.execCommand('insertHTML', false, '<hr style="margin: 10px 0;">');
+      }
+      // Special handling for strikethrough
+      else if (command === 'strikeThrough') {
+        const success = document.execCommand(command, false);
+        if (!success) {
+          console.warn(`execCommand ${command} returned false`);
+        }
+      }
       // Standard commands
       else {
         const success = value
@@ -667,6 +765,9 @@ const ModernBlogEditorV1 = ({
       lastContentRef.current = htmlContent;
       // Mark typing activity when user types in editor
       markTypingActivity();
+      
+      // Calculate stats with delay to improve performance
+      setTimeout(() => calculateStats(htmlContent), 0);
     }
   };
 
@@ -2191,76 +2292,134 @@ const ModernBlogEditorV1 = ({
       )}
 
       <style jsx global>{`
-        /* Ensure lists and headings work properly in contentEditable */
-        [contenteditable="true"] ul,
-        [contenteditable] ul,
-        [contenteditable="true"] ol,
-        [contenteditable] ol {
-          margin: 1rem 0 !important;
-          padding-left: 2rem !important;
-          list-style-position: outside !important;
-          display: block !important;
+        /* === Content Editor Base Styles === */
+        [contenteditable="true"],
+        [contenteditable] {
+          /* List styles */
+          ul, ol {
+            margin: 1rem 0 !important;
+            padding-left: 2rem !important;
+            list-style-position: outside !important;
+            display: block !important;
+          }
+          
+          ul { list-style-type: disc !important; }
+          ol { list-style-type: decimal !important; }
+          
+          li {
+            display: list-item !important;
+            margin: 0.5rem 0 !important;
+          }
+          
+          /* Heading styles */
+          h1, h2, h3, h4, h5, h6 {
+            display: block !important;
+            font-weight: bold !important;
+            margin: 1rem 0 !important;
+          }
+          
+          h1 { font-size: 2em !important; }
+          h2 { font-size: 1.5em !important; }
+          h3 { font-size: 1.17em !important; }
+          
+          /* Blockquote styles */
+          blockquote {
+            display: block !important;
+            margin: 1rem 0 !important;
+            padding-left: 1rem !important;
+            border-left: 3px solid #9333ea !important;
+          }
+          
+          /* Paragraph styles */
+          p {
+            display: block !important;
+            margin: 1rem 0 !important;
+          }
+          
+          /* Link styles */
+          a {
+            color: #2563eb !important;
+            text-decoration: underline !important;
+            text-decoration-color: #2563eb !important;
+            text-underline-offset: 2px !important;
+            cursor: pointer !important;
+          }
+          
+          a:hover {
+            color: #1d4ed8 !important;
+            text-decoration-color: #1d4ed8 !important;
+          }
+          
+          a:visited {
+            color: #7c3aed !important;
+            text-decoration-color: #7c3aed !important;
+          }
         }
-       
-        [contenteditable="true"] ul {
-          list-style-type: disc !important;
+        
+        /* === Prose Override Styles === */
+        .prose [contenteditable="true"],
+        .prose [contenteditable] {
+          ul, ol {
+            list-style-type: inherit !important;
+            padding-left: 2rem !important;
+            margin: 1rem 0 !important;
+          }
+          
+          li { display: list-item !important; }
         }
-       
-        [contenteditable="true"] ol {
-          list-style-type: decimal !important;
+        
+        /* === Preview Content Styles === */
+        .preview-content {
+          ul, ol {
+            margin: 1rem 0 !important;
+            padding-left: 2rem !important;
+            list-style-position: outside !important;
+            display: block !important;
+          }
+          
+          ul { list-style-type: disc !important; }
+          ol { list-style-type: decimal !important; }
+          
+          li {
+            display: list-item !important;
+            margin: 0.5rem 0 !important;
+          }
+          
+          h1, h2, h3, h4, h5, h6 {
+            display: block !important;
+            font-weight: bold !important;
+            margin: 1rem 0 !important;
+          }
+          
+          h1 { font-size: 2em !important; }
+          h2 { font-size: 1.5em !important; }
+          h3 { font-size: 1.17em !important; }
+          
+          blockquote {
+            display: block !important;
+            margin: 1rem 0 !important;
+            padding-left: 1rem !important;
+            border-left: 3px solid #9333ea !important;
+          }
+          
+          p {
+            display: block !important;
+            margin: 1rem 0 !important;
+          }
         }
-       
-        [contenteditable="true"] li,
-        [contenteditable] li {
-          display: list-item !important;
-          margin: 0.5rem 0 !important;
+        
+        /* === Prose Override for Preview === */
+        .preview-content.prose {
+          ul, ol {
+            list-style-type: inherit !important;
+            padding-left: 2rem !important;
+            margin: 1rem 0 !important;
+          }
+          
+          li { display: list-item !important; }
         }
-       
-        [contenteditable="true"] h1,
-        [contenteditable] h1,
-        [contenteditable="true"] h2,
-        [contenteditable] h2,
-        [contenteditable="true"] h3,
-        [contenteditable] h3 {
-          display: block !important;
-          font-weight: bold !important;
-          margin: 1rem 0 !important;
-        }
-       
-        [contenteditable="true"] h1 { font-size: 2em !important; }
-        [contenteditable="true"] h2 { font-size: 1.5em !important; }
-        [contenteditable="true"] h3 { font-size: 1.17em !important; }
-       
-        [contenteditable="true"] blockquote,
-        [contenteditable] blockquote {
-          display: block !important;
-          margin: 1rem 0 !important;
-          padding-left: 1rem !important;
-          border-left: 3px solid #9333ea !important;
-        }
-       
-        [contenteditable="true"] p,
-        [contenteditable] p {
-          display: block !important;
-          margin: 1rem 0 !important;
-        }
-       
-        /* Override prose styles that might interfere */
-        .prose [contenteditable="true"] ul,
-        .prose [contenteditable] ul,
-        .prose [contenteditable="true"] ol,
-        .prose [contenteditable] ol {
-          list-style-type: inherit !important;
-          padding-left: 2rem !important;
-          margin: 1rem 0 !important;
-        }
-       
-        .prose [contenteditable="true"] li,
-        .prose [contenteditable] li {
-          display: list-item !important;
-        }
-       
-        /* Ensure remove buttons are always visible */
+        
+        /* === Media Container Styles === */
         .image-container,
         .video-container {
           position: relative !important;
@@ -2269,7 +2428,7 @@ const ModernBlogEditorV1 = ({
           display: block !important;
           text-align: center !important;
         }
-       
+        
         .image-container img,
         .video-container video,
         .video-container iframe {
@@ -2282,7 +2441,7 @@ const ModernBlogEditorV1 = ({
           border-radius: 12px !important;
           object-fit: cover !important;
         }
-
+        
         @media (max-width: 768px) {
           .image-container img,
           .video-container video,
@@ -2291,7 +2450,7 @@ const ModernBlogEditorV1 = ({
             max-height: 280px !important;
           }
         }
-       
+        
         .image-container button[data-remove-media="true"],
         .video-container button[data-remove-media="true"] {
           position: absolute !important;
@@ -2300,18 +2459,18 @@ const ModernBlogEditorV1 = ({
           visibility: visible !important;
           pointer-events: auto !important;
         }
-       
+        
         /* Ensure prose class doesn't hide buttons */
         .prose .image-container,
         .prose .video-container {
           overflow: visible !important;
         }
-       
+        
         .prose .image-container button,
         .prose .video-container button {
           z-index: 99999 !important;
         }
-       
+        
         /* Hide remove buttons in preview section */
         .preview-content .image-container button[data-remove-media="true"],
         .preview-content .video-container button[data-remove-media="true"],
@@ -2320,111 +2479,147 @@ const ModernBlogEditorV1 = ({
           visibility: hidden !important;
           opacity: 0 !important;
         }
-       
-        /* Style links to be visually distinct */
-        .prose a,
-        [contenteditable="true"] a,
-        [contenteditable] a {
-          color: #2563eb !important;
-          text-decoration: underline !important;
-          text-decoration-color: #2563eb !important;
-          text-underline-offset: 2px !important;
-          cursor: pointer !important;
-        }
-       
-        .prose a:hover,
-        [contenteditable="true"] a:hover,
-        [contenteditable] a:hover {
-          color: #1d4ed8 !important;
-          text-decoration-color: #1d4ed8 !important;
-        }
-       
-        .prose a:visited,
-        [contenteditable="true"] a:visited,
-        [contenteditable] a:visited {
-          color: #7c3aed !important;
-          text-decoration-color: #7c3aed !important;
-        }
         
-        /* Force light theme inside editor */
+        /* === Force Light Theme === */
         .force-light,
         .force-light * {
           color-scheme: light !important;
         }
+        
         .force-light [contenteditable="true"],
         .force-light [contenteditable] {
           color: #171717 !important;
           background-color: #ffffff !important;
         }
+        
         .force-light .text-gray-600,
         .force-light .text-gray-700,
         .force-light .text-gray-900 {
           color: #171717 !important;
         }
+        
         .force-light .bg-gray-50,
         .force-light .bg-white {
           background-color: #ffffff !important;
         }
         
-        /* Preview Content Styles - Ensure lists and formatting display correctly */
-        .preview-content ul,
-        .preview-content ol {
-          margin: 1rem 0 !important;
-          padding-left: 2rem !important;
-          list-style-position: outside !important;
-          display: block !important;
+        /* === Toolbar Responsive Styles === */
+        .toolbar-responsive {
+          flex-wrap: wrap;
         }
-       
-        .preview-content ul {
-          list-style-type: disc !important;
+        
+        .toolbar-responsive > * {
+          margin-bottom: 0.25rem;
         }
-       
-        .preview-content ol {
-          list-style-type: decimal !important;
+        
+        @media (max-width: 640px) {
+          .toolbar-responsive {
+            gap: 0.25rem;
+          }
+          
+          .toolbar-button {
+            padding: 0.25rem;
+            margin: 0 0.125rem;
+          }
+          
+          .toolbar-divider {
+            height: 1rem;
+            margin: 0 0.125rem;
+          }
         }
-       
-        .preview-content li {
-          display: list-item !important;
-          margin: 0.5rem 0 !important;
+        
+        /* === Hashtag Section Styles === */
+        .hashtags-section {
+          padding-top: 0.5rem;
+          padding-bottom: 0.25rem;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
         }
-       
-        .preview-content h1,
-        .preview-content h2,
-        .preview-content h3,
-        .preview-content h4,
-        .preview-content h5,
-        .preview-content h6 {
-          display: block !important;
-          font-weight: bold !important;
-          margin: 1rem 0 !important;
+        
+        @media (min-width: 640px) {
+          .hashtags-section {
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
         }
-       
-        .preview-content h1 { font-size: 2em !important; }
-        .preview-content h2 { font-size: 1.5em !important; }
-        .preview-content h3 { font-size: 1.17em !important; }
-       
-        .preview-content blockquote {
-          display: block !important;
-          margin: 1rem 0 !important;
-          padding-left: 1rem !important;
-          border-left: 3px solid #9333ea !important;
+        
+        .hashtags-container {
+          gap: 0.25rem;
+          margin-bottom: 0.25rem;
         }
-       
-        .preview-content p {
-          display: block !important;
-          margin: 1rem 0 !important;
+        
+        .hashtag-tag {
+          padding: 0.125rem 0.25rem;
+          margin-right: 0.125rem;
+          margin-bottom: 0.125rem;
         }
-       
-        /* Override prose defaults that might hide lists */
-        .preview-content.prose ul,
-        .preview-content.prose ol {
-          list-style-type: inherit !important;
-          padding-left: 2rem !important;
-          margin: 1rem 0 !important;
+        
+        .hashtag-input-section {
+          gap: 0.25rem;
         }
-       
-        .preview-content.prose li {
-          display: list-item !important;
+        
+        @media (max-width: 768px) {
+          .hashtags-section {
+            padding-top: 0.25rem;
+            padding-bottom: 0.125rem;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+          }
+          
+          .hashtags-container {
+            gap: 0.125rem;
+            margin-bottom: 0.125rem;
+          }
+          
+          .hashtag-tag {
+            padding: 0.0625rem 0.125rem;
+            margin-right: 0.0625rem;
+            margin-bottom: 0.0625rem;
+          }
+          
+          .hashtag-input-section {
+            gap: 0.125rem;
+          }
+        }
+        
+        @media (max-width: 640px) {
+          .hashtags-section {
+            padding-top: 0.125rem;
+            padding-bottom: 0.0625rem;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+          }
+          
+          .hashtags-label {
+            margin-bottom: 0.0625rem;
+            font-size: 0.75rem;
+          }
+          
+          .hashtags-container {
+            gap: 0.0625rem;
+            margin-bottom: 0.0625rem;
+          }
+          
+          .hashtag-tag {
+            padding: 0.03125rem 0.125rem;
+            font-size: 0.75rem;
+            gap: 0.0625rem;
+            margin-right: 0.03125rem;
+            margin-bottom: 0.03125rem;
+          }
+          
+          .hashtag-input-section {
+            gap: 0.0625rem;
+          }
+          
+          .hashtag-input {
+            padding: 0.0625rem 0.125rem;
+            font-size: 0.75rem;
+          }
+          
+          .hashtag-add-btn {
+            padding: 0.0625rem 0.125rem;
+          }
         }
       `}</style>
 
@@ -2495,9 +2690,9 @@ const ModernBlogEditorV1 = ({
           </div>
         </div>
 
-        <div className="flex-1 overflow-hidden flex flex-col md:flex-row relative min-h-0">
+        <div className="flex-grow overflow-hidden flex flex-col md:flex-row relative min-h-0">
           {/* Main Editor */}
-          <div className={`flex-1 flex flex-col min-h-0 ${showPreview ? 'md:w-1/2' : 'w-full'} transition-all duration-300 relative`} style={{ overflow: 'visible' }}>
+          <div className={`flex-grow flex flex-col min-h-0 ${showPreview ? 'md:w-1/2' : 'w-full'} transition-all duration-300 relative`} style={{ overflow: 'visible' }}>
             {/* Floating Toolbar in Corner */}
             <div className="absolute top-1 right-1 sm:top-2 sm:right-2 md:top-3 md:right-3 lg:top-4 lg:right-4 z-[100]" style={{ position: 'absolute', pointerEvents: 'auto' }}>
               <div className="relative">
@@ -2514,7 +2709,7 @@ const ModernBlogEditorV1 = ({
                 {/* Expanded Toolbar */}
                 {showToolbar && (
                   <div
-                    className="absolute top-10 sm:top-12 md:top-14 right-0 bg-white rounded-lg sm:rounded-xl shadow-2xl border-2 border-gray-300 p-2 sm:p-3 z-[100] min-w-[180px]"
+                    className="absolute top-10 sm:top-12 md:top-14 right-0 bg-white rounded-lg sm:rounded-xl shadow-2xl border-2 border-gray-300 p-2 sm:p-3 z-[100] min-w-[180px] max-h-[300px] overflow-y-auto"
                     style={{
                       position: 'absolute',
                       pointerEvents: 'auto',
@@ -2563,7 +2758,7 @@ const ModernBlogEditorV1 = ({
                             setShowToolbar(false);
                             return;
                           }
-                         
+                                         
                           const url = prompt('Enter link URL:', 'https://');
                           if (url && url.trim()) {
                             if (!url.startsWith('http://') && !url.startsWith('https://')) {
@@ -2580,7 +2775,7 @@ const ModernBlogEditorV1 = ({
                       >
                         <LinkIcon className="w-4 h-4 text-current" />
                       </button>
-                     
+                                      
                       {/* Text Format - Icons only */}
                       <button
                         onClick={(e) => {
@@ -2633,7 +2828,56 @@ const ModernBlogEditorV1 = ({
                       >
                         <Underline className="w-4 h-4 text-current" />
                       </button>
-                     
+                                      
+                      {/* Advanced Formatting */}
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          formatText('strikeThrough');
+                          setShowToolbar(false);
+                        }}
+                        className={`p-2.5 rounded-lg transition-colors flex items-center justify-center ${
+                          activeFormats.has('strikeThrough')
+                            ? 'bg-cyan-100 text-cyan-700'
+                            : 'hover:bg-gray-100 text-gray-700 hover:text-gray-900'
+                        }`}
+                        title="Strikethrough"
+                        type="button"
+                      >
+                        <Strikethrough className="w-4 h-4 text-current" />
+                      </button>
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          formatText('formatBlock', '<pre>');
+                          setShowToolbar(false);
+                        }}
+                        className={`p-2.5 rounded-lg transition-colors flex items-center justify-center ${
+                          activeFormats.has('pre')
+                            ? 'bg-cyan-100 text-cyan-700'
+                            : 'hover:bg-gray-100 text-gray-700 hover:text-gray-900'
+                        }`}
+                        title="Code Block"
+                        type="button"
+                      >
+                        <Code className="w-4 h-4 text-current" />
+                      </button>
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          formatText('insertHorizontalRule');
+                          setShowToolbar(false);
+                        }}
+                        className="p-2.5 hover:bg-gray-100 rounded-lg transition-colors flex items-center justify-center text-gray-700 hover:text-gray-900"
+                        title="Horizontal Rule"
+                        type="button"
+                      >
+                        <Minus className="w-4 h-4 text-current" />
+                      </button>
+                                      
                       {/* Headings - Icons only */}
                       <button
                         onClick={(e) => {
@@ -2686,7 +2930,7 @@ const ModernBlogEditorV1 = ({
                       >
                         <Heading3 className="w-4 h-4 text-current" />
                       </button>
-                     
+                                      
                       {/* Alignment - Icons only */}
                       <button
                         onClick={(e) => {
@@ -2739,7 +2983,35 @@ const ModernBlogEditorV1 = ({
                       >
                         <AlignRight className="w-4 h-4 text-current" />
                       </button>
-                     
+                                      
+                      {/* Indentation */}
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          formatText('indent');
+                          setShowToolbar(false);
+                        }}
+                        className="p-2.5 hover:bg-gray-100 rounded-lg transition-colors flex items-center justify-center text-gray-700 hover:text-gray-900"
+                        title="Indent"
+                        type="button"
+                      >
+                        <IndentIncrease className="w-4 h-4 text-current" />
+                      </button>
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          formatText('outdent');
+                          setShowToolbar(false);
+                        }}
+                        className="p-2.5 hover:bg-gray-100 rounded-lg transition-colors flex items-center justify-center text-gray-700 hover:text-gray-900"
+                        title="Outdent"
+                        type="button"
+                      >
+                        <IndentDecrease className="w-4 h-4 text-current" />
+                      </button>
+                                      
                       {/* Lists & More - Icons only */}
                       <button
                         onClick={(e) => {
@@ -2799,7 +3071,7 @@ const ModernBlogEditorV1 = ({
             </div>
 
             {/* Editor Content */}
-            <div className="flex-1 overflow-y-auto overflow-x-hidden p-3 sm:p-4 md:p-6 pr-12 sm:pr-14 md:pr-6 min-h-0">
+            <div className="flex-grow overflow-y-auto overflow-x-hidden p-3 sm:p-4 md:p-6 pr-12 sm:pr-14 md:pr-6 min-h-0 flex flex-col">
               {/* Story/Content Editor */}
               <div className="mb-3 sm:mb-4">
                 <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-1.5 sm:mb-2">Story</label>
@@ -2807,7 +3079,7 @@ const ModernBlogEditorV1 = ({
 
               {/* Comprehensive Toolbar - All in One Line */}
               <div className="mb-3 sm:mb-4 p-2 sm:p-3 bg-gray-50 rounded-lg border border-gray-200">
-                <div className="flex items-center gap-1 sm:gap-2 flex-wrap">
+                <div className="flex items-center gap-1 sm:gap-2 flex-wrap toolbar-responsive">
                   {/* Text Formatting */}
                   <button
                     onClick={(e) => {
@@ -3004,8 +3276,81 @@ const ModernBlogEditorV1 = ({
                 </button>
                  
                 <div className="w-px h-5 sm:h-6 bg-gray-300 mx-0.5 sm:mx-1" />
-                 
-                  {/* Media */}
+                                
+                {/* Advanced Formatting */}
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    formatText('strikeThrough');
+                  }}
+                  className={`p-1.5 sm:p-2 rounded-lg transition-colors border toolbar-button ${
+                    activeFormats.has('strikeThrough')
+                      ? 'bg-cyan-100 border-cyan-300 text-cyan-700'
+                      : 'hover:bg-white border-transparent hover:border-gray-300'
+                  }`}
+                  title="Strikethrough"
+                  type="button"
+                >
+                  <Strikethrough className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    formatText('formatBlock', '<pre>');
+                  }}
+                  className={`p-1.5 sm:p-2 rounded-lg transition-colors border toolbar-button ${
+                    activeFormats.has('pre')
+                      ? 'bg-cyan-100 border-cyan-300 text-cyan-700'
+                      : 'hover:bg-white border-transparent hover:border-gray-300'
+                  }`}
+                  title="Code Block"
+                  type="button"
+                >
+                  <Code className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    formatText('insertHorizontalRule');
+                  }}
+                  className="p-1.5 sm:p-2 hover:bg-white rounded-lg transition-colors border border-transparent hover:border-gray-300 toolbar-button"
+                  title="Horizontal Rule"
+                  type="button"
+                >
+                  <Minus className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                </button>
+                                
+                <div className="w-px h-5 sm:h-6 bg-gray-300 mx-0.5 sm:mx-1 toolbar-divider" />
+                                
+                {/* Indentation */}
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    formatText('indent');
+                  }}
+                  className="p-1.5 sm:p-2 hover:bg-white rounded-lg transition-colors border border-transparent hover:border-gray-300 toolbar-button"
+                  title="Indent"
+                  type="button"
+                >
+                  <IndentIncrease className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    formatText('outdent');
+                  }}
+                  className="p-1.5 sm:p-2 hover:bg-white rounded-lg transition-colors border border-transparent hover:border-gray-300 toolbar-button"
+                  title="Outdent"
+                  type="button"
+                >
+                  <IndentDecrease className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                </button>
+                                
+                <div className="w-px h-5 sm:h-6 bg-gray-300 mx-0.5 sm:mx-1 toolbar-divider" />
+                                
+                {/* Media */}
                 <button
                   onClick={() => fileInputRef.current?.click()}
                     className="p-1.5 sm:p-2 hover:bg-white rounded-lg transition-colors border border-transparent hover:border-gray-300"
@@ -3083,6 +3428,10 @@ const ModernBlogEditorV1 = ({
                 onInput={updateContent}
                 onPaste={handlePaste}
                 onBlur={updateContent}
+                onKeyUp={() => {
+                  // Update active formats after typing to ensure toolbar reflects current state
+                  setTimeout(updateActiveFormats, 0);
+                }}
                 onKeyDown={() => {
                   // Ensure cursor is visible after key presses
                   if (editorRef.current) {
@@ -3121,53 +3470,55 @@ const ModernBlogEditorV1 = ({
                 suppressContentEditableWarning={true}
               />
 
-              {/* Topics */}
-              <div className="mt-6 sm:mt-8 pt-4 sm:pt-6 border-t border-gray-200 pb-4 sm:pb-6">
-                <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-2">
-                  #Hashtags
-                </label>
-                <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-2 sm:mb-3">
-                  {topics.map((topic) => (
-                    <span
-                      key={topic}
-                      className="inline-flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-0.5 sm:py-1 bg-gradient-to-r from-cyan-100 to-teal-100 text-cyan-700 rounded-full text-xs sm:text-sm font-medium"
-                    >
-                      #{topic}
-                      <button
-                        onClick={() => removeTopic(topic)}
-                        className="hover:text-cyan-900"
-                      >
-                        <X className="w-3 h-3" />
-                      </button>
-                    </span>
-                  ))}
-                </div>
-                <div className="flex gap-1.5 sm:gap-2">
-                  <input
-                    type="text"
-                    placeholder="Add a topic..."
-                    value={newTopic}
-                    onChange={(e) => setNewTopic(e.target.value)}
-                    onKeyPress={(e) => {
-                      if (e.key === 'Enter') {
-                        e.preventDefault();
-                        addTopic();
-                      }
-                    }}
-                    className="flex-1 px-3 sm:px-4 py-1.5 sm:py-2 text-sm sm:text-base border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500"
-                  />
-                  <button
-                    onClick={addTopic}
-                    className="px-3 sm:px-4 py-1.5 sm:py-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-lg hover:from-cyan-600 hover:to-teal-600 transition-all flex-shrink-0"
+
+            </div>
+
+            {/* Topics */}
+            <div className="px-3 sm:px-4 pt-2 border-t border-gray-200 pb-1 sm:pb-2 hashtags-section">
+              <label className="block text-xs sm:text-sm font-semibold text-gray-700 mb-1 hashtags-label">
+                #Hashtags
+              </label>
+              <div className="flex flex-wrap gap-0.5 sm:gap-2 mb-1 sm:mb-2 hashtags-container">
+                {topics.map((topic) => (
+                  <span
+                    key={topic}
+                    className="inline-flex items-center gap-0.5 sm:gap-2 px-1 sm:px-3 py-0.25 sm:py-1 bg-gradient-to-r from-cyan-100 to-teal-100 text-cyan-700 rounded-full text-xs font-medium hashtag-tag"
                   >
-                    <Plus className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                  </button>
-                </div>
+                    #{topic}
+                    <button
+                      onClick={() => removeTopic(topic)}
+                      className="hover:text-cyan-900"
+                    >
+                      <X className="w-2 h-2 sm:w-3 sm:h-3" />
+                    </button>
+                  </span>
+                ))}
+              </div>
+              <div className="flex gap-0.5 sm:gap-2 hashtag-input-section">
+                <input
+                  type="text"
+                  placeholder="Add a topic..."
+                  value={newTopic}
+                  onChange={(e) => setNewTopic(e.target.value)}
+                  onKeyPress={(e) => {
+                    if (e.key === 'Enter') {
+                      e.preventDefault();
+                      addTopic();
+                    }
+                  }}
+                  className="flex-1 px-1.5 sm:px-4 py-0.5 sm:py-2 text-xs sm:text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 hashtag-input"
+                />
+                <button
+                  onClick={addTopic}
+                  className="px-1.5 sm:px-4 py-0.5 sm:py-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-lg hover:from-cyan-600 hover:to-teal-600 transition-all flex-shrink-0 hashtag-add-btn"
+                >
+                  <Plus className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
+                </button>
               </div>
             </div>
 
             {/* Footer Stats */}
-            <div className="p-3 sm:p-4 border-t border-gray-200 bg-gray-50 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0 flex-shrink-0">
+            <div className="p-2 sm:p-3 border-t border-gray-200 bg-gray-50 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0 flex-shrink-0">
               <div className="flex items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600 flex-wrap">
                 <span>{wordCount} words</span>
                 <span>{readTime} min read</span>
@@ -3192,7 +3543,7 @@ const ModernBlogEditorV1 = ({
                 >
                   <Send className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                   <span className="hidden sm:inline">{isPublishing ? 'Publishing...' : 'Publish'}</span>
-                  <span className="sm:hidden">{isPublishing ? '...' : 'Pub'}</span>
+                  <span className="sm:hidden">{isPublishing ? '...' : 'Publish'}</span>
                 </button>
               </div>
             </div>
@@ -3221,20 +3572,6 @@ const ModernBlogEditorV1 = ({
                     wordBreak: 'break-word',
                   }}
                 />
-                {topics.length > 0 && (
-                  <div className="mt-6 sm:mt-8 pt-4 sm:pt-6 border-t border-gray-200">
-                    <div className="flex flex-wrap gap-1.5 sm:gap-2">
-                      {topics.map((topic) => (
-                        <span
-                          key={topic}
-                          className="px-2 sm:px-3 py-1 bg-gradient-to-r from-cyan-100 to-teal-100 text-cyan-700 rounded-full text-xs sm:text-sm font-medium"
-                        >
-                          #{topic}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )}
               </article>
             </div>
           )}

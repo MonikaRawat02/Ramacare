@@ -11734,35 +11734,35 @@ rootCauses: [
     title: 'Weak Hair Follicles',
     description: 'Reduced growth factors and poor scalp nourishment lead to thinning hair and excessive shedding.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
     title: 'Poor Scalp Blood Circulation',
     description: 'Limited blood flow restricts oxygen and nutrient supply to hair roots, slowing growth.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
     title: 'Hormonal & Genetic Factors',
     description: 'Conditions such as androgenetic alopecia affect the hair growth cycle and cause progressive hair loss.',
     severity: 'High',
-    severityColor: null
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 4,
     title: 'Stress & Lifestyle Imbalance',
     description: 'Stress, lack of sleep, and poor nutrition contribute to hair fall and reduced hair density.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 5,
     title: 'Delayed Healing & Regrowth',
     description: 'A weakened scalp environment slows follicle repair and new hair formation.',
     severity: 'Medium',
-    severityColor: null
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   }
 ],
 
@@ -15746,35 +15746,35 @@ solutionIntro: {
      rootCauses: [
   {
     id: 1,
-    title: 'Pitta Dosha Aggravation — High',
+    title: 'Pitta Dosha Aggravation ',
     description: 'Excess internal heat may increase pigmentation, dark moles, redness, inflammation, and changes in mole appearance.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Vata Imbalance — Medium',
+    title: 'Vata Imbalance ',
     description: 'Can cause dryness, rough skin texture, uneven healing, and premature skin aging around moles.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
-    title: 'Kapha Imbalance — Medium',
+    title: 'Kapha Imbalance ',
     description: 'Leads to raised, thickened, or slow-growing moles due to excess tissue buildup and sluggish skin metabolism.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
-    title: 'Ama Accumulation (Toxins) — High',
+    title: 'Ama Accumulation (Toxins) ',
     description: 'Digestive toxins can impair skin detoxification, leading to delayed healing and recurrent skin concerns after mole treatment.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
-    title: 'Stress & Hormonal Imbalance — Medium',
+    title: 'Stress & Hormonal Imbalance ',
     description: 'May trigger changes in skin pigmentation, enlargement of existing moles, or formation of new moles.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
@@ -16413,35 +16413,35 @@ solutionIntro: {
      rootCauses: [
   {
     id: 1,
-    title: 'Pitta Dosha Aggravation — High',
+    title: 'Pitta Dosha Aggravation ',
     description: 'Excess internal heat creates an environment where fungal infections thrive, leading to nail discoloration, burning sensation, inflammation, and discomfort.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Vata Imbalance — Medium',
+    title: 'Vata Imbalance ',
     description: 'Causes dryness, brittle nails, cracking, and slow nail growth, making nails more vulnerable to fungal infection.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
-    title: 'Kapha Imbalance — Medium',
+    title: 'Kapha Imbalance ',
     description: 'Results in thickened nails, moisture retention, nail bed debris, and slow healing, which can worsen fungal growth.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
-    title: 'Ama Accumulation (Toxins) — High',
+    title: 'Ama Accumulation (Toxins) ',
     description: 'Poor digestion and toxin buildup weaken immunity, allowing fungal infections to persist and recur.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
-    title: 'Stress & Immune Imbalance — Medium',
+    title: 'Stress & Immune Imbalance ',
     description: 'Chronic stress lowers immune response, increasing the risk of recurrent nail fungus in Dubai.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
@@ -17748,35 +17748,35 @@ solutionIntro: {
     rootCauses: [
   {
     id: 1,
-    title: 'Excess Melanin Production — High',
+    title: 'Excess Melanin Production ',
     description: 'Overproduction of melanin leads to dark patches, uneven tone, and persistent pigmentation.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Friction & Hair Removal Methods — Medium',
+    title: 'Friction & Hair Removal Methods ',
     description: 'Frequent shaving, waxing, or tight clothing can cause irritation and gradual darkening of sensitive skin areas.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
-    title: 'Hormonal Changes — Medium',
+    title: 'Hormonal Changes ',
     description: 'Hormonal fluctuations during puberty, pregnancy, or medical conditions can trigger pigmentation issues.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
-    title: 'Sun & Heat Exposure — High',
+    title: 'Sun & Heat Exposure ',
     description: 'Dubai’s strong sun and heat can worsen pigmentation if skin is not adequately protected.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
-    title: 'Delayed Skin Renewal — Medium',
+    title: 'Delayed Skin Renewal ',
     description: 'Slow cell turnover prevents pigmented skin from shedding naturally, making discoloration long-lasting.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
@@ -18413,35 +18413,35 @@ solutionIntro: {
   rootCauses: [
   {
     id: 1,
-    title: 'Pigmentation Imbalance — High',
+    title: 'Pigmentation Imbalance ',
     description: 'Excess melanin or abnormal blood vessel formation can cause dark, red, or unevenly colored birthmarks that become more noticeable with age.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Skin Tissue Imbalance — Medium',
+    title: 'Skin Tissue Imbalance ',
     description: 'Certain birthmarks involve thickened or raised skin, leading to uneven texture and cosmetic concern.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
-    title: 'Circulation & Healing Issues — Medium',
+    title: 'Circulation & Healing Issues ',
     description: 'Poor blood circulation or slow skin regeneration can affect how birthmarks respond to natural fading or treatment.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
-    title: 'Hormonal Changes — Medium',
+    title: 'Hormonal Changes ',
     description: 'Hormonal shifts during growth, puberty, or pregnancy may cause birthmarks to darken or enlarge.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 5,
-    title: 'Sun Exposure & Environmental Factors — Medium',
+    title: 'Sun Exposure & Environmental Factors ',
     description: 'Prolonged sun exposure can intensify pigmentation and make birthmarks more prominent over time.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
@@ -19142,35 +19142,35 @@ solutionIntro: {
   rootCauses: [
   {
     id: 1,
-    title: 'Pitta Dosha Aggravation — High',
+    title: 'Pitta Dosha Aggravation ',
     description: 'Excess internal heat can worsen inflammation, pigmentation, redness, and thickened scar tissue, making scars more noticeable.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Vata Imbalance — Medium',
+    title: 'Vata Imbalance ',
     description: 'Leads to dryness, uneven skin texture, poor collagen formation, and delayed skin healing, contributing to rough or indented scars.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
-    title: 'Kapha Imbalance — Medium',
+    title: 'Kapha Imbalance ',
     description: 'Causes excess tissue buildup, resulting in raised, thick, or keloid-type scars with slow natural resolution.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
-    title: 'Ama Accumulation (Toxins) — High',
+    title: 'Ama Accumulation (Toxins) ',
     description: 'Digestive toxins interfere with skin repair and regeneration, slowing scar healing and causing discoloration.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
-    title: 'Stress & Hormonal Imbalance — Medium',
+    title: 'Stress & Hormonal Imbalance ',
     description: 'Can delay wound healing and worsen the appearance of scars in Dubai, especially acne-related scars.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
