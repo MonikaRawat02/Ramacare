@@ -718,21 +718,20 @@ const AdminBlogPost = () => {
                               </span>
                             </div>
                           </div>
-
+      
                           {/* Footer Actions */}
                           <div className="px-3 sm:px-4 lg:px-5 py-3 sm:py-4 bg-amber-50 border-t border-amber-100 flex flex-col sm:flex-row sm:items-center justify-between items-stretch gap-2">
                             <button 
                               onClick={() => handleEdit(draft._id, true)}
-                              className="text-amber-700 hover:text-amber-800 font-semibold text-xs sm:text-sm flex items-center justify-center gap-1.5 group/link"
-                            >
+                              className="text-amber-700 hover:text-amber-800 font-semibold text-xs sm:text-sm flex items-center justify-center gap-1.5 group/link" >
                               <span>Continue Editing</span>
                               <Edit3 size={12} className="group-hover/link:rotate-12 transition-transform flex-shrink-0" />
                             </button>
                             <button 
                               onClick={() => handleDelete(draft._id)}
                               className="p-1.5 sm:p-2 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all flex-shrink-0 self-end sm:self-auto"
-                              title="Delete"
-                            >
+                              title="Delete" >
+
                               <Trash2 size={14} />
                             </button>
                           </div>
@@ -775,7 +774,8 @@ const AdminBlogPost = () => {
                       year: 'numeric', 
                       month: 'long', 
                       day: 'numeric' 
-                    })}</span>
+                    })}
+                    </span>
                   </span>
                 </div>
               </div>
@@ -786,14 +786,14 @@ const AdminBlogPost = () => {
                 <X size={20} />
               </button>
             </div>
-            
+  
             {/* Modal Content */}
             <div className="p-4 sm:p-6 overflow-y-auto max-h-[calc(90vh-200px)] sm:max-h-[calc(90vh-180px)]">
               <div className="blog-content text-gray-900 leading-relaxed prose prose-sm sm:prose-lg max-w-none">
                 <div dangerouslySetInnerHTML={{ __html: showFullPost.content || '' }} />
               </div>
             </div>
-            
+
             {/* Modal Footer */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between p-4 sm:p-6 border-t border-gray-200 bg-gray-50 gap-3 sm:gap-4">
               <div className="flex items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600">
