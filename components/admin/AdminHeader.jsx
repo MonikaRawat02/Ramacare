@@ -66,10 +66,10 @@ const AdminHeader = ({ toggleSidebar }) => {
       </div>
 
       <div className="flex items-center gap-6">
-        <button className="relative p-2 text-gray-700 hover:bg-gray-100 rounded-lg">
+        {/* <button className="relative p-2 text-gray-700 hover:bg-gray-100 rounded-lg">
           <Bell size={20} />
           <span className="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full"></span>
-        </button>
+        </button> */}
         
         <div className="relative">
           <button

@@ -27,7 +27,10 @@ export default function AdminLogin() {
       const data = await res.json();
 
       if (!res.ok) {
-        setError(data.message);
+        setError(data.message);        <button className="relative p-2 text-gray-700 hover:bg-gray-100 rounded-lg">
+          <Bell size={20} />
+          <span className="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full"></span>
+        </button>
         return;
       }
 
