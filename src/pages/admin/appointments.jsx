@@ -42,13 +42,12 @@ const AppointmentDetailsModal = ({ appointment, isOpen, onClose, onUpdateStatus 
             </div>
             <button 
               onClick={onClose}
-              className="text-white/80 hover:text-white hover:bg-white/10 p-2 rounded-full transition-all duration-200 self-start"
-            >
+              className="text-white/80 hover:text-white hover:bg-white/10 p-2 rounded-full transition-all duration-200 self-start">
               <XCircle size={28} />
             </button>
           </div>
         </div>
-        
+       
         {/* Modal Content */}
         <div className="p-6 sm:p-8 overflow-y-auto max-h-[calc(95vh-180px)]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -178,8 +177,7 @@ const AppointmentDetailsModal = ({ appointment, isOpen, onClose, onUpdateStatus 
                             status === 'completed' ? 'bg-purple-500 text-white shadow-md' :
                             'bg-red-500 text-white shadow-md'
                           : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50'
-                      }`}
-                    >
+                      }`}>
                       {status.charAt(0).toUpperCase() + status.slice(1)}
                     </button>
                   ))}
@@ -298,8 +296,6 @@ const AdminAppointments = () => {
     setIsModalOpen(false);
     setSelectedAppointment(null);
   };
-
-
 
   const deleteAppointment = async (appointmentId) => {
     if (!window.confirm('Are you sure you want to delete this appointment? This action cannot be undone.')) {
@@ -422,16 +418,14 @@ const AdminAppointments = () => {
               placeholder="Search by name, email, or phone..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 bg-white text-gray-900 text-sm"
-            />
+              className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 bg-white text-gray-900 text-sm"/>
           </div>
           <div className="flex items-center gap-2">
-            <Filter className="text-gray-400" size={18} />
+            <Filter className="text-gray-400" size={18}/>
             <select
               value={statusFilter}
               onChange={(e) => setStatusFilter(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 bg-white text-gray-900 text-sm"
-            >
+              className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 bg-white text-gray-900 text-sm">
               <option value="all">All Status</option>
               <option value="new">New</option>
               <option value="contacted">Contacted</option>
@@ -464,7 +458,7 @@ const AdminAppointments = () => {
                     <td className="py-3 px-3 sm:py-4 sm:px-4">
                       <div className="flex items-center gap-2 sm:gap-3">
                         <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-100 flex items-center justify-center flex-shrink-0">
-                          <User size={16} className="text-teal-600" />
+                          <User size={16} className="text-teal-600"/>
                         </div>
                         <div className="min-w-0">
                           <p className="font-medium text-gray-900 truncate">{appointment.fullName}</p>
@@ -474,11 +468,11 @@ const AdminAppointments = () => {
                     <td className="py-3 px-3 sm:py-4 sm:px-4">
                       <div className="space-y-1">
                         <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm">
-                          <Mail size={14} className="text-gray-400 flex-shrink-0" />
+                          <Mail size={14} className="text-gray-400 flex-shrink-0"/>
                           <span className="text-gray-600 truncate max-w-[100px] sm:max-w-[150px]">{appointment.email}</span>
                         </div>
                         <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm">
-                          <Phone size={14} className="text-gray-400 flex-shrink-0" />
+                          <Phone size={14} className="text-gray-400 flex-shrink-0"/>
                           <span className="text-gray-600 truncate max-w-[100px] sm:max-w-[150px]">{appointment.phone}</span>
                         </div>
                       </div>
@@ -510,15 +504,13 @@ const AdminAppointments = () => {
                         <button
                           onClick={() => openAppointmentDetails(appointment)}
                           className="p-1.5 sm:p-2 text-teal-600 hover:bg-teal-50 rounded-lg transition-colors flex-shrink-0"
-                          title="View Details"
-                        >
+                          title="View Details">
                           <Eye size={16} />
                         </button>
                         <button
                           onClick={() => deleteAppointment(appointment._id)}
                           className="p-1.5 sm:p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors flex-shrink-0"
-                          title="Delete Appointment"
-                        >
+                          title="Delete Appointment">
                           <Trash2 size={16} />
                         </button>
                       </div>

@@ -66,7 +66,7 @@ const BlogSchema = new mongoose.Schema(
     comments: [
       {
         _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
-        userName: { type: String, default: "Anonymous" },
+        userName: { type: String, default: "" },
         userEmail: { type: String, default: "" },
         content: { type: String, required: true, trim: true },
         parentId: { type: mongoose.Schema.Types.ObjectId, default: null },
