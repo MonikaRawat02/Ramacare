@@ -50,7 +50,7 @@ export default async function handler(
         message: "Full name, phone, and email are required" 
       });
     }
-
+  
     const newAppointment = new Appointment(appointmentData);
     await newAppointment.save();
     

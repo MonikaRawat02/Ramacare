@@ -47,7 +47,7 @@ const AppointmentDetailsModal = ({ appointment, isOpen, onClose, onUpdateStatus 
             </button>
           </div>
         </div>
-       
+
         {/* Modal Content */}
         <div className="p-6 sm:p-8 overflow-y-auto max-h-[calc(95vh-180px)]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -114,7 +114,7 @@ const AppointmentDetailsModal = ({ appointment, isOpen, onClose, onUpdateStatus 
                 </div>
               </div>
             </div>
-            
+
             {/* Right Column - Appointment Details & Status */}
             <div className="space-y-6">
               <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
@@ -157,7 +157,7 @@ const AppointmentDetailsModal = ({ appointment, isOpen, onClose, onUpdateStatus 
                   )}
                 </div>
               </div>
-              
+
               {/* Status Management */}
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200">
                 <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
@@ -360,8 +360,7 @@ const AdminAppointments = () => {
           <p className="text-red-600 mt-1">{error}</p>
           <button 
             onClick={fetchAppointments}
-            className="mt-3 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700"
-          >
+            className="mt-3 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">
             Retry
           </button>
         </div>
@@ -370,7 +369,8 @@ const AdminAppointments = () => {
   }
 
   return (
-    <AdminLayout>
+   
+   <AdminLayout>
       <div className="mb-8 bg-white p-6 rounded-lg">
         <h1 className="text-2xl font-bold text-gray-900">Appointments Management</h1>
         <p className="text-gray-600 mt-1">Manage all appointment requests and patient inquiries</p>

@@ -10,6 +10,31 @@ import {
   FileText, Calendar, Layers, Share2, MoreVertical, Copy, Star
 } from 'lucide-react';
 
+// Add CSS for animations
+const ToastStyles = `
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 0.3s ease-out forwards;
+  }
+`;
+
+// Inject styles
+if (typeof document !== 'undefined') {
+  const style = document.createElement('style');
+  style.textContent = ToastStyles;
+  document.head.appendChild(style);
+}
+
 const AdminBlogPost = () => {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState('feed');
@@ -79,16 +104,38 @@ const AdminBlogPost = () => {
     }
   };
 
-  const handleDelete = async (id) => {
-    if (!window.confirm("Are you sure you want to delete this blog?")) return;
-    try {
-      await axios.delete(`/api/blog/published?id=${id}`, getAuthHeaders());
-      fetchPosts();
-      fetchDrafts();
-    } catch (error) {
-      console.error("Error deleting blog:", error);
-      alert("Failed to delete blog");
-    }
+  const handleDelete = async (id, isDraft = false) => {
+    const title = isDraft ? "Delete Draft" : "Delete Blog Post";
+    const message = isDraft 
+      ? "Are you sure you want to permanently delete this draft? This action cannot be undone and all content will be lost."
+      : "Are you sure you want to permanently delete this blog post? This action cannot be undone and the post will be removed from your website.";
+    
+    const performDelete = async () => {
+      try {
+        const endpoint = isDraft 
+          ? `/api/blog/draft?id=${id}` 
+          : `/api/blog/published?id=${id}`;
+          
+        await axios.delete(endpoint, getAuthHeaders());
+        fetchPosts();
+        fetchDrafts();
+        
+        const successMessage = isDraft 
+          ? "Draft deleted successfully!" 
+          : "Blog post deleted successfully!";
+          
+        showToast(successMessage, "success");
+      } catch (error) {
+        console.error("Error deleting blog:", error);
+        const errorMessage = isDraft 
+          ? "Failed to delete draft" 
+          : "Failed to delete blog post";
+          
+        showToast(errorMessage, "error");
+      }
+    };
+    
+    showConfirm(title, message, performDelete, 'danger');
   };
 
   const handleEdit = (id, isDraft = false) => {
@@ -108,20 +155,65 @@ const AdminBlogPost = () => {
     setShowEditor(true);
   };
 
-  const handleSaveComplete = () => {
+  const handleSaveComplete = (message = "Blog post saved successfully!") => {
     setShowEditor(false);
     fetchPosts();
     fetchDrafts();
+    showToast(message, "success");
   };
 
   const handleCopyLink = (paramlink) => {
     if (typeof window === 'undefined') return;
     const url = `${window.location.origin}/blog/${paramlink}`;
     navigator.clipboard.writeText(url);
-    alert('Link copied to clipboard!');
+    showToast('Link copied to clipboard!', 'success');
   };
   
   const [showFullPost, setShowFullPost] = useState(null);
+  
+  // Toast notification system
+  const [toasts, setToasts] = useState([]);
+  
+  // Custom confirmation modal state
+  const [showConfirmModal, setShowConfirmModal] = useState(false);
+  const [confirmConfig, setConfirmConfig] = useState({
+    title: '',
+    message: '',
+    onConfirm: null,
+    type: 'danger' // 'danger' or 'warning'
+  });
+  
+  const showToast = (message, type = 'success') => {
+    const id = Date.now();
+    const newToast = { id, message, type };
+    setToasts(prev => [...prev, newToast]);
+    
+    // Auto remove after 3 seconds
+    setTimeout(() => {
+      setToasts(prev => prev.filter(toast => toast.id !== id));
+    }, 3000);
+  };
+  
+  const removeToast = (id) => {
+    setToasts(prev => prev.filter(toast => toast.id !== id));
+  };
+  
+  // Custom confirmation functions
+  const showConfirm = (title, message, onConfirm, type = 'danger') => {
+    setConfirmConfig({ title, message, onConfirm, type });
+    setShowConfirmModal(true);
+  };
+  
+  const handleConfirmAction = () => {
+    if (confirmConfig.onConfirm) {
+      confirmConfig.onConfirm();
+    }
+    setShowConfirmModal(false);
+  };
+  
+  const closeConfirmModal = () => {
+    setShowConfirmModal(false);
+  };
   
   const openFullPost = (post) => {
     setShowFullPost(post);
@@ -170,6 +262,83 @@ const AdminBlogPost = () => {
   return (
     <AdminLayout>
       <div className="min-h-screen bg-gradient-to-br from-teal-50/50 via-emerald-50/30 to-green-50/20">
+        {/* Toast Notifications */}
+        <div className="fixed top-4 right-4 z-50 space-y-2">
+          {toasts.map((toast) => (
+            <div
+              key={toast.id}
+              className={`flex items-center gap-3 px-4 py-3 rounded-lg shadow-lg transform transition-all duration-300 animate-fade-in-up ${
+                toast.type === 'success' 
+                  ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-white border border-green-600' 
+                  : 'bg-gradient-to-r from-red-500 to-rose-600 text-white border border-red-600'
+              }`}
+            >
+              <div className={`flex-shrink-0 w-2 h-2 rounded-full ${
+                toast.type === 'success' ? 'bg-white' : 'bg-white'
+              }`}></div>
+              <span className="font-medium text-sm">{toast.message}</span>
+              <button 
+                onClick={() => removeToast(toast.id)}
+                className="ml-auto text-white hover:text-gray-200 transition-colors"
+              >
+                <X size={16} />
+              </button>
+            </div>
+          ))}
+        </div>
+
+        {/* Custom Confirmation Modal */}
+        {showConfirmModal && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50">
+            <div 
+              className="bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden transform transition-all duration-300 scale-100"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Modal Header */}
+              <div className={`p-6 ${
+                confirmConfig.type === 'danger' 
+                  ? 'bg-gradient-to-r from-red-500 to-rose-600' 
+                  : 'bg-gradient-to-r from-amber-500 to-orange-500'
+              }`}>
+                <div className="flex items-center gap-3">
+                  <div className={`p-2 rounded-full ${
+                    confirmConfig.type === 'danger' 
+                      ? 'bg-white/20' 
+                      : 'bg-white/20'
+                  }`}>
+                    <Trash2 className="text-white" size={24} />
+                  </div>
+                  <h3 className="text-xl font-bold text-white">{confirmConfig.title}</h3>
+                </div>
+              </div>
+              
+              {/* Modal Content */}
+              <div className="p-6">
+                <p className="text-gray-700 leading-relaxed">{confirmConfig.message}</p>
+                
+                <div className="flex gap-3 mt-6">
+                  <button
+                    onClick={closeConfirmModal}
+                    className="flex-1 px-4 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold rounded-lg transition-colors"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    onClick={handleConfirmAction}
+                    className={`flex-1 px-4 py-3 font-semibold text-white rounded-lg transition-colors ${
+                      confirmConfig.type === 'danger' 
+                        ? 'bg-gradient-to-r from-red-500 to-rose-600 hover:from-red-600 hover:to-rose-700' 
+                        : 'bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600'
+                    }`}
+                  >
+                    Delete
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {showEditor ? (
           <ModernBlogEditor
             tokenKey={tokenKey}
@@ -659,7 +828,7 @@ const AdminBlogPost = () => {
                                 <Edit3 size={14} />
                               </button>
                               <button 
-                                onClick={() => handleDelete(draft._id)}
+                                onClick={() => handleDelete(draft._id, true)}
                                 className="p-1.5 sm:p-2 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all"
                                 title="Delete"
                               >
@@ -727,10 +896,9 @@ const AdminBlogPost = () => {
                               <Edit3 size={12} className="group-hover/link:rotate-12 transition-transform flex-shrink-0" />
                             </button>
                             <button 
-                              onClick={() => handleDelete(draft._id)}
+                              onClick={() => handleDelete(draft._id, true)}
                               className="p-1.5 sm:p-2 text-gray-600 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all flex-shrink-0 self-end sm:self-auto"
                               title="Delete" >
-
                               <Trash2 size={14} />
                             </button>
                           </div>
