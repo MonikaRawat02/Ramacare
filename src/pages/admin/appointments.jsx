@@ -138,7 +138,7 @@ const AppointmentDetailsModal = ({ appointment, isOpen, onClose, onUpdateStatus 
                       </div>
                     </div>
                   )}
-                  
+  
                   {appointment.preferredDate && (
                     <div>
                       <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Preferred Date</p>

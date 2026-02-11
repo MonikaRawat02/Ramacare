@@ -1774,37 +1774,33 @@ const ModernBlogEditorV1 = ({
   // Prevent concurrent draft operations
   const isSavingRef = useRef(false);
 
-  // This is a temporary file to fix the syntax error
-// We'll replace the problematic section in the original file
-
-const saveDraft = async (isAutoSave = false) => {
-  // Prevent multiple simultaneous save operations
-  if (isSavingRef.current) {
-    console.log('Save operation already in progress, skipping this request');
-    return;
-  }
-  
-  isSavingRef.current = true;
-  
-  try {
-    // If we're editing a published blog directly and don't have a draft ID yet,
-    // we should convert it to a draft first before allowing auto-save
-    if (isEditingPublishedBlog && editBlogId && !currentDraftId && !editDraftId) {
-      if (isAutoSave) {
-        // For auto-save, just skip if we're editing a published blog without a draft
-        console.log('Auto-save: Skipped - editing published blog without draft conversion');
-        return;
-      } else {
-        // For manual save, convert the published blog to a draft first
-        const draftId = await convertPublishedToDraft();
-        if (!draftId) {
-  // If conversion failed, show warning but continue with save
-  console.log('Manual save: Conversion failed, proceeding with original content');
-  showToast('Warning: Could not convert to draft, saving as new draft instead.', 'warning');
-  // Don't return here - let the save continue
-}
-      }
+  const saveDraft = async (isAutoSave = false) => {
+    // Prevent multiple simultaneous save operations
+    if (isSavingRef.current) {
+      console.log('Save operation already in progress, skipping this request');
+      return;
     }
+    
+    isSavingRef.current = true;
+    
+    try {
+      // If we're editing a published blog directly and don't have a draft ID yet,
+      // we should convert it to a draft first before allowing auto-save
+      if (isEditingPublishedBlog && editBlogId && !currentDraftId && !editDraftId) {
+        if (isAutoSave) {
+          // For auto-save, just skip if we're editing a published blog without a draft
+          console.log('Auto-save: Skipped - editing published blog without draft conversion');
+          return;
+        } else {
+          // For manual save, convert the published blog to a draft first
+          const draftId = await convertPublishedToDraft();
+          if (!draftId) {
+            // If conversion failed, show error and exit
+            showToast('Failed to convert published blog to draft. Manual save failed.', 'error');
+            return;
+          }
+        }
+      }
   
     // Always capture content directly from editor DOM (most up-to-date)
     // Don't rely on state which might be stale
@@ -1919,188 +1915,189 @@ const saveDraft = async (isAutoSave = false) => {
     }
 
     if (!isAutoSave) {
-      setIsLoading(true);
+    setIsLoading(true);
     }
    
-    // Final validation - ensure all fields are non-empty (API requirement)
-    if (!effectiveTitle || effectiveTitle.trim() === '') {
-      effectiveTitle = 'Untitled Draft';
-    }
-    if (!finalContent || finalContent.trim() === '') {
-      finalContent = '<p><br></p>';
-    }
-    if (!effectiveParamlink || effectiveParamlink.trim() === '') {
-      const base = (effectiveTitle || 'untitled').toString();
-      effectiveParamlink = slugify(base).slice(0, 60) || `untitled-${Date.now()}`;
-      setParamlink(effectiveParamlink);
-    }
-   
-    // Append topics as hashtags to content (hidden, so they persist and can be extracted later)
-    // Extract existing topics from content BEFORE removing markers to preserve them during auto-save
-    const existingTopicsFromContent = extractTopics(finalContent);
-    // Merge with topics state - prioritize state, but include any from content that aren't in state
-    let topicsToSave = topics && topics.length > 0 ? [...topics] : [];
-    // Add any topics found in content that aren't already in the state
-    if (existingTopicsFromContent && existingTopicsFromContent.length > 0) {
-      existingTopicsFromContent.forEach(topic => {
-        if (!topicsToSave.includes(topic)) {
-          topicsToSave.push(topic);
-        }
-      });
-    }
-    // If we still have no topics but found some in content, use those
-    if (topicsToSave.length === 0 && existingTopicsFromContent && existingTopicsFromContent.length > 0) {
-      topicsToSave = existingTopicsFromContent;
-    }
-   
-    // Update topics state if we found topics in content that weren't in state (keeps UI in sync)
-    if (topicsToSave.length > 0 && (!topics || topics.length === 0 || topicsToSave.length !== topics.length)) {
-      // Only update if there's a meaningful difference to avoid unnecessary re-renders
-      const stateTopicsSet = new Set(topics || []);
-      const topicsToSaveSet = new Set(topicsToSave);
-      const hasDifference = topicsToSaveSet.size !== stateTopicsSet.size ||
-                           !Array.from(topicsToSaveSet).every(t => stateTopicsSet.has(t));
-      if (hasDifference) {
-        setTopics(topicsToSave);
+    try {
+      // Final validation - ensure all fields are non-empty (API requirement)
+      if (!effectiveTitle || effectiveTitle.trim() === '') {
+        effectiveTitle = 'Untitled Draft';
       }
-    }
-   
-    // Remove existing topic markers first to avoid duplicates
-    let contentWithTopics = finalContent;
-    const topicMarkerRegex = /<p[^>]*style="display:\s*none[^"]*"[^>]*>.*?<\/p>/gi;
-    contentWithTopics = contentWithTopics.replace(topicMarkerRegex, '');
-   
-    // Always add topics back if we have any (preserves hashtags during auto-save)
-    if (topicsToSave && topicsToSave.length > 0) {
-      const topicsAsHashtags = topicsToSave.map(t => `#${t}`).join(' ');
-      // Append topics as hidden paragraph so they're preserved in content but not visible
-      contentWithTopics += `<p style="display:none;visibility:hidden;">${topicsAsHashtags}</p>`;
-    }
-   
-    const draftData = {
-      title: effectiveTitle.trim(),
-      content: contentWithTopics,
-      paramlink: effectiveParamlink.trim(),
-      isAutoSave: isAutoSave, // Pass auto-save flag to API
-    };
-   
-    // Don't update title state after saving - preserve what user has typed
-    // The title state should only be updated by user input, not by save operation
+      if (!finalContent || finalContent.trim() === '') {
+        finalContent = '<p><br></p>';
+      }
+      if (!effectiveParamlink || effectiveParamlink.trim() === '') {
+        const base = (effectiveTitle || 'untitled').toString();
+        effectiveParamlink = slugify(base).slice(0, 60) || `untitled-${Date.now()}`;
+        setParamlink(effectiveParamlink);
+      }
+     
+      // Append topics as hashtags to content (hidden, so they persist and can be extracted later)
+      // Extract existing topics from content BEFORE removing markers to preserve them during auto-save
+      const existingTopicsFromContent = extractTopics(finalContent);
+      // Merge with topics state - prioritize state, but include any from content that aren't in state
+      let topicsToSave = topics && topics.length > 0 ? [...topics] : [];
+      // Add any topics found in content that aren't already in the state
+      if (existingTopicsFromContent && existingTopicsFromContent.length > 0) {
+        existingTopicsFromContent.forEach(topic => {
+          if (!topicsToSave.includes(topic)) {
+            topicsToSave.push(topic);
+          }
+        });
+      }
+      // If we still have no topics but found some in content, use those
+      if (topicsToSave.length === 0 && existingTopicsFromContent && existingTopicsFromContent.length > 0) {
+        topicsToSave = existingTopicsFromContent;
+      }
+     
+      // Update topics state if we found topics in content that weren't in state (keeps UI in sync)
+      if (topicsToSave.length > 0 && (!topics || topics.length === 0 || topicsToSave.length !== topics.length)) {
+        // Only update if there's a meaningful difference to avoid unnecessary re-renders
+        const stateTopicsSet = new Set(topics || []);
+        const topicsToSaveSet = new Set(topicsToSave);
+        const hasDifference = topicsToSaveSet.size !== stateTopicsSet.size ||
+                             !Array.from(topicsToSaveSet).every(t => stateTopicsSet.has(t));
+        if (hasDifference) {
+          setTopics(topicsToSave);
+        }
+      }
+     
+      // Remove existing topic markers first to avoid duplicates
+      let contentWithTopics = finalContent;
+      const topicMarkerRegex = /<p[^>]*style="display:\s*none[^"]*"[^>]*>.*?<\/p>/gi;
+      contentWithTopics = contentWithTopics.replace(topicMarkerRegex, '');
+     
+      // Always add topics back if we have any (preserves hashtags during auto-save)
+      if (topicsToSave && topicsToSave.length > 0) {
+        const topicsAsHashtags = topicsToSave.map(t => `#${t}`).join(' ');
+        // Append topics as hidden paragraph so they're preserved in content but not visible
+        contentWithTopics += `<p style="display:none;visibility:hidden;">${topicsAsHashtags}</p>`;
+      }
+     
+      const draftData = {
+        title: effectiveTitle.trim(),
+        content: contentWithTopics,
+        paramlink: effectiveParamlink.trim(),
+        isAutoSave: isAutoSave, // Pass auto-save flag to API
+      };
+     
+      // Don't update title state after saving - preserve what user has typed
+      // The title state should only be updated by user input, not by save operation
 
-    let response;
-   
-    // Add timeout to prevent hanging requests
-    const axiosConfig = {
-      ...getAuthHeaders(),
-      timeout: 30000, // 30 seconds timeout
-    };
-   
-    if (draftIdToUse) {
-      // Update existing draft
-      console.log('Auto-save: Calling API to UPDATE draft', {
-        draftId: draftIdToUse,
-        title: effectiveTitle.substring(0, 50),
-        contentLength: contentWithTopics.length
-      });
-      response = await axios.put(
-        `/api/blog/draft?id=${draftIdToUse}`,
-        draftData,
-        axiosConfig
-      );
-      console.log('Auto-save: API response received (UPDATE)', {
-        success: response.data?.success,
-        draftId: response.data?.draft?._id
-      });
-    } else {
-      // Create new draft
-      console.log('Auto-save: Calling API to CREATE new draft', {
-        title: effectiveTitle.substring(0, 50),
-        contentLength: contentWithTopics.length
-      });
-      try {
-        response = await axios.post('/api/blog/draft', draftData, axiosConfig);
-      } catch (createErr) {
-        // 409 means the paramlink conflicts with a published blog.
-        // Auto-fix by generating a unique paramlink and retry once.
-        if (createErr?.response?.status === 409) {
-          const suffix = Date.now().toString().slice(-6);
-          const nextParamlink = `${draftData.paramlink}-${suffix}`.slice(0, 80);
-          console.warn('Draft create conflict (409). Retrying with new paramlink:', nextParamlink);
-          setParamlink(nextParamlink);
-          // Prevent auto-title slug effect from immediately overriding our fix
-          lastAutoGeneratedParamlinkRef.current = nextParamlink;
-          response = await axios.post(
-            '/api/blog/draft',
-            { ...draftData, paramlink: nextParamlink },
-            axiosConfig
-          );
-        } else {
-          throw createErr;
+      let response;
+     
+      // Add timeout to prevent hanging requests
+      const axiosConfig = {
+        ...getAuthHeaders(),
+        timeout: 30000, // 30 seconds timeout
+      };
+     
+      if (draftIdToUse) {
+        // Update existing draft
+        console.log('Auto-save: Calling API to UPDATE draft', {
+          draftId: draftIdToUse,
+          title: effectiveTitle.substring(0, 50),
+          contentLength: contentWithTopics.length
+        });
+        response = await axios.put(
+          `/api/blog/draft?id=${draftIdToUse}`,
+          draftData,
+          axiosConfig
+        );
+        console.log('Auto-save: API response received (UPDATE)', {
+          success: response.data?.success,
+          draftId: response.data?.draft?._id
+        });
+      } else {
+        // Create new draft
+        console.log('Auto-save: Calling API to CREATE new draft', {
+          title: effectiveTitle.substring(0, 50),
+          contentLength: contentWithTopics.length
+        });
+        try {
+          response = await axios.post('/api/blog/draft', draftData, axiosConfig);
+        } catch (createErr) {
+          // 409 means the paramlink conflicts with a published blog.
+          // Auto-fix by generating a unique paramlink and retry once.
+          if (createErr?.response?.status === 409) {
+            const suffix = Date.now().toString().slice(-6);
+            const nextParamlink = `${draftData.paramlink}-${suffix}`.slice(0, 80);
+            console.warn('Draft create conflict (409). Retrying with new paramlink:', nextParamlink);
+            setParamlink(nextParamlink);
+            // Prevent auto-title slug effect from immediately overriding our fix
+            lastAutoGeneratedParamlinkRef.current = nextParamlink;
+            response = await axios.post(
+              '/api/blog/draft',
+              { ...draftData, paramlink: nextParamlink },
+              axiosConfig
+            );
+          } else {
+            throw createErr;
+          }
+        }
+        console.log('Auto-save: API response received (CREATE)', {
+          success: response.data?.success,
+          draftId: response.data?.draft?._id
+        });
+        // Save the draft ID for future updates
+        if (response.data?.success && response.data?.draft?._id) {
+          setCurrentDraftId(response.data.draft._id);
+          console.log('Auto-save: Draft ID saved for future updates', response.data.draft._id);
         }
       }
-      console.log('Auto-save: API response received (CREATE)', {
-        success: response.data?.success,
-        draftId: response.data?.draft?._id
+     
+      // Update last saved content and title
+      lastContentRef.current = finalContent;
+      lastTitleRef.current = effectiveTitle;
+      setLastSaved(new Date());
+     
+      if (isAutoSave) {
+        showToast('Draft auto-saved', 'success');
+      } else {
+        showToast('Draft saved successfully!', 'success');
+      }
+    } catch (error) {
+      console.error('Error saving draft:', error);
+      console.error('Draft data sent:', {
+        title: effectiveTitle,
+        contentLength: finalContent.length,
+        paramlink: effectiveParamlink,
+        draftId: draftIdToUse
       });
-      // Save the draft ID for future updates
-      if (response.data?.success && response.data?.draft?._id) {
-        setCurrentDraftId(response.data.draft._id);
-        console.log('Auto-save: Draft ID saved for future updates', response.data.draft._id);
+     
+      let errorMessage = 'Failed to save draft';
+      if (error.code === 'ECONNABORTED' || error.message?.includes('timeout')) {
+        // Request timeout
+        errorMessage = 'Request timed out. Please check your connection and try again.';
+        console.error('Request timeout:', error);
+      } else if (error.response) {
+        // Server responded with error
+        errorMessage = error.response.data?.message || error.response.data?.error || `Server error: ${error.response.status}`;
+        console.error('Server error response:', error.response.data);
+      } else if (error.request) {
+        // Request was made but no response received
+        errorMessage = 'Network error: Unable to connect to server. Please check your internet connection.';
+        console.error('Network error - no response:', error.request);
+      } else {
+        // Something else happened
+        errorMessage = error.message || 'Unknown error occurred';
+        console.error('Error setting up request:', error.message);
+      }
+     
+      if (isAutoSave) {
+        showToast('Auto-save failed', 'error');
+      } else {
+        showToast(errorMessage, 'error');
+      }
+    } finally {
+      // Always release the lock
+      isSavingRef.current = false;
+      
+      if (!isAutoSave) {
+        setIsLoading(false);
       }
     }
-   
-    // Update last saved content and title
-    lastContentRef.current = finalContent;
-    lastTitleRef.current = effectiveTitle;
-    setLastSaved(new Date());
-   
-    if (isAutoSave) {
-      showToast('Draft auto-saved', 'success');
-    } else {
-      showToast('Draft saved successfully!', 'success');
-    }
-  } catch (error) {
-    console.error('Error saving draft:', error);
-    console.error('Draft data sent:', {
-      title: effectiveTitle,
-      contentLength: finalContent.length,
-      paramlink: effectiveParamlink,
-      draftId: draftIdToUse
-    });
-   
-    let errorMessage = 'Failed to save draft';
-    if (error.code === 'ECONNABORTED' || error.message?.includes('timeout')) {
-      // Request timeout
-      errorMessage = 'Request timed out. Please check your connection and try again.';
-      console.error('Request timeout:', error);
-    } else if (error.response) {
-      // Server responded with error
-      errorMessage = error.response.data?.message || error.response.data?.error || `Server error: ${error.response.status}`;
-      console.error('Server error response:', error.response.data);
-    } else if (error.request) {
-      // Request was made but no response received
-      errorMessage = 'Network error: Unable to connect to server. Please check your internet connection.';
-      console.error('Network error - no response:', error.request);
-    } else {
-      // Something else happened
-      errorMessage = error.message || 'Unknown error occurred';
-      console.error('Error setting up request:', error.message);
-    }
-   
-    if (isAutoSave) {
-      showToast('Auto-save failed', 'error');
-    } else {
-      showToast(errorMessage, 'error');
-    }
-  } finally {
-    // Always release the lock
-    isSavingRef.current = false;
-    
-    if (!isAutoSave) {
-      setIsLoading(false);
-    }
-  }
-};
+  };
 
   // Function to convert a published blog to a draft when editing
   const convertPublishedToDraft = async () => {
@@ -3618,20 +3615,7 @@ const saveDraft = async (isAutoSave = false) => {
           )}
         </div>
       </div>
-      
-      {/* Toast Notification */}
-      {toast && (
-        <div className={`fixed top-4 right-4 z-50 px-4 py-2 rounded-lg shadow-lg transition-all duration-300 ${
-          toast.type === 'success' ? 'bg-green-500 text-white' :
-          toast.type === 'error' ? 'bg-red-500 text-white' :
-          toast.type === 'warning' ? 'bg-yellow-500 text-gray-800' :
-          'bg-blue-500 text-white'
-        }`}>
-          {toast.message}
-        </div>
-      )}
     </div>
   );
 };
 export default ModernBlogEditorV1;
-
