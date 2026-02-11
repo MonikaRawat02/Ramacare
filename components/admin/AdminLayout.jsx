@@ -72,8 +72,8 @@ const AdminLayout = ({ children }) => {
             { name: 'Dashboard', path: '/admin/dashboard', icon: LayoutDashboard },
             { name: 'Appointments', path: '/admin/appointments', icon: Calendar },
             { name: 'Blog Posts', path: '/admin/blogpost', icon: BookOpen },
-            { name: 'Users', path: '/admin/users', icon: Users },
-            { name: 'Settings', path: '/admin/settings', icon: Settings },
+            // { name: 'Users', path: '/admin/users', icon: Users },
+            // { name: 'Settings', path: '/admin/settings', icon: Settings },
           ].map((item) => {
             const Icon = item.icon;
             return (

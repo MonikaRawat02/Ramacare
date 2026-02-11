@@ -382,7 +382,7 @@ export default function BlogDetailPage({ blog }) {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900">{blog.title}</h1>
             <div className="mt-3 flex items-center gap-3 text-sm text-gray-600 flex-wrap">
-              <span>{blog.postedBy?.name || "Admin"}</span>
+              {/* <span>{blog.postedBy?.name || "Admin"}</span> */}
               <span>•</span>
               <span>{date}</span>
               <span>•</span>

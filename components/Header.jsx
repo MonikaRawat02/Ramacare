@@ -286,15 +286,15 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="flex items-center justify-between h-16 py-1">
             <div className="flex items-center space-x-2">
-              <div className="w-12 h-12 flex items-center justify-center rounded flex-shrink-0 relative">
+              <Link href="/" className="w-12 h-12 flex items-center justify-center rounded flex-shrink-0 relative">
                 <Image
                   src="/images/Logo.png"
                   alt="Ayurveda Dubai"
                   width={40}
                   height={40}
-                  className="object-contain"
+                  className="object-contain cursor-pointer"
                 />
-              </div>
+              </Link>
               <div>
                 <h1 className="text-base sm:text-lg font-semibold text-gray-900">Ramacare Polyclinic</h1>
                 <div className="flex items-center space-x-1">

@@ -407,9 +407,9 @@ export default function BlogListPage() {
                           </span>
                         </div>
                         <div>
-                          <p className="inter text-sm font-semibold text-gray-900">
+                          {/* <p className="inter text-sm font-semibold text-gray-900">
                             {featuredPost.postedBy?.name || "Admin"}
-                          </p>
+                          </p> */}
                           <p className="inter text-xs text-gray-500">{formatDate(featuredPost.createdAt)}</p>
                         </div>
                       </div>
@@ -577,9 +577,9 @@ export default function BlogListPage() {
                               </span>
                             </div>
                             <div className="flex-1 min-w-0">
-                              <p className="inter text-xs font-semibold text-gray-900 truncate">
+                              {/* <p className="inter text-xs font-semibold text-gray-900 truncate">
                                 {post.postedBy?.name || "Admin"}
-                              </p>
+                              </p> */}
                               <p className="inter text-xs text-gray-500">{formatDate(post.createdAt)}</p>
                             </div>
                           </div>
@@ -672,9 +672,9 @@ export default function BlogListPage() {
                                     {(post.postedBy?.name || "Admin").charAt(0).toUpperCase()}
                                   </span>
                                 </div>
-                                <span className="inter text-sm font-semibold text-gray-900">
+                                {/* <span className="inter text-sm font-semibold text-gray-900">
                                   {post.postedBy?.name || "Admin"}
-                                </span>
+                                </span> */}
                                 <span className="text-gray-300">•</span>
                                 <span className="inter text-xs text-gray-500">{formatDate(post.createdAt)}</span>
                               </div>
