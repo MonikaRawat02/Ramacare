@@ -296,7 +296,7 @@ const Header = () => {
                 />
               </Link>
               <div>
-                <h1 className="text-base sm:text-lg font-semibold text-gray-900">Ramacare Polyclinic</h1>
+                <h1 className="text-base sm:text-lg font-semibold text-[#1C4942]">RamaCare</h1>
                 <div className="flex items-center space-x-1">
                   <Shield className="w-2 h-2 sm:w-2.5 sm:h-2.5 text-gray-600" />
                   <span className="text-[9px] sm:text-[10px] text-gray-600">DHA Licensed</span>
@@ -306,9 +306,9 @@ const Header = () => {
 
             {/* Desktop Navigation - Hidden at 1024px, visible at 1280px+ */}
             <nav className="hidden xl:flex items-center space-x-1 xl:space-x-1.5 flex-nowrap overflow-visible hide-at-1024">
-              <Link href="/" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
+              {/* <Link href="/" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
                 About
-              </Link>
+              </Link> */}
               
               {treatmentCategories.map((category, index) => {
                 const IconComponent = category.icon;

@@ -31,7 +31,7 @@ const HealingJourney = ({ content }) => {
       id: 1,
       number: '01',
       title: 'Initial Consultation (60 min)',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description: 'Comprehensive assessment including Prakriti analysis, medical history, dosha evaluation, and scalp examination.',
       keyActivities: [
         'Health questionnaire',
@@ -45,7 +45,7 @@ const HealingJourney = ({ content }) => {
       id: 2,
       number: '02',
       title: 'Detoxification Phase',
-      duration: 'Weeks 1-2',
+      duration: 'Step 2',
       description: 'Gentle cleansing to remove Ama (toxins) and prepare body for treatment.',
       keyActivities: [
         'Dietary modifications',
@@ -59,7 +59,7 @@ const HealingJourney = ({ content }) => {
       id: 3,
       number: '03',
       title: 'Active Treatment Phase',
-      duration: 'Weeks 3-8',
+      duration: 'Step 3',
       description: 'Intensive Ayurvedic therapies including Shirodhara, herbal applications, and Panchakarma procedures.',
       keyActivities: [
         'Shirodhara therapy',
@@ -73,7 +73,7 @@ const HealingJourney = ({ content }) => {
       id: 4,
       number: '04',
       title: 'Maintenance & Follow-up',
-      duration: 'Months 4-12',
+      duration: 'Step 4',
       description: 'Sustaining results with periodic treatments and lifestyle support.',
       keyActivities: [
         'Monthly check-ins',

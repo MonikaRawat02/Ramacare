@@ -311,7 +311,7 @@ export const subcategoryContent = {
             id: 1,
             number: '01',
             title: 'Initial Consultation & Assessment',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description: 'A thorough evaluation to understand hair fall causes and body constitution.',
             keyActivities: [
               'Hair and scalp analysis',
@@ -325,7 +325,7 @@ export const subcategoryContent = {
             id: 2,
             number: '02',
             title: 'Start of Ayurvedic Therapies',
-            duration: 'Visit 2',
+            duration: 'Step 2',
             description: 'Natural scalp treatments and medicines are initiated.',
             keyActivities: [
               'Shiro Abhyanga sessions',
@@ -340,7 +340,7 @@ export const subcategoryContent = {
             id: 3,
             number: '03',
             title: 'Monitoring & Progress Evaluation',
-            duration: 'Visit 3',
+            duration: 'Step 3',
             description: 'Regular reviews ensure treatment effectiveness.',
             keyActivities: [
               'Therapy adjustments',
@@ -354,7 +354,7 @@ export const subcategoryContent = {
             id: 4,
             number: '04',
             title: ' Long-Term Hair Health Support',
-            duration: 'Visit 4',
+            duration: 'Step 4',
             description: 'Focus on sustaining results and preventing recurrence.',
             keyActivities: [
               'Continued herbal support',
@@ -1081,7 +1081,7 @@ export const subcategoryContent = {
             id: 1,
             number: '01',
             title: 'Initial Consultation & Evaluation',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description: 'A detailed discussion to understand your health concerns and body constitution.',
             keyActivities: [
               'Health history review',
@@ -1095,7 +1095,7 @@ export const subcategoryContent = {
             id: 2,
             number: '02',
             title: 'Assessment & Planning',
-            duration: 'Visit 2',
+            duration: 'Step 2',
             description: 'Creating a customized care plan based on analysis findings.',
             keyActivities: [
               'Vikriti identification',
@@ -1108,7 +1108,7 @@ export const subcategoryContent = {
             id: 3,
             number: '03',
             title: 'Monitoring & Guidance',
-            duration: 'Visit 3',
+            duration: 'Step 3',
             description: 'Regular reviews to follow progress and adjust care if needed.',
             keyActivities: [
               'Improvement evaluation',
@@ -1824,7 +1824,7 @@ export const subcategoryContent = {
             id: 1,
             number: '01',
             title: 'Initial Consultation & Diagnosis',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description:
               'A detailed evaluation of your skin disease, body constitution, and internal imbalances to understand the root cause.',
             keyActivities: [
@@ -1839,7 +1839,7 @@ export const subcategoryContent = {
             id: 2,
             number: '02',
             title: 'Start of Ayurvedic Treatment',
-            duration: 'Visit 2',
+            duration: 'Step 2',
             description:
               'Ayurvedic treatment begins with personalised internal medicines and external skin therapies.',
             keyActivities: [
@@ -1853,7 +1853,7 @@ export const subcategoryContent = {
             id: 3,
             number: '03',
             title: 'Monitoring & Adjustment',
-            duration: 'Follow-Up Visits',
+            duration: 'Step 3',
             description:
               'Regular follow-ups to monitor progress, evaluate signs, and refine treatment as the skin heals.',
             keyActivities: [
@@ -2497,7 +2497,7 @@ export const subcategoryContent = {
             id: 1,
             number: '01',
             title: 'Consultation & Assessment',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description:
               'Assessment of body type, digestion, lifestyle, and health goals.',
             keyActivities: [
@@ -2512,7 +2512,7 @@ export const subcategoryContent = {
             id: 2,
             number: '02',
             title: 'Diet Plan Creation',
-            duration: 'Visit 2',
+            duration: 'Step 2',
             description:
               'Customized Ayurvedic meal plan designed for your individual needs.',
             keyActivities: [
@@ -2526,7 +2526,7 @@ export const subcategoryContent = {
             id: 3,
             number: '03',
             title: 'Monitoring & Adjustments',
-            duration: 'Follow-Up Visits',
+            duration: 'Step 3',
             description:
               'Tracking progress and modifying the diet program as required.',
             keyActivities: [
@@ -3197,7 +3197,7 @@ export const subcategoryContent = {
             id: 1,
             number: '01',
             title: 'Visit 1 – Talk & Assessment',
-            duration: null,
+            duration: 'Step 1',
             description: 'Detailed evaluation of body constitution, lifestyle, and health problems.',
             keyActivities: [
               'Prakriti and dosha appraisal',
@@ -3210,7 +3210,7 @@ export const subcategoryContent = {
             id: 2,
             number: '02',
             title: 'Visit 2 – Panchakarma Therapy Begins',
-            duration: null,
+            duration: 'Step 2',
             description: 'Start of internal and exterior therapies.',
             keyActivities: [
               'Herbal oil massages (Abhyanga)',
@@ -3223,7 +3223,7 @@ export const subcategoryContent = {
             id: 3,
             number: '03',
             title: 'Follow-Up Visits – Monitoring & Adjustments',
-            duration: null,
+            duration: 'Step 3',
             description: 'Regular assessment to ensure proper detoxification and regeneration.',
             keyActivities: [
               'Progress evaluation',
@@ -3917,7 +3917,7 @@ export const subcategoryContent = {
             id: 1,
             number: '01',
             title: 'Visit 1 – Consultation & Assessment',
-            duration: null,
+            duration: 'Step 1',
             description:
               'Detailed evaluation of signs, digestive history, diet, and lifestyle.',
             keyActivities: [
@@ -3931,7 +3931,7 @@ export const subcategoryContent = {
             id: 2,
             number: '02',
             title: 'Visit 2 – Treatment Initiation',
-            duration: null,
+            duration: 'Step 2',
             description:
               'Birth of pharmaceuticals, herbal treatments, and dietary adjustments.',
             keyActivities: [
@@ -3945,7 +3945,7 @@ export const subcategoryContent = {
             id: 3,
             number: '03',
             title: 'Follow-Up Visits – Monitoring & Adjustment',
-            duration: null,
+            duration: 'Step 3',
             description:
               'Regular follow-ups to monitor progress, adjust therapies, and provide ongoing guidance.',
             keyActivities: [
@@ -4615,7 +4615,7 @@ export const subcategoryContent = {
             id: 1,
             number: '01',
             title: 'Visit 1 – Consultation & Assessment',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description:
               'Detailed evaluation of menstrual health, hormonal signs, digestion, and lifestyle.',
             keyActivities: [
@@ -4629,7 +4629,7 @@ export const subcategoryContent = {
             id: 2,
             number: '02',
             title: 'Visit 2 – Treatment Initiation',
-            duration: 'Visit 2',
+            duration: 'Step 2',
             description:
               'Start of Ayurvedic medicines, diet correction, and lifestyle guidance.',
             keyActivities: [
@@ -4643,7 +4643,7 @@ export const subcategoryContent = {
             id: 3,
             number: '03',
             title: 'Follow-Up Visits – Monitoring & Adjustments',
-            duration: 'Follow-Up Phase',
+            duration: 'Step 3',
             description:
               'Regular follow-ups to track cycle regularity, symptoms, and overall health.',
             keyActivities: [
@@ -5309,7 +5309,7 @@ export const subcategoryContent = {
       id: 1,
       number: '01',
       title: 'Initial Assessment',
-      duration: 'Visit 1',
+      duration: 'Step 1',
       description: 'Before starting therapy, our specialists conduct a detailed evaluation to understand your condition.',
       keyActivities: [
         'Comprehensive health and medical history review',
@@ -5323,7 +5323,7 @@ export const subcategoryContent = {
       id: 2,
       number: '02',
       title: 'Therapy Sessions',
-      duration: 'Visit 2',
+      duration: 'Step 2',
       description: 'Targeted Ultrasound Therapy sessions are administered to promote tissue repair and reduce inflammation.',
       keyActivities: [
         '2–3 sessions per week, depending on condition',
@@ -5337,7 +5337,7 @@ export const subcategoryContent = {
       id: 3,
       number: '03',
       title: 'Home Care & Lifestyle Support',
-      duration: 'Ongoing',
+      duration: 'Step 3',
       description: 'Patients are guided on exercises and lifestyle modifications to maximize treatment benefits.',
       keyActivities: [
         'Home exercise routines to support recovery',
@@ -5351,7 +5351,7 @@ export const subcategoryContent = {
       id: 4,
       number: '04',
       title: 'Follow-Up & Maintenance',
-      duration: 'Monthly or as needed',
+      duration: 'Step 4',
       description: 'To ensure long-term recovery, we provide regular follow-ups and preventive strategies.',
       keyActivities: [
         'Monthly or periodic check-ins',
@@ -6008,7 +6008,7 @@ comparisonData: [
       id: 1,
       number: '01',
       title: 'Comprehensive Assessment',
-      duration: 'Visit 1',
+      duration: 'Step 1',
       description: 'Before starting therapy, our experts evaluate your condition to create a personalized plan.',
       keyActivities: [
         'Detailed medical history review',
@@ -6022,7 +6022,7 @@ comparisonData: [
       id: 2,
       number: '02',
       title: 'Targeted Electrotherapy Sessions',
-      duration: 'Visit 2',
+      duration: 'Step 2',
       description: 'Professional sessions focus on stimulating muscles and tissues for pain relief and recovery.',
       keyActivities: [
         '2–3 sessions per week, depending on severity',
@@ -6036,7 +6036,7 @@ comparisonData: [
       id: 3,
       number: '03',
       title: 'Supportive Home Care',
-      duration: 'Ongoing',
+      duration: 'Step 3',
       description: 'Patients are guided on exercises and lifestyle practices to enhance therapy outcomes.',
       keyActivities: [
         'Home exercise routines to maintain strength',
@@ -6050,7 +6050,7 @@ comparisonData: [
       id: 4,
       number: '04',
       title: 'Follow-Up and Maintenance',
-      duration: 'Monthly or as needed',
+      duration: 'Step 4',
       description: 'Long-term wellness is achieved through consistent follow-ups and maintenance strategies.',
       keyActivities: [
         'Monthly or periodic check-ins',
@@ -6729,7 +6729,7 @@ comparisonData: [
       id: 1,
       number: '01',
       title: 'Comprehensive Assessment',
-      duration: 'Visit 1',
+      duration: 'Step 1',
       description: 'We begin with a detailed evaluation to understand your condition and create a tailored therapy plan.',
       keyActivities: [
         'Review of medical and pelvic health history',
@@ -6743,7 +6743,7 @@ comparisonData: [
       id: 2,
       number: '02',
       title: 'Targeted Therapy Sessions',
-      duration: 'Visit 2',
+      duration: 'Step 2',
       description: 'Professional therapy sessions focus on strengthening and rehabilitating pelvic floor muscles.',
       keyActivities: [
         '1–2 sessions per week based on individual needs',
@@ -6757,7 +6757,7 @@ comparisonData: [
       id: 3,
       number: '03',
       title: 'Home Care & Lifestyle Support',
-      duration: 'Ongoing',
+      duration: 'Step 3',
       description: 'Patients are supported with exercises and lifestyle guidance to maximize therapy benefits.',
       keyActivities: [
         'Home exercise routines for pelvic strength',
@@ -6771,7 +6771,7 @@ comparisonData: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Maintenance',
-      duration: 'Monthly or as needed',
+      duration: 'Step 4',
       description: 'Sustained pelvic health is achieved with ongoing monitoring and support.',
       keyActivities: [
         'Periodic check-ins to assess progress',
@@ -7450,7 +7450,7 @@ comparisonData: [
       id: 1,
       number: '01',
       title: 'Initial Assessment',
-      duration: 'Visit 1',
+      duration: 'Step 1',
       description: 'We begin with a comprehensive evaluation to understand your fitness level and design a tailored exercise plan.',
       keyActivities: [
         'Detailed health and medical history review',
@@ -7464,7 +7464,7 @@ comparisonData: [
       id: 2,
       number: '02',
       title: 'Guided Exercise Sessions',
-      duration: 'Visit 2',
+      duration: 'Step 2',
       description: 'Structured sessions focus on functional movements to strengthen muscles and improve coordination.',
       keyActivities: [
         '2–3 sessions per week based on individual needs',
@@ -7478,7 +7478,7 @@ comparisonData: [
       id: 3,
       number: '03',
       title: 'Home Program & Lifestyle Guidance',
-      duration: 'Ongoing',
+      duration: 'Step 3',
       description: 'Patients receive guidance to complement in-clinic sessions and maximize results.',
       keyActivities: [
         'Home exercise routines for daily movement improvement',
@@ -7492,7 +7492,7 @@ comparisonData: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Maintenance',
-      duration: 'Monthly or as needed',
+      duration: 'Step 4',
       description: 'Long-term mobility and fitness are maintained through periodic reviews and ongoing support.',
       keyActivities: [
         'Regular check-ins to monitor progress',
@@ -8165,7 +8165,7 @@ comparisonData: [
       id: 1,
       number: '01',
       title: 'Detailed Spine Assessment',
-      duration: 'Visit 1',
+      duration: 'Step 1',
       description: 'We begin with a thorough evaluation to understand the type and severity of scoliosis.',
       keyActivities: [
         'Complete medical history review',
@@ -8179,7 +8179,7 @@ comparisonData: [
       id: 2,
       number: '02',
       title: 'Targeted Treatment Program',
-      duration: 'Visit 2',
+      duration: 'Step 2',
       description: 'Treatment sessions are designed to manage symptoms and improve spinal stability.',
       keyActivities: [
         'Corrective exercises and spinal mobilization',
@@ -8193,7 +8193,7 @@ comparisonData: [
       id: 3,
       number: '03',
       title: 'Home Exercise & Lifestyle Guidance',
-      duration: 'Ongoing',
+      duration: 'Step 3',
       description: 'Patients receive guidance to support treatment outcomes outside the clinic.',
       keyActivities: [
         'Customized home exercise routines',
@@ -8207,7 +8207,7 @@ comparisonData: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Long-Term Management',
-      duration: 'Monthly or as needed',
+      duration: 'Step 4',
       description: 'Ongoing care ensures sustained improvement and spinal support.',
       keyActivities: [
         'Periodic follow-up consultations',
@@ -8888,7 +8888,7 @@ comparisonData: [
       id: 1,
       number: '01',
       title: 'Comprehensive Assessment',
-      duration: 'Visit 1',
+      duration: 'Step 1',
       description: 'We start by evaluating your condition to create a tailored therapy plan.',
       keyActivities: [
         'Review of medical and musculoskeletal history',
@@ -8902,7 +8902,7 @@ comparisonData: [
       id: 2,
       number: '02',
       title: 'Targeted Dry Needling Sessions',
-      duration: 'Visit 2',
+      duration: 'Step 2',
       description: 'Professional sessions focus on relieving tight muscles and improving overall function.',
       keyActivities: [
         '1–2 sessions per week based on condition severity',
@@ -8916,7 +8916,7 @@ comparisonData: [
       id: 3,
       number: '03',
       title: 'Home Care & Lifestyle Support',
-      duration: 'Ongoing',
+      duration: 'Step 3',
       description: 'Patients are guided on exercises and habits to complement therapy and enhance recovery.',
       keyActivities: [
         'Home stretches and strengthening exercises',
@@ -8930,7 +8930,7 @@ comparisonData: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Maintenance',
-      duration: 'Monthly or as needed',
+      duration: 'Step 4',
       description: 'Sustained relief and muscle health are achieved through regular follow-ups and support.',
       keyActivities: [
         'Periodic check-ins to monitor recovery',
@@ -9582,7 +9582,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Initial Consultation & Diagnosis',
-          duration: 'Day 1',
+          duration: 'Step 1',
           description: 'Comprehensive evaluation of symptoms and medical history.',
           keyActivities: [
             'Detailed medical history',
@@ -9596,7 +9596,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Diagnostic Testing',
-          duration: 'Week 1',
+          duration: 'Step 2',
           description: 'Laboratory tests and imaging studies if needed.',
           keyActivities: [
             'Blood tests',
@@ -9610,7 +9610,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Treatment Initiation',
-          duration: 'Week 1-2',
+          duration: 'Step 3',
           description: 'Starting medication and lifestyle modifications.',
           keyActivities: [
             'Medication prescription',
@@ -9624,7 +9624,7 @@ comparisonData: [
           id: 4,
           number: '04',
           title: 'Ongoing Management',
-          duration: 'Ongoing',
+          duration: 'Step 4',
           description: 'Regular follow-ups and treatment optimization.',
           keyActivities: [
             'Follow-up consultations',
@@ -10308,7 +10308,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Initial Consultation & Assessment',
-          duration: 'Visit 1',
+          duration: 'Step 1',
           description: 'Review of symptoms, triggers, and overall allergy profile.',
           keyActivities: [
             'Review of symptoms and triggers',
@@ -10321,7 +10321,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Treatment & Guidance',
-          duration: 'Visit 2',
+          duration: 'Step 2',
           description: 'Start of treatment along with lifestyle and trigger-avoidance guidance.',
           keyActivities: [
             'Medication or therapy initiation',
@@ -10334,7 +10334,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Ongoing Management',
-          duration: 'Follow-Up Visits',
+          duration: 'Step 3',
           description: 'Continuous monitoring, adjustments, and preventive care planning.',
           keyActivities: [
             'Progress monitoring',
@@ -11064,7 +11064,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Visit 1 – Assessment & Cleaning',
-          duration: 'Immediate',
+          duration: 'Step 1',
           description: 'Initial evaluation and preparation of the wound.',
           keyActivities: [
             'Injury evaluation',
@@ -11077,7 +11077,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Visit 2 – Stitching Procedure',
-          duration: '20–40 minutes',
+          duration: 'Step 2',
           description: 'Safe and precise wound closure under local anesthesia.',
           keyActivities: [
             'Local anesthesia',
@@ -11090,7 +11090,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Follow-Up Visits – Healing Monitoring',
-          duration: 'As advised',
+          duration: 'Step 3',
           description: 'Ongoing monitoring to ensure proper healing and minimal scarring.',
           keyActivities: [
             'Wound inspection',
@@ -11788,7 +11788,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Visit 1 – Assessment & Evaluation',
-          duration: '',
+          duration: 'Step 1',
           description: '',
           keyActivities: [
             'Injury examination',
@@ -11801,7 +11801,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Visit 2 – Medical Treatment',
-          duration: '',
+          duration: 'Step 2',
           description: '',
           keyActivities: [
             'Wound cleaning or dressing',
@@ -11814,7 +11814,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Follow-Up Visits – Recovery Monitoring',
-          duration: '',
+          duration: 'Step 3',
           description: '',
           keyActivities: [
             'Healing evaluation',
@@ -12521,7 +12521,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Visit 1 – Consultation & Diagnosis',
-          duration: 'Day 1',
+          duration: 'Step 1',
           description: null,
           keyActivities: [
             'Medical history review',
@@ -12534,7 +12534,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Visit 2 – Treatment Initiation',
-          duration: 'Day 1',
+          duration: 'Step 2',
           description: null,
           keyActivities: [
             'Prescribed medication',
@@ -12547,7 +12547,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Follow-Up Visits – Recovery Monitoring',
-          duration: 'Days 3-14',
+          duration: 'Step 3',
           description: null,
           keyActivities: [
             'Symptom improvement assessment',
@@ -13258,7 +13258,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Visit 1 – Consultation & Assessment',
-          duration: 'Day 1',
+          duration: 'Step 1',
           description: 'Medical history and cardiovascular risk assessment, blood sample collection, and discussion of initial results.',
           keyActivities: [
             'Medical history and cardiovascular risk assessment',
@@ -13271,7 +13271,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Visit 2 – Treatment Initiation',
-          duration: 'Week 1',
+          duration: 'Step 2',
           description: 'Starting prescribed medication and lifestyle counseling.',
           keyActivities: [
             'Prescribed medication if needed',
@@ -13284,7 +13284,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Follow-Up Visits – Monitoring & Adjustment',
-          duration: 'Ongoing',
+          duration: 'Step 3',
           description: 'Review blood test results, adjust treatment, and provide long-term preventive guidance.',
           keyActivities: [
             'Review of blood test results',
@@ -13983,7 +13983,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Visit 1 – Assessment & Consultation',
-          duration: null,
+          duration: 'Step 1',
           description: null,
           keyActivities: [
             'Health and body composition evaluation',
@@ -13996,7 +13996,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Visit 2 – Program Implementation',
-          duration: null,
+          duration: 'Step 2',
           description: null,
           keyActivities: [
             'Tailored meal plan',
@@ -14009,7 +14009,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Follow-Up Visits – Monitoring & Adjustment',
-          duration: null,
+          duration: 'Step 3',
           description: null,
           keyActivities: [
             'Progress tracking and evaluation',
@@ -14725,7 +14725,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Visit 1 – Assessment & Testing',
-          duration: '',
+          duration: 'Step 1',
           description: '',
           keyActivities: [
             'Review medical history and symptoms',
@@ -14738,7 +14738,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Visit 2 – Treatment Planning',
-          duration: '',
+          duration: 'Step 2',
           description: '',
           keyActivities: [
             'Personalized medication and therapy plan',
@@ -14751,7 +14751,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Follow-Up Visits – Monitoring & Adjustment',
-          duration: '',
+          duration: 'Step 3',
           description: '',
           keyActivities: [
             'Review blood test results',
@@ -15456,7 +15456,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Visit 1 – Initial Consultation & Assessment',
-          duration: '',
+          duration: 'Step 1',
           description: '',
           keyActivities: [
             'Detailed review of symptoms and history',
@@ -15469,7 +15469,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Visit 2 – Treatment & Guidance',
-          duration: '',
+          duration: 'Step 2',
           description: '',
           keyActivities: [
             'Medication and inhaler prescription',
@@ -15482,7 +15482,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Follow-Up Visits – Ongoing Management',
-          duration: '',
+          duration: 'Step 3',
           description: '',
           keyActivities: [
             'Monitor lung function and symptom improvement',
@@ -16200,7 +16200,7 @@ comparisonData: [
           id: 1,
           number: '01',
           title: 'Visit 1 – Initial Consultation & Assessment',
-          duration: null,
+          duration: 'Step 1',
           description: null,
           keyActivities: [
             'Medical history review',
@@ -16213,7 +16213,7 @@ comparisonData: [
           id: 2,
           number: '02',
           title: 'Visit 2 – Treatment & Lifestyle Guidance',
-          duration: null,
+          duration: 'Step 2',
           description: null,
           keyActivities: [
             'Medication or insulin management',
@@ -16226,7 +16226,7 @@ comparisonData: [
           id: 3,
           number: '03',
           title: 'Follow-Up Visits – Ongoing Management',
-          duration: null,
+          duration: 'Step 3',
           description: null,
           keyActivities: [
             'Regular sugar level monitoring',
@@ -16925,7 +16925,7 @@ comparisonData: [
       id: 1,
       number: '01',
       title: 'Comprehensive Hypertension Consultation',
-      duration: 'Week 1 – 60 Minutes',
+      duration: 'Step 1 ',
       description:
         'Your journey begins with an in-depth medical evaluation to personalize your Specialized Hypertension Management in Dubai plan.',
       keyActivities: [
@@ -16941,7 +16941,7 @@ comparisonData: [
       id: 2,
       number: '02',
       title: 'Diagnostic & Risk Evaluation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2 ',
       description:
         'Identifying underlying causes and risk factors to optimize Specialized Hypertension Management in Dubai.',
       keyActivities: [
@@ -16957,7 +16957,7 @@ comparisonData: [
       id: 3,
       number: '03',
       title: 'Active Blood Pressure Management Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3 ',
       description:
         'Focused treatment to stabilize blood pressure and reduce long-term cardiovascular risk.',
       keyActivities: [
@@ -16973,7 +16973,7 @@ comparisonData: [
       id: 4,
       number: '04',
       title: 'Maintenance & Long-Term Control',
-      duration: 'Months 4–12',
+      duration: 'Step 4 ',
       description:
         'Sustaining healthy blood pressure levels through ongoing Specialized Hypertension Management in Dubai.',
       keyActivities: [
@@ -17705,7 +17705,7 @@ healingJourney: {
       id: 1,
       number: '01',
       title: 'Comprehensive Health Assessment',
-      duration: 'Week 1 – 60 Minutes',
+      duration: 'Step 1',
       description:
         'Your journey begins with a detailed evaluation to personalize care based on your health goals and medical history.',
       keyActivities: [
@@ -17721,7 +17721,7 @@ healingJourney: {
       id: 2,
       number: '02',
       title: 'Diagnostic Screening Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Identifying potential health risks early using our Expertise in Routine Check-Ups in Dubai.',
       keyActivities: [
@@ -17737,7 +17737,7 @@ healingJourney: {
       id: 3,
       number: '03',
       title: 'Active Health Optimization Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'Focused guidance to address findings and improve overall health outcomes.',
       keyActivities: [
@@ -17753,7 +17753,7 @@ healingJourney: {
       id: 4,
       number: '04',
       title: 'Maintenance & Preventive Care',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Maintaining long-term wellness through regular follow-ups and proactive care.',
       keyActivities: [
@@ -18418,7 +18418,7 @@ healingJourney: {
       id: 1,
       number: '01',
       title: 'Detailed Physical Examination Consultation',
-      duration: 'Week 1 – 60 Minutes',
+      duration: 'Step 1',
       description:
         'Your journey begins with a complete head-to-toe assessment to personalize your Comprehensive Physical Examinations in Dubai.',
       keyActivities: [
@@ -18434,7 +18434,7 @@ healingJourney: {
       id: 2,
       number: '02',
       title: 'Diagnostic & Screening Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Identifying potential health risks using our Comprehensive Physical Examinations in Dubai.',
       keyActivities: [
@@ -18450,7 +18450,7 @@ healingJourney: {
       id: 3,
       number: '03',
       title: 'Active Health Management Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'Addressing findings and optimizing health based on examination results.',
       keyActivities: [
@@ -18466,7 +18466,7 @@ healingJourney: {
       id: 4,
       number: '04',
       title: 'Maintenance & Preventive Follow-Up',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Maintaining optimal health through regular Comprehensive Physical Examinations in Dubai.',
       keyActivities: [
@@ -19170,7 +19170,7 @@ healingJourney: {
       id: 1,
       number: '01',
       title: 'Skin Consultation & Assessment',
-      duration: 'Week 1 – 60 Minutes',
+      duration: 'Step 1',
       description:
         'Your journey begins with a detailed skin analysis to customize the Signature Hydra Facial in Dubai according to your skin needs.',
       keyActivities: [
@@ -19186,7 +19186,7 @@ healingJourney: {
       id: 2,
       number: '02',
       title: 'Skin Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Preparing your skin to maximize the benefits of the Signature Hydra Facial in Dubai.',
       keyActivities: [
@@ -19201,7 +19201,7 @@ healingJourney: {
       id: 3,
       number: '03',
       title: 'Active Treatment Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'Regular sessions of Signature Hydra Facial in Dubai to deeply cleanse, exfoliate, hydrate, and rejuvenate the skin.',
       keyActivities: [
@@ -19217,7 +19217,7 @@ healingJourney: {
       id: 4,
       number: '04',
       title: 'Maintenance & Follow-Up',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Sustaining your glow and skin health with periodic Signature Hydra Facial sessions in Dubai.',
       keyActivities: [
@@ -19844,7 +19844,7 @@ healingJourney: {
       id: 1,
       number: '01',
       title: 'Initial Consultation',
-      duration: '60 min',
+      duration: 'Step 1',
       description: 'Comprehensive assessment including skin type, hair density (if applicable), medical history, and aesthetic goals.',
       keyActivities: [
         'Detailed health & skin/hair questionnaire',
@@ -19858,7 +19858,7 @@ healingJourney: {
       id: 2,
       number: '02',
       title: 'Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description: 'Gentle skin and scalp preparation to ensure maximum PRP efficacy and minimal post-procedure sensitivity.',
       keyActivities: [
         'Cleansing and exfoliation of the treatment area',
@@ -19872,7 +19872,7 @@ healingJourney: {
       id: 3,
       number: '03',
       title: 'Active Face PRP Treatment Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description: 'PRP (Platelet-Rich Plasma) injections to stimulate collagen, improve skin tone, reduce fine lines, and promote hair growth if applied to the scalp.',
       keyActivities: [
         '2–3 Face PRP sessions per month (depending on plan)',
@@ -19886,7 +19886,7 @@ healingJourney: {
       id: 4,
       number: '04',
       title: 'Maintenance & Follow-up',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description: 'Sustaining results with periodic sessions and lifestyle guidance for long-term rejuvenation.',
       keyActivities: [
         'Monthly check-ins to evaluate improvement',
@@ -20512,7 +20512,7 @@ healingJourney: {
       id: 1,
       number: '01',
       title: 'Skin Consultation & Gold Facial Assessment',
-      duration: 'Week 1 – 60 Minutes',
+      duration: 'Step 1',
       description:
         'Your journey begins with an in-depth skin evaluation to tailor the Golden Elixir (24K Gold) Facial in Dubai to your unique skin needs.',
       keyActivities: [
@@ -20528,7 +20528,7 @@ healingJourney: {
       id: 2,
       number: '02',
       title: 'Skin Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Preparing your skin to fully absorb the benefits of the Golden Elixir (24K Gold) Facial in Dubai.',
       keyActivities: [
@@ -20543,7 +20543,7 @@ healingJourney: {
       id: 3,
       number: '03',
       title: 'Active Gold Facial Treatment Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'Regular sessions of the Golden Elixir (24K Gold) Facial in Dubai to restore radiance and promote youthful skin.',
       keyActivities: [
@@ -20559,7 +20559,7 @@ healingJourney: {
       id: 4,
       number: '04',
       title: 'Maintenance & Glow Preservation',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Sustaining luminous, youthful skin with ongoing Golden Elixir (24K Gold) Facial in Dubai treatments.',
       keyActivities: [
@@ -21194,7 +21194,7 @@ healingJourney: {
       id: 1,
       number: '01',
       title: 'Advanced Skin Consultation & Analysis',
-      duration: 'Week 1 – 60 Minutes',
+      duration: 'Step 1',
       description:
         'Your journey starts with a detailed skin assessment to personalize the Exosomes Facial in Dubai for maximum regenerative results.',
       keyActivities: [
@@ -21210,7 +21210,7 @@ healingJourney: {
       id: 2,
       number: '02',
       title: 'Skin Conditioning Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Preparing the skin to enhance the absorption and effectiveness of the Exosomes Facial in Dubai.',
       keyActivities: [
@@ -21225,7 +21225,7 @@ healingJourney: {
       id: 3,
       number: '03',
       title: 'Active Exosomes Treatment Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'Targeted sessions of the Exosomes Facial in Dubai to stimulate cellular repair and visible skin renewal.',
       keyActivities: [
@@ -21241,7 +21241,7 @@ healingJourney: {
       id: 4,
       number: '04',
       title: 'Maintenance & Long-Term Skin Health',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Sustaining results and supporting long-term regeneration with ongoing Exosomes Facial in Dubai care.',
       keyActivities: [
@@ -21871,7 +21871,7 @@ healingJourney: {
       id: 1,
       number: '01',
       title: 'Skin Consultation & Assessment',
-      duration: 'Week 1 – 60 Minutes',
+      duration: 'Step 1',
       description:
         'Your journey begins with a detailed skin evaluation to personalize the Oxygeneo Illuminate Facial in Dubai for optimal brightening results.',
       keyActivities: [
@@ -21887,7 +21887,7 @@ healingJourney: {
       id: 2,
       number: '02',
       title: 'Skin Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Preparing your skin to maximize the effectiveness of the Oxygeneo Illuminate Facial in Dubai.',
       keyActivities: [
@@ -21902,7 +21902,7 @@ healingJourney: {
       id: 3,
       number: '03',
       title: 'Active Oxygeneo Illuminate Treatment Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'Regular sessions of the Oxygeneo Illuminate Facial in Dubai to visibly brighten and rejuvenate the skin.',
       keyActivities: [
@@ -21918,7 +21918,7 @@ healingJourney: {
       id: 4,
       number: '04',
       title: 'Maintenance & Glow Enhancement',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Maintaining luminous, even-toned skin with continued Oxygeneo Illuminate Facial in Dubai care.',
       keyActivities: [
@@ -22335,7 +22335,7 @@ healingJourney: {
             features: [
               ' 100% Natural',
               'No Steroids or Harsh Chemicals',
-              'Certified Ayurvedic Doctors'
+              'Certified Doctors'
             ],
             image: {
           src: '/images/skin.jpg',
@@ -22529,7 +22529,7 @@ healingJourney: {
             id: 1,
             number: '01',
             title: 'Initial Consultation (60 Minutes)',
-            duration: 'Week 1',
+            duration: 'Step 1',
             description: 'Comprehensive skin assessment to identify internal and external triggers.',
             keyActivities: [
               'Health & lifestyle questionnaire',
@@ -22544,7 +22544,7 @@ healingJourney: {
             id: 2,
             number: '02',
             title: 'Detoxification Phase',
-            duration: 'Weeks 1–2',
+            duration: 'Step 2',
             description: 'Internal cleansing to remove toxins and prepare the body for skin repair.',
             keyActivities: [
               'Ayurvedic detox medicines',
@@ -22558,7 +22558,7 @@ healingJourney: {
             id: 3,
             number: '03',
             title: 'Active Skin Treatment Phase',
-            duration: 'Weeks 3–12',
+            duration: 'Step 3',
             description: 'Targeted therapies to heal skin, reduce inflammation, and restore glow.',
             keyActivities: [
               'Herbal face packs & applications',
@@ -22573,7 +22573,7 @@ healingJourney: {
             id: 4,
             number: '04',
             title: 'Maintenance & Follow-Up',
-            duration: 'Months 4–6',
+            duration: 'Step 4',
             description: 'Ensures long-term skin health and prevents recurrence.',
             keyActivities: [
               'Monthly follow-ups',
@@ -23279,7 +23279,7 @@ healingJourney: {
             id: 1,
             number: '01',
             title: 'Initial Consultation (60 Minutes)',
-            duration: 'Week 1',
+            duration: 'Step 1',
             description: null,
             keyActivities: [
               'Hair & scalp examination',
@@ -23292,7 +23292,7 @@ healingJourney: {
             id: 2,
             number: '02',
             title: 'Scalp Preparation Phase',
-            duration: 'Week 1-2',
+            duration: 'Step 2',
             description: null,
             keyActivities: [
               'Scalp cleansing treatments',
@@ -23305,7 +23305,7 @@ healingJourney: {
             id: 3,
             number: '03',
             title: 'Active Hair Treatment Phase',
-            duration: 'Weeks 3–12',
+            duration: 'Step 3',
             description: null,
             keyActivities: [
               'Professional scalp therapies',
@@ -23319,7 +23319,7 @@ healingJourney: {
             id: 4,
             number: '04',
             title: 'Maintenance & Follow-Up',
-            duration: 'Months 4–6',
+            duration: 'Step 4',
             description: null,
             keyActivities: [
               'Monthly check-ups',
@@ -23924,7 +23924,7 @@ healingJourney: {
             id: 1,
             number: '01',
             title: 'Initial Consultation',
-            duration: 'Day 1',
+            duration: 'Step 1',
             description: 'Skin assessment, treatment planning, and patch test if needed.',
             keyActivities: [
               'Skin & hair assessment',
@@ -23937,7 +23937,7 @@ healingJourney: {
             id: 2,
             number: '02',
             title: 'Laser Session',
-            duration: 'Week 1',
+            duration: 'Step 2',
             description: 'Skin preparation and pre-treatment instructions.',
             keyActivities: [
               'Cleansing & preparation',
@@ -23950,7 +23950,7 @@ healingJourney: {
             id: 3,
             number: '03',
             title: ' Post-Treatment Care',
-            duration: 'Weeks 2-24',
+            duration: 'Step 3',
             description: 'Regular laser treatment sessions with progress monitoring.',
             keyActivities: [
               'Soothing care advice',
@@ -24592,7 +24592,7 @@ healingJourney: {
             id: 1,
             number: '01',
             title: 'Consultation & Assessment',
-            duration: 'Day 1',
+            duration: 'Step 1',
             description: 'Body assessment, goal setting, and treatment planning.',
             keyActivities: [
               'Body composition analysis',
@@ -24605,7 +24605,7 @@ healingJourney: {
             id: 2,
             number: '02',
             title: ' Treatment Sessions',
-            duration: 'Week 1',
+            duration: 'Step 2',
             description: 'Regular body shaping sessions with progress monitoring.',
             keyActivities: [
               'Non-invasive body shaping procedures',
@@ -24618,7 +24618,7 @@ healingJourney: {
             id: 3,
             number: '03',
             title: 'Follow-Up & Maintenance',
-            duration: 'Months 3-6',
+            duration: 'Step 3',
             description: 'Enjoying results and maintenance as needed.',
             keyActivities: [
               'Progress evaluation',
@@ -25215,7 +25215,7 @@ healingJourney: {
             id: 1,
             number: '01',
             title: 'Initial Consultation & Shade Analysis',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description: null,
             keyActivities: [
               'Oral examination',
@@ -25229,7 +25229,7 @@ healingJourney: {
             id: 2,
             number: '02',
             title: 'Professional Teeth Bleaching',
-            duration: 'Visit 2',
+            duration: 'Step 2',
             description: null,
             keyActivities: [
               'Application of a protective barrier for gums',
@@ -25243,7 +25243,7 @@ healingJourney: {
             id: 3,
             number: '03',
             title: 'Follow-Up – Aftercare & Maintenance Guidance',
-            duration: 'Visit 3',
+            duration: 'Step 3',
             description: null,
             keyActivities: [
               'Manage mild sensitivity if present',
@@ -25910,7 +25910,7 @@ healingJourney: {
             id: 1,
             number: '01',
             title: 'Initial Consultation & Diagnosis (30–45 min)',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description: 'A detailed dental assessment to identify infection severity and create a personalised treatment plan.',
             keyActivities: [
               'dental examination',
@@ -25924,7 +25924,7 @@ healingJourney: {
             id: 2,
             number: '02',
             title: 'Infection Removal & Canal Cleaning',
-            duration: 'Visit 2',
+            duration: 'Step 2',
             description: 'The infected pulp is carefully removed, and the root canals are cleaned and disinfected to eliminate bacteria.',
             keyActivities: [
               'Local anesthesia for pain-free treatment',
@@ -25938,7 +25938,7 @@ healingJourney: {
             id: 3,
             number: '03',
             title: 'Root Canal Filling & Sealing',
-            duration: 'Day 1-2 (or follow-up)',
+            duration: 'Step 3',
             description: 'The cleaned canals are sealed to prevent reinfection and restore tooth integrity.',
             keyActivities: [
               'Precise canal filling',
@@ -25952,7 +25952,7 @@ healingJourney: {
             id: 4,
             number: '04',
             title: 'Restoration & Aftercare',
-            duration: '1-2 weeks after',
+            duration: 'Step 4',
             description: 'Final restoration ensures long-term strength, function, and protection of the treated tooth.',
             keyActivities: [
               'Crown placement (if required)',
@@ -26621,7 +26621,7 @@ healingJourney: {
             id: 1,
             number: '01',
             title: 'Consultation & Smile Design',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description: null,
             keyActivities: [
               'Oral examination',
@@ -26635,7 +26635,7 @@ healingJourney: {
             id: 2,
             number: '02',
             title: 'Veneer Placement',
-            duration: 'Same Visit',
+            duration: 'Step 2',
             description: null,
             keyActivities: [
               'TTooth surface preparation',
@@ -26648,7 +26648,7 @@ healingJourney: {
             id: 3,
             number: '03',
             title: 'Polishing & Final Results',
-            duration: 'Visit 3',
+            duration: 'Step 3',
             description: null,
             keyActivities: [
               'Natural gloss finish',
@@ -27296,7 +27296,7 @@ healingJourney: {
             "id": 1,
             "number": "01",
             "title": "Consultation & Smile Design",
-            "duration": null,
+            "duration": "Step 1",
             "description": null,
             "keyActivities": [
               "Oral examination",
@@ -27309,7 +27309,7 @@ healingJourney: {
             "id": 2,
             "number": "02",
             "title": "Veneer Placement",
-            "duration": null,
+            "duration": "Step 2",
             "description": null,
             "keyActivities": [
               "Tooth preparation",
@@ -27322,7 +27322,7 @@ healingJourney: {
             "id": 3,
             "number": "03",
             "title": "Final Results & Aftercare",
-            "duration": null,
+            "duration": "Step 3",
             "description": null,
             "keyActivities": [
               "Polishing and finishing",
@@ -27959,7 +27959,7 @@ healingJourney: {
             "id": 1,
             "number": "01",
             "title": "Initial Consultation & Smile Assessment (30–45 min)",
-            "duration": "Visit 1",
+            "duration": "Step 1",
             "description": "A detailed cosmetic evaluation to understand your smile goals and suitability for Snap-On Smile.",
             "keyActivities": [
               "Smile and facial analysis",
@@ -27973,7 +27973,7 @@ healingJourney: {
             "id": 2,
             "number": "02",
             "title": "Digital Measurements & Smile Design",
-            "duration": "Visit 1",
+            "duration": "Step 2",
             "description": "Precise impressions or digital scans are taken to create your custom Snap-On Smile.",
             "keyActivities": [
               "Digital or physical impressions",
@@ -27987,7 +27987,7 @@ healingJourney: {
             "id": 3,
             "number": "03",
             "title": "Snap-On Smile Delivery & Fitting",
-            "duration": "Visit 2",
+            "duration": "Step 3",
             "description": "Your custom Snap-On Smile is fitted and adjusted for comfort and appearance.",
             "keyActivities": [
               "Appliance fitting",
@@ -28629,7 +28629,7 @@ healingJourney: {
             id: 1,
             number: '01',
             title: 'Initial Consultation & Assessment',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description:
               'A thorough dental check to evaluate damage and plan the restoration.',
             keyActivities: [
@@ -28644,7 +28644,7 @@ healingJourney: {
             id: 2,
             number: '02',
             title: 'Tooth Preparation & Composite Placement',
-            duration: 'Visit 1',
+            duration: 'Step 2',
             description:
               'Damaged areas are cleaned, and composite material is applied carefully.',
             keyActivities: [
@@ -28659,7 +28659,7 @@ healingJourney: {
             id: 3,
             number: '03',
             title: 'Polishing & Bite Adjustment',
-            duration: 'Visit 1',
+            duration: 'Step 3',
             description:
               'The restoration is polished and adjusted for comfort and function.',
             keyActivities: [
@@ -29338,7 +29338,7 @@ healingJourney: {
             id: 1,
             number: '01',
             title: 'Initial Consultation & Evaluation',
-            duration: 'Visit 1',
+            duration: 'Step 1',
             description:
               'A detailed assessment to understand alignment issues and recommend the most suitable brace option.',
             keyActivities: [
@@ -29353,7 +29353,7 @@ healingJourney: {
             id: 2,
             number: '02',
             title: 'Braces Placement',
-            duration: 'Visit 2',
+            duration: 'Step 2',
             description:
               'Brackets and wires are carefully placed to begin gradual tooth movement.',
             keyActivities: [
@@ -29368,7 +29368,7 @@ healingJourney: {
             id: 3,
             number: '03',
             title: 'Regular Adjustments & Monitoring',
-            duration: 'Follow-Up Visits',
+            duration: 'Step 3',
             description:
               'Periodic visits ensure controlled tooth movement and progress tracking.',
             keyActivities: [
@@ -29383,7 +29383,7 @@ healingJourney: {
             id: 4,
             number: '04',
             title: 'Braces Removal & Retention',
-            duration: 'Final Phase',
+            duration: 'Step 4',
             description:
               'Once alignment is achieved, braces are removed, and retainers are provided.',
             keyActivities: [
@@ -30058,7 +30058,7 @@ healingJourney: {
       id: 1,
       number: '01',
       title: 'Consultation & Examination',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Oral assessment and gum evaluation',
@@ -30070,7 +30070,7 @@ healingJourney: {
       id: 2,
       number: '02',
       title: 'Scaling',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Removal of plaque and tartar above and below the gum line',
@@ -30082,7 +30082,7 @@ healingJourney: {
       id: 3,
       number: '03',
       title: 'Polishing',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Tooth surface smoothing and stain removal',
@@ -30094,7 +30094,7 @@ healingJourney: {
       id: 4,
       number: '04',
       title: 'Post-Care Advice',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Instructions for brushing, flossing, and mouthwash use',
@@ -30106,7 +30106,7 @@ healingJourney: {
       id: 5,
       number: '05',
       title: 'Result',
-      duration: null,
+      duration: 'Step 5',
       description:
         'Fresher breath, healthy gums, bright teeth, and reduced risk of future dental problems.',
       keyActivities: [],
@@ -30783,7 +30783,7 @@ Recovery: Minimal downtime for non-surgical care
       id: 1,
       number: '01',
       title: 'Initial Consultation & Assessment (30–45 min)',
-      duration: 'Visit 1',
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'dental and gum evaluation',
@@ -30796,7 +30796,7 @@ Recovery: Minimal downtime for non-surgical care
       id: 2,
       number: '02',
       title: 'Non-Surgical Cleaning & Scaling (45–60 min)',
-      duration: 'Visit 2',
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Ultrasonic and manual scaling',
@@ -30809,7 +30809,7 @@ Recovery: Minimal downtime for non-surgical care
       id: 3,
       number: '03',
       title: 'Follow-Up & Maintenance',
-      duration: 'Visit 3–4',
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Re-evaluation of gum health',
@@ -32147,7 +32147,7 @@ Seek a cost-effective smile restoration`
       id: 1,
       number: '01',
       title: 'Consultation & Assessment',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Oral examination',
@@ -32161,7 +32161,7 @@ Seek a cost-effective smile restoration`
       id: 2,
       number: '02',
       title: 'Impressions & Measurements',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Accurate impressions taken',
@@ -32174,7 +32174,7 @@ Seek a cost-effective smile restoration`
       id: 3,
       number: '03',
       title: 'Trial Denture Fitting',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Trial denture placement',
@@ -32187,7 +32187,7 @@ Seek a cost-effective smile restoration`
       id: 4,
       number: '04',
       title: 'Final Denture Placement',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Final denture delivery',

@@ -58,9 +58,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-10 mb-6 sm:mb-8">
           {/* Column 1: Ayurveda Dubai */}
           <div className="space-y-3">
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Ayurveda Dubai</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">RamaCare</h3>
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-              Premium Ayurvedic healing in the heart of Jumeirah 1. Authentic Panchakarma, chronic pain relief, and holistic wellness treatments by DHA-licensed experts.
+             Premium Polyclinic in Dubai Trusted Healthcare in Jumeirah 1. Authentic Panchakarma, chronic pain relief, and holistic wellness treatments by DHA-licensed experts.
             </p>
             <button className="flex items-center space-x-2 px-4 py-2 bg-[#3d3d3d] text-white rounded-md hover:bg-[#4d4d4d] transition-colors text-sm">
               <svg className="w-4 h-4 text-yellow-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -103,8 +103,8 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/#experts"
-                  onClick={(e) => handleSmoothScroll(e, '#experts')}
+                  href="/doctors"
+                 
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   Meet Our Experts
@@ -283,7 +283,7 @@ const Footer = () => {
         {/* SEO Keywords Section */}
         <div className="border-t border-gray-600 pt-5 sm:pt-6 mb-5 sm:mb-6">
           <p className="text-[#d4a574] text-xs sm:text-sm text-center leading-relaxed px-2">
-            Ayurveda Dubai - Panchakarma Dubai - Ayurvedic Detox - Best Ayurveda Clinic in Jumeirah 1 - Ayurvedic Consultation Dubai - Holistic Healing Dubai - DHA Licensed Ayurvedic Centre - Chronic Pain Treatment Dubai - Women&apos;s Wellness Dubai - Stress Management Ayurveda
+           Polyclinic in Dubai | Best Polyclinic in Dubai | Top Polyclinic in Dubai | Affordable Polyclinic in Dubai | Leading & Trusted Polyclinic in Dubai | Polyclinic in Jumeirah | Polyclinic in Jumeirah 1
           </p>
         </div>
 

@@ -16,8 +16,8 @@ const ExpertsSection = ({ content }) => {
     { value: '4.9', label: 'Average Rating' }
   ];
   const ctaSection = content?.ctaSection || {
-    title: 'Ready to Consult our Expert Physician?',
-    description: 'Schedule a one-on-one consultation with our DHA-licensed doctors for personalized care.',
+    title: 'Take the First Step Toward Better Health',
+    description: 'Connect with our DHA-licensed specialists at RamaCare Polyclinic, a leading Polyclinic in Dubai, and receive expert guidance tailored specifically to you.',
     primaryButton: 'Book Consultation Now',
     secondaryButton: 'View All Doctors'
   };
@@ -58,13 +58,7 @@ const ExpertsSection = ({ content }) => {
             'Expertise in pain management, mobility restoration & rehabilitation',
             'Successfully treated 600+ patients with personalized physiotherapy programs'
           ],
-          languages: ['English','Arabic'],
-          quote: 'Movement is medicine. Through precise assessment and individualized therapy, my goal is to help patients regain strength, confidence, and pain-free mobility.',
-          testimonial: {
-            text: 'Jeena physiotherapy sessions helped me recover from long-standing shoulder pain. Very professional and extremely effective.',
-            author: 'Patient Feedback',
-            location: 'Dubai'
-          }
+          languages: ['English']
         },
         {
           id: 2,
@@ -80,13 +74,7 @@ const ExpertsSection = ({ content }) => {
             'Strong focus on preventive healthcare & lifestyle correction',
             'Successfully treated 800+ patients with personalized Ayurvedic protocols'
           ],
-          languages: ['English', 'Arabic'],
-          quote: 'Ayurveda is not just a system of medicine, but a way of life. By understanding the individual and treating the root cause, lasting health can be achieved.',
-          testimonial: {
-            text: 'Dr. Shamna treatment approach was thorough and effective. I felt genuine improvement and long-term relief.',
-            author: 'Patient Feedback',
-            location: 'Sharjah'
-          }
+          languages: ['English']
         },
         {
           id: 3,
@@ -102,13 +90,7 @@ const ExpertsSection = ({ content }) => {
             'Expertise in routine dental procedures and oral health maintenance',
             'Successfully treated 500+ patients with a gentle, patient-focused approach'
           ],
-          languages: ['English', 'Arabic'],
-          quote: 'A healthy smile is the foundation of confidence and overall well-being. My focus is on providing comfortable, high-quality dental care for every patient.',
-          testimonial: {
-            text: 'Dr. Anan made my dental visit completely stress-free. Very professional and caring.',
-            author: 'Patient Feedback',
-            location: 'Dubai'
-          }
+          languages: ['English']
         }
   ];
 
@@ -170,7 +152,7 @@ const ExpertsSection = ({ content }) => {
         {/* Doctor Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {doctors.map((doctor) => (
-            <div key={doctor.id} className="bg-white rounded-2xl overflow-hidden shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)] transition-shadow duration-300">
+            <div key={doctor.id} className="bg-white rounded-2xl overflow-hidden shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)] transition-shadow duration-300 flex flex-col h-full">
               {/* Image Container with Overlay */}
               <div className="relative h-72 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden group">
                 {doctor.image ? (
@@ -187,10 +169,10 @@ const ExpertsSection = ({ content }) => {
                     </svg>
                   </div>
                 )}
-                
+                          
                 {/* Dark gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-
+            
                 {/* DHA Licensed Badge */}
                 <div className="absolute top-4 right-4 bg-[#C9A961] rounded-full px-3 py-1.5 shadow-lg z-10 flex items-center gap-1.5">
                   <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -198,7 +180,7 @@ const ExpertsSection = ({ content }) => {
                   </svg>
                   <span className="text-xs font-medium text-white">DHA Licensed</span>
                 </div>
-
+            
                 {/* Bottom Info on Overlay */}
                 <div className="absolute bottom-0 left-0 right-0 p-5 z-10">
                   {/* Rating */}
@@ -206,21 +188,21 @@ const ExpertsSection = ({ content }) => {
                     {renderStars(doctor.rating, 'w-4 h-4')}
                     <span className="text-white text-sm font-medium ml-1">{doctor.rating}</span>
                   </div>
-
+            
                   {/* Doctor Name */}
                   <h3 className="text-xl font-medium text-white mb-1 tracking-tight">
                     {doctor.name}
                   </h3>
-
+            
                   {/* Qualifications */}
                   <p className="text-sm text-white/90 font-normal">
                     {doctor.qualifications}
                   </p>
                 </div>
               </div>
-
-              {/* Card Body */}
-              <div className="p-6">
+            
+              {/* Card Body - Using flex-grow to make all cards equal height */}
+              <div className="p-6 flex-grow flex flex-col">
                 {/* Specialization Section */}
                 <div className="mb-5 pb-5 border-b border-gray-100">
                   <div className="flex items-center gap-2 mb-2">
@@ -236,22 +218,28 @@ const ExpertsSection = ({ content }) => {
                     {doctor.experience}
                   </span>
                 </div>
-
-                {/* Key Expertise Section */}
-                <div className="mb-5">
+              
+                {/* Key Expertise Section - Using flex-grow to maintain consistent layout */}
+                <div className="mb-5 flex-grow">
                   <h4 className="text-sm font-medium text-[#111827] mb-3">Key Expertise</h4>
                   <ul className="space-y-2.5">
-                    {doctor.expertise.map((item, idx) => (
+                    {doctor.expertise.slice(0, 3).map((item, idx) => (  // Limit to first 3 items for consistency
                       <li key={idx} className="flex items-start gap-2.5">
                         <span className="w-1.5 h-1.5 rounded-full bg-[#C9A961] mt-2 flex-shrink-0"></span>
                         <span className="text-sm text-[#6B7280] leading-relaxed">{item}</span>
                       </li>
                     ))}
+                    {doctor.expertise.length > 3 && (
+                      <li className="flex items-start gap-2.5 text-sm text-[#6B7280]">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#C9A961] mt-2 flex-shrink-0"></span>
+                        <span>+{doctor.expertise.length - 3} more</span>
+                      </li>
+                    )}
                   </ul>
                 </div>
-
+              
                 {/* Languages */}
-                <div className="mb-5">
+                <div className="mb-5 flex-shrink-0">
                   <div className="flex flex-wrap gap-2">
                     {doctor.languages.map((language, idx) => (
                       <span key={idx} className="text-[#1b5e3f] text-xs font-medium">
@@ -260,38 +248,15 @@ const ExpertsSection = ({ content }) => {
                     ))}
                   </div>
                 </div>
-
-                {/* Doctor Philosophy Quote */}
-                <div className="mb-5 p-4 bg-[#FAF8F3] rounded-lg border-l-4 border-[#C9A961] relative">
-                  <svg className="absolute top-3 left-3 w-5 h-5 text-[#C9A961]/40" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.996 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.984zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                  </svg>
-                  <p className="text-sm text-[#6B7280] italic leading-relaxed pl-6">
-                    {doctor.quote}
-                  </p>
-                </div>
-
-                {/* Patient Testimonial */}
-                <div className="mb-5 p-4 bg-white border border-gray-200 rounded-lg">
-                  <div className="flex items-center gap-1 mb-2.5">
-                    {renderStars(5, 'w-3.5 h-3.5')}
-                  </div>
-                  <p className="text-sm text-[#4B5563] leading-relaxed mb-2.5">
-                    "{doctor.testimonial.text}"
-                  </p>
-                  <p className="text-xs text-[#6B7280] font-medium">
-                    — {doctor.testimonial.author}, {doctor.testimonial.location}
-                  </p>
-                </div>
-
-                {/* CTA Button */}
+              
+                {/* CTA Button - Using mt-auto to push button to bottom */}
                 <button
                   onClick={() =>
                     document.getElementById("appointment")?.scrollIntoView({
                       behavior: "smooth",
                     })
                   }
-                  className="w-full bg-gradient-to-r from-[#1b5e3f] via-[#2d7a56] to-[#1b5e3f] text-white px-6 py-3.5 rounded-xl font-medium text-sm transition-all duration-200 hover:shadow-md"
+                  className="w-full bg-gradient-to-r from-[#1b5e3f] via-[#2d7a56] to-[#1b5e3f] text-white px-6 py-3.5 rounded-xl font-medium text-sm transition-all duration-200 hover:shadow-md mt-auto"
                 >
                   Book with {doctor.firstName}
                 </button>
@@ -334,11 +299,9 @@ const ExpertsSection = ({ content }) => {
               {ctaSection.primaryButton}
             </button>
             <button 
-              onClick={() =>
-                document.getElementById("experts")?.scrollIntoView({
-                  behavior: "smooth",
-                })
-              }
+              onClick={() => {
+                window.location.href = '/doctors';
+              }}
               className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-3.5 rounded-xl font-medium text-sm transition-all duration-200"
             >
               {ctaSection.secondaryButton}

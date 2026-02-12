@@ -430,7 +430,7 @@ const TreatmentSection = ({ category, content }) => {
 
               {/* Subtext */}
               <p className="text-sm md:text-base text-white/90 mb-6 max-w-2xl mx-auto leading-relaxed font-normal">
-                Schedule a free consultation with our expert Ayurvedic physicians for personalized recommendations.
+               Get expert guidance at RamaCare Polyclinic, a trusted Polyclinic in Dubai.Book your FREE consultation today and receive a personalized treatment plan tailored to your needs.
               </p>
 
               {/* CTA Button */}

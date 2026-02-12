@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 import { 
   Shield, Lock, Eye, FileText, Calendar, Mail, 
   Phone, MapPin, Search, Download, Printer, 
@@ -80,8 +81,14 @@ const RefundCancellationPage = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-gradient-to-r from-[#0a0a0a]/95 via-[#1b5e3f]/90 to-[#1b5e3f]/80 rounded-xl flex items-center justify-center  ">
-                  <Shield className="w-6 h-6 text-white" />
+                <div className="w-10 h-10 flex items-center justify-center rounded-xl">
+                  <Image
+                    src="/images/Logo.png"
+                    alt="RamaCare Logo"
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                  />
                 </div>
                 <div>
                   <h1 className="text-lg font-bold text-gray-900">Refund & Cancellation Policy</h1>
@@ -190,7 +197,15 @@ const RefundCancellationPage = () => {
                 
                 <div className="relative z-10">
                   <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-                    <Shield className="w-5 h-5" />
+                    <div className="w-5 h-5 flex items-center justify-center">
+                      <Image
+                        src="/images/Logo.png"
+                        alt="RamaCare Logo"
+                        width={20}
+                        height={20}
+                        className="object-contain"
+                      />
+                    </div>
                     <span className="text-sm font-semibold">Transparent & Fair</span>
                   </div>
                   

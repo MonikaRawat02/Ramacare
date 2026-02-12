@@ -14,10 +14,10 @@ export const categoryContent = {
       ctaText: 'Book Free Consultation',
       backgroundImage: '/images/a1.jpg',
       stats: [
-        { number: '15+', label: 'Years of Expertise' },
-        { number: '500+', label: 'Satisfied Patients' },
-        { number: '98%', label: 'Success Rate' },
-        { number: '12+', label: 'Specialized Ayurveda Treatments' }
+        { number: '15+', label: 'Years Experience' },
+    { number: '500+', label: 'Happy Patients' },
+    { number: '98%', label: 'Success Rate' },
+    { number: '40+', label: 'Treatments' }
       ],
       features: [
         'Classical Panchakarma & Herbal Therapies',
@@ -196,7 +196,7 @@ export const categoryContent = {
             'Expertise in pain management, mobility restoration & rehabilitation',
             'Successfully treated 600+ patients with personalized physiotherapy programs'
           ],
-          languages: ['English','Arabic'],
+          languages: ['English'],
           quote: 'Movement is medicine. Through precise assessment and individualized therapy, my goal is to help patients regain strength, confidence, and pain-free mobility.',
           testimonial: {
             text: 'Jeena’s physiotherapy sessions helped me recover from long-standing shoulder pain. Very professional and extremely effective.',
@@ -218,7 +218,7 @@ export const categoryContent = {
             'Strong focus on preventive healthcare & lifestyle correction',
             'Successfully treated 800+ patients with personalized Ayurvedic protocols'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'Ayurveda is not just a system of medicine, but a way of life. By understanding the individual and treating the root cause, lasting health can be achieved.',
           testimonial: {
             text: 'Dr. Shamna’s treatment approach was thorough and effective. I felt genuine improvement and long-term relief.',
@@ -240,7 +240,7 @@ export const categoryContent = {
             'Expertise in routine dental procedures and oral health maintenance',
             'Successfully treated 500+ patients with a gentle, patient-focused approach'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'A healthy smile is the foundation of confidence and overall well-being. My focus is on providing comfortable, high-quality dental care for every patient.',
           testimonial: {
             text: 'Dr. Anan made my dental visit completely stress-free. Very professional and caring.',
@@ -627,10 +627,10 @@ export const categoryContent = {
        backgroundImage: '/images/aesth.jpg',
        backgroundAlt: 'Aesthetic Dermatology Treatment focused on skin rejuvenation, anti-aging solutions, and personalized care.',
       stats: [
-        { number: '15+', label: ' years of dermatology experience' },
-        { number: '1,000+', label: 'satisfied patients' },
-        { number: '98%', label: 'patient satisfaction rate' },
-        { number: '4.8/5', label: 'Patient Rating' }
+         { number: '15+', label: 'Years Experience' },
+    { number: '500+', label: 'Happy Patients' },
+    { number: '98%', label: 'Success Rate' },
+    { number: '40+', label: 'Treatments' }
       ],
       features: [
         'DHA-Licensed Dermatologists',
@@ -727,7 +727,7 @@ export const categoryContent = {
             'Expertise in pain management, mobility restoration & rehabilitation',
             'Successfully treated 600+ patients with personalized physiotherapy programs'
           ],
-          languages: ['English','Arabic'],
+          languages: ['English'],
           quote: 'Movement is medicine. Through precise assessment and individualized therapy, my goal is to help patients regain strength, confidence, and pain-free mobility.',
           testimonial: {
             text: 'Jeena’s physiotherapy sessions helped me recover from long-standing shoulder pain. Very professional and extremely effective.',
@@ -749,7 +749,7 @@ export const categoryContent = {
             'Strong focus on preventive healthcare & lifestyle correction',
             'Successfully treated 800+ patients with personalized Ayurvedic protocols'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'Ayurveda is not just a system of medicine, but a way of life. By understanding the individual and treating the root cause, lasting health can be achieved.',
           testimonial: {
             text: 'Dr. Shamna’s treatment approach was thorough and effective. I felt genuine improvement and long-term relief.',
@@ -771,7 +771,7 @@ export const categoryContent = {
             'Expertise in routine dental procedures and oral health maintenance',
             'Successfully treated 500+ patients with a gentle, patient-focused approach'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'A healthy smile is the foundation of confidence and overall well-being. My focus is on providing comfortable, high-quality dental care for every patient.',
           testimonial: {
             text: 'Dr. Anan made my dental visit completely stress-free. Very professional and caring.',
@@ -1190,10 +1190,10 @@ export const categoryContent = {
       ctaText: 'Book Free Consultation',
       backgroundImage: '/images/d1.jpg',
       stats: [
-        { number: '15+', label: 'Years of Experience' },
-        { number: '1,000+', label: ' Happy Patients ' },
-        { number: '98%', label: 'Satisfaction Rate ' },
-        { number: '4.9/5', label: 'Patient Rating' }
+         { number: '15+', label: 'Years Experience' },
+    { number: '500+', label: 'Happy Patients' },
+    { number: '98%', label: 'Success Rate' },
+    { number: '40+', label: 'Treatments' }
       ],
       features: [
         'DHA-Licensed Dentists',
@@ -1508,7 +1508,7 @@ export const categoryContent = {
             'Expertise in pain management, mobility restoration & rehabilitation',
             'Successfully treated 600+ patients with personalized physiotherapy programs'
           ],
-          languages: ['English','Arabic'],
+          languages: ['English'],
           quote: 'Movement is medicine. Through precise assessment and individualized therapy, my goal is to help patients regain strength, confidence, and pain-free mobility.',
           testimonial: {
             text: 'Jeena’s physiotherapy sessions helped me recover from long-standing shoulder pain. Very professional and extremely effective.',
@@ -1530,7 +1530,7 @@ export const categoryContent = {
             'Strong focus on preventive healthcare & lifestyle correction',
             'Successfully treated 800+ patients with personalized Ayurvedic protocols'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'Ayurveda is not just a system of medicine, but a way of life. By understanding the individual and treating the root cause, lasting health can be achieved.',
           testimonial: {
             text: 'Dr. Shamna’s treatment approach was thorough and effective. I felt genuine improvement and long-term relief.',
@@ -1552,7 +1552,7 @@ export const categoryContent = {
             'Expertise in routine dental procedures and oral health maintenance',
             'Successfully treated 500+ patients with a gentle, patient-focused approach'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'A healthy smile is the foundation of confidence and overall well-being. My focus is on providing comfortable, high-quality dental care for every patient.',
           testimonial: {
             text: 'Dr. Anan made my dental visit completely stress-free. Very professional and caring.',
@@ -1965,9 +1965,10 @@ export const categoryContent = {
         'We maintain strict medical hygiene standards while delivering patient-focused physiotherapy designed for long-term results—not temporary relief.'
       ],
       stats: [
-        { number: '500+', label: 'Recovered Patients' },
-        { number: '7+', label: 'Therapy Types' },
-        { number: '98%', label: 'Satisfaction Rate' }
+        { number: '15+', label: 'Years Experience' },
+    { number: '500+', label: 'Happy Patients' },
+    { number: '98%', label: 'Success Rate' },
+    { number: '40+', label: 'Treatments' }
       ],
       ctaText: 'Meet Our Physiotherapists',
       image: '/images/ph-top.jpg',
@@ -2131,7 +2132,7 @@ export const categoryContent = {
             'Expertise in pain management, mobility restoration & rehabilitation',
             'Successfully treated 600+ patients with personalized physiotherapy programs'
           ],
-          languages: ['English','Arabic'],
+          languages: ['English'],
           quote: 'Movement is medicine. Through precise assessment and individualized therapy, my goal is to help patients regain strength, confidence, and pain-free mobility.',
           testimonial: {
             text: 'Jeena’s physiotherapy sessions helped me recover from long-standing shoulder pain. Very professional and extremely effective.',
@@ -2153,7 +2154,7 @@ export const categoryContent = {
             'Strong focus on preventive healthcare & lifestyle correction',
             'Successfully treated 800+ patients with personalized Ayurvedic protocols'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'Ayurveda is not just a system of medicine, but a way of life. By understanding the individual and treating the root cause, lasting health can be achieved.',
           testimonial: {
             text: 'Dr. Shamna’s treatment approach was thorough and effective. I felt genuine improvement and long-term relief.',
@@ -2175,7 +2176,7 @@ export const categoryContent = {
             'Expertise in routine dental procedures and oral health maintenance',
             'Successfully treated 500+ patients with a gentle, patient-focused approach'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'A healthy smile is the foundation of confidence and overall well-being. My focus is on providing comfortable, high-quality dental care for every patient.',
           testimonial: {
             text: 'Dr. Anan made my dental visit completely stress-free. Very professional and caring.',
@@ -2459,10 +2460,10 @@ export const categoryContent = {
       backgroundImage: '/images/gp.jpg',
        backgroundAlt: 'General physician consulting a patient in a modern clinic, friendly interaction, clean medical environment, professional healthcare setting, realistic lighting, no text in image',
       stats: [
-        { number: '15+', label: 'Years Experience' },
-        { number: '12,00+', label: ' Patients Treated' },
-        { number: '98%', label: ' Patient Satisfaction' },
-        { number: '20+', label: ' Medical Services' }
+         { number: '15+', label: 'Years Experience' },
+    { number: '500+', label: 'Happy Patients' },
+    { number: '98%', label: 'Success Rate' },
+    { number: '40+', label: 'Treatments' }
       ],
       features: [
         ' DHA-Licensed General Physicians',
@@ -2880,7 +2881,7 @@ programs: {
             'Expertise in pain management, mobility restoration & rehabilitation',
             'Successfully treated 600+ patients with personalized physiotherapy programs'
           ],
-          languages: ['English','Arabic'],
+          languages: ['English'],
           quote: 'Movement is medicine. Through precise assessment and individualized therapy, my goal is to help patients regain strength, confidence, and pain-free mobility.',
           testimonial: {
             text: 'Jeena’s physiotherapy sessions helped me recover from long-standing shoulder pain. Very professional and extremely effective.',
@@ -2902,7 +2903,7 @@ programs: {
             'Strong focus on preventive healthcare & lifestyle correction',
             'Successfully treated 800+ patients with personalized Ayurvedic protocols'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'Ayurveda is not just a system of medicine, but a way of life. By understanding the individual and treating the root cause, lasting health can be achieved.',
           testimonial: {
             text: 'Dr. Shamna’s treatment approach was thorough and effective. I felt genuine improvement and long-term relief.',
@@ -2924,7 +2925,7 @@ programs: {
             'Expertise in routine dental procedures and oral health maintenance',
             'Successfully treated 500+ patients with a gentle, patient-focused approach'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'A healthy smile is the foundation of confidence and overall well-being. My focus is on providing comfortable, high-quality dental care for every patient.',
           testimonial: {
             text: 'Dr. Anan made my dental visit completely stress-free. Very professional and caring.',
@@ -3204,10 +3205,10 @@ programs: {
        backgroundImage: '/images/facial-treat.jpg',
        backgroundAlt: 'General physician consulting a patient in a modern clinic, friendly interaction, clean medical environment, professional healthcare setting, realistic lighting, no text in image',
       stats: [
-        { number: '15+', label: 'Years Experience' },
-        { number: '500+', label: ' Happy Clients' },
-        { number: '98%', label: ' Success Rate' },
-        { number: '12+', label: 'Treatment Types' }
+         { number: '15+', label: 'Years Experience' },
+    { number: '500+', label: 'Happy Patients' },
+    { number: '98%', label: 'Success Rate' },
+    { number: '40+', label: 'Treatments' }
       ],
       features: [
         'DHA-Licensed Expert Doctors',
@@ -3398,7 +3399,7 @@ programs: {
             'Expertise in pain management, mobility restoration & rehabilitation',
             'Successfully treated 600+ patients with personalized physiotherapy programs'
           ],
-          languages: ['English','Arabic'],
+          languages: ['English'],
           quote: 'Movement is medicine. Through precise assessment and individualized therapy, my goal is to help patients regain strength, confidence, and pain-free mobility.',
           testimonial: {
             text: 'Jeena’s physiotherapy sessions helped me recover from long-standing shoulder pain. Very professional and extremely effective.',
@@ -3420,7 +3421,7 @@ programs: {
             'Strong focus on preventive healthcare & lifestyle correction',
             'Successfully treated 800+ patients with personalized Ayurvedic protocols'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'Ayurveda is not just a system of medicine, but a way of life. By understanding the individual and treating the root cause, lasting health can be achieved.',
           testimonial: {
             text: 'Dr. Shamna’s treatment approach was thorough and effective. I felt genuine improvement and long-term relief.',
@@ -3442,7 +3443,7 @@ programs: {
             'Expertise in routine dental procedures and oral health maintenance',
             'Successfully treated 500+ patients with a gentle, patient-focused approach'
           ],
-          languages: ['English', 'Arabic'],
+          languages: ['English'],
           quote: 'A healthy smile is the foundation of confidence and overall well-being. My focus is on providing comfortable, high-quality dental care for every patient.',
           testimonial: {
             text: 'Dr. Anan made my dental visit completely stress-free. Very professional and caring.',

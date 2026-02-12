@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
 const QuickNavigation = () => {
-  const [activeSection, setActiveSection] = useState('our-doctors');
+  const [activeSection, setActiveSection] = useState('treatment-info');
 
   const navItems = [
     { id: 'treatment-info', label: 'Treatment Info' },
-    { id: 'our-doctors', label: 'Our Doctors' },
     { id: 'how-it-works', label: 'How It Works' },
     { id: 'benefits', label: 'Benefits' },
     { id: 'testimonials', label: 'Success Stories' },
+     { id: 'our-doctors', label: 'Our Doctors' },
     // { id: 'pricing', label: 'Pricing' },
     { id: 'faq', label: 'FAQ' },
     { id: 'book-now', label: 'Book Now' },

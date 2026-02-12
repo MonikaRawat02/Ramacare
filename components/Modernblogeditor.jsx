@@ -44,7 +44,7 @@ const ModernBlogEditorV1 = ({
   const [featuredImage, setFeaturedImage] = useState('');
   const [topics, setTopics] = useState([]);
   const [newTopic, setNewTopic] = useState('');
-  const [authorName, setAuthorName] = useState('');
+
   const [isLoading, setIsLoading] = useState(false);
   const [isPublishing, setIsPublishing] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
@@ -212,7 +212,7 @@ const ModernBlogEditorV1 = ({
             const initialContent = b.content || '';
             setTitle(b.title || '');
             setParamlink(b.paramlink || '');
-            setAuthorName((b.postedBy && (b.postedBy.name || b.postedBy.username)) || b.postedBy || '');
+
             setContent(initialContent);
             setTimeout(() => {
               if (editorRef.current) {
@@ -234,7 +234,7 @@ const ModernBlogEditorV1 = ({
             const initialContent = d.content || '';
             setTitle(d.title || '');
             setParamlink(d.paramlink || '');
-            setAuthorName((d.postedBy && (d.postedBy.name || d.postedBy.username)) || d.postedBy || '');
+
             setContent(initialContent);
             setCurrentDraftId(editDraftId);
             setTimeout(() => {
@@ -3603,9 +3603,6 @@ const saveDraft = async (isAutoSave = false) => {
                   />
                 )}
                 <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 break-words">{title || 'Untitled'}</h1>
-                {authorName && (
-                  <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6">By {authorName}</p>
-                )}
                 <div
                   className="prose prose-sm sm:prose-base md:prose-lg max-w-none preview-content"
                   dangerouslySetInnerHTML={{ __html: cleanContentForPreview(content) }}

@@ -170,6 +170,7 @@ const AdminBlogPost = () => {
   };
   
   const [showFullPost, setShowFullPost] = useState(null);
+  const [isPreviewLoading, setIsPreviewLoading] = useState(false);
   
   // Toast notification system
   const [toasts, setToasts] = useState([]);
@@ -215,8 +216,66 @@ const AdminBlogPost = () => {
     setShowConfirmModal(false);
   };
   
-  const openFullPost = (post) => {
-    setShowFullPost(post);
+  const openFullPost = async (post) => {
+    setIsPreviewLoading(true);
+    try {
+      // If we have a post ID, fetch the full post data to ensure we have the latest content
+      if (post._id) {
+        const endpoint = post.status === 'draft' 
+          ? `/api/blog/draft?id=${post._id}`
+          : `/api/blog/published?id=${post._id}`;
+        
+        const res = await axios.get(endpoint, getAuthHeaders());
+        if (res.data.success) {
+          const fullPostData = post.status === 'draft' ? res.data.draft : res.data.blog;
+          const fullPost = {
+            ...fullPostData,
+            postedBy: fullPostData.postedBy || { name: 'Unknown' },
+            viewsCount: fullPostData.viewsCount || 0,
+            likesCount: fullPostData.likesCount || 0,
+            content: fullPostData.content || '',
+            status: post.status || 'published'
+          };
+          setShowFullPost(fullPost);
+        } else {
+          // Fallback to the provided post data
+          const fullPost = {
+            ...post,
+            postedBy: post.postedBy || { name: 'Unknown' },
+            viewsCount: post.viewsCount || 0,
+            likesCount: post.likesCount || 0,
+            content: post.content || '',
+            status: post.status || 'published'
+          };
+          setShowFullPost(fullPost);
+        }
+      } else {
+        // Fallback to the provided post data
+        const fullPost = {
+          ...post,
+          postedBy: post.postedBy || { name: 'Unknown' },
+          viewsCount: post.viewsCount || 0,
+          likesCount: post.likesCount || 0,
+          content: post.content || '',
+          status: post.status || 'published'
+        };
+        setShowFullPost(fullPost);
+      }
+    } catch (error) {
+      console.error("Error loading full post:", error);
+      // Fallback to the provided post data
+      const fullPost = {
+        ...post,
+        postedBy: post.postedBy || { name: 'Unknown' },
+        viewsCount: post.viewsCount || 0,
+        likesCount: post.likesCount || 0,
+        content: post.content || '',
+        status: post.status || 'published'
+      };
+      setShowFullPost(fullPost);
+    } finally {
+      setIsPreviewLoading(false);
+    }
   };
   
   const closeFullPost = () => {
@@ -596,10 +655,6 @@ const AdminBlogPost = () => {
                               <div className="flex flex-col sm:flex-row sm:items-center justify-between mt-2 sm:mt-3 gap-2">
                                 <div className="flex flex-wrap gap-2 sm:gap-3 text-xs text-gray-500">
                                   <span className="flex items-center gap-1">
-                                    <User size={12} className="text-gray-400 flex-shrink-0" />
-                                    <span className="truncate max-w-[100px]">{post.postedBy?.name || 'Admin'}</span>
-                                  </span>
-                                  <span className="flex items-center gap-1">
                                     <Calendar size={12} className="text-gray-400 flex-shrink-0" />
                                     <span className="truncate">{new Date(post.createdAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
                                   </span>
@@ -690,10 +745,6 @@ const AdminBlogPost = () => {
                             </p>
 
                             <div className="flex flex-wrap items-center text-xs gap-2 sm:gap-4 pt-2 sm:pt-3 border-t border-gray-100">
-                              <span className="flex items-center gap-1">
-                                <User size={12} className="text-gray-400 flex-shrink-0" />
-                                <span className="font-medium truncate max-w-[80px] sm:max-w-[100px]">{post.postedBy?.name || 'Admin'}</span>
-                              </span>
                               <span className="flex items-center gap-1">
                                 <Calendar size={12} className="text-gray-400 flex-shrink-0" />
                                 <span className="truncate">{new Date(post.createdAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -808,10 +859,6 @@ const AdminBlogPost = () => {
                               {/* Meta */}
                               <div className="flex flex-wrap gap-2 sm:gap-3 mt-2 sm:mt-3 text-xs text-gray-500">
                                 <span className="flex items-center gap-1">
-                                  <User size={12} className="text-gray-400 flex-shrink-0" />
-                                  <span className="truncate max-w-[100px]">{draft.postedBy?.name || 'Admin'}</span>
-                                </span>
-                                <span className="flex items-center gap-1">
                                   <Calendar size={12} className="text-gray-400 flex-shrink-0" />
                                   <span className="truncate">{new Date(draft.updatedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
                                 </span>
@@ -877,10 +924,6 @@ const AdminBlogPost = () => {
 
                             <div className="flex flex-wrap items-center text-xs gap-2 sm:gap-4 pt-2 sm:pt-3 border-t border-gray-100">
                               <span className="flex items-center gap-1">
-                                <User size={12} className="text-gray-400 flex-shrink-0" />
-                                <span className="font-medium truncate max-w-[80px] sm:max-w-[100px]">{draft.postedBy?.name || 'Admin'}</span>
-                              </span>
-                              <span className="flex items-center gap-1">
                                 <Calendar size={12} className="text-gray-400 flex-shrink-0" />
                                 <span className="truncate">{new Date(draft.updatedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
                               </span>
@@ -923,28 +966,38 @@ const AdminBlogPost = () => {
       </div>
 
       {/* Full Post Preview Modal */}
-      {showFullPost && (
+      {(showFullPost || isPreviewLoading) && (
         <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-3 sm:p-4" onClick={closeFullPost}>
           <div className="bg-white rounded-xl sm:rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden" onClick={(e) => e.stopPropagation()}>
             {/* Modal Header */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 sm:p-6 border-b border-gray-200 bg-gradient-to-r from-teal-50 to-emerald-50 gap-3 sm:gap-4">
               <div className="flex-1 min-w-0 pr-8 sm:pr-0">
-                <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 line-clamp-2">{showFullPost.title}</h2>
-                <div className="flex flex-wrap items-center gap-2 sm:gap-4 mt-2 text-xs sm:text-sm text-gray-600">
-                  <span className="flex items-center gap-1">
-                    <User size={14} className="flex-shrink-0" />
-                    <span className="truncate">{showFullPost.postedBy?.name || 'Admin'}</span>
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <Calendar size={14} className="flex-shrink-0" />
-                    <span className="truncate">{new Date(showFullPost.createdAt).toLocaleDateString('en-US', { 
-                      year: 'numeric', 
-                      month: 'long', 
-                      day: 'numeric' 
-                    })}
-                    </span>
-                  </span>
-                </div>
+                {isPreviewLoading ? (
+                  <div className="flex items-center gap-2">
+                    <div className="animate-spin rounded-full h-5 w-5 border-2 border-teal-600 border-t-transparent"></div>
+                    <span className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">Loading...</span>
+                  </div>
+                ) : (
+                  <>
+                    <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 line-clamp-2">{showFullPost?.title || 'Untitled'}</h2>
+                    <div className="flex flex-wrap items-center gap-2 sm:gap-4 mt-2 text-xs sm:text-sm text-gray-600">
+                      
+                      <span className="flex items-center gap-1">
+                        <Calendar size={14} className="flex-shrink-0" />
+                        <span className="truncate">
+                          {showFullPost?.createdAt 
+                            ? new Date(showFullPost.createdAt).toLocaleDateString('en-US', { 
+                                year: 'numeric', 
+                                month: 'long', 
+                                day: 'numeric' 
+                              })
+                            : 'Unknown date'
+                          }
+                        </span>
+                      </span>
+                    </div>
+                  </>
+                )}
               </div>
               <button 
                 onClick={closeFullPost}
@@ -956,31 +1009,50 @@ const AdminBlogPost = () => {
   
             {/* Modal Content */}
             <div className="p-4 sm:p-6 overflow-y-auto max-h-[calc(90vh-200px)] sm:max-h-[calc(90vh-180px)]">
-              <div className="blog-content text-gray-900 leading-relaxed prose prose-sm sm:prose-lg max-w-none">
-                <div dangerouslySetInnerHTML={{ __html: showFullPost.content || '' }} />
-              </div>
+              {isPreviewLoading ? (
+                <div className="flex flex-col items-center justify-center py-12">
+                  <div className="relative">
+                    <div className="animate-spin rounded-full h-12 w-12 border-4 border-teal-200"></div>
+                    <div className="animate-spin rounded-full h-12 w-12 border-4 border-teal-600 border-t-transparent absolute top-0 left-0"></div>
+                  </div>
+                  <p className="text-gray-600 mt-4 font-medium">Loading post content...</p>
+                </div>
+              ) : (
+                <div className="blog-content text-gray-900 leading-relaxed prose prose-sm sm:prose-lg max-w-none">
+                  {showFullPost?.content ? (
+                    <div dangerouslySetInnerHTML={{ __html: showFullPost.content }} />
+                  ) : (
+                    <div className="text-center py-8">
+                      <FileText className="mx-auto text-gray-300" size={48} />
+                      <p className="text-gray-500 mt-2">No content available</p>
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
 
             {/* Modal Footer */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between p-4 sm:p-6 border-t border-gray-200 bg-gray-50 gap-3 sm:gap-4">
-              <div className="flex items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600">
-                <span className="flex items-center gap-1">
-                  <Eye size={14} className="flex-shrink-0" />
-                  <span>{showFullPost.viewsCount || 0} views</span>
-                </span>
-                <span className="flex items-center gap-1">
-                  <Heart size={14} className="flex-shrink-0" />
-                  <span>{showFullPost.likesCount || 0} likes</span>
-                </span>
+            {!isPreviewLoading && showFullPost && (
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between p-4 sm:p-6 border-t border-gray-200 bg-gray-50 gap-3 sm:gap-4">
+                <div className="flex items-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-600">
+                  <span className="flex items-center gap-1">
+                    <Eye size={14} className="flex-shrink-0" />
+                    <span>{showFullPost.viewsCount || 0} views</span>
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <Heart size={14} className="flex-shrink-0" />
+                    <span>{showFullPost.likesCount || 0} likes</span>
+                  </span>
+                </div>
+                <button 
+                  onClick={() => handleCopyLink(showFullPost.paramlink)}
+                  className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
+                >
+                  <Copy size={14} className="flex-shrink-0" />
+                  <span>Copy Link</span>
+                </button>
               </div>
-              <button 
-                onClick={() => handleCopyLink(showFullPost.paramlink)}
-                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
-              >
-                <Copy size={14} className="flex-shrink-0" />
-                <span>Copy Link</span>
-              </button>
-            </div>
+            )}
           </div>
         </div>
       )}

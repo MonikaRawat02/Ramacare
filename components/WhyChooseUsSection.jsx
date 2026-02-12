@@ -13,28 +13,28 @@ const WhyChooseUsSection = ({ content }) => {
  Whether you're visiting for routine check-ups, specialized medical care, aesthetic treatments, or long-term wellness support, our multidisciplinary team is committed to guiding you toward better health, confidence, and overall quality of life.`;
   const cards = content?.cards || [
     {
-      title: 'Authentic Classical Ayurveda',
-      description: 'Our Ayurvedic treatments follow time-tested classical protocols using authentic formulations, supporting natural healing and long-term balance.'
+      title: 'Complete & Compassionate Medical Care',
+      description: 'At RamaCare Polyclinic, we provide high-quality, patient-centered healthcare designed to support your long-term well-being. As a leading Polyclinic in Dubai, our focus is on safe, effective, and result-driven treatments for individuals and families.'
     },
     {
-      title: 'DHA-Licensed Practitioners',
-      description: 'All treatments are delivered and supervised by certified DHA-licensed doctors and specialists with proven clinical expertise.'
+      title: 'DHA-Licensed Expert Doctors',
+      description: 'Our experienced DHA-licensed doctors and specialists deliver treatments with precision, care, and strict clinical standards, ensuring your health is always in safe hands.'
     },
     {
-      title: 'Personalized Wellness Plans',
-      description: 'Each patient receives a tailored treatment plan based on medical history, lifestyle, and individual health goals.'
+      title: 'Personalized Treatment Plans',
+      description: 'We understand that every patient is different. That’s why we create customized treatment plans tailored to your medical history, lifestyle, and health goals — providing care that truly meets your needs.'
     },
     {
-      title: 'Premium Jumeirah 1 Facility',
-      description: 'A modern, hygienic, and calming environment designed to prioritize patient comfort, privacy, and safety.'
+      title: 'Premium Jumeirah 1 Location',
+      description: 'Conveniently located in Jumeirah 1, our modern facility provides a clean, comfortable, and welcoming environment, designed with a focus on patient comfort, privacy, and safety.'
     },
     {
-      title: 'Holistic Body + Mind Healing',
-      description: 'We address physical symptoms while supporting emotional well-being, stress reduction, and lifestyle balance.'
+      title: 'Holistic Wellness Approach',
+      description: 'We go beyond treating symptoms by supporting overall wellness, stress management, and healthier lifestyle choices for lasting results.'
     },
     {
-      title: 'High Patient Satisfaction',
-      description: 'Our transparent approach and consistent outcomes have earned the trust of families across Dubai.'
+      title: 'Trusted by Families Across Dubai',
+      description: 'Our transparent communication, ethical practices, and consistent outcomes make us a preferred Polyclinic in Dubai for quality healthcare you can trust.'
     }
   ];
 

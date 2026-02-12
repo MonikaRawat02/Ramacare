@@ -20,32 +20,44 @@ const PatientTestimonials = ({ content }) => {
   const badge = content?.badge || 'Patient Success Stories';
   const title = content?.title || 'Real Success Stories from Dubai Patients';
   const subtitle = content?.subtitle || 'Verified testimonials from patients who received trusted, doctor-led care at our DHA-licensed clinic';
+  const showSeeAllButton = content?.showSeeAllButton !== false; // Default true
+  const showSeeMoreButton = content?.showSeeMoreButton || false;
+  const showStatsSection = content?.showStatsSection !== false; // Default true
   
-  // Simple video array - just video URLs
+  // Simple video array - mixed thumbnail support
+  // ✅ MIXED APPROACH - NATURAL FRAMES NOW WORKING:
+  // - Videos WITH 'thumbnail' property = show your custom image
+  // - Videos WITHOUT 'thumbnail' property = show video's natural first frame
   const testimonials = content?.testimonials || [
     {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      // thumbnail: '/images/before-after-5.jpg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
   ];
 
@@ -178,7 +190,7 @@ const PatientTestimonials = ({ content }) => {
           </div>
 
           {/* Main Heading */}
-          <h2 className="md:text-xl lg:text-2xl font-bold text-[#1F2937] text-center mb-3">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl mx-auto text-center">
             {title}
           </h2>
 
@@ -204,21 +216,48 @@ const PatientTestimonials = ({ content }) => {
               >
                 {/* Video Section */}
                 <div className="relative aspect-video bg-black">
-                  <video
-                    ref={(el) => (videoRefs.current[testimonial.id] = el)}
-                    className="absolute inset-0 w-full h-full object-cover"
-                    onPause={() => handleVideoPause(testimonial.id)}
-                    controls={playingVideo === testimonial.id}
-                    playsInline
-                  >
-                    <source src={testimonial.videoUrl} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  {/* Mixed Thumbnail Support - Custom image or video frame */}
+                  {playingVideo !== testimonial.id && (
+                    testimonial.thumbnail ? (
+                      // Custom image thumbnail
+                      <img 
+                        src={testimonial.thumbnail} 
+                        alt={`Testimonial ${testimonial.id}`} 
+                        className="absolute inset-0 w-full h-full object-cover"
+                      />
+                    ) : (
+                      // Video-generated thumbnail (first frame)
+                      <video
+                        className="absolute inset-0 w-full h-full object-cover"
+                        poster=""
+                        preload="metadata"
+                        muted
+                        playsInline
+                      >
+                        <source src={testimonial.videoUrl} type="video/mp4" />
+                      </video>
+                    )
+                  )}
+                  
+                  {/* Video Element - Only visible when playing */}
+                  {playingVideo === testimonial.id && (
+                    <video
+                      ref={(el) => (videoRefs.current[testimonial.id] = el)}
+                      className="absolute inset-0 w-full h-full object-cover"
+                      onPause={() => handleVideoPause(testimonial.id)}
+                      controls
+                      autoPlay
+                      playsInline
+                    >
+                      <source src={testimonial.videoUrl} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  )}
 
                   {/* Play Button Overlay */}
                   {playingVideo !== testimonial.id && (
                     <>
-                      <div className="absolute inset-0 bg-black/20 pointer-events-none"></div>
+                      <div className="absolute inset-0 bg-black/40 pointer-events-none"></div>
 
                       <button
                         onClick={() => handlePlayVideo(testimonial.id)}
@@ -282,49 +321,90 @@ const PatientTestimonials = ({ content }) => {
           </div>
         )}
 
-        {/* Statistics Section */}
-        <div ref={statsRef}>
-          <div className="bg-white rounded-xl shadow-md overflow-hidden">
-            <div className="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-[#F3F4F6]">
-              {stats.map((stat, index) => (
-                <div
-                  key={stat.id}
-                  className="p-6 md:p-8 text-center hover:bg-gradient-to-br hover:from-[#F9FAFB] hover:to-white hover:scale-[1.02] transition-all duration-300"
-                >
-                  {/* Number */}
-                  <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] bg-clip-text text-transparent mb-2 leading-none">
-                    {index === 0 && hasAnimated && `${statsValues.rating.toFixed(1)}/5`}
-                    {index === 1 && hasAnimated && `${Math.round(statsValues.reviews)}+`}
-                    {index === 2 && hasAnimated && `${Math.round(statsValues.success)}%`}
-                    {index === 3 && hasAnimated && `${Math.round(statsValues.patients).toLocaleString()}+`}
-                    {!hasAnimated && stat.number}
-                  </div>
-
-                  {/* Label 1 */}
-                  <h3 className="text-xs md:text-sm font-semibold text-[#1F2937] mb-1">
-                    {stat.label1}
-                  </h3>
-
-                  {/* Label 2 */}
-                  <p className="text-[9px] md:text-[10px] text-[#6B7280]">
-                    {stat.label2}
-                  </p>
-
-                  {/* Stars for rating */}
-                  {stat.showStars && (
-                    <div className="flex items-center justify-center gap-0.5 mt-2">
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <svg key={star} className="w-3 h-3 sm:w-4 sm:h-4 text-[#FFA500]" fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                      ))}
+        {/* Statistics Section - Only show if enabled */}
+        {showStatsSection && (
+          <div ref={statsRef}>
+            <div className="bg-white rounded-xl shadow-md overflow-hidden">
+              <div className="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-[#F3F4F6]">
+                {stats.map((stat, index) => (
+                  <div
+                    key={stat.id}
+                    className="p-6 md:p-8 text-center hover:bg-gradient-to-br hover:from-[#F9FAFB] hover:to-white hover:scale-[1.02] transition-all duration-300"
+                  >
+                    {/* Number */}
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] bg-clip-text text-transparent mb-2 leading-none">
+                      {index === 0 && hasAnimated && `${statsValues.rating.toFixed(1)}/5`}
+                      {index === 1 && hasAnimated && `${Math.round(statsValues.reviews)}+`}
+                      {index === 2 && hasAnimated && `${Math.round(statsValues.success)}%`}
+                      {index === 3 && hasAnimated && `${Math.round(statsValues.patients).toLocaleString()}+`}
+                      {!hasAnimated && stat.number}
                     </div>
-                  )}
-                </div>
-              ))}
+
+                    {/* Label 1 */}
+                    <h3 className="text-xs md:text-sm font-semibold text-[#1F2937] mb-1">
+                      {stat.label1}
+                    </h3>
+
+                    {/* Label 2 */}
+                    <p className="text-[9px] md:text-[10px] text-[#6B7280]">
+                      {stat.label2}
+                    </p>
+
+                    {/* Stars for rating */}
+                    {stat.showStars && (
+                      <div className="flex items-center justify-center gap-0.5 mt-2">
+                        {[1, 2, 3, 4, 5].map((star) => (
+                          <svg key={star} className="w-3 h-3 sm:w-4 sm:h-4 text-[#FFA500]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
+        )}
+
+        {/* See All Testimonials Button - Show on homepage */}
+        {showSeeAllButton && (
+          <div className="flex justify-center mt-8 md:mt-12">
+            <a 
+              href="/testimonials"
+              className="inline-flex items-center px-6 py-3 bg-[#2D5F3F] hover:bg-[#3A7B51] text-white font-medium rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
+            >
+              See All Testimonials
+              <svg 
+                className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        )}
+
+        {/* See More Button - Only show on testimonials page */}
+        {showSeeMoreButton && (
+          <div className="flex justify-center mt-8 md:mt-12">
+            <button 
+              className="inline-flex items-center px-6 py-3 bg-[#2D5F3F] hover:bg-[#3A7B51] text-white font-medium rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
+            >
+              See More Testimonials
+              <svg 
+                className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

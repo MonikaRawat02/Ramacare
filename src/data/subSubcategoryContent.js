@@ -234,7 +234,7 @@ export const subSubcategoryContent = {
     id: 1,
     number: '01',
     title: 'Initial Skin Consultation',
-    duration: null,
+    duration: 'Step 1',
     description: 'Detailed skin analysis and concern assessment.',
     keyActivities: [
       'Detailed skin analysis and concern assessment',
@@ -247,7 +247,7 @@ export const subSubcategoryContent = {
     id: 2,
     number: '02',
     title: 'Personalized Treatment Planning',
-    duration: null,
+    duration: 'Step 2',
     description: 'Customized skin booster protocol and treatment mapping.',
     keyActivities: [
       'Customized skin booster protocol',
@@ -260,7 +260,7 @@ export const subSubcategoryContent = {
     id: 3,
     number: '03',
     title: 'Skin Preparation',
-    duration: null,
+    duration: 'Step 3',
     description: 'Preparing the skin safely and comfortably before treatment.',
     keyActivities: [
       'Gentle cleansing and disinfection',
@@ -273,7 +273,7 @@ export const subSubcategoryContent = {
     id: 4,
     number: '04',
     title: 'Skin Booster Application',
-    duration: null,
+    duration: 'Step 4',
     description: 'Delivery of skin boosters using precise techniques.',
     keyActivities: [
       'Micro-injections or the mesotherapy technique',
@@ -286,7 +286,7 @@ export const subSubcategoryContent = {
     id: 5,
     number: '05',
     title: 'Post-Treatment Care',
-    duration: null,
+    duration: 'Step 5',
     description: 'Immediate aftercare and skin recovery support.',
     keyActivities: [
       'Soothing serum or calming mask application',
@@ -299,7 +299,7 @@ export const subSubcategoryContent = {
     id: 6,
     number: '06',
     title: 'Follow-Up & Maintenance',
-    duration: null,
+    duration: 'Step 6',
     description: 'Ongoing evaluation and long-term skin health planning.',
     keyActivities: [
       'Progress evaluation after each session',
@@ -866,7 +866,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Scalp Assessment (45–60 min)',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description:
         'A detailed evaluation to understand hair fall pattern, scalp health, and suitability for derma roller therapy.',
       keyActivities: [
@@ -882,7 +882,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Scalp Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Preparing the scalp to respond better to derma roller treatment by improving circulation and scalp condition.',
       keyActivities: [
@@ -897,7 +897,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Active Derma Roller Treatment Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'The main phase where derma roller sessions stimulate hair follicles and enhance absorption of growth-supporting solutions.',
       keyActivities: [
@@ -913,7 +913,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Maintenance & Follow-Up Phase',
-      duration: 'Months 4–6',
+      duration: 'Step 4',
       description:
         'Focused on sustaining results and supporting long-term hair health.',
       keyActivities: [
@@ -1484,7 +1484,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation (60 Minutes)',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description:
         'Your journey begins with a detailed one-on-one consultation to understand your skin concerns, lifestyle, and overall health.',
       keyActivities: [
@@ -1500,7 +1500,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Detoxification Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Before active treatment, we gently prepare your body by removing toxins (Ama) that can affect skin elasticity and healing.',
       keyActivities: [
@@ -1515,7 +1515,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Active Treatment Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'This is the core phase of your skin tightening in Dubai program, where visible improvements begin to appear.',
       keyActivities: [
@@ -1531,7 +1531,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Maintenance & Follow-Up',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'To sustain and enhance results, we focus on long-term care and prevention.',
       keyActivities: [
@@ -2145,7 +2145,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Week 1: Initial Skin Consultation (60 Minutes)',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description:
         'Your journey begins with a detailed skin consultation to determine whether microdermabrasion in Dubai is suitable for your skin goals.',
       keyActivities: [
@@ -2161,7 +2161,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Weeks 1–2: Skin Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Before starting active sessions, your skin is gently prepared to enhance the effectiveness of microdermabrasion treatment in Dubai.',
       keyActivities: [
@@ -2176,7 +2176,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Weeks 3–12: Active Microdermabrasion Sessions',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'This phase includes regular microdermabrasion sessions in Dubai to remove dead skin cells and support natural skin renewal.',
       keyActivities: [
@@ -2192,7 +2192,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Months 4–12: Maintenance & Follow-Up Care',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Maintenance sessions help support skin health after completing your microdermabrasion in Dubai treatment plan.',
       keyActivities: [
@@ -2822,7 +2822,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Week 1: Initial Consultation & Assessment (60 Minutes)',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description:
         'Your journey begins with a detailed consultation to determine whether mesotherapy in Dubai is suitable for your skin or hair concerns.',
       keyActivities: [
@@ -2838,7 +2838,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Weeks 1–2: Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'Proper preparation enhances the effectiveness of mesotherapy treatment in Dubai and ensures a smooth treatment experience.',
       keyActivities: [
@@ -2853,7 +2853,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Weeks 3–12: Active Mesotherapy Sessions',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'This phase includes regular mesotherapy sessions in Dubai, where a combination of vitamins, minerals, amino acids, and growth-supporting ingredients are delivered directly into the skin or scalp.',
       keyActivities: [
@@ -2869,7 +2869,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Months 4–12: Maintenance & Follow-Up Care',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Maintenance sessions help support the improvements achieved through mesotherapy in Dubai and maintain healthy skin or hair over time.',
       keyActivities: [
@@ -3499,7 +3499,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Week 1: Initial Skin Allergy Consultation (60 Minutes)',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description:
         'Your treatment journey begins with a comprehensive consultation to understand the cause, severity, and pattern of your skin allergy.',
       keyActivities: [
@@ -3515,7 +3515,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Weeks 1–2: Allergy Identification & Skin Calming Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'This phase focuses on calming active allergic reactions and identifying possible allergens responsible for skin sensitivity.',
       keyActivities: [
@@ -3530,7 +3530,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Weeks 3–12: Active Skin Allergy Treatment Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'During this stage, active skin allergy treatment in Dubai is provided to control itching, redness, and recurring reactions.',
       keyActivities: [
@@ -3546,7 +3546,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Months 4–12: Maintenance & Follow-Up Care',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'The maintenance phase focuses on preventing recurrence and maintaining healthy, balanced skin.',
       keyActivities: [
@@ -4200,7 +4200,7 @@ rootCauses: [
     id: 1,
     number: '01',
     title: 'Step 1 – Consultation & Assessment',
-    duration: null,
+    duration: 'Step 1',
     description: null,
     keyActivities: [
       'Evaluate sweating areas and severity',
@@ -4213,7 +4213,7 @@ rootCauses: [
     id: 2,
     number: '02',
     title: 'Step 2 – Preparation',
-    duration: null,
+    duration: 'Step 2',
     description: null,
     keyActivities: [
       'Clean and mark target areas',
@@ -4225,7 +4225,7 @@ rootCauses: [
     id: 3,
     number: '03',
     title: 'Step 3 – Botox Injection',
-    duration: null,
+    duration: 'Step 3',
     description: null,
     keyActivities: [
       'Precise injection into sweat glands',
@@ -4238,7 +4238,7 @@ rootCauses: [
     id: 4,
     number: '04',
     title: 'Step 4 – Post-Treatment Care',
-    duration: null,
+    duration: 'Step 4',
     description: null,
     keyActivities: [
       'Avoid strenuous activity for 24 hours',
@@ -4943,8 +4943,8 @@ rootCauses: [
     {
       id: 1,
       number: '01',
-      title: 'Week 1: Initial Consultation & Assessment (60 Minutes)',
-      duration: 'Week 1',
+      title: ' Initial Consultation & Assessment (60 Minutes)',
+      duration: 'Step 1',
       description:
         'Your journey begins with a detailed consultation to determine whether carboxy therapy in Dubai is suitable for your skin or body concerns.',
       keyActivities: [
@@ -4959,8 +4959,8 @@ rootCauses: [
     {
       id: 2,
       number: '02',
-      title: 'Weeks 1–2: Skin Preparation Phase',
-      duration: 'Weeks 1–2',
+      title: 'Skin Preparation Phase',
+      duration: 'Step 2',
       description:
         'Proper preparation helps enhance the effectiveness of carboxy therapy treatment in Dubai and ensures a smoother treatment experience.',
       keyActivities: [
@@ -4974,8 +4974,8 @@ rootCauses: [
     {
       id: 3,
       number: '03',
-      title: 'Weeks 3–12: Active Carboxy Therapy Sessions',
-      duration: 'Weeks 3–12',
+      title: 'Active Carboxy Therapy Sessions',
+      duration: 'Step 3',
       description:
         'This phase includes regular carboxy therapy sessions in Dubai, where controlled carbon dioxide is applied to stimulate blood circulation and collagen production.',
       keyActivities: [
@@ -4990,8 +4990,8 @@ rootCauses: [
     {
       id: 4,
       number: '04',
-      title: 'Months 4–12: Maintenance & Follow-Up Care',
-      duration: 'Months 4–12',
+      title: 'Maintenance & Follow-Up Care',
+      duration: 'Step 4',
       description:
         'Maintenance sessions help support ongoing improvements achieved through carboxy therapy in Dubai.',
       keyActivities: [
@@ -5663,7 +5663,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Skin Assessment',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description: 'Comprehensive evaluation of hair type, density, and skin sensitivity to create a personalized electrolysis plan.',
       keyActivities: [
         'Medical history review',
@@ -5677,7 +5677,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Preparation & Trial Session',
-      duration: 'Weeks 1–4',
+      duration: 'Step 2',
       description: 'Initial trial treatment to ensure comfort and suitability while preparing the skin for the full electrolysis course.',
       keyActivities: [
         'Test on a small area',
@@ -5691,7 +5691,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Active Electrolysis Treatment Phase',
-      duration: 'Weeks 5–12',
+      duration: 'Step 3',
       description: 'Regular electrolysis sessions targeting individual hair follicles for permanent hair removal.',
       keyActivities: [
         '1–3 sessions per week depending on the area',
@@ -5705,7 +5705,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Maintenance & Follow-up',
-      duration: 'Months 4–6',
+      duration: 'Step 4',
       description: 'Sustaining results with follow-up treatments and long-term care guidance to maintain smooth, hair-free skin.',
       keyActivities: [
         'Periodic check-ins',
@@ -6386,7 +6386,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Facial Assessment',
-      duration: '',
+      duration: 'Step 1',
       description:
         'Understanding facial structure, wrinkle patterns, and patient goals.',
       keyActivities: [
@@ -6400,7 +6400,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Personalized Treatment Planning',
-      duration: '',
+      duration: 'Step 2',
       description:
         'Selection of appropriate filler type, dosage, and injection technique.',
       keyActivities: [
@@ -6414,7 +6414,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Filler Treatment Session',
-      duration: '',
+      duration: 'Step 3',
       description:
         'Precise, doctor-administered injections for target areas like cheeks, lips, nasolabial folds, or jawline.',
       keyActivities: [
@@ -6428,7 +6428,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Aftercare Support',
-      duration: '',
+      duration: 'Step 4',
       description:
         'Monitoring results, minor adjustments if needed, and post-treatment guidance to maintain natural outcomes.',
       keyActivities: [
@@ -7089,7 +7089,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Skin Assessment',
-      duration: '',
+      duration: 'Step 1',
       description: 'Comprehensive evaluation of skin type, concerns, and goals.',
       keyActivities: [
         'Skin analysis and hydration check',
@@ -7102,7 +7102,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Personalized Treatment Planning',
-      duration: '',
+      duration: 'Step 2',
       description: 'Selection of appropriate facial therapy based on individual skin needs.',
       keyActivities: [
         'Decide the number of sessions',
@@ -7115,7 +7115,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Treatment Session',
-      duration: '',
+      duration: 'Step 3',
       description: 'Gentle, precise application of facial therapy by trained doctors.',
       keyActivities: [
         'Cleansing, exfoliation, and hydration',
@@ -7128,7 +7128,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Aftercare Support',
-      duration: '',
+      duration: 'Step 4',
       description: 'Monitor progress, provide skincare guidance, and plan future sessions for maintenance.',
       keyActivities: [
         'Assess skin improvement',
@@ -7799,7 +7799,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Facial Assessment',
-      duration: '',
+      duration: 'Step 1',
       description:
         'Understanding facial structure, wrinkle patterns, and patient goals.',
       keyActivities: [
@@ -7813,7 +7813,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Personalized Treatment Planning',
-      duration: '',
+      duration: 'Step 2',
       description:
         'Selection of appropriate filler type, dosage, and injection technique.',
       keyActivities: [
@@ -7827,7 +7827,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Filler Treatment Session',
-      duration: '',
+      duration: 'Step 3',
       description:
         'Precise, doctor-administered injections for target areas like cheeks, lips, nasolabial folds, or jawline.',
       keyActivities: [
@@ -7841,7 +7841,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Aftercare Support',
-      duration: '',
+      duration: 'Step 4',
       description:
         'Monitoring results, minor adjustments if needed, and post-treatment guidance to maintain natural outcomes.',
       keyActivities: [
@@ -8533,7 +8533,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation (60 min)',
-      duration: 'Day 1',
+      duration: 'Step 1',
       description: 'Comprehensive facial assessment to understand wrinkle patterns, muscle activity, and aesthetic goals.',
       keyActivities: [
         'Facial analysis and wrinkle mapping',
@@ -8547,7 +8547,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Preparation & Pre-Treatment Guidance',
-      duration: 'Day 2',
+      duration: 'Step 2',
       description: 'Preparing skin for safe and effective Botox injection.',
       keyActivities: [
         'Guidance on avoiding alcohol or blood-thinning medications',
@@ -8560,7 +8560,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Botox Injection Session',
-      duration: 'Day 3–7',
+      duration: 'Step 3',
       description: 'Precise, doctor-administered injections targeting specific facial muscles to reduce wrinkles and fine lines.',
       keyActivities: [
         'Targeted injections in the forehead, frown lines, crow’s feet, or other areas',
@@ -8573,7 +8573,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Monitoring',
-      duration: 'Weeks 2–6',
+      duration: 'Step 4',
       description: 'Ensure optimal outcomes and address any concerns.',
       keyActivities: [
         'Assessment of wrinkle reduction and facial symmetry',
@@ -8586,7 +8586,7 @@ rootCauses: [
       id: 5,
       number: '05',
       title: 'Maintenance & Long-Term Planning',
-      duration: 'Months 3–6',
+      duration: 'Step 5',
       description: 'Sustaining results and planning future Botox sessions for ongoing facial rejuvenation.',
       keyActivities: [
         'Periodic check-ins for optimal wrinkle management',
@@ -9250,7 +9250,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Skin Assessment',
-      duration: '',
+      duration: 'Step 1',
       description: 'Detailed evaluation of pigmentation type, skin tone, and patient goals.',
       keyActivities: [
         'Skin analysis and mapping of dark spots',
@@ -9263,7 +9263,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Personalized Treatment Planning',
-      duration: '',
+      duration: 'Step 2',
       description: 'Selection of treatment type and method—laser therapy, chemical peel, or topical regimen.',
       keyActivities: [
         'Choosing safe, DHA-approved modalities',
@@ -9276,7 +9276,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Pigmentation Treatment Session',
-      duration: '',
+      duration: 'Step 3',
       description: 'Precise application of selected treatment to target pigmentation areas.',
       keyActivities: [
         'Laser or peel therapy with medical supervision',
@@ -9289,7 +9289,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Aftercare Support',
-      duration: '',
+      duration: 'Step 4',
       description: 'Monitoring results, minor adjustments if needed, and advice for skin maintenance.',
       keyActivities: [
         'Assess improvement in pigmentation',
@@ -9945,7 +9945,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Under-Eye Assessment',
-      duration: '',
+      duration: 'Step 1',
       description: 'Detailed evaluation of pigmentation, volume loss, and under-eye skin health.',
       keyActivities: [
         'Skin and under-eye analysis',
@@ -9958,7 +9958,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Personalized Treatment Planning',
-      duration: '',
+      duration: 'Step 2',
       description: 'Selection of filler type, PRP, laser, or topical treatment, depending on cause.',
       keyActivities: [
         'Determining the number of sessions',
@@ -9971,7 +9971,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Treatment Session',
-      duration: '',
+      duration: 'Step 3',
       description: 'Precise application of chosen therapy to the under-eye area.',
       keyActivities: [
         'Filler or PRP injections under medical supervision',
@@ -9984,7 +9984,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Follow-Up & Aftercare Support',
-      duration: '',
+      duration: 'Step 4',
       description: 'Monitoring results, addressing any concerns, and planning maintenance if needed.',
       keyActivities: [
         'Assess improvement in pigmentation or volume',
@@ -10567,7 +10567,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Hair Assessment',
-      duration: '',
+      duration: 'Step 1',
       description: 'Comprehensive evaluation of hair loss pattern and scalp condition.',
       keyActivities: [
         'Hair and scalp analysis',
@@ -10581,7 +10581,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Personalized Treatment Planning',
-      duration: '',
+      duration: 'Step 2',
       description: 'Designing a plan tailored to your hair needs.',
       keyActivities: [
         'Selection of suitable therapies',
@@ -10594,7 +10594,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Active Treatment Phase',
-      duration: '',
+      duration: 'Step 3',
       description: 'Targeted therapies to reduce hair fall and stimulate regrowth.',
       keyActivities: [
         'Regular in-clinic sessions',
@@ -10607,7 +10607,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Maintenance & Follow-Up',
-      duration: '',
+      duration: 'Step 4',
       description: 'Sustaining results and long-term hair health.',
       keyActivities: [
         'Periodic reviews',
@@ -11186,7 +11186,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Week 1: Initial Hair & Scalp Consultation (60 Minutes)',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description:
         'Your treatment journey begins with a detailed consultation to identify the root causes of hair loss and determine the most effective hair growth treatment in Dubai for your needs.',
       keyActivities: [
@@ -11202,7 +11202,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Weeks 1–2: Scalp Preparation & Strengthening Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'This phase focuses on improving scalp health and preparing hair follicles to respond effectively to active treatments.',
       keyActivities: [
@@ -11217,7 +11217,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Weeks 3–12: Active Hair Growth Treatment Phase',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'During this phase, advanced hair growth treatment in Dubai techniques are used to stimulate follicles and reduce hair fall.',
       keyActivities: [
@@ -11233,7 +11233,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Months 4–12: Maintenance & Follow-Up Care',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Maintenance care helps sustain the results achieved through your hair growth treatment in Dubai.',
       keyActivities: [
@@ -11819,7 +11819,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Week 1: Initial Hair & Scalp Consultation (60 Minutes)',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description:
         'Your journey begins with a detailed consultation to determine whether hair PRP in Dubai is suitable for your hair loss condition and goals.',
       keyActivities: [
@@ -11835,7 +11835,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Weeks 1–2: Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description:
         'This phase focuses on optimizing scalp health to improve the effectiveness of hair PRP treatment in Dubai.',
       keyActivities: [
@@ -11850,7 +11850,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Weeks 3–12: Active Hair PRP Sessions',
-      duration: 'Weeks 3–12',
+      duration: 'Step 3',
       description:
         'During this phase, advanced hair PRP sessions in Dubai are performed using your own platelet-rich plasma to stimulate hair follicles.',
       keyActivities: [
@@ -11866,7 +11866,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Months 4–12: Maintenance & Follow-Up Care',
-      duration: 'Months 4–12',
+      duration: 'Step 4',
       description:
         'Maintenance sessions help support continued hair growth after completing your hair PRP in Dubai treatment plan.',
       keyActivities: [
@@ -12464,7 +12464,7 @@ faq: {
       id: 1,
       number: '01',
       title: 'Initial Consultation & Skin Assessment',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description:
         'Comprehensive evaluation of hair type, density, and skin sensitivity to create a personalized electrolysis plan.',
       keyActivities: [
@@ -12479,7 +12479,7 @@ faq: {
       id: 2,
       number: '02',
       title: 'Preparation & Trial Session',
-      duration: 'Weeks 1–4',
+      duration: 'Step 2',
       description:
         'Initial trial treatment to ensure comfort and suitability, preparing the skin for the full electrolysis course.',
       keyActivities: [
@@ -12494,7 +12494,7 @@ faq: {
       id: 3,
       number: '03',
       title: 'Active Electrolysis Treatment Phase',
-      duration: 'Weeks 5–12',
+      duration: 'Step 3',
       description:
         'Regular sessions targeting individual hair follicles for permanent hair removal.',
       keyActivities: [
@@ -12509,7 +12509,7 @@ faq: {
       id: 4,
       number: '04',
       title: 'Maintenance & Follow-up',
-      duration: 'Months 4–6',
+      duration: 'Step 4',
       description:
         'Follow-up treatments and long-term care guidance to sustain smooth, hair-free skin.',
       keyActivities: [
@@ -13108,7 +13108,7 @@ faq: {
       id: 1,
       number: '01',
       title: 'Initial Consultation & Vein Assessment (30–45 min)',
-      duration: 'Week 1',
+      duration: 'Step 1',
       description: 'A detailed evaluation to understand vein severity, skin type, medical history, and suitability for laser treatment.',
       keyActivities: [
         'Medical history review',
@@ -13123,7 +13123,7 @@ faq: {
       id: 2,
       number: '02',
       title: 'Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description: 'Preparing the skin and veins for optimal laser response and safe treatment delivery.',
       keyActivities: [
         'Skin conditioning guidance',
@@ -13138,7 +13138,7 @@ faq: {
       id: 3,
       number: '03',
       title: 'Active Laser Treatment Phase',
-      duration: 'Weeks 3–8',
+      duration: 'Step 3',
       description: 'Targeted laser sessions to reduce visible spider veins and improve skin appearance gradually.',
       keyActivities: [
         'Scheduled laser sessions',
@@ -13153,7 +13153,7 @@ faq: {
       id: 4,
       number: '04',
       title: 'Recovery, Monitoring & Maintenance',
-      duration: 'Months 3–6',
+      duration: 'Step 4',
       description: 'Supporting skin healing, monitoring progress, and maintaining long-term results.',
       keyActivities: [
         'Follow-up assessments',
@@ -13806,8 +13806,8 @@ faq: {
     {
       id: 1,
       number: '01',
-      title: 'Week 1: Initial Skin Consultation (60 Minutes)',
-      duration: 'Week 1',
+      title: ' Initial Skin Consultation (60 Minutes)',
+      duration: 'Step 1',
       description:
         'Your treatment journey begins with a detailed consultation to determine whether carbon laser treatment in Dubai is suitable for your skin type and concerns.',
       keyActivities: [
@@ -13821,8 +13821,8 @@ faq: {
     {
       id: 2,
       number: '02',
-      title: 'Weeks 1–2: Skin Preparation Phase',
-      duration: 'Weeks 1–2',
+      title: 'Skin Preparation Phase',
+      duration: 'Step 2',
       description:
         'Proper skin preparation ensures maximum results and reduces the risk of side effects during carbon laser treatment in Dubai.',
       keyActivities: [
@@ -13836,8 +13836,8 @@ faq: {
     {
       id: 3,
       number: '03',
-      title: 'Weeks 3–12: Active Carbon Laser Sessions',
-      duration: 'Weeks 3–12',
+      title: ' Active Carbon Laser Sessions',
+      duration: 'Step 3',
       description:
         'This phase includes regular carbon laser sessions in Dubai to remove dead skin cells, reduce pigmentation, and improve overall skin texture.',
       keyActivities: [
@@ -13852,8 +13852,8 @@ faq: {
     {
       id: 4,
       number: '04',
-      title: 'Months 4–12: Maintenance & Follow-Up Care',
-      duration: 'Months 4–12',
+      title: 'Maintenance & Follow-Up Care',
+      duration: 'Step 4',
       description:
         'Maintenance sessions help preserve the improvements achieved through carbon laser treatment in Dubai.',
       keyActivities: [
@@ -14433,7 +14433,7 @@ faq: {
             id: 1,
             number: '01',
             title: 'Initial Consultation & Skin Assessment',
-            duration: 'Day 1',
+            duration: 'Step 1',
             description: 'null',
             keyActivities: [
               'Detailed skin evaluation',
@@ -14448,7 +14448,7 @@ faq: {
             id: 2,
             number: '02',
             title: 'Skin Preparation Phase',
-            duration: 'Week 1',
+            duration: 'Step 2',
             description: '',
             keyActivities: [
               'Pre-treatment skincare guidance',
@@ -14461,7 +14461,7 @@ faq: {
             id: 3,
             number: '03',
             title: ' Active Fractional CO₂ Laser Treatment',
-            duration: 'Weeks 2-24',
+            duration: 'Step 3',
             description: '',
             keyActivities: [
               'Controlled laser delivery',
@@ -14475,7 +14475,7 @@ faq: {
             id: 4,
             number: '02',
             title: 'Healing, Recovery & Maintenance',
-            duration: 'Week 1',
+            duration: 'Step 4',
             description: '',
             keyActivities: [
               'Post-treatment skincare plan',
@@ -14489,7 +14489,7 @@ faq: {
             id: 5,
             number: '02',
             title: 'Result',
-            duration: 'Week 1',
+            duration: null,
             description: ' Gradual skin renewal with visible reduction in scars, smoother texture, improved tone, and firmer skin over time.',
             keyActivities: [
               'Post-treatment skincare plan',
@@ -15152,7 +15152,7 @@ faq: {
       id: 1,
       number: '01',
       title: 'Initial Consultation & Assessment',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Private discussion of concerns and goals',
@@ -15166,7 +15166,7 @@ faq: {
       id: 2,
       number: '02',
       title: 'Treatment Preparation',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Pre-treatment guidance',
@@ -15179,7 +15179,7 @@ faq: {
       id: 3,
       number: '03',
       title: 'Active Rejuvenation Treatment',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Controlled energy delivery using approved technology',
@@ -15192,7 +15192,7 @@ faq: {
       id: 4,
       number: '04',
       title: 'Aftercare & Maintenance',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Post-treatment care guidance',
@@ -15832,7 +15832,7 @@ solutionIntro: {
       id: 1,
       number: '01',
       title: 'Initial Consultation & Assessment',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Mole evaluation and type identification',
@@ -15845,7 +15845,7 @@ solutionIntro: {
       id: 2,
       number: '02',
       title: 'Treatment Preparation',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Pre-treatment skin cleansing',
@@ -15858,7 +15858,7 @@ solutionIntro: {
       id: 3,
       number: '03',
       title: 'Active Treatment',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Laser, excision, or radiofrequency removal',
@@ -15871,7 +15871,7 @@ solutionIntro: {
       id: 4,
       number: '04',
       title: 'Recovery & Follow-Up',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Post-procedure care guidance',
@@ -16499,7 +16499,7 @@ solutionIntro: {
       id: 1,
       number: '01',
       title: 'Initial Consultation & Assessment',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Detailed nail examination and fungal testing',
@@ -16512,7 +16512,7 @@ solutionIntro: {
       id: 2,
       number: '02',
       title: 'Treatment Preparation',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Nail cleaning and preparation',
@@ -16525,7 +16525,7 @@ solutionIntro: {
       id: 3,
       number: '03',
       title: 'Active Treatment',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Laser, topical, or oral antifungal application',
@@ -16538,7 +16538,7 @@ solutionIntro: {
       id: 4,
       number: '04',
       title: 'Follow-Up & Maintenance',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Post-treatment care guidance',
@@ -17178,7 +17178,7 @@ solutionIntro: {
       id: 1,
       number: '01',
       title: 'Initial Consultation & Skin Assessment',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Detailed skin analysis',
@@ -17192,7 +17192,7 @@ solutionIntro: {
       id: 2,
       number: '02',
       title: 'Skin Preparation Phase',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Pre-treatment skincare guidance',
@@ -17205,7 +17205,7 @@ solutionIntro: {
       id: 3,
       number: '03',
       title: 'Active Laser Rejuvenation Treatment',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Controlled laser energy delivery',
@@ -17219,7 +17219,7 @@ solutionIntro: {
       id: 4,
       number: '04',
       title: 'Recovery & Maintenance',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Post-treatment skincare routine',
@@ -17835,7 +17835,7 @@ solutionIntro: {
       id: 1,
       number: '01',
       title: 'Initial Consultation & Skin Assessment',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Detailed skin evaluation',
@@ -17849,7 +17849,7 @@ solutionIntro: {
       id: 2,
       number: '02',
       title: 'Skin Preparation Phase',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Pre-treatment skincare advice',
@@ -17862,7 +17862,7 @@ solutionIntro: {
       id: 3,
       number: '03',
       title: 'Active Laser Bleaching Treatment',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Controlled laser energy delivery',
@@ -17876,7 +17876,7 @@ solutionIntro: {
       id: 4,
       number: '04',
       title: 'Recovery & Maintenance',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Post-treatment skincare routine',
@@ -18500,7 +18500,7 @@ solutionIntro: {
       id: 1,
       number: '01',
       title: 'Initial Consultation & Skin Assessment',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Birthmark evaluation',
@@ -18514,7 +18514,7 @@ solutionIntro: {
       id: 2,
       number: '02',
       title: 'Treatment Preparation',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Skin cleansing',
@@ -18527,7 +18527,7 @@ solutionIntro: {
       id: 3,
       number: '03',
       title: 'Active Birthmark Removal Treatment',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Controlled laser or medical technique',
@@ -18541,7 +18541,7 @@ solutionIntro: {
       id: 4,
       number: '04',
       title: 'Recovery & Follow-Up Care',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Post-treatment skincare advice',
@@ -19229,7 +19229,7 @@ solutionIntro: {
       id: 1,
       number: '01',
       title: 'Initial Consultation & Skin Assessment',
-      duration: '30–45 min',
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Scar type and depth evaluation',
@@ -19242,7 +19242,7 @@ solutionIntro: {
       id: 2,
       number: '02',
       title: 'Skin Preparation Phase',
-      duration: 'Weeks 1–2',
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Medical-grade cleansing',
@@ -19255,7 +19255,7 @@ solutionIntro: {
       id: 3,
       number: '03',
       title: 'Active Treatment Phase',
-      duration: 'Weeks 2–12',
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Laser or resurfacing sessions',
@@ -19268,7 +19268,7 @@ solutionIntro: {
       id: 4,
       number: '04',
       title: 'Healing & Maintenance Phase',
-      duration: 'Months 3–6',
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Skin regeneration monitoring',
@@ -19924,7 +19924,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Tattoo Assessment',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Tattoo size, color, and depth analysis',
@@ -19938,7 +19938,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Skin Preparation',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Cleansing and numbing if needed',
@@ -19951,7 +19951,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Laser Tattoo Removal Session',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Controlled laser pulses target ink',
@@ -19964,7 +19964,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Healing & Follow-Up',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Post-treatment skincare guidance',
@@ -20632,7 +20632,7 @@ rootCauses: [
       id: 1,
       number: '01',
       title: 'Initial Consultation & Body Assessment',
-      duration: null,
+      duration: 'Step 1',
       description: null,
       keyActivities: [
         'Body analysis and measurements',
@@ -20646,7 +20646,7 @@ rootCauses: [
       id: 2,
       number: '02',
       title: 'Preparation Phase',
-      duration: null,
+      duration: 'Step 2',
       description: null,
       keyActivities: [
         'Skin cleansing and preparation',
@@ -20659,7 +20659,7 @@ rootCauses: [
       id: 3,
       number: '03',
       title: 'Active Eximia Body Contouring Session',
-      duration: null,
+      duration: 'Step 3',
       description: null,
       keyActivities: [
         'Controlled Eximia energy application',
@@ -20672,7 +20672,7 @@ rootCauses: [
       id: 4,
       number: '04',
       title: 'Post-Treatment Care & Maintenance',
-      duration: null,
+      duration: 'Step 4',
       description: null,
       keyActivities: [
         'Hydration and lifestyle guidance',
@@ -20725,7 +20725,7 @@ rootCauses: [
             id: 5,
             title: ' Enhanced body confidence',
             percentage: 90,
-            description: null
+            description: null,
           }
         ],
         comparisonTitle: 'Eximia Body Contouring vs. Traditional Methods',
@@ -21241,8 +21241,8 @@ rootCauses: [
     {
       id: 1,
       number: '01',
-      title: 'Week 1: Initial Consultation & Health Assessment (30–60 Minutes)',
-      duration: 'Week 1',
+      title: ' Initial Consultation & Health Assessment (30–60 Minutes)',
+      duration: 'Step 1',
       description:
         'Your journey begins with a detailed consultation to understand your health status and select the most suitable IV drip in Dubai for your needs.',
       keyActivities: [
@@ -21256,8 +21256,8 @@ rootCauses: [
     {
       id: 2,
       number: '02',
-      title: 'Weeks 1–2: Preparation Phase',
-      duration: 'Weeks 1–2',
+      title: ' Preparation Phase',
+      duration: 'Step 2',
       description:
         'Proper preparation helps your body respond optimally to IV drip treatment in Dubai.',
       keyActivities: [
@@ -21271,8 +21271,8 @@ rootCauses: [
     {
       id: 3,
       number: '03',
-      title: 'Weeks 3–12: Active IV Drip Sessions',
-      duration: 'Weeks 3–12',
+      title: ' Active IV Drip Sessions',
+      duration: 'Step 3',
       description:
         'During this phase, tailored IV drip sessions in Dubai deliver essential vitamins, minerals, and fluids directly into your bloodstream for maximum absorption.',
       keyActivities: [
@@ -21286,8 +21286,8 @@ rootCauses: [
     {
       id: 4,
       number: '04',
-      title: 'Months 4–12: Maintenance & Follow-Up Care',
-      duration: 'Months 4–12',
+      title: ' Maintenance & Follow-Up Care',
+      duration: 'Step 4',
       description:
         'Maintenance sessions help sustain the benefits achieved through IV drip treatment in Dubai.',
       keyActivities: [

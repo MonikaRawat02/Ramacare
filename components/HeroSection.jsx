@@ -22,13 +22,13 @@ const HeroSection = ({ content }) => {
     { number: '15+', label: 'Years Experience' },
     { number: '500+', label: 'Happy Patients' },
     { number: '98%', label: 'Success Rate' },
-    { number: '12+', label: 'Treatments' }
+    { number: '40+', label: 'Treatments' }
   ];
   const features = content?.features || [
-    'Authentic Classical Panchakarma',
-    'DHA-Licensed Expert Doctors',
-    'Personalized Wellness Plans',
-    'Premium Jumeirah 1 Location'
+    'Authentic Classical Healing with Modern Medical Excellence',
+    'DHA-Licensed Specialist Doctors Committed to Your Care',
+    'Customized Wellness & Treatment Plans Designed Just for You',
+    'Prime Jumeirah 1 Location – Your Trusted Polyclinic in Dubai',
   ];
   const whatsappText = content?.whatsappText || 'WhatsApp Now';
   const location = content?.location || 'Heart of Jumeirah 1, Dubai';

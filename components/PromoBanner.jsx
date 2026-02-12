@@ -7,7 +7,7 @@ const PromoBanner = () => {
         <div className="flex items-center justify-between gap-3">
           <div className="text-white flex-1 min-w-0">
             <p className="text-sm md:text-[15px] font-normal" style={{ fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' }}>
-              <span className="font-semibold">Limited Time:</span> Get 15% off your first Panchakarma program + Free consultation
+              <span className="font-semibold">Limited Time Offer:</span> Get 15% Off Your First Treatment + Complimentary FREE Consultation!
             </p>
           </div>
           <a
