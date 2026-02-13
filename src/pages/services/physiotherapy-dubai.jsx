@@ -27,14 +27,21 @@ export default function PhysiotherapyCategoryPage() {
       <HeroSection content={content?.hero} />
       <WhyChooseUsSection content={content?.whyChooseUs} />
       <AboutAyurvedaSection content={content?.about} />
-      <TreatmentSection category="physiotherapy" content={content?.treatments} />
+      <TreatmentSection 
+        category="physiotherapy" 
+        content={{
+          ...content?.treatments,
+          consultationHeading: content?.treatments?.consultationCTA?.heading,
+          consultationSubtext: content?.treatments?.consultationCTA?.subtext,
+        }} 
+      />
       <ProgramsSection content={content?.programs} />
       <ExpertsSection content={content?.experts} />
       <PatientTestimonials content={content?.successStories} />
       <WhyAyurvedaDubaiSection content={content?.whyDubai} />
       <FAQSection content={content?.faq} />
        {/* <OurFacilitySection content={content?.facility} /> */}
-      <BeginYourHealingJourneySection />
+       <BeginYourHealingJourneySection content={content?.booking} />
     </Layout>
   );
 }

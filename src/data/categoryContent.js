@@ -162,7 +162,14 @@ export const categoryContent = {
           alt: 'Skin disease treatment in Ayurveda utilizes natural therapies to support healing and promote long-term skin health.'
         },
        
-      ]
+      ],
+      consultationCTA: {
+        heading: 'Not Sure Which Treatment is Right for You?',
+        subtext: 'Explore the perfect therapy with expert Ayurveda in Dubai. Schedule a free consultation for personalized recommendations and a treatment plan tailored to your unique needs.',
+        buttonText: 'Get Free Consultation',
+        backgroundColor: 'bg-[#1E5A3C]',
+        buttonColor: 'bg-[#C9A547]'
+      }
     },
     experts: {
       badge: 'Expert Medical Team',
@@ -170,10 +177,10 @@ export const categoryContent = {
       title: 'Meet Our DHA-Licensed\nAyurvedic Physicians',
       description: 'Highly qualified doctors with decades of combined experience, committed to your healing journey with expertise, compassion, and authentic Ayurvedic care.',
       stats: [
-        { value: '3', label: 'Expert Physicians' },
-        { value: '37+', label: 'Years Combined Experience' },
-        { value: '500+', label: 'Successful Treatments' },
-        { value: '4.9', label: 'Average Rating' }
+        { value: '30+', label: 'Expert Doctors' },
+    { value: '37+', label: 'Years of Combined Experience' },
+    { value: '500+', label: 'Successful Treatments' },
+    { value: '4.9', label: 'Average Rating' }
       ],
       ctaSection: {
         title: 'Ready to Meet Your Ayurvedic Physician?',
@@ -514,7 +521,51 @@ export const categoryContent = {
         }
       ]
     },
+booking: {
+      title: 'Begin Your Healing Journey Today.',
+      description: ' Schedule your personalized consultation with our Ayurveda experts in Dubai. Same-day appointments available.',
+      expectationTitle: 'What to Expect',
+  steps: [
+    {
+      title: 'Comprehensive Assessment',
+      description: '60-minute consultation including pulse diagnosis and dosha analysis.'
+    },
+    {
+      title: 'Personalized Plan',
+      description: 'Custom treatment protocol tailored to your unique condition.'
+    },
+    {
+      title: 'Treatment Journey',
+      description: 'Begin authentic Ayurvedic therapies with ongoing support and adjustments.'
+    }
+  ],
+      offerTitle: 'Limited Time Offer',
+  offerDescription: 'Book your first consultation this month and receive:',
+  offers: [
+    'Free dosha analysis report',
+    'Complimentary wellness guidebook',
+    '15% off your first treatment package'
+  ],
 
+  contactTitle: 'Prefer to Talk?',
+  contactMethods: {
+    call: {
+      label: 'Call Us',
+      value: '(+971) 04 286 2006'
+    },
+    whatsapp: {
+      label: 'WhatsApp',
+      value: '(+971) 56 659 7878'
+    },
+        hours: {
+      label: 'Open Hours',
+      value: [
+        'Sun-Thu: 10:00 AM – 10:00 PM',
+        'Fri: 10:00 AM – 8:00 PM'
+      ]
+       }
+      }
+    },
     facility: {
   badge: 'Our Ayurveda Facility',
   title: 'Authentic Ayurvedic Healing Centre',
@@ -645,7 +696,7 @@ export const categoryContent = {
     whyChooseUs: {
       badge: 'Why Choose Us',
       title: 'Dubai\'s Leading Aesthetic Dermatology Clinic',
-      description: 'Experience world-class aesthetic treatments with advanced technology, expert dermatologists, and personalized care in the heart of Dubai.',
+      description: 'Experience the best in Aesthetic Dermatology in Dubai at our clinic, where advanced technology meets expert care. Our team of skilled dermatologists provides personalized treatments tailored to your skin type and goals, from laser therapy to anti-aging and skin rejuvenation. Located in the heart of Dubai, we combine world-class techniques with a comfortable, patient-focused environment. Choosing us ensures safe, effective, and visible results, making us a trusted destination for anyone seeking top-tier aesthetic dermatology services in Dubai. Your skin deserves the expertise and innovation we provide.',
       cards: [
         {
           title: 'DHA-Licensed Dermatologists',
@@ -676,11 +727,11 @@ export const categoryContent = {
     about: {
       badge: 'About Aesthetic Dermatology',
       title: 'Advanced Skin & Beauty Solutions',
-      description: 'Aesthetic dermatology combines medical expertise with cosmetic artistry to enhance your natural beauty, treat skin conditions, and restore youthful appearance through non-invasive and minimally invasive procedures.',
+      description: 'Aesthetic dermatology combines medical expertise with cosmetic artistry to enhance your natural beauty, treat skin conditions, and restore a youthful appearance through non-invasive and minimally invasive procedures.',
       paragraphs: [
-        'Aesthetic dermatology combines medical expertise with cosmetic artistry to enhance your natural beauty, treat skin conditions, and restore youthful appearance through non-invasive and minimally invasive procedures.',
-        'At RamaCare Polyclinic, our DHA-licensed dermatologists offer comprehensive aesthetic solutions including advanced laser treatments, skin rejuvenation, hair restoration, PRP therapy, and body contouring services.',
-        'We use cutting-edge technology and evidence-based treatments to deliver natural-looking, long-lasting results that enhance your confidence and support your overall skin, hair, and body health.'
+        'Aesthetic dermatology combines medical expertise with cosmetic artistry to enhance your natural beauty, treat skin conditions, and restore a youthful appearance through non-invasive and minimally invasive procedures.',
+        'At RamaCare Polyclinic, our DHA-licensed dermatologists provide comprehensive aesthetic solutions, including advanced laser treatments, skin rejuvenation, hair restoration, PRP therapy, and body contouring services, all tailored to your individual needs.',
+        'We use cutting-edge technology and evidence-based treatments to deliver natural-looking, long-lasting results that not only enhance your confidence but also support your overall skin, hair, and body health. Our focus on personalized care and innovative procedures ensures every patient enjoys safe, effective, and satisfying outcomes.'
       ],
       stats: [
         { number: '15+', label: 'Years Experience' },
@@ -701,10 +752,10 @@ export const categoryContent = {
       title: 'Meet Our DHA-Licensed\nDermatologists',
       description: 'Highly qualified dermatologists with extensive experience in aesthetic and medical dermatology, committed to enhancing your natural beauty and skin health.',
       stats: [
-        { value: '3', label: 'Expert Dermatologists' },
-        { value: '35+', label: 'Years Combined Experience' },
-        { value: '1,000+', label: 'Satisfied Patients' },
-        { value: '4.8', label: 'Average Rating' }
+       { value: '30+', label: 'Expert Doctors' },
+    { value: '37+', label: 'Years of Combined Experience' },
+    { value: '500+', label: 'Successful Treatments' },
+    { value: '4.9', label: 'Average Rating' }
       ],
       ctaSection: {
         title: 'Ready to Meet Your Dermatologist?',
@@ -980,7 +1031,14 @@ export const categoryContent = {
           image: '/images/p4.png'
         },
         
-      ]
+      ],
+      consultationCTA: {
+        heading: 'Not Sure Which Treatment is Right for You?',
+        subtext: 'Wondering which aesthetic dermatology treatment will best suit your skin, hair, or body goals? Schedule a free consultation with our expert dermatologists and receive personalized recommendations tailored to your unique needs. We assess your concerns carefully and guide you toward safe, effective, and natural-looking results.',
+        buttonText: 'Get Free Consultation',
+        backgroundColor: 'bg-[#1E5A3C]',
+        buttonColor: 'bg-[#C9A547]'
+      }
     },
     successStories: {
       badge: 'Patient Success Stories',
@@ -1021,7 +1079,48 @@ export const categoryContent = {
         title: 'Ready to transform your skin?',
         description: 'Join hundreds of satisfied patients who have achieved radiant, healthy skin with our advanced aesthetic dermatology treatments in Dubai.',
         buttonText: 'Start your journey today'
-      },
+      }
+    },
+    booking: {
+      title: 'Book Your Aesthetic Dermatology Consultation',
+      description: 'Schedule your personalized aesthetic dermatology consultation with our DHA-licensed specialists at RamaCare Polyclinic in Dubai.',
+      expectationTitle: 'What to Expect During Your Consultation',
+      steps: [
+        {
+          title: 'Comprehensive Skin Analysis',
+          description: 'Detailed assessment of your skin type, concerns, and aesthetic goals using advanced diagnostic tools.'
+        },
+        {
+          title: 'Personalized Treatment Plan',
+          description: 'Customized aesthetic solutions tailored to your specific needs, skin type, and desired outcomes.'
+        },
+        {
+          title: 'Professional Guidance',
+          description: 'Expert advice on treatment options, expected results, and aftercare instructions.'
+        }
+      ],
+      offerTitle: 'Special Consultation Offer',
+      offerDescription: 'Book your first consultation and receive:',
+      offers: [
+        'Complimentary skin analysis worth AED 200',
+        'Free skincare consultation guide',
+        '10% discount on your first aesthetic treatment'
+      ],
+      contactTitle: 'Need Help Booking?',
+      contactMethods: {
+        call: {
+          label: 'Call Us',
+          value: '(+971) 04 286 2006'
+        },
+        whatsapp: {
+          label: 'WhatsApp',
+          value: '(+971) 56 659 7878'
+        },
+        hours: {
+          label: 'Opening Hours',
+          value: 'Sat-Thu: 10:00 AM - 10:00 PM<br />Fri: 10:00 AM - 8:00 PM'
+        }
+      }
     },
     faq: {
       title: 'Frequently Asked Questions – Aesthetic Dermatology in Dubai',
@@ -1103,6 +1202,50 @@ export const categoryContent = {
           answer: 'Choose a clinic with DHA-licensed dermatologists, modern technology, transparent pricing, strong patient reviews, and personalized treatment plans focused on long-term skin health.'
         }
       ]
+    },
+    booking: {
+      title: 'Begin Your Aesthetic Transformation Today',
+      description: 'Schedule your personalized consultation with our expert dermatologists. Same-day appointments are available for your convenience.',
+      expectationTitle: 'What to Expect During Your Consultation',
+      steps: [
+        {
+      title: 'Comprehensive Assessment',
+      description: '60-minute consultation including a detailed skin analysis and discussion of your aesthetic goals.'
+    },
+    {
+      title: 'Personalized Treatment Plan',
+      description: 'Custom treatment protocol designed specifically for your skin, hair, or body concerns.'
+    },
+    {
+      title: 'Treatment Journey',
+      description: 'Begin your chosen therapies with ongoing guidance and adjustments for optimal results.'
+    }
+      ],
+      offerTitle: 'Limited Time Offer',
+  offerDescription: 'Book your first consultation this month and enjoy:',
+  offers: [
+    'Complimentary skin or hair analysis report',
+    'Free beauty and wellness guide',
+    '15% off your first treatment package'
+  ],
+      contactTitle: 'Prefer to Talk?',
+  contactMethods: {
+    call: {
+      label: 'Call Us',
+      value: '(+971) 04 286 2006'
+    },
+    whatsapp: {
+      label: 'WhatsApp',
+      value: '(+971) 56 659 7878'
+    },
+    hours: {
+      label: 'Open Hours',
+      value: [
+        'Sun-Thu: 10:00 AM – 10:00 PM',
+        'Fri: 10:00 AM – 8:00 PM'
+      ]
+       }
+      }
     },
     facility: {
   badge: 'Our Aesthetic Facility',
@@ -1475,17 +1618,24 @@ export const categoryContent = {
       image: '/images/gum-disease.jpg',
       alt: 'High-quality dental Treatment ensuring patient safety and effective results.'
     }
-  ]
+  ],
+  consultationCTA: {
+    heading: 'Not Sure Which Treatment is Right for You?',
+    subtext: 'Choosing the right dental care can be confusing with so many options available. At RamaCare Polyclinic, we help you make the best choice for your oral health. Schedule a free consultation with our expert dentists to get personalized recommendations on Dental Treatment in Dubai.',
+    buttonText: 'Get Free Consultation',
+    backgroundColor: 'bg-[#1E5A3C]',
+    buttonColor: 'bg-[#C9A547]'
+  }
 },
     experts: {
       badge: 'Expert Medical Team',
       title: 'Meet Our DHA-Licensed\nDentists',
       description: 'Highly qualified dentists with extensive experience in cosmetic and restorative dentistry, committed to creating beautiful, healthy smiles.',
       stats: [
-        { value: '3', label: 'Expert Dentists' },
-        { value: '35+', label: 'Years Combined Experience' },
-        { value: '5,000+', label: 'Veneers Placed' },
-        { value: '4.9', label: 'Average Rating' }
+       { value: '30+', label: 'Expert Doctors' },
+    { value: '37+', label: 'Years of Combined Experience' },
+    { value: '500+', label: 'Successful Treatments' },
+    { value: '4.9', label: 'Average Rating' }
       ],
       ctaSection: {
         title: 'Ready to Meet Your Dentist?',
@@ -1800,6 +1950,50 @@ export const categoryContent = {
         }
       ]
     }    ,
+      booking: {
+      title: 'Begin Your Dental Care Journey Today',
+      description: 'Schedule your personalized consultation with our expert dentists. Same-day appointments are available to help you start your journey toward a healthier, brighter smile.',
+      expectationTitle: 'What to Expect',
+     steps: [
+    {
+      title: 'Comprehensive Assessment',
+      description: 'A 60-minute consultation including a thorough oral health evaluation and review of your dental history to understand your needs.'
+    },
+    {
+      title: 'Personalized Plan',
+      description: 'Receive a custom treatment protocol tailored to your unique dental concerns, ensuring the most effective and comfortable care.'
+    },
+    {
+      title: 'Treatment Journey',
+      description: 'Begin your recommended therapies with ongoing support and adjustments, so your dental care is precise, safe, and stress-free.'
+    }
+  ],
+     offerTitle: 'Limited Time Offer',
+  offerDescription: 'Book your first consultation this month and enjoy:',
+  offers: [
+    'Free oral health assessment report',
+    'Complimentary dental wellness guidebook',
+    '15% off your first treatment package'
+  ],
+      contactTitle: 'Prefer to Talk?',
+  contactMethods: {
+    call: {
+      label: 'Call Us',
+      value: '(+971) 04 286 2006'
+    },
+    whatsapp: {
+      label: 'WhatsApp',
+      value: '(+971) 56 659 7878'
+    },
+    hours: {
+      label: 'Open Hours',
+      value: [
+        'Sun-Thu: 10:00 AM – 10:00 PM',
+        'Fri: 10:00 AM – 8:00 PM'
+      ]
+       }
+      }
+    },
 
     facility: {
   badge: 'Our dental Facility',
@@ -1927,7 +2121,7 @@ export const categoryContent = {
     whyChooseUs: {
       badge: 'Why Choose Us',
       title: 'Dubai\'s Trusted Physiotherapy Centre',
-      description: 'Experience expert physiotherapy with licensed specialists, advanced techniques, and personalized rehabilitation programs for optimal recovery and performance.',
+      description: 'At our clinic, we provide world-class Physiotherapy in Dubai designed to help you recover faster, improve mobility, and enhance overall quality of life. Our team of licensed specialists combines extensive clinical expertise with personalized rehabilitation strategies to ensure each patient achieves optimal outcomes.',
       cards: [
         {
           title: 'Evidence-Based Physiotherapy',
@@ -1982,6 +2176,13 @@ export const categoryContent = {
     treatments: {
       heading: 'Personalised Treatments for Modern Health Challenges',
       subtitle: 'Select a treatment below to explore how expert Physiotherapy Treatment can restore your mobility and quality of life.',
+      consultationCTA: {
+        heading: 'Ready to Move Better?',
+        subtext: 'Book your physiotherapy consultation today and start your journey to pain-free movement and improved function.',
+        buttonText: 'Consult Our Physiotherapists',
+        backgroundColor: 'bg-blue-600',
+        buttonColor: 'bg-white hover:bg-gray-100 text-blue-600'
+      },
       treatments: [
         {
           id: 1,
@@ -2096,20 +2297,25 @@ export const categoryContent = {
     'Patients with muscle knots, sports injuries, chronic pain, or restricted movement seeking fast and effective relief',
   image: '/images/dry needling.jpg',
   alt: 'Dry Needling Therapy in Dubai performed by a trained physiotherapist to relieve muscle pain and improve mobility.'
-}
-
-        
-      ]
+}   
+      ],
+       consultationCTA: {
+        heading: 'Not Sure Which Treatment is Right for You?',
+        subtext: 'Book a free consultation with our expert team for personalized guidance. Discover the most suitable Physiotherapy in Dubai plan for your needs and start your journey toward faster recovery, improved mobility, and better health.',
+        buttonText: 'Get Free Consultation',
+        backgroundColor: 'bg-[#1E5A3C]',
+        buttonColor: 'bg-[#C9A547]'
+      }
     },
     experts: {
       badge: 'Expert Medical Team',
       title: 'Meet Our DHA-Licensed\nPhysiotherapists',
       description: 'Highly qualified professionals committed to restoring movement, reducing pain, and improving long-term function.',
       stats: [
-        { value: '3', label: 'Expert Therapists' },
-        { value: '35+', label: 'Years Combined Experience' },
-        { value: '500+', label: 'Successful Recoveries' },
-        { value: '4.9', label: 'Average Rating' }
+        { value: '30+', label: 'Expert Doctors' },
+    { value: '37+', label: 'Years of Combined Experience' },
+    { value: '500+', label: 'Successful Treatments' },
+    { value: '4.9', label: 'Average Rating' }
       ],
       ctaSection: {
         title: 'Ready to Meet Your Physiotherapist?',
@@ -2350,6 +2556,52 @@ export const categoryContent = {
         }
       ]
     },
+
+       booking: {
+      title: 'Begin Your Healing Journey Today',
+      description: 'Schedule your personalized Physiotherapy consultation with our expert team. Same-day appointments are available to start your recovery and improve mobility, strength, and overall well-being.',
+       expectationTitle: 'What to Expect',
+  steps: [
+    {
+      title: 'Comprehensive Assessment',
+      description: 'A 60-minute consultation including movement analysis, posture evaluation, and personalized condition assessment.'
+    },
+    {
+      title: 'Personalized Plan',
+      description: 'Receive a custom Physiotherapy program tailored to your needs, goals, and recovery timeline.'
+    },
+    {
+      title: 'Treatment Journey',
+      description: 'Begin your therapy with ongoing support, adjustments, and progress tracking to ensure safe and effective results.'
+    }
+  ],
+      offerTitle: 'Limited Time Offer',
+  offerDescription: 'Book your first consultation this month and receive:',
+  offers: [
+    'Free movement assessment report',
+    'Complimentary wellness guidebook',
+    '15% off your first Physiotherapy treatment package'
+  ],
+
+  contactTitle: 'Prefer to Talk?',
+  contactMethods: {
+    call: {
+      label: 'Call Us',
+      value: '(+971) 04 286 2006'
+    },
+    whatsapp: {
+      label: 'WhatsApp',
+      value: '(+971) 56 659 7878'
+    },
+    hours: {
+      label: 'Open Hours',
+      value: [
+        'Sun-Thu: 10:00 AM – 10:00 PM',
+        'Fri: 10:00 AM – 8:00 PM'
+      ]
+       }
+      }
+    },
     facility: {
   badge: 'Our Physiotherapy Facility',
   title: 'Advanced Physiotherapy & Rehabilitation Centre',
@@ -2476,36 +2728,37 @@ export const categoryContent = {
       timing: 'Same Day Appointments'
     },
     whyChooseUs: {
-      badge: 'Why Choose Us',
-      title: 'Dubai’s Trusted General Physician Clinic',
-      description: 'Experience reliable, patient-centered medical care delivered by highly qualified doctors in a modern clinical environment.',
-      cards: [
-       {
-    title: 'Comprehensive Primary Healthcare',
-    description: 'Accurate diagnosis and treatment for common illnesses, infections, and ongoing medical conditions.'
-  },
-  {
-    title: 'DHA-Licensed Medical Doctors',
-    description: 'Fully certified general physicians with extensive clinical experience across multiple specialties.'
-  },
-  {
-    title: 'Personalized Treatment Plans',
-    description: 'Tailored care based on your medical history, lifestyle, and long-term health goals.'
-  },
-  {
-    title: 'Premium Jumeirah 1 Facility',
-    description: 'Modern polyclinic infrastructure with advanced diagnostic and treatment capabilities.'
-  },
-  {
-    title: 'Preventive & Long-Term Care',
-    description: 'Focus on disease prevention, early detection, and sustained health management.'
-  },
-  {
-    title: 'High Patient Trust & Satisfaction',
-    description: 'Consistent outcomes and trusted care for individuals and families across Dubai.'
-  }
-      ]
+  badge: 'Why Choose Us',
+  title: 'Dubai’s Trusted General Physician Clinic',
+  description: 'At our clinic, we provide exceptional care with a patient-first approach. As a leading provider of healthcare services, our team of experienced General Physicians in Dubai ensures that every visit is met with professionalism, empathy, and accurate medical attention. Whether you are seeking routine check-ups or treatment for acute illnesses, we are dedicated to delivering consistent, reliable care in a comfortable clinical environment.',
+
+  cards: [
+    {
+      title: 'Comprehensive Primary Healthcare',
+      description: ' From diagnosing common illnesses and infections to managing chronic medical conditions, our General Physicians in Dubai provide precise assessments and effective treatments. '
     },
+    {
+      title: 'DHA-Licensed Medical Doctors',
+      description: 'All our doctors are fully licensed by the Dubai Health Authority (DHA), bringing extensive experience across various medical specialties. '
+    },
+    {
+      title: 'Personalized Treatment Plans',
+      description: 'We understand that every patient is unique. Our General Physicians in Dubai create personalized treatment plans based on individual medical history, lifestyle, and long-term health goals. '
+    },
+    {
+      title: 'Premium Jumeirah 1 Facility',
+      description: 'Located in Jumeirah 1, our modern polyclinic combines state-of-the-art medical infrastructure with advanced diagnostic and treatment capabilities. '
+    },
+    {
+      title: 'Preventive & Long-Term Care',
+      description: ' Our General Physicians in Dubai focus on early detection, preventive screenings, and long-term health management, helping patients maintain optimal health and reduce the risk of serious medical conditions.'
+    },
+    {
+      title: 'High Patient Trust & Satisfaction',
+      description: 'Our commitment to excellent patient care has earned us the trust of individuals and families across Dubai. '
+    }
+  ]
+},
     about: {
       badge: 'About Our General Physician Department',
       title: 'Complete Medical Care Within a Modern Polyclinic',
@@ -2780,7 +3033,14 @@ export const categoryContent = {
       image: '/images/physical-examination.jpg',
       alt: 'Doctor conducting a comprehensive physical examination in a professional medical clinic, patient comfort focused, no text in image'
     }
-  ]
+  ],
+   consultationCTA: {
+        heading: 'Not Sure Which Treatment is Right for You?',
+        subtext: 'Get expert guidance at RamaCare Polyclinic, a trusted Polyclinic in Dubai. Book your FREE consultation today and receive a personalized treatment plan tailored to your needs.',
+        buttonText: 'Get Free Consultation',
+        backgroundColor: 'bg-[#1E5A3C]',
+        buttonColor: 'bg-[#C9A547]'
+      }
 },
 programs: {
   badge: 'Health Programs',
@@ -2855,10 +3115,10 @@ programs: {
       title: 'Meet Our DHA-Licensed General Physicians',
       description: 'Experienced doctors dedicated to providing accurate diagnosis, compassionate care, and long-term health guidance.',
       stats: [
-        { value: '3', label: ' Expert Physicians' },
-        { value: '40+', label: ' Years of Combined Experience' },
-        { value: '12,00+', label: ' Successful Consultations' },
-        { value: '4.9', label: 'Average Rating' }
+       { value: '30+', label: 'Expert Doctors' },
+    { value: '37+', label: 'Years of Combined Experience' },
+    { value: '500+', label: 'Successful Treatments' },
+    { value: '4.9', label: 'Average Rating' }
       ],
       ctaSection: {
         title: 'Ready to Meet Your Physician?',
@@ -3096,6 +3356,51 @@ programs: {
   ]
     },
 
+    booking: {
+      title: 'Begin Your Journey to Better Health',
+      description: 'Take the first step toward improved health by scheduling a consultation with an experienced General Physician in Dubai. We provide patient-focused, evidence-based medical care tailored to your specific health concerns. Same-day appointments are available for urgent medical needs.',
+        expectationTitle: 'What to Expect',
+  steps: [
+    {
+      title: 'Comprehensive Medical Assessment',
+      description: 'Your consultation begins with a detailed health evaluation. Our General Physicians in Dubai conduct a thorough physical examination, review your medical history, assess vital signs, and recommend necessary laboratory tests or diagnostic screenings to ensure accurate diagnosis.'
+    },
+    {
+      title: 'Personalized Treatment Plan',
+      description: 'Based on your condition, we develop a customized treatment plan focused on fast relief and long-term wellness. Whether it’s managing infections, chronic conditions, or preventive care, our approach ensures safe and effective treatment.'
+    },
+    {
+      title: 'Ongoing Care & Follow-Up',
+      description: 'Your health journey doesn’t end after one visit. We provide continuous monitoring, follow-up consultations, and treatment adjustments to support sustainable recovery and preventive care.'
+    }
+  ],
+      offerTitle: 'Limited Time Offer',
+  offerDescription: 'Book your first consultation with our trusted General Physicians in Dubai this month and receive:',
+  offers: [
+    'Complimentary health screening consultation',
+    'Free basic wellness guide',
+    '15% off your first consultation'
+  ],
+      contactTitle: 'Need Help ?',
+      contactMethods: {
+        call: {
+          label: 'Call Us',
+          value: '(+971) 04 286 2006'
+        },
+        whatsapp: {
+          label: 'WhatsApp',
+          value: '(+971) 56 659 7878'
+        },
+        hours: {
+      label: 'Open Hours',
+      value: [
+        'Sun-Thu: 10:00 AM – 10:00 PM',
+        'Fri: 10:00 AM – 8:00 PM'
+      ]
+       }
+      }
+    },
+
     facility: {
   badge: 'Our General Physician Facility',
   title: 'Comprehensive General Medicine & Family Care Clinic',
@@ -3221,36 +3526,38 @@ programs: {
       timing: 'Same Day Appointments'
     },
     whyChooseUs: {
-      badge: 'Why Choose Us',
-      title: 'Dubai\'s Premier Facial Centre',
-      description: 'Experience luxurious facial treatments where advanced medical expertise meets personalized skincare.',
-      cards: [
-        {
-          title: 'Clinically Proven Treatments',
-          description: 'State-of-the-art facial procedures backed by research and clinical experience.'
-        },
-        {
-          title: 'DHA-Licensed Practitioners',
-          description: 'Qualified aesthetic specialists delivering safe and effective results.'
-        },
-        {
-          title: 'Customized Skincare Plans',
-          description: 'Tailored protocols based on skin type, concerns, and desired outcomes.'
-        },
-        {
-          title: 'Premium Jumeirah 1 Facility',
-          description: 'Modern clinic with relaxing ambience and advanced skincare technology.'
-        },
-        {
-          title: 'Holistic Skin Health',
-          description: 'Addressing hydration, texture, pigmentation, aging, and overall skin vitality.'
-        },
-        {
-          title: 'High Client Satisfaction',
-          description: ' Proven results with glowing reviews from hundreds of satisfied clients.'
-        }
-      ]
+  badge: 'Why Choose Us',
+  title: "Dubai's Premier Facial Centre",
+  description: 'Experience luxurious Facial Treatments in Dubai where advanced medical expertise meets personalized skincare in a refined, comfortable, and results-driven environment designed to enhance your natural beauty and long-term skin health.',
+
+  cards: [
+    {
+      title: 'Clinically Proven Treatments',
+      description: 'State-of-the-art facial procedures backed by scientific research, advanced dermatological technology, and extensive clinical experience to ensure safe, effective, and visibly transformative skin results.'
     },
+    {
+      title: 'DHA-Licensed Practitioners',
+      description: 'Qualified DHA-licensed aesthetic specialists delivering safe, precise, and highly effective treatments with strict hygiene standards, professional assessment, and patient-focused care at every step.'
+    },
+    {
+      title: 'Customized Skincare Plans',
+      description: 'Tailored treatment protocols carefully designed according to your unique skin type, specific concerns, lifestyle factors, and desired aesthetic outcomes for long-lasting, natural-looking results.'
+    },
+    {
+      title: 'Premium Jumeirah 1 Facility',
+      description: 'Modern clinic located in Jumeirah 1 featuring relaxing ambience, private consultation rooms, advanced skincare technology, and a welcoming atmosphere that prioritizes comfort and confidentiality.'
+    },
+    {
+      title: 'Holistic Skin Health',
+      description: 'Comprehensive approach addressing hydration, texture, pigmentation, early signs of aging, acne concerns, and overall skin vitality to promote balanced, radiant, and healthy-looking skin.'
+    },
+    {
+      title: 'High Client Satisfaction',
+      description: 'Proven results supported by glowing reviews, repeat visits, and trust from hundreds of satisfied clients who choose our expert Facial Treatments in Dubai for consistent quality and visible improvement.'
+    }
+  ]
+},
+
     about: {
       badge: 'About Our Facial Department',
       title: 'Expert Skincare Solutions in a Modern Clinic',
@@ -3364,9 +3671,14 @@ programs: {
           idealFor: 'Advanced anti-aging and rejuvenation',
           image: '/images/exosomes.jpg'
         },
-        
-        
-      ]
+      ],
+       consultationCTA: {
+        heading: 'Not Sure Which Treatment is Right for You?',
+        subtext: 'Unsure which Facial Treatments are best suited for your skin type and specific concerns? Schedule a free consultation with our expert skincare specialists for personalized guidance and a customized treatment plan tailored to your needs.',
+        buttonText: 'Get Free Consultation',
+        backgroundColor: 'bg-[#1E5A3C]',
+        buttonColor: 'bg-[#C9A547]'
+      }
     },
     experts: {
       badge: 'Expert Medical Team',
@@ -3374,9 +3686,10 @@ programs: {
       description: 'Highly qualified DHA-licensed aesthetic physicians with years of experience delivering safe, effective, and personalized facial treatments in Dubai.',
       stats: [
         
-        { value: '37+', label: 'Years Combined Experience' },
-        { value: '500+', label: 'Successful Treatments' },
-        { value: '4.9/5', label: 'Average Rating' }
+       { value: '30+', label: 'Expert Doctors' },
+    { value: '37+', label: 'Years of Combined Experience' },
+    { value: '500+', label: 'Successful Treatments' },
+    { value: '4.9', label: 'Average Rating' }
       ],
       ctaSection: {
         title: 'Ready to Meet Your Aesthetician?',
@@ -3540,6 +3853,27 @@ programs: {
             'Hydration and nourishment',
             'Maintained skin health and radiance'
           ]
+        },
+        {
+          id: 4,
+          title: 'Full Facial Rejuvenation & Glow Reset',
+          duration: '3 Months',
+          backgroundColor: 'bg-white',
+          topSectionColor: 'bg-emerald-50',
+          durationColor: 'bg-emerald-100',
+          durationTextColor: 'text-emerald-700',
+          icon: 'sparkle',
+          description:
+            'A comprehensive 3-month transformation designed to restore youthful contours, smooth fine lines, and deliver luminous, glass-like skin. This signature program combines advanced injectables with medical-grade skin therapies to create visible yet natural refinement.',
+          includes: [
+            'Up to 50 Units Botox',
+            'Up to 1 ml Premium Dermal Filler',
+            '3 Skin Booster Sessions',
+            '2 Hydrafacial Treatments',
+            '2 Medical-Grade Chemical Peels',
+            '2 IV + Vitamin C Infusions'
+          ],
+          price: 'Starting from AED 15,999'
         }
       ]
     },
@@ -3665,6 +3999,52 @@ programs: {
         },
       ]
     },
+     booking: {
+      title: 'Begin Your Skin Care Journey Today',
+      description: 'Schedule your personalized consultation with our skincare experts. Same-day appointments are available for your convenience.',
+       expectationTitle: 'What to Expect',
+  steps: [
+    {
+      title: 'Comprehensive Skin Assessment',
+      description: 'A detailed consultation including professional skin analysis to evaluate your skin type, concerns, and treatment goals.'
+    },
+    {
+      title: 'Personalized Treatment Plan',
+      description: 'A customized facial treatment protocol tailored to your specific skin condition, lifestyle, and desired results.'
+    },
+    {
+      title: 'Treatment Journey',
+      description: 'Begin advanced Facial Treatments with continuous guidance, progress monitoring, and adjustments to ensure optimal, long-lasting results.'
+    }
+  ],
+
+      offerTitle: 'Limited Time Offer',
+  offerDescription: 'Book your first consultation this month and receive:',
+  offers: [
+    'Complimentary professional skin analysis report',
+    'Free skincare guide for healthy, glowing skin',
+    '15% off your first facial treatment package'
+  ],
+
+  contactTitle: 'Prefer to Talk?',
+  contactMethods: {
+    call: {
+      label: 'Call Us',
+      value: '(+971) 04 286 2006'
+    },
+    whatsapp: {
+      label: 'WhatsApp',
+      value: '(+971) 56 659 7878'
+    },
+       hours: {
+      label: 'Open Hours',
+      value: [
+        'Sun-Thu: 10:00 AM – 10:00 PM',
+        'Fri: 10:00 AM – 8:00 PM'
+      ]
+       }
+      }
+    },
   facility: {
   badge: 'Our Facial Treatment Facility',
   title: 'Advanced Facial & Aesthetic Skin Care Clinic',
@@ -3770,4 +4150,3 @@ export const getCategoryContent = (categorySlug) => {
 export const getAllCategories = () => {
   return Object.keys(categoryContent);
 };
-

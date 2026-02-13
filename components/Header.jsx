@@ -11,7 +11,6 @@ import {
   Phone, 
   Calendar, 
   ChevronDown,
-  Shield,
   Menu
 } from "lucide-react";
 import BeginYourHealingJourneySection from './BeginYourHealingJourneySection';
@@ -296,11 +295,7 @@ const Header = () => {
                 />
               </Link>
               <div>
-                <h1 className="text-base sm:text-lg font-semibold text-[#1C4942]">RamaCare</h1>
-                <div className="flex items-center space-x-1">
-                  <Shield className="w-2 h-2 sm:w-2.5 sm:h-2.5 text-gray-600" />
-                  <span className="text-[9px] sm:text-[10px] text-gray-600">DHA Licensed</span>
-                </div>
+                <h1 className="text-lg sm:text-xl font-bold text-[#1C4942]">RamaCare</h1>
               </div>
             </div>
 

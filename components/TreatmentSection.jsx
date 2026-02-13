@@ -192,6 +192,15 @@ const TreatmentSection = ({ category, content }) => {
   const subtitle = content?.subtitle || 'Select a treatment below to discover how Polyclinic can transform your health and wellbeing in Dubai.';
   const treatmentsList = content?.treatments || defaultTreatments;
   
+  // Consultation CTA Section Content - Configurable for different pages
+  const consultationContent = {
+    heading: content?.consultationHeading || 'Not Sure Which Treatment is Right for You?',
+    subtext: content?.consultationSubtext || 'Get expert guidance at RamaCare Polyclinic, a trusted Polyclinic in Dubai. Book your FREE consultation today and receive a personalized treatment plan tailored to your needs.',
+    buttonText: content?.consultationButtonText || 'Get Free Consultation',
+    backgroundColor: content?.consultationBgColor || 'bg-[#1E5A3C]',
+    buttonColor: content?.consultationButtonColor || 'bg-[#C9A547] hover:bg-[#B8944A]'
+  };
+  
   const [selectedTreatmentId, setSelectedTreatmentId] = useState(treatmentsList.length > 0 ? treatmentsList[0].id : null);
   const selectedTreatment = treatmentsList.find(t => t.id === selectedTreatmentId) || treatmentsList[0];
 
@@ -421,24 +430,24 @@ const TreatmentSection = ({ category, content }) => {
           {/* Consultation CTA Block */}
           <div className="mt-12">
             <div 
-              className="rounded-2xl shadow-lg py-10 px-8 text-center transition-all duration-300 hover:shadow-xl bg-[#1E5A3C]"
+              className={`rounded-2xl shadow-lg py-10 px-8 text-center transition-all duration-300 hover:shadow-xl ${consultationContent.backgroundColor}`}
             >
               {/* Heading */}
               <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
-                Not Sure Which Treatment is Right for You?
+                {consultationContent.heading}
               </h3>
 
               {/* Subtext */}
               <p className="text-sm md:text-base text-white/90 mb-6 max-w-2xl mx-auto leading-relaxed font-normal">
-               Get expert guidance at RamaCare Polyclinic, a trusted Polyclinic in Dubai.Book your FREE consultation today and receive a personalized treatment plan tailored to your needs.
+                {consultationContent.subtext}
               </p>
 
               {/* CTA Button */}
               <button
                 onClick={handleConsultationClick}
-                className="inline-flex items-center justify-center bg-[#C9A547] text-white px-6 py-3 rounded-full font-semibold text-sm shadow-md hover:shadow-lg hover:bg-[#B8944A] transition-all duration-300"
+                className={`inline-flex items-center justify-center px-6 py-3 rounded-full font-semibold text-sm shadow-md hover:shadow-lg transition-all duration-300 ${consultationContent.buttonColor} text-white`}
               >
-                Get Free Consultation
+                {consultationContent.buttonText}
               </button>
             </div>
           </div>

@@ -3,96 +3,127 @@ import React from 'react';
 const ProgramsSection = ({ content }) => {
   // Default programs (Ayurveda - for homepage)
   const defaultPrograms = [
-    {
-      id: 1,
-      title: 'Deep Panchakarma Detox',
-      duration: '7-14 Days',
-      backgroundColor: 'bg-white',
-      topSectionColor: 'bg-[#E8F4ED]',
-      durationColor: 'bg-green-100',
-      durationTextColor: 'text-green-700',
-      icon: 'sparkle',
-      benefits: [
-        'Complete toxin elimination and cellular rejuvenation',
-        'Enhanced immunity and digestive fire (Agni)',
-        'Mental clarity and sustained energy levels'
-      ]
-    },
-    {
-      id: 2,
-      title: 'Chronic Pain Relief Program',
-      duration: '10-21 Days',
-      backgroundColor: 'bg-white',
-      topSectionColor: 'bg-[#FFF5ED]',
-      durationColor: 'bg-stone-100',
-      durationTextColor: 'text-stone-700',
-      icon: 'activity',
-      benefits: [
-        'Targeted relief for arthritis, back & joint pain',
-        'Anti-inflammatory herbal treatments & oil therapies',
-        'Long-term pain management strategies'
-      ]
-    },
-    {
-      id: 3,
-      title: 'Stress & Sleep Balance Therapy',
-      duration: '7-14 Days',
-      backgroundColor: 'bg-white',
-      topSectionColor: 'bg-[#EFF6FF]',
-      durationColor: 'bg-blue-100',
-      durationTextColor: 'text-blue-700',
-      icon: 'moon',
-      benefits: [
-        'Calming Shirodhara and nervous system regulation',
-        'Herbal support for anxiety and insomnia',
-        'Lifestyle and meditation guidance'
-      ]
-    },
-    {
-      id: 4,
-      title: 'Women\'s Wellness Program',
-      duration: '14-28 Days',
-      backgroundColor: 'bg-white',
-      topSectionColor: 'bg-[#FDF2F8]',
-      durationColor: 'bg-pink-50',
-      durationTextColor: 'text-pink-700',
-      icon: 'flower',
-      benefits: [
-        'Hormonal balance for PCOS, fertility & menopause',
-        'Natural cycle regulation and vitality restoration',
-        'Personalized nutrition and herbal protocols'
-      ]
-    },
-    {
-      id: 5,
-      title: 'Digestive & Weight Balance Program',
-      duration: '14-21 Days',
-      backgroundColor: 'bg-white',
-      topSectionColor: 'bg-[#FFF7ED]',
-      durationColor: 'bg-orange-50',
-      durationTextColor: 'text-orange-700',
-      icon: 'scale',
-      benefits: [
-        'Metabolic reset and healthy weight management',
-        'Gut healing for IBS, bloating & inflammation',
-        'Sustainable dietary and lifestyle changes'
-      ]
-    },
-    {
-      id: 6,
-      title: 'Full Rejuvenation Therapy',
-      duration: '21-28 Days',
-      backgroundColor: 'bg-white',
-      topSectionColor: 'bg-[#F5F3FF]',
-      durationColor: 'bg-purple-50',
-      durationTextColor: 'text-purple-700',
-      icon: 'users',
-      benefits: [
-        'Complete body-mind renewal and anti-aging',
-        'Vitality enhancement and skin radiance',
-        'Preventive wellness and longevity support'
-      ]
-    }
+   {
+  id: 1,
+  title: 'Full Facial Rejuvenation & Glow Reset',
+  duration: '3 Months',
+  backgroundColor: 'bg-white',
+  topSectionColor: 'bg-[#F0FDF4]',
+  durationColor: 'bg-emerald-50',
+  durationTextColor: 'text-emerald-700',
+  icon: 'sparkle',
+  description:
+    'A comprehensive 3-month transformation designed to restore youthful contours, smooth fine lines, and deliver luminous, glass-like skin. This signature program combines advanced injectables with medical-grade skin therapies to create visible yet natural refinement.',
+  includes: [
+    'Up to 50 Units Botox',
+    'Up to 1 ml Premium Dermal Filler',
+    '3 Skin Booster Sessions',
+    '2 Hydrafacial Treatments',
+    '2 Medical-Grade Chemical Peels',
+    '2 IV + Vitamin C Infusions'
+  ],
+  price: 'Starting from AED 15,999'
+},
+{
+  id: 2,
+  title: '60-Day Slim & Sculpt Protocol',
+  duration: '8 Weeks',
+  backgroundColor: 'bg-white',
+  topSectionColor: 'bg-[#F0FDF4]',
+  durationColor: 'bg-emerald-50',
+  durationTextColor: 'text-emerald-700',
+  icon: 'sparkle',
+  description:
+    'A structured 8-week body transformation designed to contour, tighten, and refine targeted areas with clinically guided treatments. Ideal for patients seeking visible shaping without surgery.',
+  includes: [
+    '4 Targeted Fat Dissolving Sessions',
+    '4 Advanced Body Contouring Machine Sessions',
+    '6 Madero Therapy Treatments',
+    '4 Lymphatic Drainage Sessions',
+    '2 Fat Burn IV Drips'
+  ],
+  price: 'Starting from AED 12,999'
+},
+{
+  id: 3,
+  title: 'Advanced Hair Revival & Density Restoration',
+  duration: '4 Months',
+  backgroundColor: 'bg-white',
+  topSectionColor: 'bg-[#F0FDF4]',
+  durationColor: 'bg-emerald-50',
+  durationTextColor: 'text-emerald-700',
+  icon: 'sparkle',
+  description:
+    'A medical 4-month program focused on stimulating growth, strengthening follicles, and improving scalp health for both men and women.',
+  includes: [
+    '6 Hair PRP Sessions',
+    '3 Hair Boosters',
+    '3 Hair IV Nutrient Drips',
+    'Comprehensive Scalp Analysis Consultation'
+  ],
+  price: 'Starting from AED 9,999'
+},
+{
+  id: 4,
+  title: 'Pigmentation Correction & Glow Restoration',
+  duration: '2–3 Months',
+  backgroundColor: 'bg-white',
+  topSectionColor: 'bg-[#F0FDF4]',
+  durationColor: 'bg-emerald-50',
+  durationTextColor: 'text-emerald-700',
+  icon: 'sparkle',
+  description:
+    'Designed for dull, uneven, or pigmented skin, this multi-step program enhances clarity, hydration, and radiance for a refined, luminous complexion.',
+  includes: [
+    '3 Hydrafacial Treatments',
+    '3 Oxygeneo Facials',
+    '2 Medical Chemical Peels',
+    '2 IV Glutathione + Vitamin C Infusions',
+    '2 Radiance Drips'
+  ],
+  price: 'Starting from AED 7,999'
+},
+{
+  id: 5,
+  title: 'Structured 6-Week Rehabilitation Protocol',
+  duration: '6 Weeks',
+  backgroundColor: 'bg-white',
+  topSectionColor: 'bg-[#F0FDF4]',
+  durationColor: 'bg-emerald-50',
+  durationTextColor: 'text-emerald-700',
+  icon: 'sparkle',
+  description:
+    'A medically guided program designed to restore mobility, reduce chronic pain, and improve functional performance. Ideal for back pain, joint discomfort, muscle injuries, and postural correction.',
+  includes: [
+    '8 Physiotherapy Sessions',
+    '4 Dry Needling Treatments',
+    '4 Cupping Therapy Sessions',
+    '2 Deep Tissue Therapy Sessions',
+    'GP Medical Review'
+  ],
+  price: 'Starting from AED 4,999'
+},
+{
+  id: 6,
+  title: 'Instant Smile Upgrade',
+  duration: '2–4 Weeks',
+  backgroundColor: 'bg-white',
+  topSectionColor: 'bg-[#F0FDF4]',
+  durationColor: 'bg-emerald-50',
+  durationTextColor: 'text-emerald-700',
+  icon: 'sparkle',
+  description:
+    'A cosmetic dental enhancement program designed to brighten, refine, and elevate your smile with natural-looking results. Perfect for events, weddings, professional image enhancement, or personal confidence.',
+  includes: [
+    'Comprehensive Dental Consultation & Smile Analysis',
+    'Professional Scaling & Polishing',
+    'In-Clinic Laser Teeth Whitening',
+    '1 Composite Bonding Enhancement (if required)',
+    'Digital Smile Preview'
+  ],
+  price: 'Starting from AED 3,999'
+}
+
   ];
 
   // Use content props if provided, otherwise use defaults
@@ -100,7 +131,7 @@ const ProgramsSection = ({ content }) => {
   const heading = content?.heading || 'Curated Healing Journeys';
   const subtitle = content?.subtitle || 'Immersive treatment programs designed for transformative results and lasting wellness.';
   const programs = content?.programs || defaultPrograms;
-  const disclaimer = content?.disclaimer || 'All programs are customized based on your initial consultation, dosha analysis and specific health concerns. Duration and therapies may vary.';
+  const disclaimer = content?.disclaimer || 'All healthcare programs at RamaCare Polyclinic, a trusted Polyclinic in Dubai, are personalized to your unique needs. Following your initial consultation and health assessment, our experts design customized care plans tailored to your specific concerns, ensuring safe, effective, and long-lasting results.';
 
   // Icon mapping
   const iconMap = {
@@ -198,26 +229,60 @@ const ProgramsSection = ({ content }) => {
                 )}
               </div>
 
-              {/* White Bottom Section with Content */}
               <div className="px-6 py-6 flex flex-col flex-grow bg-white">
-                {/* Benefits List */}
-                <ul className="space-y-3 mb-6 flex-grow">
-                  {program.benefits.map((benefit, index) => (
-                    <li key={index} className="flex items-start">
-                      <div className="w-4 h-4 rounded-full bg-[#0F4C3A] flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                        <svg className="w-2.5 h-2.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={3}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                        </svg>
-                      </div>
-                      <span className="text-[13px] text-[#4B5563] leading-relaxed">
-                        {benefit}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
+                {program.description && (
+                  <p className="text-[13px] text-[#4B5563] leading-relaxed mb-4">
+                    {program.description}
+                  </p>
+                )}
 
-                {/* Book Now Button */}
+                {program.includes && Array.isArray(program.includes) && program.includes.length > 0 && (
+                  <div className="mb-6">
+                    <div className="text-[12px] font-semibold text-[#0F4C3A] mb-2">
+                      Program Includes
+                    </div>
+                    <ul className="space-y-3">
+                      {program.includes.map((item, index) => (
+                        <li key={index} className="flex items-start">
+                          <div className="w-4 h-4 rounded-full bg-[#0F4C3A] flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                            <svg className="w-2.5 h-2.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={3}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <span className="text-[13px] text-[#4B5563] leading-relaxed">
+                            {item}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                {program.benefits && Array.isArray(program.benefits) && program.benefits.length > 0 && (
+                  <ul className="space-y-3 mb-6 flex-grow">
+                    {program.benefits.map((benefit, index) => (
+                      <li key={index} className="flex items-start">
+                        <div className="w-4 h-4 rounded-full bg-[#0F4C3A] flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                          <svg className="w-2.5 h-2.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={3}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                          </svg>
+                        </div>
+                        <span className="text-[13px] text-[#4B5563] leading-relaxed">
+                          {benefit}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+
                 <div className="mt-auto">
+                  {program.price && (
+                    <div className="mb-3 text-center">
+                      <span className="inline-block bg-[#E8E3D8] text-[#3d5f4a] px-3 py-1 rounded-full text-xs font-semibold">
+                        {program.price}
+                      </span>
+                    </div>
+                  )}
                   <a 
                     href={`https://wa.me/971566597878?text=Hi, I'm interested in the ${encodeURIComponent(program.title)} program. I'd like to know more details.`}
                     target="_blank"

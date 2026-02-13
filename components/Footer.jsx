@@ -218,8 +218,8 @@ const Footer = () => {
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                 </svg>
                 <div className="flex-1">
-                  <div>Sun - Thu: 9:00 AM - 8:00 PM</div>
-                  <div>Fri - Sat: 10:00 AM - 6:00 PM</div>
+                  <div>sun-sat: 10:00 AM - 10:00 PM</div>
+                  <div>fri: 10:00 AM - 8:00 PM</div>
                 </div>
               </li>
             </ul>

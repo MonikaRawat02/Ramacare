@@ -19,10 +19,10 @@ const BookConsultation = ({ content }) => {
       }
     },
     clinicHours: {
-      weekdays: 'Saturday - Thursday:',
-      weekdaysTime: '9:00 AM - 9:00 PM',
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
       friday: 'Friday:',
-      fridayTime: '2:00 PM - 9:00 PM'
+      fridayTime: '10:00 AM - 8:00 PM'
     },
     statCards: [
       {

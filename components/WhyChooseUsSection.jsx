@@ -70,7 +70,7 @@ const WhyChooseUsSection = ({ content }) => {
       <section ref={sectionRef} className="relative w-full bg-[#F9FAFB] overflow-hidden font-inter">
         {/* Content Container */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
-          <div className={`flex flex-col items-center text-center space-y-4 mb-12 transform transition-all duration-1000 ${
+          <div className={`flex flex-col items-center text-center space-y-4 mb-6 transform transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
             {/* Badge */}
@@ -84,7 +84,7 @@ const WhyChooseUsSection = ({ content }) => {
             </h2>
 
             {/* Description Text - Normal weight */}
-           <p  className="text-left mb-12 lg:mb-14 max-w-3xl mx-auto"
+           <p  className="text-justify mb-8 lg:mb-10 max-w-3xl mx-auto"
             style={{ 
               color: '#6B7280',
               fontSize: '16px',

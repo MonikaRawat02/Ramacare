@@ -10,8 +10,8 @@ const ExpertsSection = ({ content }) => {
   const title = content?.title || 'Meet Our DHA-Licensed Expertise';
   const description = content?.description || 'Highly qualified doctors with decades of combined experience, committed to your healing journey with expertise, compassion, and authentic Ayurvedic care.';
   const stats = content?.stats || [
-    { value: '3', label: 'Expert Physicians' },
-    { value: '37+', label: 'Years Combined Experience' },
+    { value: '30+', label: 'Expert Doctors' },
+    { value: '37+', label: 'Years of Combined Experience' },
     { value: '500+', label: 'Successful Treatments' },
     { value: '4.9', label: 'Average Rating' }
   ];
@@ -91,7 +91,8 @@ const ExpertsSection = ({ content }) => {
             'Successfully treated 500+ patients with a gentle, patient-focused approach'
           ],
           languages: ['English']
-        }
+        },
+     
   ];
 
   const renderStars = (rating, size = 'w-4 h-4') => {

@@ -628,11 +628,11 @@ export const subSubcategoryContent = {
         address: { line1: 'Dubai Healthcare City', line2: 'Building X, Floor X, Dubai, UAE' }
       },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         { title: 'DHA Licensed', description: 'Certified Facility' },
         { title: 'Experienced Team', description: '15+ Years' },
@@ -1244,11 +1244,11 @@ rootCauses: [
         address: { line1: 'Dubai Healthcare City', line2: 'Building X, Floor X, Dubai, UAE' }
       },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         { title: 'DHA Licensed', description: 'Certified Facility' },
         { title: 'Experienced Team', description: '15+ Years' },
@@ -1881,11 +1881,11 @@ rootCauses: [
         address: { line1: 'Dubai Healthcare City', line2: 'Building X, Floor X, Dubai, UAE' }
       },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         { title: 'DHA Licensed', description: 'Certified Facility' },
         { title: 'Experienced Team', description: '15+ Years' },
@@ -2543,12 +2543,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -3223,12 +3223,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -3933,12 +3933,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -4658,12 +4658,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -5378,12 +5378,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -6112,12 +6112,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -6823,12 +6823,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -7510,12 +7510,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -8241,12 +8241,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -8966,12 +8966,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -9668,12 +9668,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -10912,12 +10912,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -11555,12 +11555,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -12190,12 +12190,12 @@ faq: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -12829,12 +12829,12 @@ faq: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -13458,27 +13458,33 @@ faq: {
         testimonials: [
          {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -13542,12 +13548,12 @@ faq: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -14156,11 +14162,11 @@ faq: {
         address: { line1: 'Dubai Healthcare City', line2: 'Building X, Floor X, Dubai, UAE' }
       },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         { title: 'DHA Licensed', description: 'Certified Facility' },
         { title: 'Experienced Team', description: '15+ Years' },
@@ -14882,12 +14888,12 @@ faq: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -15565,12 +15571,12 @@ faq: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -16232,12 +16238,12 @@ solutionIntro: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -16897,12 +16903,12 @@ solutionIntro: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -17567,12 +17573,12 @@ solutionIntro: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -18233,12 +18239,12 @@ solutionIntro: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -18961,12 +18967,12 @@ solutionIntro: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -19637,12 +19643,12 @@ solutionIntro: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -20338,12 +20344,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -20995,12 +21001,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -21581,12 +21587,12 @@ rootCauses: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',

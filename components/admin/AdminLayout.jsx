@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import AdminSidebar from './AdminSidebar';
@@ -43,6 +44,11 @@ const AdminLayout = ({ children }) => {
 
   return (
     <div className="min-h-screen bg-gray-50 bg-white">
+      <Head>
+        <title>RamaCare Polyclinic Dubai | Trusted Polyclinic in Dubai</title>
+        <meta name="description" content=" RamaCare Polyclinic Dubai provides multi-specialty medical care with experienced doctors, modern diagnostics, and patient-focused treatment in a DHA-licensed clinic."/>
+        <link rel="icon" href="/images/Logo.png" />
+      </Head>
       {/* Desktop Sidebar */}
       <AdminSidebar />
 

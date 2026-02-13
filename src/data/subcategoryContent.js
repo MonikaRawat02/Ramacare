@@ -640,27 +640,33 @@ export const subcategoryContent = {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -727,12 +733,12 @@ export const subcategoryContent = {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -917,12 +923,7 @@ export const subcategoryContent = {
                   'Sleep patterns, work stress, physical activity, and daily habits.',
                 ]
               },
-              {
-                heading: 'Mental & Emotional Health',
-                items: [
-                  'Stress levels, emotional balance, focus, and overall well-being..',
-                ]
-              }
+            
             ]
           },
           {
@@ -934,9 +935,6 @@ export const subcategoryContent = {
               'Digestive problems',
               'Hair fall or skin concerns',
               'Stress, anxiety, or sleep disorders',
-              'Lifestyle-related conditions',
-              'Unclear or multiple symbols',
-              'Preventive health and wellness planning'
             
             ]
           },
@@ -1393,27 +1391,33 @@ export const subcategoryContent = {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -1480,12 +1484,12 @@ export const subcategoryContent = {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -2134,27 +2138,33 @@ export const subcategoryContent = {
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -2219,11 +2229,11 @@ export const subcategoryContent = {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -2828,27 +2838,33 @@ export const subcategoryContent = {
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -2913,11 +2929,11 @@ export const subcategoryContent = {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -3524,27 +3540,33 @@ export const subcategoryContent = {
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -3609,11 +3631,11 @@ export const subcategoryContent = {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -4244,27 +4266,33 @@ export const subcategoryContent = {
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -4329,11 +4357,11 @@ export const subcategoryContent = {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -4928,27 +4956,33 @@ export const subcategoryContent = {
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -5013,11 +5047,11 @@ export const subcategoryContent = {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -5613,27 +5647,33 @@ comparisonData: [
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -5701,11 +5741,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -6351,27 +6391,33 @@ comparisonData: [
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -6439,11 +6485,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -7072,27 +7118,33 @@ comparisonData: [
          testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -7159,12 +7211,12 @@ comparisonData: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -7778,27 +7830,33 @@ comparisonData: [
          testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -7865,12 +7923,12 @@ comparisonData: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -8508,27 +8566,33 @@ comparisonData: [
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -8595,12 +8659,12 @@ comparisonData: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -9229,27 +9293,33 @@ comparisonData: [
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -9316,12 +9386,12 @@ comparisonData: [
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -9934,27 +10004,33 @@ comparisonData: [
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -10019,11 +10095,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -10688,27 +10764,33 @@ comparisonData: [
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -10773,11 +10855,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -11421,27 +11503,33 @@ comparisonData: [
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -11506,11 +11594,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -12152,27 +12240,33 @@ comparisonData: [
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -12237,11 +12331,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -12877,27 +12971,33 @@ comparisonData: [
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -12962,11 +13062,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -13608,27 +13708,33 @@ comparisonData: [
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -13693,11 +13799,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -14351,27 +14457,33 @@ comparisonData: [
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -14436,11 +14548,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -15077,27 +15189,33 @@ comparisonData: [
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -15162,11 +15280,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -15824,27 +15942,33 @@ comparisonData: [
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -15909,11 +16033,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -16565,27 +16689,33 @@ comparisonData: [
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -16650,11 +16780,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -17328,27 +17458,33 @@ comparisonData: [
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -17413,11 +17549,11 @@ comparisonData: [
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -18058,27 +18194,33 @@ healingJourney: {
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -18143,11 +18285,11 @@ healingJourney: {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -18786,27 +18928,33 @@ healingJourney: {
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -18871,11 +19019,11 @@ healingJourney: {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -19469,27 +19617,33 @@ healingJourney: {
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -19554,11 +19708,11 @@ healingJourney: {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -20148,27 +20302,33 @@ healingJourney: {
        testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -20233,11 +20393,11 @@ healingJourney: {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -20828,27 +20988,33 @@ healingJourney: {
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -20913,11 +21079,11 @@ healingJourney: {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -21509,27 +21675,33 @@ healingJourney: {
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -21594,11 +21766,11 @@ healingJourney: {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -22184,27 +22356,33 @@ healingJourney: {
       testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
       stats: [
@@ -22269,11 +22447,11 @@ healingJourney: {
       }
     },
       clinicHours: {
-        weekdays: 'Saturday - Thursday:',
-        weekdaysTime: '9:00 AM - 9:00 PM',
-        friday: 'Friday:',
-        fridayTime: '2:00 PM - 9:00 PM'
-      },
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
       statCards: [
         {
           title: 'DHA Licensed',
@@ -22414,112 +22592,140 @@ healingJourney: {
         ]
       },
       overview: {
-        title: 'Understanding Ayurvedic Skin Treatment in Dubai',
+        title: 'Understanding Skin Treatment in Dubai',
         problemIntro: {
-          title: 'Common Skin Problems (Ayurvedic View)',
-          description: 'Many individuals seeking skin treatment in Dubai experience recurring or chronic skin issues because conventional treatments often address only surface symptoms. According to Ayurveda, skin problems originate from internal imbalances, poor digestion, toxin buildup, and lifestyle stress.'
+          title: 'Common Skin Problems',
+          description: 'Many individuals seeking skin treatment experience recurring or chronic skin concerns because temporary solutions often address only visible symptoms rather than underlying triggers. Without proper diagnosis and targeted care, skin issues such as acne, pigmentation, dryness, or inflammation tend to return.Professional skin treatment focuses on identifying contributing factors such as excess oil production, dehydration, environmental damage, hormonal changes, and lifestyle stress to deliver long-term improvement instead of short-term relief.'
         },
         solutionIntro: {
-          title: 'Ayurvedic Skin Treatment in Dubai',
-          description: 'Our Ayurvedic skin treatment in Dubai focuses on correcting the root cause of skin problems instead of providing temporary relief.'
+          title: 'Advanced Skin Treatment in Dubai',
+          description: 'Our professional skin treatment in Dubai focuses on identifying and correcting the underlying causes of skin concerns rather than offering temporary cosmetic relief. We combine medical expertise, advanced technology, and personalized care plans to deliver safe, effective, and long-lasting results.'
         },
-        leftCards: [
-          {
-            id: 1,
-            title: 'What is it?',
-            description: 'A holistic, natural approach to skin treatment in Dubai that heals skin conditions by addressing the root cause through dosha balancing, internal detoxification, herbal therapies, and lifestyle correction—rather than temporary cosmetic fixes.'
-          },
-          {
-            id: 2,
-            title: 'Who is it for?',
-            description: 'Individuals experiencing acne, pigmentation, melasma, eczema, psoriasis, fungal infections, dry or sensitive skin, premature aging, or stress-related skin flare-ups. Suitable for both men and women.'
-          },
-          {
-            id: 3,
-            title: 'Duration',
-            description: 'Initial improvement: 3–6 weeks , Noticeable skin healing: 2–4 months , Long-term results: 4–6 months, depending on skin condition and severity'
-          }
-        ],
-        rootCauses: [
-          {
-            id: 1,
-            title: 'Pitta Dosha Aggravation',
-            description: 'Excess internal heat causes acne, pigmentation, redness, rashes, and inflammatory skin conditions.',
-            severity: 'High',
-            severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
-          },
-          {
-            id: 2,
-            title: 'Vata Imbalance',
-            description: 'Leads to dryness, rough texture, premature aging, fine lines, and dull skin',
-            severity: 'Medium',
-            severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-          },
-          {
-            id: 3,
-            title: 'Kapha Imbalance',
-            description: 'Results in oily skin, clogged pores, whiteheads, blackheads, and cystic acne',
-            severity: 'Medium',
-            severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-          },
-          {
-            id: 4,
-            title: 'Ama Accumulation (Toxins)',
-            description: 'Digestive toxins block nutrient absorption, slowing skin repair and healing.',
-            severity: 'High',
-            severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-          },
-          {
-            id: 5,
-            title: 'Stress & Hormonal Imbalance',
-            description: 'Triggers breakouts, eczema flare-ups, psoriasis, and uneven skin tone',
-            severity: 'Medium',
-            severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-          }
-        ],
-        quickFacts: [
-          { label: 'Treatment Type', value: 'Non-invasive' },
-          { label: 'Anesthesia', value: 'Not required' },
-          { label: 'Recovery Time', value: 'Immediate' },
-          { label: 'Side Effects', value: 'Minimal to none' }
-        ],
-        approachCards: [
-          {
-            id: 1,
-            title: 'Dosha Balancing Therapy',
-            description: 'Restores healthy Pitta, Vata, and Kapha balance to reduce inflammation and prevent recurrence',
-            hasLearnMore: false,
-            expandedContent: null
-          },
-          {
-            id: 2,
-            title: 'Internal Detoxification',
-            description: 'Eliminates Ama (toxins) through herbal medicines and gentle cleansing therapies',
-            hasLearnMore: false,
-            expandedContent: null
-          },
-          {
-            id: 3,
-            title: 'Herbal Skin Therapies',
-            description: 'Uses natural herbs, medicated oils, and face packs to heal, nourish, and rejuvenate the skin',
-            hasLearnMore:  false,
-            expandedContent: null
-          },
-          {
-            id: 4,
-            title: 'Diet & Lifestyle Correction',
-            description: 'Personalized dietary guidance and lifestyle changes to support long-term skin health',
-            hasLearnMore:  false,
-            expandedContent: null
-          },
-          {
-            id: 5,
-            title: 'Stress Management & Hormonal Support',
-            description: 'Calms the nervous system, improves digestion, and supports natural skin regeneration.',
-            hasLearnMore:  false,
-            expandedContent: null
-          }
-        ]
+     leftCards: [
+  {
+    id: 1,
+    title: 'What Is It?',
+    description: 'Skin treatment refers to professional dermatological and aesthetic procedures aimed at diagnosing, managing, and improving various skin conditions. These treatments are tailored to individual skin types and concerns to deliver safe and noticeable results.',
+    listItems: [
+      'Identifying the underlying cause of skin problems',
+      'Improving skin barrier function',
+      'Reducing inflammation',
+      'This ensures long-lasting improvements rather than short-term surface fixes.'
+    ]
+  },
+  {
+    id: 2,
+    title: 'Who Is It For?',
+    description: 'Our Skin Treatment in Dubai is suitable for individuals experiencing:',
+    listItems: [
+      'Acne and acne scars',
+      'Pigmentation and melasma',
+      'Eczema and psoriasis',
+      'Fungal skin infections',
+      'Dry or sensitive skin',
+    ]
+  },
+  {
+    id: 3,
+    title: 'Duration',
+    description: 'Skin healing depends on the type and severity of the condition. While minor issues may respond quickly, chronic concerns may require a structured treatment plan.',
+    listItems: [
+      'Initial Improvement: 3–6 weeks',
+      'Noticeable Skin Healing: 2–4 months',
+      'Long-Term Results: 4–6 months',
+      'Consistency and proper follow-up are essential for sustained improvement.'
+    ]
+  }
+],
+       rootCauses: [
+  {
+    id: 1,
+    title: 'Acne & Inflammatory Conditions',
+    description: 'Excess oil production, clogged pores, bacteria, and hormonal fluctuations can lead to acne, redness, rashes, and inflamed breakouts. If not treated properly, these conditions may result in scarring and uneven skin texture.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+  },
+  {
+    id: 2,
+    title: 'Dryness & Skin Barrier Damage',
+    description: 'A weakened skin barrier can cause dryness, rough texture, flakiness, fine lines, and a dull complexion. Environmental exposure, harsh skincare products, and dehydration often contribute to this issue.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+  },
+  {
+    id: 3,
+    title: 'Oily Skin & Congested Pores',
+    description: 'Overactive oil glands can result in clogged pores, whiteheads, blackheads, and cystic acne. Without proper skin treatment, this condition may become persistent and difficult to control.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+  },
+  {
+    id: 4,
+    title: 'Slow Skin Repair & Poor Regeneration',
+    description: 'When the skin’s natural repair process slows down, healing becomes delayed. This can lead to prolonged breakouts, pigmentation marks, and uneven texture. Factors such as poor nutrition, lack of proper skincare, and environmental stressors often contribute to slower regeneration.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+  },
+  {
+    id: 5,
+    title: 'Stress & Hormonal Imbalance',
+    description: 'Chronic stress and hormonal fluctuations can trigger breakouts, eczema flare-ups, psoriasis, and uneven skin tone. These internal factors significantly affect skin health and require targeted skin treatment to restore balance and clarity.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+  }
+],
+
+       quickFacts: [
+  { label: 'Treatment Type', value: 'Non-invasive or minimally invasive' },
+  { label: 'Anesthesia', value: 'Not required in most cases' },
+  { label: 'Recovery Time', value: 'Immediate to minimal downtime' },
+  { label: 'Side Effects', value: 'Mild temporary redness in some treatments' }
+],
+       approachCards: [
+  {
+    id: 1,
+    title: 'Targeted Skin Balancing Therapy',
+    description: 'This approach restores balance to the skin by regulating oil production, reducing inflammation, and strengthening the skin barrier. It helps prevent recurring issues such as acne, redness, irritation, and uneven texture.',
+    hasLearnMore: false,
+    expandedContent: null
+  },
+  {
+    id: 2,
+    title: 'Deep Skin Detox & Purification',
+    description: 'Advanced cleansing and medical-grade treatments remove impurities, excess oil, and buildup from pores. This process improves skin clarity, enhances oxygen flow, and supports faster healing and regeneration.',
+    hasLearnMore: false,
+    expandedContent: null
+  },
+  {
+    id: 3,
+    title: 'Clinical Skin Rejuvenation Therapies',
+    description: 'We use scientifically proven procedures such as laser treatments, chemical peels, hydrating facials, and collagen-boosting therapies to repair damaged skin, improve tone, and restore a youthful glow.',
+    hasLearnMore: false,
+    expandedContent: null
+  },
+  {
+    id: 4,
+    title: 'Personalized Skincare & Lifestyle Guidance',
+    description: 'Every skin type is different. We provide customized skincare routines, product recommendations, and practical lifestyle advice to help maintain long-term results and prevent recurrence.',
+    hasLearnMore: false,
+    expandedContent: null
+  },
+  {
+    id: 5,
+    title: 'Stress & Hormonal Skin Support',
+    description: 'Hormonal fluctuations and stress can significantly impact skin health. Our skin treatment plans include targeted solutions to control breakouts, reduce flare-ups, and promote overall skin stability and balance.',
+    hasLearnMore: false,
+    expandedContent: null
+  },
+  {
+    id: 6,
+    title: 'Advanced Pigmentation & Scar Correction',
+    description: 'For concerns such as melasma, dark spots, and acne scars, we offer targeted correction treatments designed to even out skin tone and improve texture. These procedures stimulate natural skin renewal and help achieve smoother, clearer skin over time.',
+    hasLearnMore: false,
+    expandedContent: null
+  },
+ 
+]
       },
       healingJourney: {
         title: 'Your Skin Healing Journey: Step by Step',
@@ -22932,27 +23138,33 @@ healingJourney: {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -23016,12 +23228,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -23561,27 +23773,33 @@ healingJourney: {
          testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -23644,12 +23862,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -24239,27 +24457,33 @@ healingJourney: {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -24323,12 +24547,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -24859,27 +25083,33 @@ healingJourney: {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -24943,12 +25173,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -25518,27 +25748,33 @@ healingJourney: {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -25602,12 +25838,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -26229,27 +26465,33 @@ healingJourney: {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -26313,12 +26555,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -26931,27 +27173,33 @@ healingJourney: {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -27015,12 +27263,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -27607,27 +27855,33 @@ healingJourney: {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -27691,12 +27945,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -28268,27 +28522,33 @@ healingJourney: {
          testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -28352,12 +28612,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -28960,27 +29220,33 @@ healingJourney: {
          testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -29044,12 +29310,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -29670,27 +29936,33 @@ healingJourney: {
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -29756,12 +30028,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -30431,27 +30703,33 @@ healingJourney: {
          testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -30515,12 +30793,12 @@ healingJourney: {
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -31082,27 +31360,33 @@ Recovery: Minimal downtime for non-surgical care
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -31167,12 +31451,12 @@ Recovery: Minimal downtime for non-surgical care
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -31782,27 +32066,33 @@ Long-term oral health support
          testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -31867,12 +32157,12 @@ Long-term oral health support
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',
@@ -32485,27 +32775,33 @@ Seek a cost-effective smile restoration`
         testimonials: [
           {
       id: 1,
-      videoUrl: '/videos/testimonial-1.mp4'
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
-      videoUrl: '/videos/testimonial-2.mp4'
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
     },
     {
       id: 3,
-      videoUrl: '/videos/testimonial-3.mp4'
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 4,
-      videoUrl: '/videos/testimonial-4.mp4'
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
     },
     {
       id: 5,
-      videoUrl: '/videos/testimonial-5.mp4'
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
-      videoUrl: '/videos/testimonial-6.mp4'
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
     }
         ],
         stats: [
@@ -32570,12 +32866,12 @@ Seek a cost-effective smile restoration`
         line2: 'Jumeirah Terrace Building, 393558, Dubai'
       }
     },
-        clinicHours: {
-          weekdays: 'Saturday - Thursday:',
-          weekdaysTime: '9:00 AM - 9:00 PM',
-          friday: 'Friday:',
-          fridayTime: '2:00 PM - 9:00 PM'
-        },
+       clinicHours: {
+      weekdays: 'Sunday - Saturday:',
+      weekdaysTime: '10:00 AM - 10:00 PM',
+      friday: 'Friday:',
+      fridayTime: '10:00 AM - 8:00 PM'
+    },
         statCards: [
           {
             title: 'DHA Licensed',

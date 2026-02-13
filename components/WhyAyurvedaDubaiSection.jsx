@@ -139,7 +139,7 @@ const WhyAyurvedaDubaiSection = ({ content }) => {
               <h2 
                 id="why-ayurveda-heading"
                 
-                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl"
+                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl mb-2 lg:mb-4"
                
               >
                 {title}

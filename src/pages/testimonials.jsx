@@ -13,35 +13,35 @@ export default function TestimonialsPage() {
     showStatsSection: false, // Hide rating/stats section on testimonials page
     testimonials: [
       {
-        id: 1,
-        videoUrl: '/Videos/testimonial-1.mp4'
-        // No thumbnail = shows video's natural frame
-      },
-      {
-        id: 2,
-        videoUrl: '/Videos/testimonial-2.mp4',
-        // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
-      },
-      {
-        id: 3,
-        videoUrl: '/Videos/testimonial-3.mp4'
-        // No thumbnail = shows video's natural frame
-      },
-      {
-        id: 4,
-        videoUrl: '/Videos/testimonial-4.mp4'
-        // No thumbnail = shows video's natural frame
-      },
-      {
-        id: 5,
-        videoUrl: '/Videos/testimonial-5.mp4',
-        // thumbnail: '/images/before-after-5.jpg'  // ✅ Custom image
-      },
-      {
-        id: 6,
-        videoUrl: '/Videos/testimonial-6.mp4'
-        // No thumbnail = shows video's natural frame
-      },
+      id: 1,
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
+    },
+    {
+      id: 2,
+      videoUrl: '/Videos/testimonial-2.mp4',
+      // thumbnail: '/images/patient-success-2.jpg'  // ✅ Custom image
+    },
+    {
+      id: 3,
+      videoUrl: '/Videos/testimonial-3.mp4'
+      // No thumbnail = shows video's natural frame
+    },
+    {
+      id: 4,
+      videoUrl: '/Videos/testimonial-4.mp4'
+      // No thumbnail = shows video's natural frame
+    },
+    {
+      id: 5,
+      videoUrl: '/Videos/testimonial-5.mp4',
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
+    },
+    {
+      id: 6,
+      videoUrl: '/Videos/testimonial-6.mp4'
+      // No thumbnail = shows video's natural frame
+    }
       // Add more testimonials here:
       // {
       //   id: 7,

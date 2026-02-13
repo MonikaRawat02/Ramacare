@@ -31,8 +31,8 @@ const PatientTestimonials = ({ content }) => {
   const testimonials = content?.testimonials || [
     {
       id: 1,
-      videoUrl: '/Videos/testimonial-1.mp4'
-      // No thumbnail = shows video's natural frame
+      videoUrl: '/Videos/testimonial-1.mp4',
+      thumbnail: '/images/Thumb-1.jpeg'
     },
     {
       id: 2,
@@ -52,7 +52,7 @@ const PatientTestimonials = ({ content }) => {
     {
       id: 5,
       videoUrl: '/Videos/testimonial-5.mp4',
-      // thumbnail: '/images/before-after-5.jpg'  // ✅ Custom image
+      thumbnail: '/images/Thumb-5.jpeg'  // ✅ Custom image
     },
     {
       id: 6,
@@ -321,10 +321,30 @@ const PatientTestimonials = ({ content }) => {
           </div>
         )}
 
+          {/* See All Testimonials Button - Show on homepage */}
+        {showSeeAllButton && (
+          <div className="flex justify-center mt-8 md:mt-12">
+            <a 
+              href="/testimonials"
+              className="inline-flex items-center px-6 py-3 bg-[#2D5F3F] hover:bg-[#3A7B51] text-white font-medium rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
+            >
+              See All Testimonials
+              <svg 
+                className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        )}
+
         {/* Statistics Section - Only show if enabled */}
         {showStatsSection && (
           <div ref={statsRef}>
-            <div className="bg-white rounded-xl shadow-md overflow-hidden">
+            <div className="bg-white rounded-xl shadow-md overflow-hidden mt-8 md:mt-12">
               <div className="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-[#F3F4F6]">
                 {stats.map((stat, index) => (
                   <div
@@ -366,45 +386,8 @@ const PatientTestimonials = ({ content }) => {
             </div>
           </div>
         )}
+     
 
-        {/* See All Testimonials Button - Show on homepage */}
-        {showSeeAllButton && (
-          <div className="flex justify-center mt-8 md:mt-12">
-            <a 
-              href="/testimonials"
-              className="inline-flex items-center px-6 py-3 bg-[#2D5F3F] hover:bg-[#3A7B51] text-white font-medium rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
-            >
-              See All Testimonials
-              <svg 
-                className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </a>
-          </div>
-        )}
-
-        {/* See More Button - Only show on testimonials page */}
-        {showSeeMoreButton && (
-          <div className="flex justify-center mt-8 md:mt-12">
-            <button 
-              className="inline-flex items-center px-6 py-3 bg-[#2D5F3F] hover:bg-[#3A7B51] text-white font-medium rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
-            >
-              See More Testimonials
-              <svg 
-                className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-              </svg>
-            </button>
-          </div>
-        )}
       </div>
     </section>
   );

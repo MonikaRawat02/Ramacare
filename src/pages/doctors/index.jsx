@@ -8,10 +8,18 @@ const AllDoctorsPage = ({ content }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [toast, setToast] = useState({ show: false, type: 'success', message: '' });
+  const [expandedExpertise, setExpandedExpertise] = useState({});
   
   const showToast = (message, type = 'success') => {
     setToast({ show: true, type, message });
     setTimeout(() => setToast(prev => ({ ...prev, show: false })), 3000);
+  };
+  
+  const toggleExpertise = (doctorId) => {
+    setExpandedExpertise(prev => ({
+      ...prev,
+      [doctorId]: !prev[doctorId]
+    }));
   };
   const sectionRef = useRef(null);
 
@@ -103,55 +111,122 @@ const AllDoctorsPage = ({ content }) => {
       ],
       languages: ['English']
     },
+     {
+          id: 4,
+          name: 'Maria Aisha Bustillos',
+          firstName: 'Aisha',
+          image: '/images/Aisha.jpeg',
+          qualifications: 'Computer Secretarial - Philippines',
+          rating: 5.0,
+          specialization: 'Front Desk & Patient Coordination',
+          experience: 'Professional experience in administrative support and clinic operations',
+          expertise: [
+            'Managing appointment scheduling and patient inquiries',
+            'Ensuring smooth day-to-day clinic operations',
+            'Strong organizational skills and attention to detail',
+          ],
+          languages: ['English']
+        },
+       {
+  id: 5,
+  name: 'Hafsina Karadi Kandy',
+  firstName: 'Hafsina',
+  image: '/images/Logo.png', // replace if actual image available
+  qualifications: 'BPT, MPT (Physiotherapy)',
+  rating: 5.0,
+  specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
+  experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
+  expertise: [
+    'Patient assessment and personalized rehabilitation programs',
+    'Pain management and functional recovery for musculoskeletal conditions',
+    'Mobility restoration and post-injury rehabilitation',
+    'Compliance with UAE healthcare standards and clinic protocols',
+    'Collaborating with multidisciplinary teams for patient recovery'
+  ],
+  languages: ['English']
+},
+{
+  id: 6,
+  name: 'Mildred L. Eugenio',
+  firstName: 'Mildred',
+  image: '/images/Mildred.jpeg', // replace if actual image available
+  qualifications: 'Bachelor of Science in Nursing – Philippines',
+  rating: 5.0,
+  specialization: 'Front Desk & Patient Coordination',
+  experience: 'Professional experience in administrative support and patient services.',
+  expertise: [
+    'Managing appointment scheduling and patient inquiries',
+    'Ensuring smooth day-to-day clinic operations',
+    'Welcoming and assisting patients with professionalism and care',
+    'Strong organizational skills and attention to detail',
+    'Multitasking and client relations support'
+  ],
+  languages: ['English']
+},
+{
+  id: 7,
+  name: 'Sonita Sinaga',
+  firstName: 'Sonita',
+  image: '/images/Sonita.jpeg', // replace if actual image available
+  qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
+  rating: 5.0,
+  specialization: 'Skincare, Laser Treatments & Wellness Therapy',
+  experience: '14+ years of professional experience ',
+  expertise: [
+    'Laser hair removal and skin rejuvenation treatments',
+    'Advanced facial therapies including HydraFacial and microdermabrasion',
+    'Chemical peels and pigmentation correction treatments',
+    'PRP, HIFU, and non-invasive skin rejuvenation procedures',
+    'Personalized aesthetic treatment planning'
+  ],
+  languages: ['English']
+},
+
+{
+  id: 8,
+  name: 'Soumya Abraham',
+  firstName: 'Soumya',
+  image: '/images/Saumya.jpeg',
+  qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
+  rating: 5.0,
+  specialization: 'Dental, Aesthetic & General Nursing',
+  experience: '11+ years of professional experience ',
+  expertise: [
+    'Assisting with dental procedures and aesthetic treatments',
+    'Pre- and post-treatment patient care to ensure comfort and optimal healing',
+    'Administering medications, IV therapy, and minor surgical assistance',
+    'Patient assessments, sterile techniques, and infection control',
+    'Emergency care and first aid support',
+    'Collaborating with medical and dental teams for holistic patient care'
+  ],
+  languages: ['English']
+},
+{
+  id: 9,
+  name: 'Syamkumar Sasidharan',
+  firstName: 'Syamkumar',
+  image: '/images/Syam.jpeg', // replace with actual image if available
+  qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
+  rating: 5.0,
+  specialization: 'Ayurvedic Treatments & Holistic Wellness',
+  experience: '17+ years of professional experience ',
+  expertise: [
+    'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
+    'Detoxification therapies and personalized lifestyle consultations',
+    'Holistic diagnosis and restoration of body imbalances',
+    'Stress relief and wellness-focused therapeutic treatments',
+    'Specialized therapies including Basti treatments and Nasya',
+    'Therapeutic massage techniques including Swedish and Deep Tissue massage'
+  ],
+  languages: ['English']
+},
+
+
+
+
+
     // Add more doctors here as needed
-    {
-      id: 4,
-      name: 'Dr. Sarah Johnson',
-      firstName: 'Dr. Sarah',
-      image: '/images/default-doctor.jpg', // Placeholder image
-      qualifications: 'MD, PhD (Internal Medicine)',
-      rating: 4.7,
-      specialization: 'Internal Medicine & Diagnostics',
-      experience: '12+ Years Experience | DHA Licensed',
-      expertise: [
-        'Comprehensive internal medicine and diagnostic services',
-        'Chronic disease management and prevention',
-        'Successfully treated 700+ patients with evidence-based medicine'
-      ],
-      languages: ['English', 'Arabic']
-    },
-    {
-      id: 5,
-      name: 'Dr. Ahmed Hassan',
-      firstName: 'Dr. Ahmed',
-      image: '/images/default-doctor.jpg', // Placeholder image
-      qualifications: 'MBBS, MD (Cardiology)',
-      rating: 4.9,
-      specialization: 'Cardiology & Heart Health',
-      experience: '15+ Years Experience | DHA Licensed',
-      expertise: [
-        'Advanced cardiac care and interventions',
-        'Preventive cardiology and lifestyle modification',
-        'Successfully managed 900+ cardiac patients with comprehensive care'
-      ],
-      languages: ['English', 'Urdu', 'Arabic']
-    },
-    {
-      id: 6,
-      name: 'Dr. Maria Rodriguez',
-      firstName: 'Dr. Maria',
-      image: '/images/default-doctor.jpg', // Placeholder image
-      qualifications: 'MD, MPH (Pediatrics)',
-      rating: 4.8,
-      specialization: 'Pediatric Care & Child Health',
-      experience: '10+ Years Experience | DHA Licensed',
-      expertise: [
-        'Comprehensive pediatric care from infancy to adolescence',
-        'Vaccination programs and developmental assessments',
-        'Successfully cared for 650+ children with family-centered approach'
-      ],
-      languages: ['English', 'Spanish']
-    }
+  
   ];
 
   const renderStars = (rating, size = 'w-4 h-4') => {
@@ -297,10 +372,22 @@ const AllDoctorsPage = ({ content }) => {
                           </li>
                         ))}
                         {doctor.expertise.length > 3 && (
-                          <li className="flex items-start gap-2.5 text-sm text-[#6B7280]">
-                            <span className="w-1.5 h-1.5 rounded-full bg-[#C9A961] mt-2 flex-shrink-0"></span>
-                            <span>+{doctor.expertise.length - 3} more</span>
-                          </li>
+                          <React.Fragment>
+                            {expandedExpertise[doctor.id] && doctor.expertise.slice(3).map((item, idx) => (
+                              <li key={idx + 3} className="flex items-start gap-2.5 pl-5">
+                                <span className="w-1.5 h-1.5 rounded-full bg-[#C9A961] mt-2 flex-shrink-0"></span>
+                                <span className="text-sm text-[#6B7280] leading-relaxed">{item}</span>
+                              </li>
+                            ))}
+                            <li className="mt-2">
+                              <button 
+                                onClick={() => toggleExpertise(doctor.id)}
+                                className="text-[#C9A961] text-xs font-medium hover:underline"
+                              >
+                                {expandedExpertise[doctor.id] ? 'Show Less' : `+${doctor.expertise.length - 3} more`}
+                              </button>
+                            </li>
+                          </React.Fragment>
                         )}
                       </ul>
                     </div>

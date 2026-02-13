@@ -97,7 +97,7 @@ const AboutAyurvedaSection = ({ content }) => {
             </div>
 
             {/* Main Heading - FIXED: Proper font size with better line wrapping */}
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl mb-4 lg:mb-6">
               {title}
             </h2>
 
@@ -149,8 +149,9 @@ const AboutAyurvedaSection = ({ content }) => {
             </div>
 
             {/* Call-to-Action Button */}
-           <button onClick={() => document.getElementById("experts")?.scrollIntoView({  behavior: "smooth",
-    }) }
+           <button onClick={() => {
+                window.location.href = '/doctors';
+              }}
   className="bg-[#3d5f4a] hover:bg-[#2d4a37] text-white px-7 sm:px-8 py-3.5 sm:py-4 rounded-xl font-semibold text-base shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95 flex items-center gap-3 group">
   <span>{ctaText}</span>
   <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -27,14 +27,24 @@ export default function FacialCategoryPage() {
       <HeroSection content={content?.hero} />
       <WhyChooseUsSection content={content?.whyChooseUs} />
       <AboutAyurvedaSection content={content?.about} />
-      <TreatmentSection category="facial" content={content?.treatments} />
+      <TreatmentSection 
+        category="facial" 
+        content={{
+          ...content?.treatments,
+          consultationHeading: content?.treatments?.consultationCTA?.heading,
+          consultationSubtext: content?.treatments?.consultationCTA?.subtext,
+          consultationButtonText: content?.treatments?.consultationCTA?.buttonText,
+          consultationBgColor: content?.treatments?.consultationCTA?.backgroundColor,
+          consultationButtonColor: content?.treatments?.consultationCTA?.buttonColor
+        }} 
+      />
       <ProgramsSection content={content?.programs} />
       <ExpertsSection content={content?.experts} />
       <VideoTestimonials content={content?.successStories} />
       <WhyAyurvedaDubaiSection content={content?.whyDubai} />
       <FAQSection content={content?.faq} />
        {/* <OurFacilitySection content={content?.facility} /> */}
-      <BeginYourHealingJourneySection />
+       <BeginYourHealingJourneySection content={content?.booking} />
     </Layout>
   );
 }
