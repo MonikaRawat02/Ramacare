@@ -36,11 +36,7 @@ export default function FunctionalExercisesPage() {
      />
      <QuickNavigation />
      <DoctorsSection content={content?.doctors} />
-<<<<<<< HEAD
      {/* <CertificationsSection content={content?.certifications} /> */}
-=======
-     <CertificationsSection content={content?.certifications} />
->>>>>>> 2c7edfb39c375a6293572c92f566a1df55be84c5
      <TreatmentOverview 
        subcategoryName={subcategoryName}
        content={content?.overview}

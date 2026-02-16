@@ -43,13 +43,9 @@ export default function SkinTreatmentPage() {
         <DoctorsSection content={content?.doctors} />
     {/* <PricingPackages content={content?.pricing} /> */}
     <PaymentInsurance content={content?.paymentInsurance} />
-<<<<<<< HEAD
       <FAQSection content={content?.faq}
       
       />
-=======
-      <FAQSection content={content?.faq} />
->>>>>>> 2c7edfb39c375a6293572c92f566a1df55be84c5
       <BookConsultation content={content?.bookConsultation} />
     </Layout>
   );
