@@ -672,7 +672,6 @@ export const categoryContent = {
         }
       ]
     },
-
     facility: {
   badge: 'Our Ayurveda Facility',
   title: 'Authentic Ayurvedic Healing Centre',
@@ -4721,4 +4720,3 @@ export const getCategoryContent = (categorySlug) => {
 export const getAllCategories = () => {
   return Object.keys(categoryContent);
 };
-
