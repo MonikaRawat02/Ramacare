@@ -278,9 +278,25 @@ const ExpertsSection = ({ content }) => {
   ],
   languages: ['English']
 },
-
-        
-     
+{
+  id: 14,
+  name: 'Dr Hirbod Gilandoust',
+  firstName: 'Hirbod',
+  image: '/images/Hirbod.jpeg',
+  qualifications: 'DHA-Licensed Dentist',
+  rating: 4.8,
+  specialization: 'Esthetic Dentistry & Dental Surgery',
+  experience: '7+ Years Experience',
+  isDHALicensed: true,
+  expertise: [
+    'Advanced esthetic dental treatments',
+    'Dental restorations and prosthetics',
+    'Root canal treatments (Endodontics)',
+    'Comprehensive dental surgery procedures'
+  ],
+  languages: ['English']
+},
+  
   ];
 
   const renderStars = (rating, size = 'w-4 h-4') => {
