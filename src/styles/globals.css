@@ -1,0 +1,327 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.force-light {
+  --background: #ffffff;
+  --foreground: #171717;
+  background: #ffffff;
+  color: #171717;
+}
+
+.blog-content {
+  color: #171717;
+}
+
+/* Blog content link styling */
+.blog-content a {
+  color: #3b82f6;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.blog-content a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Ensure blog content links are visible */
+.blog-content a:link,
+.blog-content a:visited {
+  color: #3b82f6;
+}
+
+/* Content styling for better readability - enhanced editor-like styles */
+.blog-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #171717;
+}
+
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content h5,
+.blog-content h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  line-height: 1.3;
+}
+
+.blog-content h1 {
+  font-size: 2em;
+}
+
+.blog-content h2 {
+  font-size: 1.5em;
+}
+
+.blog-content h3 {
+  font-size: 1.25em;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.blog-content ul li {
+  list-style-type: disc;
+}
+
+.blog-content ol li {
+  list-style-type: decimal;
+}
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px; /* Default max-height for mobile */
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.blog-content img[width] {
+  width: auto !important;
+  max-width: 100%;
+}
+
+/* Specific sizing for different image types */
+.blog-content img.medium {
+  max-width: 75%;
+}
+
+.blog-content img.small {
+  max-width: 50%;
+}
+
+/* Responsive image sizing */
+@media (max-width: 767px) {
+  .blog-content img {
+    max-height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog-content img {
+    max-width: 100%;
+    max-height: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-content img {
+    max-width: 95%;
+    max-height: 600px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .blog-content img {
+    max-width: 90%;
+    max-height: 700px;
+  }
+}
+
+/* Image container for better control */
+.blog-content .image-container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.blog-content figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.blog-content figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid #3b82f6;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #4b5563;
+  font-style: italic;
+  background-color: #f9fafb;
+  padding: 1rem 1.5rem;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+/* Enhanced styling for better editor-like appearance */
+.blog-content strong {
+  font-weight: bold;
+}
+
+.blog-content em {
+  font-style: italic;
+}
+
+.blog-content u {
+  text-decoration: underline;
+}
+
+.blog-content ul {
+  list-style-type: disc;
+}
+
+.blog-content ol {
+  list-style-type: decimal;
+}
+
+.blog-content ul ul,
+.blog-content ol ol,
+.blog-content ul ol,
+.blog-content ol ul {
+  margin: 0.5rem 0 0.5rem 1.5rem;
+}
+
+/* Better spacing for content elements */
+.blog-content > * {
+  margin-bottom: 1rem;
+}
+
+.blog-content > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Better table styling if tables are used */
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.blog-content th,
+.blog-content td {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* Additional editor-like styling */
+.blog-content {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.blog-content div {
+  margin-bottom: 1rem;
+}
+
+.blog-content figure {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.blog-content figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+/* Preview styling for blog listings */
+.blog-content-preview {
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.blog-content-preview p {
+  margin-bottom: 0.5rem;
+}
+
+/* Hide unwanted remove buttons in main pages */
+button[data-remove-media="true"] {
+  display: none !important;
+}
+
+.image-container button[data-remove-media="true"],
+.video-container button[data-remove-media="true"] {
+  display: none !important;
+}
+
+/* Hide any absolute positioned remove buttons */
+.image-container button[style*="position: absolute"],
+.video-container button[style*="position: absolute"] {
+  display: none !important;
+}
+
+/* Global link styling for main pages - more targeted approach */
+/* Only apply to content areas, not navigation or UI elements */
+
+/* Blog content links */
+.blog-content a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.blog-content a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Content areas that should have blue links */
+.content-area a,
+.main-content a,
+.article-content a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.content-area a:hover,
+.main-content a:hover,
+.article-content a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Ensure links are visible in content areas */
+.content-area a:link,
+.content-area a:visited,
+.main-content a:link,
+.main-content a:visited,
+.article-content a:link,
+.article-content a:visited {
+  color: #3b82f6;
+}
