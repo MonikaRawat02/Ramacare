@@ -273,8 +273,8 @@ const BookConsultation = ({ content }) => {
                     <span className="text-sm md:text-base font-medium text-white">{clinicHours.weekdaysTime}</span>
                   </div>
                   <div className="flex justify-between items-center pt-2 border-t border-white/20">
-                    <span className="text-sm md:text-base text-white">{clinicHours.friday}</span>
-                    <span className="text-sm md:text-base font-medium text-white">{clinicHours.fridayTime}</span>
+                    {/* <span className="text-sm md:text-base text-white">{clinicHours.friday}</span>
+                    <span className="text-sm md:text-base font-medium text-white">{clinicHours.fridayTime}</span> */}
                   </div>
                 </div>
               </div>
