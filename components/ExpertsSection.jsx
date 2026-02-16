@@ -19,7 +19,7 @@ const ExpertsSection = ({ content }) => {
     title: 'Take the First Step Toward Better Health',
     description: 'Connect with our DHA-licensed specialists at RamaCare Polyclinic, a leading Polyclinic in Dubai, and receive expert guidance tailored specifically to you.',
     primaryButton: 'Book Consultation Now',
-    secondaryButton: 'View All Doctors'
+    secondaryButton: 'View Our Team'
   };
 
   useEffect(() => {
@@ -296,7 +296,6 @@ const ExpertsSection = ({ content }) => {
   ],
   languages: ['English']
 },
-  
   ];
 
   const renderStars = (rating, size = 'w-4 h-4') => {

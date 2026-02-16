@@ -66,7 +66,7 @@ const Footer = () => {
               <svg className="w-4 h-4 text-yellow-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
               </svg>
-              <span>DHA Licensed Facility</span>
+              <span>DHA Licensed Number-2036418</span>
             </button>
           </div>
 
@@ -76,8 +76,8 @@ const Footer = () => {
             <ul className="space-y-2 sm:space-y-2.5 text-gray-400 text-sm">
               <li>
                 <Link
-                  href="/#about-ayurveda"
-                  onClick={(e) => handleSmoothScroll(e, '#about-ayurveda')}
+                  href="/#about-ramacare"
+                  onClick={(e) => handleSmoothScroll(e, '#about-ramacare')}
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   About Our RamaCare Polyclinic
@@ -199,8 +199,8 @@ const Footer = () => {
                 <svg className="w-5 h-5 flex-shrink-0 text-[#d4a574]" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                <a href="tel:+9714XXXXXXX" className="hover:text-[#d4a574] transition-colors">
-                  +971 4 XXX XXXX
+                <a href="tel:+971 56 659 7878" className="hover:text-[#d4a574] transition-colors">
+                 +971 56 659 7878
                 </a>
               </li>
               

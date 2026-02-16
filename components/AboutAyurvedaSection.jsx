@@ -51,7 +51,7 @@ const AboutAyurvedaSection = ({ content }) => {
 
   return (
     <section
-      id="about-ayurveda"
+      id="about-ramacare"
       ref={sectionRef}
       className="relative w-full bg-[#F7F6F1] py-16 md:py-20 lg:py-24 xl:py-28 overflow-hidden"
     >

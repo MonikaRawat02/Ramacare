@@ -186,7 +186,7 @@ export const categoryContent = {
         title: 'Ready to Meet Your Ayurvedic Physician?',
         description: 'Schedule a personalized consultation with our expert doctors to begin your healing journey.',
         primaryButton: 'Book Consultation Now',
-        secondaryButton: 'View All Doctors'
+        secondaryButton: 'View Our Team'
       },
       doctors: [
         {
@@ -867,7 +867,7 @@ export const categoryContent = {
         title: 'Ready to Meet Your Dermatologist?',
         description: 'Schedule a personalized consultation with our expert dermatologists to begin your aesthetic journey.',
         primaryButton: 'Book Consultation Now',
-        secondaryButton: 'View All Dermatologists'
+        secondaryButton: 'View Our Team'
       },
       doctors: [
         {
@@ -1813,7 +1813,7 @@ export const categoryContent = {
         title: 'Ready to Meet Your Dentist?',
         description: 'Schedule a personalized consultation with our expert dentists to begin your smile transformation.',
         primaryButton: 'Book Consultation Now',
-        secondaryButton: 'View All Dentists'
+        secondaryButton: 'View Our Team'
       },
       doctors: [
         {
@@ -2600,7 +2600,7 @@ export const categoryContent = {
         title: 'Ready to Meet Your Physiotherapist?',
         description: 'Schedule a personalized consultation with our expert therapists to begin your recovery journey.',
         primaryButton: 'Book Consultation Now',
-        secondaryButton: 'View All Therapists'
+        secondaryButton: 'View Our Team'
       },
       doctors: [
         {
@@ -3507,7 +3507,7 @@ programs: {
         title: 'Ready to Meet Your Physician?',
         description: 'Schedule a personalized consultation with our expert physicians to begin your healthcare journey.',
         primaryButton: 'Book Consultation Now',
-        secondaryButton: 'View All Physicians'
+        secondaryButton: 'View Our Team'
       },
        doctors: [
         {
@@ -4181,7 +4181,7 @@ programs: {
         title: 'Ready to Meet Your Aesthetician?',
         description: 'Schedule a personalized consultation with our expert aestheticians to begin your facial treatment journey.',
         primaryButton: 'Book Consultation Now',
-        secondaryButton: 'View All Aestheticians'
+        secondaryButton: 'View Our Team'
       },
       doctors: [
         {
