@@ -255,7 +255,7 @@ const AllDoctorsPage = ({ content }) => {
   rating: 5.0,
   specialization: 'Housekeeping',
   experience: '5+ Years of experience',
-  isDHALicensed: true,
+  isDHALicensed: false,
   expertise: [
     'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
     'Expertise in organizing, cleaning, and managing household tasks efficiently',
@@ -270,7 +270,7 @@ const AllDoctorsPage = ({ content }) => {
   image: '/images/Sahar.jpeg', // replace with actual image if available
   qualifications: 'DHA-licensed General Practitioner',
   rating: 5.0,
-  specialization: 'General Practice & Aesthetic Medicine',
+  specialization: 'General Practitioner',
   experience: '14 Years of experience',
   isDHALicensed: true,
   expertise: [
