@@ -36,7 +36,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const uploadDir = path.join(process.cwd(), "public/images/uploads");
+    const uploadDir = path.join(process.cwd(), "uploads");
     
     // Ensure directory exists
     if (!fs.existsSync(uploadDir)) {
@@ -44,13 +44,13 @@ export default async function handler(req, res) {
     }
 
     const form = formidable({
-      uploadDir: uploadDir,
+      uploadDir,
       keepExtensions: true,
-      maxFileSize: 5 * 1024 * 1024, // 5MB
-      filename: (name, ext, part, form) => {
-        const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
+      maxFileSize: 5 * 1024 * 1024,
+      filename: (name, ext, part) => {
+        const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1e9);
         return uniqueSuffix + path.extname(part.originalFilename || '');
-      }
+      },
     });
 
     const [fields, files] = await form.parse(req);
@@ -62,7 +62,6 @@ export default async function handler(req, res) {
       return res.status(400).json({ success: false, message: "No file uploaded" });
     }
 
-    // Construct public URL
     const fileName = path.basename(file.filepath);
     const publicUrl = `/images/uploads/${fileName}`;
 
