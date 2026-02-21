@@ -229,25 +229,25 @@ const AllDoctorsPage = ({ content }) => {
   ],
   languages: ['English']
 },
+// {
+//   id: 10,
+//   name: 'Dr. Fatooie',
+//   firstName: 'Dr. Fatooie',
+//   image: '/images/Fatooie.jpeg', // replace with actual image if available
+//   qualifications: 'MD (Dermatology)',
+//   rating: 5.0,
+//   specialization: 'Dermatology',
+//   experience: '10 years of professional experience ',
+//   isDHALicensed: true,
+//   expertise: [
+//     'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
+//     'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
+//     'Successfully treated 500+ patients with personalized skincare and treatment plans',
+//   ],
+//   languages: ['English']
+// },
 {
   id: 10,
-  name: 'Dr. Fatooie',
-  firstName: 'Dr. Fatooie',
-  image: '/images/Fatooie.jpeg', // replace with actual image if available
-  qualifications: 'MD (Dermatology)',
-  rating: 5.0,
-  specialization: 'Dermatology',
-  experience: '10 years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
-    'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
-    'Successfully treated 500+ patients with personalized skincare and treatment plans',
-  ],
-  languages: ['English']
-},
-{
-  id: 11,
   name: 'Preethi',
   firstName: 'Preethi',
   image: '/images/Preethi.jpeg', // replace with actual image if available
@@ -264,7 +264,7 @@ const AllDoctorsPage = ({ content }) => {
   languages: ['English']
 },
 {
-  id: 12,
+  id: 11,
   name: 'Dr. Sahar Zomorrodi',
   firstName: 'Dr. Sahar',
   image: '/images/Sahar.jpeg', // replace with actual image if available
@@ -281,10 +281,10 @@ const AllDoctorsPage = ({ content }) => {
   languages: ['English']
 },
 {
-  id: 13,
+  id: 12,
   name: 'Dr Mahrokh Fotooei',
   firstName: 'Mahrokh',
-  image: '/images/Mahrokh.jpeg',
+  image: '/images/Fatooie.jpeg',
   qualifications: 'DHA-Licensed Dermatology and Aesthetic Specialist',
   rating: 4.9,
   specialization: 'Clinical & Aesthetic Dermatology',
@@ -298,7 +298,7 @@ const AllDoctorsPage = ({ content }) => {
   languages: ['English']
 },
 {
-  id: 14,
+  id: 13,
   name: 'Dr Hirbod Gilandoust',
   firstName: 'Hirbod',
   image: '/images/Hirbod.jpeg',
