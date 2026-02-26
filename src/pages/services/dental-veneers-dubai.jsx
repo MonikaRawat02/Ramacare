@@ -27,6 +27,56 @@ export default function dentaldubaiVeneersPage() {
   <title>dental Veneers in Dubai | Trusted Smile Makeover Experts</title>
   <meta name="description" content="Transform your smile with dental veneers in Dubai. Expert porcelain and composite solutions for natural, durable, and personalized cosmetic results by certified dentists." />
   <meta name="keywords" content="dental veneers Dubai, Porcelain veneers Dubai, Composite veneers Dubai, Cosmetic dentistry Dubai, Smile makeover Dubai, Tooth restoration in Dubai, Same-day veneers Dubai, Natural-looking veneers Dubai, Emax veneers Dubai, Affordable veneers Dubai, DHA-licensed dentist in Dubai, Best dental veneers Dubai, dental veneers Jumeirah 1, Best dental veneers Jumeirah 1" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Dental Veneers in Dubai",
+  "alternateName": "Porcelain and Composite Veneers",
+  "url": "https://ramacarepolyclinic.ae/services/dental-veneers-dubai",
+  "description": "Dental veneers in Dubai at RamaCare Polyclinic offer natural-looking, long-lasting smile enhancement. Our DHA-licensed dentists provide porcelain and composite veneers to correct stains, chips, gaps, and uneven teeth.",
+  "procedureType": "Cosmetic dental procedure",
+  "bodyLocation": "Teeth",
+  "howPerformed": "Custom-made porcelain or composite veneers are bonded to the front surface of teeth to enhance color, shape, size, and alignment while preserving natural tooth structure.",
+  "preparation": "Comprehensive oral examination, digital smile analysis, and veneer planning are conducted before treatment.",
+  "followup": "Patients are advised proper oral hygiene and routine dental check-ups to maintain veneer longevity.",
+  "duration": "PT2H",
+  "indication": [
+    "Stained or discolored teeth",
+    "Chipped or cracked teeth",
+    "Gaps between teeth",
+    "Uneven or misshapen teeth",
+    "Minor alignment issues"
+  ],
+  "possibleComplication": "Temporary tooth sensitivity may occur in some patients.",
+  "provider": {
+    "@type": "Dentist",
+    "name": "RamaCare Polyclinic - Dental Department",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "priceRange": "$$"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "500"
+  }
+}`
+  }}
+/>
 </Head>
 
       <TreatmentHero 

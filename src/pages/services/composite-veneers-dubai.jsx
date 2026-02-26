@@ -27,6 +27,56 @@ export default function CompositeVeneersPage() {
   <title>Composite Veneers Dubai | Safe & Natural Smile Solutions</title>
   <meta name="description" content="Enhance your smile with composite veneers in Dubai—safe, natural-looking, and durable dental solutions for teeth restoration and cosmetic smile makeovers by expert dentists." />
   <meta name="keywords" content="Composite veneers Dubai, dental veneers Dubai, Cosmetic dentistry Dubai, Smile makeover Dubai, Tooth restoration in Dubai, Affordable veneers Dubai, Same-day veneers Dubai, Composite bonding Dubai, Durable veneers Dubai, Natural-looking veneers Dubai, DHA-licensed dentist in Dubai, Best veneers Dubai" />
+   <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Composite Veneers in Dubai",
+  "alternateName": "Cosmetic Composite Dental Veneers",
+  "url": "https://ramacarepolyclinic.ae/services/composite-veneers-dubai",
+  "description": "Composite veneers in Dubai at RamaCare Polyclinic offer affordable, natural-looking smile enhancement. Performed by DHA-licensed dentists using advanced composite materials for same-day cosmetic smile transformation.",
+  "procedureType": "Cosmetic dental procedure",
+  "bodyLocation": "Teeth",
+  "howPerformed": "Composite veneers are applied by bonding tooth-colored resin directly to the front surface of teeth. The material is sculpted, shaped, and polished for a natural finish.",
+  "preparation": "Oral examination, smile analysis, and shade matching are performed before veneer placement.",
+  "followup": "Patients are advised regular dental hygiene and follow-up visits to maintain veneer longevity.",
+  "duration": "PT2H",
+  "provider": {
+    "@type": "Dentist",
+    "name": "RamaCare Polyclinic - Dental Department",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "priceRange": "$$"
+  },
+  "indication": [
+    "Chipped or cracked teeth",
+    "Gaps between teeth",
+    "Stained or discolored teeth",
+    "Uneven or misshapen teeth",
+    "Minor misalignment"
+  ],
+  "contraindication": "Not suitable for patients with severe gum disease or significant tooth decay without prior treatment.",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "500"
+  }
+}`
+  }}
+/>
 </Head>
 
       <TreatmentHero 

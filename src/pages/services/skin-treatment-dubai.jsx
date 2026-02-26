@@ -23,6 +23,50 @@ export default function SkinTreatmentPage() {
 
   return (
     <Layout>
+        <Head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "@id": "https://ramacarepolyclinic.ae/services/skin-treatment-dubai/#medicalbusiness",
+  "name": "Skin Treatment in Dubai",
+  "url": "https://ramacarepolyclinic.ae/services/skin-treatment-dubai",
+  "description": "Advanced skin treatment in Dubai including acne treatment, pigmentation therapy, eczema management, psoriasis care, skin rejuvenation, and holistic dermatology solutions by DHA-licensed specialists in Jumeirah 1.",
+  "medicalSpecialty": "Dermatology",
+  "parentOrganization": {
+    "@type": "MedicalOrganization",
+    "@id": "https://ramacarepolyclinic.ae/#organization",
+    "name": "RamaCare Polyclinic"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
+    "addressLocality": "Dubai",
+    "postalCode": "393558",
+    "addressCountry": "AE"
+  },
+  "telephone": "+971566597878",
+  "areaServed": {
+    "@type": "City",
+    "name": "Dubai"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Skin Treatments",
+    "itemListElement": [
+      { "@type": "MedicalProcedure", "name": "Acne Treatment" },
+      { "@type": "MedicalProcedure", "name": "Pigmentation & Melasma Treatment" },
+      { "@type": "MedicalProcedure", "name": "Eczema Management" },
+      { "@type": "MedicalProcedure", "name": "Psoriasis Treatment" },
+      { "@type": "MedicalProcedure", "name": "Skin Rejuvenation Therapy" }
+    ]
+  }
+}`
+        }}
+      />
+    </Head>
       <TreatmentHero 
         categoryName={categoryName}
         subcategoryName={subcategoryName}

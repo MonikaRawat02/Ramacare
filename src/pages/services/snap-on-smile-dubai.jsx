@@ -27,6 +27,47 @@ export default function SnapOnSmilePage() {
   <title>Snap-On Smile in Dubai | Affordable Smile Makeover</title>
   <meta name="description" content="Transform your smile with Snap-On Smile in Dubai. Non-invasive, comfortable, and affordable dental solution for a natural-looking, confident smile by skilled dentists." />
   <meta name="keywords" content="Snap-On Smile Dubai, Snap-on teeth Dubai, Temporary veneers Dubai, Smile makeover Dubai, Non-invasive dental veneers Dubai, Affordable Snap-On Smile Dubai, Cosmetic dentistry Dubai, Teeth restoration Dubai, Natural-looking Snap-On Smile Dubai, DHA-licensed dentist in Dubai, Quick smile makeover Dubai, Removable Veneers Dubai" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Snap-On Smile in Dubai",
+  "alternateName": "Non-invasive cosmetic dental smile solution",
+  "url": "https://ramacarepolyclinic.ae/services/snap-on-smile-dubai",
+  "description": "Snap-On Smile in Dubai at RamaCare Polyclinic offers a quick, non-invasive cosmetic dental solution for a beautiful smile. Performed by experienced DHA-licensed dentists, this removable smile enhancement fits over your existing teeth for instant aesthetic improvement.",
+  "procedureType": "Cosmetic dental procedure",
+  "bodyLocation": "Teeth",
+  "howPerformed": "Snap-On Smile involves custom-fitting a removable dental appliance that clips over the existing teeth to instantly improve appearance without drilling, injections, or dental alteration.",
+  "preparation": "No invasive preparation is needed. Custom impressions and smile design are taken before final fitting.",
+  "followup": "Patients are advised to maintain oral hygiene and attend routine dental check-ups to ensure fit and comfort.",
+  "provider": {
+    "@type": "Dentist",
+    "name": "RamaCare Polyclinic - Dental Department",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "priceRange": "$$"
+  },
+  "indication": [
+    "Cosmetic smile enhancement",
+    "Instant smile improvement without invasive procedures"
+  ],
+  "contraindication": "Not recommended for patients with severe gum disease or unstable dentition before dental evaluation."
+}`
+  }}
+/>
 </Head>
 
       <TreatmentHero 

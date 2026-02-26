@@ -27,6 +27,53 @@ export default function HairTreatmentPage() {
   <title>Hair Treatment Dubai – Advanced Solutions for Healthy Hair</title>
   <meta name="description" content="RamaCare offers expert hair treatments in Dubai for hair loss, thinning, and scalp care. Restore your hair with trusted specialists today" />
   <meta name="keywords" content="Hair treatment in Dubai, Hair treatment in Jumeirah 1, Hair loss treatment Dubai, Hair restoration Dubai, PRP hair treatment Dubai, Mesotherapy hair treatment Dubai, Hair transplant Dubai, Thinning hair solutions Dubai, Scalp treatment Dubai, Medical hair clinic Dubai, DHA licensed hair clinic, Hair care specialists in Dubai, Advanced hair therapy Dubai" />
+<script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "@id": "https://ramacarepolyclinic.ae/services/hair-treatment-dubai/#medicalbusiness",
+  "name": "Hair Treatment in Dubai",
+  "url": "https://ramacarepolyclinic.ae/services/hair-treatment-dubai",
+  "description": "Advanced hair treatment in Dubai for hair fall, thinning hair, dandruff, scalp disorders, and hair regrowth. Personalized, DHA-licensed dermatology care in Jumeirah 1.",
+  "medicalSpecialty": "Dermatology",
+  "parentOrganization": {
+    "@type": "MedicalOrganization",
+    "@id": "https://ramacarepolyclinic.ae/#organization",
+    "name": "RamaCare Polyclinic"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
+    "addressLocality": "Dubai",
+    "postalCode": "393558",
+    "addressCountry": "AE"
+  },
+  "telephone": "+971566597878",
+  "areaServed": {
+    "@type": "City",
+    "name": "Dubai"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Hair Treatment Services",
+    "itemListElement": [
+      { "@type": "MedicalProcedure", "name": "Hair Fall Treatment" },
+      { "@type": "MedicalProcedure", "name": "Hair Growth Therapy" },
+      { "@type": "MedicalProcedure", "name": "PRP Hair Treatment" },
+      { "@type": "MedicalProcedure", "name": "Dandruff & Scalp Treatment" },
+      { "@type": "MedicalProcedure", "name": "Hormonal Hair Loss Management" }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "500"
+  }
+}`
+      }}
+    />
 </Head>
 
       <TreatmentHero 

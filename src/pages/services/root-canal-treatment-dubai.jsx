@@ -27,6 +27,49 @@ export default function RootCanalTreatmentPage() {
   <title>Root Canal Treatment in Dubai | Trusted Endodontist Care</title>
   <meta name="description" content="Get safe and effective root canal treatment in Dubai. Skilled endodontists remove infection, relieve pain, and restore your tooth for long-lasting dental health." />
   <meta name="keywords" content="Root canal treatment Dubai, Root canal therapy Dubai, Endodontist Dubai, Painless root canal Dubai, Tooth infection treatment in Dubai, dental clinic Dubai, Emergency root canal Dubai, Tooth restoration in Dubai, Best endodontist in Dubai, DHA-licensed dentist in Dubai, Root canal cost in Dubai, Advanced root canal Dubai" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Root Canal Treatment in Dubai",
+  "alternateName": "Endodontic Root Canal Therapy",
+  "url": "https://ramacarepolyclinic.ae/services/root-canal-treatment-dubai",
+  "description": "Get safe and effective root canal treatment in Dubai at RamaCare Polyclinic by experienced DHA-licensed dentists. We provide pain-free endodontic therapy to save infected teeth and protect dental health.",
+  "procedureType": "Endodontic dental procedure",
+  "bodyLocation": "Teeth",
+  "howPerformed": "Root canal treatment involves removing infected pulp tissue, disinfecting the canal system, and sealing with dental material to prevent further infection.",
+  "preparation": "Comprehensive oral exam, x-rays, and anesthesia assessment are done before treatment to ensure comfort and precision.",
+  "followup": "Patients are advised routine dental hygiene, medicated rinse (if recommended), and a follow-up check to monitor healing.",
+  "provider": {
+    "@type": "Dentist",
+    "name": "RamaCare Polyclinic - Dental Department",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "priceRange": "$$"
+  },
+  "indication": [
+    "Severe tooth decay",
+    "Dental pulp infection",
+    "Persistent toothache",
+    "Swollen gums due to infection"
+  ],
+  "possibleComplication": "Temporary discomfort or sensitivity may occur after treatment."
+}`
+  }}
+/>
 </Head>
 
       <TreatmentHero 

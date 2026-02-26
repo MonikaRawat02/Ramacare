@@ -27,6 +27,57 @@ export default function BodyShapingPage() {
   <title>Body Shaping in Dubai | Expert Non-Surgical Body Sculpting</title>
   <meta name="description" content="Achieve your ideal body with expert body shaping in Dubai—safe, non-surgical treatments for fat reduction, contouring, and toning with personalized care." />
   <meta name="keywords" content="Body shaping in Dubai, Body sculpting Dubai, Body contouring Dubai, Non-surgical body shaping in Dubai, Fat reduction Dubai, Slimming treatments in Dubai, Muscle toning in Dubai, Safe body contouring in Dubai, Personalized body treatment Dubai, Cellulite treatment Dubai, Medical body shaping in Dubai, DHA licensed body clinic" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Body Shaping in Dubai",
+  "alternateName": "Non-Surgical Body Contouring in Dubai",
+  "url": "https://ramacarepolyclinic.ae/services/body-shaping-dubai",
+  "description": "Safe and non-surgical body shaping in Dubai at RamaCare Polyclinic. Advanced FDA-approved technologies for fat reduction, skin tightening, cellulite reduction, and natural body contouring with minimal downtime.",
+  "procedureType": "Non-invasive aesthetic procedure",
+  "bodyLocation": [
+    "Abdomen",
+    "Thighs",
+    "Arms",
+    "Flanks",
+    "Hips",
+    "Back",
+    "Chin"
+  ],
+  "howPerformed": "Body shaping is performed using advanced non-invasive technologies that target fat cells, improve skin firmness, and enhance natural body contours without surgery or anesthesia.",
+  "preparation": "No special preparation required. Patients undergo consultation and body assessment before starting treatment.",
+  "followup": "Follow-up sessions and lifestyle guidance are recommended to maintain long-lasting contouring results.",
+  "provider": {
+    "@type": "MedicalBusiness",
+    "name": "RamaCare Polyclinic",
+    "image": "https://ramacarepolyclinic.ae/wp-content/uploads/body-shaping-dubai.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "priceRange": "$$",
+    "medicalSpecialty": "Aesthetic Medicine",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "500"
+    }
+  }
+}`
+  }}
+/>
 </Head>
 
       <TreatmentHero 

@@ -27,6 +27,55 @@ export default function LaserTreatmentPage() {
   <title>Laser Treatment in Dubai | Safe & Advanced Laser Clinic</title>
   <meta name="description" content="Experience expert laser treatment in Dubai for hair removal, skin rejuvenation, and pigmentation. Personalized care with safe, advanced technology by licensed specialists." />
   <meta name="keywords" content="Laser treatment in Dubai, Laser clinic Dubai, Laser hair removal Dubai, Skin laser treatment Dubai, Laser pigmentation treatment Dubai, Laser skin rejuvenation Dubai, DHA licensed laser clinic, Advanced laser therapy Dubai, Medical laser clinic Dubai, Safe laser treatment in Dubai, Cosmetic laser treatment Dubai, Pico laser treatment Dubai" />
+   <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "@id": "https://ramacarepolyclinic.ae/services/laser-treatment-dubai/#medicalbusiness",
+  "name": "Laser Treatment in Dubai",
+  "url": "https://ramacarepolyclinic.ae/services/laser-treatment-dubai",
+  "description": "Advanced laser treatment in Dubai for hair removal, pigmentation, acne scars, skin rejuvenation, spider veins, and anti-aging. Performed by DHA-licensed specialists using FDA-approved laser technology in Jumeirah 1.",
+  "medicalSpecialty": "Aesthetic Dermatology",
+  "parentOrganization": {
+    "@type": "MedicalOrganization",
+    "@id": "https://ramacarepolyclinic.ae/#organization",
+    "name": "RamaCare Polyclinic"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
+    "addressLocality": "Dubai",
+    "postalCode": "393558",
+    "addressCountry": "AE"
+  },
+  "telephone": "+971566597878",
+  "areaServed": {
+    "@type": "City",
+    "name": "Dubai"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Laser Treatment Services",
+    "itemListElement": [
+      { "@type": "MedicalProcedure", "name": "Laser Hair Removal" },
+      { "@type": "MedicalProcedure", "name": "Fractional CO2 Laser" },
+      { "@type": "MedicalProcedure", "name": "Carbon Laser Treatment" },
+      { "@type": "MedicalProcedure", "name": "Pigmentation Laser Treatment" },
+      { "@type": "MedicalProcedure", "name": "Acne Scar Laser Treatment" },
+      { "@type": "MedicalProcedure", "name": "Spider Veins Laser Treatment" },
+      { "@type": "MedicalProcedure", "name": "Tattoo Removal Laser" }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "500"
+  }
+}`
+    }}
+  />
 </Head>
       <TreatmentHero 
         categoryName={categoryName}

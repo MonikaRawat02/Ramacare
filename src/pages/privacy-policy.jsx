@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
 import Image from 'next/image';
 import { 
   Shield, Lock, Eye, FileText, Calendar, Mail, 
@@ -65,6 +66,11 @@ const PolicyPages = () => {
 
   return (
     <>
+      <Head>
+        <title>Privacy Policy - RamaCare Polyclinic</title>
+        <meta name="description" content="Privacy Policy for RamaCare Polyclinic Dubai. Learn how we collect, use, and protect your personal information in accordance with UAE data protection laws." />
+        <link rel="canonical" href="https://ramacarepolyclinic.ae/privacy-policy/" />
+      </Head>
       <link 
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" 
         rel="stylesheet" 

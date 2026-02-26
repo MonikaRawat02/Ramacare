@@ -351,6 +351,7 @@ const AllDoctorsPage = ({ content }) => {
       <Head>
         <title>All Doctors - RamaCare</title>
         <meta name="description" content="Meet all our expert doctors at RamaCare" />
+        <link rel="canonical" href="https://ramacarepolyclinic.ae/doctors/" />
       </Head>
       
       <main>

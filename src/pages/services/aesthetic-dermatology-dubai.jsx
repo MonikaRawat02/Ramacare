@@ -21,6 +21,64 @@ export default function AestheticDermatologyCategoryPage() {
   <title>Skin Treatment Dubai – Clear & Healthy Skin</title>
   <meta name="description" content="RamaCare offers advanced skin treatment in Dubai with expert dermatologists, safe therapies, and personalized care for acne, pigmentation, anti-aging, and glowing skin." />
   <meta name="keywords" content="Skin Treatment Dubai, Clear skin treatment Dubai, Healthy skin Dubai, Dermatology clinic Dubai, Acne treatment Dubai, Anti-aging skin care Dubai, Skin rejuvenation Dubai, Laser skin treatment Dubai, Pigmentation treatment Dubai, Medical skin clinic Dubai, Personalized skin care Dubai, DHA licensed dermatology clinic" />
+   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai/" />
+   <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "@id": "https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai/#medicalbusiness",
+  "name": "Aesthetic Dermatology in Dubai",
+  "url": "https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai",
+  "description": "Advanced aesthetic dermatology services in Dubai, including laser hair removal, PRP therapy, skin rejuvenation, and non-surgical cosmetic treatments.",
+  "medicalSpecialty": "Dermatology",
+  "parentOrganization": {
+    "@type": "MedicalOrganization",
+    "@id": "https://ramacarepolyclinic.ae/#organization",
+    "name": "RamaCare Polyclinic"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
+    "addressLocality": "Dubai",
+    "postalCode": "393558",
+    "addressCountry": "AE"
+  },
+  "telephone": "+971566597878",
+  "areaServed": {
+    "@type": "City",
+    "name": "Dubai"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Aesthetic Dermatology Services",
+    "itemListElement": [
+      {
+        "@type": "MedicalProcedure",
+        "name": "Laser Hair Removal"
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "PRP Therapy"
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Skin Rejuvenation"
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Hair Restoration"
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Botox Treatment"
+      }
+    ]
+  }
+}`
+  }}
+/>
 </Head>
 
       <HeroSection content={content?.hero} />

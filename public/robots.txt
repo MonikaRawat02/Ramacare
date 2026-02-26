@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /tag/
+Disallow: /author/
+Disallow: /*?elementskit_template=
+Disallow: /*?replytocom=
+
+Allow: /
+
+Sitemap: https://ramacarepolyclinic.ae/sitemap.xml

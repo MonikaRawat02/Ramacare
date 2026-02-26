@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
+import Head from 'next/head';
 import Image from 'next/image';
 import { 
   Shield, Lock, Eye, FileText, Calendar, Mail, 
@@ -65,6 +66,11 @@ const RefundCancellationPage = () => {
 
   return (
     <>
+      <Head>
+        <title>Refund and Cancellation Policy - RamaCare Polyclinic</title>
+        <meta name="description" content="Refund and Cancellation Policy for RamaCare Polyclinic Dubai. Learn about our payment terms, cancellation procedures, and refund policies." />
+        <link rel="canonical" href="https://ramacarepolyclinic.ae/refund-and-cancellation-policy/" />
+      </Head>
       <link 
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" 
         rel="stylesheet" 

@@ -27,6 +27,49 @@ export default function BracesMetalCeramicPage() {
   <title>Braces Metal & Ceramic in Dubai | Smile Correction Experts</title>
   <meta name="description" content="Achieve a perfect smile with metal or ceramic braces in Dubai. Safe, effective orthodontic treatment by licensed dentists for all ages, tailored to your needs." />
   <meta name="keywords" content="Braces Dubai, Metal braces Dubai, Ceramic braces Dubai, Orthodontic treatment Dubai, Teeth alignment Dubai, dental braces for adults, Kids braces Dubai, Invisible braces Dubai, Smile correction Dubai, Affordable braces Dubai, Licensed orthodontist in Dubai, Corrective dental braces" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Braces (Metal & Ceramic) in Dubai",
+  "alternateName": "Orthodontic Braces Treatment",
+  "url": "https://ramacarepolyclinic.ae/services/braces-metal-ceramic-dubai",
+  "description": "Get expert braces treatment (metal & ceramic) in Dubai at RamaCare Polyclinic. Our DHA-licensed dental specialists provide orthodontic care to correct misaligned teeth and bite issues with both traditional metal and ceramic braces.",
+  "procedureType": "Orthodontic dental procedure",
+  "bodyLocation": "Teeth",
+  "howPerformed": "Metal and ceramic braces are fixed to the teeth with brackets and wires to gradually move teeth into proper alignment. Regular adjustments are made to ensure optimal results over the treatment period.",
+  "preparation": "An initial orthodontic evaluation including dental scans and alignment assessment is completed before braces placement.",
+  "followup": "Patients are advised regular progress check-ups, hygiene guidance, and adjustments until treatment completion.",
+  "provider": {
+    "@type": "Dentist",
+    "name": "RamaCare Polyclinic - Dental Department",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "priceRange": "$$$"
+  },
+  "indication": [
+    "Crooked or crowded teeth",
+    "Bite alignment issues",
+    "Spacing or gaps between teeth",
+    "Orthodontic correction needs"
+  ],
+  "possibleComplication": "Temporary discomfort, soreness, or sensitivity may occur after adjustments."
+}`
+  }}
+/>
 </Head>
 
       <TreatmentHero 

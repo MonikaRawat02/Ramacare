@@ -17,13 +17,16 @@ const Layout = ({ children }) => {
     '/services/facial-dubai',
   ]);
   const isSubcategoryRoute = isServicesRoute && !excludedCategoryRoutes.has(router.pathname);
+  const isBlogRoute = router.pathname.startsWith('/blog/') && router.pathname !== '/blog';
   const fontStyle = { fontFamily: "'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" };
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
         <title>RamaCare Polyclinic Dubai | Trusted Polyclinic in Dubai</title>
         <meta name="description" content=" RamaCare Polyclinic Dubai provides multi-specialty medical care with experienced doctors, modern diagnostics, and patient-focused treatment in a DHA-licensed clinic."/>
+        <link rel="canonical" href={`https://ramacarepolyclinic.ae${isBlogRoute ? router.asPath : router.pathname}`} />
         <link rel="icon" href="/images/Logo.png" />
+      {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> */}
       </Head>
       <Header />
       <PromoBanner />
