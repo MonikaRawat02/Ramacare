@@ -95,25 +95,9 @@ const ExpertsSection = ({ content }) => {
           ],
           languages: ['English']
         },
-        //   {
-        //   id: 4,
-        //   name: 'Maria Aisha Bustillos',
-        //   firstName: 'Aisha',
-        //   image: '/images/Aisha.jpeg',
-        //   qualifications: 'Computer Secretarial - Philippines',
-        //   rating: 5.0,
-        //   specialization: 'Front Desk & Patient Coordination',
-        //   experience: 'Professional experience in administrative support and clinic operations',
-        //   isDHALicensed: false,
-        //   expertise: [
-        //     'Managing appointment scheduling and patient inquiries',
-        //     'Ensuring smooth day-to-day clinic operations',
-        //     'Strong organizational skills and attention to detail',
-        //   ],
-        //   languages: ['English']
-        // },
+    
        {
-  id: 5,
+  id: 4,
   name: 'Hafsina Karadi Kandy',
   firstName: 'Hafsina',
   image: '/images/Hafsina.jpeg',
@@ -132,7 +116,7 @@ const ExpertsSection = ({ content }) => {
   languages: ['English']
 },
 {
-  id: 6,
+  id: 5,
   name: 'Mildred L. Eugenio',
   firstName: 'Mildred',
   image: '/images/Mildred.jpeg',
@@ -151,7 +135,7 @@ const ExpertsSection = ({ content }) => {
   languages: ['English']
 },
 {
-  id: 7,
+  id: 6,
   name: 'Sonita Sinaga',
   firstName: 'Sonita',
   image: '/images/Sonita.jpeg',
@@ -171,7 +155,7 @@ const ExpertsSection = ({ content }) => {
 },
 
 {
-  id: 8,
+  id: 7,
   name: 'Soumya Abraham',
   firstName: 'Soumya',
   image: '/images/Saumya.jpeg',
@@ -191,7 +175,7 @@ const ExpertsSection = ({ content }) => {
   languages: ['English']
 },
 {
-  id: 9,
+  id: 8,
   name: 'Syamkumar Sasidharan',
   firstName: 'Syamkumar',
   image: '/images/Syam.jpeg',
@@ -228,7 +212,7 @@ const ExpertsSection = ({ content }) => {
 //   languages: ['English']
 // },
 {
-  id: 10,
+  id: 9,
   name: 'Preethi',
   firstName: 'Preethi',
   image: '/images/Preethi.jpeg',
@@ -245,7 +229,7 @@ const ExpertsSection = ({ content }) => {
   languages: ['English']
 },
 {
-  id: 11,
+  id: 10,
   name: 'Dr. Sahar Zomorrodi',
   firstName: 'Dr. Sahar',
   image: '/images/Sahar.jpeg',
@@ -262,7 +246,7 @@ const ExpertsSection = ({ content }) => {
   languages: ['English']
 },
 {
-  id: 12,
+  id: 11,
   name: 'Dr Mahrokh Fotooei',
   firstName: 'Mahrokh',
   image: '/images/Fatooie.jpeg',
@@ -279,7 +263,7 @@ const ExpertsSection = ({ content }) => {
   languages: ['English']
 },
 {
-  id: 13,
+  id: 12,
   name: 'Dr Hirbod Gilandoust',
   firstName: 'Hirbod',
   image: '/images/Hirbod.jpeg',

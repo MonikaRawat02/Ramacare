@@ -189,220 +189,254 @@ export const categoryContent = {
         secondaryButton: 'View Our Team'
       },
       doctors: [
-        {
-          id: 1,
-          name: 'Jeena Mathew',
-          firstName: 'Jeena',
-           image: '/images/Jeena Mathew.jpeg',
-          qualifications: 'BPT, MPT (Physiotherapy)',
-          rating: 4.9,
-          specialization: 'Musculoskeletal Physiotherapy',
-          experience: '8+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Specialized in the treatment of musculoskeletal disorders',
-            'Expertise in pain management, mobility restoration & rehabilitation',
-            'Successfully treated 600+ patients with personalized physiotherapy programs'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 2,
-          name: 'Dr. Shamna Keloth Meethal',
-          firstName: 'Dr. Shamna Keloth',
-           image: '/images/Dr Shamna Keloth Meethal.jpeg',
-          qualifications: 'BAMS (Ayurveda Practitioner)',
-          rating: 4.8,
-          specialization: 'General Ayurveda & Preventive Care',
-          experience: '11+ Years Experience | DHA Licensed',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive clinical expertise in classical Ayurvedic treatments',
-            'Strong focus on preventive healthcare & lifestyle correction',
-            'Successfully treated 800+ patients with personalized Ayurvedic protocols'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 3,
-          name: 'Dr. Anan',
-          firstName: 'Dr. Anan',
-           image: '/images/Dr Anan.jpeg',
-          qualifications: 'BDS (General Dentist)',
-          rating: 5.0,
-          specialization: 'General Dentistry',
-          experience: '5+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive care in preventive and restorative dentistry',
-            'Expertise in routine dental procedures and oral health maintenance',
-            'Successfully treated 500+ patients with a gentle, patient-focused approach'
-          ],
-          languages: ['English']
-        },
-          {
-          id: 4,
-          name: 'Maria Aisha Bustillos',
-          firstName: 'Aisha',
-          image: '/images/Aisha.jpeg',
-          qualifications: 'Computer Secretarial - Philippines',
-          rating: 5.0,
-          specialization: 'Front Desk & Patient Coordination',
-          experience: 'Professional experience in administrative support and clinic operations',
-          isDHALicensed: false,
-          expertise: [
-            'Managing appointment scheduling and patient inquiries',
-            'Ensuring smooth day-to-day clinic operations',
-            'Strong organizational skills and attention to detail',
-          ],
-          languages: ['English']
-        },
        {
-  id: 5,
-  name: 'Hafsina Karadi Kandy',
-  firstName: 'Hafsina',
-  image: '/images/Hafsina.jpeg',
-  qualifications: 'BPT, MPT (Physiotherapy)',
-  rating: 5.0,
-  specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
-  experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
-  isDHALicensed: true,
-  expertise: [
-    'Patient assessment and personalized rehabilitation programs',
-    'Pain management and functional recovery for musculoskeletal conditions',
-    'Mobility restoration and post-injury rehabilitation',
-    'Compliance with UAE healthcare standards and clinic protocols',
-    'Collaborating with multidisciplinary teams for patient recovery'
-  ],
-  languages: ['English']
-},
-{
-  id: 6,
-  name: 'Mildred L. Eugenio',
-  firstName: 'Mildred',
-  image: '/images/Mildred.jpeg',
-  qualifications: 'Bachelor of Science in Nursing – Philippines',
-  rating: 5.0,
-  specialization: 'Front Desk & Patient Coordination',
-  experience: 'Professional experience in administrative support and patient services.',
-  isDHALicensed: false,
-  expertise: [
-    'Managing appointment scheduling and patient inquiries',
-    'Ensuring smooth day-to-day clinic operations',
-    'Welcoming and assisting patients with professionalism and care',
-    'Strong organizational skills and attention to detail',
-    'Multitasking and client relations support'
-  ],
-  languages: ['English']
-},
-{
-  id: 7,
-  name: 'Sonita Sinaga',
-  firstName: 'Sonita',
-  image: '/images/Sonita.jpeg',
-  qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
-  rating: 5.0,
-  specialization: 'Skincare, Laser Treatments & Wellness Therapy',
-  experience: '14+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Laser hair removal and skin rejuvenation treatments',
-    'Advanced facial therapies including HydraFacial and microdermabrasion',
-    'Chemical peels and pigmentation correction treatments',
-    'PRP, HIFU, and non-invasive skin rejuvenation procedures',
-    'Personalized aesthetic treatment planning'
-  ],
-  languages: ['English']
-},
-
-{
-  id: 8,
-  name: 'Soumya Abraham',
-  firstName: 'Soumya',
-  image: '/images/Saumya.jpeg',
-  qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
-  rating: 5.0,
-  specialization: 'Dental, Aesthetic & General Nursing',
-  experience: '11+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Assisting with dental procedures and aesthetic treatments',
-    'Pre- and post-treatment patient care to ensure comfort and optimal healing',
-    'Administering medications, IV therapy, and minor surgical assistance',
-    'Patient assessments, sterile techniques, and infection control',
-    'Emergency care and first aid support',
-    'Collaborating with medical and dental teams for holistic patient care'
-  ],
-  languages: ['English']
-},
-{
-  id: 9,
-  name: 'Syamkumar Sasidharan',
-  firstName: 'Syamkumar',
-  image: '/images/Syam.jpeg',
-  qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
-  rating: 5.0,
-  specialization: 'Ayurvedic Treatments & Holistic Wellness',
-  experience: '17+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
-    'Detoxification therapies and personalized lifestyle consultations',
-    'Holistic diagnosis and restoration of body imbalances',
-    'Stress relief and wellness-focused therapeutic treatments',
-    'Specialized therapies including Basti treatments and Nasya',
-    'Therapeutic massage techniques including Swedish and Deep Tissue massage'
-  ],
-  languages: ['English']
-},
-{
-  id: 10,
-  name: 'Dr. Fatooie',
-  firstName: 'Dr. Fatooie',
-  image: '/images/Fatooie.jpeg',
-  qualifications: 'MD (Dermatology)',
-  rating: 5.0,
-  specialization: 'Dermatology',
-  experience: '10 years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
-    'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
-    'Successfully treated 500+ patients with personalized skincare and treatment plans',
-  ],
-  languages: ['English']
-},
-{
-  id: 11,
-  name: 'Preethi',
-  firstName: 'Preethi',
-  image: '/images/Preethi.jpeg',
-  qualifications: 'Housekeeping',
-  rating: 5.0,
-  specialization: 'Housekeeping',
-  experience: '5+ Years of experience',
-  isDHALicensed: true,
-  expertise: [
-    'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
-    'Expertise in organizing, cleaning, and managing household tasks efficiently',
-    'Known for attention to detail, reliability, and creating a tidy, safe environment',
-  ],
-  languages: ['English']
-},
-{
+      id: 1,
+      name: 'Jeena Mathew',
+      firstName: 'Jeena',
+      image: '/images/Jeena Mathew.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 4.9,
+      specialization: 'Musculoskeletal Physiotherapy',
+      experience: '8+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Specialized in the treatment of musculoskeletal disorders',
+        'Expertise in pain management, mobility restoration & rehabilitation',
+        'Successfully treated 600+ patients with personalized physiotherapy programs'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 2,
+      name: 'Dr. Shamna Keloth Meethal',
+      firstName: 'Dr. Shamna Keloth',
+      image: '/images/Dr Shamna Keloth Meethal.jpeg',
+      qualifications: 'BAMS (Ayurveda Practitioner)',
+      rating: 4.8,
+      specialization: 'General Ayurveda & Preventive Care',
+      experience: '11+ Years Experience | DHA Licensed',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive clinical expertise in classical Ayurvedic treatments',
+        'Strong focus on preventive healthcare & lifestyle correction',
+        'Successfully treated 800+ patients with personalized Ayurvedic protocols'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 3,
+      name: 'Dr. Anan',
+      firstName: 'Dr. Anan',
+      image: '/images/Dr Anan.jpeg',
+      qualifications: 'BDS (General Dentist)',
+      rating: 5.0,
+      specialization: 'General Dentistry',
+      experience: '5+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive care in preventive and restorative dentistry',
+        'Expertise in routine dental procedures and oral health maintenance',
+        'Successfully treated 500+ patients with a gentle, patient-focused approach'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 4,
+    //   name: 'Maria Aisha Bustillos',
+    //   firstName: 'Aisha',
+    //   image: '/images/Aisha.jpeg',
+    //   qualifications: 'Computer Secretarial - Philippines',
+    //   rating: 5.0,
+    //   specialization: 'Front Desk & Patient Coordination',
+    //   experience: 'Professional experience in administrative support and clinic operations',
+    //   isDHALicensed: false,
+    //   expertise: [
+    //     'Managing appointment scheduling and patient inquiries',
+    //     'Ensuring smooth day-to-day clinic operations',
+    //     'Strong organizational skills and attention to detail',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 5,
+      name: 'Hafsina Karadi Kandy',
+      firstName: 'Hafsina',
+      image: '/images/Hafsina.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 5.0,
+      specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
+      experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
+      isDHALicensed: true,
+      expertise: [
+        'Patient assessment and personalized rehabilitation programs',
+        'Pain management and functional recovery for musculoskeletal conditions',
+        'Mobility restoration and post-injury rehabilitation',
+        'Compliance with UAE healthcare standards and clinic protocols',
+        'Collaborating with multidisciplinary teams for patient recovery'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 6,
+      name: 'Mildred L. Eugenio',
+      firstName: 'Mildred',
+      image: '/images/Mildred.jpeg',
+      qualifications: 'Bachelor of Science in Nursing – Philippines',
+      rating: 5.0,
+      specialization: 'Front Desk & Patient Coordination',
+      experience: 'Professional experience in administrative support and patient services.',
+      isDHALicensed: false,
+      expertise: [
+        'Managing appointment scheduling and patient inquiries',
+        'Ensuring smooth day-to-day clinic operations',
+        'Welcoming and assisting patients with professionalism and care',
+        'Strong organizational skills and attention to detail',
+        'Multitasking and client relations support'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 7,
+      name: 'Sonita Sinaga',
+      firstName: 'Sonita',
+      image: '/images/Sonita.jpeg',
+      qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
+      rating: 5.0,
+      specialization: 'Skincare, Laser Treatments & Wellness Therapy',
+      experience: '14+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Laser hair removal and skin rejuvenation treatments',
+        'Advanced facial therapies including HydraFacial and microdermabrasion',
+        'Chemical peels and pigmentation correction treatments',
+        'PRP, HIFU, and non-invasive skin rejuvenation procedures',
+        'Personalized aesthetic treatment planning'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 8,
+      name: 'Soumya Abraham',
+      firstName: 'Soumya',
+      image: '/images/Saumya.jpeg',
+      qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
+      rating: 5.0,
+      specialization: 'Dental, Aesthetic & General Nursing',
+      experience: '11+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Assisting with dental procedures and aesthetic treatments',
+        'Pre- and post-treatment patient care to ensure comfort and optimal healing',
+        'Administering medications, IV therapy, and minor surgical assistance',
+        'Patient assessments, sterile techniques, and infection control',
+        'Emergency care and first aid support',
+        'Collaborating with medical and dental teams for holistic patient care'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 9,
+      name: 'Syamkumar Sasidharan',
+      firstName: 'Syamkumar',
+      image: '/images/Syam.jpeg',
+      qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
+      rating: 5.0,
+      specialization: 'Ayurvedic Treatments & Holistic Wellness',
+      experience: '17+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
+        'Detoxification therapies and personalized lifestyle consultations',
+        'Holistic diagnosis and restoration of body imbalances',
+        'Stress relief and wellness-focused therapeutic treatments',
+        'Specialized therapies including Basti treatments and Nasya',
+        'Therapeutic massage techniques including Swedish and Deep Tissue massage'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 10,
+    //   name: 'Dr. Fatooie',
+    //   firstName: 'Dr. Fatooie',
+    //   image: '/images/Fatooie.jpeg',
+    //   qualifications: 'MD (Dermatology)',
+    //   rating: 5.0,
+    //   specialization: 'Dermatology',
+    //   experience: '10 years of professional experience ',
+    //   isDHALicensed: true,
+    //   expertise: [
+    //     'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
+    //     'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
+    //     'Successfully treated 500+ patients with personalized skincare and treatment plans',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 10,
+      name: 'Preethi',
+      firstName: 'Preethi',
+      image: '/images/Preethi.jpeg',
+      qualifications: 'Housekeeping',
+      rating: 5.0,
+      specialization: 'Housekeeping',
+      experience: '5+ Years of experience',
+      isDHALicensed: false,
+      expertise: [
+        'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
+        'Expertise in organizing, cleaning, and managing household tasks efficiently',
+        'Known for attention to detail, reliability, and creating a tidy, safe environment',
+      ],
+      languages: ['English']
+    },
+    {
+      id: 11,
+      name: 'Dr. Sahar Zomorrodi',
+      firstName: 'Dr. Sahar',
+      image: '/images/Sahar.jpeg',
+      qualifications: 'DHA-licensed General Practitioner',
+      rating: 5.0,
+      specialization: 'General Practitioner',
+      experience: '14 Years of experience',
+      isDHALicensed: true,
+      expertise: [
+        'Holds a diploma from the American Aesthetic Academy',
+        'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
+        'Committed to delivering safe, personalized, and results-driven care',
+      ],
+      languages: ['English']
+    },
+    {
   id: 12,
-  name: 'Dr. Sahar Zomorrodi',
-  firstName: 'Dr. Sahar',
-  image: '/images/Sahar.jpeg',
-  qualifications: 'DHA-licensed General Practitioner',
-  rating: 5.0,
-  specialization: 'General Practice & Aesthetic Medicine',
-  experience: '14 Years of experience',
+  name: 'Dr Mahrokh Fotooei',
+  firstName: 'Mahrokh',
+  image: '/images/Fatooie.jpeg',
+  qualifications: 'DHA-Licensed Dermatology and Aesthetic Specialist',
+  rating: 4.9,
+  specialization: 'Clinical & Aesthetic Dermatology',
+  experience: '6+ Years Experience',
   isDHALicensed: true,
   expertise: [
-    'Holds a diploma from the American Aesthetic Academy',
-    'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
-    'Committed to delivering safe, personalized, and results-driven care',
+    'Individualized, evidence-based dermatological care',
+    'Specialized in injectables and facial contouring',
+    'Expertise in thread lifting and non-surgical skin rejuvenation'
+  ],
+  languages: ['English']
+},
+{
+  id: 13,
+  name: 'Dr Hirbod Gilandoust',
+  firstName: 'Hirbod',
+  image: '/images/Hirbod.jpeg',
+  qualifications: 'DHA-Licensed Dentist',
+  rating: 4.8,
+  specialization: 'Esthetic Dentistry & Dental Surgery',
+  experience: '7+ Years Experience',
+  isDHALicensed: true,
+  expertise: [
+    'Advanced esthetic dental treatments',
+    'Dental restorations and prosthetics',
+    'Root canal treatments (Endodontics)',
+    'Comprehensive dental surgery procedures'
   ],
   languages: ['English']
 },
@@ -871,219 +905,253 @@ export const categoryContent = {
       },
       doctors: [
         {
-          id: 1,
-          name: 'Jeena Mathew',
-          firstName: 'Jeena',
-           image: '/images/Jeena Mathew.jpeg',
-          qualifications: 'BPT, MPT (Physiotherapy)',
-          rating: 4.9,
-          specialization: 'Musculoskeletal Physiotherapy',
-          experience: '8+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Specialized in the treatment of musculoskeletal disorders',
-            'Expertise in pain management, mobility restoration & rehabilitation',
-            'Successfully treated 600+ patients with personalized physiotherapy programs'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 2,
-          name: 'Dr. Shamna Keloth Meethal',
-          firstName: 'Dr. Shamna Keloth',
-           image: '/images/Dr Shamna Keloth Meethal.jpeg',
-          qualifications: 'BAMS (Ayurveda Practitioner)',
-          rating: 4.8,
-          specialization: 'General Ayurveda & Preventive Care',
-          experience: '11+ Years Experience | DHA Licensed',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive clinical expertise in classical Ayurvedic treatments',
-            'Strong focus on preventive healthcare & lifestyle correction',
-            'Successfully treated 800+ patients with personalized Ayurvedic protocols'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 3,
-          name: 'Dr. Anan',
-          firstName: 'Dr. Anan',
-           image: '/images/Dr Anan.jpeg',
-          qualifications: 'BDS (General Dentist)',
-          rating: 5.0,
-          specialization: 'General Dentistry',
-          experience: '5+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive care in preventive and restorative dentistry',
-            'Expertise in routine dental procedures and oral health maintenance',
-            'Successfully treated 500+ patients with a gentle, patient-focused approach'
-          ],
-          languages: ['English']
-        },
-          {
-          id: 4,
-          name: 'Maria Aisha Bustillos',
-          firstName: 'Aisha',
-          image: '/images/Aisha.jpeg',
-          qualifications: 'Computer Secretarial - Philippines',
-          rating: 5.0,
-          specialization: 'Front Desk & Patient Coordination',
-          experience: 'Professional experience in administrative support and clinic operations',
-          isDHALicensed: false,
-          expertise: [
-            'Managing appointment scheduling and patient inquiries',
-            'Ensuring smooth day-to-day clinic operations',
-            'Strong organizational skills and attention to detail',
-          ],
-          languages: ['English']
-        },
-       {
-  id: 5,
-  name: 'Hafsina Karadi Kandy',
-  firstName: 'Hafsina',
-  image: '/images/Hafsina.jpeg',
-  qualifications: 'BPT, MPT (Physiotherapy)',
-  rating: 5.0,
-  specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
-  experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
-  isDHALicensed: true,
-  expertise: [
-    'Patient assessment and personalized rehabilitation programs',
-    'Pain management and functional recovery for musculoskeletal conditions',
-    'Mobility restoration and post-injury rehabilitation',
-    'Compliance with UAE healthcare standards and clinic protocols',
-    'Collaborating with multidisciplinary teams for patient recovery'
-  ],
-  languages: ['English']
-},
-{
-  id: 6,
-  name: 'Mildred L. Eugenio',
-  firstName: 'Mildred',
-  image: '/images/Mildred.jpeg',
-  qualifications: 'Bachelor of Science in Nursing – Philippines',
-  rating: 5.0,
-  specialization: 'Front Desk & Patient Coordination',
-  experience: 'Professional experience in administrative support and patient services.',
-  isDHALicensed: false,
-  expertise: [
-    'Managing appointment scheduling and patient inquiries',
-    'Ensuring smooth day-to-day clinic operations',
-    'Welcoming and assisting patients with professionalism and care',
-    'Strong organizational skills and attention to detail',
-    'Multitasking and client relations support'
-  ],
-  languages: ['English']
-},
-{
-  id: 7,
-  name: 'Sonita Sinaga',
-  firstName: 'Sonita',
-  image: '/images/Sonita.jpeg',
-  qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
-  rating: 5.0,
-  specialization: 'Skincare, Laser Treatments & Wellness Therapy',
-  experience: '14+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Laser hair removal and skin rejuvenation treatments',
-    'Advanced facial therapies including HydraFacial and microdermabrasion',
-    'Chemical peels and pigmentation correction treatments',
-    'PRP, HIFU, and non-invasive skin rejuvenation procedures',
-    'Personalized aesthetic treatment planning'
-  ],
-  languages: ['English']
-},
-
-{
-  id: 8,
-  name: 'Soumya Abraham',
-  firstName: 'Soumya',
-  image: '/images/Saumya.jpeg',
-  qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
-  rating: 5.0,
-  specialization: 'Dental, Aesthetic & General Nursing',
-  experience: '11+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Assisting with dental procedures and aesthetic treatments',
-    'Pre- and post-treatment patient care to ensure comfort and optimal healing',
-    'Administering medications, IV therapy, and minor surgical assistance',
-    'Patient assessments, sterile techniques, and infection control',
-    'Emergency care and first aid support',
-    'Collaborating with medical and dental teams for holistic patient care'
-  ],
-  languages: ['English']
-},
-{
-  id: 9,
-  name: 'Syamkumar Sasidharan',
-  firstName: 'Syamkumar',
-  image: '/images/Syam.jpeg',
-  qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
-  rating: 5.0,
-  specialization: 'Ayurvedic Treatments & Holistic Wellness',
-  experience: '17+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
-    'Detoxification therapies and personalized lifestyle consultations',
-    'Holistic diagnosis and restoration of body imbalances',
-    'Stress relief and wellness-focused therapeutic treatments',
-    'Specialized therapies including Basti treatments and Nasya',
-    'Therapeutic massage techniques including Swedish and Deep Tissue massage'
-  ],
-  languages: ['English']
-},
-{
-  id: 10,
-  name: 'Dr. Fatooie',
-  firstName: 'Dr. Fatooie',
-  image: '/images/Fatooie.jpeg',
-  qualifications: 'MD (Dermatology)',
-  rating: 5.0,
-  specialization: 'Dermatology',
-  experience: '10 years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
-    'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
-    'Successfully treated 500+ patients with personalized skincare and treatment plans',
-  ],
-  languages: ['English']
-},
-{
-  id: 11,
-  name: 'Preethi',
-  firstName: 'Preethi',
-  image: '/images/Preethi.jpeg',
-  qualifications: 'Housekeeping',
-  rating: 5.0,
-  specialization: 'Housekeeping',
-  experience: '5+ Years of experience',
-  isDHALicensed: true,
-  expertise: [
-    'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
-    'Expertise in organizing, cleaning, and managing household tasks efficiently',
-    'Known for attention to detail, reliability, and creating a tidy, safe environment',
-  ],
-  languages: ['English']
-},
-{
+      id: 1,
+      name: 'Jeena Mathew',
+      firstName: 'Jeena',
+      image: '/images/Jeena Mathew.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 4.9,
+      specialization: 'Musculoskeletal Physiotherapy',
+      experience: '8+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Specialized in the treatment of musculoskeletal disorders',
+        'Expertise in pain management, mobility restoration & rehabilitation',
+        'Successfully treated 600+ patients with personalized physiotherapy programs'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 2,
+      name: 'Dr. Shamna Keloth Meethal',
+      firstName: 'Dr. Shamna Keloth',
+      image: '/images/Dr Shamna Keloth Meethal.jpeg',
+      qualifications: 'BAMS (Ayurveda Practitioner)',
+      rating: 4.8,
+      specialization: 'General Ayurveda & Preventive Care',
+      experience: '11+ Years Experience | DHA Licensed',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive clinical expertise in classical Ayurvedic treatments',
+        'Strong focus on preventive healthcare & lifestyle correction',
+        'Successfully treated 800+ patients with personalized Ayurvedic protocols'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 3,
+      name: 'Dr. Anan',
+      firstName: 'Dr. Anan',
+      image: '/images/Dr Anan.jpeg',
+      qualifications: 'BDS (General Dentist)',
+      rating: 5.0,
+      specialization: 'General Dentistry',
+      experience: '5+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive care in preventive and restorative dentistry',
+        'Expertise in routine dental procedures and oral health maintenance',
+        'Successfully treated 500+ patients with a gentle, patient-focused approach'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 4,
+    //   name: 'Maria Aisha Bustillos',
+    //   firstName: 'Aisha',
+    //   image: '/images/Aisha.jpeg',
+    //   qualifications: 'Computer Secretarial - Philippines',
+    //   rating: 5.0,
+    //   specialization: 'Front Desk & Patient Coordination',
+    //   experience: 'Professional experience in administrative support and clinic operations',
+    //   isDHALicensed: false,
+    //   expertise: [
+    //     'Managing appointment scheduling and patient inquiries',
+    //     'Ensuring smooth day-to-day clinic operations',
+    //     'Strong organizational skills and attention to detail',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 5,
+      name: 'Hafsina Karadi Kandy',
+      firstName: 'Hafsina',
+      image: '/images/Hafsina.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 5.0,
+      specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
+      experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
+      isDHALicensed: true,
+      expertise: [
+        'Patient assessment and personalized rehabilitation programs',
+        'Pain management and functional recovery for musculoskeletal conditions',
+        'Mobility restoration and post-injury rehabilitation',
+        'Compliance with UAE healthcare standards and clinic protocols',
+        'Collaborating with multidisciplinary teams for patient recovery'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 6,
+      name: 'Mildred L. Eugenio',
+      firstName: 'Mildred',
+      image: '/images/Mildred.jpeg',
+      qualifications: 'Bachelor of Science in Nursing – Philippines',
+      rating: 5.0,
+      specialization: 'Front Desk & Patient Coordination',
+      experience: 'Professional experience in administrative support and patient services.',
+      isDHALicensed: false,
+      expertise: [
+        'Managing appointment scheduling and patient inquiries',
+        'Ensuring smooth day-to-day clinic operations',
+        'Welcoming and assisting patients with professionalism and care',
+        'Strong organizational skills and attention to detail',
+        'Multitasking and client relations support'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 7,
+      name: 'Sonita Sinaga',
+      firstName: 'Sonita',
+      image: '/images/Sonita.jpeg',
+      qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
+      rating: 5.0,
+      specialization: 'Skincare, Laser Treatments & Wellness Therapy',
+      experience: '14+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Laser hair removal and skin rejuvenation treatments',
+        'Advanced facial therapies including HydraFacial and microdermabrasion',
+        'Chemical peels and pigmentation correction treatments',
+        'PRP, HIFU, and non-invasive skin rejuvenation procedures',
+        'Personalized aesthetic treatment planning'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 8,
+      name: 'Soumya Abraham',
+      firstName: 'Soumya',
+      image: '/images/Saumya.jpeg',
+      qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
+      rating: 5.0,
+      specialization: 'Dental, Aesthetic & General Nursing',
+      experience: '11+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Assisting with dental procedures and aesthetic treatments',
+        'Pre- and post-treatment patient care to ensure comfort and optimal healing',
+        'Administering medications, IV therapy, and minor surgical assistance',
+        'Patient assessments, sterile techniques, and infection control',
+        'Emergency care and first aid support',
+        'Collaborating with medical and dental teams for holistic patient care'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 9,
+      name: 'Syamkumar Sasidharan',
+      firstName: 'Syamkumar',
+      image: '/images/Syam.jpeg',
+      qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
+      rating: 5.0,
+      specialization: 'Ayurvedic Treatments & Holistic Wellness',
+      experience: '17+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
+        'Detoxification therapies and personalized lifestyle consultations',
+        'Holistic diagnosis and restoration of body imbalances',
+        'Stress relief and wellness-focused therapeutic treatments',
+        'Specialized therapies including Basti treatments and Nasya',
+        'Therapeutic massage techniques including Swedish and Deep Tissue massage'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 10,
+    //   name: 'Dr. Fatooie',
+    //   firstName: 'Dr. Fatooie',
+    //   image: '/images/Fatooie.jpeg',
+    //   qualifications: 'MD (Dermatology)',
+    //   rating: 5.0,
+    //   specialization: 'Dermatology',
+    //   experience: '10 years of professional experience ',
+    //   isDHALicensed: true,
+    //   expertise: [
+    //     'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
+    //     'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
+    //     'Successfully treated 500+ patients with personalized skincare and treatment plans',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 10,
+      name: 'Preethi',
+      firstName: 'Preethi',
+      image: '/images/Preethi.jpeg',
+      qualifications: 'Housekeeping',
+      rating: 5.0,
+      specialization: 'Housekeeping',
+      experience: '5+ Years of experience',
+      isDHALicensed: false,
+      expertise: [
+        'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
+        'Expertise in organizing, cleaning, and managing household tasks efficiently',
+        'Known for attention to detail, reliability, and creating a tidy, safe environment',
+      ],
+      languages: ['English']
+    },
+    {
+      id: 11,
+      name: 'Dr. Sahar Zomorrodi',
+      firstName: 'Dr. Sahar',
+      image: '/images/Sahar.jpeg',
+      qualifications: 'DHA-licensed General Practitioner',
+      rating: 5.0,
+      specialization: 'General Practitioner',
+      experience: '14 Years of experience',
+      isDHALicensed: true,
+      expertise: [
+        'Holds a diploma from the American Aesthetic Academy',
+        'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
+        'Committed to delivering safe, personalized, and results-driven care',
+      ],
+      languages: ['English']
+    },
+    {
   id: 12,
-  name: 'Dr. Sahar Zomorrodi',
-  firstName: 'Dr. Sahar',
-  image: '/images/Sahar.jpeg',
-  qualifications: 'DHA-licensed General Practitioner',
-  rating: 5.0,
-  specialization: 'General Practice & Aesthetic Medicine',
-  experience: '14 Years of experience',
+  name: 'Dr Mahrokh Fotooei',
+  firstName: 'Mahrokh',
+  image: '/images/Fatooie.jpeg',
+  qualifications: 'DHA-Licensed Dermatology and Aesthetic Specialist',
+  rating: 4.9,
+  specialization: 'Clinical & Aesthetic Dermatology',
+  experience: '6+ Years Experience',
   isDHALicensed: true,
   expertise: [
-    'Holds a diploma from the American Aesthetic Academy',
-    'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
-    'Committed to delivering safe, personalized, and results-driven care',
+    'Individualized, evidence-based dermatological care',
+    'Specialized in injectables and facial contouring',
+    'Expertise in thread lifting and non-surgical skin rejuvenation'
+  ],
+  languages: ['English']
+},
+{
+  id: 13,
+  name: 'Dr Hirbod Gilandoust',
+  firstName: 'Hirbod',
+  image: '/images/Hirbod.jpeg',
+  qualifications: 'DHA-Licensed Dentist',
+  rating: 4.8,
+  specialization: 'Esthetic Dentistry & Dental Surgery',
+  experience: '7+ Years Experience',
+  isDHALicensed: true,
+  expertise: [
+    'Advanced esthetic dental treatments',
+    'Dental restorations and prosthetics',
+    'Root canal treatments (Endodontics)',
+    'Comprehensive dental surgery procedures'
   ],
   languages: ['English']
 },
@@ -1817,219 +1885,253 @@ export const categoryContent = {
       },
       doctors: [
         {
-          id: 1,
-          name: 'Jeena Mathew',
-          firstName: 'Jeena',
-           image: '/images/Jeena Mathew.jpeg',
-          qualifications: 'BPT, MPT (Physiotherapy)',
-          rating: 4.9,
-          specialization: 'Musculoskeletal Physiotherapy',
-          experience: '8+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Specialized in the treatment of musculoskeletal disorders',
-            'Expertise in pain management, mobility restoration & rehabilitation',
-            'Successfully treated 600+ patients with personalized physiotherapy programs'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 2,
-          name: 'Dr. Shamna Keloth Meethal',
-          firstName: 'Dr. Shamna Keloth',
-           image: '/images/Dr Shamna Keloth Meethal.jpeg',
-          qualifications: 'BAMS (Ayurveda Practitioner)',
-          rating: 4.8,
-          specialization: 'General Ayurveda & Preventive Care',
-          experience: '11+ Years Experience | DHA Licensed',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive clinical expertise in classical Ayurvedic treatments',
-            'Strong focus on preventive healthcare & lifestyle correction',
-            'Successfully treated 800+ patients with personalized Ayurvedic protocols'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 3,
-          name: 'Dr. Anan',
-          firstName: 'Dr. Anan',
-           image: '/images/Dr Anan.jpeg',
-          qualifications: 'BDS (General Dentist)',
-          rating: 5.0,
-          specialization: 'General Dentistry',
-          experience: '5+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive care in preventive and restorative dentistry',
-            'Expertise in routine dental procedures and oral health maintenance',
-            'Successfully treated 500+ patients with a gentle, patient-focused approach'
-          ],
-          languages: ['English']
-        },
-          {
-          id: 4,
-          name: 'Maria Aisha Bustillos',
-          firstName: 'Aisha',
-          image: '/images/Aisha.jpeg',
-          qualifications: 'Computer Secretarial - Philippines',
-          rating: 5.0,
-          specialization: 'Front Desk & Patient Coordination',
-          experience: 'Professional experience in administrative support and clinic operations',
-          isDHALicensed: false,
-          expertise: [
-            'Managing appointment scheduling and patient inquiries',
-            'Ensuring smooth day-to-day clinic operations',
-            'Strong organizational skills and attention to detail',
-          ],
-          languages: ['English']
-        },
-       {
-  id: 5,
-  name: 'Hafsina Karadi Kandy',
-  firstName: 'Hafsina',
-  image: '/images/Hafsina.jpeg',
-  qualifications: 'BPT, MPT (Physiotherapy)',
-  rating: 5.0,
-  specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
-  experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
-  isDHALicensed: true,
-  expertise: [
-    'Patient assessment and personalized rehabilitation programs',
-    'Pain management and functional recovery for musculoskeletal conditions',
-    'Mobility restoration and post-injury rehabilitation',
-    'Compliance with UAE healthcare standards and clinic protocols',
-    'Collaborating with multidisciplinary teams for patient recovery'
-  ],
-  languages: ['English']
-},
-{
-  id: 6,
-  name: 'Mildred L. Eugenio',
-  firstName: 'Mildred',
-  image: '/images/Mildred.jpeg',
-  qualifications: 'Bachelor of Science in Nursing – Philippines',
-  rating: 5.0,
-  specialization: 'Front Desk & Patient Coordination',
-  experience: 'Professional experience in administrative support and patient services.',
-  isDHALicensed: false,
-  expertise: [
-    'Managing appointment scheduling and patient inquiries',
-    'Ensuring smooth day-to-day clinic operations',
-    'Welcoming and assisting patients with professionalism and care',
-    'Strong organizational skills and attention to detail',
-    'Multitasking and client relations support'
-  ],
-  languages: ['English']
-},
-{
-  id: 7,
-  name: 'Sonita Sinaga',
-  firstName: 'Sonita',
-  image: '/images/Sonita.jpeg',
-  qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
-  rating: 5.0,
-  specialization: 'Skincare, Laser Treatments & Wellness Therapy',
-  experience: '14+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Laser hair removal and skin rejuvenation treatments',
-    'Advanced facial therapies including HydraFacial and microdermabrasion',
-    'Chemical peels and pigmentation correction treatments',
-    'PRP, HIFU, and non-invasive skin rejuvenation procedures',
-    'Personalized aesthetic treatment planning'
-  ],
-  languages: ['English']
-},
-
-{
-  id: 8,
-  name: 'Soumya Abraham',
-  firstName: 'Soumya',
-  image: '/images/Saumya.jpeg',
-  qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
-  rating: 5.0,
-  specialization: 'Dental, Aesthetic & General Nursing',
-  experience: '11+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Assisting with dental procedures and aesthetic treatments',
-    'Pre- and post-treatment patient care to ensure comfort and optimal healing',
-    'Administering medications, IV therapy, and minor surgical assistance',
-    'Patient assessments, sterile techniques, and infection control',
-    'Emergency care and first aid support',
-    'Collaborating with medical and dental teams for holistic patient care'
-  ],
-  languages: ['English']
-},
-{
-  id: 9,
-  name: 'Syamkumar Sasidharan',
-  firstName: 'Syamkumar',
-  image: '/images/Syam.jpeg',
-  qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
-  rating: 5.0,
-  specialization: 'Ayurvedic Treatments & Holistic Wellness',
-  experience: '17+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
-    'Detoxification therapies and personalized lifestyle consultations',
-    'Holistic diagnosis and restoration of body imbalances',
-    'Stress relief and wellness-focused therapeutic treatments',
-    'Specialized therapies including Basti treatments and Nasya',
-    'Therapeutic massage techniques including Swedish and Deep Tissue massage'
-  ],
-  languages: ['English']
-},
-{
-  id: 10,
-  name: 'Dr. Fatooie',
-  firstName: 'Dr. Fatooie',
-  image: '/images/Fatooie.jpeg',
-  qualifications: 'MD (Dermatology)',
-  rating: 5.0,
-  specialization: 'Dermatology',
-  experience: '10 years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
-    'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
-    'Successfully treated 500+ patients with personalized skincare and treatment plans',
-  ],
-  languages: ['English']
-},
-{
-  id: 11,
-  name: 'Preethi',
-  firstName: 'Preethi',
-  image: '/images/Preethi.jpeg',
-  qualifications: 'Housekeeping',
-  rating: 5.0,
-  specialization: 'Housekeeping',
-  experience: '5+ Years of experience',
-  isDHALicensed: true,
-  expertise: [
-    'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
-    'Expertise in organizing, cleaning, and managing household tasks efficiently',
-    'Known for attention to detail, reliability, and creating a tidy, safe environment',
-  ],
-  languages: ['English']
-},
-{
+      id: 1,
+      name: 'Jeena Mathew',
+      firstName: 'Jeena',
+      image: '/images/Jeena Mathew.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 4.9,
+      specialization: 'Musculoskeletal Physiotherapy',
+      experience: '8+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Specialized in the treatment of musculoskeletal disorders',
+        'Expertise in pain management, mobility restoration & rehabilitation',
+        'Successfully treated 600+ patients with personalized physiotherapy programs'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 2,
+      name: 'Dr. Shamna Keloth Meethal',
+      firstName: 'Dr. Shamna Keloth',
+      image: '/images/Dr Shamna Keloth Meethal.jpeg',
+      qualifications: 'BAMS (Ayurveda Practitioner)',
+      rating: 4.8,
+      specialization: 'General Ayurveda & Preventive Care',
+      experience: '11+ Years Experience | DHA Licensed',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive clinical expertise in classical Ayurvedic treatments',
+        'Strong focus on preventive healthcare & lifestyle correction',
+        'Successfully treated 800+ patients with personalized Ayurvedic protocols'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 3,
+      name: 'Dr. Anan',
+      firstName: 'Dr. Anan',
+      image: '/images/Dr Anan.jpeg',
+      qualifications: 'BDS (General Dentist)',
+      rating: 5.0,
+      specialization: 'General Dentistry',
+      experience: '5+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive care in preventive and restorative dentistry',
+        'Expertise in routine dental procedures and oral health maintenance',
+        'Successfully treated 500+ patients with a gentle, patient-focused approach'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 4,
+    //   name: 'Maria Aisha Bustillos',
+    //   firstName: 'Aisha',
+    //   image: '/images/Aisha.jpeg',
+    //   qualifications: 'Computer Secretarial - Philippines',
+    //   rating: 5.0,
+    //   specialization: 'Front Desk & Patient Coordination',
+    //   experience: 'Professional experience in administrative support and clinic operations',
+    //   isDHALicensed: false,
+    //   expertise: [
+    //     'Managing appointment scheduling and patient inquiries',
+    //     'Ensuring smooth day-to-day clinic operations',
+    //     'Strong organizational skills and attention to detail',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 5,
+      name: 'Hafsina Karadi Kandy',
+      firstName: 'Hafsina',
+      image: '/images/Hafsina.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 5.0,
+      specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
+      experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
+      isDHALicensed: true,
+      expertise: [
+        'Patient assessment and personalized rehabilitation programs',
+        'Pain management and functional recovery for musculoskeletal conditions',
+        'Mobility restoration and post-injury rehabilitation',
+        'Compliance with UAE healthcare standards and clinic protocols',
+        'Collaborating with multidisciplinary teams for patient recovery'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 6,
+      name: 'Mildred L. Eugenio',
+      firstName: 'Mildred',
+      image: '/images/Mildred.jpeg',
+      qualifications: 'Bachelor of Science in Nursing – Philippines',
+      rating: 5.0,
+      specialization: 'Front Desk & Patient Coordination',
+      experience: 'Professional experience in administrative support and patient services.',
+      isDHALicensed: false,
+      expertise: [
+        'Managing appointment scheduling and patient inquiries',
+        'Ensuring smooth day-to-day clinic operations',
+        'Welcoming and assisting patients with professionalism and care',
+        'Strong organizational skills and attention to detail',
+        'Multitasking and client relations support'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 7,
+      name: 'Sonita Sinaga',
+      firstName: 'Sonita',
+      image: '/images/Sonita.jpeg',
+      qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
+      rating: 5.0,
+      specialization: 'Skincare, Laser Treatments & Wellness Therapy',
+      experience: '14+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Laser hair removal and skin rejuvenation treatments',
+        'Advanced facial therapies including HydraFacial and microdermabrasion',
+        'Chemical peels and pigmentation correction treatments',
+        'PRP, HIFU, and non-invasive skin rejuvenation procedures',
+        'Personalized aesthetic treatment planning'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 8,
+      name: 'Soumya Abraham',
+      firstName: 'Soumya',
+      image: '/images/Saumya.jpeg',
+      qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
+      rating: 5.0,
+      specialization: 'Dental, Aesthetic & General Nursing',
+      experience: '11+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Assisting with dental procedures and aesthetic treatments',
+        'Pre- and post-treatment patient care to ensure comfort and optimal healing',
+        'Administering medications, IV therapy, and minor surgical assistance',
+        'Patient assessments, sterile techniques, and infection control',
+        'Emergency care and first aid support',
+        'Collaborating with medical and dental teams for holistic patient care'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 9,
+      name: 'Syamkumar Sasidharan',
+      firstName: 'Syamkumar',
+      image: '/images/Syam.jpeg',
+      qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
+      rating: 5.0,
+      specialization: 'Ayurvedic Treatments & Holistic Wellness',
+      experience: '17+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
+        'Detoxification therapies and personalized lifestyle consultations',
+        'Holistic diagnosis and restoration of body imbalances',
+        'Stress relief and wellness-focused therapeutic treatments',
+        'Specialized therapies including Basti treatments and Nasya',
+        'Therapeutic massage techniques including Swedish and Deep Tissue massage'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 10,
+    //   name: 'Dr. Fatooie',
+    //   firstName: 'Dr. Fatooie',
+    //   image: '/images/Fatooie.jpeg',
+    //   qualifications: 'MD (Dermatology)',
+    //   rating: 5.0,
+    //   specialization: 'Dermatology',
+    //   experience: '10 years of professional experience ',
+    //   isDHALicensed: true,
+    //   expertise: [
+    //     'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
+    //     'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
+    //     'Successfully treated 500+ patients with personalized skincare and treatment plans',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 10,
+      name: 'Preethi',
+      firstName: 'Preethi',
+      image: '/images/Preethi.jpeg',
+      qualifications: 'Housekeeping',
+      rating: 5.0,
+      specialization: 'Housekeeping',
+      experience: '5+ Years of experience',
+      isDHALicensed: false,
+      expertise: [
+        'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
+        'Expertise in organizing, cleaning, and managing household tasks efficiently',
+        'Known for attention to detail, reliability, and creating a tidy, safe environment',
+      ],
+      languages: ['English']
+    },
+    {
+      id: 11,
+      name: 'Dr. Sahar Zomorrodi',
+      firstName: 'Dr. Sahar',
+      image: '/images/Sahar.jpeg',
+      qualifications: 'DHA-licensed General Practitioner',
+      rating: 5.0,
+      specialization: 'General Practitioner',
+      experience: '14 Years of experience',
+      isDHALicensed: true,
+      expertise: [
+        'Holds a diploma from the American Aesthetic Academy',
+        'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
+        'Committed to delivering safe, personalized, and results-driven care',
+      ],
+      languages: ['English']
+    },
+    {
   id: 12,
-  name: 'Dr. Sahar Zomorrodi',
-  firstName: 'Dr. Sahar',
-  image: '/images/Sahar.jpeg',
-  qualifications: 'DHA-licensed General Practitioner',
-  rating: 5.0,
-  specialization: 'General Practice & Aesthetic Medicine',
-  experience: '14 Years of experience',
+  name: 'Dr Mahrokh Fotooei',
+  firstName: 'Mahrokh',
+  image: '/images/Fatooie.jpeg',
+  qualifications: 'DHA-Licensed Dermatology and Aesthetic Specialist',
+  rating: 4.9,
+  specialization: 'Clinical & Aesthetic Dermatology',
+  experience: '6+ Years Experience',
   isDHALicensed: true,
   expertise: [
-    'Holds a diploma from the American Aesthetic Academy',
-    'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
-    'Committed to delivering safe, personalized, and results-driven care',
+    'Individualized, evidence-based dermatological care',
+    'Specialized in injectables and facial contouring',
+    'Expertise in thread lifting and non-surgical skin rejuvenation'
+  ],
+  languages: ['English']
+},
+{
+  id: 13,
+  name: 'Dr Hirbod Gilandoust',
+  firstName: 'Hirbod',
+  image: '/images/Hirbod.jpeg',
+  qualifications: 'DHA-Licensed Dentist',
+  rating: 4.8,
+  specialization: 'Esthetic Dentistry & Dental Surgery',
+  experience: '7+ Years Experience',
+  isDHALicensed: true,
+  expertise: [
+    'Advanced esthetic dental treatments',
+    'Dental restorations and prosthetics',
+    'Root canal treatments (Endodontics)',
+    'Comprehensive dental surgery procedures'
   ],
   languages: ['English']
 },
@@ -2604,219 +2706,253 @@ export const categoryContent = {
       },
       doctors: [
         {
-          id: 1,
-          name: 'Jeena Mathew',
-          firstName: 'Jeena',
-           image: '/images/Jeena Mathew.jpeg',
-          qualifications: 'BPT, MPT (Physiotherapy)',
-          rating: 4.9,
-          specialization: 'Musculoskeletal Physiotherapy',
-          experience: '8+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Specialized in the treatment of musculoskeletal disorders',
-            'Expertise in pain management, mobility restoration & rehabilitation',
-            'Successfully treated 600+ patients with personalized physiotherapy programs'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 2,
-          name: 'Dr. Shamna Keloth Meethal',
-          firstName: 'Dr. Shamna Keloth',
-           image: '/images/Dr Shamna Keloth Meethal.jpeg',
-          qualifications: 'BAMS (Ayurveda Practitioner)',
-          rating: 4.8,
-          specialization: 'General Ayurveda & Preventive Care',
-          experience: '11+ Years Experience | DHA Licensed',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive clinical expertise in classical Ayurvedic treatments',
-            'Strong focus on preventive healthcare & lifestyle correction',
-            'Successfully treated 800+ patients with personalized Ayurvedic protocols'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 3,
-          name: 'Dr. Anan',
-          firstName: 'Dr. Anan',
-           image: '/images/Dr Anan.jpeg',
-          qualifications: 'BDS (General Dentist)',
-          rating: 5.0,
-          specialization: 'General Dentistry',
-          experience: '5+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive care in preventive and restorative dentistry',
-            'Expertise in routine dental procedures and oral health maintenance',
-            'Successfully treated 500+ patients with a gentle, patient-focused approach'
-          ],
-          languages: ['English']
-        },
-          {
-          id: 4,
-          name: 'Maria Aisha Bustillos',
-          firstName: 'Aisha',
-          image: '/images/Aisha.jpeg',
-          qualifications: 'Computer Secretarial - Philippines',
-          rating: 5.0,
-          specialization: 'Front Desk & Patient Coordination',
-          experience: 'Professional experience in administrative support and clinic operations',
-          isDHALicensed: false,
-          expertise: [
-            'Managing appointment scheduling and patient inquiries',
-            'Ensuring smooth day-to-day clinic operations',
-            'Strong organizational skills and attention to detail',
-          ],
-          languages: ['English']
-        },
-       {
-  id: 5,
-  name: 'Hafsina Karadi Kandy',
-  firstName: 'Hafsina',
-  image: '/images/Hafsina.jpeg',
-  qualifications: 'BPT, MPT (Physiotherapy)',
-  rating: 5.0,
-  specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
-  experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
-  isDHALicensed: true,
-  expertise: [
-    'Patient assessment and personalized rehabilitation programs',
-    'Pain management and functional recovery for musculoskeletal conditions',
-    'Mobility restoration and post-injury rehabilitation',
-    'Compliance with UAE healthcare standards and clinic protocols',
-    'Collaborating with multidisciplinary teams for patient recovery'
-  ],
-  languages: ['English']
-},
-{
-  id: 6,
-  name: 'Mildred L. Eugenio',
-  firstName: 'Mildred',
-  image: '/images/Mildred.jpeg',
-  qualifications: 'Bachelor of Science in Nursing – Philippines',
-  rating: 5.0,
-  specialization: 'Front Desk & Patient Coordination',
-  experience: 'Professional experience in administrative support and patient services.',
-  isDHALicensed: false,
-  expertise: [
-    'Managing appointment scheduling and patient inquiries',
-    'Ensuring smooth day-to-day clinic operations',
-    'Welcoming and assisting patients with professionalism and care',
-    'Strong organizational skills and attention to detail',
-    'Multitasking and client relations support'
-  ],
-  languages: ['English']
-},
-{
-  id: 7,
-  name: 'Sonita Sinaga',
-  firstName: 'Sonita',
-  image: '/images/Sonita.jpeg',
-  qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
-  rating: 5.0,
-  specialization: 'Skincare, Laser Treatments & Wellness Therapy',
-  experience: '14+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Laser hair removal and skin rejuvenation treatments',
-    'Advanced facial therapies including HydraFacial and microdermabrasion',
-    'Chemical peels and pigmentation correction treatments',
-    'PRP, HIFU, and non-invasive skin rejuvenation procedures',
-    'Personalized aesthetic treatment planning'
-  ],
-  languages: ['English']
-},
-
-{
-  id: 8,
-  name: 'Soumya Abraham',
-  firstName: 'Soumya',
-  image: '/images/Saumya.jpeg',
-  qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
-  rating: 5.0,
-  specialization: 'Dental, Aesthetic & General Nursing',
-  experience: '11+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Assisting with dental procedures and aesthetic treatments',
-    'Pre- and post-treatment patient care to ensure comfort and optimal healing',
-    'Administering medications, IV therapy, and minor surgical assistance',
-    'Patient assessments, sterile techniques, and infection control',
-    'Emergency care and first aid support',
-    'Collaborating with medical and dental teams for holistic patient care'
-  ],
-  languages: ['English']
-},
-{
-  id: 9,
-  name: 'Syamkumar Sasidharan',
-  firstName: 'Syamkumar',
-  image: '/images/Syam.jpeg',
-  qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
-  rating: 5.0,
-  specialization: 'Ayurvedic Treatments & Holistic Wellness',
-  experience: '17+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
-    'Detoxification therapies and personalized lifestyle consultations',
-    'Holistic diagnosis and restoration of body imbalances',
-    'Stress relief and wellness-focused therapeutic treatments',
-    'Specialized therapies including Basti treatments and Nasya',
-    'Therapeutic massage techniques including Swedish and Deep Tissue massage'
-  ],
-  languages: ['English']
-},
-{
-  id: 10,
-  name: 'Dr. Fatooie',
-  firstName: 'Dr. Fatooie',
-  image: '/images/Fatooie.jpeg',
-  qualifications: 'MD (Dermatology)',
-  rating: 5.0,
-  specialization: 'Dermatology',
-  experience: '10 years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
-    'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
-    'Successfully treated 500+ patients with personalized skincare and treatment plans',
-  ],
-  languages: ['English']
-},
-{
-  id: 11,
-  name: 'Preethi',
-  firstName: 'Preethi',
-  image: '/images/Preethi.jpeg',
-  qualifications: 'Housekeeping',
-  rating: 5.0,
-  specialization: 'Housekeeping',
-  experience: '5+ Years of experience',
-  isDHALicensed: true,
-  expertise: [
-    'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
-    'Expertise in organizing, cleaning, and managing household tasks efficiently',
-    'Known for attention to detail, reliability, and creating a tidy, safe environment',
-  ],
-  languages: ['English']
-},
-{
+      id: 1,
+      name: 'Jeena Mathew',
+      firstName: 'Jeena',
+      image: '/images/Jeena Mathew.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 4.9,
+      specialization: 'Musculoskeletal Physiotherapy',
+      experience: '8+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Specialized in the treatment of musculoskeletal disorders',
+        'Expertise in pain management, mobility restoration & rehabilitation',
+        'Successfully treated 600+ patients with personalized physiotherapy programs'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 2,
+      name: 'Dr. Shamna Keloth Meethal',
+      firstName: 'Dr. Shamna Keloth',
+      image: '/images/Dr Shamna Keloth Meethal.jpeg',
+      qualifications: 'BAMS (Ayurveda Practitioner)',
+      rating: 4.8,
+      specialization: 'General Ayurveda & Preventive Care',
+      experience: '11+ Years Experience | DHA Licensed',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive clinical expertise in classical Ayurvedic treatments',
+        'Strong focus on preventive healthcare & lifestyle correction',
+        'Successfully treated 800+ patients with personalized Ayurvedic protocols'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 3,
+      name: 'Dr. Anan',
+      firstName: 'Dr. Anan',
+      image: '/images/Dr Anan.jpeg',
+      qualifications: 'BDS (General Dentist)',
+      rating: 5.0,
+      specialization: 'General Dentistry',
+      experience: '5+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive care in preventive and restorative dentistry',
+        'Expertise in routine dental procedures and oral health maintenance',
+        'Successfully treated 500+ patients with a gentle, patient-focused approach'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 4,
+    //   name: 'Maria Aisha Bustillos',
+    //   firstName: 'Aisha',
+    //   image: '/images/Aisha.jpeg',
+    //   qualifications: 'Computer Secretarial - Philippines',
+    //   rating: 5.0,
+    //   specialization: 'Front Desk & Patient Coordination',
+    //   experience: 'Professional experience in administrative support and clinic operations',
+    //   isDHALicensed: false,
+    //   expertise: [
+    //     'Managing appointment scheduling and patient inquiries',
+    //     'Ensuring smooth day-to-day clinic operations',
+    //     'Strong organizational skills and attention to detail',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 5,
+      name: 'Hafsina Karadi Kandy',
+      firstName: 'Hafsina',
+      image: '/images/Hafsina.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 5.0,
+      specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
+      experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
+      isDHALicensed: true,
+      expertise: [
+        'Patient assessment and personalized rehabilitation programs',
+        'Pain management and functional recovery for musculoskeletal conditions',
+        'Mobility restoration and post-injury rehabilitation',
+        'Compliance with UAE healthcare standards and clinic protocols',
+        'Collaborating with multidisciplinary teams for patient recovery'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 6,
+      name: 'Mildred L. Eugenio',
+      firstName: 'Mildred',
+      image: '/images/Mildred.jpeg',
+      qualifications: 'Bachelor of Science in Nursing – Philippines',
+      rating: 5.0,
+      specialization: 'Front Desk & Patient Coordination',
+      experience: 'Professional experience in administrative support and patient services.',
+      isDHALicensed: false,
+      expertise: [
+        'Managing appointment scheduling and patient inquiries',
+        'Ensuring smooth day-to-day clinic operations',
+        'Welcoming and assisting patients with professionalism and care',
+        'Strong organizational skills and attention to detail',
+        'Multitasking and client relations support'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 7,
+      name: 'Sonita Sinaga',
+      firstName: 'Sonita',
+      image: '/images/Sonita.jpeg',
+      qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
+      rating: 5.0,
+      specialization: 'Skincare, Laser Treatments & Wellness Therapy',
+      experience: '14+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Laser hair removal and skin rejuvenation treatments',
+        'Advanced facial therapies including HydraFacial and microdermabrasion',
+        'Chemical peels and pigmentation correction treatments',
+        'PRP, HIFU, and non-invasive skin rejuvenation procedures',
+        'Personalized aesthetic treatment planning'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 8,
+      name: 'Soumya Abraham',
+      firstName: 'Soumya',
+      image: '/images/Saumya.jpeg',
+      qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
+      rating: 5.0,
+      specialization: 'Dental, Aesthetic & General Nursing',
+      experience: '11+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Assisting with dental procedures and aesthetic treatments',
+        'Pre- and post-treatment patient care to ensure comfort and optimal healing',
+        'Administering medications, IV therapy, and minor surgical assistance',
+        'Patient assessments, sterile techniques, and infection control',
+        'Emergency care and first aid support',
+        'Collaborating with medical and dental teams for holistic patient care'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 9,
+      name: 'Syamkumar Sasidharan',
+      firstName: 'Syamkumar',
+      image: '/images/Syam.jpeg',
+      qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
+      rating: 5.0,
+      specialization: 'Ayurvedic Treatments & Holistic Wellness',
+      experience: '17+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
+        'Detoxification therapies and personalized lifestyle consultations',
+        'Holistic diagnosis and restoration of body imbalances',
+        'Stress relief and wellness-focused therapeutic treatments',
+        'Specialized therapies including Basti treatments and Nasya',
+        'Therapeutic massage techniques including Swedish and Deep Tissue massage'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 10,
+    //   name: 'Dr. Fatooie',
+    //   firstName: 'Dr. Fatooie',
+    //   image: '/images/Fatooie.jpeg',
+    //   qualifications: 'MD (Dermatology)',
+    //   rating: 5.0,
+    //   specialization: 'Dermatology',
+    //   experience: '10 years of professional experience ',
+    //   isDHALicensed: true,
+    //   expertise: [
+    //     'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
+    //     'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
+    //     'Successfully treated 500+ patients with personalized skincare and treatment plans',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 10,
+      name: 'Preethi',
+      firstName: 'Preethi',
+      image: '/images/Preethi.jpeg',
+      qualifications: 'Housekeeping',
+      rating: 5.0,
+      specialization: 'Housekeeping',
+      experience: '5+ Years of experience',
+      isDHALicensed: false,
+      expertise: [
+        'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
+        'Expertise in organizing, cleaning, and managing household tasks efficiently',
+        'Known for attention to detail, reliability, and creating a tidy, safe environment',
+      ],
+      languages: ['English']
+    },
+    {
+      id: 11,
+      name: 'Dr. Sahar Zomorrodi',
+      firstName: 'Dr. Sahar',
+      image: '/images/Sahar.jpeg',
+      qualifications: 'DHA-licensed General Practitioner',
+      rating: 5.0,
+      specialization: 'General Practitioner',
+      experience: '14 Years of experience',
+      isDHALicensed: true,
+      expertise: [
+        'Holds a diploma from the American Aesthetic Academy',
+        'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
+        'Committed to delivering safe, personalized, and results-driven care',
+      ],
+      languages: ['English']
+    },
+    {
   id: 12,
-  name: 'Dr. Sahar Zomorrodi',
-  firstName: 'Dr. Sahar',
-  image: '/images/Sahar.jpeg',
-  qualifications: 'DHA-licensed General Practitioner',
-  rating: 5.0,
-  specialization: 'General Practice & Aesthetic Medicine',
-  experience: '14 Years of experience',
+  name: 'Dr Mahrokh Fotooei',
+  firstName: 'Mahrokh',
+  image: '/images/Fatooie.jpeg',
+  qualifications: 'DHA-Licensed Dermatology and Aesthetic Specialist',
+  rating: 4.9,
+  specialization: 'Clinical & Aesthetic Dermatology',
+  experience: '6+ Years Experience',
   isDHALicensed: true,
   expertise: [
-    'Holds a diploma from the American Aesthetic Academy',
-    'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
-    'Committed to delivering safe, personalized, and results-driven care',
+    'Individualized, evidence-based dermatological care',
+    'Specialized in injectables and facial contouring',
+    'Expertise in thread lifting and non-surgical skin rejuvenation'
+  ],
+  languages: ['English']
+},
+{
+  id: 13,
+  name: 'Dr Hirbod Gilandoust',
+  firstName: 'Hirbod',
+  image: '/images/Hirbod.jpeg',
+  qualifications: 'DHA-Licensed Dentist',
+  rating: 4.8,
+  specialization: 'Esthetic Dentistry & Dental Surgery',
+  experience: '7+ Years Experience',
+  isDHALicensed: true,
+  expertise: [
+    'Advanced esthetic dental treatments',
+    'Dental restorations and prosthetics',
+    'Root canal treatments (Endodontics)',
+    'Comprehensive dental surgery procedures'
   ],
   languages: ['English']
 },
@@ -3511,219 +3647,253 @@ programs: {
       },
        doctors: [
         {
-          id: 1,
-          name: 'Jeena Mathew',
-          firstName: 'Jeena',
-           image: '/images/Jeena Mathew.jpeg',
-          qualifications: 'BPT, MPT (Physiotherapy)',
-          rating: 4.9,
-          specialization: 'Musculoskeletal Physiotherapy',
-          experience: '8+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Specialized in the treatment of musculoskeletal disorders',
-            'Expertise in pain management, mobility restoration & rehabilitation',
-            'Successfully treated 600+ patients with personalized physiotherapy programs'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 2,
-          name: 'Dr. Shamna Keloth Meethal',
-          firstName: 'Dr. Shamna Keloth',
-           image: '/images/Dr Shamna Keloth Meethal.jpeg',
-          qualifications: 'BAMS (Ayurveda Practitioner)',
-          rating: 4.8,
-          specialization: 'General Ayurveda & Preventive Care',
-          experience: '11+ Years Experience | DHA Licensed',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive clinical expertise in classical Ayurvedic treatments',
-            'Strong focus on preventive healthcare & lifestyle correction',
-            'Successfully treated 800+ patients with personalized Ayurvedic protocols'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 3,
-          name: 'Dr. Anan',
-          firstName: 'Dr. Anan',
-           image: '/images/Dr Anan.jpeg',
-          qualifications: 'BDS (General Dentist)',
-          rating: 5.0,
-          specialization: 'General Dentistry',
-          experience: '5+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive care in preventive and restorative dentistry',
-            'Expertise in routine dental procedures and oral health maintenance',
-            'Successfully treated 500+ patients with a gentle, patient-focused approach'
-          ],
-          languages: ['English']
-        },
-          {
-          id: 4,
-          name: 'Maria Aisha Bustillos',
-          firstName: 'Aisha',
-          image: '/images/Aisha.jpeg',
-          qualifications: 'Computer Secretarial - Philippines',
-          rating: 5.0,
-          specialization: 'Front Desk & Patient Coordination',
-          experience: 'Professional experience in administrative support and clinic operations',
-          isDHALicensed: false,
-          expertise: [
-            'Managing appointment scheduling and patient inquiries',
-            'Ensuring smooth day-to-day clinic operations',
-            'Strong organizational skills and attention to detail',
-          ],
-          languages: ['English']
-        },
-       {
-  id: 5,
-  name: 'Hafsina Karadi Kandy',
-  firstName: 'Hafsina',
-  image: '/images/Hafsina.jpeg',
-  qualifications: 'BPT, MPT (Physiotherapy)',
-  rating: 5.0,
-  specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
-  experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
-  isDHALicensed: true,
-  expertise: [
-    'Patient assessment and personalized rehabilitation programs',
-    'Pain management and functional recovery for musculoskeletal conditions',
-    'Mobility restoration and post-injury rehabilitation',
-    'Compliance with UAE healthcare standards and clinic protocols',
-    'Collaborating with multidisciplinary teams for patient recovery'
-  ],
-  languages: ['English']
-},
-{
-  id: 6,
-  name: 'Mildred L. Eugenio',
-  firstName: 'Mildred',
-  image: '/images/Mildred.jpeg',
-  qualifications: 'Bachelor of Science in Nursing – Philippines',
-  rating: 5.0,
-  specialization: 'Front Desk & Patient Coordination',
-  experience: 'Professional experience in administrative support and patient services.',
-  isDHALicensed: false,
-  expertise: [
-    'Managing appointment scheduling and patient inquiries',
-    'Ensuring smooth day-to-day clinic operations',
-    'Welcoming and assisting patients with professionalism and care',
-    'Strong organizational skills and attention to detail',
-    'Multitasking and client relations support'
-  ],
-  languages: ['English']
-},
-{
-  id: 7,
-  name: 'Sonita Sinaga',
-  firstName: 'Sonita',
-  image: '/images/Sonita.jpeg',
-  qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
-  rating: 5.0,
-  specialization: 'Skincare, Laser Treatments & Wellness Therapy',
-  experience: '14+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Laser hair removal and skin rejuvenation treatments',
-    'Advanced facial therapies including HydraFacial and microdermabrasion',
-    'Chemical peels and pigmentation correction treatments',
-    'PRP, HIFU, and non-invasive skin rejuvenation procedures',
-    'Personalized aesthetic treatment planning'
-  ],
-  languages: ['English']
-},
-
-{
-  id: 8,
-  name: 'Soumya Abraham',
-  firstName: 'Soumya',
-  image: '/images/Saumya.jpeg',
-  qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
-  rating: 5.0,
-  specialization: 'Dental, Aesthetic & General Nursing',
-  experience: '11+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Assisting with dental procedures and aesthetic treatments',
-    'Pre- and post-treatment patient care to ensure comfort and optimal healing',
-    'Administering medications, IV therapy, and minor surgical assistance',
-    'Patient assessments, sterile techniques, and infection control',
-    'Emergency care and first aid support',
-    'Collaborating with medical and dental teams for holistic patient care'
-  ],
-  languages: ['English']
-},
-{
-  id: 9,
-  name: 'Syamkumar Sasidharan',
-  firstName: 'Syamkumar',
-  image: '/images/Syam.jpeg',
-  qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
-  rating: 5.0,
-  specialization: 'Ayurvedic Treatments & Holistic Wellness',
-  experience: '17+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
-    'Detoxification therapies and personalized lifestyle consultations',
-    'Holistic diagnosis and restoration of body imbalances',
-    'Stress relief and wellness-focused therapeutic treatments',
-    'Specialized therapies including Basti treatments and Nasya',
-    'Therapeutic massage techniques including Swedish and Deep Tissue massage'
-  ],
-  languages: ['English']
-},
-{
-  id: 10,
-  name: 'Dr. Fatooie',
-  firstName: 'Dr. Fatooie',
-  image: '/images/Fatooie.jpeg',
-  qualifications: 'MD (Dermatology)',
-  rating: 5.0,
-  specialization: 'Dermatology',
-  experience: '10 years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
-    'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
-    'Successfully treated 500+ patients with personalized skincare and treatment plans',
-  ],
-  languages: ['English']
-},
-{
-  id: 11,
-  name: 'Preethi',
-  firstName: 'Preethi',
-  image: '/images/Preethi.jpeg',
-  qualifications: 'Housekeeping',
-  rating: 5.0,
-  specialization: 'Housekeeping',
-  experience: '5+ Years of experience',
-  isDHALicensed: true,
-  expertise: [
-    'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
-    'Expertise in organizing, cleaning, and managing household tasks efficiently',
-    'Known for attention to detail, reliability, and creating a tidy, safe environment',
-  ],
-  languages: ['English']
-},
-{
+      id: 1,
+      name: 'Jeena Mathew',
+      firstName: 'Jeena',
+      image: '/images/Jeena Mathew.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 4.9,
+      specialization: 'Musculoskeletal Physiotherapy',
+      experience: '8+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Specialized in the treatment of musculoskeletal disorders',
+        'Expertise in pain management, mobility restoration & rehabilitation',
+        'Successfully treated 600+ patients with personalized physiotherapy programs'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 2,
+      name: 'Dr. Shamna Keloth Meethal',
+      firstName: 'Dr. Shamna Keloth',
+      image: '/images/Dr Shamna Keloth Meethal.jpeg',
+      qualifications: 'BAMS (Ayurveda Practitioner)',
+      rating: 4.8,
+      specialization: 'General Ayurveda & Preventive Care',
+      experience: '11+ Years Experience | DHA Licensed',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive clinical expertise in classical Ayurvedic treatments',
+        'Strong focus on preventive healthcare & lifestyle correction',
+        'Successfully treated 800+ patients with personalized Ayurvedic protocols'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 3,
+      name: 'Dr. Anan',
+      firstName: 'Dr. Anan',
+      image: '/images/Dr Anan.jpeg',
+      qualifications: 'BDS (General Dentist)',
+      rating: 5.0,
+      specialization: 'General Dentistry',
+      experience: '5+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive care in preventive and restorative dentistry',
+        'Expertise in routine dental procedures and oral health maintenance',
+        'Successfully treated 500+ patients with a gentle, patient-focused approach'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 4,
+    //   name: 'Maria Aisha Bustillos',
+    //   firstName: 'Aisha',
+    //   image: '/images/Aisha.jpeg',
+    //   qualifications: 'Computer Secretarial - Philippines',
+    //   rating: 5.0,
+    //   specialization: 'Front Desk & Patient Coordination',
+    //   experience: 'Professional experience in administrative support and clinic operations',
+    //   isDHALicensed: false,
+    //   expertise: [
+    //     'Managing appointment scheduling and patient inquiries',
+    //     'Ensuring smooth day-to-day clinic operations',
+    //     'Strong organizational skills and attention to detail',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 5,
+      name: 'Hafsina Karadi Kandy',
+      firstName: 'Hafsina',
+      image: '/images/Hafsina.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 5.0,
+      specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
+      experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
+      isDHALicensed: true,
+      expertise: [
+        'Patient assessment and personalized rehabilitation programs',
+        'Pain management and functional recovery for musculoskeletal conditions',
+        'Mobility restoration and post-injury rehabilitation',
+        'Compliance with UAE healthcare standards and clinic protocols',
+        'Collaborating with multidisciplinary teams for patient recovery'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 6,
+      name: 'Mildred L. Eugenio',
+      firstName: 'Mildred',
+      image: '/images/Mildred.jpeg',
+      qualifications: 'Bachelor of Science in Nursing – Philippines',
+      rating: 5.0,
+      specialization: 'Front Desk & Patient Coordination',
+      experience: 'Professional experience in administrative support and patient services.',
+      isDHALicensed: false,
+      expertise: [
+        'Managing appointment scheduling and patient inquiries',
+        'Ensuring smooth day-to-day clinic operations',
+        'Welcoming and assisting patients with professionalism and care',
+        'Strong organizational skills and attention to detail',
+        'Multitasking and client relations support'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 7,
+      name: 'Sonita Sinaga',
+      firstName: 'Sonita',
+      image: '/images/Sonita.jpeg',
+      qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
+      rating: 5.0,
+      specialization: 'Skincare, Laser Treatments & Wellness Therapy',
+      experience: '14+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Laser hair removal and skin rejuvenation treatments',
+        'Advanced facial therapies including HydraFacial and microdermabrasion',
+        'Chemical peels and pigmentation correction treatments',
+        'PRP, HIFU, and non-invasive skin rejuvenation procedures',
+        'Personalized aesthetic treatment planning'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 8,
+      name: 'Soumya Abraham',
+      firstName: 'Soumya',
+      image: '/images/Saumya.jpeg',
+      qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
+      rating: 5.0,
+      specialization: 'Dental, Aesthetic & General Nursing',
+      experience: '11+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Assisting with dental procedures and aesthetic treatments',
+        'Pre- and post-treatment patient care to ensure comfort and optimal healing',
+        'Administering medications, IV therapy, and minor surgical assistance',
+        'Patient assessments, sterile techniques, and infection control',
+        'Emergency care and first aid support',
+        'Collaborating with medical and dental teams for holistic patient care'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 9,
+      name: 'Syamkumar Sasidharan',
+      firstName: 'Syamkumar',
+      image: '/images/Syam.jpeg',
+      qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
+      rating: 5.0,
+      specialization: 'Ayurvedic Treatments & Holistic Wellness',
+      experience: '17+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
+        'Detoxification therapies and personalized lifestyle consultations',
+        'Holistic diagnosis and restoration of body imbalances',
+        'Stress relief and wellness-focused therapeutic treatments',
+        'Specialized therapies including Basti treatments and Nasya',
+        'Therapeutic massage techniques including Swedish and Deep Tissue massage'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 10,
+    //   name: 'Dr. Fatooie',
+    //   firstName: 'Dr. Fatooie',
+    //   image: '/images/Fatooie.jpeg',
+    //   qualifications: 'MD (Dermatology)',
+    //   rating: 5.0,
+    //   specialization: 'Dermatology',
+    //   experience: '10 years of professional experience ',
+    //   isDHALicensed: true,
+    //   expertise: [
+    //     'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
+    //     'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
+    //     'Successfully treated 500+ patients with personalized skincare and treatment plans',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 10,
+      name: 'Preethi',
+      firstName: 'Preethi',
+      image: '/images/Preethi.jpeg',
+      qualifications: 'Housekeeping',
+      rating: 5.0,
+      specialization: 'Housekeeping',
+      experience: '5+ Years of experience',
+      isDHALicensed: false,
+      expertise: [
+        'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
+        'Expertise in organizing, cleaning, and managing household tasks efficiently',
+        'Known for attention to detail, reliability, and creating a tidy, safe environment',
+      ],
+      languages: ['English']
+    },
+    {
+      id: 11,
+      name: 'Dr. Sahar Zomorrodi',
+      firstName: 'Dr. Sahar',
+      image: '/images/Sahar.jpeg',
+      qualifications: 'DHA-licensed General Practitioner',
+      rating: 5.0,
+      specialization: 'General Practitioner',
+      experience: '14 Years of experience',
+      isDHALicensed: true,
+      expertise: [
+        'Holds a diploma from the American Aesthetic Academy',
+        'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
+        'Committed to delivering safe, personalized, and results-driven care',
+      ],
+      languages: ['English']
+    },
+    {
   id: 12,
-  name: 'Dr. Sahar Zomorrodi',
-  firstName: 'Dr. Sahar',
-  image: '/images/Sahar.jpeg',
-  qualifications: 'DHA-licensed General Practitioner',
-  rating: 5.0,
-  specialization: 'General Practice & Aesthetic Medicine',
-  experience: '14 Years of experience',
+  name: 'Dr Mahrokh Fotooei',
+  firstName: 'Mahrokh',
+  image: '/images/Fatooie.jpeg',
+  qualifications: 'DHA-Licensed Dermatology and Aesthetic Specialist',
+  rating: 4.9,
+  specialization: 'Clinical & Aesthetic Dermatology',
+  experience: '6+ Years Experience',
   isDHALicensed: true,
   expertise: [
-    'Holds a diploma from the American Aesthetic Academy',
-    'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
-    'Committed to delivering safe, personalized, and results-driven care',
+    'Individualized, evidence-based dermatological care',
+    'Specialized in injectables and facial contouring',
+    'Expertise in thread lifting and non-surgical skin rejuvenation'
+  ],
+  languages: ['English']
+},
+{
+  id: 13,
+  name: 'Dr Hirbod Gilandoust',
+  firstName: 'Hirbod',
+  image: '/images/Hirbod.jpeg',
+  qualifications: 'DHA-Licensed Dentist',
+  rating: 4.8,
+  specialization: 'Esthetic Dentistry & Dental Surgery',
+  experience: '7+ Years Experience',
+  isDHALicensed: true,
+  expertise: [
+    'Advanced esthetic dental treatments',
+    'Dental restorations and prosthetics',
+    'Root canal treatments (Endodontics)',
+    'Comprehensive dental surgery procedures'
   ],
   languages: ['English']
 },
@@ -4185,219 +4355,253 @@ programs: {
       },
       doctors: [
         {
-          id: 1,
-          name: 'Jeena Mathew',
-          firstName: 'Jeena',
-           image: '/images/Jeena Mathew.jpeg',
-          qualifications: 'BPT, MPT (Physiotherapy)',
-          rating: 4.9,
-          specialization: 'Musculoskeletal Physiotherapy',
-          experience: '8+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Specialized in the treatment of musculoskeletal disorders',
-            'Expertise in pain management, mobility restoration & rehabilitation',
-            'Successfully treated 600+ patients with personalized physiotherapy programs'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 2,
-          name: 'Dr. Shamna Keloth Meethal',
-          firstName: 'Dr. Shamna Keloth',
-           image: '/images/Dr Shamna Keloth Meethal.jpeg',
-          qualifications: 'BAMS (Ayurveda Practitioner)',
-          rating: 4.8,
-          specialization: 'General Ayurveda & Preventive Care',
-          experience: '11+ Years Experience | DHA Licensed',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive clinical expertise in classical Ayurvedic treatments',
-            'Strong focus on preventive healthcare & lifestyle correction',
-            'Successfully treated 800+ patients with personalized Ayurvedic protocols'
-          ],
-          languages: ['English']
-        },
-        {
-          id: 3,
-          name: 'Dr. Anan',
-          firstName: 'Dr. Anan',
-           image: '/images/Dr Anan.jpeg',
-          qualifications: 'BDS (General Dentist)',
-          rating: 5.0,
-          specialization: 'General Dentistry',
-          experience: '5+ Years Experience',
-          isDHALicensed: true,
-          expertise: [
-            'Comprehensive care in preventive and restorative dentistry',
-            'Expertise in routine dental procedures and oral health maintenance',
-            'Successfully treated 500+ patients with a gentle, patient-focused approach'
-          ],
-          languages: ['English']
-        },
-          {
-          id: 4,
-          name: 'Maria Aisha Bustillos',
-          firstName: 'Aisha',
-          image: '/images/Aisha.jpeg',
-          qualifications: 'Computer Secretarial - Philippines',
-          rating: 5.0,
-          specialization: 'Front Desk & Patient Coordination',
-          experience: 'Professional experience in administrative support and clinic operations',
-          isDHALicensed: false,
-          expertise: [
-            'Managing appointment scheduling and patient inquiries',
-            'Ensuring smooth day-to-day clinic operations',
-            'Strong organizational skills and attention to detail',
-          ],
-          languages: ['English']
-        },
-       {
-  id: 5,
-  name: 'Hafsina Karadi Kandy',
-  firstName: 'Hafsina',
-  image: '/images/Hafsina.jpeg',
-  qualifications: 'BPT, MPT (Physiotherapy)',
-  rating: 5.0,
-  specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
-  experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
-  isDHALicensed: true,
-  expertise: [
-    'Patient assessment and personalized rehabilitation programs',
-    'Pain management and functional recovery for musculoskeletal conditions',
-    'Mobility restoration and post-injury rehabilitation',
-    'Compliance with UAE healthcare standards and clinic protocols',
-    'Collaborating with multidisciplinary teams for patient recovery'
-  ],
-  languages: ['English']
-},
-{
-  id: 6,
-  name: 'Mildred L. Eugenio',
-  firstName: 'Mildred',
-  image: '/images/Mildred.jpeg',
-  qualifications: 'Bachelor of Science in Nursing – Philippines',
-  rating: 5.0,
-  specialization: 'Front Desk & Patient Coordination',
-  experience: 'Professional experience in administrative support and patient services.',
-  isDHALicensed: false,
-  expertise: [
-    'Managing appointment scheduling and patient inquiries',
-    'Ensuring smooth day-to-day clinic operations',
-    'Welcoming and assisting patients with professionalism and care',
-    'Strong organizational skills and attention to detail',
-    'Multitasking and client relations support'
-  ],
-  languages: ['English']
-},
-{
-  id: 7,
-  name: 'Sonita Sinaga',
-  firstName: 'Sonita',
-  image: '/images/Sonita.jpeg',
-  qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
-  rating: 5.0,
-  specialization: 'Skincare, Laser Treatments & Wellness Therapy',
-  experience: '14+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Laser hair removal and skin rejuvenation treatments',
-    'Advanced facial therapies including HydraFacial and microdermabrasion',
-    'Chemical peels and pigmentation correction treatments',
-    'PRP, HIFU, and non-invasive skin rejuvenation procedures',
-    'Personalized aesthetic treatment planning'
-  ],
-  languages: ['English']
-},
-
-{
-  id: 8,
-  name: 'Soumya Abraham',
-  firstName: 'Soumya',
-  image: '/images/Saumya.jpeg',
-  qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
-  rating: 5.0,
-  specialization: 'Dental, Aesthetic & General Nursing',
-  experience: '11+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Assisting with dental procedures and aesthetic treatments',
-    'Pre- and post-treatment patient care to ensure comfort and optimal healing',
-    'Administering medications, IV therapy, and minor surgical assistance',
-    'Patient assessments, sterile techniques, and infection control',
-    'Emergency care and first aid support',
-    'Collaborating with medical and dental teams for holistic patient care'
-  ],
-  languages: ['English']
-},
-{
-  id: 9,
-  name: 'Syamkumar Sasidharan',
-  firstName: 'Syamkumar',
-  image: '/images/Syam.jpeg',
-  qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
-  rating: 5.0,
-  specialization: 'Ayurvedic Treatments & Holistic Wellness',
-  experience: '17+ years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
-    'Detoxification therapies and personalized lifestyle consultations',
-    'Holistic diagnosis and restoration of body imbalances',
-    'Stress relief and wellness-focused therapeutic treatments',
-    'Specialized therapies including Basti treatments and Nasya',
-    'Therapeutic massage techniques including Swedish and Deep Tissue massage'
-  ],
-  languages: ['English']
-},
-{
-  id: 10,
-  name: 'Dr. Fatooie',
-  firstName: 'Dr. Fatooie',
-  image: '/images/Fatooie.jpeg',
-  qualifications: 'MD (Dermatology)',
-  rating: 5.0,
-  specialization: 'Dermatology',
-  experience: '10 years of professional experience ',
-  isDHALicensed: true,
-  expertise: [
-    'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
-    'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
-    'Successfully treated 500+ patients with personalized skincare and treatment plans',
-  ],
-  languages: ['English']
-},
-{
-  id: 11,
-  name: 'Preethi',
-  firstName: 'Preethi',
-  image: '/images/Preethi.jpeg',
-  qualifications: 'Housekeeping',
-  rating: 5.0,
-  specialization: 'Housekeeping',
-  experience: '5+ Years of experience',
-  isDHALicensed: true,
-  expertise: [
-    'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
-    'Expertise in organizing, cleaning, and managing household tasks efficiently',
-    'Known for attention to detail, reliability, and creating a tidy, safe environment',
-  ],
-  languages: ['English']
-},
-{
+      id: 1,
+      name: 'Jeena Mathew',
+      firstName: 'Jeena',
+      image: '/images/Jeena Mathew.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 4.9,
+      specialization: 'Musculoskeletal Physiotherapy',
+      experience: '8+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Specialized in the treatment of musculoskeletal disorders',
+        'Expertise in pain management, mobility restoration & rehabilitation',
+        'Successfully treated 600+ patients with personalized physiotherapy programs'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 2,
+      name: 'Dr. Shamna Keloth Meethal',
+      firstName: 'Dr. Shamna Keloth',
+      image: '/images/Dr Shamna Keloth Meethal.jpeg',
+      qualifications: 'BAMS (Ayurveda Practitioner)',
+      rating: 4.8,
+      specialization: 'General Ayurveda & Preventive Care',
+      experience: '11+ Years Experience | DHA Licensed',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive clinical expertise in classical Ayurvedic treatments',
+        'Strong focus on preventive healthcare & lifestyle correction',
+        'Successfully treated 800+ patients with personalized Ayurvedic protocols'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 3,
+      name: 'Dr. Anan',
+      firstName: 'Dr. Anan',
+      image: '/images/Dr Anan.jpeg',
+      qualifications: 'BDS (General Dentist)',
+      rating: 5.0,
+      specialization: 'General Dentistry',
+      experience: '5+ Years Experience',
+      isDHALicensed: true,
+      expertise: [
+        'Comprehensive care in preventive and restorative dentistry',
+        'Expertise in routine dental procedures and oral health maintenance',
+        'Successfully treated 500+ patients with a gentle, patient-focused approach'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 4,
+    //   name: 'Maria Aisha Bustillos',
+    //   firstName: 'Aisha',
+    //   image: '/images/Aisha.jpeg',
+    //   qualifications: 'Computer Secretarial - Philippines',
+    //   rating: 5.0,
+    //   specialization: 'Front Desk & Patient Coordination',
+    //   experience: 'Professional experience in administrative support and clinic operations',
+    //   isDHALicensed: false,
+    //   expertise: [
+    //     'Managing appointment scheduling and patient inquiries',
+    //     'Ensuring smooth day-to-day clinic operations',
+    //     'Strong organizational skills and attention to detail',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 5,
+      name: 'Hafsina Karadi Kandy',
+      firstName: 'Hafsina',
+      image: '/images/Hafsina.jpeg',
+      qualifications: 'BPT, MPT (Physiotherapy)',
+      rating: 5.0,
+      specialization: 'Physiotherapy – Musculoskeletal & Rehabilitation',
+      experience: 'Physiotherapist with hands-on clinical experience in patient care and rehabilitation programs.',
+      isDHALicensed: true,
+      expertise: [
+        'Patient assessment and personalized rehabilitation programs',
+        'Pain management and functional recovery for musculoskeletal conditions',
+        'Mobility restoration and post-injury rehabilitation',
+        'Compliance with UAE healthcare standards and clinic protocols',
+        'Collaborating with multidisciplinary teams for patient recovery'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 6,
+      name: 'Mildred L. Eugenio',
+      firstName: 'Mildred',
+      image: '/images/Mildred.jpeg',
+      qualifications: 'Bachelor of Science in Nursing – Philippines',
+      rating: 5.0,
+      specialization: 'Front Desk & Patient Coordination',
+      experience: 'Professional experience in administrative support and patient services.',
+      isDHALicensed: false,
+      expertise: [
+        'Managing appointment scheduling and patient inquiries',
+        'Ensuring smooth day-to-day clinic operations',
+        'Welcoming and assisting patients with professionalism and care',
+        'Strong organizational skills and attention to detail',
+        'Multitasking and client relations support'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 7,
+      name: 'Sonita Sinaga',
+      firstName: 'Sonita',
+      image: '/images/Sonita.jpeg',
+      qualifications: 'Licensed & Certified Aesthetic Therapist | NCLC Laser Certified',
+      rating: 5.0,
+      specialization: 'Skincare, Laser Treatments & Wellness Therapy',
+      experience: '14+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Laser hair removal and skin rejuvenation treatments',
+        'Advanced facial therapies including HydraFacial and microdermabrasion',
+        'Chemical peels and pigmentation correction treatments',
+        'PRP, HIFU, and non-invasive skin rejuvenation procedures',
+        'Personalized aesthetic treatment planning'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 8,
+      name: 'Soumya Abraham',
+      firstName: 'Soumya',
+      image: '/images/Saumya.jpeg',
+      qualifications: 'Diploma in General Nursing and Midwifery | BLS Certified ',
+      rating: 5.0,
+      specialization: 'Dental, Aesthetic & General Nursing',
+      experience: '11+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Assisting with dental procedures and aesthetic treatments',
+        'Pre- and post-treatment patient care to ensure comfort and optimal healing',
+        'Administering medications, IV therapy, and minor surgical assistance',
+        'Patient assessments, sterile techniques, and infection control',
+        'Emergency care and first aid support',
+        'Collaborating with medical and dental teams for holistic patient care'
+      ],
+      languages: ['English']
+    },
+    {
+      id: 9,
+      name: 'Syamkumar Sasidharan',
+      firstName: 'Syamkumar',
+      image: '/images/Syam.jpeg',
+      qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
+      rating: 5.0,
+      specialization: 'Ayurvedic Treatments & Holistic Wellness',
+      experience: '17+ years of professional experience ',
+      isDHALicensed: true,
+      expertise: [
+        'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
+        'Detoxification therapies and personalized lifestyle consultations',
+        'Holistic diagnosis and restoration of body imbalances',
+        'Stress relief and wellness-focused therapeutic treatments',
+        'Specialized therapies including Basti treatments and Nasya',
+        'Therapeutic massage techniques including Swedish and Deep Tissue massage'
+      ],
+      languages: ['English']
+    },
+    // {
+    //   id: 10,
+    //   name: 'Dr. Fatooie',
+    //   firstName: 'Dr. Fatooie',
+    //   image: '/images/Fatooie.jpeg',
+    //   qualifications: 'MD (Dermatology)',
+    //   rating: 5.0,
+    //   specialization: 'Dermatology',
+    //   experience: '10 years of professional experience ',
+    //   isDHALicensed: true,
+    //   expertise: [
+    //     'Specialized in diagnosis and treatment of skin, hair, and nail disorders',
+    //     'Expertise in cosmetic dermatology, laser treatments, and skin rejuvenation',
+    //     'Successfully treated 500+ patients with personalized skincare and treatment plans',
+    //   ],
+    //   languages: ['English']
+    // },
+    {
+      id: 10,
+      name: 'Preethi',
+      firstName: 'Preethi',
+      image: '/images/Preethi.jpeg',
+      qualifications: 'Housekeeping',
+      rating: 5.0,
+      specialization: 'Housekeeping',
+      experience: '5+ Years of experience',
+      isDHALicensed: false,
+      expertise: [
+        'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
+        'Expertise in organizing, cleaning, and managing household tasks efficiently',
+        'Known for attention to detail, reliability, and creating a tidy, safe environment',
+      ],
+      languages: ['English']
+    },
+    {
+      id: 11,
+      name: 'Dr. Sahar Zomorrodi',
+      firstName: 'Dr. Sahar',
+      image: '/images/Sahar.jpeg',
+      qualifications: 'DHA-licensed General Practitioner',
+      rating: 5.0,
+      specialization: 'General Practitioner',
+      experience: '14 Years of experience',
+      isDHALicensed: true,
+      expertise: [
+        'Holds a diploma from the American Aesthetic Academy',
+        'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
+        'Committed to delivering safe, personalized, and results-driven care',
+      ],
+      languages: ['English']
+    },
+    {
   id: 12,
-  name: 'Dr. Sahar Zomorrodi',
-  firstName: 'Dr. Sahar',
-  image: '/images/Sahar.jpeg',
-  qualifications: 'DHA-licensed General Practitioner',
-  rating: 5.0,
-  specialization: 'General Practice & Aesthetic Medicine',
-  experience: '14 Years of experience',
+  name: 'Dr Mahrokh Fotooei',
+  firstName: 'Mahrokh',
+  image: '/images/Fatooie.jpeg',
+  qualifications: 'DHA-Licensed Dermatology and Aesthetic Specialist',
+  rating: 4.9,
+  specialization: 'Clinical & Aesthetic Dermatology',
+  experience: '6+ Years Experience',
   isDHALicensed: true,
   expertise: [
-    'Holds a diploma from the American Aesthetic Academy',
-    'Skilled in non-surgical cosmetic procedures, skin rejuvenation, and anti-aging treatments',
-    'Committed to delivering safe, personalized, and results-driven care',
+    'Individualized, evidence-based dermatological care',
+    'Specialized in injectables and facial contouring',
+    'Expertise in thread lifting and non-surgical skin rejuvenation'
+  ],
+  languages: ['English']
+},
+{
+  id: 13,
+  name: 'Dr Hirbod Gilandoust',
+  firstName: 'Hirbod',
+  image: '/images/Hirbod.jpeg',
+  qualifications: 'DHA-Licensed Dentist',
+  rating: 4.8,
+  specialization: 'Esthetic Dentistry & Dental Surgery',
+  experience: '7+ Years Experience',
+  isDHALicensed: true,
+  expertise: [
+    'Advanced esthetic dental treatments',
+    'Dental restorations and prosthetics',
+    'Root canal treatments (Endodontics)',
+    'Comprehensive dental surgery procedures'
   ],
   languages: ['English']
 },
