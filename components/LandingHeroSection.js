@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section
       className="relative flex items-center min-h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/Images/HOME.png')" }}
+      style={{ backgroundImage: "url('/images/HOME.png')" }}
     >
       <div className="relative z-10 w-full px-6 py-20 md:py-24 lg:py-28 md:px-10 lg:px-16 xl:px-24">
         <div className="max-w-[1100px] flex flex-col gap-5 text-left">

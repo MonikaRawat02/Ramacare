@@ -6,8 +6,8 @@ export default function ResultsSection() {
   const results = [
     {
       title: 'Jawline Definition',
-      before: '/images/jawline1.jpg',
-      after: '/images/jawline2.jpg',
+      before: '/images/Jawline1.jpg',
+      after: '/images/Jawline2.jpg',
     },
     {
       title: 'Full Face Rejuvenation',
