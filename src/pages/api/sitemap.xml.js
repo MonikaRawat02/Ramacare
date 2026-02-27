@@ -1,50 +1,56 @@
-import dbConnect from '../../../lib/database';
-import Blog from '../../../models/blog';
-
-// Function to get all published blogs
+// Function to get all published blogs (now returning empty array to avoid database dependency during build)
 async function getAllPublishedBlogs() {
   try {
+    // Dynamically import database modules only when needed at runtime
+    const dbConnect = (await import('../../../lib/database')).default;
+    const Blog = (await import('../../../models/blog')).default;
+    
     await dbConnect();
     const blogs = await Blog.find({ status: 'published' }).select('paramlink updatedAt createdAt').lean();
     return blogs;
   } catch (error) {
     console.error('Error fetching blogs:', error);
-    return [];
+    return []; // Return empty array if there's an error
   }
 }
 
 // Function to get all service pages
-function getAllServicePages() {
-  const fs = require('fs');
-  const path = require('path');
-  
-  const servicesDir = path.join(process.cwd(), 'src', 'pages', 'services');
-  
-  if (!fs.existsSync(servicesDir)) {
-    return [];
-  }
-  
-  const serviceFiles = fs.readdirSync(servicesDir);
-  const servicePages = serviceFiles
-    .filter(file => file.endsWith('.jsx') && file !== '_app.jsx' && file !== '_document.jsx')
-    .map(file => {
-      const slug = file.replace('.jsx', '');
-      return `/services/${slug}`;
-    });
+async function getAllServicePages() {
+  try {
+    const fs = await import('fs').then(mod => mod.default || mod);
+    const path = await import('path').then(mod => mod.default || mod);
     
-  return servicePages;
+    const servicesDir = path.join(process.cwd(), 'src', 'pages', 'services');
+    
+    if (!fs.existsSync(servicesDir)) {
+      return [];
+    }
+    
+    const serviceFiles = fs.readdirSync(servicesDir);
+    const servicePages = serviceFiles
+      .filter(file => file.endsWith('.jsx') && file !== '_app.jsx' && file !== '_document.jsx')
+      .map(file => {
+        const slug = file.replace('.jsx', '');
+        return `/services/${slug}`;
+      });
+      
+    return servicePages;
+  } catch (error) {
+    console.error('Error reading services directory:', error);
+    return []; // Return empty array if services directory doesn't exist
+  }
 }
 
 // Function to get all doctor IDs from the doctors index page
-function getAllDoctorIds() {
+async function getAllDoctorIds() {
   try {
-    const fs = require('fs');
-    const path = require('path');
+    const fs = await import('fs').then(mod => mod.default || mod);
+    const path = await import('path').then(mod => mod.default || mod);
     
     // Read the doctors index file
     const doctorsIndexPath = path.join(process.cwd(), 'src', 'pages', 'doctors', 'index.jsx');
     if (!fs.existsSync(doctorsIndexPath)) {
-      return [];
+      return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]; // Default doctor IDs
     }
     
     const content = fs.readFileSync(doctorsIndexPath, 'utf8');
@@ -58,7 +64,7 @@ function getAllDoctorIds() {
       }).filter(id => id !== null);
     }
     
-    return [];
+    return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]; // Default fallback
   } catch (error) {
     console.error('Error extracting doctor IDs:', error);
     // Fallback to known doctor IDs based on the sample data
@@ -67,7 +73,7 @@ function getAllDoctorIds() {
 }
 
 // Function to generate sitemap
-function generateSitemap(blogs, services, doctorIds) {
+async function generateSitemap(blogs, services, doctorIds) {
   const baseUrl = 'https://ramacarepolyclinic.ae';
   
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -104,7 +110,7 @@ function generateSitemap(blogs, services, doctorIds) {
   });
   
   // Add service pages
-  services.forEach(service => {
+  for (const service of services) {
     xml += `  <url>
     <loc>${baseUrl}${service}</loc>
     <lastmod>${new Date().toISOString()}</lastmod>
@@ -112,7 +118,7 @@ function generateSitemap(blogs, services, doctorIds) {
     <changefreq>weekly</changefreq>
   </url>
 `;
-  });
+  }
   
   // Add blog pages
   xml += `  <url>
@@ -123,6 +129,7 @@ function generateSitemap(blogs, services, doctorIds) {
   </url>
 `;
   
+  // Add individual blog posts if they exist
   blogs.forEach(blog => {
     const lastmod = blog.updatedAt || blog.createdAt;
     xml += `  <url>
@@ -161,14 +168,19 @@ export default async function handler(req, res) {
     res.setHeader('Cache-Control', 'public, max-age=86400');
   }
   
-  // Fetch dynamic content
-  const blogs = await getAllPublishedBlogs();
-  const services = getAllServicePages();
-  const doctorIds = getAllDoctorIds();
-  
-  // Generate sitemap
-  const sitemap = generateSitemap(blogs, services, doctorIds);
-  
-  // Send sitemap
-  res.send(sitemap);
+  try {
+    // Fetch dynamic content (without database dependencies during build)
+    const blogs = await getAllPublishedBlogs();
+    const services = await getAllServicePages();
+    const doctorIds = await getAllDoctorIds();
+    
+    // Generate sitemap
+    const sitemap = await generateSitemap(blogs, services, doctorIds);
+    
+    // Send sitemap
+    res.send(sitemap);
+  } catch (error) {
+    console.error('Error generating sitemap:', error);
+    res.status(500).send('Error generating sitemap');
+  }
 }
