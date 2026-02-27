@@ -27,6 +27,50 @@ export default function SignatureHydraFacialPage() {
   <title>Signature HydraFacial Dubai – Glowing Skin at RamaCare</title>
   <meta name="description" content="Signature HydraFacial in Dubai at RamaCare rejuvenates and hydrates skin, leaving it refreshed, radiant, and healthy under expert supervision." />
   <meta name="keywords" content="Signature HydraFacial Dubai, HydraFacial treatment Dubai, Glowing skin facial in Dubai, Skin rejuvenation Dubai, Hydrating facial treatment, Anti-aging facial in Dubai, Professional facial in Dubai, Deep cleansing facial in Dubai, Radiant skin therapy, RamaCare HydraFacial" />
+   <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalProcedure",
+              "@id": "https://ramacarepolyclinic.ae/services/signature-hydra-facial-dubai#procedure",
+              "name": "Signature Hydra Facial in Dubai",
+              "alternateName": "HydraFacial Skin Treatment",
+              "url": "https://ramacarepolyclinic.ae/services/signature-hydra-facial-dubai",
+              "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/signature-hydra-facial-dubai",
+              "description": "The Signature Hydra Facial is a non-invasive skin rejuvenation treatment that deeply cleanses, exfoliates, extracts impurities, and infuses the skin with hydrating serums to improve texture, hydration, and overall radiance. It is suitable for dry, dull, or sensitive skin and helps reduce fine lines and uneven tone.",
+              "procedureType": "Non-invasive dermatological facial treatment",
+              "howPerformed": "Performed by skincare specialists, the procedure involves multi-step cleansing, exfoliation, extraction of impurities, and infusion of hydrating and antioxidant serums tailored to the skin’s needs.",
+              "preparation": "Minimal preparation is needed; patients should arrive with clean skin and avoid heavy makeup before the session.",
+              "followup": "Repeat sessions monthly or as advised by clinicians help maintain hydration, glow, and skin health.",
+              "indication": [
+                "Dry or dull skin",
+                "Uneven skin texture",
+                "Fine lines and wrinkles",
+                "Pigmentation concerns",
+                "Congested pores"
+              ],
+              "provider": {
+                "@type": "MedicalBusiness",
+                "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+                  "addressLocality": "Jumeirah 1",
+                  "addressRegion": "Dubai",
+                  "postalCode": "393558",
+                  "addressCountry": "AE"
+                },
+                "telephone": "+971566597878",
+                "areaServed": {
+                  "@type": "City",
+                  "name": "Dubai"
+                },
+                "priceRange": "$$"
+              }
+            })
+          }}
+        />
 </Head>
 
     <TreatmentHero 

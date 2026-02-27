@@ -27,6 +27,67 @@ export default function ManagementofAllergyPage() {
   <title>Management of Allergy in Dubai With Expert Medical Care</title>
   <meta name="description" content="Management of allergy in Dubai provides personalised care for skin, food, respiratory, and seasonal allergies with accurate diagnosis and long-term relief plans." />
   <meta name="keywords" content="Management of allergy in Dubai, Allergy treatment Dubai, Allergy clinic Dubai, Skin allergy treatment Dubai, Respiratory allergy treatment in Dubai, Food allergy management in Dubai, Seasonal allergy care Dubai, Chronic allergy treatment in Dubai, Allergy specialist Dubai, Allergy diagnosis and treatment in Dubai" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai#condition",
+          "name": "Allergic Conditions",
+          "alternateName": "Allergies",
+          "url": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai",
+          "description": "Allergic conditions include immune system reactions to substances such as pollen, food, dust, insect bites, and medications, which can lead to symptoms such as itching, sneezing, rashes, swelling, and respiratory difficulty.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Allergy Management Therapy",
+            "description": "Structured allergy management involving clinical evaluation, diagnostics, avoidance strategies, and guided treatment plans provided by trained healthcare professionals."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai#procedure",
+          "name": "Management of Allergy in Dubai",
+          "alternateName": "Allergy Treatment",
+          "url": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai",
+          "description": "Allergy management in Dubai at RamaCare Polyclinic offers comprehensive evaluation and personalized treatment plans for allergic conditions including skin allergies, food sensitivities, respiratory allergies, and more, guided by qualified clinicians.",
+          "procedureType": "Allergy evaluation and management",
+          "howPerformed": "Allergy management starts with a detailed history and clinical assessment, followed by appropriate diagnostic testing. Treatment plans may include avoidance strategies, medications, lifestyle guidance, and monitoring.",
+          "preparation": "Patients may be advised to prepare an allergy history, list of triggers, and any medication history prior to evaluation.",
+          "followup": "Follow-up visits and progress monitoring are recommended to adjust treatment plans as needed.",
+          "indication": [
+            "Skin allergies",
+            "Respiratory allergies",
+            "Food sensitivities",
+            "Seasonal allergic reactions",
+            "Environmental allergies"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Allergy & General Healthcare",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 

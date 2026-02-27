@@ -3,6 +3,7 @@ Disallow: /tag/
 Disallow: /author/
 Disallow: /*?elementskit_template=
 Disallow: /*?replytocom=
+Disallow: /best-fillers-in-dubai
 
 Allow: /
 

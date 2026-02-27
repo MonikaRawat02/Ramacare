@@ -27,6 +27,54 @@ export default function UltrasoundTherapyPage() {
   <title>Ultrasound Therapy in Dubai | Safe Pain Relief Treatment</title>
   <meta name="description" content="Ultrasound therapy in Dubai helps reduce pain, improve mobility, and speed up healing for muscle and joint conditions with safe, guided physiotherapy care." />
   <meta name="keywords" content="Ultrasound therapy in Dubai, Therapeutic ultrasound Dubai, Ultrasound physiotherapy Dubai, Pain relief ultrasound therapy, Muscle injury treatment in Dubai, Joint pain therapy in Dubai, Sports injury ultrasound therapy, Physiotherapy ultrasound treatment, Rehabilitation therapy Dubai, Non-surgical pain treatment in Dubai" />
+   <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "@id": "https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai#procedure",
+  "name": "Ultrasound Therapy in Dubai",
+  "alternateName": "Therapeutic Ultrasound Treatment",
+  "url": "https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai",
+  "description": "Ultrasound Therapy in Dubai at RamaCare Polyclinic offers advanced therapeutic ultrasound treatment for pain relief, soft tissue healing, and musculoskeletal rehabilitation provided by experienced physiotherapists.",
+  "procedureType": "Physical therapy",
+  "bodyLocation": "Musculoskeletal system",
+  "howPerformed": "Ultrasound therapy is performed using a therapeutic ultrasound device that emits sound waves into affected tissues to stimulate circulation, reduce pain, and promote healing. A trained physiotherapist applies the ultrasound gel and moves the ultrasound head over the treatment area.",
+  "preparation": "No special preparation is normally required. Patients may be advised to wear comfortable clothing to expose the area being treated.",
+  "followup": "Follow-up sessions and progress evaluation are recommended to optimize therapy outcomes.",
+  "indication": [
+    "Muscle pain",
+    "Joint stiffness",
+    "Tendon irritation",
+    "Soft tissue injury",
+    "Inflammation reduction"
+  ],
+  "possibleComplication": "Temporary mild warmth at the treatment site may occur.",
+  "provider": {
+    "@type": "MedicalBusiness",
+    "name": "RamaCare Polyclinic – Physiotherapy Department",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "priceRange": "$$"
+  }
+}
+    `,
+  }}
+/>
 </Head>
 
       <TreatmentHero 

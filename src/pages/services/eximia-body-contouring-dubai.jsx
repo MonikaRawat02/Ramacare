@@ -27,6 +27,67 @@ export default function BodyShapingPage() {
   <title>Eximia Body Contouring in Dubai for Slim and Toned Body</title>
   <meta name="description" content="Eximia body contouring in Dubai helps reduce fat, tighten skin, and sculpt your body safely using advanced non-invasive technology under expert care." />
   <meta name="keywords" content="Eximia body contouring Dubai, Non-surgical body sculpting Dubai, Fat reduction treatment Dubai, Skin tightening Dubai, Body slimming treatment Dubai, Professional body contouring, Non-invasive fat removal, Toned body treatment Dubai, Body shaping therapy, Expert body contouring clinic" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai#condition",
+          "name": "Localized Fat Deposits, Loose Skin, and Cellulite",
+          "alternateName": "Body Contouring Concerns, Stubborn Fat Pockets",
+          "url": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai",
+          "description": "Localized fat deposits, loose skin, and cellulite can resist diet and exercise. Eximia body contouring treatments are non‑surgical options that help break down fat, tighten skin, and improve body contours under clinical supervision. ",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Eximia Body Contouring Therapy",
+            "description": "Eximia body contouring therapy uses a combination of radiofrequency, ultrasound, vacuum massage, and mechanical stimulation to target stubborn fat, enhance circulation, tighten skin, and smooth cellulite for improved body tone and shape."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai#procedure",
+          "name": "Eximia Body Contouring in Dubai",
+          "alternateName": "Non‑Surgical Body Contouring Treatment",
+          "url": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai",
+          "description": "Eximia Body Contouring at RamaCare Polyclinic in Dubai is a non‑surgical, non‑invasive body shaping procedure that combines advanced technologies to reduce localized fat, firm lax skin, and improve body contours with minimal downtime. ",
+          "procedureType": "Non‑invasive body contouring procedure",
+          "howPerformed": "After an initial consultation and body assessment, clinicians select customized Eximia settings that utilize radiofrequency, ultrasound, and mechanical stimuli. Sessions typically last 30‑60 minutes and involve controlled energy delivery to the treatment areas to stimulate fat breakdown, tighten skin tissue, and improve circulation. ",
+          "preparation": "Patients should share a full medical history, avoid excessive sun exposure on treatment areas, and follow clinician guidance on skin preparation prior to sessions. ",
+          "followup": "Post‑treatment care includes hydration guidance, monitoring healing and contour improvements, and scheduling follow‑up sessions as needed to achieve optimal results. ",
+          "indication": [
+            "Localized stubborn fat resistant to diet and exercise",
+            "Loose, sagging skin on body areas",
+            "Visible cellulite and uneven skin texture",
+            "Post‑weight loss body laxity",
+            "Individuals seeking non‑surgical body contouring"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 

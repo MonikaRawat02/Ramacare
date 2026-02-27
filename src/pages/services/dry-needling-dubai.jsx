@@ -27,6 +27,51 @@ export default function DryNeedlingPage() {
   <title>Dry Needling Therapy in Dubai for Muscle Pain Relief</title>
   <meta name="description" content="Dry needling therapy in Dubai helps reduce muscle pain, release trigger points, and improve movement. Safe, evidence-based care provided by licensed physiotherapists." />
   <meta name="keywords" content="Dry needling therapy in Dubai, Dry needling treatment Dubai, Dry needling Dubai price, Trigger point therapy Dubai, Physiotherapy dry needling Dubai, Muscle pain treatment Dubai, Sports injury physiotherapy Dubai, Dry needling near me, Pain relief physiotherapy Dubai" />
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "MedicalProcedure",
+        "@id": "https://ramacarepolyclinic.ae/services/dry-needling-dubai#procedure",
+        "name": "Dry Needling in Dubai",
+        "alternateName": "Therapeutic Dry Needling Treatment",
+        "url": "https://ramacarepolyclinic.ae/services/dry-needling-dubai",
+        "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/dry-needling-dubai",
+        "description": "Dry needling in Dubai at RamaCare Polyclinic is a therapeutic physiotherapy technique used to alleviate muscle pain, reduce trigger points, and improve musculoskeletal function, administered by experienced physiotherapy practitioners.",
+        "procedureType": "Physical therapy technique",
+        "bodyLocation": "Muscles and connective tissues",
+        "howPerformed": "Dry needling is performed using thin sterile needles inserted into trigger points and tight muscle bands to release tension, reduce pain, and improve muscle function. Sessions are guided by qualified physiotherapists.",
+        "preparation": "Patients are advised to wear comfortable clothing and report existing pain areas prior to therapy. No special fasting or preparation is required.",
+        "followup": "Follow-up sessions and re-evaluations are recommended to assess progress and update treatment plans.",
+        "indication": [
+          "Muscle pain and tension",
+          "Trigger point pain",
+          "Reduced muscle flexibility",
+          "Musculoskeletal dysfunction"
+        ],
+        "possibleComplication": "Temporary muscle soreness or mild bruising may occur at needle sites.",
+        "provider": {
+          "@type": "MedicalBusiness",
+          "name": "RamaCare Polyclinic – Physiotherapy & Rehabilitation Department",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+            "addressLocality": "Jumeirah 1",
+            "addressRegion": "Dubai",
+            "postalCode": "393558",
+            "addressCountry": "AE"
+          },
+          "telephone": "+971 56 659 7878",
+          "areaServed": {
+            "@type": "City",
+            "name": "Dubai"
+          },
+          "priceRange": "$$"
+        }
+      })
+    }}
+  />
 </Head>
 
      <TreatmentHero 

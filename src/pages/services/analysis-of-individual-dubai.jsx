@@ -27,6 +27,52 @@ export default function AnalysisOfIndividualTreatmentPage() {
   <title>Individual Analysis in Dubai | Ayurvedic Health Assessment</title>
   <meta name="description" content="Get a personalized analysis of your health in Dubai. Ayurvedic experts assess your dosha, lifestyle, and body constitution to create natural wellness plans." />
   <meta name="keywords" content="Analysis of the individual Dubai, Ayurvedic body analysis Dubai, Dosha assessment Dubai, Personalized Ayurveda Dubai, Ayurvedic consultation in Dubai, Health evaluation in Dubai, Holistic wellness Dubai, Ayurvedic lifestyle guidance, Natural treatment Dubai, Ayurveda expert in Dubai, Individual health assessment, Traditional Ayurveda Dubai" />
+    <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: `
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "@id": "https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai#procedure",
+  "name": "Individual Health Analysis in Dubai",
+  "alternateName": "Comprehensive Health Assessment",
+  "url": "https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai",
+  "description": "Individual Health Analysis in Dubai at RamaCare Polyclinic provides a thorough and personalized examination of your overall health using advanced diagnostics, expert clinical evaluations, and lifestyle assessments to identify health needs and risks early.",
+  "procedureType": "Health assessment and diagnostic evaluation",
+  "bodyLocation": "Whole body",
+  "howPerformed": "The analysis starts with a detailed consultation about medical history and lifestyle, followed by diagnostic tests, physical assessment, and lifestyle evaluation. Results are reviewed to create a personalized wellness and treatment plan.",
+  "preparation": "Patients may need to undergo fasting prior to certain tests. Instructions are provided before the appointment.",
+  "followup": "Results are explained in detail with tailored recommendations and a follow-up plan for monitoring and ongoing care.",
+  "indication": [
+    "Preventive healthcare evaluation",
+    "Chronic condition risk assessment",
+    "Lifestyle and nutritional assessment",
+    "Overall health optimisation"
+  ],
+  "provider": {
+    "@type": "MedicalBusiness",
+    "name": "RamaCare Polyclinic - Comprehensive Care Department",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "priceRange": "$$"
+  }
+}
+      `,
+    }}
+  />
 </Head>
 
     <TreatmentHero 

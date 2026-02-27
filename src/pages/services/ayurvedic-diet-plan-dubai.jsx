@@ -27,6 +27,53 @@ export default function AyurvedicDietPlanPage() {
   <title>Ayurvedic Diet Plan in Dubai | Personalized Meal Guidance</title>
   <meta name="description" content="Follow a personalized Ayurvedic diet plan in Dubai to balance your doshas, support digestion, boost immunity, and maintain a healthy weight naturally and safely." />
   <meta name="keywords" content="Ayurvedic diet plan Dubai, Dosha-based diet Dubai, Ayurvedic meal plan Dubai, Personalized diet plan Dubai, Ayurvedic nutrition Dubai, Weight Management Ayurveda Dubai, Digestive Health Ayurveda Dubai, Immunity-boosting diet in Dubai, Healthy eating Ayurveda Dubai, Ayurveda lifestyle Dubai, Herbal diet recommendations in Dubai, Ayurvedic food types in Dubai" />
+   <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "@id": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai#procedure",
+  "name": "Ayurvedic Diet Plan in Dubai",
+  "alternateName": "Personalized Ayurvedic Nutrition Plan",
+  "url": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai",
+  "description": "Ayurvedic Diet Plan in Dubai at RamaCare Polyclinic offers personalized nutrition guidance based on Ayurvedic principles to support wellness, balance body constitution, improve digestion and promote holistic health.",
+  "procedureType": "Therapeutic dietary consultation",
+  "bodyLocation": "Whole body",
+  "howPerformed": "The treatment includes an Ayurvedic consultation to assess body constitution (dosha), followed by personalized diet recommendations using traditional Ayurvedic nutrition principles tailored to your health goals.",
+  "preparation": "Patients are advised to prepare their current diet history and details of lifestyle habits before the consultation.",
+  "followup": "Regular monitoring and follow-up consultations are recommended to adjust diet plans, assess progress and adapt nutritional recommendations.",
+  "indication": [
+    "Digestive imbalance",
+    "Weight management",
+    "Overall wellness",
+    "Stress and metabolic support"
+  ],
+  "possibleComplication": "No serious complications; some initial adjustment to dietary changes may occur.",
+  "provider": {
+    "@type": "MedicalBusiness",
+    "name": "RamaCare Polyclinic – Ayurvedic & Wellness Department",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "priceRange": "$$"
+  }
+}
+    `,
+  }}
+/>
 </Head>
 
       <TreatmentHero 

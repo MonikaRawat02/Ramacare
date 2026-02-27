@@ -27,6 +27,67 @@ export default function FractionalCo2LaserPage() {
   <title>Fractional CO2 Laser in Dubai for Skin Resurfacing</title>
   <meta name="description" content="Fractional CO2 laser in Dubai improves skin texture, reduces scars, fine lines, and pigmentation, delivering smoother, youthful skin under expert care." />
   <meta name="keywords" content="Fractional CO2 laser Dubai, Skin resurfacing Dubai, Scar removal treatment Dubai, Acne scar treatment Dubai, Fine lines reduction Dubai, Pigmentation treatment Dubai, Non-surgical skin rejuvenation, Laser skin treatment Dubai, Professional CO2 laser therapy, Anti-aging skin treatment" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai#condition",
+          "name": "Skin Texture Irregularities, Scarring & Aging Signs",
+          "alternateName": "Fine Lines, Wrinkles, Acne Scars & Uneven Texture",
+          "url": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai",
+          "description": "Skin texture irregularities, fine lines, wrinkles, acne scars, stretch marks, and other surface irregularities can impact skin smoothness and appearance. Fractional CO2 laser therapy helps improve these conditions by stimulating skin remodeling and collagen regeneration.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Fractional CO2 Laser Therapy",
+            "description": "Fractional CO2 laser therapy is a minimally invasive dermatologic laser procedure that uses controlled fractional laser energy to resurface the skin, improve texture, reduce scars, and stimulate new collagen formation for smoother, younger‑looking skin."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai#procedure",
+          "name": "Fractional CO2 Laser Treatment in Dubai",
+          "alternateName": "CO2 Laser Skin Resurfacing & Texture Correction",
+          "url": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai",
+          "description": "Fractional CO2 laser treatment at RamaCare Polyclinic in Dubai is an advanced, minimally invasive laser procedure designed to improve skin texture, reduce fine lines and wrinkles, and treat acne scars and other surface irregularities by promoting collagen remodeling.",
+          "procedureType": "Minimally invasive laser dermatologic procedure",
+          "howPerformed": "A trained clinician delivers controlled fractional carbon dioxide laser energy in micro‑columns into the skin. This stimulates natural wound healing and collagen production, resurfacing aged or scarred skin while leaving surrounding tissue intact for faster healing.",
+          "preparation": "Patients are advised to avoid recent sun exposure, certain skincare products (like retinoids), and harsh exfoliants before treatment. Clinicians will review medical history, skin condition, and set expectations during a consultation.",
+          "followup": "Follow‑up care includes monitoring healing, providing wound care guidance, and scheduling additional sessions if needed to achieve optimal results. Patients may experience temporary redness, peeling, or sensitivity during recovery.",
+          "indication": [
+            "Fine lines and wrinkles",
+            "Acne and surgical scars",
+            "Uneven skin texture",
+            "Sun‑damaged skin",
+            "Stretch marks"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 

@@ -187,6 +187,13 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmission
           from { transform: translateX(120%); opacity: 0; }
           to { transform: translateX(0); opacity: 1; }
         }
+        
+        /* Styles for standalone page */
+        .appointment-page-container {
+          min-height: 100vh;
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
       `}</style>
       {toast.show && (
         <div className="fixed top-6 right-6 z-[10000]" style={{ animation: 'toastSlideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1)' }}>
@@ -207,14 +214,16 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmission
     
       <section 
         id={isModal ? undefined : "appointment"} 
-        className="w-full" 
+        className={`${isModal ? '' : 'appointment-page-container'} w-full`} 
         style={{ 
           backgroundColor: isModal ? '#FFFFFF' : '#F9FAFB',
           fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif"
         }}
       >
-        {/* Extra anchor so older links to #book-consultation scroll correctly */}
-        <div id="book-consultation" className="h-0 w-0 overflow-hidden" aria-hidden="true" />
+        {!isModal && (
+          /* Extra anchor so older links to #book-consultation scroll correctly */
+          <div id="book-consultation" className="h-0 w-0 overflow-hidden" aria-hidden="true" />
+        )}
         
         <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12 py-16 lg:py-20">
           {/* Badge */}

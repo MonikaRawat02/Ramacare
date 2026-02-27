@@ -9,7 +9,7 @@ import ProgramsSection from "../../components/ProgramsSection";
 import ExpertsSection from "../../components/ExpertsSection";
 import PatientTestimonials from "../../components/PatientTestimonials";
 import WhyAyurvedaDubaiSection from "../../components/WhyAyurvedaDubaiSection";
-import FAQSection from "../../components/FAQSection";
+import FAQSection from "../../components/LandingFAQSection";
 // import OurFacilitySection from "../../components/OurFacilitySection";
 import BeginYourHealingJourneySection from "../../components/BeginYourHealingJourneySection";
 
@@ -24,6 +24,7 @@ export default function Home() {
        <meta name="google-site-verification" content="VRn7pg1rACQOgcGV13YChuu05_Iu__0QVLXrw9dNGCc" /> 
        <meta name="msvalidate.01" content="FB6C6318BA274AFF1EA6E095977EA143" />
        <link rel="canonical" href="https://ramacarepolyclinic.ae/" />
+       
        <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,67 @@ export default function HairRemovalPage() {
   <title>Hair Removal in Dubai for Safe and Effective Results</title>
   <meta name="description" content="Hair removal in Dubai offers safe, doctor-supervised solutions to reduce unwanted hair using advanced methods suitable for different skin types and areas." />
   <meta name="keywords" content="Hair removal in Dubai, Laser hair removal Dubai, Permanent hair removal Dubai, Medical hair removal treatment, Facial hair removal Dubai, Body hair removal Dubai, Safe hair removal methods, Professional hair removal clinic, Skin-friendly hair removal Dubai" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-removal-dubai#condition",
+          "name": "Excess or Unwanted Hair Growth",
+          "alternateName": "Unwanted Body and Facial Hair / Hair Follicle Growth Concern",
+          "url": "https://ramacarepolyclinic.ae/services/hair-removal-dubai",
+          "description": "Excess or unwanted hair growth refers to hair on facial or body areas where it is undesirable for aesthetic or comfort reasons, often treated with advanced dermatologic and cosmetic procedures to reduce or remove hair permanently or long‑term. Treatments vary by hair type, skin tone, and target area.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Hair Removal Therapy",
+            "description": "Medical hair removal therapies such as laser hair reduction or electrolysis use targeted energy to slow hair regrowth or permanently disable hair follicles for smoother, hair‑free skin."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-removal-dubai#procedure",
+          "name": "Hair Removal Treatment in Dubai",
+          "alternateName": "Laser Hair Removal & Medical Hair Reduction",
+          "url": "https://ramacarepolyclinic.ae/services/hair-removal-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-removal-dubai",
+          "description": "Hair removal treatment at RamaCare Polyclinic in Dubai offers medically supervised aesthetic procedures — including advanced laser hair reduction and other hair‑targeting methods — designed to reduce unwanted hair on the face and body with long‑lasting results.",
+          "procedureType": "Medical and aesthetic dermatologic procedure",
+          "howPerformed": "After an initial consultation and skin/hair assessment, trained clinicians apply advanced laser energy or other clinically approved techniques (e.g., laser hair reduction) to target hair follicles, damaging them to slow or inhibit regrowth over a series of sessions. Protocols and energy settings are customized based on hair thickness, skin type, and treatment area.",
+          "preparation": "Patients are advised to avoid recent waxing or plucking, arrive with clean skin, shave the treatment area if instructed, and disclose any medications or skin sensitivities prior to the session. Some procedures may use protective eyewear or topical cooling gels.",
+          "followup": "Follow‑up sessions are typically scheduled several weeks apart to progressively treat hair in different growth cycles. Clinicians monitor skin tolerance, adjust energy settings if needed, and advise on maintenance or touch‑up treatments.",
+          "indication": [
+            "Unwanted facial hair",
+            "Unwanted body hair",
+            "Ingrown hairs",
+            "Areas unsuitable for waxing or shaving",
+            "Long‑term hair reduction goals"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 

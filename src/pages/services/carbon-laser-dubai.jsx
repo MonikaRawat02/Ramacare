@@ -27,6 +27,67 @@ export default function CarbonLaserTreatmentPage() {
   <title>Carbon Laser Treatment in Dubai | Skin Rejuvenation</title>
   <meta name="description" content="Experience safe and effective Carbon Laser treatment in Dubai for glowing, clear skin. Reduce pigmentation, acne scars, and fine lines with expert care." />
   <meta name="keywords" content="Carbon Laser Dubai, Carbon Laser facial Dubai, Acne scar treatment Dubai, Skin rejuvenation Dubai, Pigmentation removal Dubai, Laser skin therapy Dubai, Carbon peel Dubai, Anti-ageing skin treatment Dubai, Glowing skin treatment Dubai, Dermatology laser Dubai, Non-surgical skin treatment in Dubai, Laser facial clinic Dubai" />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai#condition",
+          "name": "Skin Dullness, Enlarged Pores, Mild Texture Issues & Pigmentation",
+          "alternateName": "Uneven Skin Tone, Acne‑Prone Texture & Visible Pores",
+          "url": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai",
+          "description": "Conditions such as dull complexion, enlarged pores, uneven texture, superficial pigmentation, and acne‑prone skin can affect the overall appearance and radiance of the face. Carbon laser therapy targets these concerns by promoting exfoliation, boosting collagen, and enhancing skin clarity.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Carbon Laser Skin Rejuvenation Therapy",
+            "description": "Carbon laser therapy uses a carbon‑based lotion applied to the skin followed by laser pulses that are absorbed by the carbon particles. This process exfoliates dead skin cells, reduces oil and impurities, stimulates collagen formation, and improves surface texture and tone."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai#procedure",
+          "name": "Carbon Laser Treatment in Dubai",
+          "alternateName": "Carbon Peel / Nano Laser Peel",
+          "url": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai",
+          "description": "Carbon laser treatment at RamaCare Polyclinic in Dubai is a non‑invasive cosmetic dermatology procedure designed to exfoliate the skin, refine texture, reduce superficial pigmentation, shrink enlarged pores, and enhance complexion clarity using a carbon mask and laser energy.",
+          "procedureType": "Non‑invasive cosmetic laser procedure",
+          "howPerformed": "A carbon‑based lotion is first applied to the cleansed skin. Once the carbon particles penetrate pores and attach to debris, a specialized laser emits targeted pulses that vaporize the carbon, removing dead skin cells, impurities, and excess oil. The laser energy also stimulates collagen production, improving overall texture and tone.",
+          "preparation": "Patients are advised to arrive with clean skin and avoid heavy exfoliation, retinoids, or sun exposure shortly before the session. A detailed medical and skin history should be discussed with the clinician during consultation.",
+          "followup": "Follow‑up care typically includes monitoring skin response, advising on gentle skincare, sunscreen usage, and planning additional sessions as needed to maintain and enhance outcomes.",
+          "indication": [
+            "Dull or lackluster skin",
+            "Enlarged pores",
+            "Uneven texture or tone",
+            "Superficial pigmentation",
+            "Acne‑prone or congested skin"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 

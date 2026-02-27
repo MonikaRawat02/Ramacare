@@ -27,6 +27,67 @@ export default function ScarsRemovalPage() {
   <title>Scars Removal in Dubai for Smooth and Even Skin</title>
   <meta name="description" content="Scars removal in Dubai uses advanced laser and medical treatments to reduce acne, surgical, or injury scars, restoring smooth and healthy-looking skin." />
   <meta name="keywords" content="Scars removal in Dubai, Laser scar treatment Dubai, Acne scar removal Dubai, Surgical scar treatment, Injury scar removal Dubai, Skin resurfacing treatment, Scar reduction therapy Dubai, Professional scar treatment, Non-surgical scar removal, Skin rejuvenation Dubai" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/scars-removal-dubai#condition",
+          "name": "Skin Scarring and Texture Irregularities",
+          "alternateName": "Acne Scars, Surgical Scars & Traumatic Scars",
+          "url": "https://ramacarepolyclinic.ae/services/scars-removal-dubai",
+          "description": "Skin scars — including acne scars, surgical scars, injury-related scars, and other texture irregularities — can affect the smoothness, appearance, and confidence of the skin. They often involve fibrous tissue that alters normal skin texture.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Scar Remediation Therapy",
+            "description": "Scar remediation therapy may include a combination of clinical treatments such as laser resurfacing, fractional CO₂ laser, microneedling, chemical peels, or other dermatologic procedures designed to improve scar texture, reduce visibility, and stimulate healthy skin remodeling."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/scars-removal-dubai#procedure",
+          "name": "Scar Removal Treatment in Dubai",
+          "alternateName": "Acne & Traumatic Scar Reduction",
+          "url": "https://ramacarepolyclinic.ae/services/scars-removal-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/scars-removal-dubai",
+          "description": "Scar removal treatment at RamaCare Polyclinic in Dubai is a customized dermatologic procedure that employs advanced technologies and clinically proven techniques to reduce the appearance of scars and improve overall skin texture.",
+          "procedureType": "Medical and aesthetic dermatologic procedure",
+          "howPerformed": "After evaluating scar type and severity, trained clinicians may recommend fractional laser resurfacing (like CO₂ laser), ablative or non-ablative lasers, microneedling, chemical peels, or a combination of these methods. The chosen modalities stimulate collagen production and skin remodeling to minimize scar appearance.",
+          "preparation": "Patients should provide a full medical and dermatologic history, avoid recent sun exposure, and discuss current medications or skincare products. Clinicians will outline any specific pre-treatment care needed for optimal results.",
+          "followup": "Follow-up care includes monitoring skin healing, assessing treatment response, schedule additional sessions if needed, and recommending supportive skincare and sun protection to maintain results and promote healthy tissue recovery.",
+          "indication": [
+            "Acne scars (pitted or hypertrophic)",
+            "Surgical scars",
+            "Traumatic scars",
+            "Stretch marks and texture irregularities",
+            "Uneven skin surface post-injury"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 

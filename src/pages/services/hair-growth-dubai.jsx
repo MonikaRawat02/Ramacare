@@ -27,6 +27,67 @@ export default function HairGrowthPage() {
   <title>Hair Growth in Dubai with Safe Medical Treatment Options</title>
   <meta name="description" content="Hair growth in Dubai is supported through doctor-guided treatments that strengthen hair follicles, improve scalp health, and promote natural regrowth safely." />
   <meta name="keywords" content="Hair growth in Dubai, Hair growth treatment Dubai, Hair regrowth solutions, Medical hair growth therapy, Scalp stimulation treatment, Hair restoration Dubai, Non-surgical hair growth, Hair fall control in Dubai, Professional hair care Dubai" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-growth-dubai#condition",
+          "name": "Hair Thinning, Slow Hair Growth & Weak Scalp Conditions",
+          "alternateName": "Reduced Hair Density, Weak Hair Roots & Slow Regrowth",
+          "url": "https://ramacarepolyclinic.ae/services/hair-growth-dubai",
+          "description": "Hair thinning, slow hair growth, and weak scalp conditions include reduced hair density, diminished hair strength, and other issues where the natural hair growth cycle is disrupted, often due to nutritional, hormonal, stress‑related, or scalp health factors.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Hair Growth Treatment Therapy",
+            "description": "Medically guided hair growth treatment involves personalized clinical strategies such as follicle stimulation therapies, scalp health optimization, regenerative injections, and supportive nutraceutical or lifestyle protocols to promote healthier, thicker natural hair regrowth."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-growth-dubai#procedure",
+          "name": "Hair Growth Treatment in Dubai",
+          "alternateName": "Hair Regrowth & Scalp Health Restoration Therapy",
+          "url": "https://ramacarepolyclinic.ae/services/hair-growth-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-growth-dubai",
+          "description": "Hair growth treatment at RamaCare Polyclinic in Dubai is a clinically supervised, personalized program focused on activating dormant hair follicles, improving scalp health, and supporting the natural hair growth cycle for stronger, denser hair regrowth. Treatments are selected based on individual needs and long‑term goals.",
+          "procedureType": "Medical and aesthetic dermatologic treatment",
+          "howPerformed": "After a detailed hair and scalp assessment, tailored therapies such as follicle stimulation treatments, scalp nourishment protocols, PRP sessions, mesotherapy, and supportive guidance on diet and lifestyle are used to stimulate natural hair growth and strengthen existing hair.",
+          "preparation": "Patients should provide a full medical history including past hair loss treatments, avoid harsh chemical or heat styling immediately before the consultation, and follow clinician guidance for any prerequisites.",
+          "followup": "Follow‑up care involves monitoring progress, adjusting treatment plans as needed, scheduling maintenance sessions, and providing ongoing scalp care and lifestyle support to sustain results.",
+          "indication": [
+            "Slow hair growth or reduced hair density",
+            "Hair thinning and weak hair follicles",
+            "Post‑hair fall recovery",
+            "Scalp health concerns",
+            "Stress‑related hair growth issues"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 

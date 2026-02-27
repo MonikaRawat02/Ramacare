@@ -27,6 +27,54 @@ export default function ElectrotherapyPage() {
   <title>Electrotherapy in Dubai for Pain Relief and Physiotherapy</title>
   <meta name="description" content="Electrotherapy in Dubai offers safe physiotherapy treatment for pain relief, muscle stimulation, and faster recovery using TENS, IFC, and NMES under expert care." />
   <meta name="keywords" content="Electrotherapy in Dubai, Electrotherapy treatment Dubai, Physiotherapy electrotherapy, TENS therapy Dubai, IFC therapy Dubai, NMES therapy Dubai, Pain relief physiotherapy Dubai, Muscle stimulation therapy, Electrotherapy physiotherapy clinic, Rehabilitation therapy Dubai" />
+   <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "@id": "https://ramacarepolyclinic.ae/services/electrotherapy-dubai#procedure",
+  "name": "Electrotherapy in Dubai",
+  "alternateName": "Physiotherapy Electrotherapy Treatment",
+  "url": "https://ramacarepolyclinic.ae/services/electrotherapy-dubai",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/electrotherapy-dubai",
+  "description": "Electrotherapy in Dubai at RamaCare Polyclinic offers advanced physiotherapy treatment using electrical stimulation to relieve pain, improve muscle function, and support tissue healing, provided by experienced physiotherapists.",
+  "procedureType": "Physical therapy",
+  "bodyLocation": "Musculoskeletal system",
+  "howPerformed": "Electrotherapy is performed using therapeutic electrical stimulation devices such as TENS, EMS, Interferential Current, and other modalities to help reduce pain, improve circulation, and enhance muscle activation in the affected areas.",
+  "preparation": "No special preparation is required. Patients should wear comfortable clothing to expose the area being treated.",
+  "followup": "Follow-up sessions and periodic assessment are recommended to monitor progress and adjust therapy as needed.",
+  "indication": [
+    "Acute or chronic pain",
+    "Muscle weakness",
+    "Nerve stimulation",
+    "Post-injury rehabilitation",
+    "Inflammation reduction"
+  ],
+  "possibleComplication": "Mild skin irritation or tingling may occur at electrode sites.",
+  "provider": {
+    "@type": "MedicalBusiness",
+    "name": "RamaCare Polyclinic – Physiotherapy Department",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+      "addressLocality": "Jumeirah 1",
+      "addressRegion": "Dubai",
+      "postalCode": "393558",
+      "addressCountry": "AE"
+    },
+    "telephone": "+971 56 659 7878",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "priceRange": "$$"
+  }
+}
+    `,
+  }}
+/>
 </Head>
 
       <TreatmentHero 

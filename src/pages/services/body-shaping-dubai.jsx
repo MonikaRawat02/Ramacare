@@ -30,52 +30,61 @@ export default function BodyShapingPage() {
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
-    __html: `{
-  "@context": "https://schema.org",
-  "@type": "MedicalProcedure",
-  "name": "Body Shaping in Dubai",
-  "alternateName": "Non-Surgical Body Contouring in Dubai",
-  "url": "https://ramacarepolyclinic.ae/services/body-shaping-dubai",
-  "description": "Safe and non-surgical body shaping in Dubai at RamaCare Polyclinic. Advanced FDA-approved technologies for fat reduction, skin tightening, cellulite reduction, and natural body contouring with minimal downtime.",
-  "procedureType": "Non-invasive aesthetic procedure",
-  "bodyLocation": [
-    "Abdomen",
-    "Thighs",
-    "Arms",
-    "Flanks",
-    "Hips",
-    "Back",
-    "Chin"
-  ],
-  "howPerformed": "Body shaping is performed using advanced non-invasive technologies that target fat cells, improve skin firmness, and enhance natural body contours without surgery or anesthesia.",
-  "preparation": "No special preparation required. Patients undergo consultation and body assessment before starting treatment.",
-  "followup": "Follow-up sessions and lifestyle guidance are recommended to maintain long-lasting contouring results.",
-  "provider": {
-    "@type": "MedicalBusiness",
-    "name": "RamaCare Polyclinic",
-    "image": "https://ramacarepolyclinic.ae/wp-content/uploads/body-shaping-dubai.jpg",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Jumeirah Terrace Building, Ground Floor",
-      "addressLocality": "Jumeirah 1",
-      "addressRegion": "Dubai",
-      "postalCode": "393558",
-      "addressCountry": "AE"
-    },
-    "telephone": "+971 56 659 7878",
-    "priceRange": "$$",
-    "medicalSpecialty": "Aesthetic Medicine",
-    "areaServed": {
-      "@type": "City",
-      "name": "Dubai"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "500"
-    }
-  }
-}`
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/body-shaping-dubai#condition",
+          "name": "Localized Fat Deposits and Body Contouring Concerns",
+          "alternateName": "Stubborn Fat, Uneven Body Contours",
+          "url": "https://ramacarepolyclinic.ae/services/body-shaping-dubai",
+          "description": "Localized fat deposits and uneven body contours can affect the shape and appearance of areas such as the abdomen, flanks, thighs, arms, and chin. These concerns may not respond adequately to diet and exercise alone and can benefit from medically supervised body shaping treatments.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Body Shaping Therapy",
+            "description": "Body shaping therapy includes non‑invasive and minimally invasive procedures designed to reduce localized fat, tighten skin, and improve body contours using energy‑based technologies such as laser, radiofrequency, ultrasound, or cryolipolysis."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/body-shaping-dubai#procedure",
+          "name": "Body Shaping Treatment in Dubai",
+          "alternateName": "Fat Reduction & Contouring Procedures",
+          "url": "https://ramacarepolyclinic.ae/services/body-shaping-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/body-shaping-dubai",
+          "description": "Body shaping at RamaCare Polyclinic in Dubai involves personalized fat reduction and body contouring treatments using proven technologies. The treatment plan is tailored to the patient’s goals, body area, and underlying tissue characteristics.",
+          "procedureType": "Non‑invasive/Minimally Invasive Body Contouring Procedure",
+          "howPerformed": "After a detailed consultation and assessment of body areas, trained clinicians select the most appropriate body shaping modality — such as cryolipolysis (fat freezing), radiofrequency energy, ultrasound lipolysis, or laser‑assisted contouring. Protective measures and comfort options (e.g., cooling, topical numbing) are used based on the technology and patient preference.",
+          "preparation": "Patients should provide a complete medical history, avoid excessive sun exposure on target areas, and follow any clinician‑recommended pre‑treatment instructions to optimize outcomes. Maintaining healthy hydration and avoiding certain medications may be advised.",
+          "followup": "Post‑treatment follow‑up includes monitoring treated areas for optimal fat reduction and skin tightening, scheduling additional sessions as needed, and recommending supportive lifestyle guidance to maintain results. Instructions on activity levels and self‑care are provided.",
+          "indication": [
+            "Localized fat deposits resistant to diet and exercise",
+            "Body contour refinement in areas such as abdomen, flanks, thighs, arms, or chin",
+            "Improvement of mild skin laxity",
+            "Individuals seeking non‑surgical contouring options"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
   }}
 />
 </Head>

@@ -27,6 +27,67 @@ export default function ElectrolysisPage() {
   <title>Electrolysis in Dubai for Permanent Hair Removal Treatment</title>
   <meta name="description" content="Electrolysis in Dubai offers safe, medical-grade permanent hair removal by trained professionals, suitable for all skin types and areas with lasting results." />
   <meta name="keywords" content="Electrolysis in Dubai, Permanent hair removal in Dubai, Electrolysis hair removal, Medical hair removal Dubai, Facial hair removal Dubai, Body hair removal treatment, Safe electrolysis treatment, Hair removal for all skin types, Professional electrolysis in Dubai" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/electrolysis-dubai#condition",
+          "name": "Excess or Unwanted Hair Growth",
+          "alternateName": "Hirsutism & Unwanted Hair",
+          "url": "https://ramacarepolyclinic.ae/services/electrolysis-dubai",
+          "description": "Excess or unwanted hair growth refers to coarse or persistent hair on areas of the face or body where it is undesirable, often caused by hormonal factors, genetics, or other underlying conditions. This can impact confidence and aesthetic appearance.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Electrolysis Hair Removal Therapy",
+            "description": "A hair removal therapy that uses controlled electrical energy to permanently destroy hair follicles, preventing future hair growth and improving skin smoothness."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/electrolysis-dubai#procedure",
+          "name": "Electrolysis Hair Removal in Dubai",
+          "alternateName": "Permanent Hair Removal Treatment",
+          "url": "https://ramacarepolyclinic.ae/services/electrolysis-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/electrolysis-dubai",
+          "description": "Electrolysis hair removal in Dubai at RamaCare Polyclinic is a precise, minimally invasive procedure that uses an electrical current to ablate individual hair follicles, achieving long‑term reduction or permanent removal of unwanted hair.",
+          "procedureType": "Minimally invasive hair removal therapy",
+          "howPerformed": "A trained clinician inserts a fine probe into the hair follicle and applies controlled electric current to disable the follicle’s ability to produce hair. Each follicle is treated individually for effective permanent results.",
+          "preparation": "Patients should shave the treatment area prior to the session, avoid waxing/plucking for several weeks, and disclose medical history and skin sensitivities to the clinician.",
+          "followup": "Multiple sessions may be advised to target all active follicles, and follow‑up appointments help monitor progress and schedule additional treatments if required.",
+          "indication": [
+            "Unwanted facial hair",
+            "Excess body hair",
+            "Hirsutism due to hormonal imbalance",
+            "Persistent coarse hair",
+            "Areas unsuitable for laser hair removal"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 

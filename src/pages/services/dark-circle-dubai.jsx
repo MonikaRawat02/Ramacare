@@ -23,6 +23,69 @@ export default function DarkCirclePage() {
 
   return (
     <Layout>
+      <Head>
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/dark-circle-dubai#condition",
+          "name": "Periorbital Dark Circles & Under‑Eye Discoloration",
+          "alternateName": "Dark Circles, Under‑Eye Shadows, Periorbital Hyperpigmentation",
+          "url": "https://ramacarepolyclinic.ae/services/dark-circle-dubai",
+          "description": "Periorbital dark circles and under‑eye discoloration include pigmentation, vascular shadows, hollowness underneath the eyes, and other factors that contribute to a tired or aged appearance around the eyes.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Dark Circle Management Therapy",
+            "description": "Comprehensive management of under‑eye dark circles using targeted aesthetic treatments such as fillers, topical agents, laser therapy, chemical peels, and specialized skin rejuvenation protocols tailored to the underlying cause."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/dark-circle-dubai#procedure",
+          "name": "Dark Circle Treatment in Dubai",
+          "alternateName": "Under‑Eye Dark Circle Correction & Rejuvenation",
+          "url": "https://ramacarepolyclinic.ae/services/dark-circle-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/dark-circle-dubai",
+          "description": "Dark circle treatment at RamaCare Polyclinic in Dubai is a personalized aesthetic procedure aimed at addressing under‑eye pigmentation, hollowness, vascular shadows, and skin laxity using advanced dermatologic and cosmetic techniques.",
+          "procedureType": "Medical and aesthetic dermatologic procedure",
+          "howPerformed": "After a detailed clinical assessment of the under‑eye region, clinicians may use one or a combination of approaches such as hyaluronic acid fillers to restore volume, laser or light therapies for pigmentation, chemical peels, and topical agents to enhance skin quality depending on the cause of dark circles.",
+          "preparation": "Patients should disclose their full medical and skincare history, avoid strong exfoliants or irritants before treatment, arrive with clean skin, and follow any pre‑procedure guidance given by the clinician.",
+          "followup": "Follow‑up care involves monitoring response, adjusting treatment plans if necessary, and recommending appropriate skincare to maintain improvement over time.",
+          "indication": [
+            "Under‑eye pigmentation or discoloration",
+            "Hollowness beneath the eyes",
+            "Visible vascular shadows",
+            "Fine lines and skin laxity around the eyes",
+            "Tired or aged under‑eye appearance"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
+      </Head>
       <TreatmentHero 
         categoryName={categoryName}
         subcategoryName={subcategoryName}

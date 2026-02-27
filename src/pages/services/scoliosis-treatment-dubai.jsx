@@ -27,6 +27,51 @@ export default function ScoliosisTreatmentPage() {
   <title>Scoliosis Treatment in Dubai with Expert Physiotherapy</title>
   <meta name="description" content="Get safe scoliosis treatment in Dubai with assessment led by specialists, personalized physiotherapy plans, posture correction, and long-term spine care." />
   <meta name="keywords" content="Scoliosis treatment in Dubai, Scoliosis physiotherapy Dubai, Spine alignment treatment Dubai, Posture correction therapy Dubai, Back curvature treatment in Dubai, Non-surgical scoliosis treatment, Pediatric scoliosis treatment Dubai, Adult scoliosis management in Dubai, Rehabilitation physiotherapy Dubai, Spine care clinic Dubai" />
+   <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "MedicalProcedure",
+        "@id": "https://ramacarepolyclinic.ae/services/scoliosis-treatment-dubai#procedure",
+        "name": "Scoliosis Treatment in Dubai",
+        "alternateName": "Non-surgical Scoliosis Care",
+        "url": "https://ramacarepolyclinic.ae/services/scoliosis-treatment-dubai",
+        "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/scoliosis-treatment-dubai",
+        "description": "Scoliosis Treatment in Dubai at RamaCare Polyclinic provides personalized non-surgical care, posture correction, physiotherapy, and rehabilitation to manage spinal curvature and improve mobility, guided by experienced clinicians.",
+        "procedureType": "Therapeutic spinal care",
+        "bodyLocation": "Spine",
+        "howPerformed": "Scoliosis treatment involves detailed assessment of spinal curvature, individualized physiotherapy, posture training, corrective exercises, and monitoring to reduce progression and enhance function.",
+        "preparation": "Initial clinical evaluation including spinal assessment and imaging (if needed) is performed prior to treatment planning.",
+        "followup": "Regular follow-ups and progress assessments are recommended to ensure therapy effectiveness and progression control.",
+        "indication": [
+          "Spinal curvature (scoliosis)",
+          "Posture asymmetry",
+          "Back pain linked to scoliosis",
+          "Reduced spinal mobility"
+        ],
+        "possibleComplication": "Mild muscle soreness may occur during early therapy phases.",
+        "provider": {
+          "@type": "MedicalBusiness",
+          "name": "RamaCare Polyclinic – Physiotherapy & Rehabilitation Department",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+            "addressLocality": "Jumeirah 1",
+            "addressRegion": "Dubai",
+            "postalCode": "393558",
+            "addressCountry": "AE"
+          },
+          "telephone": "+971 56 659 7878",
+          "areaServed": {
+            "@type": "City",
+            "name": "Dubai"
+          },
+          "priceRange": "$$"
+        }
+      })
+    }}
+  />
 </Head>
 
      <TreatmentHero 

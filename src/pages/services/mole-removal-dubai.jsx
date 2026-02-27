@@ -27,6 +27,67 @@ export default function MoleRemovalPage() {
   <title>Mole Removal in Dubai for Safe and Smooth Skin</title>
   <meta name="description" content="Mole removal in Dubai provides safe, doctor-supervised treatments to eliminate unwanted moles, ensuring smooth, healthy, and natural-looking skin." />
   <meta name="keywords" content="Mole removal in Dubai, Laser mole removal Dubai, Skin mole treatment Dubai, Safe mole removal procedure, Non-surgical mole removal, Dermatology mole treatment, Facial mole removal Dubai, Body mole removal Dubai, Professional mole removal clinic, Skin lesion removal Dubai" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/mole-removal-dubai#condition",
+          "name": "Benign Skin Lesions & Moles",
+          "alternateName": "Skin Nevi, Pigmented Skin Blemishes",
+          "url": "https://ramacarepolyclinic.ae/services/mole-removal-dubai",
+          "description": "Benign skin lesions, moles, and pigmented skin blemishes are common dermatologic conditions that can cause cosmetic concern or discomfort. They may be evaluated and removed if necessary for aesthetic reasons or symptomatic relief.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Mole Removal Therapy",
+            "description": "Mole removal therapy involves clinical evaluation and safe dermatologic procedures such as excision, shaving, or laser therapy to remove benign skin lesions while minimizing scarring and promoting healing."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/mole-removal-dubai#procedure",
+          "name": "Mole Removal in Dubai",
+          "alternateName": "Dermatologic Lesion Excision & Mole Extraction",
+          "url": "https://ramacarepolyclinic.ae/services/mole-removal-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/mole-removal-dubai",
+          "description": "Mole removal at RamaCare Polyclinic in Dubai is a clinical dermatologic procedure performed to safely remove benign moles, skin lesions, or raised pigmented growths for cosmetic improvement or patient comfort.",
+          "procedureType": "Dermatologic surgical procedure",
+          "howPerformed": "A trained dermatologist conducts a full assessment of the mole and surrounding skin. Depending on size, depth, and location, the mole may be removed by surgical excision, shave removal, or laser ablation. Local anesthetic is used for patient comfort and sterility is maintained throughout the procedure. Removed tissue may be sent for histopathologic evaluation if indicated.",
+          "preparation": "Patients should disclose their full medical history, including medications, allergies, and any prior skin conditions. Avoiding blood‑thinning medications as advised by the clinician and arriving with clean skin can help optimize safety and outcomes.",
+          "followup": "Follow-up care typically includes monitoring the healing of the treated area, dressing changes if needed, and reviewing pathology if sent for analysis. Instructions on wound care and signs of infection are provided to support smooth recovery.",
+          "indication": [
+            "Benign pigmented moles",
+            "Raised skin lesions",
+            "Cosmetic skin blemishes",
+            "Irritating or friction‑related moles",
+            "Patient concern over mole appearance"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 

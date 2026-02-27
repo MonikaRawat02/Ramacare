@@ -8,7 +8,7 @@ import ProgramsSection from "../../../components/ProgramsSection";
 import ExpertsSection from "../../../components/ExpertsSection";
 import PatientTestimonials from "../../../components/PatientTestimonials";
 import WhyAyurvedaDubaiSection from "../../../components/WhyAyurvedaDubaiSection";
-import FAQSection from "../../../components/FAQSection";
+import FAQSection from "../../../components/LandingFAQSection";
 // import OurFacilitySection from "../../../components/OurFacilitySection";
 import BeginYourHealingJourneySection from "../../../components/BeginYourHealingJourneySection";
 import { getCategoryContent } from "../../data/categoryContent";

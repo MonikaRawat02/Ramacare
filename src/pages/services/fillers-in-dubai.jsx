@@ -27,6 +27,67 @@ export default function FillersPage() {
   <title>Fillers in Dubai for Natural Facial Volume and Contour</title>
   <meta name="description" content="Fillers in Dubai help restore facial volume, smooth lines, and enhance contours using safe, doctor-administered treatments for natural-looking results." />
   <meta name="keywords" content="Fillers in Dubai, Dermal fillers Dubai, Facial fillers treatment, Anti-aging fillers Dubai, Lip fillers Dubai, Cheek fillers Dubai, Wrinkle reduction treatment, Non-surgical facial enhancement, Hyaluronic acid fillers, Aesthetic injectables Dubai" />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalCondition",
+          "@id": "https://ramacarepolyclinic.ae/services/fillers-in-dubai#condition",
+          "name": "Facial Volume Loss and Aging Concerns",
+          "alternateName": "Facial Lines, Wrinkles & Loss of Volume",
+          "url": "https://ramacarepolyclinic.ae/services/fillers-in-dubai",
+          "description": "Facial volume loss and aging concerns include reduced facial fullness, fine lines, deeper folds, loss of youthful contours, and changes in skin elasticity often seen with aging or environmental effects.",
+          "possibleTreatment": {
+            "@type": "MedicalTherapy",
+            "name": "Dermal Filler Therapy",
+            "description": "Aesthetic injectable therapy using hyaluronic acid or other biocompatible fillers to restore facial volume, soften wrinkles, and enhance contours for a more youthful appearance."
+          }
+        },
+        {
+          "@type": "MedicalProcedure",
+          "@id": "https://ramacarepolyclinic.ae/services/fillers-in-dubai#procedure",
+          "name": "Facial Fillers Treatment in Dubai",
+          "alternateName": "Dermal Filler Injections",
+          "url": "https://ramacarepolyclinic.ae/services/fillers-in-dubai",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/fillers-in-dubai",
+          "description": "Facial fillers treatment in Dubai at RamaCare Polyclinic is a minimally invasive aesthetic procedure that uses injectable dermal fillers to restore volume, reduce lines, and enhance facial contours.",
+          "procedureType": "Minimally invasive aesthetic injection therapy",
+          "howPerformed": "Performed by trained clinicians, the treatment involves precise injections of quality dermal filler products into targeted facial areas such as cheeks, lips, nasolabial folds, and under-eye regions to add volume and smooth lines.",
+          "preparation": "Patients should attend with clean skin and disclose their medical history, any prior injectable treatments, and medication/supplement use. Avoiding blood-thinning medications or supplements before the session may be advised.",
+          "followup": "Follow-up visits may be recommended to assess results and schedule maintenance sessions based on individual goals and treatment outcomes.",
+          "indication": [
+            "Loss of facial volume",
+            "Fine lines and wrinkles",
+            "Flattened or hollowed cheeks",
+            "Thin lips or uneven lip contour",
+            "Under-eye hollows"
+          ],
+          "provider": {
+            "@type": "MedicalBusiness",
+            "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jumeirah Terrace Building, Ground Floor",
+              "addressLocality": "Jumeirah 1",
+              "addressRegion": "Dubai",
+              "postalCode": "393558",
+              "addressCountry": "AE"
+            },
+            "telephone": "+971 56 659 7878",
+            "areaServed": {
+              "@type": "City",
+              "name": "Dubai"
+            },
+            "priceRange": "$$"
+          }
+        }
+      ]
+    })
+  }}
+/>
 </Head>
 
       <TreatmentHero 
