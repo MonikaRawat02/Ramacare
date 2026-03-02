@@ -76,8 +76,7 @@ const Footer = () => {
             <ul className="space-y-2 sm:space-y-2.5 text-gray-400 text-sm">
               <li>
                 <Link
-                  href="/#about-ramacare"
-                  onClick={(e) => handleSmoothScroll(e, '#about-ramacare')}
+                  href="/about-us"
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   About Our RamaCare Polyclinic

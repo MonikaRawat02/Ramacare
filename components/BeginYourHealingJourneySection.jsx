@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { getAllSubcategories } from '../src/data/subcategoryContent';
 
-const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmissionSuccess }) => {
+const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmissionSuccess, isSubmitting, onSubmissionStart, onSubmissionEnd, onSubmissionError }) => {
   const [formData, setFormData] = useState({
     fullName: '',
     phone: '',
@@ -266,9 +266,7 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmission
             }}
           >
             Schedule your personalized consultation with our DHA-licensed experts at RamaCare Polyclinic, a trusted Polyclinic in Dubai. Same-day appointments are available for your convenience.
-
           </p>
-
           {/* Two Column Layout */}
           <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] xl:grid-cols-[420px_1fr] gap-6 lg:gap-8">
             {/* LEFT COLUMN */}

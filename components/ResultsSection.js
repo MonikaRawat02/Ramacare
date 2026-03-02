@@ -25,7 +25,7 @@ export default function ResultsSection() {
       after: '/images/Cheek2.jpg',
     },
   ];
-
+  
   const slidesCount = results.length;
 
   const prev = () => {

@@ -40,7 +40,6 @@ async function getAllServicePages() {
     return []; // Return empty array if services directory doesn't exist
   }
 }
-
 // Function to get all doctor IDs from the doctors index page
 async function getAllDoctorIds() {
   try {

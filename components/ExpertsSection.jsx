@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 
-const ExpertsSection = ({ content }) => {
+const ExpertsSection = ({ content, onBookAppointment }) => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
 
@@ -476,12 +476,16 @@ const ExpertsSection = ({ content }) => {
                 {/* CTA Button - Pushed to bottom with mt-auto */}
                 <div className="mt-auto">
                   <button
-                    onClick={() =>
-                      document.getElementById("appointment")?.scrollIntoView({
-                        behavior: "smooth",
-                      })
-                    }
-                    className="w-full bg-gradient-to-r from-[#1b5e3f] via-[#2d7a56] to-[#1b5e3f] text-white px-6 py-3.5 rounded-xl font-medium text-sm transition-all duration-200 hover:shadow-md"
+                    onClick={() => {
+                      if (onBookAppointment) {
+                        onBookAppointment();
+                      } else {
+                        document.getElementById("appointment")?.scrollIntoView({
+                          behavior: "smooth",
+                        });
+                      }
+                    }}
+                    className="w-full bg-gradient-to-r from-[#1b5e3f] via-[#2d7a56] to-[#1b5e3f] text-white px-6 py-3.5 rounded-xl font-medium text-sm transition-all duration-300 hover:shadow-md transform hover:scale-105 active:scale-95"
                   >
                     Book with {doctor.firstName}
                   </button>
@@ -526,12 +530,16 @@ const ExpertsSection = ({ content }) => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button 
-              onClick={() =>
-                document.getElementById("appointment")?.scrollIntoView({
-                  behavior: "smooth",
-                })
-              }
-              className="bg-[#C9A961] hover:bg-[#B8984E] text-white px-8 py-3.5 rounded-xl font-medium text-sm shadow-lg hover:shadow-xl transition-all duration-200"
+              onClick={() => {
+                if (onBookAppointment) {
+                  onBookAppointment();
+                } else {
+                  document.getElementById("appointment")?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }
+              }}
+              className="bg-[#C9A961] hover:bg-[#B8984E] text-white px-8 py-3.5 rounded-xl font-medium text-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95"
             >
               {ctaSection.primaryButton}
             </button>
