@@ -27,6 +27,7 @@ export default function NailFungusPage() {
   <title>Nail Fungus Treatment in Dubai for Healthy Nails</title>
   <meta name="description" content="Nail fungus treatment in Dubai effectively clears fungal infections, restores nail health, and prevents recurrence using safe, doctor-supervised care." />
   <meta name="keywords" content="Nail fungus treatment Dubai, Fungal nail infection Dubai, Toenail fungus treatment, Fingernail fungus removal, Medical nail care Dubai, Laser nail fungus treatment, Anti-fungal therapy Dubai, Professional nail treatment, Healthy nails Dubai, Nail infection treatment" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/nail-fungus-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

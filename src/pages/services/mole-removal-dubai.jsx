@@ -27,6 +27,7 @@ export default function MoleRemovalPage() {
   <title>Mole Removal in Dubai for Safe and Smooth Skin</title>
   <meta name="description" content="Mole removal in Dubai provides safe, doctor-supervised treatments to eliminate unwanted moles, ensuring smooth, healthy, and natural-looking skin." />
   <meta name="keywords" content="Mole removal in Dubai, Laser mole removal Dubai, Skin mole treatment Dubai, Safe mole removal procedure, Non-surgical mole removal, Dermatology mole treatment, Facial mole removal Dubai, Body mole removal Dubai, Professional mole removal clinic, Skin lesion removal Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/mole-removal-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

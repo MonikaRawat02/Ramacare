@@ -26,6 +26,7 @@ export default function TreatmentofAcuteInfectionsPage() {
       <Head>
   <title>Treatment of Acute Infections in Dubai | Expert Medical Care</title>
   <meta name="description" content="Get professional treatment for acute infections in Dubai. Experienced doctors provide fast, safe care for bacterial, viral, and other infections with proper follow-up." />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai" />
   <meta name="keywords" content="Acute infection treatment in Dubai, Bacterial infection care in Dubai, Viral infection treatment in Dubai, Infectious disease management in Dubai, Dubai urgent infection care, Fever and infection treatment in Dubai, Rapid infection relief in Dubai, Infection diagnosis in Dubai, Antibiotic therapy in Dubai, Dubai infection clinic, Medical treatment for infections in Dubai, Emergency infection care in Dubai" />
   <script
   type="application/ld+json"

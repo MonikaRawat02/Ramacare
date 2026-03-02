@@ -27,6 +27,7 @@ export default function PCOSTreatmentPage() {
   <title>Ayurvedic PCOS Treatment in Dubai | Hormone Balance Naturally</title>
   <meta name="description" content="Manage PCOS naturally in Dubai with Ayurvedic therapies, Panchakarma detox, herbal remedies, diet, and lifestyle guidance for hormonal balance and fertility support." />
   <meta name="keywords" content="Ayurvedic PCOS treatment Dubai, PCOS management Dubai, Hormone balance Dubai, Panchakarma for PCOS Dubai, Herbal PCOS remedies Dubai, Women’s Health Dubai, PCOS diet and lifestyle in Dubai, Ayurvedic gynecology Dubai, Fertility support Dubai, PCOS therapy Dubai, DHA licensed Ayurvedic doctor in Dubai, Holistic PCOS treatment Dubai" />
+   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/pcos-treatment-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

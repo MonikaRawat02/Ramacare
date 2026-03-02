@@ -27,6 +27,7 @@ export default function SnapOnSmilePage() {
   <title>Snap-On Smile in Dubai | Affordable Smile Makeover</title>
   <meta name="description" content="Transform your smile with Snap-On Smile in Dubai. Non-invasive, comfortable, and affordable dental solution for a natural-looking, confident smile by skilled dentists." />
   <meta name="keywords" content="Snap-On Smile Dubai, Snap-on teeth Dubai, Temporary veneers Dubai, Smile makeover Dubai, Non-invasive dental veneers Dubai, Affordable Snap-On Smile Dubai, Cosmetic dentistry Dubai, Teeth restoration Dubai, Natural-looking Snap-On Smile Dubai, DHA-licensed dentist in Dubai, Quick smile makeover Dubai, Removable Veneers Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/snap-on-smile-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

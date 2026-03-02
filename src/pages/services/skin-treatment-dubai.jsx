@@ -24,6 +24,7 @@ export default function SkinTreatmentPage() {
   return (
     <Layout>
         <Head>
+      <link rel="canonical" href="https://ramacarepolyclinic.ae/services/skin-treatment-dubai/" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

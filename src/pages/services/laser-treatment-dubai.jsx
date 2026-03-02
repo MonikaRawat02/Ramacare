@@ -27,6 +27,7 @@ export default function LaserTreatmentPage() {
   <title>Laser Treatment in Dubai | Safe & Advanced Laser Clinic</title>
   <meta name="description" content="Experience expert laser treatment in Dubai for hair removal, skin rejuvenation, and pigmentation. Personalized care with safe, advanced technology by licensed specialists." />
   <meta name="keywords" content="Laser treatment in Dubai, Laser clinic Dubai, Laser hair removal Dubai, Skin laser treatment Dubai, Laser pigmentation treatment Dubai, Laser skin rejuvenation Dubai, DHA licensed laser clinic, Advanced laser therapy Dubai, Medical laser clinic Dubai, Safe laser treatment in Dubai, Cosmetic laser treatment Dubai, Pico laser treatment Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/laser-treatment-dubai" />
    <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{

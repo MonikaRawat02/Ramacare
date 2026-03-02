@@ -27,6 +27,7 @@ export default function LaserBleachingPage() {
   <title>Laser Bleaching in Dubai for Brighter and Even Skin</title>
   <meta name="description" content="Laser bleaching in Dubai reduces dark spots, pigmentation, and uneven skin tone, restoring a radiant, smooth complexion under expert medical care." />
   <meta name="keywords" content="Laser bleaching in Dubai, Skin brightening laser Dubai, Pigmentation reduction Dubai, Dark spots treatment Dubai, Facial laser treatment Dubai, Even skin tone treatment, Non-surgical skin brightening, Professional laser therapy Dubai, Skin rejuvenation Dubai, Safe laser skin treatment" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/laser-bleaching-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

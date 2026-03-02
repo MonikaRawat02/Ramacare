@@ -22,6 +22,7 @@ export default function dentaldubaiCategoryPage() {
   <title>Best dental Clinic in Dubai | Expert Dentists & Care</title>
   <meta name="description" content="Receive expert dental care at the best dental clinic in Dubai. Safe, personalized treatments for teeth whitening, veneers, implants, braces, and smile makeovers." />
   <meta name="keywords" content="Best dental clinic in Dubai, Dentist in Dubai, dental treatment in Dubai, Cosmetic dentistry Dubai, Teeth whitening in Dubai, dental veneers Dubai, dental implants Dubai, Braces treatment in Dubai, Smile makeover Dubai, Family dentistry Dubai, DHA-licensed dentist in Dubai, Top dentist Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/dental-dubai/" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

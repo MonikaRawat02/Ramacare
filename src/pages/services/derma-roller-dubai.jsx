@@ -27,6 +27,7 @@ export default function DermaRollerPage() {
   <title>Derma Roller Treatment in Dubai for Skin Renewal Care</title>
   <meta name="description" content="Derma roller treatment in Dubai improves skin texture, reduces acne scars, and boosts collagen through safe, doctor-led microneedling care plans today." />
   <meta name="keywords" content="Derma roller treatment in Dubai, Microneedling Dubai, Acne scar treatment Dubai, Skin rejuvenation Dubai, Collagen induction therapy, Derma roller for face Dubai, Skin texture improvement, Professional microneedling treatment, Anti-aging skin treatment Dubai, Open pores treatment Dubai, Scar reduction treatment in Dubai, Skin resurfacing Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/derma-roller-dubai/" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

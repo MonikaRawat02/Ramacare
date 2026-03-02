@@ -27,6 +27,7 @@ export default function GoldenElixirFacialPage() {
   <title>Golden Elixir (24K Gold) Facial in Dubai – Radiant Skin</title>
   <meta name="description" content="Golden Elixir (24K Gold) Facial in Dubai rejuvenates and nourishes the skin, promoting radiance, hydration, and a youthful, glowing appearance under expert care." />
   <meta name="keywords" content="Golden Elixir 24K Gold Facial in Dubai, 24K Gold facial treatment Dubai, Luxury facial Dubai, Skin rejuvenation Dubai, Hydrating facial treatment Dubai, Anti-aging facial Din ubai, Radiant skin treatment, Professional facial in Dubai, Glowing skin therapy Dubai, Spa facial treatment Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

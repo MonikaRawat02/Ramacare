@@ -27,6 +27,7 @@ export default function GastrointestinalDisordersPage() {
   <title>Gastrointestinal Disorders Treatment in Dubai Care</title>
   <meta name="description" content="Gastrointestinal disorders treatment in Dubai offers expert care for acidity, IBS, constipation, ulcers, and digestive issues with accurate diagnosis and guidance." />
   <meta name="keywords" content="Gastrointestinal disorders treatment in Dubai, Digestive disorders treatment in Dubai, Stomach problem treatment in Dubai, IBS treatment Dubai, Acidity and gas treatment in Dubai, Gut Health Clinic Dubai, Digestive health care Dubai, Gastrointestinal care Dubai, Ayurvedic digestive treatment in Dubai, Chronic digestive disorder treatment" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -22,6 +22,7 @@ export default function FacialCategoryPage() {
   <title>Facial Treatments in Dubai | Expert Skin Care Clinic</title>
   <meta name="description" content="Professional facial treatments in Dubai offering safe, personalized care for acne, pigmentation, aging, and dull skin, delivered by experienced skin specialists you can trust." />
   <meta name="keywords" content="facial treatments in Dubai, skin care clinic Dubai, advanced facial treatment Dubai, acne facial treatment Dubai, anti-aging facial Dubai, pigmentation treatment Dubai, medical facial Dubai, professional skin treatment Dubai, dermatology facial Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/facial-dubai/" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

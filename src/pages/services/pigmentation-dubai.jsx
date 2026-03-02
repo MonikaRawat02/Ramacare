@@ -27,6 +27,7 @@ export default function PigmentationPage() {
   <title>Pigmentation Treatment in Dubai for Even Skin Tone</title>
   <meta name="description" content="Pigmentation treatment in Dubai helps reduce dark spots, melasma, and uneven skin tone through safe, doctor-guided dermatology care." />
   <meta name="keywords" content="Pigmentation treatment in Dubai, Dark spots treatment in Dubai, Pigmentation Dubai, Uneven skin tone treatment, Skin discoloration Dubai, Hyperpigmentation treatment, Dermatology treatment Dubai, Skin brightening therapy Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/pigmentation-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

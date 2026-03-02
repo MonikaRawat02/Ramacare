@@ -27,6 +27,7 @@ export default function MicrodermabrasionPage() {
   <title>Microdermabrasion in Dubai for Smooth Radiant Skin</title>
   <meta name="description" content="Microdermabrasion in Dubai gently exfoliates the skin to improve texture, reduce dullness, unclog pores, and support a clearer, healthier complexion." />
   <meta name="keywords" content="Microdermabrasion in Dubai, Skin exfoliation treatment Dubai, Microdermabrasion facial Dubai, Skin rejuvenation Dubai, Dead skin removal treatment, Open pores treatment Dubai, Skin texture improvement, Professional facial treatment Dubai, Non-invasive skin treatment, Clear skin therapy Dubai, Microdermabrasion in dubai price, Microdermabrasion in dubai cost, Best microdermabrasion in dubai, Microdermabrasion in dubai offers, Microdermabrasion near me, Microdermabrasion benefits, Microdermabrasion meaning, Microdermabrasion vs HydraFacial" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/microdermabrasion-dubai/" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

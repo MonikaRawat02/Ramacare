@@ -27,6 +27,7 @@ export default function dentaldubaiCrownBridgePage() {
   <title>dental Crown Bridges in Dubai | Durable & Natural Smile</title>
   <meta name="description" content="Restore your smile with dental crown bridges in Dubai. Safe, long-lasting, and natural-looking solutions by licensed dentists for effective tooth replacement." />
   <meta name="keywords" content="dental crown bridges Dubai, Tooth crown Dubai, dental bridge treatment, Porcelain crown Dubai, Metal ceramic crowns, Tooth replacement in Dubai, Cosmetic dental bridges, Long-lasting dental crowns, Licensed dentist in Dubai, Full mouth restoration Dubai, Affordable crown bridges, Natural-looking dental crowns" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/dental-crown-bridges-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

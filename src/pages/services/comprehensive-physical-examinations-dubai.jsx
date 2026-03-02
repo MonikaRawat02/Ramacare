@@ -27,6 +27,8 @@ export default function ComprehensivePhysicalExaminationsPage() {
   <title>Regular Physical Examinations in Dubai | Trusted Care</title>
   <meta name="description" content="Regular physical examinations in Dubai with experienced doctors, clear screenings, and personalised advice to detect health issues early and support long-term health." />
   <meta name="keywords" content="regular physical examinations in Dubai, physical check-up Dubai, general physical exam Dubai, preventive health check Dubai, routine medical exam Dubai, annual physical examination in Dubai, Primary care examination in Dubai, health screening Dubai, preventive healthcare Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/comprehensive-physical-examinations-dubai" />
+
 </Head>
 
       <TreatmentHero 

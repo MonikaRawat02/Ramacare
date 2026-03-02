@@ -27,6 +27,7 @@ export default function MinorInjuryCarePage() {
   <title>Minor Injury Care in Dubai | Fast & Expert Medical Help</title>
   <meta name="description" content="Get expert minor injury care in Dubai for cuts, bruises, sprains, and wounds. Quick, safe treatment by experienced doctors with proper aftercare guidance." />
   <meta name="keywords" content="Minor injury care in Dubai, Emergency minor injury treatment, Cuts and bruises treatment in Dubai, Sprains and strains care in Dubai, Wound care Dubai, Accident injury treatment in Dubai, First aid clinic Dubai, Injury management Dubai, Quick medical care in Dubai, Minor trauma care in Dubai, Dubai urgent care clinic, Expert injury care in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/minor-injury-care-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

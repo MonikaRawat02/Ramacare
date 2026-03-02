@@ -27,6 +27,7 @@ export default function LaserRejuvenationPage() {
   <title>Laser Rejuvenation in Dubai for Youthful, Radiant Skin</title>
   <meta name="description" content="Laser rejuvenation in Dubai helps reduce wrinkles, fine lines, and pigmentation while improving skin texture and glow through safe, expert care." />
   <meta name="keywords" content="Laser rejuvenation in Dubai, Skin rejuvenation Dubai, Anti-aging laser treatment Dubai, Wrinkle reduction Dubai, Fine lines treatment Dubai, Pigmentation correction Dubai, Facial laser therapy Dubai, Non-surgical skin rejuvenation, Professional laser skin treatment, Youthful skin treatment Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -23,7 +23,7 @@ export default function GeneralPhysicianCategoryPage() {
   <meta name="description" content="General physician treatment covers routine checkups, diagnosis, and care for common illnesses, infections, and chronic conditions with medical guidance." />
   <meta name="keywords" content="General physician treatment, General physician care, Primary care doctor, Family medicine treatment, Routine health checkup, Diagnosis and treatment clinic, Chronic disease management, Common illness treatment, Preventive health care, Medical consultation services" />
   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/general-physician-dubai/" />
-   <script
+  <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: `

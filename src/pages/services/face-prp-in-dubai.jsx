@@ -27,6 +27,7 @@ export default function FacePRPinDubaiPage() {
   <title>Face PRP in Dubai – Skin Rejuvenation by Experts</title>
   <meta name="description" content="Face PRP in Dubai is performed by specialists to stimulate collagen, improve skin texture, reduce fine lines, and restore a youthful, healthy glow." />
   <meta name="keywords" content="Face PRP in Dubai, PRP facial treatment Dubai, Skin rejuvenation Dubai, Collagen stimulation facial, Anti-aging PRP treatment, Facial rejuvenation therapy, Fine lines reduction in Dubai, Youthful skin treatment in Dubai, Platelet-rich plasma facial, Professional PRP skin therapy" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/face-prp-in-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

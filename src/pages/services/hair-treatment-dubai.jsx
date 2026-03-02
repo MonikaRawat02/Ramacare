@@ -27,6 +27,7 @@ export default function HairTreatmentPage() {
   <title>Hair Treatment Dubai – Advanced Solutions for Healthy Hair</title>
   <meta name="description" content="RamaCare offers expert hair treatments in Dubai for hair loss, thinning, and scalp care. Restore your hair with trusted specialists today" />
   <meta name="keywords" content="Hair treatment in Dubai, Hair treatment in Jumeirah 1, Hair loss treatment Dubai, Hair restoration Dubai, PRP hair treatment Dubai, Mesotherapy hair treatment Dubai, Hair transplant Dubai, Thinning hair solutions Dubai, Scalp treatment Dubai, Medical hair clinic Dubai, DHA licensed hair clinic, Hair care specialists in Dubai, Advanced hair therapy Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/hair-treatment-dubai/" />
 <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{

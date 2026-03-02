@@ -27,6 +27,8 @@ export default function WoundStitchingServicesPage() {
   <title>Wound Stitching Services in Dubai With Skilled Medical Care</title>
   <meta name="description" content="Wound stitching services in Dubai offer safe, timely care for cuts and injuries using sterile techniques, expert doctors, and proper aftercare for faster healing." />
   <meta name="keywords" content="Wound stitching services in Dubai, Emergency wound stitching in Dubai, Cut and laceration treatment in Dubai, Minor injury treatment in Dubai, Stitches removal Dubai, Wound care clinic Dubai, Accident injury treatment in Dubai, First aid and suturing in Dubai, Surgical stitching in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/wound-stitching-services-dubai/" />
+  
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,7 @@ export default function SkinAllergyPage() {
   <title>Skin Allergy Treatment in Dubai for Safe Symptom Relief</title>
   <meta name="description" content="Skin allergy treatment in Dubai helps diagnose causes, relieve itching and rashes, and restore skin health through safe, doctor-guided medical care." />
   <meta name="keywords" content="Skin allergy treatment in Dubai, Skin allergy care Dubai, Allergy rash treatment Dubai, Itching skin treatment Din ubai, Dermatitis treatment Dubai, Skin infection and allergy care, Eczema treatment Dubai, Medical skin treatment Dubai, Allergy diagnosis and treatment, Sensitive skin treatment Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/skin-allergy-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

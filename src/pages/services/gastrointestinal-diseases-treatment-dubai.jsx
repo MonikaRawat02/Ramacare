@@ -27,6 +27,7 @@ export default function GastrointestinalDiseasesTreatmentPage() {
   <title>Gastrointestinal Treatment in Dubai | Digestive Health Care</title>
   <meta name="description" content="Receive expert gastrointestinal treatment in Dubai for stomach, intestinal, and digestive issues. Personalized care, modern diagnostics, and effective solutions for lasting health." />
   <meta name="keywords" content="Gastrointestinal treatment in Dubai, Digestive health Dubai, Stomach problem treatment in Dubai, Intestinal disorders in Dubai, Gut health care Dubai, Gastroenterologist Dubai, Digestive disorder solutions Dubai, Ayurvedic digestive treatment in Dubai, Gastroscopy Dubai, Gastro prevention Dubai, DHA licensed gastro clinic in Dubai, IBS treatment Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

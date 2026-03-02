@@ -27,6 +27,7 @@ export default function TeethCompositeRestorationPage() {
   <title>Tooth Composite Restoration | Durable & Natural dental Care</title>
   <meta name="description" content="Restore your teeth with composite restoration for a natural look and long-lasting results. Safe, pain-free dental treatment by licensed dentists for healthy smiles." />
   <meta name="keywords" content="Tooth composite restoration, dental composite filling, Composite bonding treatment, Tooth repair Dubai, Cosmetic dental restoration, Durable tooth restoration, Natural-looking fillings, DHA licensed dentist in Dubai, Smile restoration Dubai, Tooth repair treatment, Affordable composite restoration, dental repair solutions" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/teeth-composite-restoration-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

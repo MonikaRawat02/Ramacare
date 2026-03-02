@@ -146,7 +146,7 @@ export default function About() {
           </div>
         </div>
       </section>
-
+                                                                                          
       {/* Main Content Sections */}
       <AboutAyurvedaSection content={aboutContent} />
       <WhyAyurvedaDubaiSection content={whyContent} />

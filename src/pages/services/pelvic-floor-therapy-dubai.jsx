@@ -27,6 +27,7 @@ export default function PelvicFloorTherapyPage() {
   <title>Pelvic Floor Therapy in Dubai for Strength and Recovery</title>
   <meta name="description" content="Pelvic floor therapy in Dubai helps improve bladder control, core strength, and recovery after childbirth or surgery through safe, guided physiotherapy care." />
   <meta name="keywords" content="Pelvic floor therapy in Dubai, Pelvic floor physiotherapy Dubai, Pelvic floor treatment Dubai, Women’s health physiotherapy Dubai, Postnatal pelvic floor therapy, Pelvic floor exercises Dubai, Urinary incontinence treatment Dubai, Pelvic pain physiotherapy, Core strengthening physiotherapy, Rehabilitation physiotherapy Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/pelvic-floor-therapy-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

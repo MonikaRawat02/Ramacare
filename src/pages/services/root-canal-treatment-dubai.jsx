@@ -27,6 +27,7 @@ export default function RootCanalTreatmentPage() {
   <title>Root Canal Treatment in Dubai | Trusted Endodontist Care</title>
   <meta name="description" content="Get safe and effective root canal treatment in Dubai. Skilled endodontists remove infection, relieve pain, and restore your tooth for long-lasting dental health." />
   <meta name="keywords" content="Root canal treatment Dubai, Root canal therapy Dubai, Endodontist Dubai, Painless root canal Dubai, Tooth infection treatment in Dubai, dental clinic Dubai, Emergency root canal Dubai, Tooth restoration in Dubai, Best endodontist in Dubai, DHA-licensed dentist in Dubai, Root canal cost in Dubai, Advanced root canal Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/root-canal-treatment-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

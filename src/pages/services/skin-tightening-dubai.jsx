@@ -27,6 +27,7 @@ export default function SkinTighteningPage() {
   <title>Skin Tightening Treatment in Dubai for Firmer Youthful Skin</title>
   <meta name="description" content="Skin tightening treatment in Dubai helps improve skin firmness and elasticity using safe, non-invasive technologies under expert medical supervision." />
   <meta name="keywords" content="Skin tightening treatment in Dubai, Non-surgical skin tightening in Dubai, Laser skin tightening Dubai, Facial skin tightening in Dubai, Body skin tightening in Dubai, Anti-aging skin treatment Dubai, Skin firming treatment, Skin laxity treatment Dubai, Advanced skin tightening therapy, Best skin tightening treatment in Dubai, Skin rejuvenation Dubai, Skin tightening treatment in Dubai price, Skin tightening treatment in dubai cost, Best skin tightening treatment in dubai, Skin tightening treatment in dubai for face, Laser skin tightening dubai, Skin tightening treatments for face, Best skin tightening treatments for face, Skin Laser Treatment price in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/skin-tightening-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

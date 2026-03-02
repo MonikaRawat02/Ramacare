@@ -27,6 +27,7 @@ export default function FacePRPPage() {
   <title>Face PRP in Dubai for Natural Skin Rejuvenation Care</title>
   <meta name="description" content="Face PRP in Dubai uses your body’s own platelets to improve skin texture, boost collagen, and restore a healthy, youthful glow under expert care." />
   <meta name="keywords" content="Face PRP in Dubai, PRP facial treatment Dubai, Platelet rich plasma facial, Skin rejuvenation Dubai, Collagen stimulation treatment, Anti-aging PRP Dubai, Facial skin renewal therapy, Natural skin treatment Dubai, Professional PRP treatment, Youthful skin care Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/face-prp" />
 </Head>
 
       <TreatmentHero 

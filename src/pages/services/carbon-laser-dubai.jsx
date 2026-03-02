@@ -27,6 +27,8 @@ export default function CarbonLaserTreatmentPage() {
   <title>Carbon Laser Treatment in Dubai | Skin Rejuvenation</title>
   <meta name="description" content="Experience safe and effective Carbon Laser treatment in Dubai for glowing, clear skin. Reduce pigmentation, acne scars, and fine lines with expert care." />
   <meta name="keywords" content="Carbon Laser Dubai, Carbon Laser facial Dubai, Acne scar treatment Dubai, Skin rejuvenation Dubai, Pigmentation removal Dubai, Laser skin therapy Dubai, Carbon peel Dubai, Anti-ageing skin treatment Dubai, Glowing skin treatment Dubai, Dermatology laser Dubai, Non-surgical skin treatment in Dubai, Laser facial clinic Dubai" />
+
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/carbon-laser-dubai" />
 <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,7 @@ export default function UltrasoundTherapyPage() {
   <title>Ultrasound Therapy in Dubai | Safe Pain Relief Treatment</title>
   <meta name="description" content="Ultrasound therapy in Dubai helps reduce pain, improve mobility, and speed up healing for muscle and joint conditions with safe, guided physiotherapy care." />
   <meta name="keywords" content="Ultrasound therapy in Dubai, Therapeutic ultrasound Dubai, Ultrasound physiotherapy Dubai, Pain relief ultrasound therapy, Muscle injury treatment in Dubai, Joint pain therapy in Dubai, Sports injury ultrasound therapy, Physiotherapy ultrasound treatment, Rehabilitation therapy Dubai, Non-surgical pain treatment in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai/" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

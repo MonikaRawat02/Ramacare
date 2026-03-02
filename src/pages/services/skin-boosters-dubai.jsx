@@ -27,6 +27,7 @@ export default function SkinBoostersPage() {
   <title>Skin Boosters in Dubai – Hydrate and Rejuvenate Your Skin</title>
   <meta name="description" content="Skin boosters in Dubai provide deep hydration, improve skin texture, and restore a youthful, radiant glow under professional supervision." />
   <meta name="keywords" content="Skin boosters in Dubai, Skin hydration treatment Dubai, Facial rejuvenation Dubai, Anti-aging skin therapy, Professional skin booster treatment, Radiant skin treatment Dubai, Skin texture improvement, Youthful skin therapy in Dubai, Skin revitalization Dubai, Deep hydration facial Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/skin-boosters-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

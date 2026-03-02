@@ -27,6 +27,7 @@ export default function CarboxyTherapyPage() {
   <title>Carboxy Therapy in Dubai for Skin and Body Rejuvenation</title>
   <meta name="description" content="Carboxy therapy in Dubai improves circulation, skin texture, and elasticity using safe carbon dioxide therapy under expert medical supervision." />
   <meta name="keywords" content="Carboxy therapy in Dubai, Carboxytherapy treatment Dubai, Skin rejuvenation Dubai, Dark circles treatment Dubai, Cellulite reduction therapy, Skin tightening treatment Dubai, Body contouring Dubai, Non-surgical aesthetic treatment, Professional skin therapy in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

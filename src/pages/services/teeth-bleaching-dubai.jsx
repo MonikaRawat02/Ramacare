@@ -24,8 +24,10 @@ export default function TeethBleachingPage() {
   return (
     <Layout>
        <Head>
+      
     {/* title + meta */}
     {/* paste script here */}
+    <link rel="canonical" href="https://ramacarepolyclinic.ae/services/teeth-bleaching-dubai" />
     <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,7 @@ export default function TeethScalingPolishingPage() {
   <title>Teeth Scaling & Polishing in Dubai | Professional dental Care</title>
   <meta name="description" content="Maintain healthy teeth with professional scaling and polishing in Dubai. Safe, effective dental cleaning by licensed dentists for a brighter, fresher smile." />
   <meta name="keywords" content="Teeth scaling in Dubai, Teeth Polishing in Dubai, dental cleaning in Dubai, Professional teeth cleaning, Plaque removal Dubai, Tartar removal Dubai, Oral hygiene Dubai, Licensed dentist in Dubai, Routine dental cleaning, Preventive dental care in Dubai, Healthy teeth Dubai, Bright Smile dental Care" />
+   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/teeth-scaling-polishing-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

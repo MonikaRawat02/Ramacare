@@ -27,6 +27,7 @@ export default function ElectrotherapyPage() {
   <title>Electrotherapy in Dubai for Pain Relief and Physiotherapy</title>
   <meta name="description" content="Electrotherapy in Dubai offers safe physiotherapy treatment for pain relief, muscle stimulation, and faster recovery using TENS, IFC, and NMES under expert care." />
   <meta name="keywords" content="Electrotherapy in Dubai, Electrotherapy treatment Dubai, Physiotherapy electrotherapy, TENS therapy Dubai, IFC therapy Dubai, NMES therapy Dubai, Pain relief physiotherapy Dubai, Muscle stimulation therapy, Electrotherapy physiotherapy clinic, Rehabilitation therapy Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/electrotherapy-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

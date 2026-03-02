@@ -27,6 +27,7 @@ export default function BotoxHyperhidrosisPage() {
   <title>Botox Hyperhidrosis in Dubai for Excessive Sweating</title>
   <meta name="description" content="Botox hyperhidrosis in Dubai helps manage excessive sweating safely by reducing underarm, palm, and foot sweating under expert medical care." />
   <meta name="keywords" content="Botox hyperhidrosis in Dubai, Excessive sweating treatment Dubai, Hyperhidrosis treatment Dubai, Botox for sweating Dubai, Underarm sweating treatment, Palmar hyperhidrosis treatment, Non-surgical sweating control, Medical hyperhidrosis care, Sweat reduction treatment Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

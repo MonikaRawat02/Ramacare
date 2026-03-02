@@ -27,6 +27,7 @@ export default function ThyroidDysfunctionSolutionsPage() {
   <title>Thyroid Dysfunction Solutions in Dubai | Expert Care</title>
   <meta name="description" content="Get trusted thyroid dysfunction solutions in Dubai with accurate diagnosis and personalised care. Our doctors help manage hypothyroidism and hyperthyroidism safely." />
   <meta name="keywords" content="Thyroid dysfunction solutions in Dubai, Thyroid treatment Dubai, Hypothyroidism treatment in Dubai, Hyperthyroidism treatment Dubai, Thyroid disorder management in Dubai, Thyroid specialist Dubai, Thyroid diagnosis Dubai, Hormonal imbalance treatment in Dubai, Endocrinology clinic Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/thyroid-dysfunction-solutions-dubai" />
  <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

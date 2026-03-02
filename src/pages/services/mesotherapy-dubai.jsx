@@ -27,6 +27,7 @@ export default function MesotherapyPage() {
   <title>Mesotherapy in Dubai for Skin and Hair Rejuvenation</title>
   <meta name="description" content="Mesotherapy in Dubai delivers vitamins and nutrients into the skin to improve texture, reduce hair loss, and support healthy skin and scalp care." />
   <meta name="keywords" content="Mesotherapy in Dubai, Mesotherapy treatment Dubai, Skin mesotherapy Dubai, Hair mesotherapy Dubai, Skin rejuvenation treatment, Hair loss treatment Dubai, Vitamin injection therapy, Non-surgical aesthetic treatment, Professional mesotherapy care" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/mesotherapy-dubai/" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,7 @@ export default function SpecializedHypertensionManagementPage() {
   <title>Specialised Hypertension Treatment in Dubai | Blood Pressure Care</title>
   <meta name="description" content="Get specialised hypertension treatment in Dubai with expert doctors, accurate diagnosis, and personalised care plans to safely control high blood pressure long term." />
   <meta name="keywords" content="Hypertension treatment in Dubai, High blood pressure treatment in Dubai, Hypertension specialist Dubai, Blood pressure doctor Dubai, Hypertension clinic Dubai, Chronic hypertension management in Dubai, Cardiovascular risk management in Dubai, Hypertension diagnosis and care in Dubai, Lifestyle management for high blood pressure, Hypertension medication Dubai, 24-hour blood pressure monitoring in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/specialized-hypertension-management" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,7 @@ export default function FemaleGenitalRejuvenationPage() {
   <title>Female Genital Rejuvenation for Comfort and Confidence</title>
   <meta name="description" content="Female genital rejuvenation restores vaginal health, tightness, and comfort using safe, minimally invasive treatments under expert medical supervision." />
   <meta name="keywords" content="Female genital rejuvenation, Vaginal tightening treatment, Non-surgical genital rejuvenation, Vaginal health therapy, Intimate wellness treatment, Minimally invasive vaginal care, Vaginal laxity treatment, Medical genital rejuvenation, Women’s intimate care, Expert genital treatment" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

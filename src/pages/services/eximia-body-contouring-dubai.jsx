@@ -27,6 +27,7 @@ export default function BodyShapingPage() {
   <title>Eximia Body Contouring in Dubai for Slim and Toned Body</title>
   <meta name="description" content="Eximia body contouring in Dubai helps reduce fat, tighten skin, and sculpt your body safely using advanced non-invasive technology under expert care." />
   <meta name="keywords" content="Eximia body contouring Dubai, Non-surgical body sculpting Dubai, Fat reduction treatment Dubai, Skin tightening Dubai, Body slimming treatment Dubai, Professional body contouring, Non-invasive fat removal, Toned body treatment Dubai, Body shaping therapy, Expert body contouring clinic" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,7 @@ export default function HairRemovalPage() {
   <title>Hair Removal in Dubai for Safe and Effective Results</title>
   <meta name="description" content="Hair removal in Dubai offers safe, doctor-supervised solutions to reduce unwanted hair using advanced methods suitable for different skin types and areas." />
   <meta name="keywords" content="Hair removal in Dubai, Laser hair removal Dubai, Permanent hair removal Dubai, Medical hair removal treatment, Facial hair removal Dubai, Body hair removal Dubai, Safe hair removal methods, Professional hair removal clinic, Skin-friendly hair removal Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/hair-removal-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

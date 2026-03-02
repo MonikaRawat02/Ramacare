@@ -27,6 +27,7 @@ export default function SkinDiseasesTreatmentPage() {
   <title>Skin Diseases Treatment Dubai | Expert Dermatology Care</title>
   <meta name="description" content="Receive safe and natural Ayurvedic treatment for skin diseases in Dubai. Personalized care for acne, eczema, psoriasis, rashes, and healthy glowing skin." />
   <meta name="keywords" content="Skin diseases treatment Dubai, Ayurvedic skin treatment Dubai, Acne treatment Dubai, Eczema treatment Dubai, Psoriasis treatment Dubai, Rashes treatment Ayurveda Dubai, Natural skin care Dubai, Holistic skin treatment Dubai, Ayurvedic dermatologist in Dubai, Herbal skin therapy Dubai, Personalized skin care Dubai, Ayurvedic remedies for skin issues" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/skin-diseases-treatment-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

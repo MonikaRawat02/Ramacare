@@ -27,6 +27,7 @@ export default function OxygeneoIlluminateFacialPage() {
   <title>OxyGeneo Illuminate Facial in Dubai – Brighten Your Skin</title>
   <meta name="description" content="OxyGeneo Illuminate Facial in Dubai exfoliates, oxygenates, and brightens skin, leaving it smooth, radiant, and refreshed under professional care." />
   <meta name="keywords" content="OxyGeneo Illuminate Facial in Dubai, Skin brightening facial in Dubai, Exfoliating facial treatment, Oxygenating facial in Dubai, Radiant skin therapy Dubai, Professional facial treatment, Skin rejuvenation Dubai, Glow-enhancing facial in Dubai, Anti-aging facial in Dubai, Healthy skin facial in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

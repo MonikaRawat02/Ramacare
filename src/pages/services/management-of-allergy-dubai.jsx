@@ -27,6 +27,7 @@ export default function ManagementofAllergyPage() {
   <title>Management of Allergy in Dubai With Expert Medical Care</title>
   <meta name="description" content="Management of allergy in Dubai provides personalised care for skin, food, respiratory, and seasonal allergies with accurate diagnosis and long-term relief plans." />
   <meta name="keywords" content="Management of allergy in Dubai, Allergy treatment Dubai, Allergy clinic Dubai, Skin allergy treatment Dubai, Respiratory allergy treatment in Dubai, Food allergy management in Dubai, Seasonal allergy care Dubai, Chronic allergy treatment in Dubai, Allergy specialist Dubai, Allergy diagnosis and treatment in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/management-of-allergy-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,7 @@ export default function DyslipidemiaDiagnosisandTreatmentPage() {
   <title>Dyslipidemia Diagnosis and Treatment for Healthy Cholesterol</title>
   <meta name="description" content="Dyslipidemia diagnosis and treatment focused on managing cholesterol levels, reducing heart disease risk, and supporting long-term cardiovascular health safely." />
   <meta name="keywords" content="Dyslipidemia diagnosis and treatment, High cholesterol treatment, Lipid profile test, Cholesterol management, Dyslipidemia care, Heart health treatment, High LDL cholesterol, Triglyceride management, Preventive cardiac care" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/dyslipidemia-diagnosis-and-treatment" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

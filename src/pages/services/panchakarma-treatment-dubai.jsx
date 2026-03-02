@@ -27,6 +27,7 @@ export default function PanchakarmaTreatmentPage() {
   <title>Panchakarma Treatment in Dubai | Ayurvedic Detox & Wellness</title>
   <meta name="description" content="Discover authentic Panchakarma treatment in Dubai for detox, stress relief, immunity boost, and rejuvenation. Affordable pricing, Bur Dubai & Al Nahda centers available." />
   <meta name="keywords" content="Panchakarma treatment in Dubai, Ayurvedic Panchakarma Dubai, Panchakarma treatment cost in Dubai, Panchakarma treatment price list, Panchakarma Bur Dubai, Panchakarma Ayurvedic Centre, Panchakarma Ayurveda centre reviews, Panchakarma Al Nahda, Ayurvedic treatment in Dubai, Panchakarma treatment near me, Body detox Ayurveda Dubai, Stress Relief Ayurveda Dubai" />
+   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/panchakarma-treatment-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

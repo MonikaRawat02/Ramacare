@@ -27,6 +27,7 @@ export default function AnalysisOfIndividualTreatmentPage() {
   <title>Individual Analysis in Dubai | Ayurvedic Health Assessment</title>
   <meta name="description" content="Get a personalized analysis of your health in Dubai. Ayurvedic experts assess your dosha, lifestyle, and body constitution to create natural wellness plans." />
   <meta name="keywords" content="Analysis of the individual Dubai, Ayurvedic body analysis Dubai, Dosha assessment Dubai, Personalized Ayurveda Dubai, Ayurvedic consultation in Dubai, Health evaluation in Dubai, Holistic wellness Dubai, Ayurvedic lifestyle guidance, Natural treatment Dubai, Ayurveda expert in Dubai, Individual health assessment, Traditional Ayurveda Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai/" />
     <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{

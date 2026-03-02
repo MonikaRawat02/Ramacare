@@ -24,6 +24,7 @@ export default function PersonalizedSlimmingProgramsPage() {
   return (
     <Layout>
       <Head>
+        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/personalized-slimming-programs" />
         <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

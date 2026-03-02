@@ -27,6 +27,7 @@ export default function FractionalCo2LaserPage() {
   <title>Fractional CO2 Laser in Dubai for Skin Resurfacing</title>
   <meta name="description" content="Fractional CO2 laser in Dubai improves skin texture, reduces scars, fine lines, and pigmentation, delivering smoother, youthful skin under expert care." />
   <meta name="keywords" content="Fractional CO2 laser Dubai, Skin resurfacing Dubai, Scar removal treatment Dubai, Acne scar treatment Dubai, Fine lines reduction Dubai, Pigmentation treatment Dubai, Non-surgical skin rejuvenation, Laser skin treatment Dubai, Professional CO2 laser therapy, Anti-aging skin treatment" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

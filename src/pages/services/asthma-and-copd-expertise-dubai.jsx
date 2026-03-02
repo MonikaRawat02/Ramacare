@@ -27,6 +27,7 @@ export default function AsthmaandCOPDExpertisePage() {
   <title>Asthma and COPD Specialist in Dubai for Expert Lung Care</title>
   <meta name="description" content="Consult an experienced asthma and COPD specialist in Dubai for accurate diagnosis, inhaler management, and long-term lung care tailored to your condition." />
   <meta name="keywords" content="Asthma and COPD specialist in Dubai, Asthma treatment Dubai, COPD treatment in Dubai, Lung care specialist Dubai, Respiratory clinic Dubai, Pulmonologist in Dubai, Chronic asthma management Dubai, COPD breathing treatment in Dubai, Adult asthma specialist in Dubai, Inhaler therapy Dubai, Chronic lung disease treatment in Dubai, Respiratory health care in Dubai" />
+   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/asthma-and-copd-expertise-dubai/" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

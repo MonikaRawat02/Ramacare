@@ -27,6 +27,7 @@ export default function CompositeVeneersPage() {
   <title>Composite Veneers Dubai | Safe & Natural Smile Solutions</title>
   <meta name="description" content="Enhance your smile with composite veneers in Dubai—safe, natural-looking, and durable dental solutions for teeth restoration and cosmetic smile makeovers by expert dentists." />
   <meta name="keywords" content="Composite veneers Dubai, dental veneers Dubai, Cosmetic dentistry Dubai, Smile makeover Dubai, Tooth restoration in Dubai, Affordable veneers Dubai, Same-day veneers Dubai, Composite bonding Dubai, Durable veneers Dubai, Natural-looking veneers Dubai, DHA-licensed dentist in Dubai, Best veneers Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/composite-veneers-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,7 @@ export default function AyurvedicHairfallTreatmentPage() {
   <title>Ayurvedic Hair Fall Treatment in Dubai – Safe & Natural</title>
   <meta name="description" content="Control hair fall naturally with Ayurvedic treatments in Dubai. Herbal remedies, scalp therapies, and personalized care help restore healthy, strong hair." />
   <meta name="keywords" content="Ayurvedic Hair Fall Treatment Dubai, Hair Loss Treatment Ayurveda Dubai, Natural Hair Regrowth Dubai, Herbal Hair Care Dubai, Ayurvedic Hair Therapy Dubai, Hair Strengthening Treatments Dubai, Hair Fall Solutions Dubai, Ayurveda for Hair Loss, Ayurvedic Scalp Treatment Dubai, Hair Growth Oils Dubai, Best Ayurvedic Hair Treatment, Personalized Hair Care Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-hairfall-treatment-dubai/" />
    <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

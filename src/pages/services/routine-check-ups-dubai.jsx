@@ -27,6 +27,8 @@ export default function ExpertiseinRoutineCheckUpsPage() {
   <title>Expertise in Routine Check-Ups in Dubai | Preventive Care</title>
   <meta name="description" content="Expertise in routine check-ups in Dubai with trusted doctors, clear screenings, and personalised health plans to detect issues early and support long-term health." />
   <meta name="keywords" content="routine check-ups in Dubai, general health check-up Dubai, preventive health screening Dubai, Annual medical check-up in Dubai, routine medical examination in Dubai, Primary care check-up in Dubai, health assessment Dubai, Early disease detection in Dubai, preventive healthcare Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/routine-check-ups-dubai" />
+
 </Head>
 
       <TreatmentHero 

@@ -27,6 +27,7 @@ export default function ScarsRemovalPage() {
   <title>Scars Removal in Dubai for Smooth and Even Skin</title>
   <meta name="description" content="Scars removal in Dubai uses advanced laser and medical treatments to reduce acne, surgical, or injury scars, restoring smooth and healthy-looking skin." />
   <meta name="keywords" content="Scars removal in Dubai, Laser scar treatment Dubai, Acne scar removal Dubai, Surgical scar treatment, Injury scar removal Dubai, Skin resurfacing treatment, Scar reduction therapy Dubai, Professional scar treatment, Non-surgical scar removal, Skin rejuvenation Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/scars-removal-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,8 @@ export default function SpiderVeinsLaserTreatmentPage() {
   <title>Spider Veins Laser Treatment in Dubai for Clearer Skin</title>
   <meta name="description" content="Spider veins laser treatment in Dubai safely reduces visible veins on legs and face using advanced laser technology, improving skin appearance and confidence." />
   <meta name="keywords" content="Spider veins laser treatment Dubai, Laser vein removal Dubai, Spider vein treatment Dubai, Visible veins reduction, Leg vein laser treatment, Facial vein laser treatment, Non-surgical vein removal Dubai, Safe vein treatment Dubai, Spider veins therapy, Medical laser vein treatment, Vein clearance treatment" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/spider-veins-laser-treatment" />
+
 </Head>
 
       <TreatmentHero 

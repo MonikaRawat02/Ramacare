@@ -24,6 +24,7 @@ export default function DarkCirclePage() {
   return (
     <Layout>
       <Head>
+        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/dark-circle-dubai" />
         <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

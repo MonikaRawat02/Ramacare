@@ -27,6 +27,7 @@ export default function ElectrolysisPage() {
   <title>Electrolysis in Dubai for Permanent Hair Removal Treatment</title>
   <meta name="description" content="Electrolysis in Dubai offers safe, medical-grade permanent hair removal by trained professionals, suitable for all skin types and areas with lasting results." />
   <meta name="keywords" content="Electrolysis in Dubai, Permanent hair removal in Dubai, Electrolysis hair removal, Medical hair removal Dubai, Facial hair removal Dubai, Body hair removal treatment, Safe electrolysis treatment, Hair removal for all skin types, Professional electrolysis in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/electrolysis-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

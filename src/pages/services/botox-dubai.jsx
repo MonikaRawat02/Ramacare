@@ -27,6 +27,7 @@ export default function BotoxPage() {
   <title>Botox in Dubai for Wrinkle Reduction and Facial Rejuvenation</title>
   <meta name="description" content="Botox in Dubai helps reduce fine lines and wrinkles, relax facial muscles, and restore a refreshed look through safe, doctor-administered treatment." />
   <meta name="keywords" content="Botox in Dubai, Botox treatment Dubai, Wrinkle reduction Dubai, Anti-aging Botox, Facial Botox treatment, Forehead lines treatment, Crow’s feet Botox, Non-surgical facial rejuvenation, Medical Botox Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/botox-dubai/" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

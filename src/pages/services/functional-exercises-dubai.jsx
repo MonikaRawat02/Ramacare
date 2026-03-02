@@ -27,6 +27,7 @@ export default function FunctionalExercisesPage() {
   <title>Functional Exercises Dubai for Rehab and Physiotherapy Care</title>
   <meta name="description" content="Functional exercises in Dubai support rehabilitation and physiotherapy by improving strength, balance, and movement through guided programs tailored to daily activities." />
   <meta name="keywords" content="Functional exercises in Dubai, Functional training Dubai, Rehab exercises in Dubai, Physiotherapy exercises in Dubai, Movement therapy Dubai, Post injury rehabilitation in Dubai, Strength and mobility exercises, Core stability training Dubai, Physical therapy Dubai, Functional rehab programs in Dubai" />
+    <link rel="canonical" href="https://ramacarepolyclinic.ae/services/functional-exercises-dubai" />
     <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{

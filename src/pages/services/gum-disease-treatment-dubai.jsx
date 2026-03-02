@@ -27,6 +27,7 @@ export default function GumDiseaseTreatmentPage() {
   <title>Gum Disease Treatment in Dubai | Healthy Gums Care</title>
   <meta name="description" content="Protect your oral health with expert gum disease treatment in Dubai. Safe, effective solutions by licensed dentists to prevent gum infection and maintain healthy gums." />
   <meta name="keywords" content="Gum disease treatment Dubai, Periodontitis treatment Dubai, Gum infection treatment, Gum care Dubai, Gum disease dentist Dubai, Periodontal therapy Dubai, Gum inflammation treatment, Oral health Dubai, Healthy gums Dubai, dental clinic for gums, Gum treatment near me in Dubai, Professional gum care" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/gum-disease-treatment-dubai" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

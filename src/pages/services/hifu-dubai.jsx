@@ -27,6 +27,7 @@ export default function HIFUPage() {
   <title>HIFU in Dubai for Non-Surgical Skin Lifting Treatment</title>
   <meta name="description" content="HIFU in Dubai helps lift and tighten sagging skin using focused ultrasound technology under expert medical supervision for natural-looking results." />
   <meta name="keywords" content="HIFU in Dubai, HIFU treatment Dubai, Non-surgical skin tightening Dubai, HIFU face lifting Dubai, Skin lifting treatment Dubai, Anti-aging HIFU treatment, Facial skin tightening Dubai, Ultrasound skin therapy, Aesthetic skin care Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/hifu-dubai/" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

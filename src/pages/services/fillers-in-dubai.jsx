@@ -27,6 +27,7 @@ export default function FillersPage() {
   <title>Fillers in Dubai for Natural Facial Volume and Contour</title>
   <meta name="description" content="Fillers in Dubai help restore facial volume, smooth lines, and enhance contours using safe, doctor-administered treatments for natural-looking results." />
   <meta name="keywords" content="Fillers in Dubai, Dermal fillers Dubai, Facial fillers treatment, Anti-aging fillers Dubai, Lip fillers Dubai, Cheek fillers Dubai, Wrinkle reduction treatment, Non-surgical facial enhancement, Hyaluronic acid fillers, Aesthetic injectables Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/fillers-in-dubai/" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

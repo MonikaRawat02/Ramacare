@@ -22,6 +22,7 @@ export default function PhysiotherapyCategoryPage() {
   <title>Physiotherapy Treatment in Dubai | Trusted Rehab & Pain Care</title>
   <meta name="description" content="Professional physiotherapy treatment in Dubai for pain relief, sports injuries, post-surgery recovery, and rehabilitation with licensed therapists and tailored care." />
   <meta name="keywords" content="Physiotherapy treatment in Dubai, Best physiotherapy clinic in Dubai, Physiotherapy Dubai near me, Sports injury physiotherapy Dubai, Post surgery physiotherapy in Dubai, Rehabilitation center Dubai, Pain relief physiotherapy Dubai, Licensed physiotherapist Dubai, Physiotherapy clinics in Dubai, Manual therapy Dubai, Back pain physiotherapy Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/physiotherapy-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

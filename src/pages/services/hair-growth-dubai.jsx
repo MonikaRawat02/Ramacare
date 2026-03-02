@@ -27,6 +27,7 @@ export default function HairGrowthPage() {
   <title>Hair Growth in Dubai with Safe Medical Treatment Options</title>
   <meta name="description" content="Hair growth in Dubai is supported through doctor-guided treatments that strengthen hair follicles, improve scalp health, and promote natural regrowth safely." />
   <meta name="keywords" content="Hair growth in Dubai, Hair growth treatment Dubai, Hair regrowth solutions, Medical hair growth therapy, Scalp stimulation treatment, Hair restoration Dubai, Non-surgical hair growth, Hair fall control in Dubai, Professional hair care Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/hair-growth-dubai/" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

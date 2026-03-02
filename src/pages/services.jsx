@@ -61,9 +61,7 @@ const ServicesPage = () => {
         { name: 'HIFU', slug: 'hifu-dubai' },
         { name: 'Botox', slug: 'botox-dubai' },
         { name: 'Pigmentation', slug: 'pigmentation-dubai' },
-        { name: 'Carbon Laser', slug: 'carbon-laser-dubai' },
-        { name: 'Fractional CO2 Laser', slug: 'fractional-co2-laser-dubai' },
-        { name: 'Laser Rejuvenation', slug: 'laser-rejuvenation-dubai' },
+        { name: 'Dark Circle', slug: 'dark-circle-dubai' },
       ],
       'hair-treatment-dubai': [
         { name: 'Hair Growth', slug: 'hair-growth-dubai' },
@@ -76,7 +74,6 @@ const ServicesPage = () => {
         { name: 'Fractional CO2 Laser', slug: 'fractional-co2-laser-dubai' },
         { name: 'Laser Rejuvenation', slug: 'laser-rejuvenation-dubai' },
         { name: 'Birthmark Removal', slug: 'birthmark-removal-dubai' },
-        { name: 'Dark Circle', slug: 'dark-circle-dubai' },
         { name: 'Hair Removal', slug: 'hair-removal-dubai' },
         { name: 'Laser Bleaching', slug: 'laser-bleaching-dubai' },
         { name: 'Mole Removal', slug: 'mole-removal-dubai' },
@@ -87,6 +84,7 @@ const ServicesPage = () => {
       ],
       'body-shaping-dubai': [
         { name: 'Eximia Body Contouring', slug: 'eximia-body-contouring-dubai' },
+        { name: 'IV-Drip', slug: 'iv-drip-dubai' },
       ],
       'composite-veneers-dubai': [],
       'dental-veneers-dubai': [],

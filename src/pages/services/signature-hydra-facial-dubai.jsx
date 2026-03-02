@@ -27,6 +27,7 @@ export default function SignatureHydraFacialPage() {
   <title>Signature HydraFacial Dubai – Glowing Skin at RamaCare</title>
   <meta name="description" content="Signature HydraFacial in Dubai at RamaCare rejuvenates and hydrates skin, leaving it refreshed, radiant, and healthy under expert supervision." />
   <meta name="keywords" content="Signature HydraFacial Dubai, HydraFacial treatment Dubai, Glowing skin facial in Dubai, Skin rejuvenation Dubai, Hydrating facial treatment, Anti-aging facial in Dubai, Professional facial in Dubai, Deep cleansing facial in Dubai, Radiant skin therapy, RamaCare HydraFacial" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/signature-hydra-facial-dubai" />
    <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

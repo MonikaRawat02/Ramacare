@@ -27,6 +27,7 @@ export default function BracesMetalCeramicPage() {
   <title>Braces Metal & Ceramic in Dubai | Smile Correction Experts</title>
   <meta name="description" content="Achieve a perfect smile with metal or ceramic braces in Dubai. Safe, effective orthodontic treatment by licensed dentists for all ages, tailored to your needs." />
   <meta name="keywords" content="Braces Dubai, Metal braces Dubai, Ceramic braces Dubai, Orthodontic treatment Dubai, Teeth alignment Dubai, dental braces for adults, Kids braces Dubai, Invisible braces Dubai, Smile correction Dubai, Affordable braces Dubai, Licensed orthodontist in Dubai, Corrective dental braces" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/braces-metal-ceramic-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

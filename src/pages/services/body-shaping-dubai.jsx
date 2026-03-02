@@ -27,6 +27,7 @@ export default function BodyShapingPage() {
   <title>Body Shaping in Dubai | Expert Non-Surgical Body Sculpting</title>
   <meta name="description" content="Achieve your ideal body with expert body shaping in Dubai—safe, non-surgical treatments for fat reduction, contouring, and toning with personalized care." />
   <meta name="keywords" content="Body shaping in Dubai, Body sculpting Dubai, Body contouring Dubai, Non-surgical body shaping in Dubai, Fat reduction Dubai, Slimming treatments in Dubai, Muscle toning in Dubai, Safe body contouring in Dubai, Personalized body treatment Dubai, Cellulite treatment Dubai, Medical body shaping in Dubai, DHA licensed body clinic" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/body-shaping-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

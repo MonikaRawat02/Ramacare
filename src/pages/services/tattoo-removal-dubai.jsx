@@ -27,6 +27,7 @@ export default function TattooRemovalPage() {
   <title>Tattoo Removal in Dubai for Safe and Effective Results</title>
   <meta name="description" content="Tattoo removal in Dubai uses advanced laser treatments to safely fade or remove unwanted tattoos, restoring clear, natural-looking skin under expert care." />
   <meta name="keywords" content="Tattoo removal in Dubai, Laser tattoo removal Dubai, Professional tattoo removal, Unwanted tattoo removal, Non-surgical tattoo removal, Safe tattoo fading Dubai, Tattoo lightening treatment, Permanent tattoo removal Dubai, Skin restoration after tattoo, Expert tattoo removal clinic" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/tattoo-removal-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

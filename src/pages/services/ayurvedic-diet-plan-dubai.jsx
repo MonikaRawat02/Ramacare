@@ -27,6 +27,7 @@ export default function AyurvedicDietPlanPage() {
   <title>Ayurvedic Diet Plan in Dubai | Personalized Meal Guidance</title>
   <meta name="description" content="Follow a personalized Ayurvedic diet plan in Dubai to balance your doshas, support digestion, boost immunity, and maintain a healthy weight naturally and safely." />
   <meta name="keywords" content="Ayurvedic diet plan Dubai, Dosha-based diet Dubai, Ayurvedic meal plan Dubai, Personalized diet plan Dubai, Ayurvedic nutrition Dubai, Weight Management Ayurveda Dubai, Digestive Health Ayurveda Dubai, Immunity-boosting diet in Dubai, Healthy eating Ayurveda Dubai, Ayurveda lifestyle Dubai, Herbal diet recommendations in Dubai, Ayurvedic food types in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai/" />
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -27,6 +27,7 @@ export default function ExosomesFacialDubaiPage() {
   <title>Exosomes Facial Dubai – Advanced Skin Rejuvenation</title>
   <meta name="description" content="Exosomes Facial in Dubai is performed by specialists to repair skin, boost collagen, reduce fine lines, and restore a youthful, radiant appearance safely." />
   <meta name="keywords" content="Exosomes Facial Dubai, Skin rejuvenation Dubai, Anti-aging facial in Dubai, Collagen-boosting facial, Advanced facial treatment, Youthful skin therapy in Dubai, Professional facial Din ubai, Fine lines reduction in Dubai, Skin repair treatment, Cosmetic facial in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/exosomes-facial-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

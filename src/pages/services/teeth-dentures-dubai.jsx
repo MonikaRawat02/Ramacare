@@ -27,6 +27,7 @@ export default function TeethDenturesPage() {
   <title>Teeth Dentures in Dubai | Natural & Comfortable Solutions</title>
   <meta name="description" content="Restore your smile with teeth dentures in Dubai. Choose from full, partial, or implant-supported options designed for comfort, natural appearance, and long-lasting results." />
   <meta name="keywords" content="Teeth dentures Dubai, Dentures Dubai, Full dentures Dubai, Partial dentures Dubai, Implant-supported dentures Dubai, Removable dentures Dubai, Affordable dentures Dubai, DHA-licensed dentist in Dubai, dental prosthetics Dubai, Smile restoration Dubai, Comfortable dentures Dubai, Natural-looking dentures in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/teeth-dentures-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

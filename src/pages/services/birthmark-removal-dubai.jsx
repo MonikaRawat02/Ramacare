@@ -27,6 +27,7 @@ export default function BirthmarkRemovalPage() {
   <title>Birthmark Removal in Dubai for Clear, Even Skin</title>
   <meta name="description" content="Birthmark removal in Dubai uses safe, doctor-supervised laser and medical treatments to reduce or remove birthmarks and restore smooth, natural skin." />
   <meta name="keywords" content="Birthmark removal in Dubai, Laser birthmark removal Dubai, Medical birthmark treatment, Skin lesion removal Dubai, Safe birthmark treatment, Dermatology birthmark care, Facial birthmark removal, Body birthmark treatment, Non-surgical birthmark removal, Professional skin treatment Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/birthmark-removal-dubai" />
 <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

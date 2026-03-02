@@ -27,6 +27,7 @@ export default function HairPRPPage() {
   <title>Hair PRP in Dubai for Natural Hair Regrowth Treatment</title>
   <meta name="description" content="Hair PRP in Dubai uses platelet-rich plasma to strengthen hair follicles, reduce hair fall, and support natural regrowth under expert medical care." />
   <meta name="keywords" content="Hair PRP in Dubai, PRP hair treatment Dubai, Hair regrowth treatment Dubai, Platelet rich plasma for hair, Hair fall reduction Dubai, Scalp stimulation therapy, Non-surgical hair restoration, Medical hair loss treatment, Professional PRP therapy Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/hair-prp-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

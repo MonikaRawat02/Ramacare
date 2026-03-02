@@ -27,6 +27,7 @@ export default function dentaldubaiVeneersPage() {
   <title>dental Veneers in Dubai | Trusted Smile Makeover Experts</title>
   <meta name="description" content="Transform your smile with dental veneers in Dubai. Expert porcelain and composite solutions for natural, durable, and personalized cosmetic results by certified dentists." />
   <meta name="keywords" content="dental veneers Dubai, Porcelain veneers Dubai, Composite veneers Dubai, Cosmetic dentistry Dubai, Smile makeover Dubai, Tooth restoration in Dubai, Same-day veneers Dubai, Natural-looking veneers Dubai, Emax veneers Dubai, Affordable veneers Dubai, DHA-licensed dentist in Dubai, Best dental veneers Dubai, dental veneers Jumeirah 1, Best dental veneers Jumeirah 1" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/dental-veneers-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

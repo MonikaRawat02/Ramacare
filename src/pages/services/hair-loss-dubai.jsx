@@ -27,6 +27,7 @@ export default function HairLossPage() {
   <title>Hair Loss in Dubai Diagnosis and Treatment by Specialists</title>
   <meta name="description" content="Hair loss in Dubai is assessed and treated by specialists using safe medical solutions to reduce hair fall, support regrowth, and improve scalp health." />
   <meta name="keywords" content="Hair loss in Dubai, Hair loss treatment Dubai, Hair fall treatment Dubai, Hair thinning solutions, Medical hair loss care, Hair regrowth treatment Dubai, Scalp health treatment, Hair loss diagnosis Dubai, Non-surgical hair treatment, Professional hair care Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/hair-loss-dubai" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

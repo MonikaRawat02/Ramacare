@@ -22,6 +22,7 @@ export default function AyurvedaCategoryPage() {
   <title>Ayurveda Treatment in Dubai | Best Ayurvedic Clinic & Care</title>
   <meta name="description" content="Restore health naturally with Ayurveda treatment in Dubai. Personalized herbal therapies, Panchakarma, and holistic care by certified Ayurvedic doctors for wellness." />
   <meta name="keywords" content="Ayurveda treatment Dubai, Ayurvedic clinic Dubai, Ayurvedic doctor in Dubai, Panchakarma treatment in Dubai, Herbal therapy Dubai, Holistic health Dubai, Ayurvedic massage Dubai, Traditional Ayurveda Dubai, Ayurveda wellness Dubai, Dosha balancing treatment, Ayurveda Hospital Dubai, Natural healing Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurveda-dubai/" />
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

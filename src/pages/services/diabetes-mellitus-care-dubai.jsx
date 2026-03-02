@@ -27,6 +27,8 @@ export default function DiabetesMellitusCarePage() {
   <title>Diabetes Mellitus Care in Dubai by Experienced Physicians</title>
   <meta name="description" content="Get trusted diabetes mellitus care in Dubai with accurate diagnosis, lifestyle guidance, and ongoing medical support to help you manage blood sugar safely." />
   <meta name="keywords" content="Diabetes mellitus care in Dubai, Diabetes treatment Dubai, Diabetes management clinic Dubai, Type 1 diabetes treatment in Dubai, Type 2 diabetes care in Dubai, Blood sugar control in Dubai, Diabetes doctor in Dubai, Endocrine care Dubai, Chronic diabetes management in Dubai" />
+  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/diabetes-mellitus-care-dubai" />
+  
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
