@@ -129,18 +129,18 @@ export default function About() {
       </Head>
       
       {/* Hero Section - Custom for About Us */}
-      <section className="relative w-full bg-gradient-to-br from-[#F7F6F1] to-[#E8E3D8] py-16 md:py-20 lg:py-24 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#1a5f3f] via-[#2d5f3f] to-[#1a5f3f] text-white py-16 md:py-24 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
-            <div className="inline-block mb-6">
-              <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full mb-6">
+              <span className="text-sm font-medium">
                 About RamaCare Polyclinic
               </span>
             </div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#111827] leading-tight mb-6">
-              Your Trusted Healthcare Partner in Dubai
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-text-white leading-tight mb-6">
+              Your Trusted <span className="text-[#d4a574]">Healthcare</span> Partner in Dubai
             </h1>
-            <p className="text-lg sm:text-xl text-[#4a5568] leading-relaxed max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-white leading-relaxed max-w-3xl mx-auto">
               Delivering comprehensive medical care with compassion, expertise, and 15+ years of excellence in Jumeirah 1
             </p>
           </div>
