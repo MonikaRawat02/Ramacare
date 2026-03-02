@@ -23,7 +23,6 @@ export default function BestFillersInDubai() {
         <title>Best Fillers in Dubai | Premium Dermal Fillers Treatment</title>
         <meta name="description" content="Discover the best dermal fillers in Dubai at Rama Care Polyclinic. Premium non-surgical cosmetic treatments for natural-looking results. Book your consultation today." />
         <meta name="robots" content="noindex, nofollow" />
-        <meta name="googlebot" content="noindex, nofollow" />
         <link rel="canonical" href="https://ramacarepolyclinic.ae/best-fillers-in-dubai" />
         <link rel="icon" type="image/png" href="/images/Logo.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

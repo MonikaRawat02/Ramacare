@@ -236,7 +236,7 @@ const AppointmentPage = () => {
             </p>
           </div>
           
-          <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
+          <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
             <BeginYourHealingJourneySection />
           </div>
         </div>
