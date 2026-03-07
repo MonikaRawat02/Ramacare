@@ -806,6 +806,49 @@ const ModernBlogEditorV1 = ({
     return tempDiv.innerHTML;
   };
 
+  // Clean content for saving - removes ALL editor UI elements before saving to database
+  const cleanContentForSaving = (htmlContent) => {
+    if (!htmlContent) return htmlContent;
+   
+    // Create a temporary DOM element to parse and clean HTML
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = htmlContent;
+   
+    // Remove all remove buttons (buttons with data-remove-media attribute)
+    const removeButtons = tempDiv.querySelectorAll('button[data-remove-media="true"]');
+    removeButtons.forEach(btn => btn.remove());
+   
+    // Remove ALL buttons inside image and video containers
+    const mediaContainers = tempDiv.querySelectorAll('.image-container, .video-container');
+    mediaContainers.forEach(container => {
+      const buttons = container.querySelectorAll('button');
+      buttons.forEach(btn => btn.remove());
+    });
+   
+    // Remove any remaining buttons with absolute positioning (catch-all)
+    const allButtons = tempDiv.querySelectorAll('button');
+    allButtons.forEach(btn => {
+      const styleAttr = btn.getAttribute('style') || '';
+      if (styleAttr.includes('position') && 
+          (styleAttr.includes('absolute') || styleAttr.includes('position:absolute'))) {
+        btn.remove();
+      }
+    });
+   
+    // Remove empty paragraphs that might contain only whitespace or breaks
+    const paragraphs = tempDiv.querySelectorAll('p');
+    paragraphs.forEach(p => {
+      if (!p.textContent.trim() || p.innerHTML === '<br>' || p.innerHTML === '<br/>') {
+        // Only remove if it's truly empty (has no meaningful content)
+        if (p.children.length === 0 && !p.textContent.trim()) {
+          p.remove();
+        }
+      }
+    });
+   
+    return tempDiv.innerHTML;
+  };
+
   // Add remove buttons to existing images and videos when loading content
   const attachRemoveButtonsToMedia = () => {
     if (!editorRef.current) return;
@@ -1811,6 +1854,10 @@ const saveDraft = async (isAutoSave = false) => {
     let finalContent = '';
     if (editorRef.current) {
       finalContent = editorRef.current.innerHTML || '';
+      
+      // Clean the content before saving - remove all editor UI elements
+      finalContent = cleanContentForSaving(finalContent);
+      
       // Update state with editor content to keep it in sync
       setContent(finalContent);
     } else {
@@ -2208,8 +2255,14 @@ const saveDraft = async (isAutoSave = false) => {
 
     setIsPublishing(true);
     try {
-      // Append topics as hashtags to content (hidden, so they persist and can be extracted later)
+      // Get fresh content from editor and clean it for publishing
       let publishContent = content.trim();
+      if (editorRef.current) {
+        publishContent = editorRef.current.innerHTML || '';
+        // Clean the content before publishing - remove all editor UI elements
+        publishContent = cleanContentForSaving(publishContent);
+      }
+      
       // Remove existing topic markers first to avoid duplicates
       const topicMarkerRegex = /<p[^>]*style="display:\s*none[^"]*"[^>]*>.*?<\/p>/gi;
       publishContent = publishContent.replace(topicMarkerRegex, '');

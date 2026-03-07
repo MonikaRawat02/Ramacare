@@ -71,22 +71,34 @@ async function getAllDoctorIds() {
   }
 }
 
-// Function to generate sitemap
+// Function to generate sitemap with deduplication
 async function generateSitemap(blogs, services, doctorIds) {
   const baseUrl = 'https://ramacarepolyclinic.ae';
   
+  // Use a Set to track unique URLs and prevent duplicates
+  const urlSet = new Set();
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 `;
   
-  // Add homepage
-  xml += `  <url>
-    <loc>${baseUrl}/</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
-    <priority>1.0</priority>
-    <changefreq>daily</changefreq>
+  // Helper function to add URL only if it doesn't exist
+  const addUrl = (loc, lastmod, priority, changefreq) => {
+    if (!urlSet.has(loc)) {
+      urlSet.add(loc);
+      xml += `  <url>
+    <loc>${loc}</loc>
+    <lastmod>${lastmod}</lastmod>
+    <priority>${priority}</priority>
+    <changefreq>${changefreq}</changefreq>
   </url>
 `;
+    } else {
+      console.log(`Duplicate URL skipped: ${loc}`);
+    }
+  };
+  
+  // Add homepage
+  addUrl(`${baseUrl}/`, new Date().toISOString(), '1.0', 'daily');
   
   // Add static pages
   const staticPages = [
@@ -99,60 +111,31 @@ async function generateSitemap(blogs, services, doctorIds) {
   ];
   
   staticPages.forEach(page => {
-    xml += `  <url>
-    <loc>${baseUrl}${page}</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
-    <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-`;
+    addUrl(`${baseUrl}${page}`, new Date().toISOString(), '0.9', 'weekly');
   });
   
-  // Add service pages
+  // Add service pages (individual services, not the /services index)
   for (const service of services) {
-    xml += `  <url>
-    <loc>${baseUrl}${service}</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-`;
+    addUrl(`${baseUrl}${service}`, new Date().toISOString(), '0.8', 'weekly');
   }
   
-  // Add blog pages
-  xml += `  <url>
-    <loc>${baseUrl}/blog</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-`;
+  // Add blog index page
+  addUrl(`${baseUrl}/blog`, new Date().toISOString(), '0.8', 'weekly');
   
   // Add individual blog posts if they exist
   blogs.forEach(blog => {
     const lastmod = blog.updatedAt || blog.createdAt;
-    xml += `  <url>
-    <loc>${baseUrl}/blog/${blog.paramlink}</loc>
-    <lastmod>${new Date(lastmod).toISOString()}</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-`;
+    addUrl(`${baseUrl}/blog/${blog.paramlink}`, new Date(lastmod).toISOString(), '0.7', 'weekly');
   });
   
   // Add individual doctor pages
   doctorIds.forEach(doctorId => {
-    xml += `  <url>
-    <loc>${baseUrl}/doctors/${doctorId}</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-`;
+    addUrl(`${baseUrl}/doctors/${doctorId}`, new Date().toISOString(), '0.7', 'weekly');
   });
   
   xml += '</urlset>';
   
+  console.log(`Generated sitemap with ${urlSet.size} unique URLs`);
   return xml;
 }
 

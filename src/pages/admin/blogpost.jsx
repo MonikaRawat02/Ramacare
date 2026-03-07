@@ -10,6 +10,38 @@ import {
   FileText, Calendar, Layers, Share2, MoreVertical, Copy, Star
 } from 'lucide-react';
 
+// Helper function to clean blog content by removing editor UI elements
+const cleanBlogContent = (htmlContent) => {
+  if (!htmlContent || typeof document === 'undefined') return htmlContent;
+  
+  // Create a temporary DOM element to parse and clean HTML
+  const tempDiv = document.createElement('div');
+  tempDiv.innerHTML = htmlContent;
+  
+  // Remove all remove buttons (buttons with data-remove-media attribute)
+  const removeButtons = tempDiv.querySelectorAll('button[data-remove-media="true"]');
+  removeButtons.forEach(btn => btn.remove());
+  
+  // Remove ALL buttons inside image and video containers
+  const mediaContainers = tempDiv.querySelectorAll('.image-container, .video-container');
+  mediaContainers.forEach(container => {
+    const buttons = container.querySelectorAll('button');
+    buttons.forEach(btn => btn.remove());
+  });
+  
+  // Remove any remaining buttons with absolute positioning (catch-all)
+  const allButtons = tempDiv.querySelectorAll('button');
+  allButtons.forEach(btn => {
+    const styleAttr = btn.getAttribute('style') || '';
+    if (styleAttr.includes('position') && 
+        (styleAttr.includes('absolute') || styleAttr.includes('position:absolute'))) {
+      btn.remove();
+    }
+  });
+  
+  return tempDiv.innerHTML;
+};
+
 // Add CSS for animations
 const ToastStyles = `
   @keyframes fadeInUp {
@@ -1020,7 +1052,7 @@ const AdminBlogPost = () => {
               ) : (
                 <div className="blog-content text-gray-900 leading-relaxed prose prose-sm sm:prose-lg max-w-none">
                   {showFullPost?.content ? (
-                    <div dangerouslySetInnerHTML={{ __html: showFullPost.content }} />
+                    <div dangerouslySetInnerHTML={{ __html: cleanBlogContent(showFullPost.content) }} />
                   ) : (
                     <div className="text-center py-8">
                       <FileText className="mx-auto text-gray-300" size={48} />
