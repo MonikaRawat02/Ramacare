@@ -4,15 +4,15 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
   trailingSlash: false,
-  // Optional: if you need to handle rewrites or redirects
-  // async rewrites() {
-  //   return [
-  //     {
-  //       source: '/best-fillers-in-dubai',
-  //       destination: '/best-fillers-in-dubai',
-  //     },
-  //   ];
-  // },
+  // Handle sitemap at root level
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap.xml',
+        destination: '/api/sitemap.xml',
+      },
+    ];
+  },
 };
 
 export default nextConfig;

@@ -157,8 +157,14 @@ async function generateSitemap(blogs, services, doctorIds) {
 }
 
 export default async function handler(req, res) {
+  // Handle trailing slash - redirect to clean URL
+  const url = req.url || '';
+  if (url.endsWith('/')) {
+    return res.redirect(301, '/api/sitemap.xml');
+  }
+  
   // Set response headers
-  res.setHeader('Content-Type', 'text/xml');
+  res.setHeader('Content-Type', 'text/xml; charset=utf-8');
   
   // Instructing the Vercel edge network not to cache the Sitemap
   if (process.env.VERCEL) {
