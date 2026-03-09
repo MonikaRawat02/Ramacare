@@ -1,4 +1,5 @@
 import React from 'react';
+import Script from "next/script";
 import Head from 'next/head';
 import HeroSection from '../../components/LandingHeroSection';
 import PromoBanner from '../../components/LandingPromoBanner';
@@ -29,6 +30,19 @@ export default function BestFillersInDubai() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
+      <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-PYD54S56ZZ"
+  strategy="afterInteractive"
+/>
+
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PYD54S56ZZ');
+  `}
+</Script>
       <div className="font-sans">
         <PromoBanner />
         <DiscountModal />
