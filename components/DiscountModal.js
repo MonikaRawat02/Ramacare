@@ -63,12 +63,8 @@ export default function DiscountModal() {
       });
 
       if (response.ok) {
-        // Also open WhatsApp as fallback
-        const msg = encodeURIComponent(
-          `Hi, I'm interested in the 40% discount on dermal fillers.\nName: ${formData.fullName}\nPhone: ${formData.phone}\nEmail: ${formData.email}\nDate: ${formData.date}\nTime: ${formData.timeSlot}\nMessage: ${formData.message}`
-        );
-        window.open(`https://wa.me/971542669345?text=${msg}`, '_blank');
-        closeModal();
+        // Redirect to confirmation page instead of WhatsApp
+        window.location.href = '/request-confirmed';
       } else {
         setError('Failed to submit. Please try again.');
       }

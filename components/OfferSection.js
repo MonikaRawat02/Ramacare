@@ -31,9 +31,8 @@ export default function OfferSection() {
       return;
     }
     setCallError('');
-    // Open WhatsApp with the phone number
-    const msg = encodeURIComponent(`Hi, I want a callback for the 40% discount on dermal fillers. My number: ${phone}`);
-    window.open(`https://wa.me/971542669345?text=${msg}`, '_blank');
+    // Submit callback request and redirect to confirmation
+    window.location.href = '/request-confirmed';
   };
 
   return (
