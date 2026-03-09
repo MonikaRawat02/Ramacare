@@ -69,18 +69,19 @@ export default function Home() {
   }}
 />
         </Head>
-         <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-G2WWSZYF7W"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-G2WWSZYF7W');
-        `}
-      </Script>
+        <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-PYD54S56ZZ"
+  strategy="afterInteractive"
+/>
+
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PYD54S56ZZ');
+  `}
+</Script>
       <HeroSection />
       <WhyChooseUsSection />
       <AboutAyurvedaSection />
