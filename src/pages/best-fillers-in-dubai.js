@@ -30,8 +30,8 @@ export default function BestFillersInDubai() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
-      <Script
-  src="https://www.googletagmanager.com/gtag/js?id=G-PYD54S56ZZ"
+    <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-R0919LKM8W"
   strategy="afterInteractive"
 />
 
@@ -40,7 +40,7 @@ export default function BestFillersInDubai() {
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-PYD54S56ZZ');
+    gtag('config', 'G-R0919LKM8W');
   `}
 </Script>
       <div className="font-sans">
