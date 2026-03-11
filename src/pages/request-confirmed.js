@@ -16,7 +16,27 @@ export default function RequestConfirmed() {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
 
+        {/* Google Tag Manager */}
+      <Script id="google-tag-manager" strategy="beforeInteractive">
+        {`
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PM7WDXBW');
+`}
+      </Script>
+
       <div className="font-sans min-h-screen bg-gradient-to-br from-[#fff8f0] via-[#fce8e8] to-[#fff0f0] flex items-center justify-center px-6 py-12">
+
+           {/* GTM Noscript */}
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PM7WDXBW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+          }}
+        />
+        
         <div className="max-w-lg w-full text-center">
           {/* Success Icon with Animation */}
           <div className="mx-auto mb-8 animate-bounce">
