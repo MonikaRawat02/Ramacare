@@ -312,7 +312,7 @@ const { openModal } = useModal();
         marginBottom: '40px',
         textAlign: 'center',
       }}>
-        🎁 Book today and get FREE Botox worth AED 800 limited time offer only
+        🎁Book today and receive a FREE aesthetic consultation worth AED 800 – Limited time offer
       </div>
     </div>
   );
