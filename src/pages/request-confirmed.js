@@ -1,4 +1,5 @@
 import React from 'react';
+import Script from "next/script";
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -36,7 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
           }}
         />
-        
+
         <div className="max-w-lg w-full text-center">
           {/* Success Icon with Animation */}
           <div className="mx-auto mb-8 animate-bounce">
