@@ -96,5 +96,8 @@ BlogSchema.index(
 );
 
 /* -------------------- Export -------------------- */
+// Import User model to ensure it's registered before Blog uses .populate()
+import "./user";
+
 delete mongoose.models.Blog;
 export default mongoose.models.Blog || mongoose.model("Blog", BlogSchema);
