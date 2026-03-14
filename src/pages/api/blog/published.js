@@ -1,6 +1,6 @@
 import dbConnect from "../../../../lib/database";
 import Blog from "../../../../models/blog";
-import User from "../../../../models/user";
+import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 
 export const config = {
@@ -142,6 +142,7 @@ export default async function handler(req, res) {
 
     case "POST":
       try {
+        const User = mongoose.models.User || mongoose.model("User");
         const authHeader = req.headers.authorization;
         if (!authHeader || !authHeader.startsWith("Bearer ")) {
           return res.status(401).json({ message: "No token provided" });
@@ -205,6 +206,7 @@ export default async function handler(req, res) {
 
     case "PUT":
       try {
+        const User = mongoose.models.User || mongoose.model("User");
         const authHeader = req.headers.authorization;
         if (!authHeader || !authHeader.startsWith("Bearer ")) {
           return res.status(401).json({ message: "No token provided" });
@@ -250,6 +252,7 @@ export default async function handler(req, res) {
 
     case "DELETE":
       try {
+        const User = mongoose.models.User || mongoose.model("User");
         const authHeader = req.headers.authorization;
         if (!authHeader || !authHeader.startsWith("Bearer ")) {
           return res.status(401).json({ message: "No token provided" });
