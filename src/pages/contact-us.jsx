@@ -531,16 +531,7 @@ const ContactUsPage = () => {
                 <div className="bg-gray-50 rounded-2xl p-6 shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-4">Our Location</h3>
                   <div className="aspect-video bg-gray-200 rounded-xl overflow-hidden mb-4">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.8474444444445!2d55.2792833!3d25.1055556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bdfbdfbdfdf%3A0x3e5f6bdfbdfbdfdf!2sJumeirah%20Terrace%20Building!5e0!3m2!1sen!2sae!4v1234567890"
-                      width="100%"
-                      height="100%"
-                      style={{ border: 0 }}
-                      allowFullScreen=""
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                      className="w-full h-full"
-                    ></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.9306612777295!2d55.270577599999996!3d25.2392603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa55e21fe09dd67b1%3A0x3b8c35661422d1a4!2sRama%20Care%20Polyclinic!5e0!3m2!1sen!2sin!4v1773489720526!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                   <div className="flex items-center gap-2 text-gray-600">
                     <MapPin className="w-5 h-5 text-[#1a5f3f]" />

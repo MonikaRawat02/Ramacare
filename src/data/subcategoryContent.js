@@ -5804,8 +5804,8 @@ comparisonData: [
 
     bookConsultation: {
       badge: 'Start Your Journey',
-      title: 'Book Ayurvedic Hair Fall Treatment in Dubai Today',
-      description: 'Restore your hair fitness naturally with trusted Ayurvedic care at Rama Care Polyclinic—safe, personalized, and focused on long-term results.',
+      title: 'Book Ultrasound Therapy in Dubai Today',
+      description: 'Restore your fitness naturally with trusted Ultrasound Therapy at Rama Care Polyclinic—safe, personalized, and focused on long-term results for a healthier you.',
       getInTouchTitle: 'Get In Touch',
       requestAppointmentTitle: 'Request Appointment',
       submitButtonText: 'Confirm Free Consultation',
@@ -6580,8 +6580,8 @@ comparisonData: [
 
     bookConsultation: {
       badge: 'Start Your Journey',
-      title: 'Book Ayurvedic Hair Fall Treatment in Dubai Today',
-      description: 'Restore your hair fitness naturally with trusted Ayurvedic care at Rama Care Polyclinic—safe, personalized, and focused on long-term results.',
+      title: 'Book Electrotherapy  in Dubai Today',
+      description: 'Restore your fitness naturally with trusted Electrotherapy at Rama Care Polyclinic—safe, personalized, and focused on long-term results for a healthier you.',
       getInTouchTitle: 'Get In Touch',
       requestAppointmentTitle: 'Request Appointment',
       submitButtonText: 'Confirm Free Consultation',
@@ -7307,8 +7307,8 @@ comparisonData: [
   
       bookConsultation: {
         badge: 'Start Your Journey',
-        title: 'Book Ayurvedic Hair Fall Treatment in Dubai Today',
-        description: 'Restore your hair fitness naturally with trusted Ayurvedic care at Rama Care Polyclinic—safe, personalized, and focused on long-term results.',
+        title: 'Book Pelvic Floor Therapy in Dubai Today',
+        description: 'Restore your pelvic floor fitness naturally with trusted Pelvic Floor Therapy at Rama Care Polyclinic—safe, personalized, and focused on long-term results for a healthier you.',
         getInTouchTitle: 'Get In Touch',
         requestAppointmentTitle: 'Request Appointment',
         submitButtonText: 'Confirm Free Consultation',
@@ -8019,8 +8019,8 @@ comparisonData: [
   
       bookConsultation: {
         badge: 'Start Your Journey',
-        title: 'Book Ayurvedic Hair Fall Treatment in Dubai Today',
-        description: 'Restore your hair fitness naturally with trusted Ayurvedic care at Rama Care Polyclinic—safe, personalized, and focused on long-term results.',
+        title: 'Book Functional Exercise in Dubai Today',
+        description: 'Restore your fitness naturally with trusted Functional Exercises at Rama Care Polyclinic—safe, personalized, and focused on long-term results for a healthier you.',
         getInTouchTitle: 'Get In Touch',
         requestAppointmentTitle: 'Request Appointment',
         submitButtonText: 'Confirm Free Consultation',
@@ -8759,8 +8759,8 @@ comparisonData: [
   
       bookConsultation: {
         badge: 'Start Your Journey',
-        title: 'Book Ayurvedic Hair Fall Treatment in Dubai Today',
-        description: 'Restore your hair fitness naturally with trusted Ayurvedic care at Rama Care Polyclinic—safe, personalized, and focused on long-term results.',
+        title: 'Book Scoliosis Treatment in Dubai Today',
+        description: 'Restore your spine fitness naturally with trusted Scoliosis Treatment at Rama Care Polyclinic—safe, personalized, and focused on long-term results.',
         getInTouchTitle: 'Get In Touch',
         requestAppointmentTitle: 'Request Appointment',
         submitButtonText: 'Confirm Free Consultation',
@@ -9483,8 +9483,8 @@ comparisonData: [
   
       bookConsultation: {
         badge: 'Start Your Journey',
-        title: 'Book Ayurvedic Hair Fall Treatment in Dubai Today',
-        description: 'Restore your hair fitness naturally with trusted Ayurvedic care at Rama Care Polyclinic—safe, personalized, and focused on long-term results.',
+        title: 'Book Dry Needling Therapy in Dubai Today',
+        description: 'Restore your muscle fitness naturally with trusted Dry Needling Therapy at Rama Care Polyclinic—safe, personalized, and focused on long-term results.',
         getInTouchTitle: 'Get In Touch',
         requestAppointmentTitle: 'Request Appointment',
         submitButtonText: 'Confirm Free Consultation',
