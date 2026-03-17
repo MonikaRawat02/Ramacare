@@ -701,7 +701,7 @@ export default function EximiaTreatmentCostPage() {
                 Ready to Start Your Transformation?
               </h2>
               <p className="text-white/90 text-lg leading-relaxed mb-8">
-                For a detailed breakdown of the procedure and to see why we are the top-rated clinic for Eximia Body Contouring in Dubai, book your consultation today.
+                For a detailed breakdown of the procedure and to see why we are the top-rated clinic for <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai" className="text-white font-bold border-b-2 border-white/50 hover:border-white transition-all">Eximia Body Contouring Dubai</a>, book your consultation today.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
