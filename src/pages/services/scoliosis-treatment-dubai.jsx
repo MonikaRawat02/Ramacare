@@ -24,8 +24,8 @@ export default function ScoliosisTreatmentPage() {
  return (
    <Layout>
     <Head>
-  <title>Scoliosis Treatment in Dubai with Expert Physiotherapy</title>
-  <meta name="description" content="Get safe scoliosis treatment in Dubai with assessment led by specialists, personalized physiotherapy plans, posture correction, and long-term spine care." />
+  <title>Scoliosis Treatment in Dubai – Expert Spine Pain Relief</title>
+  <meta name="description" content="Struggling with scoliosis or back pain? Get expert scoliosis treatment in Dubai. Improve posture, reduce pain & restore mobility. Book now! " />
   <meta name="keywords" content="Scoliosis treatment in Dubai, Scoliosis physiotherapy Dubai, Spine alignment treatment Dubai, Posture correction therapy Dubai, Back curvature treatment in Dubai, Non-surgical scoliosis treatment, Pediatric scoliosis treatment Dubai, Adult scoliosis management in Dubai, Rehabilitation physiotherapy Dubai, Spine care clinic Dubai" />
   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/scoliosis-treatment-dubai" />
    <script
