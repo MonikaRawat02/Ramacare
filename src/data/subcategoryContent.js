@@ -5852,8 +5852,9 @@ comparisonData: [
 
   'physiotherapy-dubai-electrotherapy':{
     hero: {
-      subtitle: 'Effective Pain Relief & Muscle Recovery with Advanced Physiotherapy Care',
-      description: 'Electrotherapy is a widely used physiotherapy treatment that helps reduce pain, improve muscle strength, and support faster recovery. At ramacarepolyclinic, we provide safe and personalized Electrotherapy in Dubai as part of comprehensive rehabilitation and pain-management programs.',
+      title: 'Electrotherapy in Dubai for Fast Pain Relief & Muscle Recovery',
+      subtitle: 'Get Relief from Back, Neck & Muscle Pain in Just a Few Sessions',
+      description: 'Struggling with back pain, muscle stiffness, or injury recovery? Electrotherapy in Dubai offers a safe and effective solution to reduce pain, improve mobility, and speed up healing. At Rama Care Polyclinic, our expert physiotherapists use advanced electrotherapy techniques to deliver fast and long-lasting relief. ',
       rating: '500+ Happy Clients',  
       stats: [
         {
@@ -8064,7 +8065,7 @@ comparisonData: [
     'physiotherapy-dubai-scoliosis':{
       hero: {
         subtitle: 'Personalised Care to Improve Spine Alignment, Posture & Quality of Life',
-        description: 'Scoliosis is a condition where the spine curves sideways, affecting posture, comfort, and daily activities. At ramacarepolyclinic, we offer safe and effective Scoliosis Treatment in Dubai through personalised physiotherapy programs designed to manage pain, improve alignment, and support long-term spinal health.',
+        description: 'Struggling with scoliosis, back pain, or poor posture? Our scoliosis treatment in Dubai offers a safe and effective solution to reduce pain, improve spinal alignment, and restore mobility. At Rama Care Polyclinic, we provide personalized physiotherapy programs designed for long-term results and better quality of life.',
         rating: '500+ Happy Clients',  
         stats: [
           {
@@ -8803,8 +8804,9 @@ comparisonData: [
 
     'physiotherapy-dubai-dry-needling':{
       hero: {
-        subtitle: 'Relieve Muscle Pain, Improve Mobility & Restore Function',
-        description: 'Dry needling therapy is a safe and effective treatment for relieving muscle pain, stiffness, and restricted movement. At ramacarepolyclinic, we provide professional Dry Needling Therapy in Dubai to release muscle knots, reduce pain, enhance flexibility, and restore natural movement.',
+        title: 'Dry Needling in Dubai for Fast Muscle Pain Relief & Recovery',
+        subtitle: 'Relieve Muscle Tightness, Improve Mobility & Restore Natural Movement ',
+        description: 'Struggling with muscle pain, stiffness, or restricted movement? Dry needling in Dubai is a safe and effective therapy that targets trigger points to relieve pain, improve flexibility, and restore natural movement. At Rama Care Polyclinic, our licensed physiotherapists use advanced techniques to deliver fast and long-lasting results. ',
         rating: '500+ Happy Clients',  
         stats: [
           {
@@ -23600,7 +23602,8 @@ healingJourney: {
 
     'aesthetic-dermatology-dubai-hair-treatment': {
       hero: {
-        subtitle: 'Restore Healthy, Strong Hair with Advanced Hair Treatment in Dubai',
+        title: 'Hair Treatment in Dubai for Hair Fall Control & Natural Regrowth ',
+        subtitle: 'Stop Hair Fall, Strengthen Roots & Restore Healthy Hair with Expert Care',
         description: 'If you\'re experiencing hair fall, thinning, dandruff, or scalp issues, our professional hair treatment in Dubai is designed to address the real cause—not just temporary symptoms. At our DHA-licensed clinic, we offer personalized hair and scalp treatments approved by medical expertise, modern techniques, and years of proven results.',
         rating: '500+ Happy Clients',
        

@@ -9713,8 +9713,9 @@ rootCauses: [
 
   'aesthetic-dermatology-dubai-skin-treatment-dark-circle': {
         hero: {
-            subtitle: 'Safe & Effective Solutions for Under-Eye Dark Circles with Medical Expertise',
-            description: 'Dark circles under the eyes can develop due to genetics, aging, fatigue, stress, or lifestyle factors. At ramacarepolyclinic, we provide Dark Circle Treatment in Dubai to restore brightness, reduce under-eye pigmentation, and achieve a refreshed, youthful appearance.',
+           title: 'Dark Circle Treatment in Dubai – Brighten Under Eyes Fast',
+            subtitle: 'Reduce Under-Eye Darkness, Puffiness & Tired Look with Expert Care',
+            description: 'Struggling with dark circles, under-eye pigmentation, or tired-looking eyes? Our dark circle treatment in Dubai targets the root causes to restore a brighter and more refreshed appearance. At Rama Care Polyclinic, we offer safe, medically guided treatments designed to reduce darkness, improve skin tone, and deliver long-lasting results.',
             rating: '500+ Happy Clients',  
             stats: [
               {

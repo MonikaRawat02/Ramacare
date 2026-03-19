@@ -24,6 +24,8 @@ export default function DarkCirclePage() {
   return (
     <Layout>
       <Head>
+         <title>Dark Circle Treatment in Dubai – Brighten Under Eyes Fast</title>
+          <meta name="description" content="Tired of dark circles under your eyes? Get expert treatment in Dubai to reduce pigmentation, puffiness & dullness. Safe, effective care. Book now!" />
         <link rel="canonical" href="https://ramacarepolyclinic.ae/services/dark-circle-dubai" />
         <script
   type="application/ld+json"

@@ -24,8 +24,8 @@ export default function DryNeedlingPage() {
  return (
    <Layout>
     <Head>
-  <title>Dry Needling Therapy in Dubai for Muscle Pain Relief</title>
-  <meta name="description" content="Dry needling therapy in Dubai helps reduce muscle pain, release trigger points, and improve movement. Safe, evidence-based care provided by licensed physiotherapists." />
+  <title>Dry Needling in Dubai – Fast Muscle Pain Relief Therapy</title>
+  <meta name="description" content="Muscle pain or stiffness? Get dry needling in Dubai to release trigger points and improve movement. Safe, expert physiotherapy care. Book now! " />
   <meta name="keywords" content="Dry needling therapy in Dubai, Dry needling treatment Dubai, Dry needling Dubai price, Trigger point therapy Dubai, Physiotherapy dry needling Dubai, Muscle pain treatment Dubai, Sports injury physiotherapy Dubai, Dry needling near me, Pain relief physiotherapy Dubai" />
   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/dry-needling-dubai" />
   <script

@@ -19,6 +19,7 @@ const categoryData = categories.find(
   
   // Use hero prop data or fallback to description prop or default
   const heroData = hero || {};
+  const heroTitle = heroData.title || `${subcategory} in Dubai`;
   const heroDescription = heroData.description || description || `Professional ${subcategory} services with expert care and proven results. Our experienced team provides personalized treatment plans tailored to your needs—with years of expertise in Dubai.`;
   const heroSubtitle = heroData.subtitle || null;
   
@@ -119,7 +120,7 @@ const categoryData = categories.find(
 
             {/* Title */}
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1F2937] leading-tight mb-4">
-              {subcategory} in Dubai
+              {heroTitle}
             </h1>
 
             {/* Subtitle (if provided) */}
