@@ -193,7 +193,7 @@ const EximiaSafetyPage = () => {
               
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/is-eximia.jpg" 
+                  src="/images/Is-eximia.jpg" 
                   alt="Eximia Body Contouring Dubai Safety" 
                   className="w-full h-[500px] object-cover" 
                 />
