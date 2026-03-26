@@ -84,6 +84,7 @@ const ServicesPage = () => {
       ],
       'body-shaping-dubai': [
         { name: 'Eximia Body Contouring', slug: 'eximia-body-contouring-dubai' },
+        { name: 'How Eximia Works', slug: 'how-eximia-body-contouring-works-dubai' },
         { name: 'IV-Drip', slug: 'iv-drip-dubai' },
       ],
       'composite-veneers-dubai': [],
