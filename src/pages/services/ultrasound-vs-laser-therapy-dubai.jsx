@@ -22,6 +22,13 @@ const UltrasoundVsLaserPage = () => {
     activity: ''
   });
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   const handleRecommendationChange = (e) => {
     const { name, value } = e.target;
     setRecommendationData(prev => ({ ...prev, [name]: value }));
@@ -147,7 +154,10 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
               <span className="text-xs bg-white/20 px-3 py-1.5 rounded-full font-medium whitespace-nowrap">
                 Same-Day Appointments Available
               </span>
-              <button className="bg-white text-[#1F5E4B] px-6 py-2.5 rounded-lg font-medium hover:bg-white/90 transition-colors flex items-center gap-2">
+              <button 
+                onClick={() => scrollToSection('booking-section')}
+                className="bg-white text-[#1F5E4B] px-6 py-2.5 rounded-lg font-medium hover:bg-white/90 transition-colors flex items-center gap-2 cursor-pointer"
+              >
                 Check Which Treatment You Need
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -203,9 +213,12 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <a href="#booking-section" className="bg-[#1F5E4B] text-white px-8 py-4 rounded-lg font-medium hover:bg-[#1F5E4B]/90 transition-all shadow-lg">
+                  <button 
+                    onClick={() => scrollToSection('booking-section')}
+                    className="bg-[#1F5E4B] text-white px-8 py-4 rounded-lg font-medium hover:bg-[#1F5E4B]/90 transition-all shadow-lg cursor-pointer"
+                  >
                     Book Injury Assessment
-                  </a>
+                  </button>
                   <a href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer" className="bg-[#F5F1EA] text-[#1F5E4B] px-8 py-4 rounded-lg font-medium hover:bg-[#E9E2D6] transition-all flex items-center justify-center gap-2">
                     <MessageCircle className="w-5 h-5" />
                     WhatsApp Instantly
@@ -573,12 +586,20 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
                 Most injuries affect multiple tissue layers. By combining laser therapy for surface-level inflammation and ultrasound for deep tissue healing, we address the complete injury profile for superior outcomes.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <button className="bg-[#1F5E4B] text-white px-8 py-4 rounded-xl font-bold hover:bg-[#1F5E4B]/90 transition-all shadow-lg">
+                <button 
+                  onClick={() => scrollToSection('booking-section')}
+                  className="bg-[#1F5E4B] text-white px-8 py-4 rounded-xl font-bold hover:bg-[#1F5E4B]/90 transition-all shadow-lg cursor-pointer"
+                >
                   Book Hybrid Treatment
                 </button>
-                <button className="bg-white text-[#1F5E4B] border border-[#1F5E4B]/10 px-8 py-4 rounded-xl font-bold hover:bg-white/90 transition-all shadow-md">
+                <a 
+                  href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hello RamaCare, I'd like to speak to a specialist about ultrasound vs laser therapy.")}`}
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="bg-white text-[#1F5E4B] border border-[#1F5E4B]/10 px-8 py-4 rounded-xl font-bold hover:bg-white/90 transition-all shadow-md inline-flex items-center justify-center"
+                >
                   Speak to a Specialist
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -648,10 +669,16 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
-                  <a href="tel:+971566597878" className="inline-flex items-center justify-center gap-2 bg-[#1F5E4B] text-white px-8 py-4 rounded-xl font-bold hover:bg-[#1F5E4B]/90 transition-all shadow-lg">
+                  <a href="tel:+971566597878" className="inline-flex items-center justify-center gap-2 bg-[#1F5E4B] text-white px-8 py-4 rounded-xl font-bold hover:bg-[#1F5E4B]/90 transition-all shadow-lg cursor-pointer">
                     <Phone className="w-5 h-5" />
                     Talk to a Physiotherapist Now
                   </a>
+                  <button 
+                    onClick={() => scrollToSection('booking-section')}
+                    className="inline-flex items-center justify-center gap-2 bg-white text-[#1F5E4B] border border-[#1F5E4B]/10 px-8 py-4 rounded-xl font-bold hover:bg-white/90 transition-all shadow-md cursor-pointer"
+                  >
+                    Book Assessment
+                  </button>
                 </div>
 
                 <p className="text-sm text-[#5F5F5F]/80 mt-8 flex items-center justify-center gap-4 flex-wrap">

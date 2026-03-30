@@ -168,7 +168,7 @@ const UltrasoundSafetyPage = () => {
                     <span className="text-sm font-medium text-[#5F5F5F]">DHA Licensed</span>
                   </div>
                   <div className="flex flex-col items-center text-center">
-                    <Award className="w-10 h-10 text-[#1F5E4B] mb-2" />
+                    <Award className="w-10 h-10 text-[#1F5E4B] mb-2"/>
                     <span className="text-sm font-medium text-[#5F5F5F]">ISO-Compliant Equipment</span>
                   </div>
                   <div className="flex flex-col items-center text-center">

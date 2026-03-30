@@ -624,7 +624,7 @@ const DryNeedlingUltrasoundComboPage = () => {
             {/* Mobile Table */}
             <div className="md:hidden space-y-4">
               <div className="bg-[#f8f9fa] p-4 rounded-xl border-2 border-[#1b5e3f]">
-                <h3 className="font-bold text-lg mb-3 text-[#1A1A1A]">The RamaCare Duo (Best Choice)</h3>
+                <h3 className="font-bold text-lg mb-3 text-[#1A1A1A]">The RamaCare Duo(Best Choice)</h3>
                 <div className="space-y-2">
                   <div className="flex justify-between"><span>Knot Release:</span><span className="font-semibold text-[#1b5e3f]">☆ Maximum</span></div>
                   <div className="flex justify-between"><span>Blood Flow:</span><span className="font-semibold text-[#1b5e3f]">☆ Maximum</span></div>
@@ -659,14 +659,12 @@ const DryNeedlingUltrasoundComboPage = () => {
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#1F5E4B]/80 via-[#1F5E4B]/40 to-transparent flex items-center px-8 md:px-16">
           
-          <div className="text-white space-y-4">
-            
+          <div className="text-white space-y-4">  
             {/* Before Card */}
             <div className="bg-white/20 backdrop-blur-md rounded-lg p-4 mb-3 max-w-xs">
               <p className="text-xs text-white/90 mb-1 font-medium">Before</p>
               <p className="text-lg font-medium text-white">Muscle tension & knots</p>
-            </div>
-            
+            </div>  
             {/* Arrow */}
             <div className="flex justify-center py-2">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
