@@ -92,11 +92,9 @@ export default function PhysiotherapyInsuranceDubai() {
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-            >
+              transition={{ duration: 0.6 }} >
               <div 
-                className="inline-block px-4 py-2 rounded-full bg-[#F5F1EA] mb-6"
-              >
+                className="inline-block px-4 py-2 rounded-full bg-[#F5F1EA] mb-6" >
                 <p 
                   className="text-sm text-[#5F5F5F]"
                   style={{ fontFamily: "'Nunito Sans', sans-serif" }}
@@ -417,14 +415,12 @@ export default function PhysiotherapyInsuranceDubai() {
                   <div>
                     <p 
                       className="font-medium text-[#1A1A1A] mb-1"
-                      style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '16px' }}
-                    >
+                      style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '16px' }}>
                       Best for:
                     </p>
                     <p 
                       className="text-[#5F5F5F]"
-                      style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '16px' }}
-                    >
+                      style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '16px' }} >
                       International plans or restricted local networks.
                     </p>
                   </div>
@@ -700,8 +696,7 @@ export default function PhysiotherapyInsuranceDubai() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
-        >
+          className="text-center mb-16" >
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#1A1A1A] mb-4 flex items-center justify-center gap-3"
             style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: 'clamp(32px, 5vw, 48px)' }}
@@ -751,8 +746,7 @@ export default function PhysiotherapyInsuranceDubai() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-12 bg-[#F5F1EA] rounded-3xl p-8 max-w-3xl mx-auto text-center border border-[#E9E2D6]"
-        >
+          className="mt-12 bg-[#F5F1EA] rounded-3xl p-8 max-w-3xl mx-auto text-center border border-[#E9E2D6]" >
           <p style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '16px', color: '#1A1A1A' }}>
             <strong>Don&apos;t see your provider?</strong> No worries! We can still process your claim through reimbursement. Contact our billing team to verify your specific plan.
           </p>
@@ -766,8 +760,7 @@ export default function PhysiotherapyInsuranceDubai() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16"  >
             <h2
               className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#1A1A1A] mb-4 flex items-center justify-center gap-3"
               style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: 'clamp(32px, 5vw, 48px)' }}
@@ -781,8 +774,7 @@ export default function PhysiotherapyInsuranceDubai() {
             </h2>
             <p
               className="text-lg text-[#5F5F5F]"
-              style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '18px' }}
-            >
+              style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '18px' }}>
               Get answers to common questions about insurance coverage for ultrasound therapy
             </p>
           </motion.div>
@@ -808,20 +800,16 @@ export default function PhysiotherapyInsuranceDubai() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className="bg-white rounded-2xl shadow-sm overflow-hidden"
-              >
+                className="bg-white rounded-2xl shadow-sm overflow-hidden" >
                 <button
                   onClick={() => setOpenFaq(openFaq === i + 10 ? null : i + 10)}
-                  className="w-full flex items-center justify-between px-8 py-6 text-left hover:bg-[#F5F1EA] transition-colors group"
-                  
-                >
+                  className="w-full flex items-center justify-between px-8 py-6 text-left hover:bg-[#F5F1EA] transition-colors group" >
                   <span className="text-lg font-semibold text-[#1A1A1A] pr-4" >
                     {faq.q}
                   </span>
                   <svg
                     width="20" height="20" viewBox="0 0 20 20" fill="none"
-                    className={`flex-shrink-0 ml-4 transition-transform duration-300 ${openFaq === i + 10 ? 'rotate-180' : ''}`}
-                  >
+                    className={`flex-shrink-0 ml-4 transition-transform duration-300 ${openFaq === i + 10 ? 'rotate-180' : ''}`}>
                     <path d="M5 8L10 13L15 8" stroke="#1F5E4B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </button>
@@ -840,14 +828,12 @@ export default function PhysiotherapyInsuranceDubai() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mt-12 bg-white rounded-3xl p-8 shadow-lg max-w-sm mx-auto text-center"
-          >
+            className="mt-12 bg-white rounded-3xl p-8 shadow-lg max-w-sm mx-auto text-center">
             <p className="text-base text-[#5F5F5F] mb-4" style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '16px' }}>Still have questions?</p>
             <button
               onClick={handleBookAppointment}
               className="bg-[#1F5E4B] text-white px-8 py-3 rounded-2xl font-semibold transition-all duration-300 hover:bg-[#154a32] hover:scale-105 cursor-pointer"
-              style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '15px', fontWeight: '600' }}
-            >
+              style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '15px', fontWeight: '600' }}>
               Chat with Our Team
             </button>
           </motion.div>
@@ -931,8 +917,7 @@ export default function PhysiotherapyInsuranceDubai() {
                   <label 
                     htmlFor="fullName" 
                     className="block text-sm font-medium text-[#1A1A1A] mb-2"
-                    style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '14px', fontWeight: '500' }}
-                  >
+                    style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '14px', fontWeight: '500' }} >
                     Full Name
                   </label>
                   <input

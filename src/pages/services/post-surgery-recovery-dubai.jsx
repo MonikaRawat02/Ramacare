@@ -446,8 +446,7 @@ const PostSurgeryRecoveryPage = () => {
             <div className="max-w-4xl mx-auto">
               <h2
                 className="text-[#1A1A1A] text-center mb-3"
-                style={{ fontSize: '56px', fontWeight: 700, lineHeight: 1.15 }}
-              >
+                style={{ fontSize: '56px', fontWeight: 700, lineHeight: 1.15 }}>
                 Frequently Asked Questions
               </h2>
               <p className="text-center text-[#5F5F5F] mb-12" style={{ fontSize: '15px' }}>People Also Ask (PAA)</p>
@@ -599,14 +598,13 @@ const PostSurgeryRecoveryPage = () => {
                       <option value="Evening">Evening</option>
                     </select>
                   </div>
-
                   <button 
                     type="submit"
                     className="w-full bg-[#1F5E4B] text-white px-10 py-4 rounded-xl font-bold hover:bg-[#164a38] transition-all shadow-lg text-lg"
                   >
                     Confirm Appointment
                   </button>
-                  
+            
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
@@ -627,5 +625,4 @@ const PostSurgeryRecoveryPage = () => {
     </>
   );
 };
-
 export default PostSurgeryRecoveryPage;

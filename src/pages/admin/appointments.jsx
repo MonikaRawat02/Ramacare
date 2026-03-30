@@ -1,6 +1,6 @@
 import AdminLayout from '../../../components/admin/AdminLayout';
-import { useState, useEffect } from 'react';
-import { Search, Filter, Calendar, Phone, Mail, User, Clock, CheckCircle, XCircle, Edit3, Eye, Trash2, Info } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { Search, Filter, Calendar, Phone, Mail, User, Clock, CheckCircle, XCircle, Edit3, Eye, Trash2, Info, ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight } from 'lucide-react';
 
 const AppointmentStatusBadge = ({ status }) => {
   const statusConfig = {
@@ -111,6 +111,18 @@ const AppointmentDetailsModal = ({ appointment, isOpen, onClose, onUpdateStatus 
                       </p>
                     </div>
                   </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0 mt-1">
+                      <Info size={20} className="text-orange-700" />
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Source</p>
+                      <p className="text-base text-gray-900 font-medium">
+                        {appointment.source || 'Website'}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -216,6 +228,10 @@ const AdminAppointments = () => {
   const [selectedAppointment, setSelectedAppointment] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  // Pagination State
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(10);
+
   // Force light theme for admin panel
   useEffect(() => {
     document.body.classList.add('force-light');
@@ -227,6 +243,11 @@ const AdminAppointments = () => {
   useEffect(() => {
     fetchAppointments();
   }, []);
+
+  // Reset to page 1 when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, statusFilter]);
 
   const fetchAppointments = async () => {
     try {
@@ -331,16 +352,25 @@ const AdminAppointments = () => {
   };
 
   // Filter appointments
-  const filteredAppointments = appointments.filter(appointment => {
-    const matchesSearch = 
-      appointment.fullName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      appointment.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      appointment.phone.includes(searchTerm);
-    
-    const matchesStatus = statusFilter === 'all' || appointment.status === statusFilter;
-    
-    return matchesSearch && matchesStatus;
-  });
+  const filteredAppointments = useMemo(() => {
+    return appointments.filter(appointment => {
+      const matchesSearch = 
+        appointment.fullName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        appointment.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        appointment.phone.includes(searchTerm);
+      
+      const matchesStatus = statusFilter === 'all' || appointment.status === statusFilter;
+      
+      return matchesSearch && matchesStatus;
+    });
+  }, [appointments, searchTerm, statusFilter]);
+
+  // Paginated data
+  const totalPages = Math.ceil(filteredAppointments.length / itemsPerPage);
+  const paginatedAppointments = useMemo(() => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    return filteredAppointments.slice(startIndex, startIndex + itemsPerPage);
+  }, [filteredAppointments, currentPage, itemsPerPage]);
 
   if (loading) {
     return (
@@ -410,8 +440,8 @@ const AdminAppointments = () => {
 
       {/* Filters */}
       <div className="bg-white rounded-lg border border-gray-200 p-4 mb-6 bg-white">
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <div className="relative flex-1">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center">
+          <div className="relative flex-1 w-full">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
             <input
               type="text"
@@ -420,19 +450,36 @@ const AdminAppointments = () => {
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 bg-white text-gray-900 text-sm"/>
           </div>
-          <div className="flex items-center gap-2">
-            <Filter className="text-gray-400" size={18}/>
-            <select
-              value={statusFilter}
-              onChange={(e) => setStatusFilter(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 bg-white text-gray-900 text-sm">
-              <option value="all">All Status</option>
-              <option value="new">New</option>
-              <option value="contacted">Contacted</option>
-              <option value="scheduled">Scheduled</option>
-              <option value="completed">Completed</option>
-              <option value="cancelled">Cancelled</option>
-            </select>
+          <div className="flex items-center gap-4 w-full sm:w-auto">
+            <div className="flex items-center gap-2 flex-1 sm:flex-none">
+              <Filter className="text-gray-400" size={18}/>
+              <select
+                value={statusFilter}
+                onChange={(e) => setStatusFilter(e.target.value)}
+                className="w-full sm:w-auto px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 bg-white text-gray-900 text-sm">
+                <option value="all">All Status</option>
+                <option value="new">New</option>
+                <option value="contacted">Contacted</option>
+                <option value="scheduled">Scheduled</option>
+                <option value="completed">Completed</option>
+                <option value="cancelled">Cancelled</option>
+              </select>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-gray-500 whitespace-nowrap">Show:</span>
+              <select
+                value={itemsPerPage}
+                onChange={(e) => {
+                  setItemsPerPage(Number(e.target.value));
+                  setCurrentPage(1);
+                }}
+                className="px-2 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 bg-white text-gray-900 text-sm">
+                <option value={5}>5</option>
+                <option value={10}>10</option>
+                <option value={25}>25</option>
+                <option value={50}>50</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
@@ -446,14 +493,15 @@ const AdminAppointments = () => {
                 <th className="text-left py-3 px-3 sm:px-4 font-semibold text-gray-900 text-sm sm:text-base">Patient</th>
                 <th className="text-left py-3 px-3 sm:px-4 font-semibold text-gray-900 text-sm sm:text-base">Contact</th>
                 <th className="text-left py-3 px-3 sm:px-4 font-semibold text-gray-900 text-sm sm:text-base">Concern</th>
+                <th className="text-left py-3 px-3 sm:px-4 font-semibold text-gray-900 text-sm sm:text-base">Source</th>
                 <th className="text-left py-3 px-3 sm:px-4 font-semibold text-gray-900 text-sm sm:text-base">Status</th>
                 <th className="text-left py-3 px-3 sm:px-4 font-semibold text-gray-900 text-sm sm:text-base">Date</th>
                 <th className="text-left py-3 px-3 sm:px-4 font-semibold text-gray-900 text-sm sm:text-base">Actions</th>
               </tr>
             </thead>
             <tbody>
-              {filteredAppointments.length > 0 ? (
-                filteredAppointments.map((appointment) => (
+              {paginatedAppointments.length > 0 ? (
+                paginatedAppointments.map((appointment) => (
                   <tr key={appointment._id} className="border-b border-gray-100 hover:bg-gray-50">
                     <td className="py-3 px-3 sm:py-4 sm:px-4">
                       <div className="flex items-center gap-2 sm:gap-3">
@@ -489,6 +537,11 @@ const AdminAppointments = () => {
                       </div>
                     </td>
                     <td className="py-3 px-3 sm:py-4 sm:px-4">
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs font-medium border border-gray-200 truncate block max-w-[100px] sm:max-w-[150px]" title={appointment.source || 'Website'}>
+                        {appointment.source || 'Website'}
+                      </span>
+                    </td>
+                    <td className="py-3 px-3 sm:py-4 sm:px-4">
                       <AppointmentStatusBadge status={appointment.status} />
                     </td>
                     <td className="py-3 px-3 sm:py-4 sm:px-4">
@@ -519,7 +572,7 @@ const AdminAppointments = () => {
                 ))
               ) : (
                 <tr>
-                  <td colSpan="6" className="py-12 text-center text-gray-500">
+                  <td colSpan="7" className="py-12 text-center text-gray-500">
                     <User size={48} className="mx-auto text-gray-300 mb-3" />
                     <p className="text-base sm:text-lg font-medium">No appointments found</p>
                     <p className="text-sm sm:text-gray-400">
@@ -533,6 +586,75 @@ const AdminAppointments = () => {
             </tbody>
           </table>
         </div>
+
+        {/* Pagination Controls */}
+        {filteredAppointments.length > 0 && (
+          <div className="px-4 py-4 bg-gray-50 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="text-sm text-gray-600">
+              Showing <span className="font-semibold text-gray-900">{(currentPage - 1) * itemsPerPage + 1}</span> to <span className="font-semibold text-gray-900">{Math.min(currentPage * itemsPerPage, filteredAppointments.length)}</span> of <span className="font-semibold text-gray-900">{filteredAppointments.length}</span> results
+            </div>
+            
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setCurrentPage(1)}
+                disabled={currentPage === 1}
+                className="p-2 rounded-lg border border-gray-300 bg-white text-gray-600 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                title="First Page">
+                <ChevronsLeft size={18} />
+              </button>
+              <button
+                onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                disabled={currentPage === 1}
+                className="p-2 rounded-lg border border-gray-300 bg-white text-gray-600 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                title="Previous Page">
+                <ChevronLeft size={18} />
+              </button>
+              
+              <div className="flex items-center gap-1">
+                {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
+                  let pageNum;
+                  if (totalPages <= 5) {
+                    pageNum = i + 1;
+                  } else if (currentPage <= 3) {
+                    pageNum = i + 1;
+                  } else if (currentPage >= totalPages - 2) {
+                    pageNum = totalPages - 4 + i;
+                  } else {
+                    pageNum = currentPage - 2 + i;
+                  }
+                  
+                  return (
+                    <button
+                      key={pageNum}
+                      onClick={() => setCurrentPage(pageNum)}
+                      className={`w-10 h-10 rounded-lg text-sm font-medium transition-all duration-200 ${
+                        currentPage === pageNum
+                          ? 'bg-teal-600 text-white shadow-md'
+                          : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50'
+                      }`}>
+                      {pageNum}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <button
+                onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+                disabled={currentPage === totalPages}
+                className="p-2 rounded-lg border border-gray-300 bg-white text-gray-600 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                title="Next Page">
+                <ChevronRight size={18} />
+              </button>
+              <button
+                onClick={() => setCurrentPage(totalPages)}
+                disabled={currentPage === totalPages}
+                className="p-2 rounded-lg border border-gray-300 bg-white text-gray-600 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                title="Last Page">
+                <ChevronsRight size={18} />
+              </button>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Appointment Details Modal */}

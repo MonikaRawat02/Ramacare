@@ -35,7 +35,7 @@ const UltrasoundBackPainPage = () => {
       const result = await response.json();
 
       if (response.ok && result.success) {
-        showToast("Appointment request sent! We'll contact you within 1 hour.", 'success');
+        showToast("Appointment request sent! We'll contact you soon.", 'success');
         setFormData({ name: '', phone: '', email: '', time: '', area: '' });
       } else {
         showToast('Failed to submit. Please try again or contact us directly.', 'error');

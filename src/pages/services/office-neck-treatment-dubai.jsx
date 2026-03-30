@@ -35,7 +35,7 @@ const OfficeNeckTreatmentPage = () => {
       const result = await response.json();
 
       if (response.ok && result.success) {
-        showToast("Appointment request sent! We'll contact you within 1 hour.", 'success');
+        showToast("Appointment request sent! We'll contact you soon.", 'success');
         setFormData({ name: '', phone: '', email: '', time: '' });
       } else {
         showToast('Failed to submit. Please try again or contact us directly.', 'error');
@@ -149,26 +149,21 @@ const OfficeNeckTreatmentPage = () => {
                 </div>
               </motion.div>
 
-              {/* Right Column: Image Placeholder */}
+              {/* Right Column: Image */}
               <motion.div 
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="relative"
               >
-                <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl bg-[#D9D9D9] flex flex-col items-center justify-center p-12 text-center">
-                  {/* Figma Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#1F5E4B]/10 to-transparent z-10" />
-                  
-                  <div className="relative z-20">
-                    <div className="w-32 h-32 bg-[#C4C4C4] rounded-full mb-6 flex items-center justify-center mx-auto shadow-inner">
-                      <svg className="w-16 h-16 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                      </svg>
-                    </div>
-                    <p className="text-[#5F5F5F] font-semibold text-lg">Premium Corporate Professional</p>
-                    <p className="text-[#5F5F5F] text-base">DIFC Skyline</p>
-                  </div>
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                  <Image
+                    src="/images/office.jpg" // Replace with your actual image path
+                    alt="Office neck treatment at RamaCare Dubai"
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </motion.div>
             </div>
