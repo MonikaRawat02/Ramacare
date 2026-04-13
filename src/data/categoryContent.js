@@ -5,11 +5,11 @@ export const categoryContent = {
   'ayurveda': {
     hero: {
       badge: 'DHA-Licensed Premier Ayurveda Centre',
-      titleLine1: 'Premium Ayurveda Treatment ',
-      titleHighlight: ' & Panchakarma',
-      titleLine2:' in Jumeirah 1',
+      titleLine1: ' Ayurveda Treatment  ',
+      titleHighlight: ' in Dubai ',
+      titleLine2:' for Detox, Pain Relief & Wellness',
       // title: 'Premium Ayurveda Treatment –& Panchakarma in Jumeirah 1',
-      subtitle: 'Discover authentic Ayurveda Treatment for detoxification, pain relief, stress management, digestive wellness, and complete body-mind rejuvenation.',
+      subtitle: 'Discover authentic Ayurveda treatment in Dubai for detoxification, pain relief, stress management, digestive wellness, and complete body–mind rejuvenation. At RamaCare Polyclinic, we combine ancient Ayurvedic wisdom with modern healthcare standards to deliver long-lasting results—not temporary relief.',
       description: 'Dubai\'s premier Ayurveda centre offering authentic classical treatments, DHA-licensed practitioners, and personalized wellness plans in the heart of Jumeirah 1.',
       ctaText: 'Book Free Consultation',
       backgroundImage: '/images/a1.jpg',
@@ -32,49 +32,49 @@ export const categoryContent = {
     whyChooseUs: {
       badge: 'Why Choose Us',
       title: 'Dubai\'s Trusted Ayurveda Treatment Centre',
-      description: 'At RamaCare Polyclinic, we provide authentic Ayurveda Treatment that blends traditional healing with modern medical standards. Our approach addresses the root cause of health issues, supporting physical vitality, mental clarity, and emotional balance.',
+      description: 'At RamaCare Polyclinic, we offer result-driven Ayurveda treatment in Dubai focused on treating the root cause of health issues—not just symptoms. Our holistic approach supports physical vitality, mental clarity, and emotional balance.',
       cards: [
         {
           title: 'Authentic Ayurvedic Therapies',
-          description: 'Time-tested Panchakarma and specialized treatments rooted in classical Ayurveda.'
+          description: 'Experience time-tested Panchakarma and classical herbal treatments designed for deep healing.'
         },
         {
           title: 'DHA-Licensed Practitioners',
-          description: 'Experienced doctors ensuring safe and effective care.'
+          description: 'Highly qualified Ayurvedic doctors ensure safe and effective treatments.'
         },
         {
           title: 'Personalized Treatment Plans',
-          description: ' Customized protocols based on your unique body constitution (dosha) and health goals.'
+          description: 'Customized therapies based on your dosha (body constitution) and health goals.'
         },
         {
           title: 'Premium Facility',
-          description: 'Serene, hygienic, and equipped with state-of-the-art treatment rooms.'
+          description: 'Clean, modern, and relaxing environment designed for complete comfort.'
         },
         {
           title: 'Holistic Healing',
-          description: 'Integrated care for body, mind, and emotional wellness.'
+          description: 'We treat body, mind, and lifestyle together for long-term wellness.'
         },
         {
           title: 'Proven Results',
-          description: 'Hundreds of patients achieving long-term relief and wellness.'
+          description: 'Hundreds of patients have achieved lasting relief and improved quality of life.'
         }
       ]
     },
     about: {
       badge: 'About Our Ayurveda Department',
-      title: 'Authentic Healing Within a Modern Polyclinic',
+      title: 'Authentic Ayurveda Treatment in Dubai Within a Modern Polyclinic',
       description: 'Ayurveda, meaning "science of life," is a 5,000-year-old holistic healing system from India that focuses on balancing the body, mind, and spirit through natural therapies, diet, and lifestyle modifications.',
       paragraphs: [
-        'Our Ayurveda department at RamaCare Polyclinic brings the timeless wisdom of classical Indian medicine to the heart of Dubai\'s premium healthcare landscape. Operating within a fully equipped multi-specialty polyclinic in Jumeirah 1, we offer the perfect blend of traditional authenticity and modern medical standards.' ,
-        'Led by experienced, DHA-licensed Ayurvedic physicians with advanced qualifications (BAMS/MD), our multicultural team specializes in Ayurveda Treatments for detoxification, chronic pain relief, stress management, digestive wellness, and women\'s hormonal health. Each treatment plan is customized to your unique constitution (dosha) and health goals.' ,
-        'We maintain the highest standards of hygiene and safety while honoring authentic Panchakarma protocols and classical therapies. Whether you\'re seeking deep detox, pain relief, or holistic rejuvenation, our approach combines ancient healing wisdom with the comfort and credibility of a premium modern medical facility .'
+        'Our Ayurveda department at RamaCare Polyclinic brings the power of traditional Indian medicine to the modern healthcare system of Dubai.' ,
+        'We specialize in Ayurveda treatment in Dubai for:\n• Detoxification\n• Chronic pain relief\n•Stress and anxiety\n• Digestive disorders\n• Hormonal imbalance\n' ,
+        'Led by DHA-licensed Ayurvedic doctors (BAMS/MD), every treatment is personalized after a detailed consultation and dosha analysis. We follow strict hygiene and safety standards while maintaining authentic Ayurvedic practices—giving you the perfect balance of tradition and modern care.'
       ],
       stats: [
         { number: '12+', label: 'Treatment Types' },
         { number: '500+', label: ' Happy Patients' },
         { number: '98%', label: 'Satisfaction Rate' }
       ],
-      ctaText: 'Book Your Ayurveda Treatment Consultation Today',
+      ctaText: 'Book Your Ayurveda Consultation Today',
       image: '/images/a2.jpg',
       imageAlt: 'Ayurvedic medicine bottle',
       overlayCard: {
@@ -84,24 +84,24 @@ export const categoryContent = {
       }
     },
     treatments: {
-      heading: 'Personalized Treatments for Modern Health Challenges',
-      subtitle: 'Explore our wide range of Ayurveda Treatments designed to restore balance, improve vitality, and promote long-term wellness. Select a treatment below to discover how authentic Ayurveda can transform your health and wellbeing in Dubai.',
+      heading: 'Personalized Ayurveda Treatment in Dubai for Every Health Need',
+      subtitle: 'Explore our specialized therapies designed to restore balance and promote long-term wellness.',
       treatments: [
         {
           id: 1,  
-          title: 'Panchakarma Treatment',
+          title: 'Panchakarma Treatment in Dubai',
           slug: 'panchakarma-treatment',
           fullSlug: '/services/panchakarma-treatment-dubai/',
           icon: 'Sparkles',
-          subtitle: 'Authentic Ayurveda Treatment for Detox & Rejuvenation',
+          subtitle: 'Deep detox therapy that removes toxins and restores internal balance.',
           duration: '7–21 Days',
           badgeColor: 'violet',
           benefits: [
-            'Restores balance through classical Panchakarma therapies',
-            'Removes accumulated toxins',
-            'Enhances physical and mental well-being',
+            ' Eliminates toxins from the body',
+            'Improves digestion and immunity',
+            ' Enhances mental clarity',
           ],
-          idealFor: 'Anyone looking for deep cleansing and revitalization',
+          idealFor: 'Detox, stress, lifestyle disorders',
           image: '/images/panchakarma.jpg',
           alt: 'Panchakarma treatment using traditional Ayurvedic therapies to detoxify the body and restore balance.'
         },
@@ -111,7 +111,7 @@ export const categoryContent = {
           slug: 'analysis-of-individual-constitution',
           fullSlug: '/services/analysis-of-individual-dubai/',
           icon: 'Sparkles',
-          subtitle: 'Ayurveda Treatment for Personalized Care',
+          subtitle: 'Understand your body type and receive a personalized treatment plan.',
           duration: '7–21 Days',
           badgeColor: 'cyan',
           benefits: [
@@ -130,7 +130,7 @@ export const categoryContent = {
           slug: 'ayurvedic-hairfall-treatment',
           fullSlug: '/services/ayurvedic-hairfall-treatment-dubai/',
           icon: 'Sparkles',
-          subtitle: 'Ayurveda Treatment for Hair Health',
+          subtitle: 'Natural solutions to control hair fall and improve scalp health.',
           duration: '7–21 Days',
           badgeColor: 'teal',
           benefits: [
@@ -149,7 +149,7 @@ export const categoryContent = {
           slug: 'skin-diseases-treatment',
           fullSlug: '/services/skin-diseases-treatment-dubai/',
           icon: 'Sparkles',
-          subtitle: 'Ayurveda Treatment for Skin Health',
+          subtitle: 'Holistic care for acne, pigmentation, and chronic skin conditions.',
           duration: '7–21 Days',
           badgeColor: 'pink',
           benefits: [
@@ -165,7 +165,7 @@ export const categoryContent = {
       ],
       consultationCTA: {
         heading: 'Not Sure Which Treatment is Right for You?',
-        subtext: 'Get expert guidance at RamaCare Polyclinic, a trusted Polyclinic in Dubai. Book your FREE consultation today and receive a personalized treatment plan tailored to your needs.',
+        subtext: 'Get expert guidance from our specialists.👉 Book a FREE Consultation today and receive a personalized Ayurveda treatment plan in Dubai.',
         buttonText: 'Get Free Consultation',
         backgroundColor: 'bg-[#1E5A3C]',
         buttonColor: 'bg-[#C9A547]'
@@ -174,8 +174,8 @@ export const categoryContent = {
     experts: {
       badge: 'Expert Medical Team',
 
-      title: 'Meet Our DHA-Licensed\nAyurvedic Physicians',
-      description: 'Highly qualified doctors with decades of combined experience, committed to your healing journey with expertise, compassion, and authentic Ayurvedic care.',
+      title: 'Meet Our DHA-Licensed Ayurveda Experts in Dubai',
+      description: 'Our experienced team specializes in delivering safe, effective, and authentic Ayurveda treatment in Dubai.',
       stats: [
         { value: '3', label: 'Expert Physicians' },
         { value: '37+', label: 'Years Combined Experience' },
@@ -444,32 +444,32 @@ export const categoryContent = {
     },
     whyDubai: {
       badge: 'Ayurveda in Dubai',
-      title: 'Why Ayurveda Treatment is Essential for Dubai Lifestyle?',
+      title: 'Why Ayurveda Treatment is Essential for the Dubai Lifestyle?',
       description: 'Dubai\'s fast-paced, high-stress environment — combined with extreme heat, irregular schedules, and sedentary work routines — creates unique health challenges. Many residents experience digestive issues, hormonal imbalance, chronic stress, sleep disturbances, and low energy levels. \n\n Ayurveda Treatment provides a holistic solution by addressing the root causes of these modern health concerns. Through personalized detox programs, dosha balancing, herbal therapies, and lifestyle guidance, Ayurveda restores your body\'s natural equilibrium and supports long-term wellness rather than temporary relief.',
       benefits: [
         {
           icon: 'Droplets',
           title: 'Combat Heat & Dehydration',
-          description: 'Cooling therapies and Pitta-balancing treatments counteract Dubai\'s intense climate. \n\n Restores hydration and maintains internal body balance'
+          description: 'Cooling therapies and Pitta-balancing treatments counteract Dubai\'s intense climate. \n\n  Balances body heat and hydration'
         },
         {
           icon: 'Brain',
           title: 'Reduce Stress & Anxiety',
-          description: 'Shirodhara and herbal adaptogens to calm the mind.\n\n Supports emotional balance, focus, and relaxation.'
+          description: 'Calms the mind with Shirodhara therapy.\n\n Supports emotional balance, focus, and relaxation.'
         },
         {
           icon: 'Sparkles',
-          title: 'Detoxify & Rejuvenate',
-          description: 'Panchakarma therapies eliminate accumulated toxins from food, environment, and lifestyle . \n\n Promotes complete body renewal and vitality'
+          title: ' Detox & Rejuvenate',
+          description: 'Removes toxins through Panchakarma. \n\n Promotes complete body renewal and vitality'
         },
         {
           icon: 'Activity',
-          title: 'Restore Digestive Health',
+          title: 'Improve Digestion',
           description: 'Strengthens Agni (digestive fire) disrupted by irregular eating and sedentary habits, Improves metabolism, nutrient absorption, and gut function'
         },
         {
           icon: 'Sparkles',
-          title: 'Meditation & Wellness for Professionals',
+          title: ' Enhance Productivity',
           description: 'Integrates mindfulness and relaxation practices with Ayurveda Treatment, Enhances productivity, reduces stress, and improves sleep quality'
         },
         
@@ -481,112 +481,112 @@ export const categoryContent = {
         description: 'Evening and weekend schedules are available to fit the busy lifestyle of Dubai residents, making authentic Ayurveda Treatment accessible and convenient.'
       },
       bottomSection: {
-        title: 'Premium Ayurveda Centre in Jumeirah 1, Dubai',
+        title: 'Premium Ayurveda Clinic In Dubai',
         description: 'As a leading Ayurveda Treatment clinic in Dubai, RamaCare Polyclinic specializes in Panchakarma detox, chronic pain management, stress relief, and holistic wellness. Our DHA-licensed Ayurvedic practitioners combine centuries-old Ayurvedic wisdom with modern healthcare standards to deliver natural, effective solutions for today’s health challenges. \n\n Whether you are looking for a personalized Ayurvedic consultation, a comprehensive detox program, or specialized women’s wellness care, our Jumeirah 1 clinic offers the perfect fusion of traditional therapies and premium medical excellence. Experience authentic Ayurveda Treatments in a comfortable, safe, and modern setting designed for long-term health and rejuvenation.'
       }
     },
-    programs: {
-      badge: 'Signature Programs',
-      heading: 'Curated Healing Journeys',
-      subtitle: 'Immersive Ayurveda Treatment programs are designed for transformative health results and lasting wellness.',
-      disclaimer: ' All Ayurveda Treatment programs are customized based on your initial consultation, dosha analysis, and individual health concerns. Duration and therapies may vary according to your unique wellness goals.',
-      programs: [
-        {
-          id: 1,
-          title: 'Deep Panchakarma Detox',
-          duration: '7–14 Days',
-          backgroundColor: 'bg-white',
-          topSectionColor: 'bg-emerald-50',
-          durationColor: 'bg-emerald-100',
-          durationTextColor: 'text-emerald-700',
-          icon: 'sparkle',
-          benefits: [
-            'Comprehensive elimination of toxins at the cellular level',
-            'Boosts immunity and strengthens digestive fire (Agni)',
-            'Enhances mental clarity, focus, and sustained energy',
-            'Promotes radiant skin and overall vitality'
-          ]
-        },
-        {
-          id: 2,
-          title: 'Chronic Pain Relief Program',
-          duration: '10–21 Days',
-          backgroundColor: 'bg-white',
-          topSectionColor: 'bg-rose-50',
-          durationColor: 'bg-rose-100',
-          durationTextColor: 'text-rose-700',
-          icon: 'heart',
-          benefits: [
-            'Targeted relief for arthritis, back pain, and joint stiffness',
-            'Reduces inflammation with herbal therapies and therapeutic oils',
-            'Supports long-term pain management and mobility improvement'
-          ]
-        },
-        {
-          id: 3,
-          title: 'Stress & Sleep Balance Therapy',
-          duration: '7–14 Days',
-          backgroundColor: 'bg-white',
-          topSectionColor: 'bg-indigo-50',
-          durationColor: 'bg-indigo-100',
-          durationTextColor: 'text-indigo-700',
-          icon: 'moon',
-          benefits: [
-            'Calms nervous system through Shirodhara and Ayurvedic therapies',
-            'Reduces anxiety and insomnia with natural herbal support',
-            'Includes lifestyle guidance, meditation, and stress-reduction strategies'
-          ]
-        },
-        {
-          id: 4,
-          title: 'Women\'s Wellness Program',
-          duration: '14–28 Days',
-          backgroundColor: 'bg-white',
-          topSectionColor: 'bg-fuchsia-50',
-          durationColor: 'bg-fuchsia-100',
-          durationTextColor: 'text-fuchsia-700',
-          icon: 'user',
-          benefits: [
-            'Hormonal balance for PCOS, fertility & menopause',
-            'Regulates menstrual cycles and restores vitality naturally',
-            'Personalized nutrition plans and herbal therapies for women’s health'
-          ]
-        },
-        {
-          id: 5,
-          title: 'Digestive & Weight Balance Program',
-          duration: '14–21 Days',
-          backgroundColor: 'bg-white',
-          topSectionColor: 'bg-amber-50',
-          durationColor: 'bg-amber-100',
-          durationTextColor: 'text-amber-700',
-          icon: 'scale',
-          benefits: [
-            'Metabolic reset and healthy weight management',
-            'Gut healing for IBS, bloating & inflammation',
-            'Sustainable dietary and lifestyle modifications for long-term wellness'
-          ]
-        },
-        {
-          id: 6,
-          title: 'Full Rejuvenation Therapy',
-          duration: '21–28 Days',
-          backgroundColor: 'bg-white',
-          topSectionColor: 'bg-violet-50',
-          durationColor: 'bg-violet-100',
-          durationTextColor: 'text-violet-700',
-          icon: 'users',
-          benefits: [
-            'Complete renewal of body and mind',
-            'Anti-aging support and enhanced vitality',
-            'Preventive wellness strategies for longevity and optimal health'
-          ]
-        }
+   programs: {
+  badge: 'Signature Programs',
+  heading: 'Complete Ayurveda Healing Programs in Dubai',
+  subtitle: 'Immersive Ayurveda Treatment programs are designed for transformative health results and lasting wellness.',
+  disclaimer: 'All programs are customized based on your condition and health goals.',
+
+  programs: [
+    {
+      id: 1,
+      title: 'Deep Panchakarma Detox',
+      duration: '7–14 Days',
+      backgroundColor: 'bg-white',
+      topSectionColor: 'bg-emerald-50',
+      durationColor: 'bg-emerald-100',
+      durationTextColor: 'text-emerald-700',
+      icon: 'sparkle',
+      benefits: [
+        'Full body detox at the cellular level',
+        'Boosts immunity & energy',
+        'Improves skin & vitality'
       ]
     },
+    {
+      id: 2,
+      title: 'Chronic Pain Relief Program',
+      duration: '10–21 Days',
+      backgroundColor: 'bg-white',
+      topSectionColor: 'bg-rose-50',
+      durationColor: 'bg-rose-100',
+      durationTextColor: 'text-rose-700',
+      icon: 'heart',
+      benefits: [
+        'Treats arthritis, back pain & joint issues',
+        'Reduces inflammation naturally',
+        'Improves mobility'
+      ]
+    },
+    {
+      id: 3,
+      title: 'Stress & Sleep Therapy',
+      duration: '7–14 Days',
+      backgroundColor: 'bg-white',
+      topSectionColor: 'bg-indigo-50',
+      durationColor: 'bg-indigo-100',
+      durationTextColor: 'text-indigo-700',
+      icon: 'moon',
+      benefits: [
+        'Calms the nervous system',
+        'Reduces anxiety & insomnia',
+        'Improves mental clarity'
+      ]
+    },
+    {
+      id: 4,
+      title: "Women’s Wellness Program",
+      duration: '14–28 Days',
+      backgroundColor: 'bg-white',
+      topSectionColor: 'bg-fuchsia-50',
+      durationColor: 'bg-fuchsia-100',
+      durationTextColor: 'text-fuchsia-700',
+      icon: 'user',
+      benefits: [
+        'Supports PCOS & hormonal balance',
+        'Improves reproductive health',
+        'Natural healing approach'
+      ]
+    },
+    {
+      id: 5,
+      title: 'Digestive & Weight Balance',
+      duration: '14–21 Days',
+      backgroundColor: 'bg-white',
+      topSectionColor: 'bg-amber-50',
+      durationColor: 'bg-amber-100',
+      durationTextColor: 'text-amber-700',
+      icon: 'scale',
+      benefits: [
+        'Improves gut health',
+        'Supports weight management',
+        'Boosts metabolism'
+      ]
+    },
+    {
+      id: 6,
+      title: 'Full Rejuvenation Therapy',
+      duration: '21–28 Days',
+      backgroundColor: 'bg-white',
+      topSectionColor: 'bg-violet-50',
+      durationColor: 'bg-violet-100',
+      durationTextColor: 'text-violet-700',
+      icon: 'users',
+      benefits: [
+        'Anti-aging benefits',
+        'Full body restoration',
+        'Long-term wellness'
+      ]
+    }
+  ]
+},
     successStories: {
       badge: 'Patient Success Stories',
-      title: 'Real Results From Real People',
+      title: 'Real Results from Ayurveda Treatment in Dubai',
       subtitle: 'Hear directly from our patients about their transformative Ayurvedic healing journeys in Dubai.',
       stats: [
         {

@@ -416,7 +416,6 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
                   </p>
                 </div>
               </div>
-
             </div>
           </div>
         </section>
@@ -441,8 +440,7 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
                     name="painArea"
                     value={recommendationData.painArea}
                     onChange={handleRecommendationChange}
-                    className="w-full bg-[#F5F1EA]/50 border-none rounded-lg p-4 text-[#5F5F5F] focus:ring-2 focus:ring-[#1F5E4B] transition-all"
-                  >
+                    className="w-full bg-[#F5F1EA]/50 border-none rounded-lg p-4 text-[#5F5F5F] focus:ring-2 focus:ring-[#1F5E4B] transition-all">
                     <option value="">Select pain area</option>
                     <option value="Lower Back">Lower Back</option>
                     <option value="Shoulder / Rotator Cuff">Shoulder / Rotator Cuff</option>
@@ -604,6 +602,7 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
             </div>
           </div>
         </section>
+
         {/* FAQ Section */}
         <section className="bg-[#F5F1EA] py-16 md:py-24 px-4">
           <div className="max-w-4xl mx-auto">
@@ -856,7 +855,6 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
                   </div>
                 </form>
               </div>
-
             </div>
           </div>
         </section>

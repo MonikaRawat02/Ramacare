@@ -347,9 +347,9 @@ const Header = () => {
                 );
               })}
               
-              <a href="/#testimonials" onClick={handleTestimonialsClick} className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
+              <Link href="/testimonials" className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
                 Testimonials
-              </a>
+              </Link>
               <Link href="/blog" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
                 Blogs
               </Link>

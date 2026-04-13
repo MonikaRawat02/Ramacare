@@ -643,8 +643,7 @@ const DryNeedlingUltrasoundComboPage = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="relative rounded-2xl overflow-hidden shadow-2xl"
-    >
+      className="relative rounded-2xl overflow-hidden shadow-2xl" >
       
       {/* Image + Overlay Container */}
       <div className="aspect-[16/9] relative">
@@ -653,8 +652,7 @@ const DryNeedlingUltrasoundComboPage = () => {
         <img 
           src="/images/Needle.jpg" 
           alt="Physiotherapist performing dry needling treatment" 
-          className="w-full h-full object-cover"
-        />
+          className="w-full h-full object-cover" />
 
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#1F5E4B]/80 via-[#1F5E4B]/40 to-transparent flex items-center px-8 md:px-16">
