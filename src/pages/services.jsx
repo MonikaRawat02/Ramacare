@@ -101,7 +101,14 @@ const ServicesPage = () => {
       'ayurvedic-hairfall-treatment-dubai': [],
       'analysis-of-individual-dubai': [],
       'skin-diseases-treatment-dubai': [],
-      'ayurvedic-diet-plan-dubai': [],
+      'ayurvedic-diet-plan-dubai': [
+        { name: 'Ayurvedic Detox Diet Plan', slug: 'ayurvedic-detox-diet-plan-dubai' },
+        { name: 'Weight Loss Diet', slug: 'ayurvedic-diet-weight-loss-dubai' },
+        { name: 'Diet for Busy Professionals', slug: 'ayurvedic-diet-plan-busy-professionals-dubai' },
+        { name: 'PCOS Diet', slug: 'ayurvedic-diet-pcos-dubai' },
+        { name: 'Diabetes Diet', slug: 'ayurvedic-diet-diabetes-dubai' },
+        { name: 'Thyroid Diet', slug: 'ayurvedic-diet-thyroid-dubai' },
+      ],
       'panchakarma-treatment-dubai': [],
       'gastrointestinal-diseases-treatment-dubai': [],
       'pcos-treatment-dubai': [],
@@ -190,6 +197,7 @@ const ServicesPage = () => {
         { name: 'Analysis Of Individual', slug: 'analysis-of-individual-dubai', description: 'Personalized dosha analysis' },
         { name: 'Skin Diseases Treatment', slug: 'skin-diseases-treatment-dubai', description: 'Ayurvedic skin condition remedies' },
         { name: 'Ayurvedic Diet Plan', slug: 'ayurvedic-diet-plan-dubai', description: 'Personalized nutrition guidance' },
+        { name: 'Ayurvedic Gut Health', slug: 'ayurvedic-gut-health-dubai', description: 'Restore Agni and improve digestion naturally' },
         { name: 'Panchakarma Treatment', slug: 'panchakarma-treatment-dubai', description: 'Traditional detoxification therapy' },
         { name: 'Gastrointestinal Diseases Treatment', slug: 'gastrointestinal-diseases-treatment-dubai', description: 'Digestive health solutions' },
         { name: 'PCOS Treatment', slug: 'pcos-treatment-dubai', description: 'Ayurvedic PCOS management' }

@@ -25,8 +25,8 @@ const AllDoctorsPage = ({ content }) => {
 
   // Use content props or defaults
   const badge = content?.badge || 'Expert Medical Team';
-  const title = content?.title || 'Meet Our DHA-Licensed Expertise';
-  const description = content?.description || 'Highly qualified doctors with decades of combined experience, committed to your healing journey with expertise, compassion, and authentic Ayurvedic care.';
+  const title = content?.title || 'Find A Doctor';
+  const description = content?.description || 'Your trusted healthcare partner in Dubai, delivering comprehensive medical care with compassion, expertise, and a strong commitment to patient well-being in Jumeirah 1.';
   const stats = content?.stats || [
     { value: '3', label: 'Expert Physicians' },
     { value: '37+', label: 'Years Combined Experience' },
@@ -364,10 +364,10 @@ const AllDoctorsPage = ({ content }) => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Header Section */}
             <div className="text-center max-w-3xl mx-auto mb-12">
-              <div className="inline-block mb-5 lg:mb-6">
+              {/* <div className="inline-block mb-5 lg:mb-6">
                
                 <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">{badge}</span>
-              </div>
+              </div> */}
 
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl">
                 {title.split('\n').map((line, index) => (

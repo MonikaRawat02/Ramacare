@@ -36,9 +36,9 @@ export default function About() {
     title: 'Authentic Healing Within a Modern Polyclinic',
     description: 'RamaCare Polyclinic is a premier DHA-licensed healthcare facility in Jumeirah 1, Dubai, offering comprehensive medical services with a perfect blend of traditional healing and modern medicine.',
     paragraphs: [
-      'RamaCare Polyclinic blends traditional healing principles with modern medical science to provide comprehensive, family-centered healthcare in Dubai. Our multidisciplinary team of DHA-licensed physicians, therapists, and specialists brings decades of experience and compassionate care to every consultation.',
-    'We offer a full range of services, including general medicine, dermatology, aesthetic treatments, dental care, physiotherapy, Ayurveda, pain management, and body wellness therapies — all under one roof.',
-    'Rather than treating symptoms alone, we focus on identifying root causes, designing personalized treatment plans, and supporting sustainable health outcomes. Every treatment follows strict safety protocols, transparent diagnosis, and advanced medical standards within our Jumeirah 1 facility.'
+      'RamaCare Polyclinic is a leading multi-specialty clinic in Dubai, offering high-quality healthcare services, including physiotherapy in Dubai, dental care, skin treatments, and general medicine under one roof. We are committed to delivering reliable, patient-focused care in a comfortable and professional environment.',
+    'Our clinic is designed to provide convenient access to experienced doctors in Dubai, ensuring every patient receives the right diagnosis and effective treatment. We understand that every patient has unique health concerns, which is why we take a personalized approach to care—listening carefully, evaluating thoroughly, and creating treatment plans tailored to individual needs.',
+    'At RamaCare Polyclinic, we combine modern medical technology with a compassionate approach to ensure a seamless healthcare experience. From your first consultation to recovery and follow-up, our team is dedicated to supporting you at every step. Whether you are visiting for routine checkups, pain management, dental care, or skin treatments, we focus on delivering results that improve your overall well-being.'
   ],
     stats: [
       { number: '15+', label: 'Years of Excellence' },
@@ -138,10 +138,10 @@ export default function About() {
               </span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-text-white leading-tight mb-6">
-              Your Trusted <span className="text-[#d4a574]">Healthcare</span> Partner in Dubai
+              <span className="text-[#d4a574]">About Us</span> 
             </h1>
             <p className="text-lg sm:text-xl text-white leading-relaxed max-w-3xl mx-auto">
-              Delivering comprehensive medical care with compassion, expertise, and 15+ years of excellence in Jumeirah 1
+             Your trusted healthcare partner in Dubai, delivering comprehensive medical care with compassion, expertise, and a strong commitment to patient well-being in Jumeirah 1.
             </p>
           </div>
         </div>

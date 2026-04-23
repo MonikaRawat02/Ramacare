@@ -23,21 +23,14 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmission
     try {
       const all = getAllSubcategories();
       const toTitle = (s) => s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
-      const stop = new Set(['dubai', 'treatment', 'therapy', 'services', 'laser']);
-      const raw = all.map(({ key }) => {
-        const parts = key.split('-dubai-');
-        if (parts.length !== 2) return null;
-        const category = parts[0];
-        const subSlug = parts[1];
-        const words = subSlug.split('-');
-        const filteredBase = (words.filter(w => !stop.has(w))).length ? words.filter(w => !stop.has(w)) : words;
-        const deduped = filteredBase.filter((w, i) => i === 0 || w !== filteredBase[i - 1]);
-        const labelBase = toTitle(deduped.join(' ')).trim();
-        return { category, subSlug, labelBase, value: `${category}-dubai:${subSlug}` };
-      }).filter(Boolean);
-      const counts = raw.reduce((acc, r) => { acc[r.labelBase] = (acc[r.labelBase] || 0) + 1; return acc; }, {});
-      return raw.map(r => ({ value: r.value, label: counts[r.labelBase] > 1 ? `${r.labelBase} (${toTitle(r.category)})` : r.labelBase }));
-    } catch {
+      
+      // Simply convert all service keys to display labels - NO FILTERING
+      return all.map(({ key }) => {
+        const label = toTitle(key).trim();
+        return { value: key, label };
+      });
+    } catch (error) {
+      console.error('Error generating treatment options:', error);
       return [];
     }
   }, []);
