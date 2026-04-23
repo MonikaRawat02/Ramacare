@@ -39,6 +39,7 @@ export default function About() {
       'RamaCare Polyclinic is a leading multi-specialty clinic in Dubai, offering high-quality healthcare services, including physiotherapy in Dubai, dental care, skin treatments, and general medicine under one roof. We are committed to delivering reliable, patient-focused care in a comfortable and professional environment.',
     'Our clinic is designed to provide convenient access to experienced doctors in Dubai, ensuring every patient receives the right diagnosis and effective treatment. We understand that every patient has unique health concerns, which is why we take a personalized approach to care—listening carefully, evaluating thoroughly, and creating treatment plans tailored to individual needs.',
     'At RamaCare Polyclinic, we combine modern medical technology with a compassionate approach to ensure a seamless healthcare experience. From your first consultation to recovery and follow-up, our team is dedicated to supporting you at every step. Whether you are visiting for routine checkups, pain management, dental care, or skin treatments, we focus on delivering results that improve your overall well-being.'
+    
   ],
     stats: [
       { number: '15+', label: 'Years of Excellence' },
@@ -55,48 +56,76 @@ export default function About() {
       boldText: 'Trusted Healthcare in Dubai'
     }
   };
+const whyContent = {
+  badge: 'Our Mission',
 
-  const whyContent = {
-    badge: 'Polyclinic in Dubai',
-    title: 'How We Work at RamaCare Polyclinic',
-    description: 'Dubai\'s fast-paced, high-stress environment — combined with extreme heat, irregular schedules, and sedentary work routines — creates unique health challenges.',
-    paragraphs: [
-      'Dubai\'s fast-paced environment creates unique health challenges. Our approach addresses these modern wellness needs while maintaining the highest standards of medical care. We understand that each patient is different, which is why we take time to listen, understand, and create customized treatment plans.'
-    ],
-    benefits: [
-       {
+  title: 'Your Trusted Polyclinic in Dubai',
+
+  description:
+    'Our mission is to provide affordable and high-quality healthcare in Dubai with a strong focus on patient satisfaction, ethical practices, and long-term wellness. We aim to become a trusted choice for individuals and families looking for the best polyclinic in Dubai.',
+
+  // ✅ Keep only supporting content (not overloaded)
+  paragraphs: [
+    'At RamaCare Polyclinic, our team includes highly qualified and experienced medical specialists in Dubai who are dedicated to providing personalized care.',
+    'Our doctors follow evidence-based practices and modern techniques to ensure the best outcomes for our patients.',
+    'As a modern medical center in Dubai, we help our patients stay healthy and avoid long-term health complications.'
+  ],
+
+  // ✅ MAIN CONTENT → CARDS (matches your UI)
+  benefits: [
+    {
       icon: 'Droplets',
-      title: "Caring. Collaborative. Committed.",
-      description: "At RamaCare Polyclinic, a trusted polyclinic in Dubai located in Jumeirah 1, our way of working is built around quality care, transparency, and patient satisfaction. Every service we provide reflects our commitment to modern healthcare standards and personalized treatment."
+      title: "Our Mission",
+      description:
+        "Affordable, high-quality healthcare in Dubai focused on patient satisfaction, ethical practices, and long-term wellness."
     },
     {
       icon: 'Brain',
-      title: "Patient-First Care Philosophy",
-      description: "As a leading polyclinic in Dubai, we believe every patient deserves respectful, compassionate, and individualized care. At RamaCare, we take time to understand your health concerns, medical history, and personal goals—ensuring you receive treatment that is both effective and comfortable. You are always treated as a person, never just a file or appointment number."
+      title: "Expert Doctors in Dubai You Can Trust",
+      description:
+        "Highly qualified specialists providing physiotherapy, dental care, skin treatments, and general physician consultations with personalized care."
     },
     {
       icon: 'Sparkles',
-      title: "Expertise-Led, Team-Based Treatment",
-      description: "What sets RamaCare apart as a reliable polyclinic in Dubai is our collaborative medical approach. Our experienced doctors and specialists work together across multiple departments, including Ayurveda, physiotherapy, dermatology, dental care, and general medicine. This team-based coordination allows us to create personalized, result-driven treatment plans under one roof."
+      title: "Comprehensive Healthcare Services",
+      description:
+        "Specialist consultations, preventive health checkups, diagnostic services, and personalized treatment plans—all in one place."
     },
     {
       icon: 'Activity',
-      title: "Evidence-Based and Holistic Healthcare",
-      description: "At our polyclinic in Dubai, we combine proven medical science with holistic wellness practices to deliver balanced healthcare solutions. Whether you visit us for preventive care, pain management, facial aesthetics, or chronic condition support, we apply evidence-based treatments while considering your overall well-being and long-term health."
-    }
-    ],
-    image: '/images/why.jpeg',
-    imageAlt: 'Professional healthcare team',
-    ctaCard: {
-      title: 'Perfect for Dubai Professionals',
-      description: 'Flexible appointment scheduling available to working professionals to fit your busy lifestyle.'
+      title: "Patient-Centered Care",
+      description:
+        "Personalized treatment plans, clear communication, and a comfortable, stress-free healthcare experience for every patient."
     },
-    bottomSection: {
-      title: 'Premium Wellness Centre at a Trusted Polyclinic in Dubai',
-      description: 'Our Premium Wellness Centre in Jumeirah 1 operates within a trusted polyclinic in Dubai, delivering natural, holistic healthcare in a professional clinical environment. We specialize in Panchakarma detox programs, chronic pain relief, stress management, and complete mind-body balance. Our DHA-licensed doctors provide personalized consultations and treatment plans tailored to individual health needs. Patients visiting our polyclinic in Dubai benefit from safe, hygienic therapies delivered under strict medical supervision. Whether you are seeking preventive care, detoxification, or long-term wellness solutions, our centre offers trusted, effective treatments designed to restore health, vitality, and overall well-being.'
+    {
+      icon: 'Heart',
+      title: "Focus on Preventive Healthcare",
+      description:
+        "Regular health checkups, early diagnosis, and healthy lifestyle guidance to prevent long-term health issues."
+    },
+    {
+      icon: 'ShieldCheck',
+      title: "Commitment to Quality Healthcare",
+      description:
+        "International treatment guidelines, advanced medical technology, and continuous improvement ensuring safe, reliable care."
     }
-  };
+  ],
 
+  image: '/images/why.jpeg',
+  imageAlt: 'Professional healthcare team',
+
+  ctaCard: {
+    title: 'Expert Doctors in Dubai You Can Trust',
+    description:
+      'At RamaCare Polyclinic, our team includes highly qualified and experienced medical specialists in Dubai who are dedicated to providing personalized care.'
+  },
+
+  bottomSection: {
+    title: 'Your Trusted Polyclinic in Dubai',
+    description:
+      'RamaCare Polyclinic is dedicated to providing trusted and professional healthcare services in Dubai. Whether you need a consultation, treatment, or preventive care, we are here to support your health journey.👉 Your health is our priority.'
+  }
+};
   const expertsContent = {
     badge: 'Our Medical Team',
     title: 'Meet Our DHA-Licensed Experts',
