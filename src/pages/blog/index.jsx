@@ -2,13 +2,26 @@ import React, { useEffect, useState } from "react";
 import Layout from "../../../components/Layout";
 import axios from "axios";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function BlogListPage() {
+  const router = useRouter();
+  const { topic: queryTopic } = router.query;
+  
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
-  const [selectedTopic, setSelectedTopic] = useState("all");
+  const [selectedTopics, setSelectedTopics] = useState([]);
+
+  useEffect(() => {
+    if (queryTopic) {
+      const topics = Array.isArray(queryTopic) ? queryTopic : queryTopic.split(',');
+      setSelectedTopics(topics);
+    }
+  }, [queryTopic]);
   const [viewMode, setViewMode] = useState("grid");
+  const [showAllTopics, setShowAllTopics] = useState(false);
+  const TOPIC_LIMIT = 12; // Show 12 topics initially
   // Removed featuredPost state
 
   useEffect(() => {
@@ -49,7 +62,7 @@ export default function BlogListPage() {
         topics.push(...extractedTopics);
       }
     }
-    return [...new Set(topics)].slice(0, 3);
+    return [...new Set(topics)];
   };
 
   const calculateReadTime = (html) => {
@@ -64,13 +77,26 @@ export default function BlogListPage() {
 
   const allTopics = [...new Set(posts.flatMap(p => p.topics))];
 
+  const toggleTopic = (topic) => {
+    setSelectedTopics(prev => {
+      if (topic === "all") return [];
+      if (prev.includes(topic)) {
+        return prev.filter(t => t !== topic);
+      } else {
+        return [...prev, topic];
+      }
+    });
+  };
+
   const getFilteredPosts = () => {
     let filtered = posts.filter((p) =>
       (p.title || "").toLowerCase().includes(search.toLowerCase())
     );
 
-    if (selectedTopic !== "all") {
-      filtered = filtered.filter(p => p.topics.includes(selectedTopic));
+    if (selectedTopics.length > 0) {
+      filtered = filtered.filter(p => 
+        p.topics.some(t => selectedTopics.includes(t))
+      );
     }
 
     return filtered;
@@ -370,21 +396,21 @@ export default function BlogListPage() {
               
               <div className="flex flex-wrap gap-3">
                 <button
-                  onClick={() => setSelectedTopic("all")}
+                  onClick={() => toggleTopic("all")}
                   className={`px-5 py-2.5 rounded-full font-semibold text-sm transition-all space-grotesk border-2 ${
-                    selectedTopic === "all"
+                    selectedTopics.length === 0
                       ? "bg-gradient-to-r from-green-600 to-emerald-600 text-white border-transparent shadow-lg shadow-green-500/30 scale-105"
                       : "bg-white/80 text-gray-700 border-green-200 hover:border-green-400 hover:bg-white"
                   }`}
                 >
                   All Topics
                 </button>
-                {allTopics.map(topic => (
+                {(showAllTopics ? allTopics : allTopics.slice(0, TOPIC_LIMIT)).map(topic => (
                   <button
                     key={topic}
-                    onClick={() => setSelectedTopic(topic)}
+                    onClick={() => toggleTopic(topic)}
                     className={`px-5 py-2.5 rounded-full font-semibold text-sm transition-all space-grotesk border-2 ${
-                      selectedTopic === topic
+                      selectedTopics.includes(topic)
                         ? "bg-gradient-to-r from-green-600 to-emerald-600 text-white border-transparent shadow-lg shadow-green-500/30 scale-105"
                         : "bg-white/80 text-gray-700 border-green-200 hover:border-green-400 hover:bg-white"
                     }`}
@@ -392,6 +418,29 @@ export default function BlogListPage() {
                     #{topic}
                   </button>
                 ))}
+                
+                {allTopics.length > TOPIC_LIMIT && (
+                  <button
+                    onClick={() => setShowAllTopics(!showAllTopics)}
+                    className="px-5 py-2.5 rounded-full font-bold text-sm transition-all space-grotesk border-2 border-dashed border-green-300 text-green-700 hover:border-green-500 hover:bg-green-50 flex items-center gap-2"
+                  >
+                    {showAllTopics ? (
+                      <>
+                        <span>Show Less</span>
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 15l7-7 7 7" />
+                        </svg>
+                      </>
+                    ) : (
+                      <>
+                        <span>See More ({allTopics.length - TOPIC_LIMIT}+)</span>
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </>
+                    )}
+                  </button>
+                )}
               </div>
             </div>
           </div>
@@ -477,12 +526,22 @@ export default function BlogListPage() {
                           {post.topics.length > 0 && (
                             <div className="flex flex-wrap gap-2 mb-4">
                               {post.topics.slice(0, 2).map((topic) => (
-                                <span 
+                                <button 
                                   key={topic}
-                                  className="px-3 py-1 bg-gradient-to-r from-green-50 to-emerald-50 text-green-700 rounded-full text-xs font-semibold space-grotesk border border-green-200"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    toggleTopic(topic);
+                                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                                  }}
+                                  className={`px-3 py-1 bg-gradient-to-r ${
+                                    selectedTopics.includes(topic)
+                                      ? "from-green-600 to-emerald-600 text-white border-transparent"
+                                      : "from-green-50 to-emerald-50 text-green-700 border-green-200"
+                                  } rounded-full text-xs font-semibold space-grotesk border hover:border-green-400 hover:bg-green-100 transition-colors relative z-10`}
                                 >
                                   #{topic}
-                                </span>
+                                </button>
                               ))}
                             </div>
                           )}
@@ -562,12 +621,22 @@ export default function BlogListPage() {
                               {post.topics.length > 0 && (
                                 <div className="flex flex-wrap gap-2">
                                   {post.topics.slice(0, 3).map((topic) => (
-                                    <span 
+                                    <button 
                                       key={topic}
-                                      className="px-3 py-1 bg-gradient-to-r from-green-50 to-emerald-50 text-green-700 rounded-full text-xs font-semibold space-grotesk border border-green-200"
+                                      onClick={(e) => {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        toggleTopic(topic);
+                                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                                      }}
+                                      className={`px-3 py-1 bg-gradient-to-r ${
+                                        selectedTopics.includes(topic)
+                                          ? "from-green-600 to-emerald-600 text-white border-transparent"
+                                          : "from-green-50 to-emerald-50 text-green-700 border-green-200"
+                                      } rounded-full text-xs font-semibold space-grotesk border hover:border-green-400 hover:bg-green-100 transition-colors relative z-10`}
                                     >
                                       #{topic}
-                                    </span>
+                                    </button>
                                   ))}
                                 </div>
                               )}
@@ -602,7 +671,7 @@ export default function BlogListPage() {
                   <button
                     onClick={() => {
                       setSearch("");
-                      setSelectedTopic("all");
+                      setSelectedTopics([]);
                     }}
                     className="px-8 py-3.5 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-full font-bold hover:from-green-700 hover:to-emerald-700 transition-all shadow-lg shadow-green-500/30 space-grotesk hover:scale-105"
                   >

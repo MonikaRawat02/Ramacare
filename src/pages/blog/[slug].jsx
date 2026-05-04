@@ -3,6 +3,7 @@ import Layout from "../../../components/Layout";
 import dbConnect from "../../../lib/database";
 import Blog from "../../../models/blog";
 import axios from "axios";
+import Link from "next/link";
 
 // Client-only component for dangerouslySetInnerHTML to prevent hydration mismatch
 function BlogContent({ html }) {
@@ -419,12 +420,13 @@ export default function BlogDetailPage({ blog }) {
             <div className="mt-8 pt-6 border-t border-gray-200">
               <div className="flex flex-wrap gap-2">
                 {topics.map((topic) => (
-                  <span 
+                  <Link 
                     key={topic}
-                    className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm font-medium"
+                    href={`/blog?topic=${encodeURIComponent(topic)}`}
+                    className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors"
                   >
                     #{topic}
-                  </span>
+                  </Link>
                 ))}
               </div>
             </div>
