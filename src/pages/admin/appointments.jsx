@@ -1,6 +1,69 @@
 import AdminLayout from '../../../components/admin/AdminLayout';
-import { useState, useEffect, useMemo } from 'react';
-import { Search, Filter, Calendar, Phone, Mail, User, Clock, CheckCircle, XCircle, Edit3, Eye, Trash2, Info, ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight } from 'lucide-react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
+import { Search, Filter, Calendar, Phone, Mail, User, Clock, CheckCircle, XCircle, Edit3, Eye, Trash2, Info, ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, AlertTriangle, Bell } from 'lucide-react';
+
+const Toast = ({ message, type, onClose }) => {
+  useEffect(() => {
+    const timer = setTimeout(onClose, 3000);
+    return () => clearTimeout(timer);
+  }, [onClose]);
+
+  return (
+    <div className="fixed bottom-6 right-6 z-[100] animate-fade-in-up">
+      <div className={`flex items-center gap-2 px-4 py-2.5 rounded-xl shadow-lg border text-sm font-medium ${
+        type === 'success' ? 'bg-white border-emerald-100 text-emerald-800' : 'bg-white border-rose-100 text-rose-800'
+      }`}>
+        <div className={`w-2 h-2 rounded-full ${
+          type === 'success' ? 'bg-emerald-500' : 'bg-rose-500'
+        } animate-pulse`}></div>
+        <p>{message}</p>
+      </div>
+    </div>
+  );
+};
+
+const ConfirmationModal = ({ isOpen, onClose, onConfirm, title, message, confirmText = "Confirm", type = "danger" }) => {
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 bg-gray-900/40 backdrop-blur-[2px] flex items-center justify-center z-[110] p-4 animate-fade-in">
+      <div className="bg-white rounded-2xl max-w-sm w-full shadow-xl border border-gray-100 overflow-hidden animate-scale-up">
+        <div className="p-6">
+          <div className="flex items-center gap-3 mb-4">
+            <div className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 ${
+              type === 'danger' ? 'bg-rose-50 text-rose-600' : 'bg-emerald-50 text-emerald-600'
+            }`}>
+              <AlertTriangle size={20} />
+            </div>
+            <h3 className="text-lg font-bold text-gray-900">{title}</h3>
+          </div>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            {message}
+          </p>
+          <div className="flex gap-3">
+            <button
+              onClick={onClose}
+              className="flex-1 px-4 py-2 rounded-lg text-sm font-semibold text-gray-600 bg-gray-50 hover:bg-gray-100 transition-colors"
+            >
+              Cancel
+            </button>
+            <button
+              onClick={() => {
+                onConfirm();
+                onClose();
+              }}
+              className={`flex-1 px-4 py-2 rounded-lg text-sm font-semibold text-white transition-all shadow-sm ${
+                type === 'danger' ? 'bg-gray-900 hover:bg-gray-800' : 'bg-emerald-600 hover:bg-emerald-700'
+              }`}
+            >
+              {confirmText}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const AppointmentStatusBadge = ({ status }) => {
   const statusConfig = {
@@ -227,6 +290,12 @@ const AdminAppointments = () => {
   const [statusFilter, setStatusFilter] = useState('all');
   const [selectedAppointment, setSelectedAppointment] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [showEraser, setShowEraser] = useState(false);
+  const [eraseDays, setEraseDays] = useState(0);
+  
+  // Custom UI Feedback State
+  const [toast, setToast] = useState(null);
+  const [confirmModal, setConfirmModal] = useState({ isOpen: false, onConfirm: () => {}, title: '', message: '', type: 'danger' });
 
   // Pagination State
   const [currentPage, setCurrentPage] = useState(1);
@@ -304,7 +373,7 @@ const AdminAppointments = () => {
       
     } catch (err) {
       console.error('Update error:', err);
-      alert('Failed to update appointment status');
+      setToast({ message: 'Failed to update status', type: 'error' });
     }
   };
 
@@ -319,36 +388,83 @@ const AdminAppointments = () => {
   };
 
   const deleteAppointment = async (appointmentId) => {
-    if (!window.confirm('Are you sure you want to delete this appointment? This action cannot be undone.')) {
+    setConfirmModal({
+      isOpen: true,
+      title: 'Delete Appointment',
+      message: 'Are you sure you want to delete this appointment? This action cannot be undone.',
+      confirmText: 'Delete Now',
+      type: 'danger',
+      onConfirm: async () => {
+        try {
+          const token = localStorage.getItem('adminToken');
+          
+          const res = await fetch(`/api/admin/appointments/${appointmentId}`, {
+            method: 'DELETE',
+            headers: {
+              'Authorization': `Bearer ${token}`
+            }
+          });
+          
+          if (!res.ok) throw new Error('Failed to delete appointment');
+          
+          setAppointments(prev => prev.filter(app => app._id !== appointmentId));
+          if (selectedAppointment?._id === appointmentId) {
+            closeAppointmentDetails();
+          }
+          setToast({ message: 'Appointment deleted successfully', type: 'success' });
+        } catch (err) {
+          console.error('Delete error:', err);
+          setToast({ message: 'Failed to delete appointment', type: 'error' });
+        }
+      }
+    });
+  };
+
+  const purgeOldData = async () => {
+    if (eraseDays === 0) return;
+    
+    const cutoffDate = new Date();
+    cutoffDate.setDate(cutoffDate.getDate() - eraseDays);
+    
+    const count = appointments.filter(a => new Date(a.createdAt) < cutoffDate).length;
+    if (count === 0) {
+      setToast({ message: 'No records found in this range', type: 'error' });
       return;
     }
-    
-    try {
-      const token = localStorage.getItem('adminToken');
-      
-      const res = await fetch(`/api/admin/appointments/${appointmentId}`, {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${token}`
+
+    setConfirmModal({
+      isOpen: true,
+      title: 'Erase History',
+      message: `You are about to permanently erase ${count} records older than ${eraseDays} days. This action is final.`,
+      confirmText: 'Erase Now',
+      type: 'danger',
+      onConfirm: async () => {
+        try {
+          const token = localStorage.getItem('adminToken');
+          const res = await fetch('/api/admin/appointments', {
+            method: 'DELETE',
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ 
+              type: 'dateRange', 
+              dateRange: { start: new Date(0), end: cutoffDate } 
+            })
+          });
+
+          if (res.ok) {
+            fetchAppointments();
+            setShowEraser(false);
+            setEraseDays(0);
+            setToast({ message: `${count} records erased successfully`, type: 'success' });
+          }
+        } catch (err) {
+          console.error('Purge error:', err);
+          setToast({ message: 'Failed to erase records', type: 'error' });
         }
-      });
-      
-      if (!res.ok) throw new Error('Failed to delete appointment');
-      
-      // Remove from local state
-      setAppointments(prev => prev.filter(app => app._id !== appointmentId));
-      
-      // Close modal if it's the deleted appointment
-      if (selectedAppointment?._id === appointmentId) {
-        closeAppointmentDetails();
       }
-      
-      alert('Appointment deleted successfully');
-      
-    } catch (err) {
-      console.error('Delete error:', err);
-      alert('Failed to delete appointment');
-    }
+    });
   };
 
   // Filter appointments
@@ -439,7 +555,7 @@ const AdminAppointments = () => {
       </div>
 
       {/* Filters */}
-      <div className="bg-white rounded-lg border border-gray-200 p-4 mb-6 bg-white">
+      <div className="bg-white rounded-lg border border-gray-200 p-4 mb-6 bg-white relative">
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center">
           <div className="relative flex-1 w-full">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
@@ -480,8 +596,52 @@ const AdminAppointments = () => {
                 <option value={50}>50</option>
               </select>
             </div>
+            
+            <button 
+              onClick={() => setShowEraser(!showEraser)}
+              className={`p-2 rounded-lg transition-all duration-300 ${showEraser ? 'bg-red-100 text-red-600 scale-110' : 'bg-gray-100 text-gray-600 hover:bg-teal-50 hover:text-teal-600'}`}
+              title="Smart Eraser">
+              <Edit3 size={20} />
+            </button>
           </div>
         </div>
+
+        {/* Smart Eraser Tool */}
+        {showEraser && (
+          <div className="mt-4 pt-4 border-t border-gray-100 animate-fade-in">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300">
+              <div className="flex-1 w-full">
+                <div className="flex justify-between mb-2">
+                  <span className="text-xs font-bold text-gray-500 uppercase">History Eraser</span>
+                  <span className="text-xs font-bold text-red-500">
+                    {eraseDays > 0 ? `Records older than ${eraseDays} days will vanish` : 'Slide to select cutoff'}
+                  </span>
+                </div>
+                <input 
+                  type="range" 
+                  min="0" 
+                  max="180" 
+                  step="30"
+                  value={eraseDays}
+                  onChange={(e) => setEraseDays(Number(e.target.value))}
+                  className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-red-500"
+                />
+                <div className="flex justify-between mt-1 px-1">
+                  {['Today', '30d', '60d', '90d', '120d', '150d', '180d'].map((label, i) => (
+                    <span key={label} className="text-[10px] text-gray-400 font-medium">{label}</span>
+                  ))}
+                </div>
+              </div>
+              <button
+                onClick={purgeOldData}
+                disabled={eraseDays === 0}
+                className="whitespace-nowrap px-6 py-2.5 bg-red-600 text-white rounded-lg font-bold text-sm shadow-lg shadow-red-200 hover:bg-red-700 disabled:opacity-30 disabled:shadow-none transition-all flex items-center gap-2">
+                <Trash2 size={18} />
+                Erase History
+              </button>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Appointments Table */}
@@ -501,9 +661,11 @@ const AdminAppointments = () => {
             </thead>
             <tbody>
               {paginatedAppointments.length > 0 ? (
-                paginatedAppointments.map((appointment) => (
-                  <tr key={appointment._id} className="border-b border-gray-100 hover:bg-gray-50">
-                    <td className="py-3 px-3 sm:py-4 sm:px-4">
+                paginatedAppointments.map((appointment) => {
+                  const isOld = eraseDays > 0 && new Date(appointment.createdAt) < new Date(new Date().setDate(new Date().getDate() - eraseDays));
+                  return (
+                    <tr key={appointment._id} className={`border-b border-gray-100 transition-all duration-500 hover:bg-gray-50 ${isOld ? 'opacity-20 grayscale scale-95' : ''}`}>
+                      <td className="py-3 px-3 sm:py-4 sm:px-4">
                       <div className="flex items-center gap-2 sm:gap-3">
                         <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-teal-100 flex items-center justify-center flex-shrink-0">
                           <User size={16} className="text-teal-600"/>
@@ -569,7 +731,8 @@ const AdminAppointments = () => {
                       </div>
                     </td>
                   </tr>
-                ))
+                  );
+                })
               ) : (
                 <tr>
                   <td colSpan="7" className="py-12 text-center text-gray-500">
@@ -664,6 +827,21 @@ const AdminAppointments = () => {
         onClose={closeAppointmentDetails}
         onUpdateStatus={updateAppointmentStatus}
       />
+
+      {/* Custom Confirmation Modal */}
+      <ConfirmationModal 
+        {...confirmModal} 
+        onClose={() => setConfirmModal(prev => ({ ...prev, isOpen: false }))} 
+      />
+
+      {/* Custom Toast Notifications */}
+      {toast && (
+        <Toast 
+          message={toast.message} 
+          type={toast.type} 
+          onClose={() => setToast(null)} 
+        />
+      )}
     </AdminLayout>
   );
 };

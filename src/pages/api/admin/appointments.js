@@ -4,7 +4,7 @@ import User from "../../../../models/user";
 import jwt from "jsonwebtoken";
 
 export default async function handler(req, res) {
-  if (req.method !== "GET") {
+  if (req.method !== "GET" && req.method !== "DELETE") {
     return res.status(405).json({ message: "Method not allowed" });
   }
 
@@ -25,10 +25,30 @@ export default async function handler(req, res) {
       return res.status(403).json({ message: "Access denied" });
     }
 
-    // Get recent appointments (last 10)
-    const recentAppointments = await Appointment.find()
+    if (req.method === "DELETE") {
+      const { type, ids, dateRange } = req.body;
+
+      if (type === "selected" && Array.isArray(ids)) {
+        await Appointment.deleteMany({ _id: { $in: ids } });
+        return res.status(200).json({ success: true, message: "Selected appointments deleted" });
+      }
+
+      if (type === "dateRange" && dateRange?.start && dateRange?.end) {
+        await Appointment.deleteMany({
+          createdAt: {
+            $gte: new Date(dateRange.start),
+            $lte: new Date(dateRange.end)
+          }
+        });
+        return res.status(200).json({ success: true, message: "Appointments in date range deleted" });
+      }
+
+      return res.status(400).json({ success: false, message: "Invalid delete parameters" });
+    }
+
+    // Get all appointments
+    const allAppointments = await Appointment.find()
       .sort({ createdAt: -1 })
-      .limit(10)
       .select("fullName phone email concern additionalInfo status createdAt notes preferredDate source");
 
     // Get statistics
@@ -53,7 +73,7 @@ export default async function handler(req, res) {
 
     res.status(200).json({
       success: true,
-      appointments: recentAppointments,
+      appointments: allAppointments,
       stats
     });
 
