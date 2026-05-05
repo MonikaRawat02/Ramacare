@@ -374,8 +374,6 @@ export default function BlogDetailPage({ blog }) {
     }
   }, [isMounted, visitorId, blog.paramlink, getCurrentReaction]);
   
-
-  
   return (
     <Layout>
       <div className="force-light">
@@ -423,8 +421,7 @@ export default function BlogDetailPage({ blog }) {
                   <Link 
                     key={topic}
                     href={`/blog?topic=${encodeURIComponent(topic)}`}
-                    className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors"
-                  >
+                    className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors">
                     #{topic}
                   </Link>
                 ))}

@@ -209,19 +209,18 @@ export default function AyurvedicDietVsKetoDubaiPage() {
               {content.hero.description2}
             </p>
             
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-3 pt-4">
               <button
                 onClick={handleBookAppointment}
-                className="inline-flex items-center justify-center px-6 py-4 border border-transparent text-base font-bold rounded-lg text-white bg-[#2D5A41] hover:bg-[#234733] transition-colors shadow-sm max-w-xs text-center leading-tight"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-sm font-semibold rounded-lg text-white bg-[#2D5A41] hover:bg-[#234733] transition-colors shadow-sm w-full sm:w-auto sm:max-w-xs text-center leading-tight"
               >
                 {content.hero.ctaButtons.primary.text}
               </button>
               <button
                 onClick={handleWhatsAppClick}
-                className="inline-flex flex-col items-center justify-center px-6 py-4 border border-[#2D5A41] text-base font-medium rounded-lg text-[#2D5A41] bg-white hover:bg-gray-50 transition-colors shadow-sm min-w-[180px]"
+                className="inline-flex flex-col items-center justify-center px-5 py-3 border border-[#2D5A41] text-xs font-medium rounded-lg text-[#2D5A41] bg-white hover:bg-gray-50 transition-colors shadow-sm w-full sm:w-auto sm:min-w-[160px]"
               >
-                <span className="font-bold">WhatsApp</span>
-                <span className="text-sm">Consultation</span>
+                <span className="font-bold text-sm">WhatsApp Consultation</span>
               </button>
             </div>
 

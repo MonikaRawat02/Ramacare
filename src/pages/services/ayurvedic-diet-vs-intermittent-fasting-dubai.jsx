@@ -211,8 +211,13 @@ export default function AyurvedicDietVsIntermittentFastingDubaiPage() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleWhatsAppClick = () => {
-    const message = encodeURIComponent("Hello RamaCare, I'm interested in a Fasting Consultation. Please help me book an appointment.");
+  const handleWhatsAppClick = (sourceMessage = "") => {
+    // If sourceMessage is a React event or not a string, use the default message
+    const finalMessage = (typeof sourceMessage === 'string' && sourceMessage !== "") 
+      ? sourceMessage 
+      : "Hello RamaCare, I'm interested in a Fasting Consultation. Please help me book an appointment.";
+      
+    const message = encodeURIComponent(finalMessage);
     window.open(`https://wa.me/${content.hero.ctaButtons.secondary.phone}?text=${message}`, '_blank');
   };
 
@@ -291,7 +296,7 @@ export default function AyurvedicDietVsIntermittentFastingDubaiPage() {
                 {content.hero.ctaButtons.primary.text}
               </button>
               <button
-                onClick={handleWhatsAppClick}
+                onClick={() => handleWhatsAppClick("Hello RamaCare, I'm interested in a Fasting Consultation. Please help me book an appointment.")}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-transparent text-base font-bold rounded-lg text-white bg-[#25D366] hover:bg-[#25D366]/90 transition-colors shadow-md min-w-[200px]" >
                 <LucideIcons.MessageCircle className="w-5 h-5" />
                 <span>WhatsApp Now</span>
@@ -525,7 +530,7 @@ export default function AyurvedicDietVsIntermittentFastingDubaiPage() {
               <strong className="font-bold text-[18px]">Don't know your Dosha?</strong> Book a consultation at RamaCare for a personalized body type assessment and custom fasting plan.
             </p>
             <button
-              onClick={scrollToForm}
+              onClick={() => handleWhatsAppClick("Hello RamaCare, I'd like to book a Dosha Assessment for Fasting & Ramadan.")}
               className="bg-[#1F5E4B] text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-[#1F5E4B]/90 transition-colors shadow-md"
             >
               {content.doshaComparison.cta.button}
@@ -566,7 +571,7 @@ export default function AyurvedicDietVsIntermittentFastingDubaiPage() {
                 <strong className="font-bold text-[18px]">Still unsure?</strong> Every body is different. Get personalized answers.
               </p>
               <button
-                onClick={scrollToForm}
+                onClick={() => handleWhatsAppClick("Hello RamaCare, I have some questions about Fasting & Ramadan. Can I get a free consultation?")}
                 className="bg-[#1F5E4B] text-white px-8 py-3 rounded-lg font-bold text-base hover:bg-[#1F5E4B]/90 transition-colors"
               >
                 {content.faq.footer.button}
@@ -605,24 +610,24 @@ export default function AyurvedicDietVsIntermittentFastingDubaiPage() {
 
           <div className="bg-[#1F5E4B] rounded-[2.5rem] p-8 md:p-12 lg:p-16 text-white text-center relative overflow-hidden">
             <div className="max-w-3xl mx-auto">
-              <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-10">
-                {content.authority.benefitBox.title}
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-5 text-left mb-10">
-                {content.authority.benefitBox.items.map((item, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <LucideIcons.Check className="w-5 h-5 flex-shrink-0" />
-                    <span className="text-base md:text-lg">{item}</span>
-                  </div>
-                ))}
-              </div>
-              <button
-                onClick={scrollToForm}
-                className="bg-white text-[#1F5E4B] px-10 py-4 rounded-xl font-bold text-lg hover:bg-[#F5F1EA] transition-colors shadow-xl"
-              >
-                {content.authority.benefitBox.button}
-              </button>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-10">
+              {content.authority.benefitBox.title}
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-5 text-left mb-10">
+              {content.authority.benefitBox.items.map((item, index) => (
+                <div key={index} className="flex items-center gap-3">
+                  <LucideIcons.Check className="w-5 h-5 flex-shrink-0" />
+                  <span className="text-base md:text-lg">{item}</span>
+                </div>
+              ))}
             </div>
+            <button
+              onClick={() => handleWhatsAppClick("Hello RamaCare, I'm interested in an Expert Consultation for the Fasting & Ramadan program.")}
+              className="bg-white text-[#1F5E4B] px-10 py-4 rounded-xl font-bold text-lg hover:bg-[#F5F1EA] transition-colors shadow-xl"
+            >
+              {content.authority.benefitBox.button}
+            </button>
+          </div>
           </div>
 
           <div className="mt-12 bg-[#F5F1EA] p-6 rounded-2xl border-l-4 border-[#1F5E4B]">
