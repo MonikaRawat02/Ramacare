@@ -17,64 +17,64 @@ const whatsappMessage = "Hi, I’d like to know more.";
 
   const rawFaqs = Array.isArray(content?.faqs) ? content.faqs : [
     {
-      question: "What services does your polyclinic in Dubai offer?",
-      answer: "Our polyclinic in Dubai provides general medicine, dermatology, dental care, physiotherapy, Ayurveda, aesthetic treatments, preventive health check-ups, and personalized wellness services under one roof."
+      question: "What services do you offer?",
+      answer: "We provide a wide range of healthcare services, including general medicine, dermatology, dental care, physiotherapy, Ayurveda, and facial treatments—all under one roof."
     },
     {
-      question: "Where is RamaCare Polyclinic located in Dubai?",
-      answer: "RamaCare Polyclinic is conveniently located in Jumeirah 1, Dubai, offering easy accessibility, modern facilities, and comprehensive healthcare services for individuals and families."
+      question: "Where is RamaCare Polyclinic located?",
+      answer: "RamaCare Polyclinic is located in Jumeirah 1, Dubai, with easy access and a comfortable clinical environment for patients and families."
     },
     {
       question: "Are your doctors DHA-licensed?",
-      answer: "Yes, all doctors and specialists at our polyclinic in Dubai are DHA-licensed, certified, and experienced, ensuring safe, ethical, and high-quality medical care for every patient."
+      answer: "Yes, all our doctors and specialists are DHA-licensed and follow strict clinical standards to ensure safe and effective treatment."
     },
     {
-      question: "How can I book an appointment at your polyclinic?",
-      answer: "You can book an appointment through WhatsApp, phone call, online booking form, or by visiting our Jumeirah 1 polyclinic directly during working hours."
+      question: "How can I book an appointment?",
+      answer: "You can book an appointment by calling us, sending a WhatsApp message, or using the online booking option on our website."
     },
     {
-      question: "Do you accept health insurance at your polyclinic in Dubai?",
-      answer: "Yes, our polyclinic in Dubai accepts most major health insurance providers and offers smooth insurance processing for patient convenience and stress-free healthcare access."
+      question: "Do you accept health insurance?",
+      answer: "Yes, we accept selected health insurance plans. Please contact our team to confirm your coverage."
     },
     {
-      question: "What makes your polyclinic in Dubai different from others?",
-      answer: "We combine multispecialty care, personalized treatment plans, DHA-licensed experts, modern technology, holistic healing options, and transparent pricing to deliver a truly patient-first healthcare experience."
+      question: "What makes RamaCare different?",
+      answer: "We focus on personalized care, clear communication, and a combination of modern medical treatment with holistic wellness approaches."
     },
     {
-      question: "Do you provide dental treatments at your polyclinic?",
-      answer: "Yes, our polyclinic in Dubai offers comprehensive dental services including cleanings, whitening, braces, veneers, root canal treatment, crowns, and cosmetic smile enhancement."
+      question: "Do you provide dental treatments?",
+      answer: "Yes, we offer complete dental care, including routine check-ups, cleaning, fillings, and cosmetic treatments."
     },
     {
-      question: "What skin treatments are available at your polyclinic in Dubai?",
-      answer: "Our dermatology department provides acne treatment, pigmentation correction, chemical peels, laser therapy, Botox, fillers, anti-aging facials, and customized skincare solutions."
+      question: "What skin treatments are available?",
+      answer: "Our dermatology services include treatment for acne, pigmentation, skin damage, and anti-aging care."
     },
     {
-      question: "Is Ayurveda available at your polyclinic in Dubai?",
-      answer: "Yes, we offer authentic Ayurvedic treatments including Panchakarma detox, stress management, chronic pain relief, hormonal balance, digestive wellness, and holistic lifestyle guidance."
+      question: "Is Ayurveda available?",
+      answer: "Yes, we provide Ayurvedic treatments focused on natural healing, detoxification, and long-term wellness."
     },
     {
       question: "Do you offer physiotherapy services?",
-      answer: "Our polyclinic in Dubai provides advanced physiotherapy for back pain, sports injuries, posture correction, joint stiffness, rehabilitation, mobility improvement, and pain management programs."
+      answer: "Yes, we offer physiotherapy for pain relief, injury recovery, and improving mobility and strength."
     },
     {
-      question: "Can I visit your polyclinic for routine check-ups?",
-      answer: "Yes, we provide routine health check-ups, preventive screenings, vaccinations, and lifestyle assessments to help detect health issues early and maintain long-term wellness."
+      question: "Can I visit for routine check-ups?",
+      answer: "Yes, we provide regular health check-ups and preventive care for individuals and families."
     },
     {
-      question: "Does your polyclinic treat chronic diseases?",
-      answer: "Our polyclinic in Dubai specializes in managing chronic conditions such as diabetes, hypertension, thyroid disorders, asthma, and lifestyle diseases with continuous monitoring and personalized care."
+      question: "Do you treat chronic conditions?",
+      answer: "Yes, we help manage chronic conditions such as diabetes, hypertension, and long-term pain through structured care plans."
     },
     {
-      question: "Is your polyclinic suitable for family healthcare?",
-      answer: "Yes, we offer family-friendly healthcare services for children, adults, and seniors, ensuring comprehensive medical care for every stage of life."
+      question: "Is your clinic suitable for family healthcare?",
+      answer: "Yes, we provide care for patients of all ages, making it convenient for families to access multiple services in one place."
     },
     {
       question: "What should I expect during my first visit?",
-      answer: " Your first visit includes a detailed consultation, medical assessment, necessary diagnostics, and a personalized treatment plan designed to address your health concerns effectively."
+      answer: " During your first visit, our doctor will review your medical history, understand your concerns, and recommend a suitable treatment plan."
     },
     {
-      question: "How do you ensure quality care at your polyclinic in Dubai?",
-      answer: "We ensure quality care through DHA-licensed practitioners, advanced medical equipment, strict hygiene standards, transparent communication, and a patient-centered approach focused on safety and results."
+      question: "How do you ensure quality care?",
+      answer: "We follow strict clinical protocols, use modern diagnostic tools, and prioritize patient safety, hygiene, and transparent communication."
     }
   ];
 

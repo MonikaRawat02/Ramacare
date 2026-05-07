@@ -6,36 +6,43 @@ const WhyChooseUsSection = ({ content }) => {
   const sectionRef = useRef(null);
 
   // Use content props or defaults
-  const badge = content?.badge || 'Why Choose RamaCare Polyclinic';
-  const title = content?.title || 'Dubai\'s Premier Polyclinic for Holistic & Modern Healthcare';
-  const description = content?.description || `RamaCare Polyclinic is a trusted, DHA-licensed polyclinic in Dubai, delivering high-quality healthcare with a personalized and compassionate approach. Conveniently located in Jumeirah 1, we combine experienced medical specialists, advanced diagnostic technology, and patient-first care to ensure accurate diagnosis and effective treatment outcomes.
-
- Whether you're visiting for routine check-ups, specialized medical care, aesthetic treatments, or long-term wellness support, our multidisciplinary team is committed to guiding you toward better health, confidence, and overall quality of life.`;
+  const badge = content?.badge || 'Why Choose RamaCare Polyclinic in Dubai';
+  const title = content?.title || 'A trusted polyclinic in Jumeirah 1 combining modern medicine with a personalized, patient-first approach.';
+  const description = content?.description || `At RamaCare Polyclinic, we focus on providing care that’s not only effective but also comfortable and tailored to each patient. Located in Jumeirah 1, Dubai, our clinic brings together experienced doctors, advanced diagnostic support, and a multidisciplinary approach to treatment.
+From routine check-ups and physiotherapy to dermatology, dental care, and Ayurveda, we offer a wide range of services under one roof—so you don’t have to visit multiple clinics. Our team takes the time to understand your concerns, explain your treatment options clearly, and guide you toward the best possible outcome.
+Whether you're looking for preventive care, recovery support, or aesthetic treatments, we’re here to help you feel confident in your health journey.
+`;
   const cards = content?.cards || [
     {
-      title: 'Complete & Compassionate Medical Care',
-      description: 'At RamaCare Polyclinic, we provide high-quality, patient-centered healthcare designed to support your long-term well-being. As a leading Polyclinic in Dubai, our focus is on safe, effective, and result-driven treatments for individuals and families.'
-    },
-    {
-      title: 'DHA-Licensed Expert Doctors',
-      description: 'Our experienced DHA-licensed doctors and specialists deliver treatments with precision, care, and strict clinical standards, ensuring your health is always in safe hands.'
-    },
-    {
-      title: 'Personalized Treatment Plans',
-      description: 'We understand that every patient is different. That’s why we create customized treatment plans tailored to your medical history, lifestyle, and health goals — providing care that truly meets your needs.'
-    },
-    {
-      title: 'Premium Jumeirah 1 Location',
-      description: 'Conveniently located in Jumeirah 1, our modern facility provides a clean, comfortable, and welcoming environment, designed with a focus on patient comfort, privacy, and safety.'
-    },
-    {
-      title: 'Holistic Wellness Approach',
-      description: 'We go beyond treating symptoms by supporting overall wellness, stress management, and healthier lifestyle choices for lasting results.'
-    },
-    {
-      title: 'Trusted by Families Across Dubai',
-      description: 'Our transparent communication, ethical practices, and consistent outcomes make us a preferred Polyclinic in Dubai for quality healthcare you can trust.'
-    }
+    title: 'Complete & Compassionate Medical Care in Dubai',
+    description:
+      'At RamaCare Polyclinic, we provide care that’s practical, effective, and built around your needs. As a well-established healthcare clinic in Jumeirah, we support individuals and families with treatments designed to improve long-term health—not just short-term relief.',
+  },
+  {
+    title: 'DHA-Licensed Expert Doctors',
+    description:
+      'Our DHA-licensed doctors and specialists bring years of clinical experience across multiple fields. Every treatment is delivered with attention to detail, safety, and a clear focus on achieving the best possible outcome for you.',
+  },
+  {
+    title: 'Personalized Treatment Plans',
+    description:
+      'No two patients are the same. We take the time to understand your condition, lifestyle, and goals before recommending a treatment plan—so you receive care that truly fits your needs.',
+  },
+  {
+    title: 'Convenient Jumeirah 1 Location',
+    description:
+      'Located in Jumeirah 1, our clinic is easy to access and designed to make your visit comfortable. From a clean environment to a calm setting, everything is built around patient convenience and privacy.',
+  },
+  {
+    title: 'Holistic Approach to Wellness',
+    description:
+      'We don’t just treat symptoms. Our approach combines medical care with guidance on lifestyle, recovery, and prevention—helping you maintain better health over time.',
+  },
+  {
+    title: 'Trusted by Patients Across Dubai',
+    description:
+      'Patients choose RamaCare because of clear communication, honest advice, and consistent care. Our goal is simple: help you feel confident about your treatment and your health.',
+  },
   ];
 
   useEffect(() => {

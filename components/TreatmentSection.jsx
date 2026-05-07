@@ -16,131 +16,125 @@ const TreatmentSection = ({ category, content }) => {
   const defaultTreatments = [
     {
     id: 1,
-    title: 'Aesthetic Dermatology',
+    title: 'Dermatology Clinic in Dubai',
     slug: 'aesthetic-dermatology-dubai',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 2.69C12 2.69 7 7.69 7 12.69c0 3.31 2.69 6 6 6s6-2.69 6-6c0-5-5-10-7-10z" />
       </svg>
     ),
-    subtitle: 'Advanced Care for Skin & Hair Health',
+    subtitle: 'Advanced care for healthy skin and hair',
     duration: '30–90 Minutes',
     badgeColor: 'purple',
     benefits: [
-      'Anti-aging therapies to reduce wrinkles and fine lines',
-      'Treatment for acne, pigmentation, scars, and sun damage',
-      'Brightening and rejuvenation for a youthful complexion',
+      'Treats acne, pigmentation, and skin damage',
+      'Improves skin texture and reduces signs of aging',
       
     ],
-    idealFor: 'Dubai residents exposed to sun, pollution, and environmental stress , Individuals seeking safe, long-lasting aesthetic dermatology solutions',
+    idealFor: 'Skin concerns caused by sun, pollution, or lifestyle factors , Safe, long-lasting skin and hair treatments',
     image: '/images/aesthetic.png',
     alt: 'Advanced aesthetic dermatology treatment room designed for safe, modern skin care procedures.'
   },
   {
     id: 2,
-    title: 'Dental  Treatment',
+    title: 'Dental Clinic in Dubai',
     slug: 'dental-dubai',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
       </svg>
     ),
-    subtitle: 'Complete Care for Strong Teeth & a Confident Smile',
+    subtitle: 'Complete care for strong teeth and a confident smile',
     duration: '30–120 Minutes',
     badgeColor: 'blue',
     benefits: [
-      'Preventive, restorative, and cosmetic dental treatments under one roof',
-      'Solutions for cavities, gum disease, sensitivity, and tooth pain',
-      'Smile enhancement with whitening, veneers, crowns, and alignment care',
+      'Treats cavities, gum issues, and tooth pain',
+      'Improves smile with cleaning and cosmetic care',
      
     ],
-    idealFor: 'Individuals needing routine dental check-ups and oral health maintenance , Patients looking to restore function, comfort, and smile aesthetics',
+    idealFor: 'Routine check-ups and oral health care ,Restoring comfort, function, and smile appearance',
     image: '/images/dental.png',
     alt: 'Modern dental clinic interior offering advanced dental in Dubai with a clean and comfortable environment.'
   },
   {
     id: 3,
-    title: 'Ayurveda Treatment',
+    title: 'Ayurveda Clinic in Dubai',
     slug: 'ayurveda-dubai',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
       </svg>
     ),
-    subtitle: 'Holistic Healing for Mind & Body Balance',
+    subtitle: 'Holistic healing for mind and body balance',
     duration: '7–21 Days',
     badgeColor: 'teal',
     benefits: [
-      'Root-cause treatment for chronic health concerns',
-      'Natural therapies to improve immunity, digestion, and energy levels',
-      'Stress relief, detoxification, and overall body balance',
+      'Supports natural healing and long-term wellness',
+      'Improves immunity, digestion, and stress balance',
     ],
-    idealFor: 'Individuals seeking natural, chemical-free healing solutions , Patients looking for long-term wellness through traditional Ayurvedic care',
+    idealFor: 'People seeking natural, chemical-free treatments , Long-term wellness and lifestyle improvement',
     image: '/images/ayurveda.png',
     alt: 'Ayurveda consultation focused on holistic health assessment and natural healing methods'
   },
   {
     id: 4,
-    title: 'Physiotherapy Treatment ',
+    title: 'Physiotherapy in Dubai ',
     slug: 'physiotherapy-dubai',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
       </svg>
     ),
-    subtitle: ' Restoring Movement, Strength & Comfort',
+    subtitle: ' Helping you move better and live pain-free',
     duration: '45–60 Minutes',
     badgeColor: 'orange',
     benefits: [
-      'Pain management for neck, back, joint, and sports injuries',
-      'Improves mobility, flexibility, and muscle strength',
-      'Post-surgery and injury rehabilitation for faster recovery',
+      'Relief from pain and stiffness',
+      'Improves mobility and strength',
     ],
-    idealFor: 'Individuals with chronic pain, stiffness, or mobility issues , Patients recovering from injuries, surgeries, or posture-related problems',
+    idealFor: 'Pain, injury, or mobility issues , Post-surgery or recovery support',
     image: '/images/physio.png',
     alt: 'Physiotherapy session focused on pain relief, mobility improvement, and physical rehabilitation.'
   },
   {
     id: 5,
-    title: 'General Physician Treatment',
+    title: 'General Physician in Dubai',
     slug: 'general-physician-dubai',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
       </svg>
     ),
-    subtitle: 'Complete Primary Care for Everyday Health',
+    subtitle: 'Complete primary care for everyday health',
     duration: '20–30 Minutes',
     badgeColor: 'green',
     benefits: [
-      'Management of chronic conditions like diabetes, hypertension, and asthma',
-      'Preventive health checkups, vaccinations, and lifestyle guidance',
-      'Comprehensive diagnosis and treatment for common illnesses and infections',
+      'Diagnosis and treatment for common illnesses',
+      'Ongoing care for chronic health conditions',
       
     ],
-    idealFor: 'Individuals seeking reliable primary healthcare for acute or chronic concerns , Patients needing routine health monitoring, medical advice, or referrals',
+    idealFor: 'Routine check-ups and general health concerns , Managing long-term or recurring health issues',
     image: '/images/genral.png',
     alt: 'General physician consultation providing primary healthcare, diagnosis, and preventive care.'
   },
   {
     id: 6,
-    title: 'Facial Treatments',
+    title: 'Facial Treatments in Dubai',
     slug: 'facial-dubai',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
       </svg>
     ),
-    subtitle: 'Advanced Care for Radiant, Healthy Skin',
+    subtitle: 'Advanced care for radiant, healthy skin',
     duration: '45–75 Minutes',
     badgeColor: 'pink',
     benefits: [
-      'Deep cleansing, hydration, and nourishment for glowing skin',
-      'Treatment for acne, pigmentation, dullness, and uneven texture',
-      'Anti-aging facials to reduce fine lines, wrinkles, and skin fatigue',
+      'Deep cleansing and hydration for glowing skin',
+      'Improves dullness, texture, and early signs of aging',
       
     ],
-    idealFor: 'Dubai residents exposed to sun, pollution, and daily environmental stress , Individuals seeking safe, effective, and long-lasting facial treatments',
+    idealFor: 'Skin affected by sun, pollution, or daily stress , Safe and effective skin rejuvenation treatments',
     image: '/images/facial.png',
     alt: 'Facial treatment designed to cleanse, nourish, and rejuvenate the skin in a professional clinic.'
   },
@@ -188,8 +182,8 @@ const TreatmentSection = ({ category, content }) => {
 
   // Use content props if provided, otherwise use defaults
   const badge = content?.badge || 'Comprehensive Polyclinic Solutions';
-  const heading = content?.heading || 'Integrated Health & Wellness';
-  const subtitle = content?.subtitle || 'Select a treatment below to discover how Polyclinic can transform your health and wellbeing in Dubai.';
+  const heading = content?.heading || 'Our Medical Services in Dubai';
+  const subtitle = content?.subtitle || 'Explore our specialized treatments and find the right care for your needs in Dubai.';
   const treatmentsList = content?.treatments || defaultTreatments;
   
   // Consultation CTA Section Content - Configurable for different pages

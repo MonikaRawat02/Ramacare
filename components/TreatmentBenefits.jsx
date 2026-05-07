@@ -173,7 +173,7 @@ const TreatmentBenefits = ({ content }) => {
         </div>
 
         {/* Comparison Table */}
-        <div className="mt-12 md:mt-16">
+        <div id="comparison" className="mt-12 md:mt-16">
           <h3 className="md:text-xl lg:text-2xl font-bold text-[#1F2937] text-center mb-8">
             {comparisonTitle}
           </h3>

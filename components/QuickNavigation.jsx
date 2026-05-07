@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-const QuickNavigation = () => {
+const QuickNavigation = ({ navItems }) => {
   const [activeSection, setActiveSection] = useState('treatment-info');
 
-  const navItems = [
+  // Default navigation items
+  const defaultNavItems = [
     { id: 'treatment-info', label: 'Treatment Info' },
     { id: 'how-it-works', label: 'How It Works' },
     { id: 'benefits', label: 'Benefits' },
@@ -14,15 +15,17 @@ const QuickNavigation = () => {
     { id: 'book-now', label: 'Book Now' },
   ];
 
+  const items = navItems || defaultNavItems;
+
   useEffect(() => {
     const handleScroll = () => {
       // Update active section based on scroll position
-      const sections = navItems.map(item => document.getElementById(item.id));
+      const sections = items.map(item => document.getElementById(item.id));
       const scrollPosition = window.scrollY + 150; // Offset for better detection
 
       for (let i = sections.length - 1; i >= 0; i--) {
         if (sections[i] && sections[i].offsetTop <= scrollPosition) {
-          setActiveSection(navItems[i].id);
+          setActiveSection(items[i].id);
           break;
         }
       }
@@ -61,7 +64,7 @@ const QuickNavigation = () => {
 
           {/* Navigation Links - Centered */}
           <div className="flex items-center justify-center gap-4 lg:gap-8 overflow-x-auto scrollbar-hide h-10">
-            {navItems.map((item) => (
+            {items.map((item) => (
               <button
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}

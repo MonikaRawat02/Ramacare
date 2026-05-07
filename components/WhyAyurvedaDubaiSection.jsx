@@ -35,32 +35,36 @@ const WhyAyurvedaDubaiSection = ({ content }) => {
   // Use content props or defaults
   const badge = content?.badge || 'Polyclinic in Dubai';
   const title = content?.title || 'How We Work at RamaCare Polyclinic';
-  const description = content?.description || 'Dubai\'s fast-paced, high-stress environment — combined with extreme heat, irregular schedules, and sedentary work routines — creates unique health challenges.';
+  const description = content?.description || 'Living in Dubai often means dealing with a fast-paced lifestyle, long working hours, and environmental stress. These factors can affect your overall health and well-being over time.';
   // Support paragraphs array or split description by \n\n for paragraph breaks
   const paragraphs = content?.paragraphs || (description.includes('\n\n') ? description.split('\n\n') : description.split('\n').filter(p => p.trim()));
 
   // Default benefits
   const defaultBenefits = [
-    {
-      icon: 'Droplets',
-      title: "Caring. Collaborative. Committed.",
-      description: "At RamaCare Polyclinic, a trusted polyclinic in Dubai located in Jumeirah 1, our way of working is built around quality care, transparency, and patient satisfaction. Every service we provide reflects our commitment to modern healthcare standards and personalized treatment."
-    },
-    {
-      icon: 'Brain',
-      title: "Patient-First Care Philosophy",
-      description: "As a leading polyclinic in Dubai, we believe every patient deserves respectful, compassionate, and individualized care. At RamaCare, we take time to understand your health concerns, medical history, and personal goals—ensuring you receive treatment that is both effective and comfortable. You are always treated as a person, never just a file or appointment number."
-    },
-    {
-      icon: 'Sparkles',
-      title: "Expertise-Led, Team-Based Treatment",
-      description: "What sets RamaCare apart as a reliable polyclinic in Dubai is our collaborative medical approach. Our experienced doctors and specialists work together across multiple departments, including Ayurveda, physiotherapy, dermatology, dental care, and general medicine. This team-based coordination allows us to create personalized, result-driven treatment plans under one roof."
-    },
-    {
-      icon: 'Activity',
-      title: "Evidence-Based and Holistic Healthcare",
-      description: "At our polyclinic in Dubai, we combine proven medical science with holistic wellness practices to deliver balanced healthcare solutions. Whether you visit us for preventive care, pain management, facial aesthetics, or chronic condition support, we apply evidence-based treatments while considering your overall well-being and long-term health."
-    }
+     {
+    icon: 'Droplets',
+    title: "Caring. Collaborative. Committed.",
+    description:
+      "At RamaCare Polyclinic in Jumeirah 1, our approach is built on clear communication, quality care, and a strong focus on patient comfort. Every treatment is designed to be practical, effective, and tailored to your individual needs."
+  },
+  {
+    icon: 'Brain',
+    title: "Patient-First Care Philosophy",
+    description:
+      "We believe every patient deserves respectful, compassionate, and personalized care. Our team takes the time to understand your concerns, medical history, and health goals—so you receive treatment that feels right for you, not rushed or generic."
+  },
+  {
+    icon: 'Sparkles',
+    title: "Expert-Led, Team-Based Treatment",
+    description:
+      "Our experienced doctors and specialists work together across multiple areas, including Ayurveda, physiotherapy, dermatology, dental care, and general medicine. This collaborative approach helps us provide well-rounded treatment plans under one roof."
+  },
+  {
+    icon: 'Activity',
+    title: "Balanced, Evidence-Based Care",
+    description:
+      "We combine modern medical practices with a holistic approach to support both immediate recovery and long-term wellness. Whether you’re visiting for preventive care, pain management, or aesthetic treatments, our focus is always on safe, effective, and sustainable results."
+  }
   ];
 
   // Use content benefits if provided, otherwise use defaults
@@ -72,8 +76,8 @@ const WhyAyurvedaDubaiSection = ({ content }) => {
     description: 'Flexible appointment scheduling available to working professionals to fit your busy lifestyle.'
   };
   const bottomSection = content?.bottomSection || {
-    title: 'Premium Wellness Centre at a Trusted Polyclinic in Dubai',
-    description: 'Our Premium Wellness Centre in Jumeirah 1 operates within a trusted polyclinic in Dubai, delivering natural, holistic healthcare in a professional clinical environment. We specialize in Panchakarma detox programs, chronic pain relief, stress management, and complete mind-body balance. Our DHA-licensed doctors provide personalized consultations and treatment plans tailored to individual health needs. Patients visiting our polyclinic in Dubai benefit from safe, hygienic therapies delivered under strict medical supervision. Whether you are seeking preventive care, detoxification, or long-term wellness solutions, our centre offers trusted, effective treatments designed to restore health, vitality, and overall well-being.'
+    title: 'Premium Wellness Centre in Dubai',
+    description: 'Our wellness centre in Jumeirah 1 offers natural and holistic care in a professional clinical setting in Dubai. We specialize in Panchakarma detox, pain relief, stress management, and overall mind–body balance. Our DHA-licensed doctors provide personalized treatment plans focused on safe, effective, and long-term results.Whether you’re looking for detox, preventive care, or ongoing wellness support, we help you restore balance and improve your overall health.'
   };
   // Support paragraphs array for bottomSection or split by \n\n
   const bottomParagraphs = bottomSection?.paragraphs || (bottomSection?.description?.includes('\n\n') 

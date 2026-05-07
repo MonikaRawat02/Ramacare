@@ -80,8 +80,7 @@ export default function AyurvedicDietPlanPage() {
       <TreatmentHero 
         categoryName={categoryName}
         subcategoryName={subcategoryName}
-        hero={content?.hero}
-      />
+        hero={content?.hero}/>
      <QuickNavigation />
     {/* <CertificationsSection content={content?.certifications} /> */}
     <TreatmentOverview 

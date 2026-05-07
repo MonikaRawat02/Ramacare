@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>RamaCare Polyclinic Dubai | Trusted Polyclinic in Dubai</title>
-        <meta name="description" content=" RamaCare Polyclinic Dubai provides multi-specialty medical care with experienced doctors, modern diagnostics, and patient-focused treatment in a DHA-licensed clinic."/>
+        <title> Polyclinic in Dubai | Ayurveda, Physiotherapy & Skin Clinic</title>
+        <meta name="description" content=" Looking for a polyclinic in Dubai? RamaCare offers Ayurveda, physiotherapy & skin treatments in Jumeirah with expert doctors. Book your consultation today."/>
        <meta name="keywords" content="RamaCare Polyclinic Dubai, Polyclinic in Dubai, Trusted polyclinic in Dubai, Multi-Specialty Clinic Dubai, Medical clinic Dubai, DHA licensed polyclinic, Family healthcare Dubai, Affordable healthcare Dubai, Polyclinic in Jumeirah 1, Medical clinic Jumeirah 1, Best Polyclinic in Jumeirah 1" />
        <meta name="google-site-verification" content="VRn7pg1rACQOgcGV13YChuu05_Iu__0QVLXrw9dNGCc" /> 
        <meta name="msvalidate.01" content="FB6C6318BA274AFF1EA6E095977EA143" />

@@ -7,12 +7,12 @@ const AboutAyurvedaSection = ({ content }) => {
 
   // Use content props or defaults - ORIGINAL CONTENT PRESERVED
   const badge = content?.badge || 'About RamaCare Polyclinic';
-  const title = content?.title || 'Authentic Healing Within a Modern Polyclinic';
-  const description = content?.description || 'RamaCare Polyclinic blends traditional healing principles with modern medical science to provide comprehensive, family-centered healthcare in Dubai.';
+  const title = content?.title || 'Modern healthcare combined with holistic healing for long-term wellbeing.';
+  const description = content?.description || 'RamaCare Polyclinic brings together modern medicine and traditional healing to provide complete, family-focused care in Dubai. Our team of DHA-licensed doctors, therapists, and specialists works closely with each patient to understand their concerns and recommend the most suitable treatment.';
   const paragraphs = content?.paragraphs || [
-    'RamaCare Polyclinic blends traditional healing principles with modern medical science to provide comprehensive, family-centered healthcare in Dubai. Our multidisciplinary team of DHA-licensed physicians, therapists, and specialists brings decades of experience and compassionate care to every consultation.',
-    'We offer a full range of services, including general medicine, dermatology, aesthetic treatments, dental care, physiotherapy, Ayurveda, pain management, and body wellness therapies — all under one roof.',
-    'Rather than treating symptoms alone, we focus on identifying root causes, designing personalized treatment plans, and supporting sustainable health outcomes. Every treatment follows strict safety protocols, transparent diagnosis, and advanced medical standards within our Jumeirah 1 facility.'
+    'RamaCare Polyclinic brings together modern medicine and traditional healing to provide complete, family-focused care in Dubai. Our team of DHA-licensed doctors, therapists, and specialists works closely with each patient to understand their concerns and recommend the most suitable treatment.',
+    'We offer a wide range of services under one roof, including general medicine, dermatology, aesthetic treatments, dental care, physiotherapy, and Ayurveda. This allows you to access the care you need without visiting multiple clinics.',
+    'Instead of focusing only on symptoms, we aim to identify the root cause of your condition and create personalized treatment plans that support long-term health. Every treatment is delivered with a strong focus on safety, clear communication, and patient comfort at our Jumeirah 1 facility.'
   ];
   const stats = content?.stats || [
     { number: '500+', label: 'Happy Patients' },
@@ -54,12 +54,12 @@ const AboutAyurvedaSection = ({ content }) => {
       id="about-ramacare"
       ref={sectionRef}
       className="relative w-full bg-[#F7F6F1] py-16 md:py-20 lg:py-24 xl:py-28 overflow-hidden"
-    >
+     >
       {/* FIXED: Changed max-width to match screenshot layout */}
       <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-20">
         {/* FIXED: Changed grid columns ratio - image takes less space (40%), text takes more (60%) */}
         <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-10 md:gap-12 lg:gap-12 xl:gap-16 items-center">
-          
+
           {/* Left Column - Image with Overlay Card */}
           <div className={`hidden lg:block order-2 lg:order-1 relative transform transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
@@ -120,7 +120,7 @@ const AboutAyurvedaSection = ({ content }) => {
                   className="object-cover object-center"
                   sizes="(max-width: 1024px) 100vw"
                   priority
-                />
+                  />
                 <div className="absolute bottom-4 left-4 right-4 bg-white rounded-2xl p-3.5 sm:p-4 shadow-2xl flex items-center gap-3 z-10 backdrop-blur-sm bg-white/95">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-[#3d5f4a] rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
                     <span className="text-white text-base sm:text-lg font-bold leading-none">{overlayCard.number}</span>
@@ -139,8 +139,7 @@ const AboutAyurvedaSection = ({ content }) => {
                 {stats.map((stat, index) => (
                   <div 
                     key={index} 
-                    className={`text-center ${index < stats.length - 1 ? 'border-r border-gray-200' : ''}`}
-                  >
+                    className={`text-center ${index < stats.length - 1 ? 'border-r border-gray-200' : ''}`}>
                     <div className="text-3xl sm:text-4xl font-bold text-[#3d5f4a] mb-1 leading-none tracking-tight">{stat.number}</div>
                     <div className="text-sm text-gray-700 font-normal leading-tight mt-1">{stat.label}</div>
                   </div>
@@ -158,7 +157,6 @@ const AboutAyurvedaSection = ({ content }) => {
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
   </svg>
 </button>
-
           </div>
         </div>
       </div>

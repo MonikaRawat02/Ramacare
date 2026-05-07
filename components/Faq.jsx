@@ -82,7 +82,7 @@ const FAQSection = ({ content }) => {
   const sectionDescription = content?.description || 'Expert answers about Ayurvedic hairfall treatment in Dubai';
   const faqs = content?.faqs || defaultFaqs;
   const resources = content?.resources || defaultResources;
-  const resourcesHeading = content?.resourcesHeading || 'Complete Skin & Beauty Services';
+  const resourcesHeading = content?.resourcesHeading !== undefined ? content?.resourcesHeading : 'Complete Skin & Beauty Services';
 
   // Icon mapping function for resources
   const getResourceIcon = (index) => {
@@ -179,6 +179,7 @@ const FAQSection = ({ content }) => {
       </section>
 
       {/* Related Resources Section */}
+      {resourcesHeading && (
       <section className="w-full bg-[#F3F4F6] py-8 md:py-12">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header */}
@@ -235,6 +236,7 @@ const FAQSection = ({ content }) => {
           </div>
         </div>
       </section>
+      )}
     </>
   );
 };

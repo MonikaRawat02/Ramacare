@@ -1,5 +1,6 @@
 import Layout from '../../../components/Layout';
 import Head from "next/head";
+import Image from 'next/image';
 import TreatmentHero from '../../../components/TreatmentHero';
 import QuickNavigation from '../../../components/QuickNavigation';
 // import CertificationsSection from '../../../components/CertificationsSection';
@@ -13,6 +14,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { Check, Info, TrendingUp, Scissors, IndianRupee, Wallet, Target, Sparkles, XCircle, CheckCircle2 } from 'lucide-react';
 
 export default function AyurvedicHairfallTreatmentPage() {
   const categoryName = 'Ayurveda';
@@ -97,6 +99,154 @@ export default function AyurvedicHairfallTreatmentPage() {
       content={content?.benefits}
     />
     <PatientTestimonials content={content?.testimonials} />
+
+    {/* Custom Section for Hairfall Treatment */}
+    <section className="py-12 md:py-16 bg-[#FAF9F6]">
+      <div className="max-w-7xl mx-auto px-4 md:px-8">
+        {/* Why Ayurvedic Treatment Is Different */}
+        <div className="mb-16">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-3">Why Ayurvedic Treatment Is Different</h2>
+            <div className="w-12 h-1 bg-[#2D5A41] mx-auto rounded-full"></div>
+          </div>
+          <div className="bg-[#F2F0E9] rounded-2xl p-6 md:p-10 border border-[#E5E2D9]">
+            <p className="text-sm md:text-base text-[#5F5F5F] mb-6 leading-relaxed">
+              Unlike conventional methods that focus only on external symptoms, Ayurvedic Hair Fall Treatment in Dubai works on internal healing by:
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                "Balancing body doshas (Vata, Pitta, Kapha)",
+                "Improving scalp blood circulation",
+                "Strengthening hair follicles from the root",
+                "Supporting digestion and nutrient absorption",
+                "Reducing stress-related hair fall"
+              ].map((item, i) => (
+                <div key={i} className="flex items-center gap-3 bg-white/80 backdrop-blur-sm p-4 rounded-xl border border-[#DEDACF] shadow-sm">
+                  <Check className="w-4 h-4 text-[#2D5A41] shrink-0" />
+                  <span className="text-sm font-medium text-[#1A1A1A]">{item}</span>
+                </div>
+              ))}
+            </div>
+            <p className="mt-6 text-sm font-bold text-[#2D5A41] flex items-center gap-2">
+              <span>👉</span> This leads to long-term, natural, and sustainable hair growth.
+            </p>
+          </div>
+        </div>
+
+        {/* Ayurvedic Hair Fall Treatment Cost */}
+        <div className="mb-16 bg-white rounded-2xl p-8 border border-[#F2F0E9]">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-6">Ayurvedic Hair Fall Treatment Cost in Dubai</h2>
+          <div className="space-y-4 text-[#5F5F5F] leading-relaxed text-sm md:text-base">
+            <p>The cost of Ayurvedic Hair Fall Treatment in Dubai varies depending on the severity of hair loss, underlying causes, and the type of personalized treatment required.</p>
+            <p>Since every individual has a different dosha imbalance, lifestyle pattern, and scalp condition, our treatment plans are fully customized rather than one-size-fits-all.</p>
+            <div className="bg-[#FAF9F6] p-6 rounded-2xl border border-[#F2F0E9] my-6">
+              <h4 className="font-bold text-[#1A1A1A] mb-4 text-sm md:text-base">Factors that affect treatment cost include:</h4>
+              <ul className="grid sm:grid-cols-2 gap-3">
+                {[
+                  "Severity of hair fall and scalp condition",
+                  "Number of sessions required for visible improvement",
+                  "Type of Ayurvedic therapies recommended",
+                  "Use of herbal medicines and internal treatments",
+                  "Duration of the personalized treatment plan"
+                ].map((fact, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm">
+                    <div className="w-1 h-1 rounded-full bg-[#2D5A41]"></div>
+                    {fact}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <p className="font-medium text-[#1A1A1A]">👉 In general, Ayurvedic hair fall treatment plans may start from a basic consultation and gradually scale based on your individual needs and response to therapy.</p>
+            <p className="text-[#2D5A41] font-bold">Unlike temporary cosmetic solutions, Ayurveda focuses on long-term root-cause healing, which makes it a more sustainable investment in your hair and overall health.</p>
+          </div>
+        </div>
+
+        {/* Before & After Results */}
+        <div className="bg-[#F2F0E9] rounded-2xl p-6 md:p-12 border border-[#E5E2D9]">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A1A] mb-3">Before & After Results of Ayurvedic Hair Treatment</h2>
+            <p className="text-sm text-[#5F5F5F] max-w-2xl mx-auto leading-relaxed">Our Ayurvedic Hair Fall Treatment in Dubai focuses on delivering visible and long-term improvements by restoring scalp health and strengthening hair from the root.</p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-8 mb-12">
+            {/* Before Column */}
+            <div className="space-y-6">
+              {/* Before Image Div - Ready for your image */}
+              <div className="aspect-[4/3] rounded-xl overflow-hidden bg-white/40 border border-white/60 relative">
+                {/* 
+                  To add an actual image:
+                  1. Uncomment the <Image /> tag below
+                  2. Update the 'src' to your image path (e.g., "/images/before-hair.jpg")
+                */}
+                <Image src="/images/bef.jpg" alt="Before Treatment" fill className="object-cover" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-rose-300">
+                </div>
+              </div>
+              
+              <div className="space-y-4 bg-white/40 p-6 rounded-xl border border-white/60">
+                <h4 className="font-bold text-rose-600 text-xs uppercase tracking-widest border-b border-rose-100 pb-2">Before Treatment (Common Conditions):</h4>
+                <div className="space-y-2">
+                  {[
+                    "Excessive daily hair fall",
+                    "Noticeable hair thinning",
+                    "Weak and brittle hair strands",
+                    "Dandruff and itchy scalp",
+                    "Reduced hair volume and density"
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-2">
+                      <XCircle className="w-4 h-4 text-rose-400" />
+                      <span className="text-sm text-[#5F5F5F]">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* After Column */}
+            <div className="space-y-6">
+              {/* After Image Div - Ready for your image */}
+              <div className="aspect-[4/3] rounded-xl overflow-hidden bg-white/60 border border-white/80 relative">
+                {/* 
+                  To add an actual image:
+                  1. Uncomment the <Image /> tag below
+                  2. Update the 'src' to your image path (e.g., "/images/after-hair.jpg")
+                */}
+                <Image src="/images/aft.jpg" alt="After Treatment" fill className="object-cover" />
+
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-[#2D5A41]">
+                  
+                </div>
+              </div>
+
+              <div className="space-y-4 bg-white/60 p-6 rounded-xl border border-white/80">
+                <h4 className="font-bold text-[#2D5A41] text-xs uppercase tracking-widest border-b border-emerald-100 pb-2">After Treatment (Expected Improvements):</h4>
+                <div className="space-y-2">
+                  {[
+                    "Significant reduction in hair fall",
+                    "Stronger and healthier hair roots",
+                    "Improved hair thickness and density",
+                    "Reduction in dandruff and scalp irritation",
+                    "Enhanced natural shine and hair texture"
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-[#2D5A41]" />
+                      <span className="text-sm font-medium text-[#1A1A1A]">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-10 p-5 bg-white/80 rounded-xl border border-[#DEDACF] text-center">
+            <p className="text-xs md:text-sm text-[#5F5F5F] font-medium italic leading-relaxed">
+              👉 Results may vary depending on individual condition, but consistent Ayurvedic treatment supports gradual, natural, and sustainable hair regrowth without harsh chemicals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
      <DoctorsSection content={content?.doctors} />
     {/* <PricingPackages content={content?.pricing} /> */}
     <PaymentInsurance content={content?.paymentInsurance} />

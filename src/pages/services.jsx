@@ -112,6 +112,8 @@ const ServicesPage = () => {
       'panchakarma-treatment-dubai': [],
       'gastrointestinal-diseases-treatment-dubai': [],
       'pcos-treatment-dubai': [],
+      'shirodhara-therapy-in-dubai': [],
+      'abhyanga-massage-dubai': [],
       'ultrasound-therapy-dubai': [],
       'electrotherapy-dubai': [],
       'pelvic-floor-therapy-dubai': [],
@@ -200,7 +202,9 @@ const ServicesPage = () => {
         { name: 'Ayurvedic Gut Health', slug: 'ayurvedic-gut-health-dubai', description: 'Restore Agni and improve digestion naturally' },
         { name: 'Panchakarma Treatment', slug: 'panchakarma-treatment-dubai', description: 'Traditional detoxification therapy' },
         { name: 'Gastrointestinal Diseases Treatment', slug: 'gastrointestinal-diseases-treatment-dubai', description: 'Digestive health solutions' },
-        { name: 'PCOS Treatment', slug: 'pcos-treatment-dubai', description: 'Ayurvedic PCOS management' }
+        { name: 'PCOS Treatment', slug: 'pcos-treatment-dubai', description: 'Ayurvedic PCOS management' },
+        { name: 'Shirodhara Therapy', slug: 'shirodhara-therapy-in-dubai', description: 'Deep relaxation and stress relief therapy' },
+        { name: 'Abhyanga Massage', slug: 'abhyanga-massage-dubai', description: 'Full body Ayurvedic oil massage' }
       ]
     },
     {
