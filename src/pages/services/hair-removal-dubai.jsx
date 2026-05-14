@@ -6,6 +6,8 @@ import QuickNavigation from '../../../components/QuickNavigation';
 import TreatmentOverview from '../../../components/TreatmentOverview';
 import HealingJourney from '../../../components/HealingJourney';
 import TreatmentBenefits from '../../../components/TreatmentBenefits';
+import WhyChooseSection from '../../../components/PanchakarmaWhyChoose';
+import HairRemovalAdditionalInfo from '../../../components/HairRemovalAdditionalInfo';
 import PatientTestimonials from '../../../components/VideoTestimonials';
 import DoctorsSection from '../../../components/DoctorsSection';
 // import PricingPackages from '../../../components/PricingPackages';
@@ -24,8 +26,8 @@ export default function HairRemovalPage() {
   return (
     <Layout>
       <Head>
-  <title>Hair Removal in Dubai for Safe and Effective Results</title>
-  <meta name="description" content="Hair removal in Dubai offers safe, doctor-supervised solutions to reduce unwanted hair using advanced methods suitable for different skin types and areas." />
+  <title>Laser Hair Removal Dubai | Permanent Hair Reduction Treatment</title>
+  <meta name="description" content="Get safe and effective Laser Hair Removal in Dubai at Rama Care Polyclinic. Reduce unwanted hair on the face and body with advanced laser technology and personalized treatment plans." />
   <meta name="keywords" content="Hair removal in Dubai, Laser hair removal Dubai, Permanent hair removal Dubai, Medical hair removal treatment, Facial hair removal Dubai, Body hair removal Dubai, Safe hair removal methods, Professional hair removal clinic, Skin-friendly hair removal Dubai" />
   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/hair-removal-dubai" />
   <script
@@ -96,7 +98,17 @@ export default function HairRemovalPage() {
         subcategoryName={subcategoryName}
         hero={content?.hero}
       />
-     <QuickNavigation />
+     <QuickNavigation navItems={[
+      { id: 'treatment-info', label: 'Treatment Info' },
+      { id: 'how-it-works', label: 'How It Works' },
+      { id: 'benefits', label: 'Benefits' },
+      { id: 'why-choose', label: 'Why Choose Us' },
+      { id: 'hair-removal-info', label: 'Treatment Areas & Care' },
+      { id: 'testimonials', label: 'Success Stories' },
+      { id: 'our-doctors', label: 'Our Doctors' },
+      { id: 'faq', label: 'FAQ' },
+      { id: 'book-now', label: 'Book Now' },
+    ]} />
     {/* <CertificationsSection content={content?.certifications} /> */}
     <TreatmentOverview 
       subcategoryName={subcategoryName}
@@ -106,6 +118,8 @@ export default function HairRemovalPage() {
       <TreatmentBenefits 
         content={content?.benefits}
       />
+      <WhyChooseSection content={content?.whyChoose} />
+      <HairRemovalAdditionalInfo content={content?.hairRemovalInfo} />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
     {/* <PricingPackages content={content?.pricing} /> */}

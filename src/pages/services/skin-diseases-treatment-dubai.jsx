@@ -4,6 +4,8 @@ import TreatmentHero from '../../../components/TreatmentHero';
 import QuickNavigation from '../../../components/QuickNavigation';
 // import CertificationsSection from '../../../components/CertificationsSection';
 import TreatmentOverview from '../../../components/TreatmentOverview';
+import BastiTherapySections from '../../../components/BastiTherapySections';
+import ContentSection from '../../../components/ContentSection';
 import HealingJourney from '../../../components/HealingJourney';
 import TreatmentBenefits from '../../../components/TreatmentBenefits';
 import PatientTestimonials from '../../../components/VideoTestimonials';
@@ -20,6 +22,19 @@ export default function SkinDiseasesTreatmentPage() {
 
   // Get content from data file
   const content = getSubcategoryContent('ayurveda-dubai', 'skin-diseases-treatment');
+
+  // Custom navigation items for this page
+  const navItems = [
+    { id: 'treatment-info', label: 'Treatment Overview' },
+    { id: 'why-choose-us', label: 'Why Choose' },
+    { id: 'how-it-works', label: 'How It Works' },
+    { id: 'benefits', label: 'Benefits' },
+    { id: 'treatment-process', label: 'Treatment Process' },
+    { id: 'digestive-health', label: 'Digestive Health' },
+    { id: 'cost-and-results', label: 'Recovery' },
+    { id: 'faq', label: 'FAQ' },
+    { id: 'book-now', label: 'Book Now' },
+  ];
 
   return (
     <Layout>
@@ -84,12 +99,37 @@ export default function SkinDiseasesTreatmentPage() {
       subcategoryName={subcategoryName}
       hero={content?.hero}
     />
-     <QuickNavigation />
+     <QuickNavigation navItems={navItems} />
     {/* <CertificationsSection content={content?.certifications} /> */}
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
     />
+    
+    {/* Skin Conditions anchor point - scrolls to the skin conditions card within Treatment Overview */}
+    <div id="skin-conditions" className="invisible -mt-20"></div>
+    
+    {/* Why Choose Section */}
+    <BastiTherapySections 
+      sectionType="whyChoose"
+      content={content?.whyChoose}
+    />
+    
+    {/* How It Works Section */}
+    <ContentSection type="howItWorks" content={content?.howItWorks} />
+    
+    {/* Treatment Process Section */}
+    <HealingJourney content={content?.healingJourney} sectionId="treatment-process" />
+    
+    {/* Digestive Health Section */}
+    <ContentSection type="digestiveHealth" content={content?.digestiveHealth} />
+    
+    {/* Diet & Lifestyle Section */}
+    <ContentSection type="dietLifestyle" content={content?.dietLifestyle} />
+    
+    {/* Recovery & Aftercare Section */}
+    <ContentSection type="recoveryAftercare" content={content?.recoveryAftercare} />
+    
     <HealingJourney content={content?.healingJourney} />
     <TreatmentBenefits 
       content={content?.benefits}

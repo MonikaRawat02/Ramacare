@@ -2,6 +2,69 @@ import React from 'react';
 import Image from 'next/image';
 
 const TreatmentHero = ({ categoryName, subcategoryName, description, hero }) => {
+  // Helper function to parse description into paragraphs
+  const parseDescription = (desc) => {
+    if (!desc) return null;
+    
+    // Check if content contains HTML tags
+    const hasHTML = /<[^>]*>/.test(desc);
+    
+    if (hasHTML) {
+      // If contains HTML, split by paragraph breaks and wrap each in styled p tags
+      // Split by double newlines or common paragraph break patterns
+      const paragraphs = desc.split(/\n\n|<br\s*\/?>/gi).filter(p => p.trim());
+      
+      if (paragraphs.length <= 1) {
+        // Single paragraph - just render with HTML
+        return (
+          <div className="text-sm md:text-base text-[#1F2937] leading-relaxed mb-6">
+            <div dangerouslySetInnerHTML={{ 
+              __html: desc.replace(
+                /<a\s/gi, 
+                '<a class="font-semibold text-[#2D5F3F] hover:text-[#407D54] underline decoration-2 underline-offset-2 hover:decoration-[#407D54] transition-colors duration-200" '
+              ) 
+            }} />
+          </div>
+        );
+      }
+      
+      // Multiple paragraphs
+      return (
+        <div className="text-sm md:text-base text-[#1F2937] leading-relaxed mb-6 space-y-4">
+          {paragraphs.map((para, index) => (
+            <p key={index}>
+              <span dangerouslySetInnerHTML={{ 
+                __html: para.replace(
+                  /<a\s/gi, 
+                  '<a class="font-semibold text-[#2D5F3F] hover:text-[#407D54] transition-colors duration-200" '
+                ) 
+              }} />
+            </p>
+          ))}
+        </div>
+      );
+    }
+    
+    // Plain text - split into paragraphs by sentences or newlines
+    const paragraphs = desc.split(/\n\n|(?<=[.!?])\s+(?=[A-Z])/).filter(p => p.trim());
+    
+    if (paragraphs.length <= 1) {
+      return (
+        <p className="text-sm md:text-base text-[#1F2937] leading-relaxed mb-6">
+          {desc}
+        </p>
+      );
+    }
+    
+    // Multiple paragraphs
+    return (
+      <div className="text-sm md:text-base text-[#1F2937] leading-relaxed mb-6 space-y-4">
+        {paragraphs.map((para, index) => (
+          <p key={index}>{para}</p>
+        ))}
+      </div>
+    );
+  };
   // Default values if not provided
   const categories = [
   { name: 'Aesthetic Dermatology', slug: 'aesthetic-dermatology-dubai' },
@@ -131,9 +194,7 @@ const categoryData = categories.find(
             )}
 
             {/* Description */}
-            <p className="text-sm md:text-base text-[#1F2937] leading-relaxed mb-6">
-              {heroDescription}
-            </p>
+            {parseDescription(heroDescription)}
 
             {/* Treatment Image - Mobile Only */}
             {image && (

@@ -25,7 +25,7 @@ const AboutAyurvedaSection = ({ content }) => {
   const overlayCard = content?.overlayCard || {
     number: '15+',
     smallText: 'Years of Excellence',
-    boldText: 'Trusted Polyclinic for Modern Healthcare'
+    boldText: 'Trusted Healthcare Clinic for Modern & Holistic Care'
   };
 
   useEffect(() => {

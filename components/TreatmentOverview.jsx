@@ -5,6 +5,51 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
   const [activeTab, setActiveTab] = useState('problem');
   const [expandedCard, setExpandedCard] = useState(null);
 
+  // Helper function to render HTML content with styled links
+  const renderHTMLContent = (html, className = 'text-sm text-[#4B5563] leading-relaxed') => {
+    if (!html) return null;
+    
+    // Check if content contains HTML tags
+    const hasHTML = /<[^>]*>/.test(html);
+    
+    if (hasHTML) {
+      // Split by paragraph breaks
+      const paragraphs = html.split(/\n\n|<br\s*\/?>/gi).filter(p => p.trim());
+      
+      if (paragraphs.length <= 1) {
+        return (
+          <div className={className}>
+            <div dangerouslySetInnerHTML={{ 
+              __html: html.replace(
+                /<a\s/gi, 
+                '<a class="font-semibold text-[#2D5F3F] hover:text-[#407D54] transition-colors duration-200" '
+              ) 
+            }} />
+          </div>
+        );
+      }
+      
+      // Multiple paragraphs
+      return (
+        <div className={`${className} space-y-3`}>
+          {paragraphs.map((para, index) => (
+            <p key={index}>
+              <span dangerouslySetInnerHTML={{ 
+                __html: para.replace(
+                  /<a\s/gi, 
+                  '<a class="font-semibold text-[#2D5F3F] hover:text-[#407D54] transition-colors duration-200" '
+                ) 
+              }} />
+            </p>
+          ))}
+        </div>
+      );
+    }
+    
+    // Plain text
+    return <p className={className}>{html}</p>;
+  };
+
   const iconMap = {
     Leaf,
     Target,
@@ -236,9 +281,9 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
                         </ul>
                       </div>
                     ) : (
-                      <p className="text-sm text-[#4B5563] leading-relaxed">
-                        {card.description}
-                      </p>
+                      <div>
+                        {card.description && renderHTMLContent(card.description, 'text-sm text-[#4B5563] leading-relaxed')}
+                      </div>
                     )}
                   </div>
                 </div>
@@ -299,9 +344,7 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
                   <h3 className="text-base font-bold text-[#7F1D1D] mb-2">
                     {problemIntro.title}
                   </h3>
-                  <p className="text-sm text-[#991B1B] leading-relaxed">
-                    {problemIntro.description}
-                  </p>
+                  {renderHTMLContent(problemIntro.description, 'text-sm text-[#991B1B] leading-relaxed')}
                 </div>
 
                 {/* Cause Cards */}
@@ -316,9 +359,7 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
                           <h4 className="text-sm font-bold text-[#1F2937] mb-1.5">
                             {cause.title}
                           </h4>
-                          <p className="text-sm text-[#4B5563] leading-relaxed">
-                            {cause.description}
-                          </p>
+                          {renderHTMLContent(cause.description, 'text-sm text-[#4B5563] leading-relaxed')}
                         </div>
                         <span className={`px-3 py-1 rounded-full text-xs font-bold ${cause.severityColor} whitespace-nowrap shadow-sm`}>
                           {cause.severity}
@@ -337,9 +378,7 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
                   <h3 className="text-base font-bold text-[#065F46] mb-2">
                     {solutionIntro.title}
                   </h3>
-                  <p className="text-sm text-[#047857] leading-relaxed">
-                    {solutionIntro.description}
-                  </p>
+                  {renderHTMLContent(solutionIntro.description, 'text-sm text-[#047857] leading-relaxed')}
                 </div>
 
                 {/* Treatment Cards */}
@@ -359,16 +398,12 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
                           <h4 className="text-sm font-bold text-[#1F2937] mb-1.5">
                             {card.title}
                           </h4>
-                          <p className="text-sm text-[#4B5563] leading-relaxed">
-                            {card.description}
-                          </p>
+                          {renderHTMLContent(card.description, 'text-sm text-[#4B5563] leading-relaxed')}
                           
                           {/* Expanded Content */}
                           {expandedCard === card.id && card.expandedContent && (
                             <div className="mt-3 pt-3 border-t border-[#E5E7EB]">
-                              <p className="text-sm text-[#1F2937] leading-relaxed">
-                                {card.expandedContent}
-                              </p>
+                              {renderHTMLContent(card.expandedContent, 'text-sm text-[#1F2937] leading-relaxed')}
                             </div>
                           )}
 

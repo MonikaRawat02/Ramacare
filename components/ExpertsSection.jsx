@@ -115,25 +115,25 @@ const ExpertsSection = ({ content, onBookAppointment }) => {
   ],
   languages: ['English']
 },
-{
-  id: 5,
-  name: 'Mildred L. Eugenio',
-  firstName: 'Mildred',
-  image: '/images/Mildred.jpeg',
-  qualifications: 'Bachelor of Science in Nursing – Philippines',
-  rating: 5.0,
-  specialization: 'Front Desk & Patient Coordination',
-  experience: 'Professional experience in administrative support and patient services.',
-  isDHALicensed: false,
-  expertise: [
-    'Managing appointment scheduling and patient inquiries',
-    'Ensuring smooth day-to-day clinic operations',
-    'Welcoming and assisting patients with professionalism and care',
-    'Strong organizational skills and attention to detail',
-    'Multitasking and client relations support'
-  ],
-  languages: ['English']
-},
+// {
+//   id: 5,
+//   name: 'Mildred L. Eugenio',
+//   firstName: 'Mildred',
+//   image: '/images/Mildred.jpeg',
+//   qualifications: 'Bachelor of Science in Nursing – Philippines',
+//   rating: 5.0,
+//   specialization: 'Front Desk & Patient Coordination',
+//   experience: 'Professional experience in administrative support and patient services.',
+//   isDHALicensed: false,
+//   expertise: [
+//     'Managing appointment scheduling and patient inquiries',
+//     'Ensuring smooth day-to-day clinic operations',
+//     'Welcoming and assisting patients with professionalism and care',
+//     'Strong organizational skills and attention to detail',
+//     'Multitasking and client relations support'
+//   ],
+//   languages: ['English']
+// },
 {
   id: 6,
   name: 'Sonita Sinaga',
@@ -211,23 +211,23 @@ const ExpertsSection = ({ content, onBookAppointment }) => {
 //   ],
 //   languages: ['English']
 // },
-{
-  id: 9,
-  name: 'Preethi',
-  firstName: 'Preethi',
-  image: '/images/Preethi.jpeg',
-  qualifications: 'Housekeeping',
-  rating: 5.0,
-  specialization: 'Housekeeping',
-  experience: '5+ Years of experience',
-  isDHALicensed: false,
-  expertise: [
-    'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
-    'Expertise in organizing, cleaning, and managing household tasks efficiently',
-    'Known for attention to detail, reliability, and creating a tidy, safe environment',
-  ],
-  languages: ['English']
-},
+// {
+//   id: 9,
+//   name: 'Preethi',
+//   firstName: 'Preethi',
+//   image: '/images/Preethi.jpeg',
+//   qualifications: 'Housekeeping',
+//   rating: 5.0,
+//   specialization: 'Housekeeping',
+//   experience: '5+ Years of experience',
+//   isDHALicensed: false,
+//   expertise: [
+//     'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
+//     'Expertise in organizing, cleaning, and managing household tasks efficiently',
+//     'Known for attention to detail, reliability, and creating a tidy, safe environment',
+//   ],
+//   languages: ['English']
+// },
 {
   id: 10,
   name: 'Dr. Sahar Zomorrodi',

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-const HealingJourney = ({ content }) => {
+const HealingJourney = ({ content, sectionId = 'how-it-works' }) => {
   const [activeStep, setActiveStep] = useState(null);
   const [isVisible, setIsVisible] = useState({});
 
@@ -110,7 +110,7 @@ const HealingJourney = ({ content }) => {
   };
 
   return (
-    <section id="how-it-works" className="w-full bg-gradient-to-b from-[#FAF8F5] via-white to-[#FAF8F5] py-12 md:py-20 overflow-hidden relative">
+    <section id={sectionId} className="w-full bg-gradient-to-b from-[#FAF8F5] via-white to-[#FAF8F5] py-12 md:py-20 overflow-hidden relative">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Decorative Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-40">

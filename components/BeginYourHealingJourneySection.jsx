@@ -258,7 +258,7 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmission
               fontWeight: 400
             }}
           >
-            Schedule your personalized consultation with our DHA-licensed experts at RamaCare Polyclinic, a trusted Polyclinic in Dubai. Same-day appointments are available for your convenience.
+            Schedule your personalized consultation with our DHA-licensed experts at RamaCare Polyclinic in Jumeirah 1, Dubai.
           </p>
           {/* Two Column Layout */}
           <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] xl:grid-cols-[420px_1fr] gap-6 lg:gap-8">

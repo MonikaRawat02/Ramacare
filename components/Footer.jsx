@@ -281,7 +281,7 @@ const Footer = () => {
         {/* SEO Keywords Section */}
         <div className="border-t border-gray-600 pt-5 sm:pt-6 mb-5 sm:mb-6">
           <p className="text-[#d4a574] text-xs sm:text-sm text-center leading-relaxed px-2">
-           Polyclinic in Dubai | Best Polyclinic in Dubai | Top Polyclinic in Dubai | Affordable Polyclinic in Dubai | Leading & Trusted Polyclinic in Dubai | Polyclinic in Jumeirah | Polyclinic in Jumeirah 1
+           RamaCare Polyclinic is a DHA-licensed healthcare clinic in Jumeirah 1, Dubai, offering Ayurveda, physiotherapy, dermatology, dental care, aesthetic treatments, and holistic wellness services.
           </p>
         </div>
 

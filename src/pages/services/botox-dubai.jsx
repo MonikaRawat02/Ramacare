@@ -6,6 +6,7 @@ import QuickNavigation from '../../../components/QuickNavigation';
 import TreatmentOverview from '../../../components/TreatmentOverview';
 import HealingJourney from '../../../components/HealingJourney';
 import TreatmentBenefits from '../../../components/TreatmentBenefits';
+import TreatmentAreasAndCare from '../../../components/TreatmentAreasAndCare';
 import PatientTestimonials from '../../../components/VideoTestimonials';
 import DoctorsSection from '../../../components/DoctorsSection';
 // import PricingPackages from '../../../components/PricingPackages';
@@ -96,7 +97,16 @@ export default function BotoxPage() {
         subcategoryName={subcategoryName}
         hero={content?.hero}
       />
-     <QuickNavigation />
+     <QuickNavigation navItems={[
+      { id: 'treatment-info', label: 'Treatment Info' },
+      { id: 'how-it-works', label: 'How It Works' },
+      { id: 'benefits', label: 'Benefits' },
+      { id: 'botox-treatment-areas', label: 'Treatment Areas & Care' },
+      { id: 'testimonials', label: 'Success Stories' },
+      { id: 'our-doctors', label: 'Our Doctors' },
+      { id: 'faq', label: 'FAQ' },
+      { id: 'book-now', label: 'Book Now' },
+    ]} />
     {/* <CertificationsSection content={content?.certifications} /> */}
     <TreatmentOverview 
       subcategoryName={subcategoryName}
@@ -106,6 +116,7 @@ export default function BotoxPage() {
       <TreatmentBenefits 
         content={content?.benefits}
       />
+      <TreatmentAreasAndCare content={content?.botoxTreatmentAreas} sectionId="botox-treatment-areas" />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
     {/* <PricingPackages content={content?.pricing} /> */}

@@ -12,11 +12,11 @@ const HeroSection = ({ content }) => {
   }, []);
 
   // Use content props or defaults
-  const badge = content?.badge || 'DHA-Licensed Premier Polyclinic in Dubai';
-  const titleLine1 = content?.titleLine1 || 'Polyclinic in Dubai';
-  const titleHighlight = content?.titleHighlight || ' Offering ';
-  const titleLine2 = content?.titleLine2 || ' Ayurveda, Physiotherapy & Skin Care';
-  const subtitle = content?.subtitle || 'Quality healthcare in Jumeirah 1 with experienced doctors who take the time to understand your needs and provide the right treatment.';
+  const badge = content?.badge || 'DHA-Licensed Healthcare Clinic in Dubai';
+  const titleLine1 = content?.titleLine1 || 'Expert Ayurveda,';
+  const titleHighlight = content?.titleHighlight || '  Physiotherapy & Aesthetic Care ';
+  const titleLine2 = content?.titleLine2 || ' in Jumeirah 1';
+  const subtitle = content?.subtitle || 'Quality healthcare in Jumeirah 1 is delivered by experienced DHA-licensed doctors focused on personalized treatment, preventive care, and long-term wellness support.';
   const ctaText = content?.ctaText || 'Book Free Consultation';
   const stats = content?.stats || [
     { number: '15+', label: 'Years Experience' },

@@ -7,7 +7,7 @@ const WhyChooseUsSection = ({ content }) => {
 
   // Use content props or defaults
   const badge = content?.badge || 'Why Choose RamaCare Polyclinic in Dubai';
-  const title = content?.title || 'A trusted polyclinic in Jumeirah 1 combining modern medicine with a personalized, patient-first approach.';
+  const title = content?.title || 'A trusted healthcare clinic in Jumeirah 1 combining modern medicine, holistic wellness, and personalized patient care.';
   const description = content?.description || `At RamaCare Polyclinic, we focus on providing care that’s not only effective but also comfortable and tailored to each patient. Located in Jumeirah 1, Dubai, our clinic brings together experienced doctors, advanced diagnostic support, and a multidisciplinary approach to treatment.
 From routine check-ups and physiotherapy to dermatology, dental care, and Ayurveda, we offer a wide range of services under one roof—so you don’t have to visit multiple clinics. Our team takes the time to understand your concerns, explain your treatment options clearly, and guide you toward the best possible outcome.
 Whether you're looking for preventive care, recovery support, or aesthetic treatments, we’re here to help you feel confident in your health journey.

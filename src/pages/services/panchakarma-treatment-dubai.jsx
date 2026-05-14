@@ -6,6 +6,7 @@ import QuickNavigation from '../../../components/QuickNavigation';
 import TreatmentOverview from '../../../components/TreatmentOverview';
 import HealingJourney from '../../../components/HealingJourney';
 import TreatmentBenefits from '../../../components/TreatmentBenefits';
+import PanchakarmaWhyChoose from '../../../components/PanchakarmaWhyChoose';
 import PatientTestimonials from '../../../components/VideoTestimonials';
 import DoctorsSection from '../../../components/DoctorsSection';
 // import PricingPackages from '../../../components/PricingPackages';
@@ -93,6 +94,7 @@ export default function PanchakarmaTreatmentPage() {
     <TreatmentBenefits 
       content={content?.benefits}
     />
+    <PanchakarmaWhyChoose content={content?.panchakarmaWhyChoose} />
     <PatientTestimonials content={content?.testimonials} />
      <DoctorsSection content={content?.doctors} />
     {/* <PricingPackages content={content?.pricing} /> */}

@@ -8275,7 +8275,7 @@ rootCauses: [
   'aesthetic-dermatology-dubai-skin-treatment-botox': {
         hero: {
             subtitle: 'Safe, Natural-Looking Wrinkle Reduction with Medical Expertise',
-            description: 'Fine lines and facial wrinkles often develop due to aging, stress, and repeated facial expressions. At ramacarepolyclinic, we offer Botox in Dubai to gently relax targeted facial muscles, helping you achieve a smoother, refreshed appearance without surgery.',
+            description: 'Botox in Dubai is a popular non-surgical aesthetic treatment designed to reduce the appearance of fine lines and facial wrinkles caused by aging, stress, and repeated facial expressions. \n\n At Rama Care Polyclinic, we provide personalized Botox treatments focused on achieving smooth, natural-looking results while maintaining natural facial expressions and balance. Our experienced aesthetic specialists use advanced Botox injection techniques to safely target specific facial muscles responsible for forehead lines, crow’s feet, frown lines, and other visible signs of aging. The treatment helps soften dynamic wrinkles, refresh facial appearance, and support a more youthful look without surgery or significant downtime. Whether you are looking to reduce visible wrinkles, prevent early signs of aging, or maintain smoother skin, our Botox treatments in Dubai are customized according to your facial anatomy, skin condition, and aesthetic goals to ensure safe and effective results.\n\nPatients seeking comprehensive facial rejuvenation may also explore our <a href="/services/fillers-in-dubai/">Dermal Fillers Dubai</a>, <a href="/services/signature-hydra-facial-dubai/">HydraFacial Treatment Dubai</a>, and <a href="/services/skin-treatment-dubai/">Skin Treatment Dubai</a> services for enhanced aesthetic care and overall skin wellness.',
             rating: '500+ Happy Clients',  
             stats: [
               {
@@ -8387,222 +8387,248 @@ rootCauses: [
       overview: {
         title: 'Understanding Botox Treatment',
         problemIntro: {
-          title: 'The Problem: Signs of Aging and Facial Concerns',
-          description: 'Repeated muscle movement leads to wrinkles that deepen over time. Many people want visible improvement without altering natural expressions.'
+          title: 'The Problem: Common Botox Treatment Concerns',
+          description: 'Many individuals considering Botox in Dubai feel uncertain about treatment safety, unnatural-looking results, overdone facial appearance, or procedures performed without proper medical expertise. Poor injection techniques, excessive dosage, and lack of facial assessment may affect both safety and aesthetic balance. At Rama Care Polyclinic, our Botox treatments are performed under professional medical supervision using personalized facial assessment and DHA-approved aesthetic protocols designed to support natural-looking, balanced, and refined results.'
         },
         solutionIntro: {
-  title: 'Our Solution: Botox in Dubai',
-  description:
-    'Our Botox in Dubai offers a safe, effective, and minimally invasive way to reduce signs of aging and rejuvenate your appearance.'
-},
-    leftCards: [
-  {
-    id: 1,
-    title: 'What Is Botox?',
-    description:
-      'Botox is a purified protein used to temporarily relax specific facial muscles that cause wrinkles. It helps soften lines on the forehead, around the eyes, and between the eyebrows while maintaining a natural look. Botox in Dubai is widely trusted for safe, non-surgical facial rejuvenation.'
-  },
-  {
-    id: 2,
-    title: 'Who Can Benefit from Botox?',
-    description:
-      'Botox is recommended for individuals who experience:',
-    listItems: [
-      'Forehead lines and frown lines',
-      'Crow’s feet around the eyes',
-      'Early signs of facial aging',
-      'Facial muscle tension',
-      'Desire for non-invasive aesthetic improvement'
-    ]
-  },
-  {
-    id: 3,
-    title: 'Duration',
-    description:
-      'A professional consultation ensures the treatment suits your facial structure and goals.'
-  },
-  {
-    id: 4,
-    title: 'Trusted Botox Care You Can Depend On',
-    description: '',
-    listItems: [
-      'Doctor-led Botox injections',
-      'Natural facial expressions preserved',
-      'Customized treatment planning',
-      'High safety and hygiene standards',
-      'Minimal downtime'
-    ]
-  }
-],
+          title: 'Our Solution: Advanced Botox Treatment in Dubai',
+          description: 'At Rama Care Polyclinic, our Botox in Dubai treatments are designed to help reduce visible signs of aging, soften facial wrinkles, and support natural-looking facial rejuvenation without surgery. We focus on personalized Botox treatments tailored to your facial anatomy, muscle movement, skin condition, and aesthetic goals to ensure safe and balanced results.'
+        },
+        leftCards: [
+          {
+            id: 1,
+            title: 'What Is Botox?',
+            description: 'Botox is a non-surgical cosmetic injection treatment that uses a purified protein to temporarily relax specific facial muscles responsible for dynamic wrinkles and expression lines. Botox treatment helps soften forehead lines, crow/s feet, frown lines, and other visible signs of facial aging while maintaining natural facial expressions and balance.\n\n Botox in Dubai is widely chosen by individuals seeking safe, minimally invasive facial rejuvenation treatments with minimal downtime and natural-looking results. At Rama Care Polyclinic, our Botox treatments are customized according to facial anatomy, muscle movement, skin condition, and aesthetic goals to ensure safe and personalized care.\n\nPatients interested in complete facial rejuvenation may also explore our <a href="/services/fillers-in-dubai/">Dermal Fillers Dubai</a> and <a href="/services/signature-hydra-facial-dubai/">HydraFacial Treatment Dubai</a> services.'
+          },
+          {
+            id: 2,
+            title: 'Who Can Benefit From Botox?',
+            description: 'Botox treatment may benefit individuals experiencing:\n\n• Forehead lines and frown lines\n\n• Crow\s feet around the eyes\n\n• Early signs of facial aging\n\n• Facial muscle tension\n\n• Fine lines caused by repeated facial expressions\n\n• Desire for non-surgical aesthetic enhancement\n\n• Interest in preventive anti-aging treatments\n\n• Mild facial asymmetry related to muscle activity\n\nIndividuals seeking smoother and healthier-looking skin may also benefit from our <a href="/services/skin-treatment-dubai/">Skin Treatment Dubai</a> services.'
+          },
+          {
+            id: 3,
+            title: 'Common Areas Treated With Botox',
+            description: 'Botox injections are commonly performed on:\n\n • Forehead lines\n• Frown lines between the eyebrows\n• Crow\s feet around the eyes\n• Bunny lines on the nose\n• Chin dimpling\n• Jawline and masseter muscles\n• Neck bands'
+          },
+          {
+            id: 4,
+            title: 'Duration of Botox Treatment',
+            description: 'Initial Consultation: 15–30 minutes\nBotox Procedure Duration: Approximately 15–20 minutes\nRecovery Time: Minimal downtime; most patients resume daily activities shortly after treatment\nResult Duration: Results may vary depending on muscle activity and individual factors\n\nA professional consultation helps determine whether Botox treatment is suitable for your facial structure, skin condition, and aesthetic goals.'
+          },
+          {
+            id: 5,
+            title: 'Trusted Botox Care You Can Depend On',
+            description: 'At Rama Care Polyclinic, we focus on providing safe, personalized, and natural-looking Botox treatments performed by experienced aesthetic professionals.\n\nMinimal Downtime\nBotox treatments are minimally invasive and generally allow individuals to return to normal daily routines shortly after the procedure.\n\nPatients looking for complete facial enhancement may also explore our <a href="/services/fillers-in-dubai/">Dermal Fillers Dubai</a> and <a href="/services/signature-hydra-facial-dubai/">HydraFacial Treatment Dubai</a> services for comprehensive aesthetic care.'
+          }
+        ],
  rootCauses: [
   {
     id: 1,
-    title: 'Smooths Fine Lines & Wrinkles',
-    description: 'Botox relaxes overactive facial muscles, softening dynamic wrinkles like forehead lines, frown lines, and crow’s feet. This creates a youthful, refreshed, and natural-looking appearance.',
+    title: 'Fine Lines & Early Signs of Aging',
+    description: 'Repeated facial expressions, stress, sun exposure, and natural aging may contribute to forehead lines, frown lines, crow’s feet, and facial wrinkles. Many individuals seek Botox in Dubai to support smoother and younger-looking skin naturally.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Prevents Future Wrinkles',
-    description: 'Regular treatments control repetitive muscle movement, preventing new lines from forming and slowing the visible signs of aging over time.',
-    severity: 'Medium',
-    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
+    title: 'Fear of Unnatural or Frozen Results',
+    description: 'One of the most common concerns with cosmetic injectables is the fear of stiff facial expressions or an artificial appearance. Personalized Botox treatment planning helps maintain natural facial movement while softening visible lines.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 3,
-    title: 'Quick & Comfortable Procedure',
-    description: 'A non-surgical injection with minimal discomfort, allowing patients to resume daily activities immediately with no downtime required.',
+    title: 'Uneven Facial Results',
+    description: 'Incorrect injection placement or poor facial symmetry assessment may lead to uneven eyebrow position, unnatural balance, or inconsistent outcomes. Proper facial analysis and experienced medical application are essential for precise aesthetic improvement.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Customized Treatment Plans',
-    description: 'Treatments are tailored according to individual facial anatomy, skin type, and aesthetic goals, ensuring results that are natural and harmonious with your expressions.',
+    title: 'Short-Term Cosmetic Solutions',
+    description: 'Some aesthetic treatments provide only temporary surface-level improvement without maintaining facial harmony. Professionally planned Botox treatments focus on subtle, balanced enhancement and long-lasting facial rejuvenation support.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 5,
-    title: 'Long-Lasting Results',
-    description: 'Botox delivers visible reduction in wrinkles, improved facial symmetry, and enhanced confidence while maintaining smooth, rejuvenated skin.',
+    title: 'Safety & Injection Concerns',
+    description: 'Botox procedures performed without proper medical supervision may increase the risk of bruising, asymmetry, discomfort, or unsatisfactory results. Choosing a DHA-licensed clinic helps support treatment safety and precision.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 6,
-    title: 'Reduces Muscle Overactivity',
-    description: 'By relaxing specific muscles, Botox not only smooths existing wrinkles but also reduces tension-related facial expressions that contribute to early aging.',
+    title: 'Lack of Personalized Facial Assessment',
+    description: 'Every face has different muscle movement, skin quality, symmetry, and aesthetic goals. Generic Botox procedures may not provide balanced outcomes. Customized treatment planning helps improve natural-looking facial rejuvenation.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 7,
-    title: 'Enhances Skin Texture & Appearance',
-    description: 'Botox improves skin smoothness and helps the skin look firmer and more radiant, complementing other facial rejuvenation treatments.',
-    severity: 'Medium',
-    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
-  },
+    title: 'Unqualified Practitioners & Poor Technique',
+    description: 'Botox injections performed by inexperienced providers may increase the risk of overcorrection, uneven facial appearance, and unnatural expressions. Choosing experienced aesthetic professionals is important for safer and more refined results.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+  }
 ],
-      quickFacts: [
-  { label: 'Treatment Type', value: 'Non-surgical injection' },
-  { label: 'Anesthesia', value: 'Not required (topical optional)' },
-  { label: 'Recovery Time', value: 'Minimal, usually immediate' },
-  { label: 'Side Effects', value: 'Temporary redness, swelling, or mild bruising' }
+    quickFacts: [
+  { label: 'Treatment Type', value: 'Non-surgical cosmetic injection' },
+  { label: 'Procedure Duration', value: '15–20 minutes' },
+  { label: 'Anesthesia', value: 'Usually not required; topical numbing optional' },
+  { label: 'Downtime', value: 'Minimal' },
+  { label: 'Recovery Time', value: 'Most patients resume activities immediately' },
+  { label: 'Common Side Effects', value: 'Temporary redness, swelling, or mild bruising' },
+  { label: 'Treatment Areas', value: 'Forehead, eyes, jawline, chin, neck' },
+  { label: 'Safety', value: 'Performed by trained aesthetic professionals' }
 ],
-    approachCards: [
+   approachCards: [
   {
     id: 1,
-    title: 'Smooths Fine Lines & Wrinkles',
-    description: 'Botox relaxes overactive facial muscles, softening forehead lines, frown lines, and crow’s feet.',
+    title: 'Smooths Fine Lines & Facial Wrinkles',
+    description:
+      'Botox injections help relax targeted facial muscles responsible for dynamic wrinkles and expression lines.',
     hasLearnMore: true,
-    expandedContent: 'For a smoother, rejuvenated look while maintaining natural facial expressions.'
+    expandedContent:
+      'The treatment is commonly used to soften forehead lines, frown lines, crow’s feet, and other visible signs of facial aging while maintaining natural facial expressions. Patients seeking smoother and healthier-looking skin may also benefit from our <a href="/services/skin-treatment-dubai/">Skin Treatment Dubai</a> services.'
   },
   {
     id: 2,
-    title: 'Prevents Future Wrinkles',
-    description: 'Regular Botox treatments control repetitive muscle movements.',
+    title: 'Helps Prevent Future Wrinkle Formation',
+    description:
+      'Repeated facial expressions and muscle activity may gradually contribute to deeper wrinkle formation over time.',
     hasLearnMore: true,
-    expandedContent: 'Slowing the formation of new lines and helping maintain youthful skin over time.'
+    expandedContent:
+      'Regular Botox treatments may help minimize repetitive muscle movement and support smoother skin appearance for longer periods. Individuals interested in preventive anti-aging care may also explore our <a href="/services/hydrafacial-treatment-dubai/">HydraFacial Treatment Dubai</a> services for additional skin rejuvenation support.'
   },
   {
     id: 3,
-    title: 'Quick & Comfortable Procedure',
-    description: 'A non-surgical, minimally invasive procedure with minimal discomfort and virtually no downtime.',
+    title: 'Quick & Minimally Invasive Procedure',
+    description:
+      'Botox treatment is a non-surgical cosmetic procedure typically completed within a short appointment session.',
     hasLearnMore: true,
-    expandedContent: 'Letting patients resume daily activities immediately.'
+    expandedContent:
+      'The treatment involves minimal discomfort, requires little to no downtime, and allows most individuals to return to normal daily activities shortly after the procedure.'
   },
   {
     id: 4,
-    title: 'Customized Treatment Plans',
-    description: 'Each session is tailored to your facial anatomy, skin type, and desired results.',
+    title: 'Personalized Botox Treatment Plans',
+    description:
+      'Every Botox session at Rama Care Polyclinic is customized according to facial anatomy, wrinkle severity, muscle movement patterns, skin condition, aesthetic goals, and desired treatment outcomes.',
     hasLearnMore: true,
-    expandedContent: 'Ensuring natural, balanced, and harmonious outcomes.'
+    expandedContent:
+      'This personalized approach helps achieve balanced and natural-looking facial rejuvenation results.'
   },
   {
     id: 5,
-    title: 'Long-Lasting Results',
-    description: 'Botox provides visible wrinkle reduction, improved facial symmetry, and enhanced confidence.',
+    title: 'Supports Natural-Looking Results',
+    description:
+      'Our Botox treatments are carefully planned to help soften wrinkles while preserving natural facial movement and expression.',
     hasLearnMore: true,
-    expandedContent: 'With results that last for several months.'
+    expandedContent:
+      'The goal is to create a refreshed and youthful appearance without an overdone look. Patients seeking volume restoration and facial contour enhancement may also explore our <a href="/services/dermal-fillers-dubai/">Dermal Fillers Dubai</a> treatments.'
   },
   {
     id: 6,
-    title: 'Reduces Muscle Overactivity',
-    description: 'Targeted injections relax specific facial muscles.',
+    title: 'Reduces Facial Muscle Overactivity',
+    description:
+      'Targeted Botox injections help temporarily relax specific facial muscles responsible for repetitive movement and wrinkle formation.',
     hasLearnMore: true,
-    expandedContent: 'Preventing tension lines and improving the overall appearance of fine lines caused by repeated expressions.'
+    expandedContent:
+      'This may help improve facial smoothness, reduce visible expression lines, and support overall facial balance naturally.'
   },
+  {
+    id: 7,
+    title: 'Long-Lasting Facial Rejuvenation',
+    description:
+      'Botox treatments may help support reduction of forehead lines and wrinkles, softer crow’s feet and frown lines, improved facial smoothness, more refreshed appearance, enhanced facial symmetry, and increased aesthetic confidence.',
+    hasLearnMore: true,
+    expandedContent:
+      'For comprehensive facial rejuvenation, patients may also combine Botox treatments with <a href="/services/signature-hydra-facial-dubai/">HydraFacial Treatment Dubai</a> and <a href="/services/fillers-in-dubai/">Dermal Fillers Dubai</a> services.'
+  }
 ]
       },
-    healingJourney: {
+   healingJourney: {
   title: 'Your Botox Journey: Step by Step',
-  description: 'Structured, transparent approach to ensure optimal results, natural-looking outcomes, and patient comfort.',
+  description: 'A structured and personalized Botox treatment process designed to support safe wrinkle reduction, natural-looking facial rejuvenation, and patient comfort under the guidance of experienced aesthetic professionals in Dubai.',
   steps: [
     {
       id: 1,
       number: '01',
-      title: 'Initial Consultation (60 min)',
+      title: 'Step 1 – Initial Consultation & Facial Assessment',
       duration: 'Step 1',
-      description: 'Comprehensive facial assessment to understand wrinkle patterns, muscle activity, and aesthetic goals.',
+      description:
+        'During your first visit, our aesthetic specialist performs a detailed facial assessment to evaluate wrinkle patterns, facial muscle activity, skin condition, and aesthetic goals. This consultation helps create a personalized Botox treatment plan tailored to your facial anatomy and desired results.',
       keyActivities: [
         'Facial analysis and wrinkle mapping',
-        'Skin type evaluation',
-        'Discussion of patient goals and expectations',
-        'Personalized Botox treatment plan creation'
+        'Skin type and facial muscle evaluation',
+        'Review of medical and aesthetic history',
+        'Discussion of treatment goals and expectations',
+        'Personalized Botox treatment planning'
       ],
       side: 'right'
     },
     {
       id: 2,
       number: '02',
-      title: 'Preparation & Pre-Treatment Guidance',
+      title: 'Step 2 – Preparation & Pre-Treatment Guidance',
       duration: 'Step 2',
-      description: 'Preparing skin for safe and effective Botox injection.',
+      description:
+        'Before the Botox procedure, our specialists provide detailed guidance to help prepare the skin and support safe treatment outcomes. Proper preparation may help minimize temporary swelling, redness, or bruising after injections.',
       keyActivities: [
-        'Guidance on avoiding alcohol or blood-thinning medications',
-        'Instructions for minimal exercise or sun exposure before treatment',
-        'Optional topical numbing application for comfort'
+        'Guidance regarding alcohol and blood-thinning medications',
+        'Recommendations for limiting excessive sun exposure before treatment',
+        'Pre-treatment skincare guidance',
+        'Optional topical numbing application for additional comfort',
+        'Preparation of targeted treatment areas'
       ],
       side: 'left'
     },
     {
       id: 3,
       number: '03',
-      title: 'Botox Injection Session',
+      title: 'Step 3 – Botox Injection Session',
       duration: 'Step 3',
-      description: 'Precise, doctor-administered injections targeting specific facial muscles to reduce wrinkles and fine lines.',
+      description:
+        'The Botox procedure involves precise injections into targeted facial muscles responsible for dynamic wrinkles and repetitive facial expressions. Our specialists use advanced injection techniques designed to maintain natural facial movement while softening visible wrinkles.',
       keyActivities: [
-        'Targeted injections in the forehead, frown lines, crow’s feet, or other areas',
-        'Gentle technique to maintain natural expressions',
-        'Immediate post-treatment guidance for best results'
+        'Targeted Botox injections in selected facial areas',
+        'Treatment of forehead lines, crow’s feet, and frown lines',
+        'Gentle injection techniques for natural-looking results',
+        'Facial symmetry and muscle balance assessment',
+        'Immediate post-treatment care guidance'
       ],
       side: 'right'
     },
     {
       id: 4,
       number: '04',
-      title: 'Follow-Up & Monitoring',
+      title: 'Step 4 – Follow-Up & Result Monitoring',
       duration: 'Step 4',
-      description: 'Ensure optimal outcomes and address any concerns.',
+      description:
+        'Follow-up assessments help monitor treatment results, facial symmetry, muscle response, and overall patient satisfaction. Minor adjustments may be recommended when appropriate to support balanced aesthetic outcomes.',
       keyActivities: [
-        'Assessment of wrinkle reduction and facial symmetry',
-        'Minor adjustments if necessary',
-        'Recommendations for skin care and lifestyle support'
+        'Evaluation of wrinkle reduction progress',
+        'Assessment of facial balance and symmetry',
+        'Review of treatment response',
+        'Recommendations for skincare and aftercare',
+        'Guidance regarding ongoing aesthetic maintenance'
       ],
       side: 'left'
     },
     {
       id: 5,
       number: '05',
-      title: 'Maintenance & Long-Term Planning',
+      title: 'Step 5 – Maintenance & Long-Term Rejuvenation Planning',
       duration: 'Step 5',
-      description: 'Sustaining results and planning future Botox sessions for ongoing facial rejuvenation.',
+      description:
+        'Botox maintenance sessions may help support long-term wrinkle management and continued facial rejuvenation results. Treatment intervals are personalized according to muscle activity, aesthetic goals, and individual treatment response.',
       keyActivities: [
-        'Periodic check-ins for optimal wrinkle management',
-        'Customized treatment intervals based on muscle activity',
-        'Guidance for long-term skin health and appearance'
+        'Periodic follow-up consultations',
+        'Customized Botox maintenance scheduling',
+        'Long-term wrinkle management planning',
+        'Recommendations for skin health and anti-aging care',
+        'Personalized aesthetic treatment guidance'
       ],
       side: 'right'
     }
@@ -8683,6 +8709,75 @@ rootCauses: [
           }
         ]
       },
+      botoxTreatmentAreas: {
+  treatmentAreas: {
+    title: 'Botox Treatment Areas',
+    subtitle: 'Common Areas Treated With Botox in Dubai',
+    intro: 'Botox in Dubai is commonly used to reduce dynamic wrinkles and expression lines caused by repeated facial muscle movement. At Rama Care Polyclinic, our Botox treatments are customized according to facial anatomy, muscle activity, and aesthetic goals to help achieve smooth, natural-looking results while preserving facial balance and expression.',
+    areas: [
+      {
+        title: 'Forehead Lines Botox',
+        description: 'Botox injections for forehead lines help soften horizontal wrinkles caused by repeated facial expressions and muscle movement. The treatment supports a smoother and more refreshed forehead appearance while maintaining natural facial expressions.'
+      },
+      {
+        title: 'Frown Lines Botox',
+        description: 'Botox treatment for frown lines, also known as glabellar lines, targets the vertical lines that develop between the eyebrows due to repeated muscle activity. This treatment helps create a more relaxed and rejuvenated appearance.'
+      },
+      {
+        title: 'Crow\'s Feet Botox',
+        description: 'Crow\'s feet are fine lines that appear around the outer corners of the eyes during smiling and facial movement. Botox injections help soften these lines while maintaining a natural-looking smile and facial expression.'
+      },
+      {
+        title: 'Jawline & Masseter Botox',
+        description: 'Botox treatment for the jawline and masseter muscles may help relax overactive jaw muscles, improve facial balance, and support a slimmer facial appearance in suitable individuals. Patients interested in facial contour enhancement may also explore our <a href="/services/fillers-in-dubai/">Dermal Fillers Dubai</a> services.'
+      },
+      {
+        title: 'Bunny Lines Botox',
+        description: 'Botox may also be used to soften bunny lines, which are the small wrinkles that develop on the sides of the nose during facial expressions.'
+      },
+      {
+        title: 'Neck Band Botox',
+        description: 'Botox injections for neck bands may help improve the appearance of visible neck muscle bands and contribute to a smoother neck contour as part of non-surgical facial rejuvenation.'
+      },
+      {
+        title: 'Preventive Botox for Early Signs of Aging',
+        description: 'Some individuals choose preventive Botox treatments to help reduce repetitive muscle movement associated with the early development of fine lines and dynamic wrinkles. Patients seeking preventive skin rejuvenation may also benefit from our <a href="/services/signature-hydra-facial-dubai/">HydraFacial Treatment Dubai</a> and <a href="/services/skin-treatment-dubai/">Skin Treatment Dubai</a> services.'
+      }
+    ]
+  },
+  beforeAfterCare: {
+    title: 'Before & After Care for Botox Treatment',
+    intro: 'Proper before and after care plays an important role in supporting safe Botox treatment, minimizing temporary side effects, and helping achieve optimal aesthetic results. At Rama Care Polyclinic, our specialists provide personalized guidance before and after every Botox session to ensure patient comfort and safety.',
+    before: {
+      title: 'Before Botox Treatment',
+      subtitle: 'Preparing properly before Botox treatment may help reduce the risk of temporary swelling, redness, or bruising after injections.',
+      heading: 'Before Treatment Recommendations',
+      items: [
+        'Avoid alcohol consumption for at least 24 hours before treatment',
+        'Inform the specialist about medications and supplements you are taking',
+        'Avoid blood-thinning medications unless approved by your doctor',
+        'Limit excessive sun exposure before the procedure',
+        'Arrive with clean skin free from heavy makeup when possible',
+        'Discuss your aesthetic goals and medical history during consultation'
+      ],
+      conclusion: 'Patients preparing for facial rejuvenation treatments may also explore our <a href="/services/signature-hydra-facial-dubai/">HydraFacial Treatment Dubai</a> services for healthier-looking skin support.'
+    },
+    after: {
+      title: 'After Botox Treatment',
+      subtitle: 'Following proper aftercare instructions may help support smoother recovery and better treatment outcomes after Botox injections.',
+      heading: 'After Treatment Recommendations',
+      items: [
+        'Avoid rubbing or massaging the treated areas immediately after injections',
+        'Remain upright for several hours following treatment',
+        'Avoid intense exercise or strenuous activities temporarily',
+        'Limit excessive heat exposure, steam rooms, and saunas for 24 hours',
+        'Follow all post-treatment instructions provided by your specialist',
+        'Contact the clinic if you experience unusual symptoms or concerns'
+      ],
+      conclusion: 'Most individuals experience minimal downtime and can resume daily activities shortly after Botox treatment.'
+    }
+  }
+},
    pricing: {
   title: 'Transparent Pricing & Customized Botox Packages',
   description:
@@ -9713,9 +9808,9 @@ rootCauses: [
 
   'aesthetic-dermatology-dubai-skin-treatment-dark-circle': {
         hero: {
-           title: 'Dark Circle Treatment in Dubai – Brighten Under Eyes Fast',
-            subtitle: 'Reduce Under-Eye Darkness, Puffiness & Tired Look with Expert Care',
-            description: 'Struggling with dark circles, under-eye pigmentation, or tired-looking eyes? Our dark circle treatment in Dubai targets the root causes to restore a brighter and more refreshed appearance. At Rama Care Polyclinic, we offer safe, medically guided treatments designed to reduce darkness, improve skin tone, and deliver long-lasting results.',
+           title: 'Dark Circles Treatment in Dubai',
+            subtitle: 'Advanced Under Eye Rejuvenation for Brighter, Younger-Looking Eyes',
+            description: 'Dark circles under the eyes can make your face look tired, dull, stressed, and older than your actual age. At Rama Care Polyclinic, we provide advanced and personalized dark circles treatment in Dubai designed to reduce under-eye pigmentation, puffiness, hollowness, and tired-looking eyes safely and effectively.\n\n Our DHA-licensed dermatology specialists use advanced under-eye rejuvenation treatments and customized skincare solutions to improve skin texture, stimulate collagen production, and restore naturally brighter and fresher-looking eyes. Whether your dark circles are caused by genetics, aging, pigmentation, lack of sleep, eye strain, dehydration, or volume loss, we create personalized treatment plans based on your skin condition and aesthetic goals.\n\nPatients looking to improve overall skin health often combine dark circles treatment with our <a href="/services/skin-boosters-dubai">Skin Brightening Treatment in Dubai</a>, <a href="/services/face-prp-in-dubai/">PRP Facial Treatment in Dubai</a>, and <a href="/services/pigmentation-dubai/">Pigmentation Treatment in Dubai</a> for complete facial rejuvenation and healthier-looking skin.With modern dermatology technologies, evidence-based procedures, and patient-focused care, we help patients achieve smoother, healthier, and naturally radiant under-eye skin.',
             rating: '500+ Happy Clients',  
             stats: [
               {
@@ -10141,82 +10236,82 @@ rootCauses: [
   description: 'Dark Circle Treatment in Dubai',
   resourcesHeading: 'Complete Aesthetic-Dermatology Services', 
   faqs: [
-    {
-      id: 1,
-      question: 'What is Dark Circle Treatment in Dubai?',
-      answer: 'Dark Circle Treatment in Dubai reduces under-eye darkness, pigmentation, and hollowness using safe, doctor-led therapies like fillers, PRP, or laser, restoring bright, refreshed, and youthful eyes naturally.'
-    },
-    {
-      id: 2,
-      question: 'Who can benefit from Dark Circle Treatment in Dubai?',
-      answer: 'Individuals with hereditary dark circles, aging-related under-eye volume loss, pigmentation, or tired-looking eyes can benefit from Dark Circle Treatment in Dubai for a refreshed and rejuvenated appearance.'
-    },
-    {
-      id: 3,
-      question: 'How long does Dark Circle Treatment in Dubai take?',
-      answer: 'Treatment sessions for Dark Circle Treatment in Dubai usually last 30–60 minutes, with visible results within a few days for fillers and PRP, and 3–6 weeks for laser or topical therapies.'
-    },
-    {
-      id: 4,
-      question: 'Is Dark Circle Treatment in Dubai safe?',
-      answer: 'Yes, Dark Circle Treatment in Dubai at ramacarepolyclinic is performed by experienced doctors using DHA-approved techniques, ensuring safety, minimal downtime, and natural, balanced under-eye rejuvenation results.'
-    },
-    {
-      id: 5,
-      question: 'Are the results of Dark Circle Treatment in Dubai permanent?',
-      answer: 'Results are long-lasting with proper maintenance and skincare. Follow-up sessions may be recommended to sustain a bright, smooth, and youthful under-eye appearance after Dark Circle Treatment in Dubai.'
-    },
-    {
-      id: 6,
-      question: 'Does Dark Circle Treatment in Dubai hurt?',
-      answer: 'Most patients experience minimal discomfort during Dark Circle Treatment in Dubai. Topical numbing can be applied if needed, ensuring the procedure is gentle, safe, and comfortable.'
-    },
-    {
-      id: 7,
-      question: 'How many sessions of Dark Circle Treatment in Dubai are needed?',
-      answer: 'Depending on pigmentation, volume loss, and method, 1–6 sessions of Dark Circle Treatment in Dubai may be required. Your doctor personalizes the plan during the consultation.'
-    },
-    {
-      id: 8,
-      question: 'What are the side effects of Dark Circle Treatment in Dubai?',
-      answer: 'Side effects are usually mild and temporary, such as slight redness, swelling, or bruising. Dark Circle Treatment in Dubai at ramacarepolyclinic is monitored for safe and predictable outcomes.'
-    },
-    {
-      id: 9,
-      question: 'Can Dark Circle Treatment in Dubai treat under-eye hollows?',
-      answer: 'Yes. Dark Circle Treatment in Dubai restores under-eye volume using dermal fillers or PRP to reduce shadowing, improving skin smoothness and overall youthful appearance.'
-    },
-    {
-      id: 10,
-      question: 'How should I prepare for Dark Circle Treatment in Dubai?',
-      answer: 'Avoid alcohol, blood-thinning medications, and excessive sun exposure before Dark Circle Treatment in Dubai. Your doctor provides personalized pre-treatment instructions for safe, effective results.'
-    },
-    {
-      id: 11,
-      question: 'Can Dark Circle Treatment in Dubai be combined with other facial treatments?',
-      answer: 'Yes. Dark Circle Treatment in Dubai can be safely combined with fillers, Botox, PRP, or skin rejuvenation treatments for comprehensive facial enhancement and under-eye brightening.'
-    },
-    {
-      id: 12,
-      question: 'When will I see results from Dark Circle Treatment in Dubai?',
-      answer: 'Visible improvement is seen within 1–2 sessions for fillers or PRP. Laser and topical treatments typically show results within 3–6 weeks after consistent sessions.'
-    },
-    {
-      id: 13,
-      question: 'Is Dark Circle Treatment in Dubai suitable for all skin types?',
-      answer: 'Yes. Dark Circle Treatment in Dubai at ramacarepolyclinic is customized for all skin tones and types, ensuring safety, effectiveness, and natural under-eye brightening without irritation.'
-    },
-    {
-      id: 14,
-      question: 'Can Dark Circle Treatment in Dubai help with pigmentation under the eyes?',
-      answer: 'Absolutely. Dark Circle Treatment in Dubai targets hyperpigmentation, sun damage, or melasma under the eyes using lasers, topical therapies, or PRP for smooth, bright, and even-toned skin.'
-    },
-    {
-      id: 15,
-      question: 'How do I book Dark Circle Treatment in Dubai at ramacarepolyclinic?',
-      answer: 'Booking Dark Circle Treatment in Dubai is simple. Contact ramacarepolyclinic via phone or online to schedule a consultation and create a personalized under-eye treatment plan.'
-    }
-  ],
+  {
+    id: 1,
+    question: 'What is the best dark circles treatment in Dubai?',
+    answer: 'The best dark circles treatment in Dubai depends on the cause of your under-eye concerns. PRP therapy, laser treatment, under-eye fillers, chemical peels, and microneedling are commonly recommended for pigmentation, puffiness, and tear trough hollowness.'
+  },
+  {
+    id: 2,
+    question: 'How much does dark circles treatment cost in Dubai?',
+    answer: 'Dark circles treatment cost in Dubai varies depending on the treatment type, severity of pigmentation, number of sessions required, and personalized treatment plan recommended by the dermatologist.'
+  },
+  {
+    id: 3,
+    question: 'Is PRP treatment effective for dark circles?',
+    answer: 'Yes, <a href="/prp-facial-treatment-dubai/">PRP Facial Treatment in Dubai</a> is highly effective for improving collagen production, skin elasticity, and under-eye brightness naturally. PRP helps rejuvenate thin and tired-looking under-eye skin.'
+  },
+  {
+    id: 4,
+    question: 'Can laser treatment remove dark circles permanently?',
+    answer: 'Laser dark circles treatment can significantly reduce pigmentation and improve skin quality. However, maintenance sessions may sometimes be required depending on aging, lifestyle habits, and skin condition.'
+  },
+  {
+    id: 5,
+    question: 'Which treatment is best for under-eye pigmentation?',
+    answer: 'Laser therapy, chemical peels, and <a href="/pigmentation-treatment-dubai/">Pigmentation Treatment in Dubai</a> are commonly recommended for reducing under-eye pigmentation and improving uneven skin tone.'
+  },
+  {
+    id: 6,
+    question: 'Are under-eye fillers safe for tear trough treatment?',
+    answer: 'Yes, under-eye fillers are generally safe when performed by experienced DHA-licensed dermatology professionals. Fillers help restore lost volume and reduce hollow under-eye shadows naturally.'
+  },
+  {
+    id: 7,
+    question: 'How many sessions are needed for dark circles treatment?',
+    answer: 'The number of sessions depends on the severity of dark circles, treatment type, skin quality, and individual aesthetic goals. Some patients notice improvement after a few sessions, while others may require combination treatments.'
+  },
+  {
+    id: 8,
+    question: 'Is there any downtime after dark circles treatment?',
+    answer: 'Most under-eye rejuvenation procedures involve minimal downtime. Mild redness, swelling, or sensitivity may occur temporarily after treatments like laser therapy, PRP, or microneedling.'
+  },
+  {
+    id: 9,
+    question: 'Can dark circles return after treatment?',
+    answer: 'Yes, dark circles may return over time due to aging, stress, lack of sleep, dehydration, genetics, and lifestyle habits. Following proper skincare and maintenance treatments can help prolong results.'
+  },
+  {
+    id: 10,
+    question: 'Which treatments can be combined with dark circles treatment?',
+    answer: 'Patients often combine dark circles treatment with <a href="/skin-brightening-treatment-dubai/">Skin Brightening Treatment in Dubai</a>, <a href="/hydrafacial-treatment-dubai/">HydraFacial Treatment in Dubai</a>, and <a href="/anti-aging-treatment-dubai/">Anti-Aging Treatment in Dubai</a> for complete facial rejuvenation and healthier-looking skin.'
+  },
+  {
+    id: 11,
+    question: 'Is the treatment for dark circles painful?',
+    answer: 'Most dark circle treatments involve minimal discomfort. Numbing creams and advanced dermatology techniques help ensure patient comfort during procedures like PRP, laser therapy, fillers, and microneedling.'
+  },
+  {
+    id: 12,
+    question: 'How long do dark circles treatment results last?',
+    answer: 'Results vary depending on the treatment type, skin condition, aging process, and lifestyle habits. Treatments like PRP and laser therapy improve skin gradually, while fillers may require maintenance sessions over time.'
+  },
+  {
+    id: 13,
+    question: 'Can dark circles treatment help with puffy eyes?',
+    answer: 'Yes, certain under-eye treatments help reduce puffiness and eye bags by improving circulation, skin quality, and fluid retention beneath the eyes.'
+  },
+  {
+    id: 14,
+    question: 'Who is a good candidate for dark circles treatment in Dubai?',
+    answer: 'People with under-eye pigmentation, tear trough hollowness, puffiness, tired-looking eyes, or thin under-eye skin may benefit from professional dark circles treatment after a detailed skin assessment.'
+  },
+  {
+    id: 15,
+    question: 'What should I avoid after dark circles treatment?',
+    answer: 'After treatment, patients are generally advised to avoid excessive sun exposure, rubbing the eyes, smoking, dehydration, and harsh skincare products for proper healing and long-lasting results.'
+  }
+],
         resources: [
           {
             id: 1,
@@ -12240,8 +12335,8 @@ faq: {
 
      'aesthetic-dermatology-dubai-hair-treatment-hair-removal': {
       hero: {
-        subtitle: 'Safe, Effective & Long-Lasting Hair Reduction with Medical Care',
-        description: 'Unwanted hair can affect comfort, confidence, and daily routines. At ramacarepolyclinic, we provide Hair Removal in Dubai using medically approved techniques that reduce unwanted hair safely, gently, and effectively—while protecting your skin’s health.',
+        subtitle: 'Smooth, Hair-Free Skin With Advanced Laser Technology',
+        description: 'Laser Hair Removal in Dubai is a safe and effective cosmetic treatment designed to reduce unwanted hair growth on the face and body with long-lasting results. At Rama Care Polyclinic, we provide personalized laser hair reduction treatments using advanced technology suitable for different skin and hair types. Our experienced aesthetic specialists create customized treatment plans to help target unwanted hair while maintaining skin comfort and safety. Laser hair removal is commonly chosen for areas such as the face, arms, legs, underarms, bikini line, chest, and back. Whether you are looking for smoother skin, reduced ingrown hairs, or a long-term alternative to shaving and waxing, our laser hair removal treatments in Dubai are designed to support effective and comfortable hair reduction results.',
         rating: '500+ Happy Clients',  
         stats: [
           {
@@ -12346,270 +12441,376 @@ faq: {
         ]
       },
       overview: {
-        title: 'Understanding Hair Removal in Dubai',
+        title: 'Understanding Laser Hair Removal Treatment',
         problemIntro: {
-          title: 'The Problem: Unwanted Hair & Skin Concerns',
-          description: 'Hair growth is influenced by genetics, hormones, and skin type. Temporary methods like shaving or waxing often cause irritation, ingrown hairs, and fast regrowth.'
+          title: 'Common Laser Hair Removal Concerns',
+          description: 'Many individuals searching for Laser Hair Removal Dubai feel frustrated with temporary hair removal methods, inconsistent laser results, or treatments performed without proper medical supervision. Shaving, waxing, and low-quality laser procedures often lead to repeated maintenance, skin irritation, and unsatisfactory long-term outcomes.At Rama Care Polyclinic, we provide personalized Laser Hair Removal Dubai treatments using advanced FDA-approved laser technology and DHA-supervised protocols designed to support safer procedures, improved comfort, and long-lasting hair reduction results.'
         },
        solutionIntro: {
-  title: 'Our Solution: Hair Removal Treatment in Dubai',
+  title: 'Advanced Laser Hair Removal in Dubai',
   description:
-    'Our Hair Removal Treatment in Dubai offers safe, effective, and long-lasting solutions tailored for all skin types.'
+    'At Rama Care Polyclinic, we use advanced laser technology designed to target unwanted hair with precision while prioritizing skin safety and comfort.'
 },
        leftCards: [
   {
     id: 1,
-    title: 'What Is Hair Removal?',
+    title: 'What is Laser Hair Removal?',
     description:
-      'Hair Removal in Dubai is a professional medical-aesthetic treatment designed to reduce unwanted hair growth from the face and body. Treatments are selected based on hair thickness, skin tone, and treatment goals to ensure safe and long-lasting results.'
+      'Laser Hair Removal is a non-surgical cosmetic procedure that uses concentrated laser energy to target hair follicles and reduce unwanted hair growth over time. The laser energy is absorbed by the pigment in the hair follicle, helping slow future hair growth while minimizing damage to the surrounding skin. At Rama Care Polyclinic, our laser hair removal treatments are tailored according to your skin tone, hair texture, treatment area, and aesthetic goals to ensure safe and effective treatment sessions.'
   },
   {
     id: 2,
-    title: 'Who Is It For?',
-    description: 'Hair removal treatment is suitable for individuals with:',
+    title: 'Areas Commonly Treated With Laser Hair Removal',
+    description: 'Laser hair reduction treatments are commonly performed on:',
     listItems: [
-      'Excess or unwanted body hair',
-      'Facial hair concerns',
-      'Ingrown hair problems',
-      'Sensitive skin reactions to shaving or waxing',
-      'Desire for smoother, long-term results'
+      'Face and upper lip',
+'Chin and jawline',
+'Underarms',
+'Arms and legs',
+'Bikini and Brazilian areas',
+'Chest and back',
+'Neck and shoulders',
+'Abdomen'
     ]
   },
   {
     id: 3,
-    title: 'Duration',
+    title: 'Who Can Benefit From Laser Hair Removal?',
     description:
-      'Sessions typically last 15–60 minutes, depending on the treatment area. Noticeable reduction appears gradually over multiple sessions as hair growth cycles are targeted.'
+      'Laser hair removal may benefit individuals who:',
+      listItems: [
+      'Experience unwanted facial or body hair',
+'Frequently shave or wax',
+'Have ingrown hair concerns',
+'Want smoother skin texture',
+'Prefer long-term hair reduction solutions',
+'Experience skin irritation from traditional hair removal methods',
+
+    ]
   }
 ],
-     rootCauses: [
+    rootCauses: [
   {
     id: 1,
-    title: 'Advanced Laser Therapy',
+    title: 'Frequent Hair Regrowth & Daily Maintenance',
     description:
-      'Targets hair follicles precisely to reduce hair growth permanently, leaving skin smooth and clear.',
-    severity: null,
-    severityColor: null
+      'Temporary methods such as shaving, threading, and waxing often result in fast hair regrowth, ingrown hair, skin irritation, and continuous maintenance. Advanced Laser Hair Removal Dubai treatments may help support smoother skin with longer-lasting reduction of unwanted hair.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Gentle Hair Removal Techniques',
+    title: 'Ingrown Hair & Skin Irritation',
     description:
-      'Combines modern technology with soothing treatments to prevent irritation, redness, or ingrown hairs.',
-    severity: null,
-    severityColor: null
+      'Repeated waxing and shaving may cause ingrown hair, razor bumps, redness, and skin sensitivity. Professional laser hair reduction treatments can help reduce irritation while improving overall skin smoothness and comfort.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 3,
-    title: 'Customized Treatment Plans',
+    title: 'Uneven Results from Low-Quality Laser Treatments',
     description:
-      'Personalized approaches based on hair type, skin sensitivity, and target areas for optimal results.',
-    severity: null,
-    severityColor: null
+      'Generic laser settings and outdated machines may fail to target hair follicles effectively, leading to patchy hair reduction and inconsistent outcomes. Customized Laser Hair Removal Dubai treatments help improve treatment precision according to skin type and hair texture.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Holistic Skin Care',
+    title: 'Sensitive Skin & Safety Concerns',
     description:
-      'Supports the skin post-treatment with natural healing therapies, calming inflammation, and promoting healthy texture.',
-    severity: null,
-    severityColor: null
+      'Incorrect laser settings may increase the risk of redness, burns, pigmentation, or irritation, especially for darker or sensitive skin types. Medical supervision and proper skin assessment are essential for safer laser procedures.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
-    title: 'Long-Term Results',
+    title: 'Lack of Personalized Laser Settings',
     description:
-      'Reduces hair regrowth, improves skin health, and boosts confidence for lasting smoothness.',
-    severity: null,
-    severityColor: null
-  }
+      'Every individual has different skin tones, hair density, sensitivity levels, and treatment goals. One-size-fits-all laser procedures may reduce treatment effectiveness and increase discomfort. Personalized laser treatment plans help support safer and more effective results.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+  },
+  {
+    id: 6,
+    title: 'Outdated Laser Technology',
+    description:
+      'Many clinics still use older laser systems that may require more sessions and provide slower results. Advanced Laser Hair Removal Dubai treatments should use modern FDA-approved laser devices designed for better comfort, precision, and long-term hair reduction.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
+  },
 ],
        quickFacts: [
-  { label: 'Treatment Type', value: 'Non-surgical, minimally invasive' },
-  { label: 'Anesthesia', value: 'Not required' },
-  { label: 'Recovery Time', value: 'Immediate' },
-  { label: 'Side Effects', value: 'Mild redness or sensitivity (temporary)' }
+  { label: 'Treatment Type', value: 'Non-surgical laser hair reduction' },
+  { label: 'Procedure Duration ', value: '15–60 minutes, depending on the area' },
+  { label: 'Downtime', value: 'Minimal' },
+  { label: 'Comfort Level', value: 'Mild warmth or tingling sensation' },
+  { label: 'Sessions Required', value: 'Multiple sessions recommended' },
+  { label: 'Suitable Areas', value: 'Face and body' },
+  { label: 'Safety', value: 'Performed by trained professionals' },
 ],
-      approachCards: [
+     approachCards: [
   {
     id: 1,
-    title: 'Advanced Laser Therapy',
+    title: 'Personalized Treatment Plans',
     description:
-      'Targets hair follicles precisely to reduce hair growth permanently, leaving skin smooth and clear.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Each laser hair removal treatment is customized according to skin tone, hair thickness, treatment area, hair growth pattern, sensitivity level, and aesthetic goals.',
+    hasLearnMore: true,
+    expandedContent:
+      'This personalized approach helps improve treatment effectiveness and patient comfort.'
   },
   {
     id: 2,
-    title: 'Gentle Hair Removal Techniques',
+    title: 'Advanced Laser Technology',
     description:
-      'Combines modern technology with soothing treatments to prevent irritation, redness, or ingrown hairs.',
+      'Our laser systems are designed to target hair follicles efficiently while minimizing discomfort and supporting safer treatment for multiple skin types.',
     hasLearnMore: false,
     expandedContent: null
   },
   {
     id: 3,
-    title: 'Customized Treatment Plans',
+    title: 'Comfortable & Hygienic Treatment Environment',
     description:
-      'Personalized approaches based on hair type, skin sensitivity, and target areas for optimal results.',
+      'We maintain high standards of hygiene, patient care, and treatment safety throughout every laser hair removal session.',
     hasLearnMore: false,
     expandedContent: null
   },
   {
     id: 4,
-    title: 'Holistic Skin Care',
+    title: 'Long-Term Hair Reduction',
     description:
-      'Supports the skin post-treatment with natural healing therapies, calming inflammation, and promoting healthy texture.',
-    hasLearnMore: false,
-    expandedContent: null
-  },
-  {
-    id: 5,
-    title: 'Long-Term Results',
-    description:
-      'Reduces hair regrowth, improves skin health, and boosts confidence for lasting smoothness.',
+      'Laser hair reduction treatments may help reduce unwanted hair growth, minimize ingrown hairs, improve skin smoothness, reduce shaving and waxing frequency, and support long-lasting results.',
     hasLearnMore: false,
     expandedContent: null
   }
 ]
       },
-     healingJourney: {
-  title: 'Your Hair Removal Journey: Step by Step',
-  description:
-    'Structured, doctor-guided approach to ensure safe, effective, and permanent hair removal with Electrolysis in Dubai.',
+    healingJourney: {
+  title: 'Your Laser Hair Removal Journey',
+  description: null,
   steps: [
     {
       id: 1,
       number: '01',
-      title: 'Initial Consultation & Skin Assessment',
+      title: 'Step 1 – Consultation & Skin Assessment',
       duration: 'Step 1',
       description:
-        'Comprehensive evaluation of hair type, density, and skin sensitivity to create a personalized electrolysis plan.',
+        'Our specialist evaluates your skin type, hair texture, treatment goals, and medical history to create a personalized laser treatment plan.',
       keyActivities: [
-        'Medical history review',
-        'Skin and hair mapping',
-        'Discussion of goals and expectations',
-        'Personalized session plan creation'
+        'Skin and hair assessment',
+        'Treatment suitability evaluation',
+        'Area mapping and consultation',
+        'Personalized treatment planning'
       ],
       side: 'right'
     },
     {
       id: 2,
       number: '02',
-      title: 'Preparation & Trial Session',
+      title: 'Step 2 – Laser Hair Removal Session',
       duration: 'Step 2',
       description:
-        'Initial trial treatment to ensure comfort and suitability, preparing the skin for the full electrolysis course.',
+        'The laser device targets unwanted hair follicles while protecting the surrounding skin.',
       keyActivities: [
-        'Test treatment on a small area',
-        'Topical numbing if needed',
-        'Observation of skin response',
-        'Patient guidance for aftercare'
+        'Cleansing of the treatment area',
+        'Laser application',
+        'Cooling and skin comfort measures',
+        'Post-treatment care guidance'
       ],
       side: 'left'
     },
     {
       id: 3,
       number: '03',
-      title: 'Active Electrolysis Treatment Phase',
+      title: 'Step 3 – Follow-Up Sessions',
       duration: 'Step 3',
       description:
-        'Regular sessions targeting individual hair follicles for permanent hair removal.',
+        'Multiple sessions are generally recommended to target hair growth cycles effectively and support long-term results.',
       keyActivities: [
-        '1–3 sessions per week depending on the area',
-        'Precision follicle treatment with controlled electrical current',
-        'Post-session care with soothing creams',
-        'Progress monitoring and plan adjustments'
+        'Progress monitoring',
+        'Session adjustments if needed',
+        'Skin care recommendations',
+        'Maintenance guidance'
       ],
       side: 'right'
-    },
-    {
-      id: 4,
-      number: '04',
-      title: 'Maintenance & Follow-up',
-      duration: 'Step 4',
-      description:
-        'Follow-up treatments and long-term care guidance to sustain smooth, hair-free skin.',
-      keyActivities: [
-        'Periodic check-ins',
-        'Additional touch-up sessions if needed',
-        'Skin health and care advice',
-        'Long-term hair management support'
-      ],
-      side: 'left'
     }
   ]
 },
+
       benefits: {
         title: 'Clinically-Observed Benefits',
         description: 'Based on years of providing hair treatment in Dubai.',
         benefits: [
-          {
-            id: 1,
-            title: 'Reduced hair growth over time',
-            percentage: 92,
-            description: null
-          },
-          {
-            id: 2,
-            title: ' Smoother skin texture',
-            percentage: 88,
-            description: null
-          },
-          {
-            id: 3,
-            title: 'Fewer ingrown hairs',
-            percentage: 90,
-            description: null
-          },
-          {
-            id: 4,
-            title: 'Reduced skin irritation',
-            percentage: 89,
-            description: null
-          },
-          {
-            id: 5,
-            title: ' Improved confidence and comfort',
-            percentage: 85,
-            description: null
-          }
-        ],
-        comparisonTitle: 'Hair Removal vs. Conventional Methods',
-        comparisonDescription: 'Understanding the Difference Before Choosing Your Care',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Medical Hair Removal',
-          traditional: 'Regular Hair Products'
-        },
-        comparisonData: [
-          {
+  {
+    id: 1,
+    title: 'Smooth & Low-Maintenance Skin',
+    percentage: 92,
+    description:
+      'Laser hair removal helps reduce frequent shaving and waxing, supporting smoother and more manageable skin.'
+  },
+  {
+    id: 2,
+    title: 'Helps Reduce Ingrown Hairs',
+    percentage: 88,
+    description:
+      'Laser treatments may help reduce recurring ingrown hairs and shaving-related irritation.'
+  },
+  {
+    id: 3,
+    title: 'Precision Hair Reduction',
+    percentage: 90,
+    description:
+      'Laser technology targets hair follicles while minimizing impact on surrounding skin.'
+  },
+  {
+    id: 4,
+    title: 'Time-Saving Hair Removal Solution',
+    percentage: 89,
+    description:
+      'Long-term hair reduction can help simplify grooming routines and reduce maintenance time.'
+  },
+  {
+    id: 5,
+    title: 'Suitable for Multiple Body Areas',
+    percentage: 85,
+    description:
+      'Laser hair reduction treatments can be customized for both small and large treatment areas.'
+  }
+],
+       comparisonTitle: 'Laser Hair Removal vs Traditional Hair Removal Methods',
+comparisonDescription: 'Understanding the Difference Before Choosing Your Care',
+comparisonHeaders: {
+  feature: 'Method',
+  ourTreatment: 'Laser Hair Removal',
+  traditional: 'Waxing/Shaving'
+},
+comparisonData: [
+  {
     feature: 'Results',
-    ayurvedic: 'Long-term reduction',
+    ayurvedic: 'Long-term hair reduction',
     conventional: 'Temporary'
   },
   {
-    feature: 'Skin Impact',
-    ayurvedic: 'Gentle, controlled',
-    conventional: 'Irritation common'
+    feature: 'Ingrown Hair Risk',
+    ayurvedic: 'Lower',
+    conventional: 'Higher'
   },
   {
-    feature: 'Regrowth',
-    ayurvedic: 'Slower, finer hair',
-    conventional: 'Fast regrowth'
+    feature: 'Maintenance',
+    ayurvedic: 'Reduced over time',
+    conventional: 'Frequent'
   },
   {
-    feature: 'Precision',
-    ayurvedic: 'Targets hair follicles',
-    conventional: 'Surface-level'
+    feature: 'Skin Irritation',
+    ayurvedic: 'Minimal when performed professionally',
+    conventional: 'Common'
   },
   {
-    feature: 'Monitoring',
-    ayurvedic: 'Doctor-supervised',
-    conventional: 'No medical oversight'
+    feature: 'Convenience',
+    ayurvedic: 'Long-term solution',
+    conventional: 'Repetitive maintenance'
   }
+]
+      },
+    whyChoose: {
+      whyChoose: {
+        title: 'Why Choose Rama Care Polyclinic for Laser Hair Removal in Dubai?',
+        intro: null,
+        features: [
+          {
+            id: 1,
+            title: 'Experienced Aesthetic Professionals',
+            description: 'Our trained specialists provide personalized laser hair removal treatments focused on safety, comfort, and effective results.'
+          },
+          {
+            id: 2,
+            title: 'Advanced Technology',
+            description: 'We use modern laser systems designed for precise and efficient hair reduction treatments.'
+          },
+          {
+            id: 3,
+            title: 'Personalized Care',
+            description: 'Each treatment plan is customized according to individual skin type, hair texture, and treatment goals.'
+          },
+          {
+            id: 4,
+            title: 'Comfortable Clinical Environment',
+            description: 'We prioritize hygiene, patient safety, and professional care throughout every treatment session.'
+          }
+        ]
+      }
+    },
+    hairRemovalInfo: {
+    
+      treatmentAreas: {
+        title: 'Laser Hair Removal Areas We Treat',
+        areas: [
+          {
+            title: 'Facial Laser Hair Removal',
+            description: 'Laser treatment for areas such as the upper lip, chin, jawline, cheeks, and sideburns helps reduce unwanted facial hair and improve skin smoothness.'
+          },
+          {
+            title: 'Underarm Laser Hair Removal',
+            description: 'Underarm laser treatments help reduce dark shadows, ingrown hairs, and frequent shaving needs while supporting smoother skin.'
+          },
+          {
+            title: 'Bikini & Brazilian Laser Hair Removal',
+            description: 'Laser hair reduction for the bikini area provides a long-term alternative to waxing and shaving while helping minimize irritation and ingrown hairs.'
+          },
+          {
+            title: 'Leg & Arm Laser Hair Removal',
+            description: 'Laser treatment for larger body areas such as the arms and legs helps support long-lasting hair reduction and smoother skin texture.'
+          },
+          {
+            title: 'Chest & Back Laser Hair Removal',
+            description: 'Laser treatments for the chest and back are commonly chosen by individuals seeking convenient long-term body hair reduction.'
+          }
         ]
       },
+      beforeAfterCare: {
+        title: 'Before & After Care for Laser Hair Removal',
+        before: {
+          title: 'Before Treatment',
+          items: [
+            'Avoid waxing or threading before sessions',
+            'Shave the treatment area if advised',
+            'Avoid excessive sun exposure',
+            'Inform the specialist about active skin concerns'
+          ]
+        },
+        after: {
+          title: 'After Treatment',
+          items: [
+            'Avoid direct sun exposure temporarily',
+            'Use gentle skincare products',
+            'Avoid excessive heat or steam for 24–48 hours',
+            'Follow post-treatment care instructions carefully'
+          ]
+        }
+      },
+      multipleSessions: {
+        title: 'Why Are Multiple Laser Hair Removal Sessions Needed?',
+        description: 'Hair grows in different growth cycles, and laser treatment is most effective during the active growth phase. Multiple sessions are usually recommended to target hair follicles effectively over time and support long-term hair reduction results.',
+        factors: [
+          'treatment area',
+          'hair thickness',
+          'skin tone',
+          'hormonal factors',
+          'hair growth patterns'
+        ]
+      },
+      medicalEvaluation: {
+        title: 'Who May Need Medical Evaluation Before Laser Hair Removal?',
+        intro: 'Laser hair removal may not be suitable for everyone. A professional consultation is recommended for individuals who:',
+        conditions: [
+          'Have active skin infections',
+          'Experience certain skin sensitivities',
+          'Are pregnant',
+          'Have recent sunburn or tanning',
+          'Use specific photosensitive medications'
+        ],
+        conclusion: 'Our specialists perform a detailed assessment before treatment to ensure safety and suitability.'
+      }
+    },
     pricing: {
   title: 'Transparent Pricing & Customized Hair Removal Packages',
   description:
@@ -12667,121 +12868,91 @@ faq: {
   description: null,
   resourcesHeading: 'Complete Aesthetic-Dermatology Services', 
   faqs: [
-    {
-      id: 1,
-      question: 'What is hair removal treatment in Dubai?',
-      answer:
-        'Hair Removal in Dubai involves medically guided techniques that safely reduce unwanted hair by targeting hair follicles, delivering smoother skin with long-lasting results under professional supervision.'
-    },
-    {
-      id: 2,
-      question: 'Is hair removal treatment safe for all skin types?',
-      answer:
-        'Yes, Hair Removal in Dubai at ramacarepolyclinic is customized for different skin tones and hair types, ensuring safe, controlled treatment with minimal risk when performed by trained professionals.'
-    },
-    {
-      id: 3,
-      question: 'How many sessions are required for effective hair removal?',
-      answer:
-        'Most patients need multiple sessions because hair grows in cycles. Typically, 6–10 sessions are recommended for noticeable, long-term hair reduction, depending on hair density and treatment area.'
-    },
-    {
-      id: 4,
-      question: 'Does hair removal treatment cause pain?',
-      answer:
-        'Hair Removal in Dubai is generally well tolerated. Patients may feel mild warmth or tingling, but discomfort is minimal and temporary, with advanced systems designed to improve comfort.'
-    },
-    {
-      id: 5,
-      question: 'What areas of the body can be treated?',
-      answer:
-        'Hair Removal in Dubai can treat the face, underarms, arms, legs, bikini area, back, chest, and other areas where unwanted hair growth affects comfort or confidence.'
-    },
-    {
-      id: 6,
-      question: 'Is there any downtime after hair removal treatment?',
-      answer:
-        'There is usually no downtime. Most patients resume daily activities immediately after Hair Removal in Dubai, with only mild redness that typically settles within a few hours.'
-    },
-    {
-      id: 7,
-      question: 'When will I see results after hair removal?',
-      answer:
-        'Initial hair reduction may be visible after the first few sessions. Progressive reduction and finer regrowth usually appear over several weeks with consistent treatment sessions.'
-    },
-    {
-      id: 8,
-      question: 'Can hair removal permanently remove hair?',
-      answer:
-        'Hair Removal in Dubai provides long-term hair reduction, not instant permanent removal. Treated hair grows back finer and lighter, with maintenance sessions helping sustain smooth results.'
-    },
-    {
-      id: 9,
-      question: 'Is hair removal suitable for sensitive skin?',
-      answer:
-        'Yes, treatments are adjusted for sensitive skin. At ramacarepolyclinic, parameters are carefully selected to minimize irritation while achieving effective hair reduction safely.'
-    },
-    {
-      id: 10,
-      question: 'Are there any side effects of hair removal treatment?',
-      answer:
-        'Side effects are minimal and temporary, including mild redness or warmth. Serious complications are rare when Hair Removal in Dubai is performed under medical supervision.'
-    },
-    {
-      id: 11,
-      question: 'How should I prepare for hair removal treatment?',
-      answer:
-        'Patients are usually advised to shave the area before sessions, avoid sun exposure, and stop waxing or threading prior to Hair Removal in Dubai for optimal results.'
-    },
-    {
-      id: 12,
-      question: 'Can men undergo hair removal treatment?',
-      answer:
-        'Yes, Hair Removal in Dubai is suitable for both men and women. Men commonly seek treatment for back, chest, neck, and beard-line hair reduction.'
-    },
-    {
-      id: 13,
-      question: 'Is hair removal effective for hormonal hair growth?',
-      answer:
-        'Hair Removal in Dubai can reduce unwanted hair caused by hormonal imbalance, but results vary. Medical evaluation helps combine treatment with appropriate long-term management strategies.'
-    },
-    {
-      id: 14,
-      question: 'How long do hair removal results last?',
-      answer:
-        'Results are long-lasting with proper session completion. Periodic maintenance sessions help sustain smooth skin and manage any new hair growth over time.'
-    },
-    {
-      id: 15,
-      question: 'Why choose ramacarepolyclinic for hair removal in Dubai?',
-      answer:
-        'ramacarepolyclinic offers doctor-led Hair Removal in Dubai with personalized plans, modern technology, and DHA-approved safety protocols for reliable, comfortable, and effective care.'
-    }
-  ],
+  {
+    id: 1,
+    question: 'Is Laser Hair Removal Dubai safe for all skin types?',
+    answer:
+      'Laser Hair Removal Dubai treatments are generally safe for multiple skin types when performed by trained professionals using advanced laser technology and personalized treatment settings designed for individual skin and hair concerns.'
+  },
+  {
+    id: 2,
+    question: 'How many sessions are needed for Laser Hair Removal Dubai?',
+    answer:
+      'Most Laser Hair Removal Dubai treatments require multiple sessions because hair grows in different cycles. The exact number depends on the treatment area, hair thickness, skin tone, and hormonal factors.'
+  },
+  {
+    id: 3,
+    question: 'Does Laser Hair Removal Dubai provide permanent results?',
+    answer:
+      'Laser Hair Removal Dubai helps achieve long-term hair reduction by targeting hair follicles directly. Some individuals may require maintenance sessions periodically depending on their natural hair growth patterns and hormones.'
+  },
+  {
+    id: 4,
+    question: 'Is Laser Hair Removal Dubai painful?',
+    answer:
+      'Laser Hair Removal Dubai procedures usually cause mild warmth or light snapping sensations during treatment. Most patients find the procedure comfortable, especially when modern cooling technologies are used during sessions.'
+  },
+  {
+    id: 5,
+    question: 'Which areas can be treated with Laser Hair Removal Dubai?',
+    answer:
+      'Laser Hair Removal Dubai treatments are commonly performed on the face, underarms, bikini area, legs, arms, chest, back, neck, and other body areas experiencing unwanted hair growth.'
+  },
+  {
+    id: 6,
+    question: 'Can Laser Hair Removal Dubai help reduce ingrown hairs?',
+    answer:
+      'Laser Hair Removal Dubai may help reduce recurring ingrown hairs caused by shaving or waxing. The treatment targets hair follicles directly, helping minimize irritation and uneven hair regrowth over time.'
+  },
+  {
+    id: 7,
+    question: 'What should I avoid before Laser Hair Removal Dubai sessions?',
+    answer:
+      'Before Laser Hair Removal Dubai treatments, avoid waxing, threading, excessive sun exposure, and tanning. Patients should also follow all pre-treatment instructions provided by the laser treatment specialist carefully.'
+  },
+  {
+    id: 8,
+    question: 'Is there downtime after Laser Hair Removal Dubai treatment?',
+    answer:
+      'Laser Hair Removal Dubai usually involves minimal downtime. Mild redness or temporary skin sensitivity may occur after treatment, but most individuals resume normal activities shortly after their session.'
+  },
+  {
+    id: 9,
+    question: 'Can men undergo Laser Hair Removal Dubai treatments?',
+    answer:
+      'Yes, Laser Hair Removal Dubai treatments are suitable for both men and women seeking long-term reduction of unwanted hair on areas such as the chest, back, shoulders, neck, and face.'
+  },
+  {
+    id: 10,
+    question: 'Why choose Rama Care Polyclinic for Laser Hair Removal Dubai?',
+    answer:
+      'Rama Care Polyclinic provides personalized Laser Hair Removal Dubai treatments using advanced laser technology, experienced professionals, hygienic treatment standards, and customized care designed for patient comfort and safety.'
+  }
+],
         resources: [
            {
             id: 1,
-            text: 'Hair Loss',
+            text: 'Skin Treatment Dubai',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/hair-loss-dubai'
+            link: '/services/skin-treatment-dubai/'
           },
           {
             id: 2,
-            text: 'Hair Growth',
+            text: 'HydraFacial Treatment Dubai',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/hair-growth-dubai'
+            link: '/services/signature-hydra-facial-dubai/'
           },
           {
             id: 3,
-            text: 'Hair PRP',
+            text: 'Botox Treatment Dubai',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/hair-prp-dubai'
+            link: '/services/botox-dubai/'
           },
           {
             id: 4,
-            text: 'Hair Removal',
+            text: 'Dermal Fillers Dubai',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hair-removal-dubai'
+            link: '/services/fillers-in-dubai/'
           },
         ]
       },

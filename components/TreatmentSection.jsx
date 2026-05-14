@@ -189,7 +189,7 @@ const TreatmentSection = ({ category, content }) => {
   // Consultation CTA Section Content - Configurable for different pages
   const consultationContent = {
     heading: content?.consultationHeading || 'Not Sure Which Treatment is Right for You?',
-    subtext: content?.consultationSubtext || 'Get expert guidance at RamaCare Polyclinic, a trusted Polyclinic in Dubai. Book your FREE consultation today and receive a personalized treatment plan tailored to your needs.',
+    subtext: content?.consultationSubtext || 'Get expert guidance from our DHA-licensed healthcare specialists in Dubai and receive a personalized treatment plan tailored to your needs. Book your FREE consultation today and receive a personalized treatment plan tailored to your needs.',
     buttonText: content?.consultationButtonText || 'Get Free Consultation',
     backgroundColor: content?.consultationBgColor || 'bg-[#1E5A3C]',
     buttonColor: content?.consultationButtonColor || 'bg-[#C9A547] hover:bg-[#B8944A]'

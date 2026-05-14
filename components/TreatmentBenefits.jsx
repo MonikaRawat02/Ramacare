@@ -1,4 +1,95 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+// BenefitCard component to handle individual benefit state
+const BenefitCard = ({ benefit, defaultBenefits }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const fallbackById = defaultBenefits.find(d => d.id === benefit.id && typeof d.percentage === 'number');
+  const fallbackByTitle = defaultBenefits.find(d => d.title === benefit.title && typeof d.percentage === 'number');
+  const resolvedPercentage =
+    typeof benefit.percentage === 'number' && !Number.isNaN(benefit.percentage)
+      ? benefit.percentage
+      : (fallbackById?.percentage ?? fallbackByTitle?.percentage ?? 80);
+
+  return (
+    <div
+      className="rounded-lg p-4 md:p-5 shadow-sm hover:shadow-lg transition-all duration-300 cursor-pointer group relative overflow-hidden"
+    >
+      <div className="absolute inset-0 bg-gradient-to-br from-[#047857]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+      <div className="flex items-start gap-3 mb-3 relative z-10">
+        <div className="w-10 h-10 md:w-12 md:h-12 bg-[#2D5F3F] rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-md">
+          <svg
+            className="w-5 h-5 md:w-6 md:h-6 text-white"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
+        </div>
+        <div className="flex-1 min-w-0">
+          <h3 className="text-sm md:text-base font-normal text-[#1F2937] leading-snug group-hover:text-[#2D5F3F] transition-colors duration-300">
+            {benefit.title}
+          </h3>
+        </div>
+      </div>
+      <div className="relative z-10">
+        <div className="w-full h-2 bg-[#D5D5C8] rounded-full overflow-hidden mb-1.5">
+          <div
+            className="h-full bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] rounded-full transition-all duration-700 ease-out group-hover:shadow-md"
+            style={{ width: `${resolvedPercentage}%` }}
+          ></div>
+        </div>
+        <div className="flex justify-end">
+          <span className="text-xs text-[#6B7280] font-medium">
+            {resolvedPercentage}% patients
+          </span>
+        </div>
+      </div>
+      
+      {/* Description with anchor tags */}
+      {benefit.description && (
+        <div className="relative z-10 mt-4">
+          <div className={`text-xs md:text-sm text-[#4B5563] leading-relaxed ${isExpanded ? '' : 'line-clamp-3'}`}>
+            <span 
+              dangerouslySetInnerHTML={{ __html: benefit.description }} 
+              className="[&>a]:text-[#047857] [&>a]:font-semibold [&>a]:hover:bg-[#047857]/10 [&>a]:hover:px-1 [&>a]:hover:rounded [&>a]:transition-all [&>a]:duration-200"
+            />
+          </div>
+          {benefit.hasLearnMore && (
+            <button
+              onClick={() => setIsExpanded(!isExpanded)}
+              className="mt-2 text-xs md:text-sm text-[#2D5F3F] font-semibold hover:text-[#047857] transition-colors duration-200 flex items-center gap-1"
+            >
+              {isExpanded ? 'Show Less' : 'Learn More'}
+              <svg
+                className={`w-4 h-4 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          )}
+          {isExpanded && benefit.expandedContent && (
+            <div className="mt-3 pt-3 border-t border-[#E5E7EB] text-xs md:text-sm text-[#4B5563] leading-relaxed">
+              <span 
+                dangerouslySetInnerHTML={{ __html: benefit.expandedContent }} 
+                className="[&>a]:text-[#047857] [&>a]:font-semibold [&>a]:hover:bg-[#047857]/10 [&>a]:hover:px-1 [&>a]:hover:rounded [&>a]:transition-all [&>a]:duration-200"
+              />
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+};
+
 const TreatmentBenefits = ({ content }) => {
   const defaultBenefits = [
     {
@@ -118,58 +209,9 @@ const TreatmentBenefits = ({ content }) => {
 
         {/* Benefits Grid - New Horizontal Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mb-12 md:mb-16">
-          {benefits.map((benefit, index) => {
-            const fallbackById = defaultBenefits.find(d => d.id === benefit.id && typeof d.percentage === 'number');
-            const fallbackByTitle = defaultBenefits.find(d => d.title === benefit.title && typeof d.percentage === 'number');
-            const resolvedPercentage =
-              typeof benefit.percentage === 'number' && !Number.isNaN(benefit.percentage)
-                ? benefit.percentage
-                : (fallbackById?.percentage ?? fallbackByTitle?.percentage ?? 80);
-            return (
-              <div
-                key={benefit.id}
-                className={`
-              } rounded-lg p-4 md:p-5 shadow-sm hover:shadow-lg hover:scale-95 transition-all duration-300 cursor-pointer group relative overflow-hidden`}
-              >
-                <div className="absolute inset-0 bg-gradient-to-br from-[#047857]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="flex items-start gap-3 mb-3 relative z-10">
-                  <div className="w-10 h-10 md:w-12 md:h-12 bg-[#2D5F3F] rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-md">
-                    <svg
-                      className="w-5 h-5 md:w-6 md:h-6 text-white"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2.5}
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <h3 className="text-sm md:text-base font-normal text-[#1F2937] leading-snug group-hover:text-[#2D5F3F] transition-colors duration-300">
-                      {benefit.title}
-                    </h3>
-                  </div>
-                </div>
-                <div className="relative z-10">
-                  <div className="w-full h-2 bg-[#D5D5C8] rounded-full overflow-hidden mb-1.5">
-                    <div
-                      className="h-full bg-gradient-to-r from-[#2D5F3F] to-[#3A7B51] rounded-full transition-all duration-700 ease-out group-hover:shadow-md"
-                      style={{ width: `${resolvedPercentage}%` }}
-                    ></div>
-                  </div>
-                  <div className="flex justify-end">
-                    <span className="text-xs text-[#6B7280] font-medium">
-                      {resolvedPercentage}% patients
-                    </span>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
+          {benefits.map((benefit) => (
+            <BenefitCard key={benefit.id} benefit={benefit} defaultBenefits={defaultBenefits} />
+          ))}
         </div>
 
         {/* Comparison Table */}
