@@ -266,8 +266,7 @@ export default function AcneTreatmentPage() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
               Why Choose Rama Care for Acne Treatment in Dubai?
             </h2>
@@ -293,8 +292,7 @@ export default function AcneTreatmentPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border border-gray-100 hover:border-gray-200"
-              >
+                className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border border-gray-100 hover:border-gray-200">
                 <div className={`w-14 h-14 ${item.color} rounded-xl flex items-center justify-center mb-4`}>
                   <item.icon className="w-7 h-7" />
                 </div>
@@ -408,8 +406,7 @@ export default function AcneTreatmentPage() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
               Types of Acne We Treat
             </h2>
@@ -426,8 +423,7 @@ export default function AcneTreatmentPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all border border-gray-100"
-              >
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all border border-gray-100">
                 <h3 className="text-xl font-bold text-[#1A1A1A] mb-4">{type.title}</h3>
                 <p className="text-[#5F5F5F] mb-4 leading-relaxed">{type.description}</p>
                 
@@ -498,8 +494,7 @@ export default function AcneTreatmentPage() {
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="grid grid-cols-1 md:grid-cols-2 gap-4"
-            >
+              className="grid grid-cols-1 md:grid-cols-2 gap-4" >
               {symptoms.map((symptom, index) => (
                 <motion.div
                   key={index}

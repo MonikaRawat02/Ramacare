@@ -4313,7 +4313,7 @@ rootCauses: [
       ayurvedicPrinciple: 'According to Ayurveda, digestive health is fundamental to overall wellness. Ayurvedic detox therapies focus on improving gut health naturally by supporting digestion, promoting healthy elimination, and restoring dosha balance.',
       ayurvedicBenefits: [
         'Many individuals choose <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> and Ayurvedic wellness therapies to support long-term digestive balance',
-        'Therapies such as <a href="/services/nasya-therapy-dubai/">Nasya Therapy Dubai</a>, <a href="/services/abhyanga-massage-dubai/">Abhyanga Massage Dubai</a>, and Shirodhara treatments may be recommended as part of personalized wellness programs',
+        'Therapies such as <a href="/services/nasya-therapy-in-dubai/">Nasya Therapy Dubai</a>, <a href="/services/abhyanga-massage-dubai/">Abhyanga Massage Dubai</a>, and Shirodhara treatments may be recommended as part of personalized wellness programs',
         'Ayurvedic specialists create individualized detoxification plans to support digestive efficiency, toxin elimination, and holistic rejuvenation'
       ],
       additionalContent: {
@@ -4330,7 +4330,7 @@ rootCauses: [
           'Irregular appetite and metabolism',
           'Feeling physically or mentally exhausted'
         ],
-        conclusion: 'Ayurvedic cleansing therapies aim to address these concerns holistically by supporting healthy digestion, natural toxin elimination, and internal balance. As part of personalized <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> programs, additional therapies such as <a href="/services/shirodhara-therapy-in-dubai/">Shirodhara Therapy Dubai</a> and <a href="/services/nasya-therapy-dubai/">Nasya Therapy Dubai</a> may also be recommended to support nervous system balance, stress management, and overall rejuvenation.\n\nAt Rama Care Polyclinic, every wellness plan is customized according to the patient\'s body constitution, lifestyle habits, health condition, and detoxification goals to ensure safe and effective Ayurvedic care.'
+        conclusion: 'Ayurvedic cleansing therapies aim to address these concerns holistically by supporting healthy digestion, natural toxin elimination, and internal balance. As part of personalized <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> programs, additional therapies such as <a href="/services/shirodhara-therapy-in-dubai/">Shirodhara Therapy Dubai</a> and <a href="/services/nasya-therapy-in-dubai/">Nasya Therapy Dubai</a> may also be recommended to support nervous system balance, stress management, and overall rejuvenation.\n\nAt Rama Care Polyclinic, every wellness plan is customized according to the patient\'s body constitution, lifestyle habits, health condition, and detoxification goals to ensure safe and effective Ayurvedic care.'
       }
     },
     gutHealth: {
@@ -4546,7 +4546,87 @@ rootCauses: [
         { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai' },
         { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment-dubai' }
       ],
-      rootCauses: []
+      quickFacts: [
+        { label: 'Treatment Type', value: 'Ayurvedic nasal therapy' },
+        { label: 'Session Duration', value: '30-45 minutes' },
+        { label: 'Anesthesia', value: 'Not required' },
+        { label: 'Downtime', value: 'None' },
+        { label: 'Safety', value: 'DHA-approved Ayurvedic protocols' }
+      ],
+      approachCards: [
+        {
+          id: 1,
+          title: 'Comprehensive Ayurvedic Assessment',
+          description: 'Before starting Nasya Therapy, a detailed Ayurvedic evaluation is performed to understand sinus health, respiratory concerns, dosha imbalance, and lifestyle factors.',
+          hasLearnMore: true,
+          expandedContent: 'This includes nasal passage examination, breathing assessment, stress level evaluation, sleep pattern analysis, and medical history review. Goal: Identify the root causes of respiratory and sinus imbalance for accurate treatment planning.'
+        },
+        {
+          id: 2,
+          title: 'Personalized Nasya Therapy Protocol',
+          description: 'Every patient receives a customized Nasya treatment plan based on their body constitution (Prakriti), current imbalance (Vikriti), and specific symptoms.',
+          hasLearnMore: true,
+          expandedContent: 'Treatment may include Pradhamana Nasya for sinus cleansing, Sneha Nasya for nasal lubrication and nourishment, or Marsha Nasya for deeper detoxification as part of comprehensive Panchakarma wellness programs.'
+        },
+        {
+          id: 3,
+          title: 'Herbal Oil & Medicinal Formulation',
+          description: 'Medicated herbal oils and Ayurvedic formulations are carefully selected and prepared according to the patient\'s condition and treatment requirements.',
+          hasLearnMore: true,
+          expandedContent: 'These herbal preparations help support sinus drainage, reduce nasal congestion, improve breathing comfort, calm the nervous system, and promote mental clarity through natural Ayurvedic principles.'
+        },
+        {
+          id: 4,
+          title: 'Respiratory & Nervous System Support',
+          description: 'Nasya Therapy works holistically to support respiratory wellness, improve nasal comfort, reduce stress, and restore nervous system balance naturally.',
+          hasLearnMore: true,
+          expandedContent: 'Benefits may include improved sinus drainage, better breathing support, reduced nasal dryness, enhanced mental clarity, stress reduction, and improved sleep quality. Goal: Deliver comprehensive respiratory and mental wellness support through authentic Ayurvedic care.'
+        },
+        {
+          id: 5,
+          title: 'Post-Therapy Wellness Guidance',
+          description: 'After Nasya Therapy sessions, patients receive personalized lifestyle and dietary recommendations to maintain respiratory balance and support long-term wellness.',
+          hasLearnMore: true,
+          expandedContent: 'Recommendations may include stress management techniques, sleep hygiene improvement, hydration guidance, breathing exercises, and avoidance of environmental triggers. Goal: Ensure sustained benefits and preventive respiratory care.'
+        }
+      ],
+      rootCauses: [
+        {
+          id: 1,
+          title: 'Sinus Congestion & Nasal Blockage',
+          description: 'Chronic sinus congestion, nasal blockage, and breathing difficulties can significantly impact daily life, sleep quality, and overall comfort. Environmental pollutants, dust exposure, and seasonal allergens often worsen these conditions, leading to persistent discomfort and reduced respiratory wellness.',
+          severity: 'High',
+          severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+        },
+        {
+          id: 2,
+          title: 'Toxin Accumulation in Head & Neck Region',
+          description: 'Modern lifestyle factors such as pollution, stress, poor sleep quality, and excessive screen time contribute to toxin buildup in the head and neck area. This accumulation can affect mental clarity, cause headaches, and disrupt nervous system balance over time.',
+          severity: 'High',
+          severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+        },
+        {
+          id: 3,
+          title: 'Stress & Mental Fatigue',
+          description: 'Chronic stress, anxiety, and mental exhaustion negatively impact concentration, emotional balance, and sleep quality. Without proper nervous system support, these issues can persist and affect overall well-being and daily productivity.',
+          severity: 'Medium',
+          severityColor: 'bg-[#FEF3C7] text-[#92400E]'
+        },
+        {
+          id: 4,
+          title: 'Respiratory Imbalance & Allergies',
+          description: 'Recurring allergies, respiratory discomfort, and breathing irregularities often result from environmental triggers and lifestyle habits. These conditions may lead to chronic nasal irritation, excess mucus production, and reduced oxygen intake.',
+          severity: 'Medium',
+          severityColor: 'bg-[#FEF3C7] text-[#92400E]'
+        },
+        {
+          id: 5,
+          title: 'Poor Sleep & Nervous Tension',
+          description: 'Sleep disturbances, insomnia, and nervous tension can stem from imbalanced doshas and accumulated stress. Poor sleep quality affects mental clarity, emotional stability, and the body\'s natural healing processes.',
+          severity: 'Medium',
+          severityColor: 'bg-[#FEF3C7] text-[#92400E]'
+        }
+      ]
     },
     healingJourney: {
       title: 'Treatment Process',
@@ -29708,8 +29788,8 @@ healingJourney: {
   
     'dental-dubai-root-canal-treatment': {
       hero: {
-        subtitle: 'Painless Relief & Tooth-Saving dental Care',
-        description: 'Root canal treatment is a safe and effective dental procedure designed to save infected or severely damaged teeth while relieving pain and preventing further complications. At our DHA-licensed clinic in Dubai, we use advanced technology and gentle techniques to ensure a comfortable and stress-free experience.',
+        subtitle: 'Painless Relief & Advanced Tooth-Saving Dental Care',
+        description: 'Root canal treatment in Dubai is a highly effective restorative dental procedure designed to eliminate infection, relieve severe tooth pain, and preserve damaged natural teeth.At our DHA-licensed dental clinic in Dubai Healthcare City, experienced dentists and endodontists use advanced diagnostic technology, modern pain-management techniques, and minimally invasive procedures to provide comfortable and stress-free treatment.\n\n A root canal procedure not only removes infection from inside the tooth but also helps restore normal chewing function and prevent future dental complications.Early treatment can save the natural tooth, reduce the risk of abscess formation, and protect surrounding teeth and gums from infection spread.\n\n Many patients avoid treatment due to the misconception that root canals are painful.However, modern root canal therapy is performed using advanced anaesthesia and precision dental instruments, making the procedure comparable to receiving a routine dental filling.Our clinic focuses on patient comfort, accurate diagnosis, and long-term dental health while delivering personalized care using DHA-approved protocols and sterilization standards.',
         rating: '500+ Happy Clients',
        
         ctaButtons: {
@@ -29805,74 +29885,105 @@ healingJourney: {
       overview: {
         title: 'Understanding Root Canal Treatment in Dubai',
         problemIntro: {
-          title: 'Common dental Pain Issues',
+          title: 'Common Causes of Tooth Nerve Infection',
           description: 'Tooth infections and deep decay can cause intense pain, swelling, and sensitivity that interfere with daily life. Many patients delay treatment due to fear or outdated beliefs that root canal treatment is painful or complicated.'
         },
         solutionIntro: {
           title: 'Advanced Root Canal Treatment in Dubai',
           description: 'We offer modern, pain-free root canal treatment in Dubai, designed to eliminate infection, relieve pain, and preserve your natural tooth.'
         },
-        leftCards: [
-          {
-            id: 1,
-            title: 'What Is Root Canal Treatment?',
-            description: 'Root canal treatment is a dental procedure that removes infected or inflamed pulp from inside the tooth. After cleaning and disinfecting the canals, the tooth is sealed to restore its function and prevent reinfection.'
-          },
-          {
-            id: 2,
-            title: 'Who Needs Root Canal Treatment?',
-            description: 'Root canal treatment is recommended for patients experiencing:',
-            listItems: [
-              'Persistent toothache or sensitivity',
-              'Swelling or tenderness in the gums',
-              'Deep tooth decay',
-              'Cracked or injured teeth',
-              'dental abscess or infection'
-            ]
-          },
-          {
-            id: 3,
-            title: 'Duration',
-            description: 'Consultation & X-ray: 30–45 minutes , Procedure: 60–90 minutes ,Recovery: Immediate return to daily activities'
-          }
-        ],
-      rootCauses: [
+       leftCards: [
   {
     id: 1,
-    title: 'Severe Toothache or Throbbing Pain',
-    description: 'Persistent, intense pain often signals an infection or inflammation within the tooth pulp. Ignoring this can worsen the infection, so seeking root canal treatment in Dubai promptly is crucial for relief and long-term dental health.',
+    title: 'Understanding Root Canal Treatment in Dubai',
+    description:
+      'Root canal treatment, also known as endodontic therapy, is a dental procedure used to remove infected or inflamed pulp tissue from inside a tooth. The pulp contains nerves, connective tissue, and blood vessels that help the tooth develop during growth. When bacteria enter the pulp through deep cavities, cracks, trauma, or repeated dental procedures, infection and inflammation may occur.\n\nDuring the procedure, the infected pulp is removed, the root canals are cleaned and disinfected, and the inside of the tooth is sealed to prevent reinfection. In many cases, a dental crown is later placed to strengthen and protect the treated tooth.\n\nModern root canal treatment focuses on preserving the natural tooth whenever possible while restoring comfort and functionality.'
+  },
+  {
+    id: 2,
+    title: 'Why Saving the Natural Tooth Matters',
+    description: 'Preserving the natural tooth helps maintain:',
+    listItems: [
+      'Normal chewing ability',
+      'Proper bite alignment',
+      'Jawbone health',
+      'Natural smile appearance',
+      'Long-term oral stability'
+    ]
+  },
+  {
+    id: 3,
+    title: 'Who May Need Root Canal Treatment?',
+    description: 'Root canal treatment may be recommended for patients experiencing:',
+    listItems: [
+      'Persistent tooth pain or throbbing',
+      'Sensitivity to hot or cold foods',
+      'Pain while chewing or biting',
+      'Swollen or tender gums',
+      'Dental abscess or pus formation',
+      'Deep tooth decay',
+      'Cracked or fractured teeth',
+      'Tooth discoloration caused by nerve damage',
+      'Recurrent dental infection',
+      'Prolonged sensitivity after dental procedures'
+    ]
+  },
+],
+     rootCauses: [
+  {
+    id: 1,
+    title: 'Deep Tooth Decay',
+    description: 'Untreated cavities can spread through the enamel and dentin layers into the pulp chamber, causing infection and pain.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Sensitivity to Hot or Cold',
-    description: 'Sharp or lingering discomfort when consuming hot, cold, or sweet foods indicates compromised enamel or nerve involvement. Modern endodontic treatments in Dubai target the root cause to restore comfort and protect the tooth.',
+    title: 'Cracked or Broken Teeth',
+    description: 'Tooth fractures may allow bacteria to enter the inner tooth structure, increasing the risk of pulp inflammation and infection.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+  },
+  {
+    id: 3,
+    title: 'Dental Trauma or Injury',
+    description: 'Sports injuries, accidents, or impact trauma may damage the tooth nerve even when no visible crack is present.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
-    id: 3,
-    title: 'Swollen or Infected Gums',
-    description: 'Gum swelling, tenderness, or abscess formation around the affected tooth is a sign of bacterial infection. Professional care at a DHA-licensed dental clinic in Dubai prevents further complications and promotes healing.',
-    severity: 'High',
-    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+    id: 4,
+    title: 'Repeated Dental Procedures',
+    description: 'Multiple restorations or treatments on the same tooth may weaken or irritate the pulp over time.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
-    id: 4,
-    title: 'Risk of Tooth Extraction',
-    description: 'An untreated infection can spread to surrounding tissues, increasing the risk of permanent tooth loss. Timely root canal therapy in Dubai can preserve the natural tooth while eliminating infection.',
-    severity: 'High',
-    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+    id: 5,
+    title: 'Gum Infection & Bacterial Spread',
+    description: 'Advanced gum disease can contribute to bacterial infection around the roots and supporting tooth structures.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
+  {
+    id: 6,
+    title: 'Signs You Should Not Ignore',
+    description: 'Early diagnosis improves treatment success and reduces complications:-Continuous tooth pain, lingering sensitivity to temperature, swollen face or gums, bad taste or odor in the mouth, difficulty chewing, darkening of the tooth, gum boils or abscess formation, pain that disrupts sleep.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]',
+  }
 ],
         quickFacts: [
-          { label: 'Treatment Type', value: 'Restorative dental procedure' },
-          { label: 'Anaesthesia', value: 'Local anaesthesia' },
-          { label: 'Pain Level', value: 'Minimal' },
-          { label: 'Downtime', value: 'None' },
-          { label: 'Safety', value: 'DHA-approved protocols' },
-        ],
+  { label: 'Treatment Type', value: 'Restorative Dental Procedure' },
+  { label: 'Procedure Duration', value: '60–90 Minutes' },
+  { label: 'Consultation & X-ray', value: '30–45 Minutes' },
+  { label: 'Anaesthesia', value: 'Local Anaesthesia' },
+  { label: 'Pain Level', value: 'Minimal' },
+  { label: 'Downtime', value: 'None' },
+  { label: 'Recovery', value: 'Immediate Return to Daily Activities' },
+  { label: 'Safety', value: 'DHA-Approved Protocols' },
+  { label: 'Goal', value: 'Save Natural Tooth & Remove Infection' },
+],
        approachCards: [
   {
     id: 1,
@@ -29904,133 +30015,159 @@ healingJourney: {
   },
 ]
       },
-      healingJourney: {
-        title: 'Your Healing Journey: Step by Step',
-        description: 'A transparent, structured approach designed to ensure pain relief, tooth preservation, and patient comfort.',
-        steps: [
-          {
-            id: 1,
-            number: '01',
-            title: 'Initial Consultation & Diagnosis (30–45 min)',
-            duration: 'Step 1',
-            description: 'A detailed dental assessment to identify infection severity and create a personalised treatment plan.',
-            keyActivities: [
-              'dental examination',
-              'Digital X-ray imaging',
-              'Pain and infection assessment',
-              'Treatment planning & explanation'
-            ],
-            side: 'right'
-          },
-          {
-            id: 2,
-            number: '02',
-            title: 'Infection Removal & Canal Cleaning',
-            duration: 'Step 2',
-            description: 'The infected pulp is carefully removed, and the root canals are cleaned and disinfected to eliminate bacteria.',
-            keyActivities: [
-              'Local anesthesia for pain-free treatment',
-              'Removal of infected tissue',
-              'Thorough canal cleaning',
-              'Disinfection of root canals'
-            ],
-            side: 'left'
-          },
-          {
-            id: 3,
-            number: '03',
-            title: 'Root Canal Filling & Sealing',
-            duration: 'Step 3',
-            description: 'The cleaned canals are sealed to prevent reinfection and restore tooth integrity.',
-            keyActivities: [
-              'Precise canal filling',
-              'Tooth sealing',
-              'Temporary or permanent filling placement',
-              'Bite adjustment'
-            ],
-            side: 'right'
-          },
-          {
-            id: 4,
-            number: '04',
-            title: 'Restoration & Aftercare',
-            duration: 'Step 4',
-            description: 'Final restoration ensures long-term strength, function, and protection of the treated tooth.',
-            keyActivities: [
-              'Crown placement (if required)',
-              'Sensitivity evaluation',
-              'Aftercare guidance',
-              'Follow-up visit scheduling'
-            ],
-            side: 'left'
-          }
-        ]
-      },
-      benefits: {
-        title: 'Clinically-Observed Benefits',
-        description: 'Evidence-based results from our professional root canal treatments.',
-        comparisonTitle: 'Root Canal Treatment vs Tooth Extraction',
-        comparisonDescription: 'Compare saving your natural tooth with root canal treatment versus extraction',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Root Canal',
-          traditional: 'Tooth Extraction'
-        },
-        benefits: [
-          {
-            id: 1,
-            title: ' Immediate pain relief',
-            percentage: 95,
-            description: null
-          },
-          {
-            id: 2,
-            title: 'Saves your natural tooth',
-            percentage: 98,
-            description: null
-          },
-          {
-            id: 3,
-            title: 'Prevents spread of infection',
-            percentage: 97,
-            description: null
-          },
-          {
-            id: 4,
-            title: 'Restores chewing function',
-            percentage: 100,
-            description: null
-          },
-          {
-            id: 5,
-            title: ' Improves oral health',
-            percentage: 95,
-            description: null
-          }
-        ],
-        comparisonData: [
-          {
-            feature: 'Preserves Tooth',
-            ayurvedic: 'Yes',
-            conventional: 'No'
-          },
-          {
-            feature: 'Pain Relief',
-            ayurvedic: 'Immediate',
-            conventional: 'Temporary'
-          },
-          {
-            feature: 'Chewing Function',
-            ayurvedic: 'Maintained',
-            conventional: 'Reduced'
-          },
-          {
-            feature: 'Long-Term Oral Health',
-            ayurvedic: 'Better',
-            conventional: 'Compromised'
-          }
-        ]
-      },
+     healingJourney: {
+  title: 'Your Root Canal Treatment Journey – Step by Step',
+  description: 'A structured treatment process designed to ensure comfort, precision, and long-term tooth preservation.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Consultation & Diagnosis',
+      duration: 'Step 1',
+      description: 'The dentist evaluates your symptoms and examines the affected tooth using digital imaging.',
+      keyActivities: [
+        'Dental examination',
+        'Digital X-rays',
+        'Infection assessment',
+        'Pain evaluation',
+        'Treatment planning',
+        'Oral health review'
+      ],
+      side: 'right'
+    },
+    {
+      id: 2,
+      number: '02',
+      title: 'Infection Removal & Canal Cleaning',
+      duration: 'Step 2',
+      description: 'The infected pulp tissue is carefully removed under local anaesthesia.',
+      keyActivities: [
+        'Local anaesthesia administration',
+        'Removal of infected tissue',
+        'Canal cleaning and shaping',
+        'Root canal disinfection',
+        'Bacterial elimination'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Root Canal Filling & Sealing',
+      duration: 'Step 3',
+      description: 'The cleaned canals are sealed using specialized filling materials to prevent reinfection.',
+      keyActivities: [
+        'Canal filling',
+        'Tooth sealing',
+        'Temporary or permanent restoration',
+        'Bite adjustment',
+        'Structural protection'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Final Restoration & Aftercare',
+      duration: 'Step 4',
+      description: 'A crown or permanent restoration may be recommended to strengthen the tooth.',
+      keyActivities: [
+        'Crown placement if needed',
+        'Tooth reinforcement',
+        'Final bite evaluation',
+        'Aftercare instructions',
+        'Follow-up appointment planning'
+      ],
+      side: 'left'
+    }
+  ]
+},
+     benefits: {
+  title: 'Clinically-Observed Benefits',
+  description: 'Evidence-based results from our professional root canal treatments.',
+  comparisonTitle: 'Root Canal Treatment vs Tooth Extraction',
+  comparisonDescription: 'Compare saving your natural tooth with root canal treatment versus extraction',
+  comparisonHeaders: {
+    feature: 'Feature',
+    ourTreatment: 'Root Canal Treatment',
+    traditional: 'Tooth Extraction'
+  },
+  benefits: [
+    {
+      id: 1,
+      title: 'Immediate Pain Relief',
+      percentage: 95,
+      description: null
+    },
+    {
+      id: 2,
+      title: 'Saves Natural Tooth',
+      percentage: 98,
+      description: null
+    },
+    {
+      id: 3,
+      title: 'Prevents Infection Spread',
+      percentage: 97,
+      description: null
+    },
+    {
+      id: 4,
+      title: 'Restores Chewing Function',
+      percentage: 100,
+      description: null
+    },
+    {
+      id: 5,
+      title: 'Improves Oral Health',
+      percentage: 95,
+      description: null
+    },
+    {
+      id: 6,
+      title: 'Enhances Daily Comfort',
+      percentage: 96,
+      description: null
+    }
+  ],
+  comparisonData: [
+    {
+      feature: 'Preserves Natural Tooth',
+      ayurvedic: 'Yes',
+      conventional: 'No'
+    },
+    {
+      feature: 'Pain Relief',
+      ayurvedic: 'Immediate',
+      conventional: 'Temporary'
+    },
+    {
+      feature: 'Chewing Function',
+      ayurvedic: 'Maintained',
+      conventional: 'Reduced'
+    },
+    {
+      feature: 'Jawbone Preservation',
+      ayurvedic: 'Better',
+      conventional: 'Bone Loss Risk'
+    },
+    {
+      feature: 'Smile Appearance',
+      ayurvedic: 'Natural Tooth Retained',
+      conventional: 'Missing Tooth'
+    },
+    {
+      feature: 'Long-Term Oral Health',
+      ayurvedic: 'Better',
+      conventional: 'Replacement Often Needed'
+    },
+    {
+      feature: 'Additional Procedures',
+      ayurvedic: 'Usually Minimal',
+      conventional: 'Implant/Bridge May Be Required'
+    }
+  ]
+},
       pricing: {
         title: 'Transparent Pricing & Root Canal Treatment Packages',
         description: 'Our root canal treatment in Dubai is offered through clearly defined packages, customised based on the level of infection, tooth condition, and restoration needs. Each plan focuses on pain relief, tooth preservation, and long-term oral health.',
@@ -30309,6 +30446,75 @@ healingJourney: {
     'Complete Documentation Assistance for Smooth Reimbursement Process.'
   ]
 },
+      recoveryAftercare: {
+        costTitle: 'Recovery & Aftercare',
+        costDescription: 'Most patients return to normal daily activities shortly after treatment.',
+        resultsTitle: 'Aftercare Recommendations',
+        resultPoints: [
+          'Avoid chewing hard foods temporarily',
+          'Maintain good oral hygiene',
+          'Brush and floss regularly',
+          'Attend follow-up visits',
+          'Take medications as prescribed',
+          'Avoid delaying permanent crown placement',
+          'Limit extremely hot or cold foods initially'
+        ],
+        additionalInfo: {
+          title: 'Important Note',
+          description: 'Mild sensitivity after treatment is normal and generally improves within a few days.'
+        }
+      },
+      whyChoose: {
+        title: 'Why Choose Our Dental Clinic for Root Canal Treatment in Dubai?',
+        intro: 'Our DHA-licensed clinic combines advanced dental technology with experienced endodontic care to deliver precise, comfortable, and effective treatment.',
+        features: [
+          {
+            id: 1,
+            title: 'Experienced dentists and endodontists',
+            description: 'Skilled professionals with extensive expertise in root canal therapy and endodontic procedures.'
+          },
+          {
+            id: 2,
+            title: 'Advanced pain-free techniques',
+            description: 'Modern anaesthesia and minimally invasive methods ensure a comfortable, stress-free experience.'
+          },
+          {
+            id: 3,
+            title: 'Digital diagnostic technology',
+            description: 'High-resolution digital X-rays and imaging for accurate diagnosis and precise treatment planning.'
+          },
+          {
+            id: 4,
+            title: 'Modern sterilization protocols',
+            description: 'Strict DHA-approved hygiene and infection control standards for patient safety.'
+          },
+          {
+            id: 5,
+            title: 'Personalized treatment plans',
+            description: 'Customized care based on individual dental conditions, symptoms, and treatment goals.'
+          },
+          {
+            id: 6,
+            title: 'Comfortable patient-focused care',
+            description: 'Gentle approach with attention to patient comfort and anxiety management throughout treatment.'
+          },
+          {
+            id: 7,
+            title: 'High success rates',
+            description: 'Proven track record of successful root canal treatments with long-lasting results.'
+          },
+          {
+            id: 8,
+            title: 'Long-term tooth preservation approach',
+            description: 'Focus on saving natural teeth and maintaining oral health for years to come.'
+          },
+          {
+            id: 9,
+            title: 'Comprehensive restorative dentistry services',
+            description: 'Complete dental care including crowns, fillings, and follow-up treatments all in one clinic.'
+          }
+        ]
+      },
       bookConsultation: {
         badge: 'Start Your Journey',
         title: 'Book Root Canal Treatment in Dubai Today',

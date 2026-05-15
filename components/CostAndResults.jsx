@@ -9,6 +9,7 @@ const CostAndResults = ({ content }) => {
   const hasAdditionalInfo = content?.additionalInfo;
   const hasRelatedTherapies = content?.relatedTherapies;
   const hasRespiratoryWellness = content?.respiratoryWellness;
+  const hasCostSection = content.costFactors?.length > 0 || content.recommendation || content.costNote;
 
   // Helper function to render HTML with styled links
   const renderHTML = (html) => {

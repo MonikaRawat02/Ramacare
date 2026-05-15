@@ -10,6 +10,7 @@ import PatientTestimonials from '../../../components/VideoTestimonials';
 import DoctorsSection from '../../../components/DoctorsSection';
 // import PricingPackages from '../../../components/PricingPackages';
 import PaymentInsurance from '../../../components/PaymentInsurance';
+import ServiceExtrasSection from '../../../components/ServiceExtrasSection';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
@@ -92,6 +93,10 @@ export default function RootCanalTreatmentPage() {
        <DoctorsSection content={content?.doctors} />
     {/* <PricingPackages content={content?.pricing} /> */}
     <PaymentInsurance content={content?.paymentInsurance} />
+    <ServiceExtrasSection 
+      aftercareContent={content?.recoveryAftercare}
+      whyChooseContent={content?.whyChoose}
+    />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />
     </Layout>
