@@ -539,8 +539,7 @@ export default function AcneTreatmentPage() {
                 initial={{ opacity: 0, x: 30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="space-y-4"
-              >
+                className="space-y-4">
                 {whenToSeeDoctor.map((item, index) => (
                   <motion.div
                     key={index}
@@ -548,8 +547,7 @@ export default function AcneTreatmentPage() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1 }}
-                    className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-md"
-                  >
+                    className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-md" >
                     <AlertCircle className="w-5 h-5 text-[#1F5E4B] mt-0.5 flex-shrink-0" />
                     <span className="text-[#1A1A1A]">{item}</span>
                   </motion.div>
@@ -567,8 +565,7 @@ export default function AcneTreatmentPage() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
               Our Acne Treatment Options in Dubai
             </h2>
@@ -587,8 +584,7 @@ export default function AcneTreatmentPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all border border-gray-100 hover:border-[#1F5E4B]/30"
-              >
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all border border-gray-100 hover:border-[#1F5E4B]/30" >
                 <div className="w-14 h-14 bg-[#1F5E4B]/10 rounded-xl flex items-center justify-center mb-6">
                   {IconComponent && <IconComponent className="w-7 h-7 text-[#1F5E4B]" />}
                 </div>
@@ -655,8 +651,7 @@ export default function AcneTreatmentPage() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
               Acne Treatment Process at Rama Care
             </h2>
@@ -762,8 +757,7 @@ export default function AcneTreatmentPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-[#F9F7F2] p-6 rounded-xl text-center hover:bg-[#F5F1E8] transition-colors"
-              >
+                className="bg-[#F9F7F2] p-6 rounded-xl text-center hover:bg-[#F5F1E8] transition-colors">
                 <Users className="w-8 h-8 text-[#1F5E4B] mx-auto mb-3" />
                 <p className="text-[#1A1A1A] font-medium">{person}</p>
               </motion.div>

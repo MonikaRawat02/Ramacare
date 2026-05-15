@@ -313,7 +313,7 @@ export default function MigraineTreatmentPage() {
                   At Rama Care Polyclinic, we provide comprehensive and personalized migraine treatment in Dubai focused on identifying triggers, reducing headache frequency, and improving long-term health naturally and effectively.
                 </p>
                 <p>
-                  Our experienced healthcare professionals provide customized treatment plans that may include medical management, <a href="/physiotherapy-dubai/" className="text-white underline hover:text-white/80 font-medium">physiotherapy</a>, stress management, lifestyle guidance, wellness therapies, and holistic support to help patients manage migraines safely and improve their daily comfort.
+                  Our experienced healthcare professionals provide customized treatment plans that may include medical management, <a href="/services/physiotherapy-dubai/" className="text-white underline hover:text-white/80 font-medium">physiotherapy</a>, stress management, lifestyle guidance, wellness therapies, and holistic support to help patients manage migraines safely and improve their daily comfort.
                 </p>
               </div>
             </motion.div>
@@ -407,7 +407,7 @@ export default function MigraineTreatmentPage() {
                   Modern lifestyle habits and environmental factors contribute to increasing migraine cases among Dubai residents. Long working hours, stress, dehydration, excessive screen exposure, poor sleep, heat, and irregular eating patterns may trigger migraine attacks.
                 </p>
                 <p className="text-sm text-[#5F5F5F]">
-                  Early treatment and trigger management can help reduce migraine frequency and severity. Patients suffering from stress-related muscular tension may also benefit from <a href="/back-pain-treatment-dubai/" className="text-[#1F5E4B] hover:underline font-medium">back pain treatment in Dubai</a> and posture rehabilitation support.
+                  Early treatment and trigger management can help reduce migraine frequency and severity. Patients suffering from stress-related muscular tension may also benefit from <a href="/services/back-pain-treatment-dubai/" className="text-[#1F5E4B] hover:underline font-medium">back pain treatment in Dubai</a> and posture rehabilitation support.
                 </p>
               </div>
             </motion.div>
@@ -605,7 +605,7 @@ export default function MigraineTreatmentPage() {
               className="mt-12 text-center bg-white p-6 rounded-2xl shadow-lg border border-gray-100"
             >
               <p className="text-[#5F5F5F] text-lg">
-                Professional medical care and <a href="/physiotherapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">physiotherapy treatment</a> may help reduce migraine frequency and improve daily comfort.
+                Professional medical care and <a href="/services/physiotherapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">physiotherapy treatment</a> may help reduce migraine frequency and improve daily comfort.
               </p>
             </motion.div>
           </div>
@@ -683,8 +683,7 @@ export default function MigraineTreatmentPage() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className="group relative"
-                >
+                  className="group relative" >
                   {/* Timeline Line */}
                   {index < treatmentProcess.length - 1 && (
                     <div className="absolute left-6 top-20 w-0.5 h-full bg-gradient-to-b from-[#1F5E4B] to-[#1F5E4B]/20"></div>
@@ -715,8 +714,7 @@ export default function MigraineTreatmentPage() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
               Benefits of Professional Migraine Treatment
             </h2>
@@ -755,8 +753,7 @@ export default function MigraineTreatmentPage() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
               Who Can Benefit From Migraine Treatment?
             </h2>
