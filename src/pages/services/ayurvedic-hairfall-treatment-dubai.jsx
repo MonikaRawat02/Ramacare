@@ -178,11 +178,11 @@ export default function AyurvedicHairfallTreatmentPage() {
                   1. Uncomment the <Image /> tag below
                   2. Update the 'src' to your image path (e.g., "/images/before-hair.jpg")
                 */}
-                <Image src="/images/bef.jpg" alt="Before Treatment" fill className="object-cover" />
+                <Image src="/images/bef.jpg" alt="Weak and brittle hair before treatment" fill className="object-cover" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-rose-300">
                 </div>
               </div>
-              
+            
               <div className="space-y-4 bg-white/40 p-6 rounded-xl border border-white/60">
                 <h4 className="font-bold text-rose-600 text-xs uppercase tracking-widest border-b border-rose-100 pb-2">Before Treatment (Common Conditions):</h4>
                 <div className="space-y-2">
@@ -211,10 +211,9 @@ export default function AyurvedicHairfallTreatmentPage() {
                   1. Uncomment the <Image /> tag below
                   2. Update the 'src' to your image path (e.g., "/images/after-hair.jpg")
                 */}
-                <Image src="/images/aft.jpg" alt="After Treatment" fill className="object-cover" />
+                <Image src="/images/aft.jpg" alt="Stronger and healthier hair roots after therapy" fill className="object-cover" />
 
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-[#2D5A41]">
-                  
                 </div>
               </div>
 

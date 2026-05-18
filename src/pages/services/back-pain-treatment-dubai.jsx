@@ -204,8 +204,7 @@ export default function BackPainTreatmentPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.6 }}
-                className="flex items-center gap-6 pt-4"
-              >
+                className="flex items-center gap-6 pt-4">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-white" />
                   <span className="text-white/90">DHA Licensed</span>
@@ -265,8 +264,7 @@ export default function BackPainTreatmentPage() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
               Why Choose Rama Care for Back Pain Treatment in Dubai?
             </h2>
@@ -382,8 +380,7 @@ export default function BackPainTreatmentPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="flex items-start gap-3 p-4 bg-[#F9F7F2] rounded-lg hover:bg-[#F5F1E8] transition-colors"
-              >
+                className="flex items-start gap-3 p-4 bg-[#F9F7F2] rounded-lg hover:bg-[#F5F1E8] transition-colors">
                 <CheckCircle className="w-5 h-5 text-[#1F5E4B] mt-0.5 flex-shrink-0" />
                 <span className="text-[#1A1A1A]">{cause}</span>
               </motion.div>
@@ -399,8 +396,7 @@ export default function BackPainTreatmentPage() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+            className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
               Types of Back Pain We Treat
             </h2>

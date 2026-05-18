@@ -22,7 +22,8 @@ import {
   AlertCircle,
   Droplets,
   Sun,
-  Moon
+  Moon,
+  MessageCircle
 } from 'lucide-react';
 
 export default function AcneTreatmentPage() {
@@ -193,11 +194,13 @@ export default function AcneTreatmentPage() {
                   Book Consultation
                 </a>
                 <a 
-                  href="tel:+971566597878" 
-                  className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition-all"
+                  href="https://wa.me/971566597878" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#20BD5A] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
-                  <Phone className="w-5 h-5" />
-                  Call Now
+                  <MessageCircle className="w-5 h-5" />
+                  WhatsApp Us
                 </a>
               </motion.div>
 
@@ -231,7 +234,7 @@ export default function AcneTreatmentPage() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/images/acne.jpg" 
-                  alt="Acne Treatment in Dubai" 
+                  alt="Advanced acne scar and pimple treatment in Dubai" 
                   className="w-full h-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>

@@ -27,7 +27,7 @@ const content = {
     },
     image: {
       src: '/images/diab.jpg',
-      alt: 'Ayurvedic Diet for Diabetes in Dubai'
+      alt: 'Ayurvedic diabetes diet in Dubai'
     },
     stats: {
       title: 'BLOOD SUGAR IMPROVEMENT',
@@ -99,6 +99,7 @@ const content = {
       ]
     }
   },
+  
   glucoseProtocol: {
     title: '3. The 3-Step Ayurvedic "Glucose Protocol"',
     steps: [

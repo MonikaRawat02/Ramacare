@@ -1320,7 +1320,7 @@ comparisonData: [
       },
   
       // Payment & Insurance Section
-     paymentInsurance: {
+  paymentInsurance: {
   paymentTitle: 'Payment & Insurance',
   insuranceTitle: 'Insurance & Reimbursement Policy',
   paymentOptions: [
@@ -1337,7 +1337,6 @@ comparisonData: [
     'Complete Documentation Assistance for Smooth Reimbursement Process.'
   ]
 },
-  
       bookConsultation: {
         badge: 'Start Your Journey',
         title: 'Book Ayurvedic Hair Fall Treatment in Dubai Today',
@@ -3725,7 +3724,7 @@ comparisonData: [
       ],
       image: {
         src: '/images/basti-therapy.jpg',
-        alt: 'Ayurvedic Basti Therapy for natural detoxification and digestive health at Rama Care Polyclinic Dubai'
+        alt: 'Ayurvedic Basti Therapy procedure in Dubai'
       },
       medicalNotice: {
         text: 'Safety & Medical Disclaimer: Results may vary depending on individual body constitution, health condition, lifestyle habits, and treatment compliance. All therapies are performed using approved Ayurvedic treatment protocols under professional supervision.',
@@ -4479,7 +4478,7 @@ rootCauses: [
       ],
        image: {
           src: '/images/nasya-therapy.jpg',
-          alt: 'Ayurvedic diet plan in Dubai designed to support balanced nutrition and holistic wellness.'
+          alt: 'Traditional Nasya Therapy procedure in Dubai'
         },
       disclaimer: 'Safety & Medical Disclaimer: Results may vary depending on individual body constitution, lifestyle habits, medical condition, and treatment compliance. All Ayurvedic therapies are performed using DHA-approved treatment protocols under professional supervision.'
     },
@@ -4909,7 +4908,7 @@ rootCauses: [
       ],
       image: {
         src: '/images/shirodara.jpg',
-        alt: 'Shirodhara therapy - warm herbal oil being poured over forehead for deep relaxation and stress relief.'
+        alt: 'Traditional Shirodhara Therapy with herbal oil'
       },
       medicalNotice: {
         text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual body constitution, stress levels, and adherence to the treatment plan. All Shirodhara therapies are provided at a DHA-licensed clinic using approved herbal formulations and protocols.',
@@ -12694,7 +12693,7 @@ comparisonData: [
         ],
         image: {
           src: '/images/Backpain.jpg',
-          alt: 'Back pain treatment in Dubai using advanced physiotherapy and non-surgical rehabilitation techniques.'
+          alt: 'Holistic treatment for back pain relief in Dubai'
         },
         medicalNotice: {
           text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual condition, severity, and adherence to the treatment plan. All treatments are provided at a DHA-licensed clinic using approved protocols and techniques.',
