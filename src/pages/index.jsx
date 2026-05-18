@@ -18,13 +18,12 @@ export default function Home() {
     <Layout>
       <Head>
         <title> Polyclinic in Dubai | Ayurveda, Physiotherapy & Skin Clinic</title>
-        <meta name="description" content=" Looking for a polyclinic in Dubai? RamaCare offers Ayurveda, physiotherapy & skin treatments in Jumeirah with expert doctors. Book your consultation today."/>
+       <meta name="description" content=" Looking for a polyclinic in Dubai? RamaCare offers Ayurveda, physiotherapy & skin treatments in Jumeirah with expert doctors. Book your consultation today."/>
        <meta name="keywords" content="RamaCare Polyclinic Dubai, Polyclinic in Dubai, Trusted polyclinic in Dubai, Multi-Specialty Clinic Dubai, Medical clinic Dubai, DHA licensed polyclinic, Family healthcare Dubai, Affordable healthcare Dubai, Polyclinic in Jumeirah 1, Medical clinic Jumeirah 1, Best Polyclinic in Jumeirah 1" />
        <meta name="google-site-verification" content="VRn7pg1rACQOgcGV13YChuu05_Iu__0QVLXrw9dNGCc" /> 
        <meta name="msvalidate.01" content="FB6C6318BA274AFF1EA6E095977EA143" />
        <link rel="canonical" href="https://ramacarepolyclinic.ae/" />
-       <script
-  type="application/ld+json"
+       <script type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: `{
   "@context": "https://schema.org",
@@ -67,12 +66,11 @@ export default function Home() {
   }
 }`
   }}
-/>
+  />
         </Head>
        <Script
   src="https://www.googletagmanager.com/gtag/js?id=G-G2WWSZYF7W"
-  strategy="afterInteractive"
-/>
+  strategy="afterInteractive"/>
 
 <Script id="google-analytics" strategy="afterInteractive">
   {`

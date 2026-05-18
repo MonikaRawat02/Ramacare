@@ -11,7 +11,8 @@ import {
   Phone, 
   Calendar, 
   ChevronDown,
-  Menu
+  Menu,
+  MessageCircle
 } from "lucide-react";
 import BeginYourHealingJourneySection from './BeginYourHealingJourneySection';
 
@@ -231,7 +232,6 @@ const Header = () => {
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
         .scrollbar-hide::-webkit-scrollbar { display: none; }
         
-        /* Custom scrollbar for dropdowns - visible but subtle */
         .dropdown-scroll::-webkit-scrollbar {
           width: 6px;
         }
@@ -253,19 +253,9 @@ const Header = () => {
         
         .modal-overlay { animation: fadeIn 0.3s ease-out; }
         .modal-content { animation: slideUp 0.3s ease-out; }
-
-        /* Custom breakpoint for 1024px to show hamburger menu */
-        @media (min-width: 1024px) and (max-width: 1279px) {
-          .hide-at-1024 {
-            display: none !important;
-          }
-          .show-at-1024 {
-            display: flex !important;
-          }
-        }
       `}</style>
       
-      <header className={`bg-white shadow-sm transition-all duration-300 overflow-visible ${isScrolled ? 'shadow-lg sticky top-0 z-50' : ''}`}>
+      <header className={`bg-white transition-all duration-300 overflow-visible ${isScrolled ? 'shadow-lg sticky top-0 z-50' : 'shadow-sm'}`}>
         {toast.show && (
           <div className="fixed top-6 right-6 z-[10000]" style={{ animation: 'toastSlideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1)' }}>
             <div className={`flex items-center gap-3 px-5 py-3.5 rounded-xl shadow-xl border backdrop-blur-sm transition-all ${
@@ -282,59 +272,60 @@ const Header = () => {
             </div>
           </div>
         )}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="flex items-center justify-between h-16 py-1">
-            <div className="flex items-center space-x-2">
-              <Link href="/" className="w-12 h-12 flex items-center justify-center rounded flex-shrink-0 relative">
-                <Image
-                  src="/images/Logo.png"
-                  alt="Ayurveda Dubai"
-                  width={40}
-                  height={40}
-                  className="object-contain cursor-pointer"
-                />
-              </Link>
-              <div>
-                <h1 className="text-lg sm:text-xl font-bold text-[#1C4942]">RamaCare</h1>
-              </div>
-            </div>
 
-            {/* Desktop Navigation - Hidden at 1024px, visible at 1280px+ */}
-            <nav className="hidden xl:flex items-center space-x-1 xl:space-x-1.5 flex-nowrap overflow-visible hide-at-1024">
-              {/* <Link href="/" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
-                About
-              </Link> */}
-              
+        {/* ===== DESKTOP VIEW (1024px+) - Simple Single Row ===== */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            {/* Logo */}
+            <Link href="/" className="flex items-center space-x-2 flex-shrink-0">
+              <Image src="/images/Logo.png" alt="RamaCare" width={36} height={36} className="object-contain" />
+              <div>
+                <h1 className="text-lg font-bold text-[#1C4942] leading-tight">RamaCare</h1>
+              </div>
+            </Link>
+
+            {/* Desktop Navigation - Shows at 1280px (xl) and up */}
+            <nav className="hidden xl:flex items-center space-x-0.5 flex-1 justify-center overflow-visible">
               {treatmentCategories.map((category, index) => {
-                const IconComponent = category.icon;
                 return (
-                  <div key={index} className="relative flex-shrink-0" onMouseEnter={() => handleDropdownEnter(index)} onMouseLeave={handleDropdownLeave}>
-                    <div className="flex items-center cursor-pointer">
-                      <Link href={`/services/${category.slug}`} className="text-gray-600 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap px-1">
-                        {category.name}
+                  <div key={index} className="relative flex-shrink-0" 
+                    onMouseEnter={() => handleDropdownEnter(index)} 
+                    onMouseLeave={handleDropdownLeave}
+                  >
+                    <div 
+                      className="flex items-center cursor-pointer"
+                      onClick={() => setOpenDropdown(openDropdown === index ? null : index)}
+                    >
+                      <Link 
+                        href={`/services/${category.slug}`} 
+                        className="flex items-center space-x-1 px-2 py-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <span>{category.name}</span>
                       </Link>
-                      <div className="ml-0.5 pointer-events-none">
-                        <ChevronDown className={`w-2.5 h-2.5 transition-transform duration-200 flex-shrink-0 text-gray-600 ${openDropdown === index ? 'rotate-180' : ''}`} />
-                      </div>
+                      <ChevronDown className={`w-3 h-3 text-gray-500 transition-transform duration-200 ml-0.5 ${openDropdown === index ? 'rotate-180' : ''}`} />
                     </div>
                     
-                    {openDropdown === index && <div className="dropdown-bridge" onMouseEnter={() => handleDropdownEnter(index)} onMouseLeave={handleDropdownLeave} />}
-                    
                     {openDropdown === index && (
-                      <div className="absolute top-full left-0 pt-2 w-64 z-[9999]" onMouseEnter={() => handleDropdownEnter(index)} onMouseLeave={handleDropdownLeave}>
-                        <div className="bg-white rounded-md shadow-xl border border-gray-200 py-2 dropdown-animate dropdown-container">
-                          <div className="px-3 py-1.5 border-b border-gray-100">
-                            <div className="flex items-center gap-1.5">
-                              <IconComponent className="w-3 h-3 text-[#1a5f3f]" />
-                              <span className="text-[11px] font-semibold text-gray-900">{category.name}</span>
+                      <div 
+                        className="absolute top-full left-0 mt-2 w-64" 
+                        style={{ zIndex: 9999 }}
+                        onMouseEnter={() => handleDropdownEnter(index)}
+                        onMouseLeave={handleDropdownLeave}
+                      >
+                        <div className="bg-white rounded-lg shadow-2xl border border-gray-200 py-2 dropdown-animate">
+                          <div className="px-4 py-3 border-b border-gray-100 bg-gray-50">
+                            <div className="flex items-center gap-2">
+                              <span className="text-sm font-semibold text-gray-900">{category.name}</span>
                             </div>
                           </div>
-                          <div className="max-h-[400px] overflow-y-auto dropdown-scroll">
+                          <div className="max-h-[400px] overflow-y-auto py-1">
                             {category.subcategories.map((subcategory, subIndex) => (
                               <Link 
                                 key={subIndex} 
                                 href={`/services/${subcategory.slug}`} 
-                                className="block px-4 py-2.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-[#1a5f3f] transition-colors duration-150"
+                                className="block px-4 py-2.5 text-xs text-gray-700 hover:bg-[#1a5f3f] hover:text-white transition-all"
+                                onClick={() => setOpenDropdown(null)}
                               >
                                 {subcategory.name}
                               </Link>
@@ -347,27 +338,28 @@ const Header = () => {
                 );
               })}
               
-              <Link href="/testimonials" className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
+              <Link href="/testimonials" className="px-2 py-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap flex-shrink-0">
                 Testimonials
               </Link>
-              <Link href="/blog" className="text-gray-700 hover:text-[#1a5f3f] transition-colors text-[11px] xl:text-xs whitespace-nowrap flex-shrink-0 px-1">
+              <Link href="/blog" className="px-2 py-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap flex-shrink-0">
                 Blogs
               </Link>
             </nav>
 
-            {/* Desktop Buttons - Hidden at 1024px, visible at 1280px+ */}
-            <div className="hidden xl:flex items-center space-x-1.5 xl:space-x-2 hide-at-1024">
-              <button onClick={handleCallNow} className="flex items-center space-x-1 border-2 border-[#1a5f3f] text-[#1a5f3f] rounded-md hover:bg-[#1a5f3f] hover:text-white transition-colors px-2 xl:px-2.5 py-1 text-[11px] xl:text-xs">
+            {/* Desktop Buttons - Shows at 1280px (xl) and up */}
+            <div className="hidden xl:flex items-center space-x-2 flex-shrink-0">
+              <button onClick={handleCallNow} className="flex items-center space-x-1.5 px-3 py-1.5 border-2 border-[#1a5f3f] text-[#1a5f3f] rounded-lg hover:bg-[#1a5f3f] hover:text-white transition-all text-xs font-medium">
                 <Phone className="w-3.5 h-3.5" />
-                <span className="font-medium">Call Now</span>
+                <span>Call Now</span>
               </button>
-              <button onClick={handleBookAppointment} className="bg-[#1a5f3f] text-white rounded-md hover:bg-[#154a32] transition-colors font-medium px-2.5 xl:px-3 py-1 text-[11px] xl:text-xs whitespace-nowrap">
-                Book Appointment
+              <button onClick={handleBookAppointment} className="flex items-center space-x-1.5 px-4 py-1.5 bg-[#1a5f3f] text-white rounded-lg hover:bg-[#154a32] transition-all text-xs font-medium">
+                <Calendar className="w-3.5 h-3.5" />
+                <span>Book Appointment</span>
               </button>
             </div>
 
-            {/* Hamburger Button - Visible below 1280px (including at 1024px) */}
-            <button className="xl:hidden p-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors show-at-1024" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
+            {/* Mobile Menu Button - Shows below 1280px */}
+            <button className="xl:hidden p-2 text-gray-700 hover:text-[#1a5f3f] transition-colors" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
               {isMenuOpen ? (
                 <X className="w-5 h-5" />
               ) : (
@@ -375,56 +367,105 @@ const Header = () => {
               )}
             </button>
           </div>
+        </div>
 
-          {/* Mobile Menu - Visible below 1280px (including at 1024px) */}
-          {isMenuOpen && (
-            <div className="xl:hidden pb-3 border-t border-gray-200 animate-in slide-in-from-top-2 duration-300">
-              <nav className="flex flex-col space-y-3 mt-3">
-                <div className="font-semibold text-gray-800 text-sm mb-1">Treatment Categories</div>
-                {treatmentCategories.map((category, index) => {
-                  const IconComponent = category.icon;
-                  return (
-                    <div key={index}>
-                      <div className="flex items-center justify-between w-full">
-                        <Link href={`/services/${category.slug}`} className={`flex-1 flex items-center gap-2 transition-colors ${index === 0 ? 'text-[#1a5f3f]' : 'text-gray-600 hover:text-[#1a5f3f]'}`} onClick={() => setIsMenuOpen(false)}>
-                          <IconComponent className="w-3.5 h-3.5" />
-                          <span>{category.name}</span>
-                        </Link>
-                        <button className="p-1 transition-colors text-gray-600 hover:text-[#1a5f3f]" onClick={() => setOpenMobileDropdown(openMobileDropdown === index ? null : index)}>
-                          <ChevronDown className={`w-4 h-4 transition-transform ${openMobileDropdown === index ? 'rotate-180' : ''}`} />
-                        </button>
-                      </div>
-                      {openMobileDropdown === index && (
-                        <div className="ml-4 mt-2 bg-gray-50 rounded-md p-2 border border-gray-200 max-h-80 overflow-y-auto dropdown-scroll">
-                          {category.subcategories.map((subcategory, subIndex) => (
-                            <Link key={subIndex} href={`/services/${subcategory.slug}`} className="block px-3 py-2 text-xs text-gray-700 hover:bg-white hover:text-[#1a5f3f] rounded transition-colors" onClick={() => setIsMenuOpen(false)}>
-                              {subcategory.name}
-                            </Link>
-                          ))}
+        {/* ===== MOBILE MENU OVERLAY (Below 1280px) ===== */}
+        {isMenuOpen && (
+          <div className="fixed inset-0 z-[9999] xl:hidden">
+            {/* Backdrop */}
+            <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setIsMenuOpen(false)}></div>
+            
+            {/* Slide-out Menu */}
+            <div className="absolute right-0 top-0 h-full w-80 max-w-[85vw] bg-white shadow-2xl overflow-y-auto">
+              {/* Menu Header */}
+              <div className="sticky top-0 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between z-10">
+                <div className="flex items-center space-x-2">
+                  <Image src="/images/Logo.png" alt="RamaCare" width={28} height={28} className="object-contain" />
+                  <span className="font-bold text-[#1C4942]">RamaCare</span>
+                </div>
+                <button onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100 rounded-lg transition-colors">
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+
+              {/* Menu Content */}
+              <div className="p-4 space-y-1">
+                {/* Treatment Categories */}
+                <div className="mb-4">
+                  <div className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2 px-2">Treatments</div>
+                  {treatmentCategories.map((category, index) => {
+                    const IconComponent = category.icon;
+                    return (
+                      <div key={index} className="mb-1">
+                        <div className="flex items-center">
+                          {/* Category Link - Clickable */}
+                          <Link 
+                            href={`/services/${category.slug}`}
+                            className="flex-1 flex items-center space-x-3 px-3 py-2.5 text-gray-700 hover:bg-gray-50 rounded-l-lg transition-colors text-sm font-medium"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            <div className="w-7 h-7 rounded-lg bg-[#1a5f3f]/10 flex items-center justify-center flex-shrink-0">
+                              <IconComponent className="w-3.5 h-3.5 text-[#1a5f3f]" />
+                            </div>
+                            <span className="flex-1">{category.name}</span>
+                          </Link>
+                          
+                          {/* Toggle Button for Subcategories */}
+                          <button 
+                            onClick={() => setOpenMobileDropdown(openMobileDropdown === index ? null : index)}
+                            className="px-2 py-2.5 text-gray-500 hover:text-[#1a5f3f] hover:bg-gray-50 rounded-r-lg transition-colors"
+                          >
+                            <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${openMobileDropdown === index ? 'rotate-180' : ''}`} />
+                          </button>
                         </div>
-                      )}
-                    </div>
-                  );
-                })}
-                
-                <div className="font-semibold text-gray-800 text-sm mb-1 pt-2 border-t border-gray-200">Navigation</div>
-                <Link href="/" className="text-gray-700 hover:text-[#1a5f3f] transition-colors" onClick={() => setIsMenuOpen(false)}>About</Link>
-                <a href="/#testimonials" onClick={handleTestimonialsClick} className="text-gray-700 hover:text-[#1a5f3f] transition-colors cursor-pointer">Testimonials</a>
-                <Link href="/blog" className="text-gray-700 hover:text-[#1a5f3f] transition-colors" onClick={() => setIsMenuOpen(false)}>Blogs</Link>
-                
-                <div className="flex flex-col space-y-2 pt-2">
-                  <button onClick={handleCallNow} className="flex items-center justify-center space-x-1.5 px-3 py-1.5 border-2 border-[#1a5f3f] text-[#1a5f3f] rounded-md hover:bg-[#1a5f3f] hover:text-white transition-colors">
+                        
+                        {openMobileDropdown === index && (
+                          <div className="ml-10 mt-1 space-y-0.5 pb-2">
+                            {category.subcategories.map((subcategory, subIndex) => (
+                              <Link 
+                                key={subIndex} 
+                                href={`/services/${subcategory.slug}`} 
+                                className="block px-3 py-2 text-xs text-gray-600 hover:text-[#1a5f3f] hover:bg-gray-50 rounded-lg transition-all"
+                                onClick={() => setIsMenuOpen(false)}
+                              >
+                                {subcategory.name}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+
+                {/* Quick Links */}
+                <div className="border-t border-gray-200 pt-4 mb-4">
+                  <div className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2 px-2">Quick Links</div>
+                  <Link href="/testimonials" className="flex items-center space-x-3 px-3 py-2.5 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors text-sm" onClick={() => setIsMenuOpen(false)}>
+                    <span className="w-2 h-2 rounded-full bg-[#1a5f3f]"></span>
+                    <span>Testimonials</span>
+                  </Link>
+                  <Link href="/blog" className="flex items-center space-x-3 px-3 py-2.5 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors text-sm" onClick={() => setIsMenuOpen(false)}>
+                    <span className="w-2 h-2 rounded-full bg-[#1a5f3f]"></span>
+                    <span>Blogs</span>
+                  </Link>
+                </div>
+
+                {/* CTA Buttons */}
+                <div className="space-y-2 pt-2">
+                  <button onClick={handleCallNow} className="w-full flex items-center justify-center space-x-2 px-4 py-3 border-2 border-[#1a5f3f] text-[#1a5f3f] rounded-xl hover:bg-[#1a5f3f] hover:text-white transition-all text-sm font-semibold">
                     <Phone className="w-4 h-4" />
-                    <span className="font-medium text-xs">Call Now</span>
+                    <span>Call Now</span>
                   </button>
-                  <button onClick={handleBookAppointment} className="px-4 py-1.5 bg-[#1a5f3f] text-white rounded-md hover:bg-[#154a32] transition-colors font-medium text-xs">
-                    Book Appointment
+                  <button onClick={handleBookAppointment} className="w-full flex items-center justify-center space-x-2 px-4 py-3 bg-gradient-to-r from-[#1a5f3f] to-[#154a32] text-white rounded-xl hover:shadow-lg transition-all text-sm font-semibold">
+                    <Calendar className="w-4 h-4" />
+                    <span>Book Appointment</span>
                   </button>
                 </div>
-              </nav>
+              </div>
             </div>
-          )}
-        </div>
+          </div>
+        )}
       </header>
 
       {isModalOpen && (
