@@ -84,8 +84,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/#treatments"
-                  onClick={(e) => handleSmoothScroll(e, '#treatments')}
+                  href="/services"
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   Our Treatments  
@@ -103,7 +102,6 @@ const Footer = () => {
               <li>
                 <Link
                   href="/doctors"
-                 
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   Meet Our Experts
@@ -111,8 +109,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/#testimonials"
-                  onClick={(e) => handleSmoothScroll(e, '#testimonials')}
+                  href="/testimonials"
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   Patient Testimonials
@@ -122,15 +119,13 @@ const Footer = () => {
                 <Link
                   href="/#faq"
                   onClick={(e) => handleSmoothScroll(e, '#faq')}
-                  className="hover:text-[#d4a574] transition-colors inline-block"
-                >
+                  className="hover:text-[#d4a574] transition-colors inline-block">
                   FAQ
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/#appointment"
-                  onClick={(e) => handleSmoothScroll(e, '#appointment')}
+                  href="/book-appointment"
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   Book Appointment

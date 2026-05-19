@@ -324,7 +324,7 @@ const Header = () => {
                               <Link 
                                 key={subIndex} 
                                 href={`/services/${subcategory.slug}`} 
-                                className="block px-4 py-2.5 text-xs text-gray-700 hover:bg-[#1a5f3f] hover:text-white transition-all"
+                                className="block px-4 py-2.5 text-xs text-gray-700 hover:bg-[#D5F5E3] hover:text-[#27AE60] transition-all"
                                 onClick={() => setOpenDropdown(null)}
                               >
                                 {subcategory.name}
