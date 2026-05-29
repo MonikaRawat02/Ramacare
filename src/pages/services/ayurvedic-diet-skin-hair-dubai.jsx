@@ -240,7 +240,7 @@ export default function AyurvedicDietSkinHairDubaiPage() {
       <Head>
         <title>Ayurvedic Diet for Skin & Hair Dubai | Fix Hair Fall Naturally</title>
         <meta name="description" content="Combat the effects of Dubai’s hard water and harsh climate. Our Ayurvedic diet plans for skin and hair focus on 'Ojas' to restore glow and stop hair fall from within. Visit RamaCare Jumeirah." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-diet-skin-hair-dubai" />
+        
       </Head>
 
       {/* 1. Hero Section */}

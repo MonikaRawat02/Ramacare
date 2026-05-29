@@ -231,7 +231,7 @@ export default function AyurvedicDietThyroidPage() {
       <Head>
         <title>Ayurvedic Diet for Thyroid Dubai | Natural Hormonal Balance | RamaCare</title>
         <meta name="description" content="Restore your metabolism naturally. Our DHA-licensed Ayurvedic thyroid diet plans in Dubai target the root cause of Hypothyroidism and Hyperthyroidism. Visit RamaCare Polyclinic in Jumeirah 1." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-diet-thyroid-dubai" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

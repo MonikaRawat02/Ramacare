@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
       <Head>
         <title>RamaCare Polyclinic Dubai | Trusted Polyclinic in Dubai</title>
         <meta name="description" content=" RamaCare Polyclinic Dubai provides multi-specialty medical care with experienced doctors, modern diagnostics, and patient-focused treatment in a DHA-licensed clinic."/>
-        <link rel="canonical" href={`https://ramacarepolyclinic.ae${router.asPath.split('?')[0]}`} />
+        <link rel="canonical" href={`https://ramacarepolyclinic.ae${router.asPath === '/' ? '/' : (router.asPath.split('?')[0].replace(/\/$/, '') + '/')}`} key="canonical" />
         <link rel="icon" href="/images/Logo.png" />
       {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> */}
       </Head>

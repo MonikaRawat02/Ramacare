@@ -126,7 +126,7 @@ export default function EximiaTreatmentCostPage() {
         <title>Eximia Treatment Cost in Dubai: 2026 Pricing Guide</title>
         <meta name="description" content="Discover the cost of Eximia body contouring treatment in Dubai. Get detailed pricing information, factors affecting cost, and book your consultation at RamaCare Polyclinic." />
         <meta name="keywords" content="Eximia treatment cost Dubai, Eximia body contouring price, non-surgical body sculpting cost, skin tightening treatment price, fat reduction treatment Dubai, Eximia HR77 cost, body contouring packages Dubai, aesthetic treatment pricing" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/eximia-treatment-cost-dubai" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

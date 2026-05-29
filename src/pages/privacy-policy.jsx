@@ -69,12 +69,12 @@ const PolicyPages = () => {
       <Head>
         <title>Privacy Policy - RamaCare Polyclinic</title>
         <meta name="description" content="Privacy Policy for RamaCare Polyclinic Dubai. Learn how we collect, use, and protect your personal information in accordance with UAE data protection laws." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/privacy-policy/" />
+        <link rel="canonical" href="https://ramacarepolyclinic.ae/privacy-policy" />
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" 
+          rel="stylesheet" 
+        />
       </Head>
-      <link 
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" 
-        rel="stylesheet" 
-      />
 
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-emerald-50/30" style={{ fontFamily: "'Inter', sans-serif" }}>
         

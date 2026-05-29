@@ -42,7 +42,7 @@ export default function ShirodharaTherapyTreatmentPage() {
         <title>Shirodhara Therapy in Dubai | Relaxing Ayurvedic Treatment</title>
         <meta name="description" content="Experience Shirodhara Therapy in Dubai at RamaCare Polyclinic. A traditional Ayurvedic treatment involving a continuous flow of warm herbal oil on the forehead for deep relaxation and mental clarity." />
         <meta name="keywords" content="Shirodhara Therapy Dubai, Ayurvedic Shirodhara Dubai, Stress relief treatment Dubai, Ayurvedic oil pouring therapy, Mental wellness Dubai, Holistic healing Dubai, Traditional Shirodhara Dubai, Relaxation therapy Dubai, Ayurvedic head massage Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/shirodhara-therapy-in-dubai/" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

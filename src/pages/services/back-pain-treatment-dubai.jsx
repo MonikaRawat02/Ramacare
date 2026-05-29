@@ -58,7 +58,7 @@ export default function BackPainTreatmentPage() {
         <title>Back Pain Treatment in Dubai | Advanced Physiotherapy & Non-Surgical Care</title>
         <meta name="description" content="Expert back pain treatment in Dubai with advanced physiotherapy, posture correction, and non-surgical rehabilitation for lasting pain relief and improved mobility." />
         <meta name="keywords" content="Back pain treatment Dubai, Physiotherapy for back pain, Lower back pain treatment, Sciatica treatment Dubai, Posture correction Dubai, Non-surgical back pain treatment, Back pain specialist Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/back-pain-treatment-dubai" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -69,7 +69,7 @@ const UltrasoundShinSplintsPage = () => {
         <title>Ultrasound for Shin Splints Dubai | Fast Recovery for Dubai Run</title>
         <meta name="description" content="Preparing for the Dubai Run or 30x30? Learn how ultrasound therapy at RamaCare Jumeirah 1 accelerates healing for shin splints and running injuries." />
         <meta name="keywords" content="ultrasound for shin splints Dubai, shin splints treatment Dubai, Dubai Run recovery, 30x30 injury, Medial Tibial Stress Syndrome Dubai, running injury physiotherapy Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ultrasound-for-shin-splints-dubai" />
+        
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 

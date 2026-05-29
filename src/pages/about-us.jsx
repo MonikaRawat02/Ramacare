@@ -151,10 +151,9 @@ const whyContent = {
   return (
     <Layout>
       <Head>
-        <title>About RamaCare Polyclinic Dubai | Trusted Healthcare Provider</title>
-        <meta name="description" content="Learn about RamaCare Polyclinic Dubai, a trusted DHA-licensed healthcare facility in Jumeirah 1 offering comprehensive medical services with 15+ years of excellence."/>
+        <title>About Us | RamaCare Polyclinic Dubai</title>
+        <meta name="description" content="Learn about RamaCare Polyclinic in Dubai. Our mission is to provide high-quality, patient-focused healthcare combining traditional and modern medicine." />
         <meta name="keywords" content="RamaCare Polyclinic Dubai, About RamaCare, Healthcare Dubai, Medical clinic Jumeirah, DHA licensed doctors, About us healthcare Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/about-us" />
       </Head>
       
       {/* Hero Section - Custom for About Us */}

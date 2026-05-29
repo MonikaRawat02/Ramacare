@@ -52,7 +52,7 @@ const UltrasoundBackPainPage = () => {
       <Head>
         <title>Ultrasound Therapy for Back Pain Dubai | Chronic Relief at RamaCare</title>
         <meta name="description" content="Struggle with chronic back pain or sciatica in Dubai? Discover how targeted ultrasound therapy at RamaCare Jumeirah 1 reduces deep-tissue inflammation and speeds up recovery." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ultrasound-therapy-for-chronic-back-pain/" />
+        
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 

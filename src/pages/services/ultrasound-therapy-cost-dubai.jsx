@@ -72,7 +72,7 @@ export default function UltrasoundTherapyCostPage() {
         <title>Ultrasound Therapy Cost in Dubai: 2026 Price Guide & Packages</title>
         <meta name="description" content="How much is ultrasound therapy in Dubai? View RamaCare's 2026 price list, insurance coverage details, and discount packages for physiotherapy in Jumeirah 1." />
         <meta name="keywords" content="ultrasound therapy cost Dubai, physiotherapy prices Dubai, therapeutic ultrasound Dubai, ultrasound treatment cost, physiotherapy package Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ultrasound-therapy-cost-dubai" />
+        
       </Head>
 
       {/* Hero Section with Pricing */}

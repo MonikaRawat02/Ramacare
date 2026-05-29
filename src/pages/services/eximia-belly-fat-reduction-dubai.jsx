@@ -190,7 +190,7 @@ export default function EximiaBellyFatReductionPage() {
         <title>Eximia Belly Fat Reduction Dubai - Lose Belly Fat Safely</title>
         <meta name="description" content="Effective Eximia belly fat reduction in Dubai. Lose belly fat and sculpt your body with our non-surgical treatment at RamaCare Polyclinic." />
         <meta name="keywords" content="Eximia belly fat reduction Dubai, lose belly fat Dubai, fat reduction treatment Dubai, non-surgical liposuction alternative Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/eximia-belly-fat-reduction-dubai" />
+        
       </Head>
 
       <section className="bg-[#F5F1EA] px-4 sm:px-6 lg:px-8 py-12 lg:py-20">

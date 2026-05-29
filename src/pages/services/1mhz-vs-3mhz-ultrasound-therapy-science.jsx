@@ -149,7 +149,7 @@ const UltrasoundFrequencyScience = () => {
       <Head>
         <title>1MHz vs 3MHz Ultrasound Therapy Science | RamaCare Dubai</title>
         <meta name="description" content="Understanding the physics of healing. Learn the difference between 1MHz and 3MHz ultrasound frequencies and how RamaCare uses sound waves to repair deep tissue in Jumeirah." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/1mhz-vs-3mhz-ultrasound-therapy-science/" />
+        
       </Head>
 
       <main className="min-h-screen bg-[#FDFBF7]" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>

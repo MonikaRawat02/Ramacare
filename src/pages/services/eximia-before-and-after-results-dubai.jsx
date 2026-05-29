@@ -291,7 +291,7 @@ export default function EximiaBeforeAfterPage() {
       <Head>
         <title>Eximia Before and After: What Results Can You Really Expect?</title>
         <meta name="description" content="See real Eximia body contouring results in Dubai. Most patients see 1-3 cm reduction after first session with zero downtime." />
-        <link rel="canonical" href="https://ramacare.ae/eximia-before-and-after-results-dubai" />
+        
         
         {/* JSON-LD Schema */}
         <script

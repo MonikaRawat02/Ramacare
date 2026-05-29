@@ -10,7 +10,7 @@ export default function RequestConfirmed() {
         <title>Request Confirmed | Best Fillers in Dubai - Rama Care Polyclinic</title>
         <meta name="description" content="Thank you for your interest in our dermal fillers treatment. Our team will contact you shortly." />
         <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/request-confirmed" />
+        
         <link rel="icon" type="image/png" href="/images/Logo.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

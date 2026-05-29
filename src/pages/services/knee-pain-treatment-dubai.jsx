@@ -289,7 +289,7 @@ export default function KneePainTreatmentPage() {
         <title>Knee Pain Treatment in Dubai | Advanced Joint Pain Relief & Mobility Recovery</title>
         <meta name="description" content="Expert knee pain treatment in Dubai with personalized physiotherapy, rehabilitation, and non-surgical solutions for joint pain relief, mobility improvement, and long-term recovery at Rama Care Polyclinic." />
         <meta name="keywords" content="Knee pain treatment Dubai, Knee physiotherapy Dubai, Arthritis knee treatment, Sports injury knee treatment, Chronic knee pain Dubai, Knee rehabilitation Dubai, Joint pain relief Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/knee-pain-treatment-dubai" />
+        
       </Head>
 
       {/* Hero Section - Unique Diagonal Design */}

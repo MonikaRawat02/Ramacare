@@ -76,7 +76,7 @@ const Footer = () => {
             <ul className="space-y-2 sm:space-y-2.5 text-gray-400 text-sm">
               <li>
                 <Link
-                  href="/about-us"
+                  href="/about-us/"
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   About Our RamaCare Polyclinic
@@ -84,7 +84,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/services"
+                  href="/services/"
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   Our Treatments  
@@ -101,7 +101,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/doctors"
+                  href="/doctors/"
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   Meet Our Experts
@@ -109,7 +109,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/testimonials"
+                  href="/testimonials/"
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   Patient Testimonials
@@ -125,7 +125,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/book-appointment"
+                  href="/book-appointment/"
                   className="hover:text-[#d4a574] transition-colors inline-block"
                 >
                   Book Appointment

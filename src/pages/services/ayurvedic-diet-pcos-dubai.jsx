@@ -228,7 +228,7 @@ export default function AyurvedicDietPCOSPage() {
         <title>Ayurvedic Diet for PCOS Dubai | Balance Hormones Naturally | RamaCare</title>
         <meta name="description" content="Struggling with PCOS in the UAE? Discover a personalized Ayurvedic Diet Plan in Dubai designed to balance hormones, improve insulin sensitivity, and regularize cycles. Reviewed by DHA-licensed experts at RamaCare Jumeirah. Book your consultation today!" />
         <meta name="keywords" content="Ayurvedic diet for PCOS Dubai, PCOS treatment Dubai, hormonal balance Ayurveda, PCOS diet plan UAE, natural PCOS remedy Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-diet-pcos-dubai" />
+        
       </Head>
 
       {/* Hero Section */}

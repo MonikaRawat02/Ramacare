@@ -53,7 +53,7 @@ const PostSurgeryRecoveryPage = () => {
       <Head>
         <title>Post-Surgery Recovery Dubai | Ultrasound for Scar Tissue at RamaCare</title>
         <meta name="description" content="Speed up your post-surgical healing in Dubai. Learn how RamaCare's ultrasound therapy prevents scar tissue stiffness and accelerates tissue repair after surgery." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/post-surgery-recovery-dubai/" />
+        
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 

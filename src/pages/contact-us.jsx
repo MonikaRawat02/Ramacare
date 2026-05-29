@@ -84,7 +84,6 @@ const ContactUsPage = () => {
     } else if (name === 'fullName') {
       sanitizedValue = value.replace(/[^A-Za-z\s'-]/g, '');
     }
-    
     setFormData(prev => ({
       ...prev,
       [name]: type === 'checkbox' ? checked : sanitizedValue
@@ -189,11 +188,9 @@ const ContactUsPage = () => {
     <div className="force-light">
       <Layout>
         <Head>
-          <title>Contact Us | RamaCare Polyclinic Dubai</title>
-          <meta name="description" content="Contact RamaCare Polyclinic in Dubai. Reach us by phone, email, or visit our clinic in Jumeirah 1. We're here to help with all your healthcare needs." />
-          <meta name="keywords" content="contact RamaCare, polyclinic Dubai, healthcare contact, medical clinic Dubai, Jumeirah 1 clinic" />
-          <link rel="canonical" href="https://ramacarepolyclinic.ae/contact-us" />
-        </Head>
+        <title>Contact Us | RamaCare Polyclinic Dubai</title>
+        <meta name="description" content="Get in touch with RamaCare Polyclinic in Jumeirah 1, Dubai. Book your appointment, find our location, or call us for any inquiries." />
+      </Head>
 
         <style jsx global>{`
           .force-light {

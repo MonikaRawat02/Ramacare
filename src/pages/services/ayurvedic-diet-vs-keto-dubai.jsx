@@ -182,7 +182,7 @@ export default function AyurvedicDietVsKetoDubaiPage() {
       <Head>
         <title>Ayurvedic Diet vs. Keto Diet Dubai | Which is Better for You?</title>
         <meta name="description" content="Comparing the Keto Diet and Ayurvedic Diet for the Dubai lifestyle. Discover which plan offers sustainable weight loss and better energy for the UAE climate. Visit RamaCare Jumeirah." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-diet-vs-keto-dubai" />
+        
       </Head>
 
       {/* 1. Hero Section */}

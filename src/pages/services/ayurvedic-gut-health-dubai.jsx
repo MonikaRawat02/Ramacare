@@ -184,7 +184,7 @@ export default function AyurvedicGutHealthDubaiPage() {
       <Head>
         <title>Ayurvedic Gut Health Dubai | Restore Agni & Better Digestion</title>
         <meta name="description" content="Heal your gut naturally. Our DHA-licensed Ayurvedic plans in Dubai focus on restoring 'Agni' to eliminate bloating, IBS, and toxins. Visit RamaCare Polyclinic in Jumeirah 1." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-gut-health-dubai" />
+        
       </Head>
 
       {/* 1. Hero Section */}

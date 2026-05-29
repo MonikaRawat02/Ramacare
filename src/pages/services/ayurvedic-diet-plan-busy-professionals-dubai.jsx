@@ -245,7 +245,7 @@ export default function AyurvedicDietPlanBusyProfessionalsPage() {
       <Head>
         <title>Ayurvedic Diet for Busy Professionals Dubai | Optimize Focus & Energy</title>
         <meta name="description" content="Stop the burnout. Our DHA-licensed Ayurvedic diet plans for Dubai professionals target DIFC/Business Bay lifestyles. Balance stress, improve sleep, and boost productivity. Visit RamaCare Jumeirah 1." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-busy-professionals-dubai" />
+        
       </Head>
 
       {/* Hero Section */}

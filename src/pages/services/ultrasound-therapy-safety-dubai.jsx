@@ -128,7 +128,7 @@ const UltrasoundSafetyPage = () => {
       <Head>
         <title>Ultrasound Therapy Safety & Side Effects Dubai | RamaCare Guide</title>
         <meta name="description" content="Is therapeutic ultrasound safe? Explore the side effects, risks, and medical contraindications for ultrasound therapy at RamaCare Polyclinic, Jumeirah 1." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ultrasound-therapy-safety-dubai/" />
+        
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 

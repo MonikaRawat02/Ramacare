@@ -190,7 +190,7 @@ const EximiaVsCoolSculptingPage = () => {
       <Head>
         <title>Eximia vs. CoolSculpting Dubai | Which is Best for Fat Loss?</title>
         <meta name="description" content="Compare Eximia HR77 Platinum and CoolSculpting (Cryolipolysis) for non-surgical fat reduction in Dubai. Learn about results, comfort, downtime, and choose the right treatment." />
-        <link rel="canonical" href="https://ramacare.ae/eximia-vs-coolsculpting-dubai" />
+        
       </Head>
 
       {/* Hero Section */}

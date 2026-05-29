@@ -167,7 +167,7 @@ export default function AyurvedicDietDubaiSummerPage() {
       <Head>
         <title>Cooling Your Pitta: Ayurvedic Diet Tips for the Dubai Summer | RamaCare Polyclinic</title>
         <meta name="description" content="Discover Ayurvedic diet tips to cool Pitta and manage heat stress during the intense Dubai summer. Learn about cooling foods, spices, and strategies to beat the 45°C+ heat naturally at RamaCare Polyclinic Jumeirah." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-diet-dubai-summer" />
+        
       </Head>
 
       {/* Hero Section */}

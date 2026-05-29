@@ -29,7 +29,7 @@ export default function HairRemovalPage() {
   <title>Laser Hair Removal Dubai | Permanent Hair Reduction Treatment</title>
   <meta name="description" content="Get safe and effective Laser Hair Removal in Dubai at Rama Care Polyclinic. Reduce unwanted hair on the face and body with advanced laser technology and personalized treatment plans." />
   <meta name="keywords" content="Hair removal in Dubai, Laser hair removal Dubai, Permanent hair removal Dubai, Medical hair removal treatment, Facial hair removal Dubai, Body hair removal Dubai, Safe hair removal methods, Professional hair removal clinic, Skin-friendly hair removal Dubai" />
-  <link rel="canonical" href="https://ramacarepolyclinic.ae/services/hair-removal-dubai" />
+  
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -294,7 +294,7 @@ const ServicesPage = () => {
         <title>Medical Services in Dubai | All Treatments & Specialties</title>
         <meta name="description" content="Explore all medical services at RamaCare Polyclinic Dubai. Ayurveda, Dental, Dermatology, Physiotherapy, General Physician, and Facial treatments with expert care." />
         <meta name="keywords" content="medical services Dubai, healthcare treatments, Ayurveda Dubai, dental care Dubai, dermatology Dubai, physiotherapy Dubai, general physician Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services" />
+        
       </Head>
       <style jsx global>{`
         .force-light {
@@ -334,207 +334,306 @@ const ServicesPage = () => {
         .force-light input::placeholder {
           color: #171717 !important;
         }
+        
+        @keyframes gradient {
+          0%, 100% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+        }
+        .animate-gradient {
+          animation: gradient 3s ease infinite;
+        }
       `}</style>
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#1a5f3f] via-[#2d5f3f] to-[#1a5f3f] text-white py-16 md:py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-black/10"></div>
+      {/* Hero Section - Clean Modern Design */}
+      <section className="relative bg-gradient-to-br from-white via-[#f8faf8] to-[#f0f7f4] py-16 md:py-20 overflow-hidden">
+        {/* Subtle Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-br from-[#1a5f3f]/5 to-[#d4a574]/5 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-tr from-[#d4a574]/5 to-[#1a5f3f]/5 rounded-full blur-3xl"></div>
+        </div>
+        
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full mb-6">
-              <Award className="w-5 h-5" />
-              <span className="text-sm font-medium">DHA Licensed & Trusted Healthcare</span>
+          <div className="text-center max-w-4xl mx-auto">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 px-5 py-2 bg-white rounded-full mb-6 border border-gray-200 shadow-sm">
+              <Award className="w-4 h-4 text-[#1a5f3f]" />
+              <span className="text-xs font-semibold text-[#1a5f3f] tracking-wide">DHA LICENSED & TRUSTED HEALTHCARE</span>
+              <div className="flex gap-0.5">
+                {[1,2,3,4,5].map(i => (
+                  <svg key={i} className="w-3 h-3 text-[#d4a574]" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Our <span className="text-[#d4a574]">Medical Services</span>
+            
+            {/* Main Heading */}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+              <span className="text-gray-900">Our</span>
+              <span className="text-[#1a5f3f]">Medical</span>
+              <br />
+              <span className="text-gray-900">Services</span>
             </h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 text-gray-100">
-              Comprehensive healthcare solutions for your wellness journey
+            
+            <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-gray-600 leading-relaxed">
+              Comprehensive healthcare solutions tailored for your wellness journey
             </p>
             
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mt-12">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
-                <div className="text-2xl md:text-3xl font-bold text-[#d4a574]">500+</div>
-                <div className="text-sm text-gray-200">Happy Patients</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
-                <div className="text-2xl md:text-3xl font-bold text-[#d4a574]">15+</div>
-                <div className="text-sm text-gray-200">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
-                <div className="text-2xl md:text-3xl font-bold text-[#d4a574]">98%</div>
-                <div className="text-sm text-gray-200">Success Rate</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
-                <div className="text-2xl md:text-3xl font-bold text-[#d4a574]">40+</div>
-                <div className="text-sm text-gray-200">Treatments</div>
-              </div>
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-12">
+              <button
+                onClick={handleBookAppointment}
+                className="group inline-flex items-center gap-2 px-8 py-4 bg-[#1a5f3f] text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5"
+              >
+                <Calendar className="w-5 h-5" />
+                <span>Book Free Consultation</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </button>
+              <button
+                onClick={handleCallNow}
+                className="group inline-flex items-center gap-2 px-8 py-4 bg-white text-[#1a5f3f] rounded-xl font-semibold border-2 border-[#1a5f3f]/20 hover:border-[#1a5f3f] shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
+              >
+                <div className="w-8 h-8 bg-[#1a5f3f]/10 rounded-lg flex items-center justify-center">
+                  <Phone className="w-4 h-4 text-[#1a5f3f]" />
+                </div>
+                <span>Call Now</span>
+              </button>
+            </div>
+            
+            {/* Stats Cards */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+              {[
+                { value: '500+', label: 'HAPPY PATIENTS', icon: Users, color: 'bg-[#1a5f3f]' },
+                { value: '15+', label: 'YEARS EXPERIENCE', icon: Award, color: 'bg-[#d4a574]' },
+                { value: '98%', label: 'SUCCESS RATE', icon: CheckCircle, color: 'bg-gradient-to-br from-[#1a5f3f] to-[#d4a574]' },
+                { value: '40+', label: 'TREATMENTS', icon: Sparkles, color: 'bg-[#1a5f3f]' }
+              ].map((stat, index) => {
+                const IconComponent = stat.icon;
+                return (
+                  <div key={index} className="bg-white rounded-2xl p-5 border border-gray-100 shadow-md hover:shadow-lg transition-all">
+                    <div className={`w-12 h-12 ${stat.color} rounded-xl flex items-center justify-center mx-auto mb-3`}>
+                      <IconComponent className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="text-3xl font-bold text-gray-900 mb-1">
+                      <span className={index === 1 ? 'text-[#d4a574]' : 'text-[#1a5f3f]'}>
+                        {stat.value}
+                      </span>
+                    </div>
+                    <div className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
+                      {stat.label}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
       </section>
 
       {/* Search and Filter Section */}
-      <section className="py-8 bg-gray-50">
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto">
+            {/* Section Title */}
+            <div className="text-center mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-[#1a5f3f]/5 rounded-full mb-3">
+                <svg className="w-3.5 h-3.5 text-[#1a5f3f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <span className="text-xs font-semibold text-[#1a5f3f] uppercase tracking-wide">Find Your Treatment</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-gray-900">
+                Search Our <span className="text-[#1a5f3f]">Services</span>
+              </h3>
+            </div>
+            
+            {/* Search Input */}
             <div className="relative">
-              <input
-                type="text"
-                placeholder="Search services..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-6 py-4 text-lg border-2 border-gray-200 rounded-2xl focus:outline-none focus:ring-4 focus:ring-[#1a5f3f]/20 focus:border-[#1a5f3f] transition-all force-light-text"
-              />
-              <SearchIcon className="absolute right-4 top-1/2 transform -translate-y-1/2 w-6 h-6" />
+              <div className="bg-white rounded-xl shadow-lg border border-gray-200">
+                <input
+                  type="text"
+                  placeholder="Search for treatments, services, or specialties..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full px-6 py-4 text-base bg-transparent border-none focus:outline-none focus:ring-0 force-light-text placeholder:text-gray-400"
+                />
+                <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
+                  <div className="w-10 h-10 bg-[#1a5f3f] rounded-lg flex items-center justify-center">
+                    <SearchIcon className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+              </div>
+              
+              {/* Quick Tags */}
+              <div className="mt-4 flex flex-wrap gap-2 justify-center">
+                <span className="text-xs text-gray-500 font-medium">Popular:</span>
+                {['Skin Treatment', 'Dental', 'Physiotherapy', 'Ayurveda'].map((tag, idx) => (
+                  <button
+                    key={idx}
+                    onClick={() => setSearchQuery(tag)}
+                    className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-[#1a5f3f] hover:text-[#1a5f3f] transition-all"
+                  >
+                    {tag}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </section>
       {/* Services Grid */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-[#f8f9fa]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-[#1a5f3f]/5 rounded-full mb-4">
+              <Sparkles className="w-3.5 h-3.5 text-[#1a5f3f]" />
+              <span className="text-xs font-semibold text-[#1a5f3f] uppercase tracking-wide">Our Specialties</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
               Comprehensive <span className="text-[#1a5f3f]">Healthcare Services</span>
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore our wide range of medical specialties and treatments, all delivered with expert care and personalized attention
+            <p className="text-base text-gray-600 max-w-2xl mx-auto">
+              Explore our wide range of medical specialties and treatments, all delivered with expert care
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Services Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {filteredServices.map((service) => {
               const IconComponent = service.icon;
               const isExpanded = expandedCategory === service.id;
-              
+
               return (
                 <div 
                   key={service.id} 
-                  className="bg-white rounded-2xl border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
+                  className={`group relative bg-white rounded-3xl border-2 transition-all duration-500 overflow-hidden ${
+                    isExpanded 
+                      ? 'border-[#1a5f3f]/30 shadow-2xl scale-[1.02]' 
+                      : 'border-gray-100 shadow-lg hover:border-[#1a5f3f]/20 hover:shadow-xl'
+                  }`}
                 >
+                  {/* Gradient Border Effect */}
+                  <div className={`absolute inset-0 bg-gradient-to-br from-[#1a5f3f]/5 via-transparent to-[#d4a574]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
+                    isExpanded ? 'opacity-100' : ''
+                  }`}></div>
+                  
                   {/* Service Header */}
                   <div 
-                    className="p-6 cursor-pointer"
-                    onClick={() => toggleCategory(service.id)}>
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex items-center gap-4">
-                        <div 
-                          className="w-14 h-14 rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform"
-                          style={{ backgroundColor: service.color }} >
-                          <IconComponent className="w-7 h-7" />
+                    className="relative p-8 cursor-pointer"
+                    onClick={() => toggleCategory(service.id)}
+                  >
+                    <div className="flex items-start justify-between mb-6">
+                      <div className="flex items-center gap-5 flex-1">
+                        {/* Icon Container */}
+                        <div className={`relative w-16 h-16 rounded-2xl flex items-center justify-center shadow-lg transition-all duration-300 ${
+                          isExpanded ? 'scale-110' : 'group-hover:scale-105'
+                        }`}>
+                          <div className="absolute inset-0 bg-gradient-to-br from-[#1a5f3f] to-[#2d7a5f] rounded-2xl"></div>
+                          <div className="absolute inset-0 bg-gradient-to-br from-[#1a5f3f]/20 to-[#d4a574]/20 rounded-2xl blur-lg"></div>
+                          <IconComponent className="relative w-8 h-8 text-white" />
                         </div>
-                        <div>
-                          <h3 className="text-xl font-bold text-gray-900 group-hover:text-[#1a5f3f] transition-colors">
+    
+                        {/* Title & Description */}
+                        <div className="flex-1">
+                          <h3 className={`text-2xl font-bold mb-2 transition-colors ${
+                            isExpanded ? 'text-[#1a5f3f]' : 'text-gray-900 group-hover:text-[#1a5f3f]'
+                          }`}>
                             {service.name}
                           </h3>
-                          <p className="text-gray-600 text-sm mt-1">{service.description}</p>
+                          <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
                         </div>
                       </div>
-                      <div className={`transform transition-transform ${isExpanded ? 'rotate-180' : ''}`}>
-                        <ChevronDown className="w-6 h-6 text-gray-400" />
+                      
+                      {/* Expand Arrow */}
+                      <div className={`flex-shrink-0 ml-4 w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center transition-all duration-300 ${
+                        isExpanded 
+                          ? 'bg-[#1a5f3f] rotate-180' 
+                          : 'group-hover:bg-[#1a5f3f]/10'
+                      }`}>
+                        <ChevronDown className={`w-5 h-5 transition-colors ${
+                          isExpanded ? 'text-white' : 'text-gray-400 group-hover:text-[#1a5f3f]'
+                        }`} />
                       </div>
                     </div>
 
-                    {/* Featured Badge */}
-                    {service.featured && (
-                      <div className="inline-flex items-center gap-1 px-3 py-1 bg-[#1a5f3f]/10 text-[#1a5f3f] rounded-full text-xs font-medium mb-4">
-                        <Star className="w-3 h-3" />
-                        <span>Featured</span>
+                    {/* Featured Badge & Stats */}
+                    <div className="flex items-center gap-4 flex-wrap mb-6">
+                      {service.featured && (
+                        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-[#d4a574]/20 to-[#d4a574]/10 text-[#1a5f3f] rounded-full text-xs font-semibold border border-[#d4a574]/30">
+                          <Star className="w-3.5 h-3.5" />
+                          <span>Featured</span>
+                        </div>
+                      )}
+                      
+                      <div className="flex items-center gap-2 text-sm text-gray-500 bg-gray-50 px-3 py-1.5 rounded-full">
+                        <Users className="w-4 h-4" />
+                        <span className="font-medium">{service.subcategories.length} Treatments</span>
+                      </div>
+                      
+                      <div className="flex items-center gap-2 text-sm text-gray-500 bg-gray-50 px-3 py-1.5 rounded-full">
+                        <Clock className="w-4 h-4" />
+                        <span className="font-medium">30-90 min</span>
+                      </div>
+                    </div>
+
+                    {/* Popular Treatments Preview */}
+                    {service.subcategories.length > 0 && (
+                      <div className="mb-4">
+                        <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Popular Treatments</div>
+                        <div className="flex flex-wrap gap-2">
+                          {service.subcategories.slice(0, 4).map((subcategory, index) => (
+                            <span 
+                              key={index} 
+                              className="inline-flex items-center px-3 py-1.5 bg-gradient-to-r from-[#1a5f3f]/5 to-[#1a5f3f]/10 text-[#1a5f3f] rounded-full text-xs font-medium border border-[#1a5f3f]/10 hover:border-[#1a5f3f]/30 transition-colors"
+                            >
+                              {subcategory.name}
+                            </span>
+                          ))}
+                          {service.subcategories.length > 4 && (
+                            <span className="inline-flex items-center px-3 py-1.5 bg-gray-100 text-gray-600 rounded-full text-xs font-medium">
+                              +{service.subcategories.length - 4} more
+                            </span>
+                          )}
+                        </div>
                       </div>
                     )}
-
-                    {/* Quick Stats */}
-                    <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
-                      <div className="flex items-center gap-1">
-                        <Users className="w-4 h-4" />
-                        <span>{service.subcategories.length} Treatments</span>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <Clock className="w-4 h-4" />
-                        <span>30-90 min</span>
-                      </div>
-                    </div>
-
-                    {/* Subcategory Preview - Show first 3 subcategories */}
-                    <div className="mb-4">
-                      <div className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Popular Treatments:</div>
-                      <div className="space-y-1">
-                        {service.subcategories.slice(0, 3).map((subcategory, index) => (
-                          <div key={index} className="flex items-center gap-2 text-sm text-gray-600">
-                            <div className="w-1.5 h-1.5 rounded-full bg-[#1a5f3f]"></div>
-                            <span>{subcategory.name}</span>
-                          </div>
-                        ))}
-                        {service.subcategories.length > 3 && (
-                          <div className="text-xs text-[#1a5f3f] font-medium mt-1">
-                            +{service.subcategories.length - 3} more...
-                          </div>
-                        )}
-                      </div>
-                    </div>
-
-                    {/* Indicate sub-subcategories availability */}
-                    <div className="flex items-center gap-2 text-xs text-[#d4a574] font-medium mb-4">
-                      <div className="w-2 h-2 rounded-full bg-[#d4a574]"></div>
-                      <span>Multiple specialized treatments available</span>
-                    </div>
                   </div>
 
                   {/* Expanded Subcategories */}
-                  <div className={`transition-all duration-300 ease-in-out ${
-                    isExpanded ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
-                  } overflow-hidden bg-gray-50`}>
-                    <div className="p-6 pt-0">
-                      <div className="space-y-3 max-h-96 overflow-y-auto">
+                  <div className={`relative transition-all duration-500 ease-in-out ${
+                    isExpanded ? 'max-h-[800px] opacity-100' : 'max-h-0 opacity-0'
+                  } overflow-hidden`}>
+                    <div className="px-8 pb-8 pt-2">
+                      {/* Divider */}
+                      <div className="h-px bg-gradient-to-r from-transparent via-[#1a5f3f]/20 to-transparent mb-6"></div>
+                      
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[600px] overflow-y-auto pr-2">
                         {service.subcategories.map((subcategory, index) => (
-                          <div key={index} className="group/sub">
-                            <a
-                              href={`/services/${subcategory.slug}`}
-                              className="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200 hover:border-[#1a5f3f] hover:shadow-md transition-all">
-                              <div className="flex items-center gap-3">
-                                <div className="w-2 h-2 rounded-full bg-[#1a5f3f]"></div>
-                                <div>
-                                  <div className="font-medium text-gray-900 group-hover/sub:text-[#1a5f3f] transition-colors">
-                                    {subcategory.name}
-                                  </div>
-                                  <div className="text-sm text-gray-600 mt-1">
-                                    {subcategory.description}
-                                  </div>
-                                </div>
-                              </div>
-                              <ArrowRight className="w-5 h-5 text-gray-400 group-hover/sub:text-[#1a5f3f] group-hover/sub:translate-x-1 transition-all" />
-                            </a>
-                            
-                            {/* Show related services under this subcategory - Only from current category */}
-                            <div className="ml-8 pl-4 mt-2 text-xs force-light-text">
-                              <div className="flex flex-wrap gap-2">
-                                {service.subcategories
-                                  .filter(relatedService => relatedService.slug !== subcategory.slug) // Exclude current service
-                                  .slice(0, 6) // Limit to 6 related services
-                                  .map((relatedService, idx) => (
-                                    <a 
-                                      key={idx}
-                                      href={`/services/${relatedService.slug}`}
-                                      className="inline-flex items-center gap-1 px-2 py-1 bg-white border border-gray-200 rounded-full text-xs hover:bg-[#1a5f3f] hover:text-white transition-colors force-light-text">
-                                      <div className="w-1.5 h-1.5 rounded-full bg-[#d4a574]"></div>
-                                      {relatedService.name}
-                                    </a>
-                                  ))}
+                          <a
+                            key={index}
+                            href={`/services/${subcategory.slug}`}
+                            className="group/item flex items-center gap-3 p-4 bg-gradient-to-r from-gray-50 to-white rounded-xl border border-gray-100 hover:border-[#1a5f3f]/30 hover:shadow-md hover:from-[#1a5f3f]/5 hover:to-[#1a5f3f]/10 transition-all duration-300"
+                          >
+                            <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gradient-to-r from-[#1a5f3f] to-[#2d7a5f] group-hover/item:scale-150 transition-transform"></div>
+                            <div className="flex-1 min-w-0">
+                              <div className="font-semibold text-gray-900 group-hover/item:text-[#1a5f3f] transition-colors text-sm truncate">
+                                {subcategory.name}
                               </div>
                             </div>
-                          </div>
+                            <ArrowRight className="w-4 h-4 text-gray-400 group-hover/item:text-[#1a5f3f] group-hover/item:translate-x-1 transition-all flex-shrink-0" />
+                          </a>
                         ))}
                       </div>
                       
-                      <div className="mt-6 pt-6 border-t border-gray-200">
+                      {/* View All Button */}
+                      <div className="mt-6 pt-6 border-t border-gray-100">
                         <a
                           href={`/services/${service.slug}`}
-                          className="inline-flex items-center gap-2 px-6 py-3 bg-[#1a5f3f] text-white rounded-xl hover:bg-[#154a3f] transition-colors font-medium"
+                          className="group/btn inline-flex items-center justify-center gap-2 w-full px-6 py-4 bg-gradient-to-r from-[#1a5f3f] to-[#2d7a5f] text-white rounded-xl hover:from-[#2d7a5f] hover:to-[#1a5f3f] transition-all font-semibold shadow-lg hover:shadow-xl hover:-translate-y-0.5"
                         >
-                          View All {service.name} Services
-                          <ArrowRight className="w-5 h-5" />
+                          <span>View All {service.name} Services</span>
+                          <ArrowRight className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" />
                         </a>
                       </div>
                     </div>
@@ -544,61 +643,85 @@ const ServicesPage = () => {
             })}
           </div>
 
+          {/* No Results */}
           {filteredServices.length === 0 && (
-            <div className="text-center py-12">
-              <div className="text-gray-400 mb-4">
-                <SearchIcon className="w-16 h-16 mx-auto" />
+            <div className="text-center py-20">
+              <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <SearchIcon className="w-12 h-12 text-gray-400" />
               </div>
-              <h3 className="text-xl font-medium text-gray-900 mb-2">No services found</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">No services found</h3>
               <p className="text-gray-600">Try adjusting your search terms</p>
             </div>
           )}
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
-      <section className="py-16 bg-gray-50">
+      {/* Why Choose Us - Modern Cards */}
+      <section className="py-20 bg-gradient-to-br from-[#f8f9fa] via-white to-[#e8f5e9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose <span className="text-[#1a5f3f]">RamaCare</span>
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#1a5f3f]/5 rounded-full mb-4">
+              <Shield className="w-4 h-4 text-[#1a5f3f]" />
+              <span className="text-sm font-semibold text-[#1a5f3f] uppercase tracking-wide">Why Choose Us</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Why Choose <span className="bg-gradient-to-r from-[#1a5f3f] to-[#2d7a5f] bg-clip-text text-transparent">RamaCare</span>
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Experience healthcare excellence with our comprehensive medical services
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
                 icon: Shield,
                 title: 'DHA Licensed',
-                description: 'Fully licensed and regulated by Dubai Health Authority'
+                description: 'Fully licensed and regulated by Dubai Health Authority',
+                gradient: 'from-[#1a5f3f]/10 to-[#1a5f3f]/5'
               },
               {
                 icon: Users,
                 title: 'Expert Team',
-                description: 'Experienced professionals with 15+ years expertise'
+                description: 'Experienced professionals with 15+ years expertise',
+                gradient: 'from-[#d4a574]/10 to-[#d4a574]/5'
               },
               {
                 icon: CheckCircle,
                 title: 'Proven Results',
-                description: '98% success rate with 500+ satisfied patients'
+                description: '98% success rate with 500+ satisfied patients',
+                gradient: 'from-[#1a5f3f]/10 to-[#d4a574]/10'
               },
               {
                 icon: Award,
                 title: 'Premium Care',
-                description: 'Luxury facility with state-of-the-art equipment'
+                description: 'Luxury facility with state-of-the-art equipment',
+                gradient: 'from-[#d4a574]/10 to-[#1a5f3f]/10'
               }
             ].map((feature, index) => {
               const IconComponent = feature.icon;
               return (
-                <div key={index} className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-shadow">
-                  <div className="w-16 h-16 bg-[#1a5f3f]/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="w-8 h-8 text-[#1a5f3f]" />
+                <div key={index} className="group relative bg-white rounded-3xl p-8 border border-gray-100 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden">
+                  {/* Background Gradient */}
+                  <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`}></div>
+                  
+                  <div className="relative">
+                    {/* Icon */}
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#1a5f3f] to-[#2d7a5f] rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                      <IconComponent className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    {/* Content */}
+                    <h3 className="text-xl font-bold text-gray-900 mb-3 text-center group-hover:text-[#1a5f3f] transition-colors">
+                      {feature.title}
+                    </h3>
+                    <p className="text-gray-600 text-center text-sm leading-relaxed">
+                      {feature.description}
+                    </p>
+                    
+                    {/* Bottom Accent Line */}
+                    <div className="mt-6 h-1 bg-gradient-to-r from-[#1a5f3f] to-[#2d7a5f] rounded-full w-0 group-hover:w-full transition-all duration-500"></div>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.description}</p>
                 </div>
               );
             })}
@@ -606,42 +729,49 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      {/* Appointment CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-[#1a5f3f] to-[#2d5f3f] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+      {/* Appointment CTA - Modern Design */}
+      <section className="py-20 bg-gradient-to-br from-[#1a5f3f] via-[#2d5f3f] to-[#1a5f3f] text-white relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#d4a574] rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+        </div>
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-4xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Ready to Start Your <span className="text-[#d4a574]">Wellness Journey</span>?
             </h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-100">
+            <p className="text-xl mb-12 max-w-2xl mx-auto text-gray-100 leading-relaxed">
               Book your consultation today and experience premium healthcare services
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <button
                 onClick={handleBookAppointment}
-                className="inline-flex items-center gap-3 px-8 py-4 bg-[#d4a574] text-white rounded-xl hover:bg-[#c19463] transition-colors font-medium text-lg shadow-lg hover:shadow-xl"
+                className="group inline-flex items-center justify-center gap-3 px-10 py-5 bg-gradient-to-r from-[#d4a574] to-[#c19463] text-white rounded-2xl hover:from-[#c19463] hover:to-[#d4a574] transition-all font-semibold text-lg shadow-2xl hover:shadow-[0_20px_60px_-15px_rgba(212,165,116,0.5)] hover:-translate-y-1"
               >
-                <Calendar className="w-6 h-6" />
-                Book Free Consultation
+                <Calendar className="w-6 h-6 group-hover:rotate-12 transition-transform" />
+                <span>Book Free Consultation</span>
               </button>
               <button
                 onClick={handleCallNow}
-                className="inline-flex items-center gap-3 px-8 py-4 bg-white/20 backdrop-blur-sm text-white rounded-xl hover:bg-white/30 transition-colors font-medium text-lg border border-white/30"
-              >
-                <Phone className="w-6 h-6" />
-                Call Now: +971 56 659 7878
+                className="group inline-flex items-center justify-center gap-3 px-10 py-5 bg-white/10 backdrop-blur-sm text-white rounded-2xl hover:bg-white/20 transition-all font-semibold text-lg border-2 border-white/30 hover:border-white/50 hover:-translate-y-1">
+                <Phone className="w-6 h-6 group-hover:rotate-12 transition-transform" />
+                <span>Call Now: +971 56 659 7878</span>
               </button>
             </div>
             
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-gray-200">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-5 h-5" />
-                <span>Jumeirah 1, Dubai</span>
+            {/* Contact Info */}
+            <div className="flex flex-wrap items-center justify-center gap-8 text-gray-200">
+              <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-xl border border-white/20">
+                <MapPin className="w-5 h-5 text-[#d4a574]" />
+                <span className="font-medium">Jumeirah 1, Dubai</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Clock className="w-5 h-5" />
-                <span>10:00 AM - 10:00 PM</span>
+              <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-xl border border-white/20">
+                <Clock className="w-5 h-5 text-[#d4a574]" />
+                <span className="font-medium">10:00 AM - 10:00 PM</span>
               </div>
             </div>
           </div>
@@ -661,8 +791,7 @@ const ServicesPage = () => {
             </button>
             <BeginYourHealingJourneySection 
               isModal={true} 
-              onClose={() => setIsBookingModalOpen(false)} 
-            />
+              onClose={() => setIsBookingModalOpen(false)} />
           </div>
         </div>
       )}
@@ -673,7 +802,7 @@ const ServicesPage = () => {
 
 // Simple search icon component with theme consistency
 const SearchIcon = ({ className }) => (
-  <svg className={`${className} text-gray-400 force-light-text`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
   </svg>
 );

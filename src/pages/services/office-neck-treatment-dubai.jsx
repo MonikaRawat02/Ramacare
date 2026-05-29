@@ -52,7 +52,7 @@ const OfficeNeckTreatmentPage = () => {
       <Head>
         <title>'Office Neck' Treatment Dubai | Ultrasound Therapy at RamaCare</title>
         <meta name="description" content="Are you a professional in DIFC or Business Bay suffering from neck stiffness? Discover how RamaCare’s ultrasound therapy fixes 'Office Neck' and postural strain fast." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/office-neck-treatment-dubai/" />
+        
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 

@@ -211,7 +211,7 @@ const content = {
       <Head>
         <title>Ayurvedic Diet for Weight Loss Dubai | Natural Fat Loss Plans</title>
         <meta name="description" content="Lose weight sustainably without fad diets. Our DHA-licensed Ayurvedic weight loss plans in Dubai target the root cause of obesity by boosting metabolism and balancing Doshas. Visit RamaCare Jumeirah" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-diet-weight-loss-dubai" />
+        
       </Head>
 
       {/* Hero Section */}

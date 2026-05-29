@@ -84,14 +84,18 @@ async function generateSitemap(blogs, services, doctorIds) {
   // Helper function to add URL only if it doesn't exist
   const addUrl = (loc, lastmod, priority, changefreq) => {
     if (!urlSet.has(loc)) {
-      urlSet.add(loc);
-      xml += `  <url>
-    <loc>${loc}</loc>
+      // Ensure location has trailing slash if it's not a file extension
+      const finalLoc = loc.endsWith('/') ? loc : `${loc}/`;
+      if (!urlSet.has(finalLoc)) {
+        urlSet.add(finalLoc);
+        xml += `  <url>
+    <loc>${finalLoc}</loc>
     <lastmod>${lastmod}</lastmod>
     <priority>${priority}</priority>
     <changefreq>${changefreq}</changefreq>
   </url>
 `;
+      }
     } else {
       console.log(`Duplicate URL skipped: ${loc}`);
     }

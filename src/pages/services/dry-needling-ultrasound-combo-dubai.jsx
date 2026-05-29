@@ -153,7 +153,7 @@ const DryNeedlingUltrasoundComboPage = () => {
       <Head>
         <title>Dry Needling & Ultrasound Combo Dubai | RamaCare Dual Recovery</title>
         <meta name="description" content='Experience the "Ultimate Recovery Duo" at RamaCare Jumeirah. Learn how combining Dry Needling and Ultrasound therapy accelerates healing for stubborn muscle knots and chronic pain.' />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/dry-needling-ultrasound-combo-dubai/" />
+        
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 

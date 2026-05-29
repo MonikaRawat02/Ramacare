@@ -63,7 +63,7 @@ export default function AcneTreatmentPage() {
         <title>Acne Treatment in Dubai | Advanced Solutions for Clear, Healthy Skin</title>
         <meta name="description" content="Expert acne treatment in Dubai with advanced dermatology solutions for clear, healthy, and acne-free skin. Personalized treatments for all skin types." />
         <meta name="keywords" content="Acne treatment Dubai, Best acne treatment Dubai, Acne scar treatment Dubai, Dermatologist acne treatment, Chemical peel for acne, Laser acne treatment, Hormonal acne treatment" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/acne-treatment-dubai" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

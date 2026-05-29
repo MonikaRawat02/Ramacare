@@ -29,21 +29,24 @@ Created `src/utils/canonical.js` with utility functions for generating canonical
 - **Status**: ✅ Already implemented
 
 ### 3. Service Pages
-- **Implementation**: Added canonical tags to all 85 service pages
-- **Canonical URL Format**: `https://ramacarepolyclinic.ae/services/{service-slug}/`
+- **Implementation**: Centralized in `components/Layout.jsx`.
+- **Canonical URL Format**: `https://ramacarepolyclinic.ae/services/{service-slug}` (No trailing slash)
 - **Approach**: 
-  - Created script `scripts/addCanonicalTags.js` to batch-add canonical tags
-  - Modified `components/Layout.jsx` to automatically generate canonical tags for service pages
+  - Removed hardcoded canonical tags from individual pages to prevent duplication.
+  - Modified `components/Layout.jsx` to automatically generate canonical tags for all pages.
 - **Examples**:
-  - General Medicine: `https://ramacarepolyclinic.ae/services/general-physician-dubai/`
-  - Aesthetic Dermatology: `https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai/`
+  - General Medicine: `https://ramacarepolyclinic.ae/services/general-physician-dubai`
+  - Aesthetic Dermatology: `https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai`
 
 ### 4. Blog Pages
-- **Blog Index**: `https://ramacarepolyclinic.ae/blog/`
-- **Individual Blog Posts**: `https://ramacarepolyclinic.ae/blog/{blog-slug}/`
+- **Blog Index**: `https://ramacarepolyclinic.ae/blog`
+- **Individual Blog Posts**: `https://ramacarepolyclinic.ae/blog/{blog-slug}`
 - **Implementation**: 
-  - Modified `components/Layout.jsx` to generate dynamic canonical URLs for blog posts
-  - Uses `router.asPath` for blog posts to preserve query parameters if needed
+  - Modified `components/Layout.jsx` to generate dynamic canonical URLs.
+
+### 5. Redirects (www to non-www)
+- **Implementation**: `src/middleware.ts`
+- **Purpose**: Automatically redirects all `www.ramacarepolyclinic.ae` traffic to `ramacarepolyclinic.ae` with a 301 status. This is the primary fix for the duplicate content issues reported in the site audit.
 
 ### 5. Doctor Pages
 - **Doctors Listing**: `https://ramacarepolyclinic.ae/doctors/`
@@ -64,7 +67,6 @@ Created `src/utils/canonical.js` with utility functions for generating canonical
 - **Implementation**: Added canonical tag to `src/pages/testimonials.jsx`
 
 ## Key Features
-
 ### Automatic Canonical Generation
 The `Layout.jsx` component now automatically generates canonical tags for:
 - Service pages (using `router.pathname`)
@@ -83,7 +85,6 @@ To test the implementation:
 3. Verify that each page has the correct canonical URL
 
 ## SEO Best Practices Implemented
-
 ✅ **One canonical tag per page** - Each page has exactly one canonical tag
 ✅ **Full HTTPS URLs** - All canonical URLs use the full HTTPS protocol
 ✅ **200 Status Pages** - Canonical URLs point to pages that return 200 OK status

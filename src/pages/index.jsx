@@ -22,7 +22,7 @@ export default function Home() {
        <meta name="keywords" content="RamaCare Polyclinic Dubai, Polyclinic in Dubai, Trusted polyclinic in Dubai, Multi-Specialty Clinic Dubai, Medical clinic Dubai, DHA licensed polyclinic, Family healthcare Dubai, Affordable healthcare Dubai, Polyclinic in Jumeirah 1, Medical clinic Jumeirah 1, Best Polyclinic in Jumeirah 1" />
        <meta name="google-site-verification" content="VRn7pg1rACQOgcGV13YChuu05_Iu__0QVLXrw9dNGCc" /> 
        <meta name="msvalidate.01" content="FB6C6318BA274AFF1EA6E095977EA143" />
-       <link rel="canonical" href="https://ramacarepolyclinic.ae/" />
+       
        <script type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: `{
@@ -48,8 +48,8 @@ export default function Home() {
     "name": "Dubai"
   },
   "sameAs": [
-    "https://www.facebook.com/ramacare",
-    "https://www.instagram.com/ramacare"
+    "https://www.facebook.com/ramacare/",
+    "https://www.instagram.com/ramacare/"
   ],
   "medicalSpecialty": [
     "General Medicine",

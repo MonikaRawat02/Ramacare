@@ -39,7 +39,7 @@ export default function AbhyangaMassageTreatmentPage() {
         <title>Abhyanga Massage Dubai | Full Body Ayurvedic Oil Massage</title>
         <meta name="description" content="Experience authentic Abhyanga massage in Dubai at RamaCare Polyclinic. A traditional Ayurvedic full-body oil therapy for deep relaxation, detox, and rejuvenation." />
         <meta name="keywords" content="Abhyanga Massage Dubai, Ayurvedic massage Dubai, Full body oil massage Dubai, Ayurvedic detox therapy, Stress relief massage Dubai, Traditional Ayurveda Dubai, Herbal oil massage Dubai, Relaxation therapy Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/abhyanga-massage-dubai/" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

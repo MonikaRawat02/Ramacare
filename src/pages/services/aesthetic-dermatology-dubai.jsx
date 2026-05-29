@@ -21,7 +21,7 @@ export default function AestheticDermatologyCategoryPage() {
   <title>Skin Treatment Dubai – Clear & Healthy Skin</title>
   <meta name="description" content="RamaCare offers advanced skin treatment in Dubai with expert dermatologists, safe therapies, and personalized care for acne, pigmentation, anti-aging, and glowing skin." />
   <meta name="keywords" content="Skin Treatment Dubai, Clear skin treatment Dubai, Healthy skin Dubai, Dermatology clinic Dubai, Acne treatment Dubai, Anti-aging skin care Dubai, Skin rejuvenation Dubai, Laser skin treatment Dubai, Pigmentation treatment Dubai, Medical skin clinic Dubai, Personalized skin care Dubai, DHA licensed dermatology clinic" />
-   <link rel="canonical" href="https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai/" />
+   
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

@@ -61,7 +61,7 @@ export default function MigraineTreatmentPage() {
         <title>Migraine Treatment in Dubai | Personalized Headache Relief & Chronic Migraine Care</title>
         <meta name="description" content="Expert migraine treatment in Dubai with personalized care for chronic headaches, migraine relief, stress management, and long-term wellness support at Rama Care Polyclinic." />
         <meta name="keywords" content="Migraine treatment Dubai, Chronic migraine treatment, Headache treatment Dubai, Tension headache treatment, Stress-related headache Dubai, Migraine specialist Dubai, Physiotherapy for migraine" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/migraine-treatment-dubai" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -983,8 +983,7 @@ export default function MigraineTreatmentPage() {
                     animate={{ height: 'auto', opacity: 1 }}
                     exit={{ height: 0, opacity: 0 }}
                     transition={{ duration: 0.3 }}
-                    className="px-6 pb-6"
-                  >
+                    className="px-6 pb-6" >
                     <p className="text-[#5F5F5F] leading-relaxed">{faq.answer}</p>
                   </motion.div>
                 )}

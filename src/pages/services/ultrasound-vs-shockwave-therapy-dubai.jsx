@@ -68,7 +68,7 @@ const UltrasoundVsShockwavePage = () => {
       <Head>
         <title>Ultrasound vs. Shockwave Therapy Dubai | RamaCare Comparison Guide</title>
         <meta name="description" content="Confused between Ultrasound and Shockwave therapy? Learn the key differences in depth, intensity, and results to choose the right recovery path at RamaCare Jumeirah." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ultrasound-vs-shockwave-therapy-dubai/" />
+        
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 

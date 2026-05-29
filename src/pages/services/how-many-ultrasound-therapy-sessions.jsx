@@ -160,7 +160,7 @@ const UltrasoundSessionsTimelinePage = () => {
       <Head>
         <title>How Many Ultrasound Therapy Sessions? | RamaCare Dubai Timeline</title>
         <meta name="description" content="Wondering how many sessions of ultrasound therapy are needed for pain relief? See our clinical recovery timeline for sports injuries, back pain, and chronic conditions at RamaCare Jumeirah." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/how-many-ultrasound-therapy-sessions" />
+        
       </Head>
 
       {/* Hero Section */}

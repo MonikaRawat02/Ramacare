@@ -282,8 +282,7 @@ const TreatmentSection = ({ category, content }) => {
                         ? 'bg-white border-2 border-[#C9A547] shadow-md'
                         : 'bg-white border-2 border-[#E5E7EB] shadow-sm hover:shadow-md'
                     }
-                  `}
-                >
+                  `} >
                   {/* Icon Container */}
                   <div className={`
                     w-14 h-14 rounded-xl

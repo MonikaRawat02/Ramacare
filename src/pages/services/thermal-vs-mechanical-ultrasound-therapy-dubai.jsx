@@ -116,7 +116,7 @@ const ThermalVsMechanicalUltrasound = () => {
       <Head>
         <title>Thermal vs. Mechanical Ultrasound Therapy Dubai | RamaCare Guide</title>
         <meta name="description" content="Should you use Thermal or Mechanical ultrasound? Learn how RamaCare Jumeirah uses different ultrasound modes to treat acute swelling versus chronic stiffness." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/thermal-vs-mechanical-ultrasound-therapy-dubai/" />
+        
       </Head>
 
       <main className="min-h-screen bg-white" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>

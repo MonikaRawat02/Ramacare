@@ -137,7 +137,7 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
       <Head>
         <title>Ultrasound vs. Laser Therapy Dubai | Deep Tissue Healing at RamaCare</title>
         <meta name="description" content="Comparing Ultrasound and Laser therapy for pain? Learn which deep-tissue healing method is best for your injury at RamaCare Polyclinic, Jumeirah 1." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ultrasound-vs-laser-therapy-dubai/" />
+        
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 

@@ -71,7 +71,18 @@ export default function TestimonialsPage() {
       id: 12,
       videoUrl: '/Videos/testimonial-12.mp4'
       // No thumbnail = shows video's natural frame
-    }
+    },
+     {
+      id: 13,
+      videoUrl: '/Videos/testimonial-13.mp4',
+     thumbnail: '/images/thumb-13.png'
+    },
+    {
+      id: 14,
+      videoUrl: '/Videos/testimonial-14.mp4',
+       thumbnail: '/images/thumb-14.png'
+      // No thumbnail = shows video's natural frame
+    },
       // Add more testimonials here:
       // {
       //   id: 7,
@@ -92,7 +103,7 @@ export default function TestimonialsPage() {
         <title>Patient Testimonials | RamaCare Polyclinic Dubai</title>
         <meta name="description" content="Read verified patient testimonials and success stories from RamaCare Polyclinic Dubai. Real experiences from patients who received trusted medical care."/>
         <meta name="keywords" content="patient testimonials Dubai, medical clinic reviews, RamaCare patient stories, verified testimonials, healthcare success stories" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/testimonials/" />
+        
       </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-G2WWSZYF7W"

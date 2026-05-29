@@ -27,7 +27,7 @@ export default function IVdripPage() {
         <title>IV Drip Therapy in Dubai | RamaCare Polyclinic</title>
         <meta name="description" content="IV Drip Therapy in Dubai at RamaCare Polyclinic. Experience the benefits of IV Drip Therapy for weight loss, detoxification, and overall wellness. Book your consultation today!" />
         <meta name="keywords" content="IV Drip Therapy, weight loss, detoxification, overall wellness, RamaCare Polyclinic, Dubai" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/iv-drip-dubai" />
+        
       <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{

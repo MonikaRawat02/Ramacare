@@ -281,7 +281,7 @@ export default function AyurvedicDietDiabetesPage() {
       <Head>
         <title>Ayurvedic Diet for Diabetes Dubai | Natural Blood Sugar Control</title>
         <meta name="description" content="Manage Type 2 Diabetes and Prediabetes naturally. Our DHA-licensed Ayurvedic diet plans in Dubai focus on insulin sensitivity and glucose balance through ancient wisdom. Book at RamaCare Jumeirah." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-diet-diabetes-dubai" />
+        
       </Head>
 
       {/* Top Info Bar */}

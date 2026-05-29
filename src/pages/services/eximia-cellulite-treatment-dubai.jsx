@@ -29,7 +29,7 @@ const EximiaCellulitePage = () => {
         <title>Eximia Cellulite Treatment Dubai | Best Cellulite Removal Clinic</title>
         <meta name="description" content="Eximia cellulite treatment Dubai offers the ultimate solution for smooth skin. Get rid of orange peel skin with advanced non-invasive technology at RamaCare Polyclinic." />
         <meta name="keywords" content="Eximia cellulite treatment Dubai, best cellulite removal Dubai, cellulite treatment Dubai, non-surgical cellulite reduction, orange peel skin treatment Dubai, Eximia HR77 Platinum Dubai, smooth skin treatment Dubai, professional cellulite therapy" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/eximia-cellulite-treatment-dubai" />
+        
       </Head>
 
       {/* Hero Section */}

@@ -69,12 +69,12 @@ const RefundCancellationPage = () => {
       <Head>
         <title>Refund and Cancellation Policy - RamaCare Polyclinic</title>
         <meta name="description" content="Refund and Cancellation Policy for RamaCare Polyclinic Dubai. Learn about our payment terms, cancellation procedures, and refund policies." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/refund-and-cancellation-policy/" />
+        <link rel="canonical" href="https://ramacarepolyclinic.ae/refund-and-cancellation-policy" />
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" 
+          rel="stylesheet" 
+        />
       </Head>
-      <link 
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" 
-        rel="stylesheet" 
-      />
 
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-emerald-50/30" style={{ fontFamily: "'Inter', sans-serif" }}>
         

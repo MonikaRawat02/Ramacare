@@ -297,7 +297,7 @@ const Header = () => {
                       onClick={() => setOpenDropdown(openDropdown === index ? null : index)}
                     >
                       <Link 
-                        href={`/services/${category.slug}`} 
+                        href={`/services/${category.slug}/`} 
                         className="flex items-center space-x-1 px-2 py-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap"
                         onClick={(e) => e.stopPropagation()}
                       >
@@ -323,10 +323,9 @@ const Header = () => {
                             {category.subcategories.map((subcategory, subIndex) => (
                               <Link 
                                 key={subIndex} 
-                                href={`/services/${subcategory.slug}`} 
+                                href={`/services/${subcategory.slug}/`} 
                                 className="block px-4 py-2.5 text-xs text-gray-700 hover:bg-[#D5F5E3] hover:text-[#27AE60] transition-all"
-                                onClick={() => setOpenDropdown(null)}
-                              >
+                                onClick={() => setOpenDropdown(null)}>
                                 {subcategory.name}
                               </Link>
                             ))}
@@ -337,11 +336,11 @@ const Header = () => {
                   </div>
                 );
               })}
-              
-              <Link href="/testimonials" className="px-2 py-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap flex-shrink-0">
+             
+              <Link href="/testimonials/" className="px-2 py-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap flex-shrink-0">
                 Testimonials
               </Link>
-              <Link href="/blog" className="px-2 py-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap flex-shrink-0">
+              <Link href="/blog/" className="px-2 py-1.5 text-gray-700 hover:text-[#1a5f3f] transition-colors text-xs whitespace-nowrap flex-shrink-0">
                 Blogs
               </Link>
             </nav>
@@ -400,7 +399,7 @@ const Header = () => {
                         <div className="flex items-center">
                           {/* Category Link - Clickable */}
                           <Link 
-                            href={`/services/${category.slug}`}
+                            href={`/services/${category.slug}/`}
                             className="flex-1 flex items-center space-x-3 px-3 py-2.5 text-gray-700 hover:bg-gray-50 rounded-l-lg transition-colors text-sm font-medium"
                             onClick={() => setIsMenuOpen(false)}
                           >
@@ -424,7 +423,7 @@ const Header = () => {
                             {category.subcategories.map((subcategory, subIndex) => (
                               <Link 
                                 key={subIndex} 
-                                href={`/services/${subcategory.slug}`} 
+                                href={`/services/${subcategory.slug}/`} 
                                 className="block px-3 py-2 text-xs text-gray-600 hover:text-[#1a5f3f] hover:bg-gray-50 rounded-lg transition-all"
                                 onClick={() => setIsMenuOpen(false)}
                               >
@@ -441,11 +440,11 @@ const Header = () => {
                 {/* Quick Links */}
                 <div className="border-t border-gray-200 pt-4 mb-4">
                   <div className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2 px-2">Quick Links</div>
-                  <Link href="/testimonials" className="flex items-center space-x-3 px-3 py-2.5 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors text-sm" onClick={() => setIsMenuOpen(false)}>
+                  <Link href="/testimonials/" className="flex items-center space-x-3 px-3 py-2.5 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors text-sm" onClick={() => setIsMenuOpen(false)}>
                     <span className="w-2 h-2 rounded-full bg-[#1a5f3f]"></span>
                     <span>Testimonials</span>
                   </Link>
-                  <Link href="/blog" className="flex items-center space-x-3 px-3 py-2.5 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors text-sm" onClick={() => setIsMenuOpen(false)}>
+                  <Link href="/blog/" className="flex items-center space-x-3 px-3 py-2.5 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors text-sm" onClick={() => setIsMenuOpen(false)}>
                     <span className="w-2 h-2 rounded-full bg-[#1a5f3f]"></span>
                     <span>Blogs</span>
                   </Link>

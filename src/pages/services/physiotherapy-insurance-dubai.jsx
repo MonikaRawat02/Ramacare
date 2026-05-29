@@ -81,7 +81,7 @@ export default function PhysiotherapyInsuranceDubai() {
       <Head>
         <title>Physiotherapy Insurance Dubai | How to Claim Ultrasound at RamaCare</title>
         <meta name="description" content="Does your UAE health insurance cover ultrasound therapy? Learn about direct billing with NextCare, AXA/GIG, and Daman, plus a step-by-step guide to reimbursement claims." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/physiotherapy-insurance-dubai" />
+        
       </Head>
 
       {/* Hero Section */}

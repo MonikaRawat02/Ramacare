@@ -127,7 +127,7 @@ const HowEximiaWorksPage = () => {
         <title>How Eximia Body Contouring Works | Science of Sculpting Dubai</title>
         <meta name="description" content="Discover the science behind Eximia HR77 Platinum. Learn how its sequential 4-phase cycle prepare skin, emulsify fat, and lift tissue for natural body contouring." />
         <meta name="keywords" content="how Eximia works, Eximia HR77 Platinum technology, Eximia body contouring Dubai, non-surgical fat reduction, sequential 4-phase cycle" />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/how-eximia-body-contouring-works-dubai" />
+        
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 

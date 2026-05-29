@@ -183,7 +183,7 @@ export default function AyurvedicDetoxDietPlanPage() {
       <Head>
         <title>Ayurvedic Detox Diet Plan Dubai | Clinical Body Cleansing</title>
         <meta name="description" content="Flush out toxins and reset your metabolism. Our DHA-licensed Ayurvedic detox diet plans in Dubai focus on clearing Ama (toxins) and restoring gut health. Visit RamaCare Jumeirah 1." />
-        <link rel="canonical" href="https://ramacarepolyclinic.ae/services/ayurvedic-detox-diet-plan-dubai" />
+        
       </Head>
 
       {/* Lead Capture Popup */}

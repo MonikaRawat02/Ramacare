@@ -179,7 +179,7 @@ const EximiaSessionsNeededPage = () => {
       <Head>
         <title>How Many Sessions of Eximia Needed? | Eximia Treatment Protocol Dubai</title>
         <meta name="description" content="Discover how many sessions of Eximia you need for visible results. Learn about the Eximia treatment protocol in Dubai with instant inch loss technology." />
-        <link rel="canonical" href="https://ramacare.ae/how-many-eximia-sessions-needed-dubai" />
+        
       </Head>
 
       {/* Hero Section */}
