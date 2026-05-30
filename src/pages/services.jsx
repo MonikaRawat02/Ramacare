@@ -785,8 +785,7 @@ const ServicesPage = () => {
             <button 
               onClick={() => setIsBookingModalOpen(false)}
               className="absolute top-4 right-4 z-10 p-2 bg-white rounded-full shadow-lg hover:bg-gray-100 transition-colors"
-              aria-label="Close modal"
-            >
+              aria-label="Close modal">
               <X className="w-6 h-6 text-gray-600" />
             </button>
             <BeginYourHealingJourneySection 

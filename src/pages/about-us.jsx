@@ -144,9 +144,10 @@ const whyContent = {
     }
   };
 
-  if (!isClient) {
-    return null;
-  }
+  // Removed early return for SEO crawlers to see content
+  // if (!isClient) {
+  //   return null;
+  // }
 
   return (
     <Layout>

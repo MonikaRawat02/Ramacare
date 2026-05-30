@@ -32,6 +32,7 @@ export default function AyurvedaCategoryPage() {
   "@id": "https://ramacarepolyclinic.ae/services/ayurveda-dubai/#medicalbusiness",
   "name": "Ayurveda Treatment in Dubai",
   "url": "https://ramacarepolyclinic.ae/services/ayurveda-dubai",
+  "image": "https://ramacarepolyclinic.ae/images/ayurveda.png",
   "description": "Premium Ayurveda treatment and Panchakarma in Jumeirah 1, Dubai. Authentic detox therapies, chronic pain relief, stress management, digestive wellness, and holistic healing by DHA-licensed Ayurvedic practitioners.",
   "medicalSpecialty": "Ayurvedic Medicine",
   "parentOrganization": {
@@ -56,32 +57,60 @@ export default function AyurvedaCategoryPage() {
     "name": "Ayurveda Treatments",
     "itemListElement": [
       {
-        "@type": "MedicalProcedure",
-        "name": "Panchakarma Treatment"
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "MedicalProcedure",
+          "name": "Panchakarma Treatment"
+        }
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Chronic Pain Relief Therapy"
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "MedicalProcedure",
+          "name": "Chronic Pain Relief Therapy"
+        }
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Stress & Sleep Balance Therapy"
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "MedicalProcedure",
+          "name": "Stress & Sleep Balance Therapy"
+        }
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Women's Wellness Program"
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "MedicalProcedure",
+          "name": "Women's Wellness Program"
+        }
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Digestive & Weight Balance Program"
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "MedicalProcedure",
+          "name": "Digestive & Weight Balance Program"
+        }
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Ayurvedic Hairfall Treatment"
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "MedicalProcedure",
+          "name": "Ayurvedic Hairfall Treatment"
+        }
       },
       {
-        "@type": "MedicalProcedure",
-        "name": "Skin Diseases Treatment"
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "MedicalProcedure",
+          "name": "Skin Diseases Treatment"
+        }
       }
     ]
   }

@@ -292,10 +292,10 @@ const Footer = () => {
             Design by @diglip7
           </a>
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-            <Link href="/refund-and-cancellation-policy" className="hover:text-[#d4a574] transition-colors whitespace-nowrap">
+            <Link href="/refund-and-cancellation-policy/" className="hover:text-[#d4a574] transition-colors whitespace-nowrap">
               Refund & Cancellation Policy
             </Link>
-             <Link href="/privacy-policy" className="hover:text-[#d4a574] transition-colors whitespace-nowrap">
+             <Link href="/privacy-policy/" className="hover:text-[#d4a574] transition-colors whitespace-nowrap">
               Privacy Policy
             </Link>
             {/* // <Link href="/disclaimer" className="hover:text-[#d4a574] transition-colors whitespace-nowrap">

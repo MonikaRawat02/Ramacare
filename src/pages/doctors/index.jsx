@@ -369,14 +369,14 @@ const AllDoctorsPage = ({ content }) => {
                 <span className="bg-[#E8E3D8] text-[#3d5f4a] px-4 py-2 rounded-full font-medium text-sm">{badge}</span>
               </div> */}
 
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl">
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl">
                 {title.split('\n').map((line, index) => (
                   <React.Fragment key={index}>
                     {line}
                     {index < title.split('\n').length - 1 && <br />}
                   </React.Fragment>
                 ))}
-              </h2>
+              </h1>
 
               <p className='text-[15px] text-[#6B7280] leading-relaxed'>
                 {description}

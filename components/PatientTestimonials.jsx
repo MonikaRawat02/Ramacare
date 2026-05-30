@@ -23,6 +23,7 @@ const PatientTestimonials = ({ content }) => {
   const showSeeAllButton = content?.showSeeAllButton !== false; // Default true
   const showSeeMoreButton = content?.showSeeMoreButton || false;
   const showStatsSection = content?.showStatsSection !== false; // Default true
+  const TitleTag = content?.titleTag || 'h2';
   
   // Simple video array - mixed thumbnail support
   // ✅ MIXED APPROACH - NATURAL FRAMES NOW WORKING:
@@ -190,9 +191,9 @@ const PatientTestimonials = ({ content }) => {
           </div>
 
           {/* Main Heading */}
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl mx-auto text-center">
+          <TitleTag className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#111827] leading-tight max-w-4xl mx-auto text-center">
             {title}
-          </h2>
+          </TitleTag>
 
           {/* Subtitle */}
           <p className="text-sm md:text-base text-[#6B7280] max-w-2xl mx-auto leading-relaxed">

@@ -32,6 +32,7 @@ export default function dentaldubaiCategoryPage() {
   "@id": "https://ramacarepolyclinic.ae/services/dental-dubai/#medicalbusiness",
   "name": "Dental Clinic in Dubai",
   "url": "https://ramacarepolyclinic.ae/services/dental-dubai",
+  "image": "https://ramacarepolyclinic.ae/images/dental.png",
   "description": "DHA-licensed dental clinic in Jumeirah 1, Dubai offering cosmetic dentistry, root canal treatment, braces, veneers, teeth whitening, and comprehensive oral healthcare.",
   "medicalSpecialty": "Dentistry",
   "parentOrganization": {

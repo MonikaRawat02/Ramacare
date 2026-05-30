@@ -27,15 +27,17 @@ export default function Home() {
   dangerouslySetInnerHTML={{
     __html: `{
   "@context": "https://schema.org",
-  "@type": "MedicalOrganization",
+  "@type": "MedicalBusiness",
   "@id": "https://ramacarepolyclinic.ae/#organization",
   "name": "RamaCare Polyclinic",
   "url": "https://ramacarepolyclinic.ae/",
-  "logo": "https://ramacarepolyclinic.ae/logo.png",
-  "image": "https://ramacarepolyclinic.ae/logo.png",
+  "logo": "https://ramacarepolyclinic.ae/images/Logo.png",
+  "image": "https://ramacarepolyclinic.ae/images/Logo.png",
   "description": "DHA-licensed polyclinic in Jumeirah 1, Dubai offering dermatology, dental, physiotherapy, Ayurveda, and general medicine services.",
   "telephone": "+971566597878",
   "email": "query@ramacarepolyclinic.com",
+  "priceRange": "$$",
+  "openingHours": "Su-Sa 10:00-22:00",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
@@ -48,8 +50,9 @@ export default function Home() {
     "name": "Dubai"
   },
   "sameAs": [
-    "https://www.facebook.com/ramacare/",
-    "https://www.instagram.com/ramacare/"
+    "https://www.facebook.com/RamaCarePolyClinic/",
+    "https://www.instagram.com/ramacarepolyclinic/",
+    "https://www.linkedin.com/company/ramacarepolyclinics/"
   ],
   "medicalSpecialty": [
     "General Medicine",

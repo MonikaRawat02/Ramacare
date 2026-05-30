@@ -106,9 +106,11 @@ async function generateSitemap(blogs, services, doctorIds) {
   
   // Add static pages
   const staticPages = [
+    '/about-us',
     '/services',
     '/blog',
     '/doctors',
+    '/contact-us',
     '/privacy-policy',
     '/refund-and-cancellation-policy',
     '/testimonials'
@@ -122,9 +124,6 @@ async function generateSitemap(blogs, services, doctorIds) {
   for (const service of services) {
     addUrl(`${baseUrl}${service}`, new Date().toISOString(), '0.8', 'weekly');
   }
-  
-  // Add blog index page
-  addUrl(`${baseUrl}/blog`, new Date().toISOString(), '0.8', 'weekly');
   
   // Add individual blog posts if they exist
   blogs.forEach(blog => {
