@@ -60,57 +60,15 @@ export default function AcneTreatmentPage() {
   return (
     <Layout>
       <Head>
-        <title>Acne Treatment in Dubai | Advanced Solutions for Clear, Healthy Skin</title>
-        <meta name="description" content="Expert acne treatment in Dubai with advanced dermatology solutions for clear, healthy, and acne-free skin. Personalized treatments for all skin types." />
+        <title key="title">Acne Treatment in Dubai | Advanced Solutions for Clear, Healthy Skin</title>
+        <meta name="description" content="Expert acne treatment in Dubai with advanced dermatology solutions for clear, healthy, and acne-free skin. Personalized treatments for all skin types." key="description" />
         <meta name="keywords" content="Acne treatment Dubai, Best acne treatment Dubai, Acne scar treatment Dubai, Dermatologist acne treatment, Chemical peel for acne, Laser acne treatment, Hormonal acne treatment" />
+        
         
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `
-            {
-              "@context": "https://schema.org",
-              "@type": "MedicalProcedure",
-              "@id": "https://ramacarepolyclinic.ae/services/acne-treatment-dubai#procedure",
-              "name": "Acne Treatment in Dubai",
-              "alternateName": "Advanced Acne & Acne Scar Treatment",
-              "url": "https://ramacarepolyclinic.ae/services/acne-treatment-dubai",
-              "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/acne-treatment-dubai",
-              "description": "Advanced acne treatment in Dubai using modern dermatology treatments, medical-grade skincare solutions, and customized treatment plans to reduce active acne, prevent breakouts, and minimize acne scars.",
-              "procedureType": "Dermatology treatment",
-              "bodyLocation": "Facial and body skin",
-              "howPerformed": "Acne treatment is performed through personalized dermatology procedures including chemical peels, laser therapy, microneedling, medical facials, and customized skincare therapies.",
-              "preparation": "Consultation with dermatologist to evaluate skin type, acne severity, and treatment goals.",
-              "followup": "Regular follow-up sessions and home skincare guidance for optimal results.",
-              "indication": [
-                "Active acne",
-                "Acne scars",
-                "Hormonal acne",
-                "Cystic acne",
-                "Oily skin",
-                "Post-acne pigmentation"
-              ],
-              "possibleComplication": "Temporary redness or mild irritation may occur after some treatments.",
-              "provider": {
-                "@type": "MedicalClinic",
-                "name": "Rama Care Polyclinic – Dermatology Department",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Jumeirah Terrace Building, Ground Floor",
-                  "addressLocality": "Jumeirah 1",
-                  "addressRegion": "Dubai",
-                  "postalCode": "393558",
-                  "addressCountry": "AE"
-                },
-                "telephone": "+971 56 659 7878",
-                "areaServed": {
-                  "@type": "City",
-                  "name": "Dubai"
-                },
-                "priceRange": "$$"
-              }
-            }
-            `
+            __html: JSON.stringify(schemaData)
           }}
         />
       </Head>
@@ -196,7 +154,7 @@ export default function AcneTreatmentPage() {
                 <a 
                   href="https://wa.me/971566597878" 
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#20BD5A] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   <MessageCircle className="w-5 h-5" />

@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function SkinBoostersPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function SkinBoostersPage() {
   return (
     <Layout>
       <Head>
-  <title>Skin Boosters in Dubai – Hydrate and Rejuvenate Your Skin</title>
-  <meta name="description" content="Skin boosters in Dubai provide deep hydration, improve skin texture, and restore a youthful, radiant glow under professional supervision." />
+  <title key="title">Skin Boosters in Dubai – Hydrate and Rejuvenate Your Skin</title>
+  <meta name="description" content="Skin boosters in Dubai provide deep hydration, improve skin texture, and restore a youthful, radiant glow under professional supervision." key="description" />
   <meta name="keywords" content="Skin boosters in Dubai, Skin hydration treatment Dubai, Facial rejuvenation Dubai, Anti-aging skin therapy, Professional skin booster treatment, Radiant skin treatment Dubai, Skin texture improvement, Youthful skin therapy in Dubai, Skin revitalization Dubai, Deep hydration facial Dubai" />
   
    <script
@@ -36,10 +37,10 @@ export default function SkinBoostersPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai/#condition",
           "name": "Facial Skin Dehydration and Texture Concerns",
           "alternateName": "Skin Hydration and Rejuvenation Needs",
-          "url": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai/",
           "description": "Facial skin dehydration and texture concerns include dry or dull skin, fine lines, uneven texture, and loss of elasticity or glow often caused by aging, environmental factors, lifestyle, and reduced skin hydration.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function SkinBoostersPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai/#procedure",
           "name": "Skin Boosters Treatment in Dubai",
           "alternateName": "Dermal Skin Hydration Boost Therapy",
-          "url": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/skin-boosters-dubai/",
           "description": "Skin Boosters treatment in Dubai at RamaCare Polyclinic is a minimally invasive aesthetic procedure that enhances skin hydration, elasticity, radiance, and overall texture using targeted injectable formulations.",
           "procedureType": "Minimally invasive aesthetic injection therapy",
           "howPerformed": "Performed by trained clinicians, the procedure involves delivering small amounts of hydrating and rejuvenating injectable agents into targeted facial areas with fine needles to boost moisture and improve skin quality.",
@@ -97,7 +98,7 @@ export default function SkinBoostersPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function SkinBoostersPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

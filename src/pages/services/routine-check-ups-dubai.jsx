@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function ExpertiseinRoutineCheckUpsPage() {
   const categoryName = 'General Physician';
@@ -24,8 +25,8 @@ export default function ExpertiseinRoutineCheckUpsPage() {
   return (
     <Layout>
       <Head>
-  <title>Expertise in Routine Check-Ups in Dubai | Preventive Care</title>
-  <meta name="description" content="Expertise in routine check-ups in Dubai with trusted doctors, clear screenings, and personalised health plans to detect issues early and support long-term health." />
+  <title key="title">Expertise in Routine Check-Ups in Dubai | Preventive Care</title>
+  <meta name="description" content="Expertise in routine check-ups in Dubai with trusted doctors, clear screenings, and personalised health plans to detect issues early and support long-term health." key="description" />
   <meta name="keywords" content="routine check-ups in Dubai, general health check-up Dubai, preventive health screening Dubai, Annual medical check-up in Dubai, routine medical examination in Dubai, Primary care check-up in Dubai, health assessment Dubai, Early disease detection in Dubai, preventive healthcare Dubai" />
   
 
@@ -37,7 +38,7 @@ export default function ExpertiseinRoutineCheckUpsPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -48,7 +49,7 @@ export default function ExpertiseinRoutineCheckUpsPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

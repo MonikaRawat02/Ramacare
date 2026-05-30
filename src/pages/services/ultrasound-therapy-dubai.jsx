@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function UltrasoundTherapyPage() {
   const categoryName = 'Physiotherapy';
@@ -24,8 +25,8 @@ export default function UltrasoundTherapyPage() {
   return (
     <Layout>
       <Head>
-  <title>Ultrasound Therapy in Dubai | Safe Pain Relief Treatment</title>
-  <meta name="description" content="Ultrasound therapy in Dubai helps reduce pain, improve mobility, and speed up healing for muscle and joint conditions with safe, guided physiotherapy care." />
+  <title key="title">Ultrasound Therapy in Dubai | Safe Pain Relief Treatment</title>
+  <meta name="description" content="Ultrasound therapy in Dubai helps reduce pain, improve mobility, and speed up healing for muscle and joint conditions with safe, guided physiotherapy care." key="description" />
   <meta name="keywords" content="Ultrasound therapy in Dubai, Therapeutic ultrasound Dubai, Ultrasound physiotherapy Dubai, Pain relief ultrasound therapy, Muscle injury treatment in Dubai, Joint pain therapy in Dubai, Sports injury ultrasound therapy, Physiotherapy ultrasound treatment, Rehabilitation therapy Dubai, Non-surgical pain treatment in Dubai" />
   
    <script
@@ -35,11 +36,11 @@ export default function UltrasoundTherapyPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai/#procedure",
   "name": "Ultrasound Therapy in Dubai",
   "alternateName": "Therapeutic Ultrasound Treatment",
-  "url": "https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai",
+  "url": "https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/ultrasound-therapy-dubai/",
   "description": "Ultrasound Therapy in Dubai at RamaCare Polyclinic offers advanced therapeutic ultrasound treatment for pain relief, soft tissue healing, and musculoskeletal rehabilitation provided by experienced physiotherapists.",
   "procedureType": "Physical therapy",
   "bodyLocation": "Musculoskeletal system",
@@ -84,7 +85,7 @@ export default function UltrasoundTherapyPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -95,7 +96,7 @@ export default function UltrasoundTherapyPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq}
        />

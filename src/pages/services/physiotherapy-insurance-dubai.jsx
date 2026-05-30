@@ -79,8 +79,8 @@ export default function PhysiotherapyInsuranceDubai() {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Physiotherapy Insurance Dubai | How to Claim Ultrasound at RamaCare</title>
-        <meta name="description" content="Does your UAE health insurance cover ultrasound therapy? Learn about direct billing with NextCare, AXA/GIG, and Daman, plus a step-by-step guide to reimbursement claims." />
+        <title key="title">Physiotherapy Insurance Dubai | How to Claim Ultrasound at RamaCare</title>
+        <meta name="description" content="Does your UAE health insurance cover ultrasound therapy? Learn about direct billing with NextCare, AXA/GIG, and Daman, plus a step-by-step guide to reimbursement claims." key="description" />
         
       </Head>
 
@@ -114,14 +114,14 @@ export default function PhysiotherapyInsuranceDubai() {
                 className="text-lg text-[#5F5F5F] mb-8 leading-relaxed"
                 style={{ fontFamily: "'Nunito Sans', sans-serif" }}
               >
-                Does your UAE health insurance cover <a href="/services/ultrasound-therapy-dubai" style={{ color: '#1F5E4B', textDecoration: 'underline' }}>ultrasound therapy </a>? Learn about direct billing with NextCare, AXA/GIG, and Daman, plus a step-by-step guide to reimbursement claims.
+                Does your UAE health insurance cover <a href="/services/ultrasound-therapy-dubai/" style={{ color: '#1F5E4B', textDecoration: 'underline' }}>ultrasound therapy </a>? Learn about direct billing with NextCare, AXA/GIG, and Daman, plus a step-by-step guide to reimbursement claims.
               </p>
 
               <p 
                 className="text-base text-[#1A1A1A] mb-8 leading-relaxed"
                 style={{ fontFamily: "'Nunito Sans', sans-serif" }}
               >
-                Yes, under Dubai Health Authority (DHA) regulations, physiotherapy—including therapeutic <a href="/services/ultrasound-therapy-dubai" style={{ color: '#1F5E4B', textDecoration: 'underline' }}>ultrasound therapy </a> is a covered benefit in most standard and premium health insurance plans. However, coverage levels and "Direct Billing" availability vary depending on your specific network and provider.
+                Yes, under Dubai Health Authority (DHA) regulations, physiotherapy—including therapeutic <a href="/services/ultrasound-therapy-dubai/" style={{ color: '#1F5E4B', textDecoration: 'underline' }}>ultrasound therapy </a> is a covered benefit in most standard and premium health insurance plans. However, coverage levels and "Direct Billing" availability vary depending on your specific network and provider.
               </p>
 
               {/* Quick Check Box */}

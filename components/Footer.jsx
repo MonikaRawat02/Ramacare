@@ -182,7 +182,7 @@ const Footer = () => {
                 <a 
                   href="https://maps.google.com/?q=Premium+Polyclinic+Jumeirah+1+Dubai" 
                   target="_blank" 
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="flex-1 hover:text-[#d4a574] transition-colors"
                 >
                  Jumeirah 1 ground floor, Jumeirah Terrace Building, 393558, Dubai
@@ -224,7 +224,7 @@ const Footer = () => {
                 <a 
                   href="https://www.facebook.com/RamaCarePolyClinic/"
                   target="_blank" 
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="w-9 h-9 sm:w-10 sm:h-10 bg-[#3d3d3d] rounded-full flex items-center justify-center hover:bg-[#d4a574] transition-colors group"
                   aria-label="Facebook"
                 >
@@ -236,7 +236,7 @@ const Footer = () => {
                 <a 
                   href="https://www.instagram.com/ramacarepolyclinic/"
                   target="_blank" 
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="w-9 h-9 sm:w-10 sm:h-10 bg-[#3d3d3d] rounded-full flex items-center justify-center hover:bg-[#d4a574] transition-colors group"
                   aria-label="Instagram"
                 >
@@ -248,7 +248,7 @@ const Footer = () => {
                 <a 
                   href="https://www.linkedin.com/company/ramacarepolyclinics/" 
                   target="_blank" 
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="w-9 h-9 sm:w-10 sm:h-10 bg-[#3d3d3d] rounded-full flex items-center justify-center hover:bg-[#d4a574] transition-colors group"
                   aria-label="LinkedIn"
                 >
@@ -260,7 +260,7 @@ const Footer = () => {
                 <a 
                   href="https://www.youtube.com/@ramacarepolyclinic"
                   target="_blank" 
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="w-9 h-9 sm:w-10 sm:h-10 bg-[#3d3d3d] rounded-full flex items-center justify-center hover:bg-[#d4a574] transition-colors group"
                   aria-label="YouTube"
                 >
@@ -286,7 +286,7 @@ const Footer = () => {
           <a
             href="https://diglip7.com/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="hover:text-[#d4a574] transition-colors whitespace-nowrap"
           >
             Design by @diglip7

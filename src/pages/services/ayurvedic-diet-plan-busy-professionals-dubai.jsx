@@ -243,8 +243,8 @@ export default function AyurvedicDietPlanBusyProfessionalsPage() {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Ayurvedic Diet for Busy Professionals Dubai | Optimize Focus & Energy</title>
-        <meta name="description" content="Stop the burnout. Our DHA-licensed Ayurvedic diet plans for Dubai professionals target DIFC/Business Bay lifestyles. Balance stress, improve sleep, and boost productivity. Visit RamaCare Jumeirah 1." />
+        <title key="title">Ayurvedic Diet for Busy Professionals Dubai | Optimize Focus & Energy</title>
+        <meta name="description" content="Stop the burnout. Our DHA-licensed Ayurvedic diet plans for Dubai professionals target DIFC/Business Bay lifestyles. Balance stress, improve sleep, and boost productivity. Visit RamaCare Jumeirah 1." key="description" />
         
       </Head>
 
@@ -716,7 +716,7 @@ export default function AyurvedicDietPlanBusyProfessionalsPage() {
         <a
           href={`https://wa.me/${content.hero.ctaButtons.secondary.phone}`}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
           className="w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform animate-pulse">
           <LucideIcons.MessageCircle size={32} />
         </a>

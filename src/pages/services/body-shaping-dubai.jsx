@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function BodyShapingPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function BodyShapingPage() {
   return (
     <Layout>
       <Head>
-  <title>Body Shaping in Dubai | Expert Non-Surgical Body Sculpting</title>
-  <meta name="description" content="Achieve your ideal body with expert body shaping in Dubai—safe, non-surgical treatments for fat reduction, contouring, and toning with personalized care." />
+  <title key="title">Body Shaping in Dubai | Expert Non-Surgical Body Sculpting</title>
+  <meta name="description" content="Achieve your ideal body with expert body shaping in Dubai—safe, non-surgical treatments for fat reduction, contouring, and toning with personalized care." key="description" />
   <meta name="keywords" content="Body shaping in Dubai, Body sculpting Dubai, Body contouring Dubai, Non-surgical body shaping in Dubai, Fat reduction Dubai, Slimming treatments in Dubai, Muscle toning in Dubai, Safe body contouring in Dubai, Personalized body treatment Dubai, Cellulite treatment Dubai, Medical body shaping in Dubai, DHA licensed body clinic" />
   
   <script
@@ -36,10 +37,10 @@ export default function BodyShapingPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/body-shaping-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/body-shaping-dubai/#condition",
           "name": "Localized Fat Deposits and Body Contouring Concerns",
           "alternateName": "Stubborn Fat, Uneven Body Contours",
-          "url": "https://ramacarepolyclinic.ae/services/body-shaping-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/body-shaping-dubai/",
           "description": "Localized fat deposits and uneven body contours can affect the shape and appearance of areas such as the abdomen, flanks, thighs, arms, and chin. These concerns may not respond adequately to diet and exercise alone and can benefit from medically supervised body shaping treatments.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function BodyShapingPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/body-shaping-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/body-shaping-dubai/#procedure",
           "name": "Body Shaping Treatment in Dubai",
           "alternateName": "Fat Reduction & Contouring Procedures",
-          "url": "https://ramacarepolyclinic.ae/services/body-shaping-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/body-shaping-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/body-shaping-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/body-shaping-dubai/",
           "description": "Body shaping at RamaCare Polyclinic in Dubai involves personalized fat reduction and body contouring treatments using proven technologies. The treatment plan is tailored to the patient’s goals, body area, and underlying tissue characteristics.",
           "procedureType": "Non‑invasive/Minimally Invasive Body Contouring Procedure",
           "howPerformed": "After a detailed consultation and assessment of body areas, trained clinicians select the most appropriate body shaping modality — such as cryolipolysis (fat freezing), radiofrequency energy, ultrasound lipolysis, or laser‑assisted contouring. Protective measures and comfort options (e.g., cooling, topical numbing) are used based on the technology and patient preference.",
@@ -96,7 +97,7 @@ export default function BodyShapingPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -107,7 +108,7 @@ export default function BodyShapingPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function ScoliosisTreatmentPage() {
   const categoryName = 'Physiotherapy';
@@ -24,8 +25,8 @@ export default function ScoliosisTreatmentPage() {
  return (
    <Layout>
     <Head>
-  <title>Scoliosis Treatment in Dubai – Expert Spine Pain Relief</title>
-  <meta name="description" content="Struggling with scoliosis or back pain? Get expert scoliosis treatment in Dubai. Improve posture, reduce pain & restore mobility. Book now! " />
+  <title key="title">Scoliosis Treatment in Dubai – Expert Spine Pain Relief</title>
+  <meta name="description" content="Struggling with scoliosis or back pain? Get expert scoliosis treatment in Dubai. Improve posture, reduce pain & restore mobility. Book now! " key="description" />
   <meta name="keywords" content="Scoliosis treatment in Dubai, Scoliosis physiotherapy Dubai, Spine alignment treatment Dubai, Posture correction therapy Dubai, Back curvature treatment in Dubai, Non-surgical scoliosis treatment, Pediatric scoliosis treatment Dubai, Adult scoliosis management in Dubai, Rehabilitation physiotherapy Dubai, Spine care clinic Dubai" />
   
    <script
@@ -34,11 +35,11 @@ export default function ScoliosisTreatmentPage() {
       __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "MedicalProcedure",
-        "@id": "https://ramacarepolyclinic.ae/services/scoliosis-treatment-dubai#procedure",
+        "@id": "https://ramacarepolyclinic.ae/services/scoliosis-treatment-in-duba/i/#procedure",
         "name": "Scoliosis Treatment in Dubai",
         "alternateName": "Non-surgical Scoliosis Care",
-        "url": "https://ramacarepolyclinic.ae/services/scoliosis-treatment-dubai",
-        "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/scoliosis-treatment-dubai",
+        "url": "https://ramacarepolyclinic.ae/services/scoliosis-treatment-in-duba/i/",
+        "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/scoliosis-treatment-in-duba/i/",
         "description": "Scoliosis Treatment in Dubai at RamaCare Polyclinic provides personalized non-surgical care, posture correction, physiotherapy, and rehabilitation to manage spinal curvature and improve mobility, guided by experienced clinicians.",
         "procedureType": "Therapeutic spinal care",
         "bodyLocation": "Spine",
@@ -82,7 +83,7 @@ export default function ScoliosisTreatmentPage() {
      />
      <QuickNavigation />
      <DoctorsSection content={content?.doctors} />
-     {/* <CertificationsSection  /> */}
+     
      <TreatmentOverview 
        subcategoryName={subcategoryName}
        content={content?.overview}
@@ -92,7 +93,7 @@ export default function ScoliosisTreatmentPage() {
        content={content?.benefits}
      />
       <PatientTestimonials content={content?.testimonials} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
      <FAQSection content={content?.faq} />
      <BookConsultation content={content?.bookConsultation} />

@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function NailFungusPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function NailFungusPage() {
   return (
     <Layout>
       <Head>
-  <title>Nail Fungus Treatment in Dubai for Healthy Nails</title>
-  <meta name="description" content="Nail fungus treatment in Dubai effectively clears fungal infections, restores nail health, and prevents recurrence using safe, doctor-supervised care." />
+  <title key="title">Nail Fungus Treatment in Dubai for Healthy Nails</title>
+  <meta name="description" content="Nail fungus treatment in Dubai effectively clears fungal infections, restores nail health, and prevents recurrence using safe, doctor-supervised care." key="description" />
   <meta name="keywords" content="Nail fungus treatment Dubai, Fungal nail infection Dubai, Toenail fungus treatment, Fingernail fungus removal, Medical nail care Dubai, Laser nail fungus treatment, Anti-fungal therapy Dubai, Professional nail treatment, Healthy nails Dubai, Nail infection treatment" />
   
   <script
@@ -36,10 +37,10 @@ export default function NailFungusPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai/#condition",
           "name": "Nail Fungus (Onychomycosis)",
           "alternateName": "Fungal Nail Infection",
-          "url": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai/",
           "description": "Nail fungus (onychomycosis) is a fungal infection affecting the nails, causing thickening, discoloration, brittleness, and structural changes, often requiring clinical dermatologic treatment for effective resolution.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function NailFungusPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai/#procedure",
           "name": "Nail Fungus Treatment in Dubai",
           "alternateName": "Onychomycosis Treatment & Fungal Nail Care",
-          "url": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/nail-fungus-dubai/",
           "description": "Nail fungus treatment at RamaCare Polyclinic in Dubai is a dermatologic service focused on diagnosing and treating onychomycosis using evidence‑based antifungal medications, mechanical debridement, and laser therapy when appropriate to clear infection and promote healthier nail growth.",
           "procedureType": "Medical dermatologic procedure",
           "howPerformed": "After a clinical examination and possible diagnostic testing, dermatologists select antifungal medications (topical and/or oral), carefully remove thickened infected nail tissue if needed, and may use specialist laser therapy to target fungal colonies. Treatment plans are tailored based on severity and patient response.",
@@ -97,7 +98,7 @@ export default function NailFungusPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function NailFungusPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

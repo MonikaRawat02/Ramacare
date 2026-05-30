@@ -26,8 +26,8 @@ const EximiaCellulitePage = () => {
         }
       `}</style>
       <Head>
-        <title>Eximia Cellulite Treatment Dubai | Best Cellulite Removal Clinic</title>
-        <meta name="description" content="Eximia cellulite treatment Dubai offers the ultimate solution for smooth skin. Get rid of orange peel skin with advanced non-invasive technology at RamaCare Polyclinic." />
+        <title key="title">Eximia Cellulite Treatment Dubai | Best Cellulite Removal Clinic</title>
+        <meta name="description" content="Eximia cellulite treatment Dubai offers the ultimate solution for smooth skin. Get rid of orange peel skin with advanced non-invasive technology at RamaCare Polyclinic." key="description" />
         <meta name="keywords" content="Eximia cellulite treatment Dubai, best cellulite removal Dubai, cellulite treatment Dubai, non-surgical cellulite reduction, orange peel skin treatment Dubai, Eximia HR77 Platinum Dubai, smooth skin treatment Dubai, professional cellulite therapy" />
         
       </Head>
@@ -377,7 +377,7 @@ const EximiaCellulitePage = () => {
           </h3>
           <p className="text-xl mb-8 leading-relaxed text-white" style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: '18px' }}>
             Don't let cellulite hold you back from your favorite wardrobe. Visit our main{' '}
-            <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai" className="underline font-semibold">
+            <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/" className="underline font-semibold">
               Eximia Body Contouring Dubai
             </a>{' '}
             page to see our "Before & After" cellulite gallery and book your skin texture analysis.

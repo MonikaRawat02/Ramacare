@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function NasyaTherapyPage() {
   const categoryName = 'Ayurveda';
@@ -37,8 +38,8 @@ export default function NasyaTherapyPage() {
   return (
     <Layout>
       <Head>
-        <title>Nasya Therapy in Dubai | Ayurvedic Nasal Detox & Sinus Relief Treatment</title>
-        <meta name="description" content="Experience authentic Nasya Therapy in Dubai for sinus relief, respiratory wellness, mental clarity, and stress management. DHA-licensed clinic with personalized Ayurvedic nasal detox programs." />
+        <title key="title">Nasya Therapy in Dubai | Ayurvedic Nasal Detox & Sinus Relief Treatment</title>
+        <meta name="description" content="Experience authentic Nasya Therapy in Dubai for sinus relief, respiratory wellness, mental clarity, and stress management. DHA-licensed clinic with personalized Ayurvedic nasal detox programs." key="description" />
         <meta name="keywords" content="Nasya Therapy Dubai, Ayurvedic Nasya Treatment, Panchakarma Nasya Dubai, sinus relief Ayurveda, nasal detox Dubai, respiratory wellness treatment, mental clarity therapy, stress management Ayurveda" />
         
         <script
@@ -48,11 +49,11 @@ export default function NasyaTherapyPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/nasya-therapy-dubai#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/nasya-therapy-dubai/#procedure",
   "name": "Nasya Therapy in Dubai",
   "alternateName": "Ayurvedic Nasal Detox & Sinus Relief Treatment",
-  "url": "https://ramacarepolyclinic.ae/services/nasya-therapy-dubai",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/nasya-therapy-dubai",
+  "url": "https://ramacarepolyclinic.ae/services/nasya-therapy-dubai/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/nasya-therapy-dubai/",
   "description": "Nasya Therapy in Dubai at RamaCare Polyclinic offers traditional Ayurvedic nasal detoxification treatment designed to support sinus health, respiratory wellness, mental clarity, and nervous system balance through personalized herbal therapies.",
   "procedureType": "Ayurvedic nasal detox treatment",
   "bodyLocation": "Nasal passages and head region",

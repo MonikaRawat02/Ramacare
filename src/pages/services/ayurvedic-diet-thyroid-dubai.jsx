@@ -229,8 +229,8 @@ export default function AyurvedicDietThyroidPage() {
       </div>
 
       <Head>
-        <title>Ayurvedic Diet for Thyroid Dubai | Natural Hormonal Balance | RamaCare</title>
-        <meta name="description" content="Restore your metabolism naturally. Our DHA-licensed Ayurvedic thyroid diet plans in Dubai target the root cause of Hypothyroidism and Hyperthyroidism. Visit RamaCare Polyclinic in Jumeirah 1." />
+        <title key="title">Ayurvedic Diet for Thyroid Dubai | Natural Hormonal Balance | RamaCare</title>
+        <meta name="description" content="Restore your metabolism naturally. Our DHA-licensed Ayurvedic thyroid diet plans in Dubai target the root cause of Hypothyroidism and Hyperthyroidism. Visit RamaCare Polyclinic in Jumeirah 1." key="description" />
         
         <script
           type="application/ld+json"
@@ -239,11 +239,11 @@ export default function AyurvedicDietThyroidPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-thyroid-dubai#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-thyroid-dubai/#procedure",
   "name": "Ayurvedic Diet for Thyroid in Dubai",
   "alternateName": "Natural Thyroid Management Program",
-  "url": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-thyroid-dubai",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-thyroid-dubai",
+  "url": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-thyroid-dubai/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-thyroid-dubai/",
   "description": "Restore your metabolism naturally. Our DHA-licensed Ayurvedic thyroid diet plans in Dubai target the root cause of Hypothyroidism and Hyperthyroidism. Visit RamaCare Polyclinic in Jumeirah 1.",
   "procedureType": "Therapeutic dietary consultation",
   "bodyLocation": "Whole body",
@@ -311,7 +311,7 @@ export default function AyurvedicDietThyroidPage() {
                 </Link>
               )}
               {content.hero.ctaButtons?.secondary && (
-                <a 
+                <a target="_blank" rel="nofollow noopener noreferrer" 
                   href={`https://wa.me/${content.hero.ctaButtons.secondary.phone}`}
                   className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#1F5E4B] border-2 border-[#1F5E4B] rounded-xl font-bold text-lg hover:bg-emerald-50 transition-colors gap-2"
                 >
@@ -740,8 +740,7 @@ export default function AyurvedicDietThyroidPage() {
                 <LucideIcons.Calendar size={20} />
                 {content.popup.ctaPrimary}
               </Link>
-              <a
-                href="https://wa.me/971566597878"
+              <a rel="nofollow noopener noreferrer" target="_blank" href="https://wa.me/971566597878"
                 className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-[#25D366] text-white rounded-lg font-bold text-lg hover:bg-[#1ebc57] transition-all shadow-lg"
               >
                 <LucideIcons.MessageCircle size={20} />

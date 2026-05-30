@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function ExosomesFacialDubaiPage() {
   const categoryName = 'Facial';
@@ -24,8 +25,8 @@ export default function ExosomesFacialDubaiPage() {
   return (
     <Layout>
       <Head>
-  <title>Exosomes Facial Dubai – Advanced Skin Rejuvenation</title>
-  <meta name="description" content="Exosomes Facial in Dubai is performed by specialists to repair skin, boost collagen, reduce fine lines, and restore a youthful, radiant appearance safely." />
+  <title key="title">Exosomes Facial Dubai – Advanced Skin Rejuvenation</title>
+  <meta name="description" content="Exosomes Facial in Dubai is performed by specialists to repair skin, boost collagen, reduce fine lines, and restore a youthful, radiant appearance safely." key="description" />
   <meta name="keywords" content="Exosomes Facial Dubai, Skin rejuvenation Dubai, Anti-aging facial in Dubai, Collagen-boosting facial, Advanced facial treatment, Youthful skin therapy in Dubai, Professional facial Din ubai, Fine lines reduction in Dubai, Skin repair treatment, Cosmetic facial in Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function ExosomesFacialDubaiPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai/#condition",
           "name": "Facial Skin Rejuvenation Needs",
           "alternateName": "Skin Aging and Texture Concerns",
-          "url": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai/",
           "description": "Facial skin rejuvenation needs include concerns such as fine lines, dull complexion, uneven texture, and early signs of aging — commonly addressed with advanced aesthetic treatments.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function ExosomesFacialDubaiPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai/#procedure",
           "name": "Exosomes Facial in Dubai",
           "alternateName": "Advanced Regenerative Facial Treatment",
-          "url": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/exosomes-facial-dubai/",
           "description": "The Exosomes Facial treatment in Dubai at RamaCare Polyclinic is an advanced aesthetic procedure designed to promote skin rejuvenation by delivering bioactive exosomes that help stimulate cellular repair, improve texture, and enhance radiance.",
           "procedureType": "Regenerative aesthetic dermatology procedure",
           "howPerformed": "Performed by trained clinicians, the treatment involves careful preparation of exosome formulations applied or infused into the skin using specialized techniques tailored to each patient’s needs.",
@@ -97,7 +98,7 @@ export default function ExosomesFacialDubaiPage() {
       hero={content?.hero}
     />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function ExosomesFacialDubaiPage() {
     />
     <PatientTestimonials content={content?.testimonials} />
      <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
     <FAQSection content={content?.faq} />
     <BookConsultation content={content?.bookConsultation} />

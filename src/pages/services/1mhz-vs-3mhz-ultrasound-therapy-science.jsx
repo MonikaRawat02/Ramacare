@@ -147,8 +147,8 @@ const UltrasoundFrequencyScience = () => {
   return (
     <Layout>
       <Head>
-        <title>1MHz vs 3MHz Ultrasound Therapy Science | RamaCare Dubai</title>
-        <meta name="description" content="Understanding the physics of healing. Learn the difference between 1MHz and 3MHz ultrasound frequencies and how RamaCare uses sound waves to repair deep tissue in Jumeirah." />
+        <title key="title">Deep Tissue Science: 1MHz vs 3MHz Ultrasound | RamaCare</title>
+        <meta name="description" content="Understanding the physics of healing. Learn the difference between 1MHz and 3MHz ultrasound frequencies and how RamaCare uses sound waves to repair deep tissue in Jumeirah." key="description" />
         
       </Head>
 
@@ -206,7 +206,7 @@ const UltrasoundFrequencyScience = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex items-center gap-2 bg-white text-[#1A1A1A] border-2 border-[#E9E1D3] px-8 py-4 rounded-xl font-bold hover:bg-[#F5F1EA] transition-all"
                   >
                     <MessageCircle size={20} />
@@ -623,7 +623,7 @@ const UltrasoundFrequencyScience = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex-1 bg-[#F5F1EA] text-[#1A1A1A] px-6 py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-[#EDE5D8] transition-all"
                   >
                     <MessageCircle size={18} />
@@ -686,7 +686,7 @@ const UltrasoundFrequencyScience = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="w-full bg-[#1F5E4B] text-white font-bold py-4 rounded-xl flex items-center justify-center gap-3 hover:bg-[#164235] transition-all shadow-lg"
                   >
                     <MessageCircle size={20} />

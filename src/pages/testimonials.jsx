@@ -125,8 +125,8 @@ export default function TestimonialsPage() {
   return (
     <Layout>
       <Head>
-        <title>Patient Testimonials | RamaCare Polyclinic Dubai</title>
-        <meta name="description" content="Read verified patient testimonials and success stories from RamaCare Polyclinic Dubai. Real experiences from patients who received trusted medical care."/>
+        <title key="title">Patient Testimonials | RamaCare Polyclinic Dubai</title>
+        <meta name="description" content="Read verified patient testimonials and success stories from RamaCare Polyclinic Dubai. Real experiences from patients who received trusted medical care." key="description" />
         <meta name="keywords" content="patient testimonials Dubai, medical clinic reviews, RamaCare patient stories, verified testimonials, healthcare success stories" />
         
       </Head>

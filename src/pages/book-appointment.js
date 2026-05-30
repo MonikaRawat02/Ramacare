@@ -74,8 +74,8 @@ const AppointmentPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Book Your Appointment | RamaCare Polyclinic</title>
-        <meta name="description" content="Schedule your personalized consultation with our DHA-licensed experts at RamaCare Polyclinic, a trusted Polyclinic in Dubai." />
+        <title key="title">Book Your Appointment | RamaCare Polyclinic</title>
+        <meta name="description" content="Schedule your personalized consultation with our DHA-licensed experts at RamaCare Polyclinic, a trusted Polyclinic in Dubai." key="description" />
         <meta name="keywords" content="book appointment Dubai, medical appointment, healthcare booking, RamaCare booking, polyclinic appointment" />
         
         <link rel="icon" type="image/png" href="/images/Logo.png" />
@@ -175,7 +175,7 @@ const AppointmentPage = () => {
               <a 
                 href="https://wa.me/971566597878"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="inline-block bg-[#d4a574] text-[#1a5f3f] px-6 py-3 rounded-xl font-semibold hover:bg-[#c19463] transition-colors"
               >
                 Chat Now

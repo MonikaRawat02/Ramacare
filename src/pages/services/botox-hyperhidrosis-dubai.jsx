@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function BotoxHyperhidrosisPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function BotoxHyperhidrosisPage() {
   return (
     <Layout>
       <Head>
-  <title>Botox Hyperhidrosis in Dubai for Excessive Sweating</title>
-  <meta name="description" content="Botox hyperhidrosis in Dubai helps manage excessive sweating safely by reducing underarm, palm, and foot sweating under expert medical care." />
+  <title key="title">Botox Hyperhidrosis in Dubai for Excessive Sweating</title>
+  <meta name="description" content="Botox hyperhidrosis in Dubai helps manage excessive sweating safely by reducing underarm, palm, and foot sweating under expert medical care." key="description" />
   <meta name="keywords" content="Botox hyperhidrosis in Dubai, Excessive sweating treatment Dubai, Hyperhidrosis treatment Dubai, Botox for sweating Dubai, Underarm sweating treatment, Palmar hyperhidrosis treatment, Non-surgical sweating control, Medical hyperhidrosis care, Sweat reduction treatment Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function BotoxHyperhidrosisPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai/#condition",
           "name": "Hyperhidrosis (Excessive Sweating)",
           "alternateName": "Excessive Sweating Disorder",
-          "url": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai/",
           "description": "Hyperhidrosis is a medical condition characterized by excessive sweating that can affect the underarms, palms, feet, and other body areas, often beyond what is required for normal thermoregulation, impacting daily comfort and confidence.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function BotoxHyperhidrosisPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai/#procedure",
           "name": "Botox Hyperhidrosis Treatment in Dubai",
           "alternateName": "Botulinum Toxin Injections for Excessive Sweating",
-          "url": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/botox-hyperhidrosis-dubai/",
           "description": "Botox Hyperhidrosis treatment in Dubai at RamaCare Polyclinic is a minimally invasive medical procedure that uses botulinum toxin injections to reduce excessive sweating in targeted areas such as the underarms, palms, or soles of the feet.",
           "procedureType": "Minimally invasive medical injection therapy",
           "howPerformed": "During the procedure, trained clinicians administer precise injections of botulinum toxin into the sweat gland–rich areas. The toxin blocks nerve signals to sweat glands, significantly reducing excessive sweating.",
@@ -96,7 +97,7 @@ export default function BotoxHyperhidrosisPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -107,7 +108,7 @@ export default function BotoxHyperhidrosisPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

@@ -69,8 +69,8 @@ export default function UltrasoundTherapyCostPage() {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Ultrasound Therapy Cost in Dubai: 2026 Price Guide & Packages</title>
-        <meta name="description" content="How much is ultrasound therapy in Dubai? View RamaCare's 2026 price list, insurance coverage details, and discount packages for physiotherapy in Jumeirah 1." />
+        <title key="title">Ultrasound Therapy Cost in Dubai: 2026 Price Guide & Packages</title>
+        <meta name="description" content="How much is ultrasound therapy in Dubai? View RamaCare's 2026 price list, insurance coverage details, and discount packages for physiotherapy in Jumeirah 1." key="description" />
         <meta name="keywords" content="ultrasound therapy cost Dubai, physiotherapy prices Dubai, therapeutic ultrasound Dubai, ultrasound treatment cost, physiotherapy package Dubai" />
         
       </Head>
@@ -110,7 +110,7 @@ export default function UltrasoundTherapyCostPage() {
                 
                   href="https://wa.me/971566597878"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="rounded-xl flex items-center justify-center gap-2 hover:bg-[#D9D2C6] transition-all cursor-pointer"
                   style={{ fontFamily: "'Nunito Sans', sans-serif", fontWeight: '600', fontSize: '16px', backgroundColor: '#E9E2D6', color: '#1A1A1A', padding: '16px 32px' }}
                 >
@@ -926,7 +926,7 @@ export default function UltrasoundTherapyCostPage() {
                 <a
                   href="https://wa.me/971566597878"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="flex-1 flex items-center justify-center gap-2 px-6 py-4 rounded-lg font-semibold transition-all hover:opacity-90 cursor-pointer"
                   style={{ backgroundColor: 'rgb(233, 226, 214)', color: '#1A1A1A', fontFamily: "'Nunito Sans', sans-serif", fontSize: '14px', fontWeight: '600' }}
                 >

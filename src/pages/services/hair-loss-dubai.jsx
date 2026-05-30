@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function HairLossPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function HairLossPage() {
   return (
     <Layout>
       <Head>
-  <title>Hair Loss in Dubai Diagnosis and Treatment by Specialists</title>
-  <meta name="description" content="Hair loss in Dubai is assessed and treated by specialists using safe medical solutions to reduce hair fall, support regrowth, and improve scalp health." />
+  <title key="title">Hair Loss in Dubai Diagnosis and Treatment by Specialists</title>
+  <meta name="description" content="Hair loss in Dubai is assessed and treated by specialists using safe medical solutions to reduce hair fall, support regrowth, and improve scalp health." key="description" />
   <meta name="keywords" content="Hair loss in Dubai, Hair loss treatment Dubai, Hair fall treatment Dubai, Hair thinning solutions, Medical hair loss care, Hair regrowth treatment Dubai, Scalp health treatment, Hair loss diagnosis Dubai, Non-surgical hair treatment, Professional hair care Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function HairLossPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/hair-loss-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-loss-dubai/#condition",
           "name": "Hair Loss, Thinning Hair & Scalp Health Concerns",
           "alternateName": "Androgenic Alopecia, Telogen Effluvium, Diffuse Thinning",
-          "url": "https://ramacarepolyclinic.ae/services/hair-loss-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hair-loss-dubai/",
           "description": "Hair loss and thinning hair include conditions such as androgenic alopecia, diffuse hair thinning, stress‑related shedding, and other patterns of reduced hair density that impact scalp appearance and self‑confidence.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function HairLossPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/hair-loss-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-loss-dubai/#procedure",
           "name": "Hair Loss Treatment in Dubai",
           "alternateName": "Hair Regeneration & Hair Thinning Management",
-          "url": "https://ramacarepolyclinic.ae/services/hair-loss-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-loss-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hair-loss-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-loss-dubai/",
           "description": "Hair loss treatment at RamaCare Polyclinic in Dubai offers a personalized approach to diagnosing and managing hair thinning, shedding, and early alopecia using advanced clinical techniques tailored to individual scalp and hair conditions.",
           "procedureType": "Medical and aesthetic dermatologic procedure",
           "howPerformed": "After a detailed scalp and hair assessment, clinicians may recommend targeted therapies such as topical solutions (e.g., minoxidil), injectables, PRP therapy, mesotherapy, nutritional support, and lifestyle guidance. Treatment plans are customized based on the underlying cause and severity of hair loss.",
@@ -97,7 +98,7 @@ export default function HairLossPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function HairLossPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

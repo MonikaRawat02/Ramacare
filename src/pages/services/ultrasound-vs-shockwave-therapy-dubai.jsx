@@ -66,8 +66,8 @@ const UltrasoundVsShockwavePage = () => {
     <>
     <Layout>
       <Head>
-        <title>Ultrasound vs. Shockwave Therapy Dubai | RamaCare Comparison Guide</title>
-        <meta name="description" content="Confused between Ultrasound and Shockwave therapy? Learn the key differences in depth, intensity, and results to choose the right recovery path at RamaCare Jumeirah." />
+        <title key="title">Ultrasound vs. Shockwave Therapy Dubai | RamaCare Comparison Guide</title>
+        <meta name="description" content="Confused between Ultrasound and Shockwave therapy? Learn the key differences in depth, intensity, and results to choose the right recovery path at RamaCare Jumeirah." key="description" />
         
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
@@ -169,7 +169,7 @@ const UltrasoundVsShockwavePage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="inline-flex items-center justify-center gap-2 bg-white/50 text-[#1F5E4B] text-[15px] font-bold px-8 py-4 rounded-lg border border-[#1F5E4B]/30 hover:bg-white/70 transition-colors"
                   >
                     <MessageCircle className="w-5 h-5" />
@@ -657,7 +657,7 @@ const UltrasoundVsShockwavePage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex items-center justify-center gap-3 bg-white text-[#1F5E4B] px-8 py-4 rounded-xl font-bold border-2 border-[#25D366] hover:bg-[#F5F5F5] transition-all shadow-lg text-[15px]"
                   >
                     <MessageCircle className="w-5 h-5 text-[#25D366]" />

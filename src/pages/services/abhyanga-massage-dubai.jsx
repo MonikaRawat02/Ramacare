@@ -36,8 +36,8 @@ export default function AbhyangaMassageTreatmentPage() {
   return (
     <Layout>
       <Head>
-        <title>Abhyanga Massage Dubai | Full Body Ayurvedic Oil Massage</title>
-        <meta name="description" content="Experience authentic Abhyanga massage in Dubai at RamaCare Polyclinic. A traditional Ayurvedic full-body oil therapy for deep relaxation, detox, and rejuvenation." />
+        <title key="title">Abhyanga Massage Dubai | Full Body Ayurvedic Oil Massage</title>
+        <meta name="description" content="Experience authentic Abhyanga massage in Dubai at RamaCare Polyclinic. A traditional Ayurvedic full-body oil therapy for deep relaxation, detox, and rejuvenation." key="description" />
         <meta name="keywords" content="Abhyanga Massage Dubai, Ayurvedic massage Dubai, Full body oil massage Dubai, Ayurvedic detox therapy, Stress relief massage Dubai, Traditional Ayurveda Dubai, Herbal oil massage Dubai, Relaxation therapy Dubai" />
         
         <script
@@ -47,11 +47,11 @@ export default function AbhyangaMassageTreatmentPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/abhyanga-massage-dubai#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/abhyanga-massage-dubai/#procedure",
   "name": "Abhyanga Massage in Dubai",
   "alternateName": "Full Body Ayurvedic Oil Massage",
-  "url": "https://ramacarepolyclinic.ae/services/abhyanga-massage-dubai",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/abhyanga-massage-dubai",
+  "url": "https://ramacarepolyclinic.ae/services/abhyanga-massage-dubai/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/abhyanga-massage-dubai/",
   "description": "Abhyanga Massage in Dubai at RamaCare Polyclinic is a traditional Ayurvedic full-body oil therapy designed to relax the body, detoxify naturally, and restore inner balance using warm medicated herbal oils.",
   "procedureType": "Ayurvedic massage and relaxation therapy",
   "bodyLocation": "Full body",

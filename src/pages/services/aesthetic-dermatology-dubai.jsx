@@ -39,67 +39,17 @@ export default function AestheticDermatologyCategoryPage() {
   return (
     <Layout>
       <Head>
-  <title>Skin Treatment Dubai – Clear & Healthy Skin</title>
-  <meta name="description" content="RamaCare offers advanced skin treatment in Dubai with expert dermatologists, safe therapies, and personalized care for acne, pigmentation, anti-aging, and glowing skin." />
+  <title key="title">Skin Treatment Dubai – Clear & Healthy Skin</title>
+  <meta name="description" content="RamaCare offers advanced skin treatment in Dubai with expert dermatologists, safe therapies, and personalized care for acne, pigmentation, anti-aging, and glowing skin." key="description" />
   <meta name="keywords" content="Skin Treatment Dubai, Clear skin treatment Dubai, Healthy skin Dubai, Dermatology clinic Dubai, Acne treatment Dubai, Anti-aging skin care Dubai, Skin rejuvenation Dubai, Laser skin treatment Dubai, Pigmentation treatment Dubai, Medical skin clinic Dubai, Personalized skin care Dubai, DHA licensed dermatology clinic" />
    
-   <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "@id": "https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai/#medicalclinic",
-  "name": "Aesthetic Dermatology in Dubai",
-  "url": "https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai",
-  "description": "Advanced aesthetic dermatology services in Dubai, including laser hair removal, PRP therapy, skin rejuvenation, and non-surgical cosmetic treatments.",
-  "medicalSpecialty": "Dermatology",
-  "parentOrganization": {
-    "@type": "MedicalOrganization",
-    "@id": "https://ramacarepolyclinic.ae/#organization",
-    "name": "RamaCare Polyclinic"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
-    "addressLocality": "Dubai",
-    "postalCode": "393558",
-    "addressCountry": "AE"
-  },
-  "telephone": "+971566597878",
-  "areaServed": {
-    "@type": "City",
-    "name": "Dubai"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Aesthetic Dermatology Services",
-    "itemListElement": [
-      {
-        "@type": "MedicalProcedure",
-        "name": "Laser Hair Removal"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "PRP Therapy"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Skin Rejuvenation"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Hair Restoration"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Botox Treatment"
-      }
-    ]
-  }
-}`
-  }}
-/>
+   
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaData)
+          }}
+        />
 </Head>
 
       <HeroSection content={content?.hero} />

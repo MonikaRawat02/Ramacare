@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function ElectrotherapyPage() {
   const categoryName = 'Physiotherapy';
@@ -24,8 +25,8 @@ export default function ElectrotherapyPage() {
   return (
     <Layout>
       <Head>
-  <title>Electrotherapy in Dubai for Pain Relief and Physiotherapy</title>
-  <meta name="description" content="Electrotherapy in Dubai offers safe physiotherapy treatment for pain relief, muscle stimulation, and faster recovery using TENS, IFC, and NMES under expert care." />
+  <title key="title">Electrotherapy in Dubai for Pain Relief and Physiotherapy</title>
+  <meta name="description" content="Electrotherapy in Dubai offers safe physiotherapy treatment for pain relief, muscle stimulation, and faster recovery using TENS, IFC, and NMES under expert care." key="description" />
   <meta name="keywords" content="Electrotherapy in Dubai, Electrotherapy treatment Dubai, Physiotherapy electrotherapy, TENS therapy Dubai, IFC therapy Dubai, NMES therapy Dubai, Pain relief physiotherapy Dubai, Muscle stimulation therapy, Electrotherapy physiotherapy clinic, Rehabilitation therapy Dubai" />
   
    <script
@@ -35,11 +36,11 @@ export default function ElectrotherapyPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/electrotherapy-dubai#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/electrotherapy-dubai/#procedure",
   "name": "Electrotherapy in Dubai",
   "alternateName": "Physiotherapy Electrotherapy Treatment",
-  "url": "https://ramacarepolyclinic.ae/services/electrotherapy-dubai",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/electrotherapy-dubai",
+  "url": "https://ramacarepolyclinic.ae/services/electrotherapy-dubai/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/electrotherapy-dubai/",
   "description": "Electrotherapy in Dubai at RamaCare Polyclinic offers advanced physiotherapy treatment using electrical stimulation to relieve pain, improve muscle function, and support tissue healing, provided by experienced physiotherapists.",
   "procedureType": "Physical therapy",
   "bodyLocation": "Musculoskeletal system",
@@ -84,7 +85,7 @@ export default function ElectrotherapyPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -95,7 +96,7 @@ export default function ElectrotherapyPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function GastrointestinalDisordersPage() {
   const categoryName = 'General Physician';
@@ -24,8 +25,8 @@ export default function GastrointestinalDisordersPage() {
   return (
     <Layout>
       <Head>
-  <title>Gastrointestinal Disorders Treatment in Dubai Care</title>
-  <meta name="description" content="Gastrointestinal disorders treatment in Dubai offers expert care for acidity, IBS, constipation, ulcers, and digestive issues with accurate diagnosis and guidance." />
+  <title key="title">Gastrointestinal Disorders Treatment in Dubai Care</title>
+  <meta name="description" content="Gastrointestinal disorders treatment in Dubai offers expert care for acidity, IBS, constipation, ulcers, and digestive issues with accurate diagnosis and guidance." key="description" />
   <meta name="keywords" content="Gastrointestinal disorders treatment in Dubai, Digestive disorders treatment in Dubai, Stomach problem treatment in Dubai, IBS treatment Dubai, Acidity and gas treatment in Dubai, Gut Health Clinic Dubai, Digestive health care Dubai, Gastrointestinal care Dubai, Ayurvedic digestive treatment in Dubai, Chronic digestive disorder treatment" />
   
   <script
@@ -36,10 +37,10 @@ export default function GastrointestinalDisordersPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai/#condition",
           "name": "Gastrointestinal Disorders",
           "alternateName": "GI Disorders",
-          "url": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai/",
           "description": "Gastrointestinal disorders are conditions that affect the digestive tract, including symptoms like abdominal pain, bloating, indigestion, heartburn, constipation, diarrhea and other related digestive dysfunctions.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function GastrointestinalDisordersPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai/#procedure",
           "name": "Gastrointestinal Disorders Treatment in Dubai",
           "alternateName": "GI Care & Digestive Health Treatment",
-          "url": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/gastrointestinal-disorders-dubai/",
           "description": "Gastrointestinal disorders treatment in Dubai at RamaCare Polyclinic provides comprehensive digestive health care, evaluation, and management for conditions such as indigestion, IBS, gastritis, bloating and related symptoms by experienced clinicians.",
           "procedureType": "Diagnostic and therapeutic gastrointestinal care",
           "howPerformed": "Treatment begins with detailed history, clinical assessment, and appropriate diagnostic testing including imaging and lab work. Personalized treatment plans may include dietary advice, medical therapy, lifestyle modification and follow-up support.",
@@ -97,7 +98,7 @@ export default function GastrointestinalDisordersPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function GastrointestinalDisordersPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

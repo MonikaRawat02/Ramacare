@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function ScarsRemovalPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function ScarsRemovalPage() {
   return (
     <Layout>
       <Head>
-  <title>Scars Removal in Dubai for Smooth and Even Skin</title>
-  <meta name="description" content="Scars removal in Dubai uses advanced laser and medical treatments to reduce acne, surgical, or injury scars, restoring smooth and healthy-looking skin." />
+  <title key="title">Scars Removal in Dubai for Smooth and Even Skin</title>
+  <meta name="description" content="Scars removal in Dubai uses advanced laser and medical treatments to reduce acne, surgical, or injury scars, restoring smooth and healthy-looking skin." key="description" />
   <meta name="keywords" content="Scars removal in Dubai, Laser scar treatment Dubai, Acne scar removal Dubai, Surgical scar treatment, Injury scar removal Dubai, Skin resurfacing treatment, Scar reduction therapy Dubai, Professional scar treatment, Non-surgical scar removal, Skin rejuvenation Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function ScarsRemovalPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/scars-removal-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/scars-removal-dubai/#condition",
           "name": "Skin Scarring and Texture Irregularities",
           "alternateName": "Acne Scars, Surgical Scars & Traumatic Scars",
-          "url": "https://ramacarepolyclinic.ae/services/scars-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/scars-removal-dubai/",
           "description": "Skin scars — including acne scars, surgical scars, injury-related scars, and other texture irregularities — can affect the smoothness, appearance, and confidence of the skin. They often involve fibrous tissue that alters normal skin texture.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function ScarsRemovalPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/scars-removal-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/scars-removal-dubai/#procedure",
           "name": "Scar Removal Treatment in Dubai",
           "alternateName": "Acne & Traumatic Scar Reduction",
-          "url": "https://ramacarepolyclinic.ae/services/scars-removal-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/scars-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/scars-removal-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/scars-removal-dubai/",
           "description": "Scar removal treatment at RamaCare Polyclinic in Dubai is a customized dermatologic procedure that employs advanced technologies and clinically proven techniques to reduce the appearance of scars and improve overall skin texture.",
           "procedureType": "Medical and aesthetic dermatologic procedure",
           "howPerformed": "After evaluating scar type and severity, trained clinicians may recommend fractional laser resurfacing (like CO₂ laser), ablative or non-ablative lasers, microneedling, chemical peels, or a combination of these methods. The chosen modalities stimulate collagen production and skin remodeling to minimize scar appearance.",
@@ -97,7 +98,7 @@ export default function ScarsRemovalPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function ScarsRemovalPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

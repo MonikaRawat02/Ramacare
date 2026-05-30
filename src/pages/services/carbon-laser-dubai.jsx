@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function CarbonLaserTreatmentPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function CarbonLaserTreatmentPage() {
   return (
     <Layout>
       <Head>
-  <title>Carbon Laser Treatment in Dubai | Skin Rejuvenation</title>
-  <meta name="description" content="Experience safe and effective Carbon Laser treatment in Dubai for glowing, clear skin. Reduce pigmentation, acne scars, and fine lines with expert care." />
+  <title key="title">Carbon Laser Treatment in Dubai | Skin Rejuvenation</title>
+  <meta name="description" content="Experience safe and effective Carbon Laser treatment in Dubai for glowing, clear skin. Reduce pigmentation, acne scars, and fine lines with expert care." key="description" />
   <meta name="keywords" content="Carbon Laser Dubai, Carbon Laser facial Dubai, Acne scar treatment Dubai, Skin rejuvenation Dubai, Pigmentation removal Dubai, Laser skin therapy Dubai, Carbon peel Dubai, Anti-ageing skin treatment Dubai, Glowing skin treatment Dubai, Dermatology laser Dubai, Non-surgical skin treatment in Dubai, Laser facial clinic Dubai" />
 
   
@@ -37,10 +38,10 @@ export default function CarbonLaserTreatmentPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai/#condition",
           "name": "Skin Dullness, Enlarged Pores, Mild Texture Issues & Pigmentation",
           "alternateName": "Uneven Skin Tone, Acne‑Prone Texture & Visible Pores",
-          "url": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai/",
           "description": "Conditions such as dull complexion, enlarged pores, uneven texture, superficial pigmentation, and acne‑prone skin can affect the overall appearance and radiance of the face. Carbon laser therapy targets these concerns by promoting exfoliation, boosting collagen, and enhancing skin clarity.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -50,11 +51,11 @@ export default function CarbonLaserTreatmentPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai/#procedure",
           "name": "Carbon Laser Treatment in Dubai",
           "alternateName": "Carbon Peel / Nano Laser Peel",
-          "url": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/carbon-laser-dubai/",
           "description": "Carbon laser treatment at RamaCare Polyclinic in Dubai is a non‑invasive cosmetic dermatology procedure designed to exfoliate the skin, refine texture, reduce superficial pigmentation, shrink enlarged pores, and enhance complexion clarity using a carbon mask and laser energy.",
           "procedureType": "Non‑invasive cosmetic laser procedure",
           "howPerformed": "A carbon‑based lotion is first applied to the cleansed skin. Once the carbon particles penetrate pores and attach to debris, a specialized laser emits targeted pulses that vaporize the carbon, removing dead skin cells, impurities, and excess oil. The laser energy also stimulates collagen production, improving overall texture and tone.",
@@ -98,7 +99,7 @@ export default function CarbonLaserTreatmentPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -109,7 +110,7 @@ export default function CarbonLaserTreatmentPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function TreatmentofAcuteInfectionsPage() {
   const categoryName = 'General Physician';
@@ -24,8 +25,8 @@ export default function TreatmentofAcuteInfectionsPage() {
   return (
     <Layout>
       <Head>
-  <title>Treatment of Acute Infections in Dubai | Expert Medical Care</title>
-  <meta name="description" content="Get professional treatment for acute infections in Dubai. Experienced doctors provide fast, safe care for bacterial, viral, and other infections with proper follow-up." />
+  <title key="title">Treatment of Acute Infections in Dubai | Expert Medical Care</title>
+  <meta name="description" content="Get professional treatment for acute infections in Dubai. Experienced doctors provide fast, safe care for bacterial, viral, and other infections with proper follow-up." key="description" />
   
   <meta name="keywords" content="Acute infection treatment in Dubai, Bacterial infection care in Dubai, Viral infection treatment in Dubai, Infectious disease management in Dubai, Dubai urgent infection care, Fever and infection treatment in Dubai, Rapid infection relief in Dubai, Infection diagnosis in Dubai, Antibiotic therapy in Dubai, Dubai infection clinic, Medical treatment for infections in Dubai, Emergency infection care in Dubai" />
   <script
@@ -36,10 +37,10 @@ export default function TreatmentofAcuteInfectionsPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai/#condition",
           "name": "Acute Infections",
           "alternateName": "Short-Term Infectious Conditions",
-          "url": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai/",
           "description": "Acute infections are rapid-onset infections caused by bacteria, viruses, or other pathogens that lead to symptoms such as fever, pain, inflammation, and systemic illness.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function TreatmentofAcuteInfectionsPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai/#procedure",
           "name": "Treatment of Acute Infections in Dubai",
           "alternateName": "Acute Infection Care & Management",
-          "url": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/treatment-of-acute-infections-dubai/",
           "description": "Professional diagnosis and treatment for acute infections in Dubai including clinical assessment, targeted therapy, supportive care, and follow-up to ensure recovery.",
           "procedureType": "Medical evaluation and therapy",
           "howPerformed": "Treatment involves history taking, physical examination, diagnostic testing where indicated, and administration of appropriate medications or supportive measures.",
@@ -97,7 +98,7 @@ export default function TreatmentofAcuteInfectionsPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function TreatmentofAcuteInfectionsPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

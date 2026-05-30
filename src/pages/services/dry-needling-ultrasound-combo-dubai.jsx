@@ -151,8 +151,8 @@ const DryNeedlingUltrasoundComboPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Dry Needling & Ultrasound Combo Dubai | RamaCare Dual Recovery</title>
-        <meta name="description" content='Experience the "Ultimate Recovery Duo" at RamaCare Jumeirah. Learn how combining Dry Needling and Ultrasound therapy accelerates healing for stubborn muscle knots and chronic pain.' />
+        <title key="title">Dry Needling & Ultrasound Combo Dubai | RamaCare Dual Recovery</title>
+        <meta name="description" content="Experience the "Ultimate Recovery Duo" at RamaCare Jumeirah. Learn how combining Dry Needling and Ultrasound therapy accelerates healing for stubborn muscle knots and chronic pain." key="description" />
         
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
@@ -213,7 +213,7 @@ const DryNeedlingUltrasoundComboPage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md border bg-[#f0ece2] text-[#1A1A1A] px-4 py-2 md:py-3 text-base md:text-lg font-medium transition-all shadow-sm hover:bg-[#e5dfd3] h-10 md:h-12"
                   >
                     WhatsApp Consultation
@@ -908,7 +908,7 @@ const DryNeedlingUltrasoundComboPage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all border border-gray-300 bg-[#f0ece2] text-[#1A1A1A] hover:bg-[#e5dfd3] h-10 px-4 py-2 w-full"
                   >
                     <MessageCircle className="w-4 h-4" />

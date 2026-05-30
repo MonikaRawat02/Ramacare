@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function PCOSTreatmentPage() {
   const categoryName = 'Ayurveda';
@@ -24,8 +25,8 @@ export default function PCOSTreatmentPage() {
   return (
     <Layout>
       <Head>
-  <title>Ayurvedic PCOS Treatment in Dubai | Hormone Balance Naturally</title>
-  <meta name="description" content="Manage PCOS naturally in Dubai with Ayurvedic therapies, Panchakarma detox, herbal remedies, diet, and lifestyle guidance for hormonal balance and fertility support." />
+  <title key="title">Ayurvedic PCOS Treatment in Dubai | Hormone Balance Naturally</title>
+  <meta name="description" content="Manage PCOS naturally in Dubai with Ayurvedic therapies, Panchakarma detox, herbal remedies, diet, and lifestyle guidance for hormonal balance and fertility support." key="description" />
   <meta name="keywords" content="Ayurvedic PCOS treatment Dubai, PCOS management Dubai, Hormone balance Dubai, Panchakarma for PCOS Dubai, Herbal PCOS remedies Dubai, Women’s Health Dubai, PCOS diet and lifestyle in Dubai, Ayurvedic gynecology Dubai, Fertility support Dubai, PCOS therapy Dubai, DHA licensed Ayurvedic doctor in Dubai, Holistic PCOS treatment Dubai" />
    
    <script
@@ -37,10 +38,10 @@ export default function PCOSTreatmentPage() {
   "@graph": [
     {
       "@type": "MedicalCondition",
-      "@id": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai#condition",
+      "@id": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai/#condition",
       "name": "Polycystic Ovary Syndrome (PCOS)",
       "alternateName": "PCOS",
-      "url": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai",
+      "url": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai/",
       "description": "PCOS (Polycystic Ovary Syndrome) is a hormonal disorder common in women of reproductive age that can cause irregular periods, fertility issues, weight gain, acne, and hormonal imbalance.",
       "possibleTreatment": {
         "@type": "MedicalTherapy",
@@ -50,11 +51,11 @@ export default function PCOSTreatmentPage() {
     },
     {
       "@type": "MedicalProcedure",
-      "@id": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai#procedure",
+      "@id": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai/#procedure",
       "name": "PCOS Treatment in Dubai",
       "alternateName": "Polycystic Ovary Syndrome Treatment",
-      "url": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai",
-      "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai",
+      "url": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai/",
+      "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/pcos-treatment-dubai/",
       "description": "Comprehensive PCOS treatment in Dubai at RamaCare Polyclinic combining medical evaluation, hormonal assessment, lifestyle guidance, and tailored therapy by experienced healthcare professionals.",
       "procedureType": "Medical management and supportive therapy",
       "howPerformed": "PCOS treatment begins with hormonal and metabolic evaluation, followed by personalized medical and lifestyle therapy, including diet modification, herbal support (where appropriate), and clinical monitoring.",
@@ -98,7 +99,7 @@ export default function PCOSTreatmentPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -109,7 +110,7 @@ export default function PCOSTreatmentPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

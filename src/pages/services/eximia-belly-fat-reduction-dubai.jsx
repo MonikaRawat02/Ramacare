@@ -187,8 +187,8 @@ export default function EximiaBellyFatReductionPage() {
   return (
     <Layout>
       <Head>
-        <title>Eximia Belly Fat Reduction Dubai - Lose Belly Fat Safely</title>
-        <meta name="description" content="Effective Eximia belly fat reduction in Dubai. Lose belly fat and sculpt your body with our non-surgical treatment at RamaCare Polyclinic." />
+        <title key="title">Eximia Belly Fat Reduction Dubai - Lose Belly Fat Safely</title>
+        <meta name="description" content="Effective Eximia belly fat reduction in Dubai. Lose belly fat and sculpt your body with our non-surgical treatment at RamaCare Polyclinic." key="description" />
         <meta name="keywords" content="Eximia belly fat reduction Dubai, lose belly fat Dubai, fat reduction treatment Dubai, non-surgical liposuction alternative Dubai" />
         
       </Head>
@@ -235,7 +235,7 @@ export default function EximiaBellyFatReductionPage() {
                 <a 
                   href="https://wa.me/971566597878"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="border-2 border-[#2D5F3F] text-[#2D5F3F] px-8 py-4 rounded-xl font-semibold text-center hover:bg-[#2D5F3F] hover:text-white transition-all flex items-center justify-center gap-2"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -564,7 +564,7 @@ export default function EximiaBellyFatReductionPage() {
             </motion.h2>
             <p className="text-lg text-[#5F5F5F] leading-relaxed max-w-2xl mx-auto">
               Stop struggling with stubborn bulges. Visit our main{' '}
-              <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai" className="underline font-semibold text-[#1F5E4B] hover:text-[#2D5F3F]">
+              <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/" className="underline font-semibold text-[#1F5E4B] hover:text-[#2D5F3F]">
                 Eximia Body Contouring Dubai
               </a>{' '}
               page to see our belly fat success stories and book your 3D body assessment.
@@ -722,7 +722,7 @@ export default function EximiaBellyFatReductionPage() {
                 <a
                   href="https://wa.me/971566597878"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="border-2 border-[#2D5F3F] text-[#2D5F3F] px-6 py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-[#2D5F3F] hover:text-white transition-all"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

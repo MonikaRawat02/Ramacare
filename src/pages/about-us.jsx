@@ -176,8 +176,8 @@ const whyContent = {
   return (
     <Layout>
       <Head>
-        <title>About Us | RamaCare Polyclinic Dubai</title>
-        <meta name="description" content="Learn about RamaCare Polyclinic in Dubai. Our mission is to provide high-quality, patient-focused healthcare combining traditional and modern medicine." />
+        <title key="title">About Us | RamaCare Polyclinic Dubai</title>
+        <meta name="description" content="Learn about RamaCare Polyclinic in Dubai. Our mission is to provide high-quality, patient-focused healthcare combining traditional and modern medicine." key="description" />
         <meta name="keywords" content="RamaCare Polyclinic Dubai, About RamaCare, Healthcare Dubai, Medical clinic Jumeirah, DHA licensed doctors, About us healthcare Dubai" />
       </Head>
       

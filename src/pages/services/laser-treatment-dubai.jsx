@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function LaserTreatmentPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,59 +25,17 @@ export default function LaserTreatmentPage() {
   return (
     <Layout>
         <Head>
-  <title>Laser Treatment in Dubai | Safe & Advanced Laser Clinic</title>
-  <meta name="description" content="Experience expert laser treatment in Dubai for hair removal, skin rejuvenation, and pigmentation. Personalized care with safe, advanced technology by licensed specialists." />
+  <title key="title">Laser Treatment in Dubai | Safe & Advanced Laser Clinic</title>
+  <meta name="description" content="Experience expert laser treatment in Dubai for hair removal, skin rejuvenation, and pigmentation. Personalized care with safe, advanced technology by licensed specialists." key="description" />
   <meta name="keywords" content="Laser treatment in Dubai, Laser clinic Dubai, Laser hair removal Dubai, Skin laser treatment Dubai, Laser pigmentation treatment Dubai, Laser skin rejuvenation Dubai, DHA licensed laser clinic, Advanced laser therapy Dubai, Medical laser clinic Dubai, Safe laser treatment in Dubai, Cosmetic laser treatment Dubai, Pico laser treatment Dubai" />
   
-   <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{
-      __html: `{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "@id": "https://ramacarepolyclinic.ae/services/laser-treatment-dubai/#medicalclinic",
-  "name": "Laser Treatment in Dubai",
-  "url": "https://ramacarepolyclinic.ae/services/laser-treatment-dubai",
-  "description": "Advanced laser treatment in Dubai for hair removal, pigmentation, acne scars, skin rejuvenation, spider veins, and anti-aging. Performed by DHA-licensed specialists using FDA-approved laser technology in Jumeirah 1.",
-  "medicalSpecialty": "Aesthetic Dermatology",
-  "parentOrganization": {
-    "@type": "MedicalOrganization",
-    "@id": "https://ramacarepolyclinic.ae/#organization",
-    "name": "RamaCare Polyclinic"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
-    "addressLocality": "Dubai",
-    "postalCode": "393558",
-    "addressCountry": "AE"
-  },
-  "telephone": "+971566597878",
-  "areaServed": {
-    "@type": "City",
-    "name": "Dubai"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Laser Treatment Services",
-    "itemListElement": [
-      { "@type": "MedicalProcedure", "name": "Laser Hair Removal" },
-      { "@type": "MedicalProcedure", "name": "Fractional CO2 Laser" },
-      { "@type": "MedicalProcedure", "name": "Carbon Laser Treatment" },
-      { "@type": "MedicalProcedure", "name": "Pigmentation Laser Treatment" },
-      { "@type": "MedicalProcedure", "name": "Acne Scar Laser Treatment" },
-      { "@type": "MedicalProcedure", "name": "Spider Veins Laser Treatment" },
-      { "@type": "MedicalProcedure", "name": "Tattoo Removal Laser" }
-    ]
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "500"
-  }
-}`
-    }}
-  />
+   
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaData)
+          }}
+        />
 </Head>
       <TreatmentHero 
         categoryName={categoryName}
@@ -84,7 +43,7 @@ export default function LaserTreatmentPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -95,7 +54,7 @@ export default function LaserTreatmentPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

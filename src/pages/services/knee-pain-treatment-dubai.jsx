@@ -286,8 +286,8 @@ export default function KneePainTreatmentPage() {
   return (
     <Layout>
       <Head>
-        <title>Knee Pain Treatment in Dubai | Advanced Joint Pain Relief & Mobility Recovery</title>
-        <meta name="description" content="Expert knee pain treatment in Dubai with personalized physiotherapy, rehabilitation, and non-surgical solutions for joint pain relief, mobility improvement, and long-term recovery at Rama Care Polyclinic." />
+        <title key="title">Knee Pain Treatment in Dubai | Joint Pain Relief</title>
+        <meta name="description" content="Expert knee pain treatment in Dubai with personalized physiotherapy and non-surgical solutions at Rama Care Polyclinic." key="description" />
         <meta name="keywords" content="Knee pain treatment Dubai, Knee physiotherapy Dubai, Arthritis knee treatment, Sports injury knee treatment, Chronic knee pain Dubai, Knee rehabilitation Dubai, Joint pain relief Dubai" />
         
       </Head>
@@ -369,8 +369,7 @@ export default function KneePainTreatmentPage() {
                     <span>Book Consultation</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </a>
-                  <a
-                    href="https://wa.me/971566597878"
+                  <a rel="nofollow noopener noreferrer" target="_blank" href="https://wa.me/971566597878"
                     className="inline-flex items-center gap-3 border-2 border-[#1F5E4B] text-[#1F5E4B] px-8 py-4 rounded-lg font-semibold hover:bg-[#1F5E4B] hover:text-white transition-all hover:-translate-y-0.5"
                   >
                     <Phone className="w-5 h-5" />
@@ -1297,8 +1296,7 @@ export default function KneePainTreatmentPage() {
                 <Clock className="w-6 h-6" />
                 <span>Book Consultation</span>
               </a>
-              <a
-                href="https://wa.me/971566597878"
+              <a rel="nofollow noopener noreferrer" target="_blank" href="https://wa.me/971566597878"
                 className="group inline-flex items-center gap-3 bg-transparent text-white px-10 py-5 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all border-2 border-white"
               >
                 <Phone className="w-6 h-6" />

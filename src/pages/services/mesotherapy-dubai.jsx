@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function MesotherapyPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function MesotherapyPage() {
   return (
     <Layout>
       <Head>
-  <title>Mesotherapy in Dubai for Skin and Hair Rejuvenation</title>
-  <meta name="description" content="Mesotherapy in Dubai delivers vitamins and nutrients into the skin to improve texture, reduce hair loss, and support healthy skin and scalp care." />
+  <title key="title">Mesotherapy in Dubai for Skin and Hair Rejuvenation</title>
+  <meta name="description" content="Mesotherapy in Dubai delivers vitamins and nutrients into the skin to improve texture, reduce hair loss, and support healthy skin and scalp care." key="description" />
   <meta name="keywords" content="Mesotherapy in Dubai, Mesotherapy treatment Dubai, Skin mesotherapy Dubai, Hair mesotherapy Dubai, Skin rejuvenation treatment, Hair loss treatment Dubai, Vitamin injection therapy, Non-surgical aesthetic treatment, Professional mesotherapy care" />
   
   <script
@@ -36,10 +37,10 @@ export default function MesotherapyPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai/#condition",
           "name": "Skin Rejuvenation, Hydration Deficits & Localized Fat/Cellulite Concerns",
           "alternateName": "Dull Skin, Fine Lines, Uneven Texture & Localized Fat Deposits",
-          "url": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai/",
           "description": "Skin rejuvenation and hydration deficit conditions include premature signs of aging, loss of elasticity or radiance, uneven texture, and localized areas of mild fat or cellulite that may benefit from targeted micro‑injections of vitamins, enzymes, and other solutions.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function MesotherapyPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai/#procedure",
           "name": "Mesotherapy Treatment in Dubai",
           "alternateName": "Mesotherapy Skin Rejuvenation & Local Contouring",
-          "url": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/mesotherapy-dubai/",
           "description": "Mesotherapy at RamaCare Polyclinic in Dubai is a customized minimally invasive cosmetic treatment that uses a series of micro‑injections to deliver vitamins, hyaluronic acid, enzymes, and specialized solutions to improve skin hydration, texture, elasticity, and help with localized contouring.",
           "procedureType": "Minimally invasive injection therapy",
           "howPerformed": "A trained clinician administers multiple micro‑injections of a tailored solution into the mesoderm (middle layer) of the skin using fine needles. The selected cocktail of nutrients and actives helps stimulate collagen, improve moisture retention, refine skin texture, and support localized fat reduction.",
@@ -97,7 +98,7 @@ export default function MesotherapyPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function MesotherapyPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

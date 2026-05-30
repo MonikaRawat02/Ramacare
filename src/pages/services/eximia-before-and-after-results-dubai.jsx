@@ -289,8 +289,8 @@ export default function EximiaBeforeAfterPage() {
   return (
     <Layout>
       <Head>
-        <title>Eximia Before and After: What Results Can You Really Expect?</title>
-        <meta name="description" content="See real Eximia body contouring results in Dubai. Most patients see 1-3 cm reduction after first session with zero downtime." />
+        <title key="title">Eximia Results: Real Patient Before and After | RamaCare</title>
+        <meta name="description" content="See real Eximia body contouring results in Dubai. Most patients see 1-3 cm reduction after first session with zero downtime." key="description" />
         
         
         {/* JSON-LD Schema */}
@@ -1237,7 +1237,7 @@ export default function EximiaBeforeAfterPage() {
               See the Transformation for Yourself
             </h2>
             <p className="text-lg text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Are you ready to be our next success story? View our clinic's <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai" className="text-white font-bold border-b-2 border-white/50 hover:border-white transition-all">Eximia Body Contouring Dubai</a> gallery and book a free body assessment to see how many centimeters you could lose.
+              Are you ready to be our next success story? View our clinic's <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/" className="text-white font-bold border-b-2 border-white/50 hover:border-white transition-all">Eximia Body Contouring Dubai</a> gallery and book a free body assessment to see how many centimeters you could lose.
             </p>
           </div>
 

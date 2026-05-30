@@ -188,8 +188,8 @@ const EximiaVsCoolSculptingPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Eximia vs. CoolSculpting Dubai | Which is Best for Fat Loss?</title>
-        <meta name="description" content="Compare Eximia HR77 Platinum and CoolSculpting (Cryolipolysis) for non-surgical fat reduction in Dubai. Learn about results, comfort, downtime, and choose the right treatment." />
+        <title key="title">Eximia vs. CoolSculpting Dubai | Which is Best for Fat Loss?</title>
+        <meta name="description" content="Compare Eximia HR77 Platinum and CoolSculpting (Cryolipolysis) for non-surgical fat reduction in Dubai. Learn about results, comfort, downtime, and choose the right treatment." key="description" />
         
       </Head>
 
@@ -456,7 +456,7 @@ const EximiaVsCoolSculptingPage = () => {
                 </p>
               </div>
               <button 
-                onClick={() => window.open('/services/eximia-vs-coolsculpting-dubai', '_blank')}
+                onClick={() => window.open('/services/eximia-vs-coolsculpting-dubai/', '_blank')}
                 className="w-full py-3 px-6 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
               >
                 Learn More <span>→</span>
@@ -528,7 +528,7 @@ const EximiaVsCoolSculptingPage = () => {
                 Book Your Professional Assessment
               </h2>
               <p className="text-lg leading-relaxed text-[#5F5F5F] max-w-2xl mx-auto">
-                Still unsure? We offer a free body composition analysis at our clinic. Visit our main <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai" className="text-[#1F5E4B] font-bold border-b-2 border-[#1F5E4B]/50 hover:border-[#1F5E4B] transition-all">Eximia Body Contouring Dubai</a> page to see our latest results and book your slot.
+                Still unsure? We offer a free body composition analysis at our clinic. Visit our main <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/" className="text-[#1F5E4B] font-bold border-b-2 border-[#1F5E4B]/50 hover:border-[#1F5E4B] transition-all">Eximia Body Contouring Dubai</a> page to see our latest results and book your slot.
               </p>
             </div>
 

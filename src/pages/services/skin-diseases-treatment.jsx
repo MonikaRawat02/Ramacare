@@ -15,6 +15,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function SkinDiseasesTreatmentPage() {
   const categoryName = 'Ayurveda';
@@ -39,8 +40,8 @@ export default function SkinDiseasesTreatmentPage() {
   return (
     <Layout>
       <Head>
-  <title>Skin Diseases Treatment Dubai | Expert Dermatology Care</title>
-  <meta name="description" content="Receive safe and natural Ayurvedic treatment for skin diseases in Dubai. Personalized care for acne, eczema, psoriasis, rashes, and healthy glowing skin." />
+  <title key="title">Skin Diseases Treatment Dubai | Expert Dermatology Care</title>
+  <meta name="description" content="Receive safe and natural Ayurvedic treatment for skin diseases in Dubai. Personalized care for acne, eczema, psoriasis, rashes, and healthy glowing skin." key="description" />
   <meta name="keywords" content="Skin diseases treatment Dubai, Ayurvedic skin treatment Dubai, Acne treatment Dubai, Eczema treatment Dubai, Psoriasis treatment Dubai, Rashes treatment Ayurveda Dubai, Natural skin care Dubai, Holistic skin treatment Dubai, Ayurvedic dermatologist in Dubai, Herbal skin therapy Dubai, Personalized skin care Dubai, Ayurvedic remedies for skin issues" />
   
    <script
@@ -50,11 +51,11 @@ export default function SkinDiseasesTreatmentPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/skin-diseases-treatment-dubai#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/skin-diseases-treatmen/t/#procedure",
   "name": "Skin Diseases Treatment in Dubai",
   "alternateName": "Dermatology & Skin Condition Treatment",
-  "url": "https://ramacarepolyclinic.ae/services/skin-diseases-treatment-dubai",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/skin-diseases-treatment-dubai",
+  "url": "https://ramacarepolyclinic.ae/services/skin-diseases-treatmen/t/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/skin-diseases-treatmen/t/",
   "description": "Comprehensive skin diseases treatment in Dubai at RamaCare Polyclinic for acne, eczema, psoriasis, dermatitis, infections, rashes and other dermatological conditions by DHA-licensed dermatologists.",
   "procedureType": "Dermatological medical procedure",
   "bodyLocation": "Skin",
@@ -100,7 +101,7 @@ export default function SkinDiseasesTreatmentPage() {
       hero={content?.hero}
     />
      <QuickNavigation navItems={navItems} />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -136,7 +137,7 @@ export default function SkinDiseasesTreatmentPage() {
     />
     <PatientTestimonials content={content?.testimonials} />
      <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
     <FAQSection content={content?.faq} />
     <BookConsultation content={content?.bookConsultation} />

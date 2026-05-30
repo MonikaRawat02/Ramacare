@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function FemaleGenitalRejuvenationPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function FemaleGenitalRejuvenationPage() {
   return (
     <Layout>
       <Head>
-  <title>Female Genital Rejuvenation for Comfort and Confidence</title>
-  <meta name="description" content="Female genital rejuvenation restores vaginal health, tightness, and comfort using safe, minimally invasive treatments under expert medical supervision." />
+  <title key="title">Female Genital Rejuvenation for Comfort and Confidence</title>
+  <meta name="description" content="Female genital rejuvenation restores vaginal health, tightness, and comfort using safe, minimally invasive treatments under expert medical supervision." key="description" />
   <meta name="keywords" content="Female genital rejuvenation, Vaginal tightening treatment, Non-surgical genital rejuvenation, Vaginal health therapy, Intimate wellness treatment, Minimally invasive vaginal care, Vaginal laxity treatment, Medical genital rejuvenation, Women’s intimate care, Expert genital treatment" />
   
   <script
@@ -36,10 +37,10 @@ export default function FemaleGenitalRejuvenationPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai/#condition",
           "name": "Female Genital Laxity, Discomfort & Aesthetic Concerns",
           "alternateName": "Vaginal Laxity, Pelvic Floor Weakness & Genital Aesthetic Concerns",
-          "url": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai/",
           "description": "Female genital laxity, vaginal looseness, discomfort during intercourse, urinary leakage, and aesthetic concerns of the external genitalia can occur due to aging, childbirth, hormonal changes, or other pelvic floor weakening factors.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function FemaleGenitalRejuvenationPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai/#procedure",
           "name": "Female Genital Rejuvenation in Dubai",
           "alternateName": "Vaginal Tightening & Aesthetic Genital Therapy",
-          "url": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/female-genital-rejuvenation-dubai/",
           "description": "Female genital rejuvenation at RamaCare Polyclinic in Dubai is a customized medical or aesthetic procedure aimed at improving genital laxity, enhancing tissue tone and elasticity, and addressing functional or cosmetic concerns of the vaginal and external genital region.",
           "procedureType": "Minimally invasive pelvic floor and aesthetic therapy",
           "howPerformed": "After a clinical consultation and assessment of individual anatomy and goals, a trained clinician uses non‑surgical technologies such as fractional laser, radiofrequency, or energy‑based devices to stimulate tissue remodeling, collagen production, and tightening of the vaginal and external genital tissues. The approach is tailored for comfort and safety.",
@@ -97,7 +98,7 @@ export default function FemaleGenitalRejuvenationPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function FemaleGenitalRejuvenationPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

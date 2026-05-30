@@ -114,8 +114,8 @@ const ThermalVsMechanicalUltrasound = () => {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Thermal vs. Mechanical Ultrasound Therapy Dubai | RamaCare Guide</title>
-        <meta name="description" content="Should you use Thermal or Mechanical ultrasound? Learn how RamaCare Jumeirah uses different ultrasound modes to treat acute swelling versus chronic stiffness." />
+        <title key="title">Thermal vs. Mechanical Ultrasound Therapy Dubai | RamaCare Guide</title>
+        <meta name="description" content="Should you use Thermal or Mechanical ultrasound? Learn how RamaCare Jumeirah uses different ultrasound modes to treat acute swelling versus chronic stiffness." key="description" />
         
       </Head>
 
@@ -151,7 +151,7 @@ const ThermalVsMechanicalUltrasound = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex items-center justify-center gap-2 bg-white text-[#1A1A1A] border border-[#E9E1D3] px-8 py-4 rounded-xl font-bold hover:bg-[#F5F1EA] transition-all"
                   >
                     <MessageCircle size={20} />
@@ -698,7 +698,7 @@ const ThermalVsMechanicalUltrasound = () => {
                     <a 
                       href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                       className="flex items-center justify-center gap-2 w-full h-[52px] bg-white text-[#1A1A1A] border border-[#E9E1D3] font-bold rounded-lg hover:bg-[#F5F1EA] transition-all text-base"
                     >
                       <MessageCircle size={20} />
@@ -765,7 +765,7 @@ const ThermalVsMechanicalUltrasound = () => {
                 <a 
                   href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="flex items-center justify-center gap-2 w-full bg-white text-[#1A1A1A] border-2 border-[#E9E1D3] font-bold py-3 rounded-lg hover:bg-[#F5F1EA] transition-all text-sm"
                 >
                   <MessageCircle size={16} />

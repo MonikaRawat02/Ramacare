@@ -158,8 +158,8 @@ const UltrasoundSessionsTimelinePage = () => {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>How Many Ultrasound Therapy Sessions? | RamaCare Dubai Timeline</title>
-        <meta name="description" content="Wondering how many sessions of ultrasound therapy are needed for pain relief? See our clinical recovery timeline for sports injuries, back pain, and chronic conditions at RamaCare Jumeirah." />
+        <title key="title">How Many Ultrasound Therapy Sessions? | RamaCare Dubai Timeline</title>
+        <meta name="description" content="Wondering how many sessions of ultrasound therapy are needed for pain relief? See our clinical recovery timeline for sports injuries, back pain, and chronic conditions at RamaCare Jumeirah." key="description" />
         
       </Head>
 

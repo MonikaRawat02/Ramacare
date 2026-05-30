@@ -181,8 +181,8 @@ export default function AyurvedicDetoxDietPlanPage() {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Ayurvedic Detox Diet Plan Dubai | Clinical Body Cleansing</title>
-        <meta name="description" content="Flush out toxins and reset your metabolism. Our DHA-licensed Ayurvedic detox diet plans in Dubai focus on clearing Ama (toxins) and restoring gut health. Visit RamaCare Jumeirah 1." />
+        <title key="title">Ayurvedic Detox Diet Plan Dubai | Clinical Body Cleansing</title>
+        <meta name="description" content="Flush out toxins and reset your metabolism. Our DHA-licensed Ayurvedic detox diet plans in Dubai focus on clearing Ama (toxins) and restoring gut health. Visit RamaCare Jumeirah 1." key="description" />
         
       </Head>
 

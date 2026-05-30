@@ -55,58 +55,15 @@ export default function BackPainTreatmentPage() {
   return (
     <Layout>
       <Head>
-        <title>Back Pain Treatment in Dubai | Advanced Physiotherapy & Non-Surgical Care</title>
-        <meta name="description" content="Expert back pain treatment in Dubai with advanced physiotherapy, posture correction, and non-surgical rehabilitation for lasting pain relief and improved mobility." />
+        <title key="title">Back Pain Treatment in Dubai | Advanced Physiotherapy & Non-Surgical Care</title>
+        <meta name="description" content="Expert back pain treatment in Dubai with advanced physiotherapy, posture correction, and non-surgical rehabilitation for lasting pain relief and improved mobility." key="description" />
         <meta name="keywords" content="Back pain treatment Dubai, Physiotherapy for back pain, Lower back pain treatment, Sciatica treatment Dubai, Posture correction Dubai, Non-surgical back pain treatment, Back pain specialist Dubai" />
+        
         
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `
-            {
-              "@context": "https://schema.org",
-              "@type": "MedicalProcedure",
-              "@id": "https://ramacarepolyclinic.ae/services/back-pain-treatment-dubai#procedure",
-              "name": "Back Pain Treatment in Dubai",
-              "alternateName": "Physiotherapy for Back Pain",
-              "url": "https://ramacarepolyclinic.ae/services/back-pain-treatment-dubai",
-              "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/back-pain-treatment-dubai",
-              "description": "Comprehensive back pain treatment in Dubai using advanced physiotherapy, electrotherapy, posture correction, and rehabilitation programs for long-term pain relief and improved mobility.",
-              "procedureType": "Physical therapy",
-              "bodyLocation": "Spine and back muscles",
-              "howPerformed": "Back pain treatment is performed through a combination of physiotherapy exercises, electrotherapy, manual therapy, posture correction, and personalized rehabilitation programs designed to address the root cause of pain.",
-              "preparation": "Wear comfortable clothing suitable for exercise and movement assessment.",
-              "followup": "Regular follow-up sessions and home exercise programs are recommended for optimal recovery.",
-              "indication": [
-                "Lower back pain",
-                "Upper back pain",
-                "Sciatica",
-                "Herniated disc",
-                "Posture-related pain",
-                "Chronic back pain",
-                "Muscle strain"
-              ],
-              "possibleComplication": "Temporary muscle soreness may occur after initial therapy sessions.",
-              "provider": {
-                "@type": "MedicalClinic",
-                "name": "Rama Care Polyclinic – Physiotherapy Department",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Jumeirah Terrace Building, Ground Floor",
-                  "addressLocality": "Jumeirah 1",
-                  "addressRegion": "Dubai",
-                  "postalCode": "393558",
-                  "addressCountry": "AE"
-                },
-                "telephone": "+971 56 659 7878",
-                "areaServed": {
-                  "@type": "City",
-                  "name": "Dubai"
-                },
-                "priceRange": "$$"
-              }
-            }
-            `
+            __html: JSON.stringify(schemaData)
           }}
         />
       </Head>
@@ -192,7 +149,7 @@ export default function BackPainTreatmentPage() {
                 <a 
                   href="https://wa.me/971566597878"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition-all"
                 >
                   <MessageCircle className="w-5 h-5" />

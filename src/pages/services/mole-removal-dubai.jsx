@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function MoleRemovalPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function MoleRemovalPage() {
   return (
     <Layout>
       <Head>
-  <title>Mole Removal in Dubai for Safe and Smooth Skin</title>
-  <meta name="description" content="Mole removal in Dubai provides safe, doctor-supervised treatments to eliminate unwanted moles, ensuring smooth, healthy, and natural-looking skin." />
+  <title key="title">Mole Removal in Dubai for Safe and Smooth Skin</title>
+  <meta name="description" content="Mole removal in Dubai provides safe, doctor-supervised treatments to eliminate unwanted moles, ensuring smooth, healthy, and natural-looking skin." key="description" />
   <meta name="keywords" content="Mole removal in Dubai, Laser mole removal Dubai, Skin mole treatment Dubai, Safe mole removal procedure, Non-surgical mole removal, Dermatology mole treatment, Facial mole removal Dubai, Body mole removal Dubai, Professional mole removal clinic, Skin lesion removal Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function MoleRemovalPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/mole-removal-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/mole-removal-dubai/#condition",
           "name": "Benign Skin Lesions & Moles",
           "alternateName": "Skin Nevi, Pigmented Skin Blemishes",
-          "url": "https://ramacarepolyclinic.ae/services/mole-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/mole-removal-dubai/",
           "description": "Benign skin lesions, moles, and pigmented skin blemishes are common dermatologic conditions that can cause cosmetic concern or discomfort. They may be evaluated and removed if necessary for aesthetic reasons or symptomatic relief.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function MoleRemovalPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/mole-removal-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/mole-removal-dubai/#procedure",
           "name": "Mole Removal in Dubai",
           "alternateName": "Dermatologic Lesion Excision & Mole Extraction",
-          "url": "https://ramacarepolyclinic.ae/services/mole-removal-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/mole-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/mole-removal-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/mole-removal-dubai/",
           "description": "Mole removal at RamaCare Polyclinic in Dubai is a clinical dermatologic procedure performed to safely remove benign moles, skin lesions, or raised pigmented growths for cosmetic improvement or patient comfort.",
           "procedureType": "Dermatologic surgical procedure",
           "howPerformed": "A trained dermatologist conducts a full assessment of the mole and surrounding skin. Depending on size, depth, and location, the mole may be removed by surgical excision, shave removal, or laser ablation. Local anesthetic is used for patient comfort and sterility is maintained throughout the procedure. Removed tissue may be sent for histopathologic evaluation if indicated.",
@@ -97,7 +98,7 @@ export default function MoleRemovalPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function MoleRemovalPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

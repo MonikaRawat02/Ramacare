@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function MinorInjuryCarePage() {
   const categoryName = 'General Physician';
@@ -24,8 +25,8 @@ export default function MinorInjuryCarePage() {
   return (
     <Layout>
       <Head>
-  <title>Minor Injury Care in Dubai | Fast & Expert Medical Help</title>
-  <meta name="description" content="Get expert minor injury care in Dubai for cuts, bruises, sprains, and wounds. Quick, safe treatment by experienced doctors with proper aftercare guidance." />
+  <title key="title">Minor Injury Care in Dubai | Fast & Expert Medical Help</title>
+  <meta name="description" content="Get expert minor injury care in Dubai for cuts, bruises, sprains, and wounds. Quick, safe treatment by experienced doctors with proper aftercare guidance." key="description" />
   <meta name="keywords" content="Minor injury care in Dubai, Emergency minor injury treatment, Cuts and bruises treatment in Dubai, Sprains and strains care in Dubai, Wound care Dubai, Accident injury treatment in Dubai, First aid clinic Dubai, Injury management Dubai, Quick medical care in Dubai, Minor trauma care in Dubai, Dubai urgent care clinic, Expert injury care in Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function MinorInjuryCarePage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/minor-injury-care-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/minor-injury-care/#condition",
           "name": "Minor Injuries",
           "alternateName": "Cuts, Sprains, Bruises & Minor Traumas",
-          "url": "https://ramacarepolyclinic.ae/services/minor-injury-care-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/minor-injury-care/",
           "description": "Minor injuries include non-life-threatening conditions such as cuts, sprains, bruises, strains, falls, and superficial wounds that require clinical assessment and treatment.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function MinorInjuryCarePage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/minor-injury-care-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/minor-injury-care/#procedure",
           "name": "Minor Injury Care in Dubai",
           "alternateName": "Minor Trauma & Injury Clinic",
-          "url": "https://ramacarepolyclinic.ae/services/minor-injury-care-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/minor-injury-care-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/minor-injury-care/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/minor-injury-care/",
           "description": "Comprehensive minor injury care services in Dubai including wound care, sprain evaluation, simple fracture support, soft tissue treatment, and personalized clinical guidance.",
           "procedureType": "Minor injury evaluation and care",
           "howPerformed": "After clinical assessment, treatment may include wound cleaning, dressing, splint/support application, pain relief recommendations, and follow-up advice.",
@@ -97,7 +98,7 @@ export default function MinorInjuryCarePage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function MinorInjuryCarePage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

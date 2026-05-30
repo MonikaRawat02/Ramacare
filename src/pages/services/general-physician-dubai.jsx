@@ -39,59 +39,17 @@ export default function generalphysiciandubaiCategoryPage() {
   return (
     <Layout>
       <Head>
-  <title>General Physician Treatment for Everyday Health Care</title>
-  <meta name="description" content="General physician treatment covers routine checkups, diagnosis, and care for common illnesses, infections, and chronic conditions with medical guidance." />
+  <title key="title">General Physician Treatment for Everyday Health Care</title>
+  <meta name="description" content="General physician treatment covers routine checkups, diagnosis, and care for common illnesses, infections, and chronic conditions with medical guidance." key="description" />
   <meta name="keywords" content="General physician treatment, General physician care, Primary care doctor, Family medicine treatment, Routine health checkup, Diagnosis and treatment clinic, Chronic disease management, Common illness treatment, Preventive health care, Medical consultation services" />
   
-  <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "@id": "https://ramacarepolyclinic.ae/services/general-physician-dubai/#medicalclinic",
-  "name": "General Physician Treatment in Dubai",
-  "url": "https://ramacarepolyclinic.ae/services/general-physician-dubai",
-  "description": "Advanced General Physician Treatment in Jumeirah 1, Dubai. DHA-licensed general physicians offering diagnosis, chronic disease management, preventive care, health checkups, and same-day medical consultations.",
-  "medicalSpecialty": "General Practice",
-  "parentOrganization": {
-    "@type": "MedicalOrganization",
-    "@id": "https://ramacarepolyclinic.ae/#organization",
-    "name": "RamaCare Polyclinic"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
-    "addressLocality": "Dubai",
-    "postalCode": "393558",
-    "addressCountry": "AE"
-  },
-  "telephone": "+971566597878",
-  "areaServed": {
-    "@type": "City",
-    "name": "Dubai"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "General Physician Services",
-    "itemListElement": [
-      { "@type": "MedicalProcedure", "name": "Gastrointestinal Disorders Management" },
-      { "@type": "MedicalProcedure", "name": "Allergy Assessment & Management" },
-      { "@type": "MedicalProcedure", "name": "Minor Injury Care & Wound Stitching" },
-      { "@type": "MedicalProcedure", "name": "Acute Infection Treatment" },
-      { "@type": "MedicalProcedure", "name": "Diabetes Mellitus Management" },
-      { "@type": "MedicalProcedure", "name": "Hypertension Management" },
-      { "@type": "MedicalProcedure", "name": "Thyroid Dysfunction Management" },
-      { "@type": "MedicalProcedure", "name": "Asthma & COPD Care" },
-      { "@type": "MedicalProcedure", "name": "Routine Health Check-ups" },
-      { "@type": "MedicalProcedure", "name": "Comprehensive Physical Examination" }
-    ]
-  }
-}
-`
-  }}
-/>
+  
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaData)
+          }}
+        />
 </Head>
 
       <HeroSection content={content?.hero} />

@@ -14,6 +14,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function BotoxPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -25,8 +26,8 @@ export default function BotoxPage() {
   return (
     <Layout>
       <Head>
-  <title>Botox in Dubai for Wrinkle Reduction and Facial Rejuvenation</title>
-  <meta name="description" content="Botox in Dubai helps reduce fine lines and wrinkles, relax facial muscles, and restore a refreshed look through safe, doctor-administered treatment." />
+  <title key="title">Botox in Dubai for Wrinkle Reduction and Facial Rejuvenation</title>
+  <meta name="description" content="Botox in Dubai helps reduce fine lines and wrinkles, relax facial muscles, and restore a refreshed look through safe, doctor-administered treatment." key="description" />
   <meta name="keywords" content="Botox in Dubai, Botox treatment Dubai, Wrinkle reduction Dubai, Anti-aging Botox, Facial Botox treatment, Forehead lines treatment, Crow’s feet Botox, Non-surgical facial rejuvenation, Medical Botox Dubai" />
   
   <script
@@ -37,10 +38,10 @@ export default function BotoxPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/botox-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/botox-dubai/#condition",
           "name": "Facial Dynamic Wrinkles and Muscle-Related Aging Signs",
           "alternateName": "Expression Lines and Wrinkle Formation",
-          "url": "https://ramacarepolyclinic.ae/services/botox-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/botox-dubai/",
           "description": "Facial dynamic wrinkles and muscle-related aging signs include forehead lines, frown lines, crow’s feet, and other expression-related creases resulting from repeated facial muscle activity and aging changes.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -50,11 +51,11 @@ export default function BotoxPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/botox-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/botox-dubai/#procedure",
           "name": "Botox Treatment in Dubai",
           "alternateName": "Botulinum Toxin Cosmetic Injections",
-          "url": "https://ramacarepolyclinic.ae/services/botox-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/botox-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/botox-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/botox-dubai/",
           "description": "Botox treatment in Dubai at RamaCare Polyclinic is a minimally invasive cosmetic procedure that uses botulinum toxin injections to reduce the appearance of dynamic facial wrinkles and fine lines for a refreshed, youthful look.",
           "procedureType": "Minimally invasive aesthetic injection therapy",
           "howPerformed": "During the treatment, trained clinicians administer precise, small doses of botulinum toxin into targeted facial muscles. This temporarily inhibits muscle contraction, softening dynamic wrinkles and expression lines.",
@@ -107,7 +108,7 @@ export default function BotoxPage() {
       { id: 'faq', label: 'FAQ' },
       { id: 'book-now', label: 'Book Now' },
     ]} />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -119,7 +120,7 @@ export default function BotoxPage() {
       <TreatmentAreasAndCare content={content?.botoxTreatmentAreas} sectionId="botox-treatment-areas" />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

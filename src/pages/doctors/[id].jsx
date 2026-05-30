@@ -96,7 +96,7 @@ const DoctorProfilePage = ({ doctor }) => {
   return (
     <Layout>
       <Head>
-        <title>{currentDoctor.name} - Doctor Profile - RamaCare</title>
+        <title key="title">{currentDoctor.name} - Doctor Profile - RamaCare</title>
         <meta name="description" content={`Learn more about ${currentDoctor.name}, ${currentDoctor.specialization} at RamaCare`} />
         <link rel="canonical" href={`https://ramacarepolyclinic.ae/doctors/${currentDoctor.id}`} />
       </Head>

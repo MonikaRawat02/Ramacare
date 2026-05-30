@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function PigmentationPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function PigmentationPage() {
   return (
     <Layout>
       <Head>
-  <title>Pigmentation Treatment in Dubai for Even Skin Tone</title>
-  <meta name="description" content="Pigmentation treatment in Dubai helps reduce dark spots, melasma, and uneven skin tone through safe, doctor-guided dermatology care." />
+  <title key="title">Pigmentation Treatment in Dubai for Even Skin Tone</title>
+  <meta name="description" content="Pigmentation treatment in Dubai helps reduce dark spots, melasma, and uneven skin tone through safe, doctor-guided dermatology care." key="description" />
   <meta name="keywords" content="Pigmentation treatment in Dubai, Dark spots treatment in Dubai, Pigmentation Dubai, Uneven skin tone treatment, Skin discoloration Dubai, Hyperpigmentation treatment, Dermatology treatment Dubai, Skin brightening therapy Dubai" />
   
    <script
@@ -36,10 +37,10 @@ export default function PigmentationPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/pigmentation-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/pigmentation-dubai/#condition",
           "name": "Facial Pigmentation and Uneven Skin Tone",
           "alternateName": "Melasma, Hyperpigmentation & Dark Spots",
-          "url": "https://ramacarepolyclinic.ae/services/pigmentation-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/pigmentation-dubai/",
           "description": "Facial pigmentation and uneven skin tone include conditions such as melasma, post-inflammatory hyperpigmentation, sun-induced dark spots, and other discoloration that can affect the face’s appearance and texture.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function PigmentationPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/pigmentation-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/pigmentation-dubai/#procedure",
           "name": "Pigmentation Treatment in Dubai",
           "alternateName": "Pigmentation Reduction & Tone Correction",
-          "url": "https://ramacarepolyclinic.ae/services/pigmentation-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/pigmentation-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/pigmentation-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/pigmentation-dubai/",
           "description": "Pigmentation treatment in Dubai at RamaCare Polyclinic offers a personalized clinical approach to evaluating and managing facial pigmentation concerns, using advanced aesthetic techniques to reduce discoloration and improve overall skin tone.",
           "procedureType": "Medical and aesthetic dermatology procedure",
           "howPerformed": "A detailed clinical assessment identifies the pigmentation type and severity. Treatments may include chemical peels, topical prescription or cosmeceutical agents, and resurfacing procedures tailored to individual needs.",
@@ -97,7 +98,7 @@ export default function PigmentationPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function PigmentationPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

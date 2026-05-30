@@ -66,8 +66,8 @@ const UltrasoundShinSplintsPage = () => {
     <>
     <Layout>
       <Head>
-        <title>Ultrasound for Shin Splints Dubai | Fast Recovery for Dubai Run</title>
-        <meta name="description" content="Preparing for the Dubai Run or 30x30? Learn how ultrasound therapy at RamaCare Jumeirah 1 accelerates healing for shin splints and running injuries." />
+        <title key="title">Runner's Recovery: Ultrasound for Shin Splints in Dubai | RamaCare</title>
+        <meta name="description" content="Preparing for the Dubai Run or 30x30? Learn how ultrasound therapy at RamaCare Jumeirah 1 accelerates healing for shin splints and running injuries." key="description" />
         <meta name="keywords" content="ultrasound for shin splints Dubai, shin splints treatment Dubai, Dubai Run recovery, 30x30 injury, Medial Tibial Stress Syndrome Dubai, running injury physiotherapy Dubai" />
         
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -109,7 +109,7 @@ const UltrasoundShinSplintsPage = () => {
               >
                 Preparing for the Dubai Run or 30x30? Learn how{' '}
                 <Link
-                  href="/services/ultrasound-therapy-dubai"
+                  href="/services/ultrasound-therapy-dubai/"
                   style={{ textDecoration: 'underline', color: '#1F5E4B' }}
                 >
                   ultrasound therapy 
@@ -188,7 +188,7 @@ const UltrasoundShinSplintsPage = () => {
                     margin: 0,
                   }}
                 >
-                 <a href="/services/ultrasound-therapy-dubai" className="text-[#1b5e3f] hover:underline font-semibold">Ultrasound therapy </a>  is the secret weapon for competitive runners. It uses high-frequency sound waves to stimulate blood flow to the periosteum (the bone&apos;s outer layer), reducing inflammation where traditional icing and rest fail.
+                 <a href="/services/ultrasound-therapy-dubai/" className="text-[#1b5e3f] hover:underline font-semibold">Ultrasound therapy </a>  is the secret weapon for competitive runners. It uses high-frequency sound waves to stimulate blood flow to the periosteum (the bone&apos;s outer layer), reducing inflammation where traditional icing and rest fail.
                 </p>
               </div>
 
@@ -261,7 +261,7 @@ const UltrasoundShinSplintsPage = () => {
                 margin: '0 auto',
               }}
             >
-              When you run on Dubai&apos;s hard pavement (like the Kite Beach track or the Dubai Canal), your lower legs absorb massive amounts of shock. <a href="/services/ultrasound-therapy-dubai" className="hover:underline">Ultrasound therapy</a> works on a cellular level to repair this damage:
+              When you run on Dubai&apos;s hard pavement (like the Kite Beach track or the Dubai Canal), your lower legs absorb massive amounts of shock. <a href="/services/ultrasound-therapy-dubai/" className="hover:underline">Ultrasound therapy</a> works on a cellular level to repair this damage:
             </p>
           </div>
 

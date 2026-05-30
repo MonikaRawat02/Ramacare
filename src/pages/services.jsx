@@ -91,7 +91,7 @@ const ServicesPage = () => {
           color: '#d4a574',
           description: 'Comprehensive dental care for healthy, beautiful smiles',
           featured: true,
-          categorySlugs: ['composite-veneers-dubai', 'dental-veneers-dubai', 'root-canal-treatment-dubai', 'snap-on-smile-dubai', 'teeth-bleaching-dubai', 'teeth-dentures-dubai', 'teeth-composite-restoration-dubai', 'braces-metal-ceramic-dubai', 'dental-crown-bridges-dubai', 'teeth-scaling-polishing-dubai', 'gum-disease-treatment-dubai']
+          categorySlugs: ['composite-veneers', 'dental-veneers-dubai', 'root-canal-treatment-dubai', 'snap-on-smile-dubai', 'teeth-bleaching-dubai', 'teeth-dentures-dubai', 'teeth-composite-restoration-dubai', 'braces-metal-ceramic-dubai', 'dental-crown-bridges-dubai', 'teeth-scaling-polishing-dubai', 'gum-disease-treatment-dubai']
         },
         {
           id: 3,
@@ -101,7 +101,7 @@ const ServicesPage = () => {
           color: '#1a5f3f',
           description: 'Authentic Ayurvedic treatments for holistic wellness',
           featured: true,
-          categorySlugs: ['ayurvedic-hairfall-treatment-dubai', 'analysis-of-individual-dubai', 'skin-diseases-treatment-dubai', 'ayurvedic-diet-plan-dubai', 'ayurvedic-gut-health-dubai', 'panchakarma-treatment-dubai', 'gastrointestinal-diseases-treatment-dubai', 'pcos-treatment-dubai', 'shirodhara-therapy-in-dubai', 'abhyanga-massage-dubai', 'basti-therapy-in-dubai', 'nasya-therapy-in-dubai']
+          categorySlugs: ['ayurvedic-hairfall-treatment-dubai', 'analysis-of-individual-dubai', 'skin-diseases-treatment', 'ayurvedic-diet-plan-dubai', 'ayurvedic-gut-health-dubai', 'panchakarma-treatment', 'gastrointestinal-diseases-treatment-dubai', 'pcos-treatment-dubai', 'shirodhara-therapy-in-dubai', 'abhyanga-massage-dubai', 'basti-therapy-dubai', 'nasya-therapy-dubai']
         },
         {
           id: 4,
@@ -111,7 +111,7 @@ const ServicesPage = () => {
           color: '#d4a574',
           description: 'Rehabilitation and pain management solutions',
           featured: true,
-          categorySlugs: ['ultrasound-therapy-dubai', 'electrotherapy-dubai', 'pelvic-floor-therapy-dubai', 'scoliosis-treatment-dubai', 'functional-exercises-dubai', 'dry-needling-dubai', 'back-pain-treatment-dubai', 'knee-pain-treatment-dubai', 'migraine-treatment-dubai', 'office-neck-treatment-dubai', 'post-surgery-recovery-dubai', 'physiotherapy-insurance-dubai']
+          categorySlugs: ['ultrasound-therapy-dubai', 'electrotherapy-dubai', 'pelvic-floor-therapy-dubai', 'scoliosis-treatment-in-dubai', 'functional-exercises-dubai', 'dry-needling-dubai', 'back-pain-treatment-dubai', 'knee-pain-treatment-dubai', 'migraine-treatment-dubai', 'office-neck-treatment-dubai', 'post-surgery-recovery-dubai', 'physiotherapy-insurance-dubai']
         },
         {
           id: 5,
@@ -121,7 +121,7 @@ const ServicesPage = () => {
           color: '#1a5f3f',
           description: 'Comprehensive medical care for all health needs',
           featured: true,
-          categorySlugs: ['gastrointestinal-disorders-dubai', 'management-of-allergy-dubai', 'wound-stitching-services-dubai', 'minor-injury-care-dubai', 'treatment-of-acute-infections-dubai', 'dyslipidemia-diagnosis-and-treatment', 'personalized-slimming-programs', 'thyroid-dysfunction-solutions-dubai', 'asthma-and-copd-expertise-dubai', 'diabetes-mellitus-care-dubai', 'specialized-hypertension-management', 'routine-check-ups-dubai', 'comprehensive-physical-examinations-dubai']
+          categorySlugs: ['gastrointestinal-disorders-dubai', 'management-of-allergy-dubai', 'wound-stitching-services-dubai', 'minor-injury-care', 'treatment-of-acute-infections-dubai', 'dyslipidemia-diagnosis-and-treatment', 'personalized-slimming-programs', 'thyroid-dysfunction-solutions-dubai', 'asthma-and-copd-expertise-dubai', 'diabetes-mellitus-care', 'specialized-hypertension-management', 'routine-check-ups-dubai', 'comprehensive-physical-examinations-dubai']
         },
         {
           id: 6,
@@ -317,8 +317,8 @@ const ServicesPage = () => {
     <div className="force-light">
     <Layout>
       <Head>
-        <title>Medical Services in Dubai | All Treatments & Specialties</title>
-        <meta name="description" content="Explore all medical services at RamaCare Polyclinic Dubai. Ayurveda, Dental, Dermatology, Physiotherapy, General Physician, and Facial treatments with expert care." />
+        <title key="title">Medical Services in Dubai | All Treatments & Specialties</title>
+        <meta name="description" content="Explore all medical services at RamaCare Polyclinic Dubai. Ayurveda, Dental, Dermatology, Physiotherapy, General Physician, and Facial treatments with expert care." key="description" />
         <meta name="keywords" content="medical services Dubai, healthcare treatments, Ayurveda Dubai, dental care Dubai, dermatology Dubai, physiotherapy Dubai, general physician Dubai" />
         
       </Head>

@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function AyurvedicDietPlanPage() {
   const categoryName = 'Ayurveda';
@@ -24,8 +25,8 @@ export default function AyurvedicDietPlanPage() {
   return (
     <Layout>
       <Head>
-  <title>Ayurvedic Diet Plan in Dubai | Personalized Meal Guidance</title>
-  <meta name="description" content="Follow a personalized Ayurvedic diet plan in Dubai to balance your doshas, support digestion, boost immunity, and maintain a healthy weight naturally and safely." />
+  <title key="title">Ayurvedic Diet Plan in Dubai | Personalized Meal Guidance</title>
+  <meta name="description" content="Follow a personalized Ayurvedic diet plan in Dubai to balance your doshas, support digestion, boost immunity, and maintain a healthy weight naturally and safely." key="description" />
   <meta name="keywords" content="Ayurvedic diet plan Dubai, Dosha-based diet Dubai, Ayurvedic meal plan Dubai, Personalized diet plan Dubai, Ayurvedic nutrition Dubai, Weight Management Ayurveda Dubai, Digestive Health Ayurveda Dubai, Immunity-boosting diet in Dubai, Healthy eating Ayurveda Dubai, Ayurveda lifestyle Dubai, Herbal diet recommendations in Dubai, Ayurvedic food types in Dubai" />
   
    <script
@@ -35,11 +36,11 @@ export default function AyurvedicDietPlanPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai/#procedure",
   "name": "Ayurvedic Diet Plan in Dubai",
   "alternateName": "Personalized Ayurvedic Nutrition Plan",
-  "url": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai",
+  "url": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/ayurvedic-diet-plan-dubai/",
   "description": "Ayurvedic Diet Plan in Dubai at RamaCare Polyclinic offers personalized nutrition guidance based on Ayurvedic principles to support wellness, balance body constitution, improve digestion and promote holistic health.",
   "procedureType": "Therapeutic dietary consultation",
   "bodyLocation": "Whole body",
@@ -82,7 +83,7 @@ export default function AyurvedicDietPlanPage() {
         subcategoryName={subcategoryName}
         hero={content?.hero}/>
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -93,7 +94,7 @@ export default function AyurvedicDietPlanPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

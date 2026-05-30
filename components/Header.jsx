@@ -47,7 +47,7 @@ const Header = () => {
       name: 'Dental',
       slug: 'dental-dubai',
       subcategories: [
-        { name: 'Composite Veneers', slug: 'composite-veneers-dubai' },
+        { name: 'Composite Veneers', slug: 'composite-veneers' },
         { name: 'Dental Veneers', slug: 'dental-veneers-dubai' },
         { name: 'Root Canal Treatment', slug: 'root-canal-treatment-dubai' },
         { name: 'Snap On Smile', slug: 'snap-on-smile-dubai' },
@@ -67,9 +67,9 @@ const Header = () => {
       subcategories: [
         { name: 'Ayurvedic Hairfall Treatment', slug: 'ayurvedic-hairfall-treatment-dubai' },
         { name: 'Analysis Of Individual', slug: 'analysis-of-individual-dubai' },
-        { name: 'Skin Diseases Treatment', slug: 'skin-diseases-treatment-dubai' },
+        { name: 'Skin Diseases Treatment', slug: 'skin-diseases-treatment' },
         { name: 'Ayurvedic Diet Plan', slug: 'ayurvedic-diet-plan-dubai' },
-        { name: 'Panchakarma Treatment', slug: 'panchakarma-treatment-dubai' },
+        { name: 'Panchakarma Treatment', slug: 'panchakarma-treatment' },
         { name: 'Gastrointestinal Diseases Treatment', slug: 'gastrointestinal-diseases-treatment-dubai' },
         { name: 'PCOS Treatment', slug: 'pcos-treatment-dubai' }
       ],
@@ -82,7 +82,7 @@ const Header = () => {
         { name: 'Ultrasound Therapy', slug: 'ultrasound-therapy-dubai' },
         { name: 'Electrotherapy', slug: 'electrotherapy-dubai' },
         { name: 'Pelvic Floor Therapy', slug: 'pelvic-floor-therapy-dubai' },
-        { name: 'Scoliosis Treatment', slug: 'scoliosis-treatment-dubai' },
+        { name: 'Scoliosis Treatment', slug: 'scoliosis-treatment-in-dubai' },
         { name: 'Functional Exercises', slug: 'functional-exercises-dubai' },
         { name: 'Dry Needling', slug: 'dry-needling-dubai' }
       ],
@@ -95,13 +95,13 @@ const Header = () => {
         { name: 'Gastrointestinal Disorders', slug: 'gastrointestinal-disorders-dubai' },
         { name: 'Management of Allergy', slug: 'management-of-allergy-dubai' },
         { name: 'Wound Stitching Services', slug: 'wound-stitching-services-dubai' },
-        { name: 'Minor Injury Care', slug: 'minor-injury-care-dubai' },
+        { name: 'Minor Injury Care', slug: 'minor-injury-care' },
         { name: 'Treatment of Acute Infections', slug: 'treatment-of-acute-infections-dubai' },
         { name: 'Dyslipidemia Diagnosis and Treatment', slug: 'dyslipidemia-diagnosis-and-treatment' },
         { name: 'Personalized Slimming Programs', slug: 'personalized-slimming-programs' },
         { name: 'Thyroid Dysfunction Solutions', slug: 'thyroid-dysfunction-solutions-dubai' },
         { name: 'Asthma and COPD Expertise', slug: 'asthma-and-copd-expertise-dubai' },
-        { name: 'Diabetes Mellitus Care', slug: 'diabetes-mellitus-care-dubai' },
+        { name: 'Diabetes Mellitus Care', slug: 'diabetes-mellitus-care' },
         { name: 'Specialized Hypertension Management', slug: 'specialized-hypertension-management' },
         { name: 'Expertise in Routine Check-Ups', slug: 'routine-check-ups-dubai' },
         { name: 'Comprehensive Physical Examinations', slug: 'comprehensive-physical-examinations-dubai' }

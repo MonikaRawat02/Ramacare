@@ -177,8 +177,8 @@ const EximiaSessionsNeededPage = () => {
   return (
     <Layout>
       <Head>
-        <title>How Many Sessions of Eximia Needed? | Eximia Treatment Protocol Dubai</title>
-        <meta name="description" content="Discover how many sessions of Eximia you need for visible results. Learn about the Eximia treatment protocol in Dubai with instant inch loss technology." />
+        <title key="title">How Many Sessions of Eximia Needed? | Eximia Treatment Protocol Dubai</title>
+        <meta name="description" content="Discover how many sessions of Eximia you need for visible results. Learn about the Eximia treatment protocol in Dubai with instant inch loss technology." key="description" />
         
       </Head>
 
@@ -595,7 +595,7 @@ const EximiaSessionsNeededPage = () => {
             </h2>
             <p className="text-lg text-white/90 leading-relaxed max-w-3xl mx-auto">
               Stop guessing how many sessions you need. Visit our{' '}
-                <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai" className="text-white font-bold border-b-2 border-white/50 hover:border-white transition-all">
+                <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/" className="text-white font-bold border-b-2 border-white/50 hover:border-white transition-all">
                   Eximia Body Contouring Dubai
                 </a>{' '}
                 page to book a 3D Body Analysis. We use advanced modeling software to show you exactly where you will lose inches and how many sessions it will take to get there.

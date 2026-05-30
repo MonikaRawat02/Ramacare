@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function FunctionalExercisesPage() {
   const categoryName = 'Physiotherapy';
@@ -24,8 +25,8 @@ export default function FunctionalExercisesPage() {
  return (
    <Layout>
     <Head>
-  <title>Functional Exercises Dubai for Rehab and Physiotherapy Care</title>
-  <meta name="description" content="Functional exercises in Dubai support rehabilitation and physiotherapy by improving strength, balance, and movement through guided programs tailored to daily activities." />
+  <title key="title">Functional Exercises Dubai for Rehab and Physiotherapy Care</title>
+  <meta name="description" content="Functional exercises in Dubai support rehabilitation and physiotherapy by improving strength, balance, and movement through guided programs tailored to daily activities." key="description" />
   <meta name="keywords" content="Functional exercises in Dubai, Functional training Dubai, Rehab exercises in Dubai, Physiotherapy exercises in Dubai, Movement therapy Dubai, Post injury rehabilitation in Dubai, Strength and mobility exercises, Core stability training Dubai, Physical therapy Dubai, Functional rehab programs in Dubai" />
     
     <script
@@ -34,11 +35,11 @@ export default function FunctionalExercisesPage() {
       __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "MedicalProcedure",
-        "@id": "https://ramacarepolyclinic.ae/services/functional-exercises-dubai#procedure",
+        "@id": "https://ramacarepolyclinic.ae/services/functional-exercises-dubai/#procedure",
         "name": "Functional Exercises in Dubai",
         "alternateName": "Physiotherapy Functional Exercise Program",
-        "url": "https://ramacarepolyclinic.ae/services/functional-exercises-dubai",
-        "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/functional-exercises-dubai",
+        "url": "https://ramacarepolyclinic.ae/services/functional-exercises-dubai/",
+        "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/functional-exercises-dubai/",
         "description": "Functional Exercises in Dubai at RamaCare Polyclinic offers targeted therapeutic exercise programs designed to improve strength, flexibility, balance, and functional mobility as part of comprehensive physiotherapy care.",
         "procedureType": "Physical therapy exercise program",
         "bodyLocation": "Whole body / Musculoskeletal system",
@@ -83,7 +84,7 @@ export default function FunctionalExercisesPage() {
      />
      <QuickNavigation />
      <DoctorsSection content={content?.doctors} />
-     {/* <CertificationsSection content={content?.certifications} /> */}
+     
      <TreatmentOverview 
        subcategoryName={subcategoryName}
        content={content?.overview}
@@ -93,7 +94,7 @@ export default function FunctionalExercisesPage() {
        content={content?.benefits}
      />
       <PatientTestimonials content={content?.testimonials} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
      <FAQSection content={content?.faq} />
      <BookConsultation content={content?.bookConsultation} />

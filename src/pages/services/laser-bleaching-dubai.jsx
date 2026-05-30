@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function LaserBleachingPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function LaserBleachingPage() {
   return (
     <Layout>
       <Head>
-  <title>Laser Bleaching in Dubai for Brighter and Even Skin</title>
-  <meta name="description" content="Laser bleaching in Dubai reduces dark spots, pigmentation, and uneven skin tone, restoring a radiant, smooth complexion under expert medical care." />
+  <title key="title">Laser Bleaching in Dubai for Brighter and Even Skin</title>
+  <meta name="description" content="Laser bleaching in Dubai reduces dark spots, pigmentation, and uneven skin tone, restoring a radiant, smooth complexion under expert medical care." key="description" />
   <meta name="keywords" content="Laser bleaching in Dubai, Skin brightening laser Dubai, Pigmentation reduction Dubai, Dark spots treatment Dubai, Facial laser treatment Dubai, Even skin tone treatment, Non-surgical skin brightening, Professional laser therapy Dubai, Skin rejuvenation Dubai, Safe laser skin treatment" />
   
    <script
@@ -36,10 +37,10 @@ export default function LaserBleachingPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai/#condition",
           "name": "Unwanted Dark or Prominent Body or Facial Hair Pigmentation",
           "alternateName": "Hair Pigment Visibility & Cosmetic Hair Aesthetics",
-          "url": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai/",
           "description": "Unwanted dark or prominent body or facial hair pigmentation can affect aesthetic appearance and confidence, particularly when traditional removal methods are not desired or feasible. Laser bleaching targets the hair pigment to make hair lighter and less noticeable.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function LaserBleachingPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai/#procedure",
           "name": "Laser Hair Bleaching in Dubai",
           "alternateName": "Pigment Reduction Laser Treatment for Hair",
-          "url": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/laser-bleaching-dubai/",
           "description": "Laser hair bleaching at RamaCare Polyclinic in Dubai is a personalized cosmetic treatment that uses advanced laser technology to lighten the colour of unwanted hair — making it less noticeable and blending more naturally with the surrounding skin tone. It’s ideal for individuals who prefer lighter, finer looking hair without invasive removal.",
           "procedureType": "Minimally invasive dermatologic cosmetic procedure",
           "howPerformed": "After a clinical consultation and assessment of hair type and skin tone, a trained clinician uses a specialized laser device that emits controlled light energy. The laser energy is absorbed by the melanin pigment in the hair shafts, breaking it down and causing gradual lightening of the hair colour over multiple sessions. Protective eyewear and safety precautions are used during the procedure.",
@@ -97,7 +98,7 @@ export default function LaserBleachingPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function LaserBleachingPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

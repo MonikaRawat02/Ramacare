@@ -7,8 +7,8 @@ export default function RequestConfirmed() {
   return (
     <>
       <Head>
-        <title>Request Confirmed | Best Fillers in Dubai - Rama Care Polyclinic</title>
-        <meta name="description" content="Thank you for your interest in our dermal fillers treatment. Our team will contact you shortly." />
+        <title key="title">Request Confirmed | Best Fillers in Dubai - Rama Care Polyclinic</title>
+        <meta name="description" content="Thank you for your interest in our dermal fillers treatment. Our team will contact you shortly." key="description" />
         <meta name="robots" content="noindex, nofollow" />
         
         <link rel="icon" type="image/png" href="/images/Logo.png" />

@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function CarboxyTherapyPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function CarboxyTherapyPage() {
   return (
     <Layout>
       <Head>
-  <title>Carboxy Therapy in Dubai for Skin and Body Rejuvenation</title>
-  <meta name="description" content="Carboxy therapy in Dubai improves circulation, skin texture, and elasticity using safe carbon dioxide therapy under expert medical supervision." />
+  <title key="title">Carboxy Therapy in Dubai for Skin and Body Rejuvenation</title>
+  <meta name="description" content="Carboxy therapy in Dubai improves circulation, skin texture, and elasticity using safe carbon dioxide therapy under expert medical supervision." key="description" />
   <meta name="keywords" content="Carboxy therapy in Dubai, Carboxytherapy treatment Dubai, Skin rejuvenation Dubai, Dark circles treatment Dubai, Cellulite reduction therapy, Skin tightening treatment Dubai, Body contouring Dubai, Non-surgical aesthetic treatment, Professional skin therapy in Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function CarboxyTherapyPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai/#condition",
           "name": "Skin Circulation, Texture, and Rejuvenation Concerns",
           "alternateName": "Skin Blood Flow and Surface Quality Issues",
-          "url": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai/",
           "description": "Skin circulation, texture, and rejuvenation concerns include dull complexion, uneven texture, mild scarring, pigmentation irregularities, and localized loss of elasticity often related to poor microcirculation and aging.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function CarboxyTherapyPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai/#procedure",
           "name": "Carboxy Therapy in Dubai",
           "alternateName": "CO₂ Aesthetic Skin Rejuvenation",
-          "url": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/carboxy-therapy-dubai/",
           "description": "Carboxy Therapy in Dubai at RamaCare Polyclinic is a minimally invasive aesthetic procedure designed to improve skin circulation, texture, tone, and rejuvenation by administering controlled carbon dioxide gas under the skin.",
           "procedureType": "Minimally invasive aesthetic therapy",
           "howPerformed": "The procedure involves the clinician administering controlled carbon dioxide (CO₂) gas beneath the skin in targeted treatment areas using fine cannulas or needles, which stimulates microcirculation and collagen response to enhance skin quality.",
@@ -97,7 +98,7 @@ export default function CarboxyTherapyPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function CarboxyTherapyPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

@@ -180,8 +180,8 @@ export default function AyurvedicDietVsKetoDubaiPage() {
       </motion.div>
 
       <Head>
-        <title>Ayurvedic Diet vs. Keto Diet Dubai | Which is Better for You?</title>
-        <meta name="description" content="Comparing the Keto Diet and Ayurvedic Diet for the Dubai lifestyle. Discover which plan offers sustainable weight loss and better energy for the UAE climate. Visit RamaCare Jumeirah." />
+        <title key="title">Ayurvedic Diet vs. Keto Diet Dubai | Which is Better for You?</title>
+        <meta name="description" content="Comparing the Keto Diet and Ayurvedic Diet for the Dubai lifestyle. Discover which plan offers sustainable weight loss and better energy for the UAE climate. Visit RamaCare Jumeirah." key="description" />
         
       </Head>
 

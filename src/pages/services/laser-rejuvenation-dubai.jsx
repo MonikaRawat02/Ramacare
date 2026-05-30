@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function LaserRejuvenationPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function LaserRejuvenationPage() {
   return (
     <Layout>
       <Head>
-  <title>Laser Rejuvenation in Dubai for Youthful, Radiant Skin</title>
-  <meta name="description" content="Laser rejuvenation in Dubai helps reduce wrinkles, fine lines, and pigmentation while improving skin texture and glow through safe, expert care." />
+  <title key="title">Laser Rejuvenation in Dubai for Youthful, Radiant Skin</title>
+  <meta name="description" content="Laser rejuvenation in Dubai helps reduce wrinkles, fine lines, and pigmentation while improving skin texture and glow through safe, expert care." key="description" />
   <meta name="keywords" content="Laser rejuvenation in Dubai, Skin rejuvenation Dubai, Anti-aging laser treatment Dubai, Wrinkle reduction Dubai, Fine lines treatment Dubai, Pigmentation correction Dubai, Facial laser therapy Dubai, Non-surgical skin rejuvenation, Professional laser skin treatment, Youthful skin treatment Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function LaserRejuvenationPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai/#condition",
           "name": "Skin Aging, Texture Irregularities & Pigmentation Concerns",
           "alternateName": "Dull Skin, Fine Lines, Uneven Tone & Texture",
-          "url": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai/",
           "description": "Skin concerns such as loss of radiance, uneven texture, fine lines, superficial pigmentation, early signs of aging, and dull complexion can benefit from advanced laser rejuvenation therapy to promote clearer, firmer, and more youthful skin.([turn0search0])",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function LaserRejuvenationPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai/#procedure",
           "name": "Laser Rejuvenation Treatment in Dubai",
           "alternateName": "Skin Rejuvenation Laser Therapy",
-          "url": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/laser-rejuvenation-dubai/",
           "description": "Laser rejuvenation at RamaCare Polyclinic in Dubai is an advanced dermatologic laser procedure designed to improve skin texture, reduce fine lines and superficial pigmentation, and enhance overall skin clarity. It uses targeted laser energy to stimulate the skin’s natural repair mechanisms and collagen production.([turn0search0])",
           "procedureType": "Non‑invasive cosmetic laser procedure",
           "howPerformed": "During a laser rejuvenation session, a trained clinician directs controlled laser pulses over the treatment area. These energy pulses penetrate the skin to remove damaged surface cells, encourage collagen remodeling, and improve evenness of tone while leaving surrounding tissue unharmed. Protective measures such as eyewear and cooling are used for comfort.([turn0search0])",
@@ -97,7 +98,7 @@ export default function LaserRejuvenationPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function LaserRejuvenationPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

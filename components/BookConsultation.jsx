@@ -217,7 +217,7 @@ const BookConsultation = ({ content }) => {
                   <a 
                     href={`https://wa.me/${contactInfo.whatsapp}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex items-center gap-4 transition-all duration-200 cursor-pointer group"
                   >
                     <div className="w-12 h-12 bg-[#2D5F3F] rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-[#244D32] transition-colors">

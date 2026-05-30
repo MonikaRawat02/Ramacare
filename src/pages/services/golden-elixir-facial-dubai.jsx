@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function GoldenElixirFacialPage() {
   const categoryName = 'Facial';
@@ -24,8 +25,8 @@ export default function GoldenElixirFacialPage() {
   return (
      <Layout>
       <Head>
-  <title>Golden Elixir (24K Gold) Facial in Dubai – Radiant Skin</title>
-  <meta name="description" content="Golden Elixir (24K Gold) Facial in Dubai rejuvenates and nourishes the skin, promoting radiance, hydration, and a youthful, glowing appearance under expert care." />
+  <title key="title">Golden Elixir (24K Gold) Facial in Dubai – Radiant Skin</title>
+  <meta name="description" content="Golden Elixir (24K Gold) Facial in Dubai rejuvenates and nourishes the skin, promoting radiance, hydration, and a youthful, glowing appearance under expert care." key="description" />
   <meta name="keywords" content="Golden Elixir 24K Gold Facial in Dubai, 24K Gold facial treatment Dubai, Luxury facial Dubai, Skin rejuvenation Dubai, Hydrating facial treatment Dubai, Anti-aging facial Din ubai, Radiant skin treatment, Professional facial in Dubai, Glowing skin therapy Dubai, Spa facial treatment Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function GoldenElixirFacialPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai/#condition",
           "name": "Facial Skin Dullness and Uneven Texture",
           "alternateName": "Skin Appearance Concerns",
-          "url": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai/",
           "description": "Facial skin dullness and uneven texture refer to common skin concerns such as lack of radiance, fine lines, pigmentation irregularities, and tired complexion, which often result from aging, sun exposure, or environmental stressors.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function GoldenElixirFacialPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai/#procedure",
           "name": "Golden Elixir Facial in Dubai",
           "alternateName": "Luxury Facial Skin Rejuvenation",
-          "url": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/golden-elixir-facial-dubai/",
           "description": "The Golden Elixir Facial in Dubai at RamaCare Polyclinic is a premium aesthetic skin treatment designed to deeply nourish, rejuvenate, and restore the skin’s radiance and texture using high-quality serums and expert techniques.",
           "procedureType": "Non-invasive aesthetic skin enhancement",
           "howPerformed": "Performed by trained skin care specialists, the Golden Elixir Facial involves cleansing, exfoliation, infusion of hydrating and rejuvenating serums, and massage techniques tailored to the individual’s skin type and concerns.",
@@ -97,7 +98,7 @@ export default function GoldenElixirFacialPage() {
       hero={content?.hero}
     />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function GoldenElixirFacialPage() {
     />
     <PatientTestimonials content={content?.testimonials} />
      <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
     <FAQSection content={content?.faq} />
     <BookConsultation content={content?.bookConsultation} />

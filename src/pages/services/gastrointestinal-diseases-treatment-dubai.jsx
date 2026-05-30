@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function GastrointestinalDiseasesTreatmentPage() {
   const categoryName = 'Ayurveda';
@@ -24,8 +25,8 @@ export default function GastrointestinalDiseasesTreatmentPage() {
   return (
     <Layout>
       <Head>
-  <title>Gastrointestinal Treatment in Dubai | Digestive Health Care</title>
-  <meta name="description" content="Receive expert gastrointestinal treatment in Dubai for stomach, intestinal, and digestive issues. Personalized care, modern diagnostics, and effective solutions for lasting health." />
+  <title key="title">Gastrointestinal Treatment in Dubai | Digestive Health Care</title>
+  <meta name="description" content="Receive expert gastrointestinal treatment in Dubai for stomach, intestinal, and digestive issues. Personalized care, modern diagnostics, and effective solutions for lasting health." key="description" />
   <meta name="keywords" content="Gastrointestinal treatment in Dubai, Digestive health Dubai, Stomach problem treatment in Dubai, Intestinal disorders in Dubai, Gut health care Dubai, Gastroenterologist Dubai, Digestive disorder solutions Dubai, Ayurvedic digestive treatment in Dubai, Gastroscopy Dubai, Gastro prevention Dubai, DHA licensed gastro clinic in Dubai, IBS treatment Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function GastrointestinalDiseasesTreatmentPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai/#condition",
           "name": "Gastrointestinal Disorders and Digestive Health Conditions",
           "alternateName": "Digestive Disorders, GI Conditions",
-          "url": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai/",
           "description": "Gastrointestinal disorders are conditions affecting the digestive system, including the esophagus, stomach, small and large intestines. Common issues include acidity/heartburn, gastritis, irritable bowel syndrome (IBS), bloating, constipation, diarrhea and other chronic digestive symptoms. Tailored diagnosis and treatment can help restore digestive health and improve quality of life.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function GastrointestinalDiseasesTreatmentPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai/#procedure",
           "name": "Gastrointestinal Diseases Treatment in Dubai",
           "alternateName": "Digestive System Care & Management",
-          "url": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/gastrointestinal-diseases-treatment-dubai/",
           "description": "Comprehensive gastrointestinal (GI) treatment at RamaCare Polyclinic in Dubai includes clinical evaluation, diagnostic testing, personalized treatment planning, prescription medications, dietary guidance and ongoing follow‑up for a wide range of digestive conditions. The approach focuses on symptom relief, correct diagnosis and long‑term digestive health support.",
           "procedureType": "Medical treatment and management",
           "howPerformed": "A trained clinician conducts a detailed medical consultation, evaluates symptoms and history, orders appropriate diagnostic tests (e.g., blood tests, stool analysis, imaging), and formulates a personalized treatment plan. Interventions include medical therapy, diet and lifestyle recommendations, and follow‑up monitoring to adjust treatment based on response.",
@@ -98,7 +99,7 @@ export default function GastrointestinalDiseasesTreatmentPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -109,7 +110,7 @@ export default function GastrointestinalDiseasesTreatmentPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

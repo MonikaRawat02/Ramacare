@@ -124,8 +124,8 @@ const HowEximiaWorksPage = () => {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>How Eximia Body Contouring Works | Science of Sculpting Dubai</title>
-        <meta name="description" content="Discover the science behind Eximia HR77 Platinum. Learn how its sequential 4-phase cycle prepare skin, emulsify fat, and lift tissue for natural body contouring." />
+        <title key="title">How Eximia Body Contouring Works | Science of Sculpting Dubai</title>
+        <meta name="description" content="Discover the science behind Eximia HR77 Platinum. Learn how its sequential 4-phase cycle prepare skin, emulsify fat, and lift tissue for natural body contouring." key="description" />
         <meta name="keywords" content="how Eximia works, Eximia HR77 Platinum technology, Eximia body contouring Dubai, non-surgical fat reduction, sequential 4-phase cycle" />
         
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -210,7 +210,7 @@ const HowEximiaWorksPage = () => {
 
                 <div className="mt-16 text-center">
                   <a 
-                    href="/services/eximia-body-contouring-dubai" 
+                    href="/services/eximia-body-contouring-dubai/" 
                     className="inline-flex items-center gap-2 text-[#5F5F5F] hover:text-[#1F5E4B] font-medium transition-colors group"
                   >
                     Sequential Technology Flow

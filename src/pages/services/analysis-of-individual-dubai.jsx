@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function AnalysisOfIndividualTreatmentPage() {
   const categoryName = 'Ayurveda';
@@ -24,8 +25,8 @@ export default function AnalysisOfIndividualTreatmentPage() {
   return (
     <Layout>
       <Head>
-  <title>Individual Analysis in Dubai | Ayurvedic Health Assessment</title>
-  <meta name="description" content="Get a personalized analysis of your health in Dubai. Ayurvedic experts assess your dosha, lifestyle, and body constitution to create natural wellness plans." />
+  <title key="title">Individual Analysis in Dubai | Ayurvedic Health Assessment</title>
+  <meta name="description" content="Get a personalized analysis of your health in Dubai. Ayurvedic experts assess your dosha, lifestyle, and body constitution to create natural wellness plans." key="description" />
   <meta name="keywords" content="Analysis of the individual Dubai, Ayurvedic body analysis Dubai, Dosha assessment Dubai, Personalized Ayurveda Dubai, Ayurvedic consultation in Dubai, Health evaluation in Dubai, Holistic wellness Dubai, Ayurvedic lifestyle guidance, Natural treatment Dubai, Ayurveda expert in Dubai, Individual health assessment, Traditional Ayurveda Dubai" />
   
     <script
@@ -35,11 +36,11 @@ export default function AnalysisOfIndividualTreatmentPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai/#procedure",
   "name": "Individual Health Analysis in Dubai",
   "alternateName": "Comprehensive Health Assessment",
-  "url": "https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai",
+  "url": "https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/analysis-of-individual-dubai/",
   "description": "Individual Health Analysis in Dubai at RamaCare Polyclinic provides a thorough and personalized examination of your overall health using advanced diagnostics, expert clinical evaluations, and lifestyle assessments to identify health needs and risks early.",
   "procedureType": "Health assessment and diagnostic evaluation",
   "bodyLocation": "Whole body",
@@ -82,7 +83,7 @@ export default function AnalysisOfIndividualTreatmentPage() {
       hero={content?.hero}
     />
     <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -93,7 +94,7 @@ export default function AnalysisOfIndividualTreatmentPage() {
     />
     <PatientTestimonials content={content?.testimonials} />
      <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
     <FAQSection content={content?.faq} />
     <BookConsultation content={content?.bookConsultation} />

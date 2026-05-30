@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function ElectrolysisPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function ElectrolysisPage() {
   return (
     <Layout>
       <Head>
-  <title>Electrolysis in Dubai for Permanent Hair Removal Treatment</title>
-  <meta name="description" content="Electrolysis in Dubai offers safe, medical-grade permanent hair removal by trained professionals, suitable for all skin types and areas with lasting results." />
+  <title key="title">Electrolysis in Dubai for Permanent Hair Removal Treatment</title>
+  <meta name="description" content="Electrolysis in Dubai offers safe, medical-grade permanent hair removal by trained professionals, suitable for all skin types and areas with lasting results." key="description" />
   <meta name="keywords" content="Electrolysis in Dubai, Permanent hair removal in Dubai, Electrolysis hair removal, Medical hair removal Dubai, Facial hair removal Dubai, Body hair removal treatment, Safe electrolysis treatment, Hair removal for all skin types, Professional electrolysis in Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function ElectrolysisPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/electrolysis-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/electrolysis-dubai/#condition",
           "name": "Excess or Unwanted Hair Growth",
           "alternateName": "Hirsutism & Unwanted Hair",
-          "url": "https://ramacarepolyclinic.ae/services/electrolysis-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/electrolysis-dubai/",
           "description": "Excess or unwanted hair growth refers to coarse or persistent hair on areas of the face or body where it is undesirable, often caused by hormonal factors, genetics, or other underlying conditions. This can impact confidence and aesthetic appearance.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function ElectrolysisPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/electrolysis-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/electrolysis-dubai/#procedure",
           "name": "Electrolysis Hair Removal in Dubai",
           "alternateName": "Permanent Hair Removal Treatment",
-          "url": "https://ramacarepolyclinic.ae/services/electrolysis-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/electrolysis-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/electrolysis-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/electrolysis-dubai/",
           "description": "Electrolysis hair removal in Dubai at RamaCare Polyclinic is a precise, minimally invasive procedure that uses an electrical current to ablate individual hair follicles, achieving long‑term reduction or permanent removal of unwanted hair.",
           "procedureType": "Minimally invasive hair removal therapy",
           "howPerformed": "A trained clinician inserts a fine probe into the hair follicle and applies controlled electric current to disable the follicle’s ability to produce hair. Each follicle is treated individually for effective permanent results.",
@@ -97,7 +98,7 @@ export default function ElectrolysisPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function ElectrolysisPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

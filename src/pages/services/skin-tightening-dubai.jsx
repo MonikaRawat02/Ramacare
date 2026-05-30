@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function SkinTighteningPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function SkinTighteningPage() {
   return (
     <Layout>
       <Head>
-  <title>Skin Tightening Treatment in Dubai for Firmer Youthful Skin</title>
-  <meta name="description" content="Skin tightening treatment in Dubai helps improve skin firmness and elasticity using safe, non-invasive technologies under expert medical supervision." />
+  <title key="title">Skin Tightening Treatment in Dubai for Firmer Youthful Skin</title>
+  <meta name="description" content="Skin tightening treatment in Dubai helps improve skin firmness and elasticity using safe, non-invasive technologies under expert medical supervision." key="description" />
   <meta name="keywords" content="Skin tightening treatment in Dubai, Non-surgical skin tightening in Dubai, Laser skin tightening Dubai, Facial skin tightening in Dubai, Body skin tightening in Dubai, Anti-aging skin treatment Dubai, Skin firming treatment, Skin laxity treatment Dubai, Advanced skin tightening therapy, Best skin tightening treatment in Dubai, Skin rejuvenation Dubai, Skin tightening treatment in Dubai price, Skin tightening treatment in dubai cost, Best skin tightening treatment in dubai, Skin tightening treatment in dubai for face, Laser skin tightening dubai, Skin tightening treatments for face, Best skin tightening treatments for face, Skin Laser Treatment price in Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function SkinTighteningPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai/#condition",
           "name": "Facial Skin Laxity and Aging Concerns",
           "alternateName": "Loose or Sagging Skin",
-          "url": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai/",
           "description": "Facial skin laxity and aging concerns refer to loose, sagging skin, reduced elasticity, early jowling, and age-related changes that diminish facial firmness and contour.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function SkinTighteningPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai/#procedure",
           "name": "Skin Tightening Treatment in Dubai",
           "alternateName": "Non-Surgical Skin Firming Therapy",
-          "url": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/skin-tightening-dubai/",
           "description": "Skin Tightening treatment in Dubai at RamaCare Polyclinic is a non-surgical aesthetic procedure designed to improve skin laxity, firmness, and contour using advanced technologies and targeted techniques.",
           "procedureType": "Non-invasive aesthetic dermatology procedure",
           "howPerformed": "Performed by trained clinicians, the skin tightening process typically involves the use of energy-based devices (e.g., radiofrequency or ultrasound) or specialized injectable protocols that stimulate collagen and elastin production to firm and lift the skin.",
@@ -97,7 +98,7 @@ export default function SkinTighteningPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function SkinTighteningPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

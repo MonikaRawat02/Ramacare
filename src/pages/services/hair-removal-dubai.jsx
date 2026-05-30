@@ -15,6 +15,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function HairRemovalPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -26,8 +27,8 @@ export default function HairRemovalPage() {
   return (
     <Layout>
       <Head>
-  <title>Laser Hair Removal Dubai | Permanent Hair Reduction Treatment</title>
-  <meta name="description" content="Get safe and effective Laser Hair Removal in Dubai at Rama Care Polyclinic. Reduce unwanted hair on the face and body with advanced laser technology and personalized treatment plans." />
+  <title key="title">Laser Hair Removal Dubai | Permanent Hair Reduction Treatment</title>
+  <meta name="description" content="Get safe and effective Laser Hair Removal in Dubai at Rama Care Polyclinic. Reduce unwanted hair on the face and body with advanced laser technology and personalized treatment plans." key="description" />
   <meta name="keywords" content="Hair removal in Dubai, Laser hair removal Dubai, Permanent hair removal Dubai, Medical hair removal treatment, Facial hair removal Dubai, Body hair removal Dubai, Safe hair removal methods, Professional hair removal clinic, Skin-friendly hair removal Dubai" />
   
   <script
@@ -38,10 +39,10 @@ export default function HairRemovalPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/hair-removal-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-removal-dubai/#condition",
           "name": "Excess or Unwanted Hair Growth",
           "alternateName": "Unwanted Body and Facial Hair / Hair Follicle Growth Concern",
-          "url": "https://ramacarepolyclinic.ae/services/hair-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hair-removal-dubai/",
           "description": "Excess or unwanted hair growth refers to hair on facial or body areas where it is undesirable for aesthetic or comfort reasons, often treated with advanced dermatologic and cosmetic procedures to reduce or remove hair permanently or long‑term. Treatments vary by hair type, skin tone, and target area.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -51,11 +52,11 @@ export default function HairRemovalPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/hair-removal-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-removal-dubai/#procedure",
           "name": "Hair Removal Treatment in Dubai",
           "alternateName": "Laser Hair Removal & Medical Hair Reduction",
-          "url": "https://ramacarepolyclinic.ae/services/hair-removal-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hair-removal-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-removal-dubai/",
           "description": "Hair removal treatment at RamaCare Polyclinic in Dubai offers medically supervised aesthetic procedures — including advanced laser hair reduction and other hair‑targeting methods — designed to reduce unwanted hair on the face and body with long‑lasting results.",
           "procedureType": "Medical and aesthetic dermatologic procedure",
           "howPerformed": "After an initial consultation and skin/hair assessment, trained clinicians apply advanced laser energy or other clinically approved techniques (e.g., laser hair reduction) to target hair follicles, damaging them to slow or inhibit regrowth over a series of sessions. Protocols and energy settings are customized based on hair thickness, skin type, and treatment area.",
@@ -109,7 +110,7 @@ export default function HairRemovalPage() {
       { id: 'faq', label: 'FAQ' },
       { id: 'book-now', label: 'Book Now' },
     ]} />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -122,7 +123,7 @@ export default function HairRemovalPage() {
       <HairRemovalAdditionalInfo content={content?.hairRemovalInfo} />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

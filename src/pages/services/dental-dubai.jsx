@@ -39,80 +39,17 @@ export default function dentaldubaiCategoryPage() {
   return (
     <Layout>
       <Head>
-  <title>Best dental Clinic in Dubai | Expert Dentists & Care</title>
-  <meta name="description" content="Receive expert dental care at the best dental clinic in Dubai. Safe, personalized treatments for teeth whitening, veneers, implants, braces, and smile makeovers." />
+  <title key="title">Best dental Clinic in Dubai | Expert Dentists & Care</title>
+  <meta name="description" content="Receive expert dental care at the best dental clinic in Dubai. Safe, personalized treatments for teeth whitening, veneers, implants, braces, and smile makeovers." key="description" />
   <meta name="keywords" content="Best dental clinic in Dubai, Dentist in Dubai, dental treatment in Dubai, Cosmetic dentistry Dubai, Teeth whitening in Dubai, dental veneers Dubai, dental implants Dubai, Braces treatment in Dubai, Smile makeover Dubai, Family dentistry Dubai, DHA-licensed dentist in Dubai, Top dentist Dubai" />
   
-  <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "@id": "https://ramacarepolyclinic.ae/services/dental-dubai/#medicalclinic",
-  "name": "Dental Clinic in Dubai",
-  "url": "https://ramacarepolyclinic.ae/services/dental-dubai",
-  "image": "https://ramacarepolyclinic.ae/images/dental.png",
-  "description": "DHA-licensed dental clinic in Jumeirah 1, Dubai offering cosmetic dentistry, root canal treatment, braces, veneers, teeth whitening, and comprehensive oral healthcare.",
-  "medicalSpecialty": "Dentistry",
-  "parentOrganization": {
-    "@type": "MedicalOrganization",
-    "@id": "https://ramacarepolyclinic.ae/#organization",
-    "name": "RamaCare Polyclinic"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
-    "addressLocality": "Dubai",
-    "postalCode": "393558",
-    "addressCountry": "AE"
-  },
-  "telephone": "+971566597878",
-  "areaServed": {
-    "@type": "City",
-    "name": "Dubai"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Dental Treatments",
-    "itemListElement": [
-      {
-        "@type": "MedicalProcedure",
-        "name": "Composite Veneers"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Dental Veneers"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Root Canal Treatment"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Teeth Whitening"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Dental Crown & Bridge"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Braces (Metal & Ceramic)"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Gum Disease Treatment"
-      },
-      {
-        "@type": "MedicalProcedure",
-        "name": "Dental Dentures"
-      }
-    ]
-  }
-}`
-  }}
-/>
+  
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaData)
+          }}
+        />
 </Head>
 
       <HeroSection content={content?.hero} />

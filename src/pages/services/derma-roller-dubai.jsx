@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function DermaRollerPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function DermaRollerPage() {
   return (
     <Layout>
       <Head>
-  <title>Derma Roller Treatment in Dubai for Skin Renewal Care</title>
-  <meta name="description" content="Derma roller treatment in Dubai improves skin texture, reduces acne scars, and boosts collagen through safe, doctor-led microneedling care plans today." />
+  <title key="title">Derma Roller Treatment in Dubai for Skin Renewal Care</title>
+  <meta name="description" content="Derma roller treatment in Dubai improves skin texture, reduces acne scars, and boosts collagen through safe, doctor-led microneedling care plans today." key="description" />
   <meta name="keywords" content="Derma roller treatment in Dubai, Microneedling Dubai, Acne scar treatment Dubai, Skin rejuvenation Dubai, Collagen induction therapy, Derma roller for face Dubai, Skin texture improvement, Professional microneedling treatment, Anti-aging skin treatment Dubai, Open pores treatment Dubai, Scar reduction treatment in Dubai, Skin resurfacing Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function DermaRollerPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/derma-roller-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/derma-roller-dubai/#condition",
           "name": "Skin Texture Irregularities, Fine Lines & Scarring",
           "alternateName": "Uneven Skin, Acne Scars, Wrinkles",
-          "url": "https://ramacarepolyclinic.ae/services/derma-roller-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/derma-roller-dubai/",
           "description": "Skin concerns such as uneven texture, fine lines, acne scarring, and signs of aging may benefit from microneedling therapy. Derma Roller treatment is designed to stimulate natural skin repair and collagen production to improve overall skin quality.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function DermaRollerPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/derma-roller-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/derma-roller-dubai/#procedure",
           "name": "Derma Roller Microneedling in Dubai",
           "alternateName": "Microneedling Skin Rejuvenation",
-          "url": "https://ramacarepolyclinic.ae/services/derma-roller-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/derma-roller-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/derma-roller-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/derma-roller-dubai/",
           "description": "Derma Roller microneedling at RamaCare Polyclinic in Dubai is a minimally invasive dermatologic procedure that uses fine needles to create controlled micro‑injuries on the skin, stimulating natural repair mechanisms to improve texture, reduce fine lines, and minimize scarring.",
           "procedureType": "Dermatologic microneedling procedure",
           "howPerformed": "A clinician assesses the skin condition and selects an appropriate Derma Roller device. After cleansing and topical numbing (if indicated), the roller is gently moved over treatment areas to create micro‑channels that encourage collagen formation. Sessions typically last 20–40 minutes depending on the treatment area.",
@@ -97,7 +98,7 @@ export default function DermaRollerPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function DermaRollerPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

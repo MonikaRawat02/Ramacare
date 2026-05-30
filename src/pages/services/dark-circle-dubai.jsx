@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function DarkCirclePage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function DarkCirclePage() {
   return (
     <Layout>
       <Head>
-         <title>Dark Circle Treatment in Dubai – Brighten Under Eyes Fast</title>
-          <meta name="description" content="Tired of dark circles under your eyes? Get expert treatment in Dubai to reduce pigmentation, puffiness & dullness. Safe, effective care. Book now!" />
+         <title key="title">Dark Circle Treatment in Dubai – Brighten Under Eyes Fast</title>
+          <meta name="description" content="Tired of dark circles under your eyes? Get expert treatment in Dubai to reduce pigmentation, puffiness & dullness. Safe, effective care. Book now!" key="description" />
         
         <script
   type="application/ld+json"
@@ -35,10 +36,10 @@ export default function DarkCirclePage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/dark-circle-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/dark-circle-dubai/#condition",
           "name": "Periorbital Dark Circles & Under‑Eye Discoloration",
           "alternateName": "Dark Circles, Under‑Eye Shadows, Periorbital Hyperpigmentation",
-          "url": "https://ramacarepolyclinic.ae/services/dark-circle-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/dark-circle-dubai/",
           "description": "Periorbital dark circles and under‑eye discoloration include pigmentation, vascular shadows, hollowness underneath the eyes, and other factors that contribute to a tired or aged appearance around the eyes.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -48,11 +49,11 @@ export default function DarkCirclePage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/dark-circle-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/dark-circle-dubai/#procedure",
           "name": "Dark Circle Treatment in Dubai",
           "alternateName": "Under‑Eye Dark Circle Correction & Rejuvenation",
-          "url": "https://ramacarepolyclinic.ae/services/dark-circle-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/dark-circle-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/dark-circle-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/dark-circle-dubai/",
           "description": "Dark circle treatment at RamaCare Polyclinic in Dubai is a personalized aesthetic procedure aimed at addressing under‑eye pigmentation, hollowness, vascular shadows, and skin laxity using advanced dermatologic and cosmetic techniques.",
           "procedureType": "Medical and aesthetic dermatologic procedure",
           "howPerformed": "After a detailed clinical assessment of the under‑eye region, clinicians may use one or a combination of approaches such as hyaluronic acid fillers to restore volume, laser or light therapies for pigmentation, chemical peels, and topical agents to enhance skin quality depending on the cause of dark circles.",
@@ -95,7 +96,7 @@ export default function DarkCirclePage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -106,7 +107,7 @@ export default function DarkCirclePage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

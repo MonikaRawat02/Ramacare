@@ -182,8 +182,8 @@ export default function AyurvedicGutHealthDubaiPage() {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Ayurvedic Gut Health Dubai | Restore Agni & Better Digestion</title>
-        <meta name="description" content="Heal your gut naturally. Our DHA-licensed Ayurvedic plans in Dubai focus on restoring 'Agni' to eliminate bloating, IBS, and toxins. Visit RamaCare Polyclinic in Jumeirah 1." />
+        <title key="title">Ayurvedic Gut Health Dubai | Restore Agni & Better Digestion</title>
+        <meta name="description" content="Heal your gut naturally. Our DHA-licensed Ayurvedic plans in Dubai focus on restoring 'Agni' to eliminate bloating, IBS, and toxins. Visit RamaCare Polyclinic in Jumeirah 1." key="description" />
         
       </Head>
 

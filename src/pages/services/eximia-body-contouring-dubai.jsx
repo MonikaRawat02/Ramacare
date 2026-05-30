@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function BodyShapingPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function BodyShapingPage() {
   return (
     <Layout>
       <Head>
-  <title>Eximia Body Contouring in Dubai for Slim and Toned Body</title>
-  <meta name="description" content="Eximia body contouring in Dubai helps reduce fat, tighten skin, and sculpt your body safely using advanced non-invasive technology under expert care." />
+  <title key="title">Eximia Body Contouring in Dubai for Slim and Toned Body</title>
+  <meta name="description" content="Eximia body contouring in Dubai helps reduce fat, tighten skin, and sculpt your body safely using advanced non-invasive technology under expert care." key="description" />
   <meta name="keywords" content="Eximia body contouring Dubai, Non-surgical body sculpting Dubai, Fat reduction treatment Dubai, Skin tightening Dubai, Body slimming treatment Dubai, Professional body contouring, Non-invasive fat removal, Toned body treatment Dubai, Body shaping therapy, Expert body contouring clinic" />
   
   <script
@@ -36,10 +37,10 @@ export default function BodyShapingPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/#condition",
           "name": "Localized Fat Deposits, Loose Skin, and Cellulite",
           "alternateName": "Body Contouring Concerns, Stubborn Fat Pockets",
-          "url": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/",
           "description": "Localized fat deposits, loose skin, and cellulite can resist diet and exercise. Eximia body contouring treatments are non‑surgical options that help break down fat, tighten skin, and improve body contours under clinical supervision. ",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function BodyShapingPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/#procedure",
           "name": "Eximia Body Contouring in Dubai",
           "alternateName": "Non‑Surgical Body Contouring Treatment",
-          "url": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/",
           "description": "Eximia Body Contouring at RamaCare Polyclinic in Dubai is a non‑surgical, non‑invasive body shaping procedure that combines advanced technologies to reduce localized fat, firm lax skin, and improve body contours with minimal downtime. ",
           "procedureType": "Non‑invasive body contouring procedure",
           "howPerformed": "After an initial consultation and body assessment, clinicians select customized Eximia settings that utilize radiofrequency, ultrasound, and mechanical stimuli. Sessions typically last 30‑60 minutes and involve controlled energy delivery to the treatment areas to stimulate fat breakdown, tighten skin tissue, and improve circulation. ",
@@ -97,7 +98,7 @@ export default function BodyShapingPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function BodyShapingPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

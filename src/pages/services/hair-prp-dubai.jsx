@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function HairPRPPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function HairPRPPage() {
   return (
     <Layout>
       <Head>
-  <title>Hair PRP in Dubai for Natural Hair Regrowth Treatment</title>
-  <meta name="description" content="Hair PRP in Dubai uses platelet-rich plasma to strengthen hair follicles, reduce hair fall, and support natural regrowth under expert medical care." />
+  <title key="title">Hair PRP in Dubai for Natural Hair Regrowth Treatment</title>
+  <meta name="description" content="Hair PRP in Dubai uses platelet-rich plasma to strengthen hair follicles, reduce hair fall, and support natural regrowth under expert medical care." key="description" />
   <meta name="keywords" content="Hair PRP in Dubai, PRP hair treatment Dubai, Hair regrowth treatment Dubai, Platelet rich plasma for hair, Hair fall reduction Dubai, Scalp stimulation therapy, Non-surgical hair restoration, Medical hair loss treatment, Professional PRP therapy Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function HairPRPPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/hair-prp-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-prp-dubai/#condition",
           "name": "Hair Thinning, Shedding & Scalp Weakness",
           "alternateName": "Androgenic Alopecia, Telogen Effluvium, Diffuse Hair Loss",
-          "url": "https://ramacarepolyclinic.ae/services/hair-prp-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hair-prp-dubai/",
           "description": "Hair thinning and shedding include conditions like androgenic alopecia, stress‑related telogen effluvium, and diffuse hair loss patterns that result in reduced hair density and weakened scalp health.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function HairPRPPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/hair-prp-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-prp-dubai/#procedure",
           "name": "Hair PRP Treatment in Dubai",
           "alternateName": "Platelet‑Rich Plasma (PRP) Hair Regeneration Therapy",
-          "url": "https://ramacarepolyclinic.ae/services/hair-prp-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-prp-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hair-prp-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-prp-dubai/",
           "description": "Hair PRP treatment at RamaCare Polyclinic in Dubai is a minimally invasive regenerative procedure designed to stimulate hair regrowth, strengthen hair follicles, and reduce shedding using platelet‑rich plasma derived from the patient’s own blood.",
           "procedureType": "Minimally invasive regenerative dermatologic procedure",
           "howPerformed": "A small blood sample is drawn from the patient and processed to concentrate platelets. The platelet‑rich plasma is then injected into targeted areas of the scalp where thinning or hair loss is present. Growth factors within the plasma help activate dormant follicles and support hair regeneration.",
@@ -97,7 +98,7 @@ export default function HairPRPPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function HairPRPPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

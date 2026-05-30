@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function BirthmarkRemovalPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function BirthmarkRemovalPage() {
   return (
     <Layout>
       <Head>
-  <title>Birthmark Removal in Dubai for Clear, Even Skin</title>
-  <meta name="description" content="Birthmark removal in Dubai uses safe, doctor-supervised laser and medical treatments to reduce or remove birthmarks and restore smooth, natural skin." />
+  <title key="title">Birthmark Removal in Dubai for Clear, Even Skin</title>
+  <meta name="description" content="Birthmark removal in Dubai uses safe, doctor-supervised laser and medical treatments to reduce or remove birthmarks and restore smooth, natural skin." key="description" />
   <meta name="keywords" content="Birthmark removal in Dubai, Laser birthmark removal Dubai, Medical birthmark treatment, Skin lesion removal Dubai, Safe birthmark treatment, Dermatology birthmark care, Facial birthmark removal, Body birthmark treatment, Non-surgical birthmark removal, Professional skin treatment Dubai" />
   
 <script
@@ -36,10 +37,10 @@ export default function BirthmarkRemovalPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai/#condition",
           "name": "Benign Birthmarks and Pigmented Skin Marks",
           "alternateName": "Congenital Pigmented Marks, Vascular Birthmarks",
-          "url": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai/",
           "description": "Benign birthmarks are congenital skin marks present at birth or appearing early in life, including pigmented birthmarks (like café‑au‑lait spots or moles) and vascular birthmarks (like hemangiomas). These can be of cosmetic concern or cause psychosocial discomfort.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function BirthmarkRemovalPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai/#procedure",
           "name": "Birthmark Removal in Dubai",
           "alternateName": "Dermatologic Birthmark Reduction & Correction",
-          "url": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/birthmark-removal-dubai/",
           "description": "Birthmark removal at RamaCare Polyclinic in Dubai is a dermatologic procedure tailored to the type and characteristics of the birthmark. Clinicians use advanced techniques such as laser therapy, electrosurgery, or surgical excision to safely reduce or eliminate the appearance of benign skin marks.",
           "procedureType": "Dermatologic surgical/laser procedure",
           "howPerformed": "After a detailed assessment of the birthmark’s type, size, and depth, trained clinicians recommend the most appropriate removal method. Options may include targeted laser therapy for pigmented or vascular marks, electrosurgical methods, or precise surgical excision. Local anesthesia is used when appropriate to ensure patient comfort.",
@@ -97,7 +98,7 @@ export default function BirthmarkRemovalPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function BirthmarkRemovalPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

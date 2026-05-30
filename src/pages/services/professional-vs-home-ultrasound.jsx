@@ -167,8 +167,8 @@ const ProfessionalVsHomeUltrasoundPage = () => {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Professional vs. Home Ultrasound Therapy | RamaCare Dubai Guide</title>
-        <meta name="description" content="Thinking of buying a home ultrasound device in Dubai? Discover the critical differences in power, frequency, and safety between home units and clinical-grade therapy." />
+        <title key="title">Professional vs. Home Ultrasound Therapy | RamaCare Dubai Guide</title>
+        <meta name="description" content="Thinking of buying a home ultrasound device in Dubai? Discover the critical differences in power, frequency, and safety between home units and clinical-grade therapy." key="description" />
         <meta name="keywords" content="professional ultrasound therapy Dubai, home ultrasound device, clinical ultrasound therapy, therapeutic ultrasound Dubai, physiotherapy ultrasound treatment, medical-grade ultrasound, pain relief therapy Dubai" />
         
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />

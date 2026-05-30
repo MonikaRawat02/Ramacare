@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function ManagementofAllergyPage() {
   const categoryName = 'General Physician';
@@ -24,8 +25,8 @@ export default function ManagementofAllergyPage() {
   return (
     <Layout>
       <Head>
-  <title>Management of Allergy in Dubai With Expert Medical Care</title>
-  <meta name="description" content="Management of allergy in Dubai provides personalised care for skin, food, respiratory, and seasonal allergies with accurate diagnosis and long-term relief plans." />
+  <title key="title">Management of Allergy in Dubai With Expert Medical Care</title>
+  <meta name="description" content="Management of allergy in Dubai provides personalised care for skin, food, respiratory, and seasonal allergies with accurate diagnosis and long-term relief plans." key="description" />
   <meta name="keywords" content="Management of allergy in Dubai, Allergy treatment Dubai, Allergy clinic Dubai, Skin allergy treatment Dubai, Respiratory allergy treatment in Dubai, Food allergy management in Dubai, Seasonal allergy care Dubai, Chronic allergy treatment in Dubai, Allergy specialist Dubai, Allergy diagnosis and treatment in Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function ManagementofAllergyPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai/#condition",
           "name": "Allergic Conditions",
           "alternateName": "Allergies",
-          "url": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai/",
           "description": "Allergic conditions include immune system reactions to substances such as pollen, food, dust, insect bites, and medications, which can lead to symptoms such as itching, sneezing, rashes, swelling, and respiratory difficulty.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function ManagementofAllergyPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai/#procedure",
           "name": "Management of Allergy in Dubai",
           "alternateName": "Allergy Treatment",
-          "url": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/management-of-allergy-dubai/",
           "description": "Allergy management in Dubai at RamaCare Polyclinic offers comprehensive evaluation and personalized treatment plans for allergic conditions including skin allergies, food sensitivities, respiratory allergies, and more, guided by qualified clinicians.",
           "procedureType": "Allergy evaluation and management",
           "howPerformed": "Allergy management starts with a detailed history and clinical assessment, followed by appropriate diagnostic testing. Treatment plans may include avoidance strategies, medications, lifestyle guidance, and monitoring.",
@@ -97,7 +98,7 @@ export default function ManagementofAllergyPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function ManagementofAllergyPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

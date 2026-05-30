@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function TattooRemovalPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function TattooRemovalPage() {
   return (
     <Layout>
       <Head>
-  <title>Tattoo Removal in Dubai for Safe and Effective Results</title>
-  <meta name="description" content="Tattoo removal in Dubai uses advanced laser treatments to safely fade or remove unwanted tattoos, restoring clear, natural-looking skin under expert care." />
+  <title key="title">Tattoo Removal in Dubai for Safe and Effective Results</title>
+  <meta name="description" content="Tattoo removal in Dubai uses advanced laser treatments to safely fade or remove unwanted tattoos, restoring clear, natural-looking skin under expert care." key="description" />
   <meta name="keywords" content="Tattoo removal in Dubai, Laser tattoo removal Dubai, Professional tattoo removal, Unwanted tattoo removal, Non-surgical tattoo removal, Safe tattoo fading Dubai, Tattoo lightening treatment, Permanent tattoo removal Dubai, Skin restoration after tattoo, Expert tattoo removal clinic" />
   
   <script
@@ -36,10 +37,10 @@ export default function TattooRemovalPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai/#condition",
           "name": "Unwanted Tattoos and Persistent Pigmented Ink",
           "alternateName": "Regret Tattoos, Unwanted Body Art",
-          "url": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai/",
           "description": "Unwanted tattoos and persistent pigmented ink may be removed or faded using medically supervised laser treatments. Tattoo removal addresses aesthetic concerns, career or lifestyle changes, and residual ink from amateur or traumatic tattoos.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function TattooRemovalPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai/#procedure",
           "name": "Laser Tattoo Removal in Dubai",
           "alternateName": "Tattoo Fading and Ink Reduction Treatment",
-          "url": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/tattoo-removal-dubai/",
           "description": "Laser tattoo removal at RamaCare Polyclinic in Dubai uses advanced Q‑switched and picosecond laser technologies to break down tattoo pigment safely and effectively, tailored to tattoo characteristics, skin type, and treatment goals.",
           "procedureType": "Dermatologic laser procedure",
           "howPerformed": "After a detailed consultation and assessment of tattoo size, colors, ink density, and skin type, the clinician selects appropriate laser wavelengths (e.g., Q‑switched Nd:YAG, picosecond lasers) to target tattoo pigment. Protective eyewear is worn and numbing or cooling options are offered for comfort. Multiple sessions spaced over weeks may be required to progressively fade or remove the tattoo.",
@@ -97,7 +98,7 @@ export default function TattooRemovalPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function TattooRemovalPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

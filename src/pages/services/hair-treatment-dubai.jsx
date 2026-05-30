@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function HairTreatmentPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,57 +25,17 @@ export default function HairTreatmentPage() {
   return (
     <Layout>
       <Head>
-  <title>Hair Treatment in Dubai – Stop Hair Fall & Regrow Hair Fast</title>
-  <meta name="description" content="Struggling with hair fall or thinning? Get expert hair treatment in Dubai for stronger, healthier hair. Safe, effective care. Book now!" />
+  <title key="title">Hair Treatment in Dubai – Stop Hair Fall & Regrow Hair Fast</title>
+  <meta name="description" content="Struggling with hair fall or thinning? Get expert hair treatment in Dubai for stronger, healthier hair. Safe, effective care. Book now!" key="description" />
   <meta name="keywords" content="Hair treatment in Dubai, Hair treatment in Jumeirah 1, Hair loss treatment Dubai, Hair restoration Dubai, PRP hair treatment Dubai, Mesotherapy hair treatment Dubai, Hair transplant Dubai, Thinning hair solutions Dubai, Scalp treatment Dubai, Medical hair clinic Dubai, DHA licensed hair clinic, Hair care specialists in Dubai, Advanced hair therapy Dubai" />
   
-<script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: `{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "@id": "https://ramacarepolyclinic.ae/services/hair-treatment-dubai/#medicalclinic",
-  "name": "Hair Treatment in Dubai",
-  "url": "https://ramacarepolyclinic.ae/services/hair-treatment-dubai",
-  "description": "Advanced hair treatment in Dubai for hair fall, thinning hair, dandruff, scalp disorders, and hair regrowth. Personalized, DHA-licensed dermatology care in Jumeirah 1.",
-  "medicalSpecialty": "Dermatology",
-  "parentOrganization": {
-    "@type": "MedicalOrganization",
-    "@id": "https://ramacarepolyclinic.ae/#organization",
-    "name": "RamaCare Polyclinic"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
-    "addressLocality": "Dubai",
-    "postalCode": "393558",
-    "addressCountry": "AE"
-  },
-  "telephone": "+971566597878",
-  "areaServed": {
-    "@type": "City",
-    "name": "Dubai"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Hair Treatment Services",
-    "itemListElement": [
-      { "@type": "MedicalProcedure", "name": "Hair Fall Treatment" },
-      { "@type": "MedicalProcedure", "name": "Hair Growth Therapy" },
-      { "@type": "MedicalProcedure", "name": "PRP Hair Treatment" },
-      { "@type": "MedicalProcedure", "name": "Dandruff & Scalp Treatment" },
-      { "@type": "MedicalProcedure", "name": "Hormonal Hair Loss Management" }
-    ]
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "500"
-  }
-}`
-      }}
-    />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaData)
+          }}
+        />
 </Head>
 
       <TreatmentHero 
@@ -83,7 +44,7 @@ export default function HairTreatmentPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -94,7 +55,7 @@ export default function HairTreatmentPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

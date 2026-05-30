@@ -14,6 +14,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 import { Check, Info, TrendingUp, Scissors, IndianRupee, Wallet, Target, Sparkles, XCircle, CheckCircle2 } from 'lucide-react';
 
 export default function AyurvedicHairfallTreatmentPage() {
@@ -26,8 +27,8 @@ export default function AyurvedicHairfallTreatmentPage() {
   return (
     <Layout>
       <Head>
-  <title>Ayurvedic Hair Fall Treatment in Dubai – Safe & Natural</title>
-  <meta name="description" content="Control hair fall naturally with Ayurvedic treatments in Dubai. Herbal remedies, scalp therapies, and personalized care help restore healthy, strong hair." />
+  <title key="title">Ayurvedic Hair Fall Treatment in Dubai – Safe & Natural</title>
+  <meta name="description" content="Control hair fall naturally with Ayurvedic treatments in Dubai. Herbal remedies, scalp therapies, and personalized care help restore healthy, strong hair." key="description" />
   <meta name="keywords" content="Ayurvedic Hair Fall Treatment Dubai, Hair Loss Treatment Ayurveda Dubai, Natural Hair Regrowth Dubai, Herbal Hair Care Dubai, Ayurvedic Hair Therapy Dubai, Hair Strengthening Treatments Dubai, Hair Fall Solutions Dubai, Ayurveda for Hair Loss, Ayurvedic Scalp Treatment Dubai, Hair Growth Oils Dubai, Best Ayurvedic Hair Treatment, Personalized Hair Care Dubai" />
   
    <script
@@ -36,12 +37,12 @@ export default function AyurvedicHairfallTreatmentPage() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "MedicalProcedure",
-              "@id": "https://ramacarepolyclinic.ae/services/ayurvedic-hairfall-treatment-dubai#procedure",
+              "@id": "https://ramacarepolyclinic.ae/services/ayurvedic-hairfall-treatment-dubai/#procedure",
               name: "Ayurvedic Hairfall Treatment in Dubai",
               alternateName: "Herbal Hair Loss Therapy",
-              url: "https://ramacarepolyclinic.ae/services/ayurvedic-hairfall-treatment-dubai",
+              url: "https://ramacarepolyclinic.ae/services/ayurvedic-hairfall-treatment-dubai/",
               mainEntityOfPage:
-                "https://ramacarepolyclinic.ae/services/ayurvedic-hairfall-treatment-dubai",
+                "https://ramacarepolyclinic.ae/services/ayurvedic-hairfall-treatment-dubai/",
               description:
                 "Ayurvedic Hairfall Treatment in Dubai at RamaCare Polyclinic provides traditional Ayurvedic protocols, herbal therapies, and personalized care to reduce hair fall, nourish scalp health, and promote natural hair regrowth, administered by experienced practitioners.",
               procedureType: "Ayurvedic medical treatment",
@@ -89,7 +90,7 @@ export default function AyurvedicHairfallTreatmentPage() {
       hero={content?.hero}
     />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -247,7 +248,7 @@ export default function AyurvedicHairfallTreatmentPage() {
     </section>
 
      <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
     <FAQSection content={content?.faq} />
     <BookConsultation content={content?.bookConsultation} />

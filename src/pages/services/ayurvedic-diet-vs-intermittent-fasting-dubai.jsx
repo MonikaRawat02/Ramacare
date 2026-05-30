@@ -250,8 +250,8 @@ export default function AyurvedicDietVsIntermittentFastingDubaiPage() {
       </motion.div>
 
       <Head>
-        <title>Ayurvedic Diet vs. Intermittent Fasting Dubai | Ramadan Guide</title>
-        <meta name="description" content="Compare Intermittent Fasting and Ayurvedic 'Langhana.' Learn how to fast safely in Dubai's heat and optimize your Ramadan nutrition with RamaCare Polyclinic Jumeirah." />
+        <title key="title">Ayurvedic Diet vs. Intermittent Fasting Dubai | Ramadan Guide</title>
+        <meta name="description" content="Compare Intermittent Fasting and Ayurvedic 'Langhana.' Learn how to fast safely in Dubai's heat and optimize your Ramadan nutrition with RamaCare Polyclinic Jumeirah." key="description" />
         
       </Head>
 

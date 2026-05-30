@@ -209,8 +209,8 @@ const content = {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Ayurvedic Diet for Weight Loss Dubai | Natural Fat Loss Plans</title>
-        <meta name="description" content="Lose weight sustainably without fad diets. Our DHA-licensed Ayurvedic weight loss plans in Dubai target the root cause of obesity by boosting metabolism and balancing Doshas. Visit RamaCare Jumeirah" />
+        <title key="title">Ayurvedic Diet for Weight Loss Dubai | Natural Fat Loss Plans</title>
+        <meta name="description" content="Lose weight sustainably without fad diets. Our DHA-licensed Ayurvedic weight loss plans in Dubai target the root cause of obesity by boosting metabolism and balancing Doshas. Visit RamaCare Jumeirah" key="description" />
         
       </Head>
 
@@ -251,7 +251,7 @@ const content = {
                 <a
                   href={`https://wa.me/${content.hero.ctaButtons.secondary.phone}`}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="bg-white text-[#1F5E4B] px-8 py-4 rounded-lg font-bold border-2 border-[#1F5E4B] hover:bg-gray-50 transition-all text-center"
                 >
                   {content.hero.ctaButtons.secondary.text}
@@ -593,7 +593,7 @@ const content = {
               <a 
                 href={`https://wa.me/${content.hero.ctaButtons.secondary.phone}`}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="flex-1 bg-white text-[#1F5E4B] px-8 py-4 rounded-lg font-bold text-[16px] border-2 border-[#1F5E4B] hover:bg-gray-50 transition-all flex items-center justify-center gap-2"
               >
                 {content.retargeting.buttons.whatsapp}
@@ -704,7 +704,7 @@ const content = {
               <a 
                 href={`https://wa.me/${content.hero.ctaButtons.secondary.phone}`}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="flex-1 bg-white text-[#1F5E4B] px-8 py-4 rounded-lg font-bold text-lg border-2 border-[#1F5E4B] transition-all flex items-center justify-center hover:opacity-80"
               >
                 {content.leadCapture.form.buttons.whatsapp}
@@ -731,7 +731,7 @@ const content = {
             <a 
               href={`https://wa.me/${content.hero.ctaButtons.secondary.phone}`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="bg-transparent text-white px-6 py-2.5 rounded-lg font-bold text-sm border-2 border-white/30 hover:bg-white/10 transition-all flex items-center justify-center"
             >
               WhatsApp

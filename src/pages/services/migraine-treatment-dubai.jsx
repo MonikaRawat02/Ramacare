@@ -58,57 +58,15 @@ export default function MigraineTreatmentPage() {
   return (
     <Layout>
       <Head>
-        <title>Migraine Treatment in Dubai | Personalized Headache Relief & Chronic Migraine Care</title>
-        <meta name="description" content="Expert migraine treatment in Dubai with personalized care for chronic headaches, migraine relief, stress management, and long-term wellness support at Rama Care Polyclinic." />
+        <title key="title">Migraine Treatment in Dubai | Headache Relief</title>
+        <meta name="description" content="Expert migraine treatment in Dubai with personalized care for chronic headaches and wellness support at Rama Care Polyclinic." key="description" />
         <meta name="keywords" content="Migraine treatment Dubai, Chronic migraine treatment, Headache treatment Dubai, Tension headache treatment, Stress-related headache Dubai, Migraine specialist Dubai, Physiotherapy for migraine" />
+        
         
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `
-            {
-              "@context": "https://schema.org",
-              "@type": "MedicalProcedure",
-              "@id": "https://ramacarepolyclinic.ae/services/migraine-treatment-dubai#procedure",
-              "name": "Migraine Treatment in Dubai",
-              "alternateName": "Chronic Migraine & Headache Treatment",
-              "url": "https://ramacarepolyclinic.ae/services/migraine-treatment-dubai",
-              "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/migraine-treatment-dubai",
-              "description": "Comprehensive migraine treatment in Dubai using personalized care, physiotherapy, stress management, posture correction, and holistic wellness support for chronic headache relief and long-term migraine prevention.",
-              "procedureType": "Medical and wellness treatment",
-              "bodyLocation": "Head, neck, and nervous system",
-              "howPerformed": "Migraine treatment is performed through personalized medical evaluation, trigger assessment, physiotherapy, stress management, lifestyle guidance, and holistic wellness therapies.",
-              "preparation": "Consultation with healthcare specialists to evaluate headache history, migraine triggers, lifestyle factors, and treatment goals.",
-              "followup": "Regular follow-up sessions and lifestyle guidance for optimal long-term migraine prevention.",
-              "indication": [
-                "Chronic migraines",
-                "Tension headaches",
-                "Stress-related headaches",
-                "Posture-related headaches",
-                "Recurring headache attacks",
-                "Migraine with aura"
-              ],
-              "possibleComplication": "Temporary discomfort may occur during initial physiotherapy or treatment sessions.",
-              "provider": {
-                "@type": "MedicalClinic",
-                "name": "Rama Care Polyclinic",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Jumeirah Terrace Building, Ground Floor",
-                  "addressLocality": "Jumeirah 1",
-                  "addressRegion": "Dubai",
-                  "postalCode": "393558",
-                  "addressCountry": "AE"
-                },
-                "telephone": "+971 56 659 7878",
-                "areaServed": {
-                  "@type": "City",
-                  "name": "Dubai"
-                },
-                "priceRange": "$$"
-              }
-            }
-            `
+            __html: JSON.stringify(schemaData)
           }}
         />
       </Head>
@@ -190,8 +148,7 @@ export default function MigraineTreatmentPage() {
                     <span>Book Consultation</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </a>
-                  <a
-                    href="https://wa.me/971566597878"
+                  <a rel="nofollow noopener noreferrer" target="_blank" href="https://wa.me/971566597878"
                     className="inline-flex items-center gap-3 border-2 border-[#1F5E4B] text-[#1F5E4B] px-8 py-4 rounded-lg font-semibold hover:bg-[#1F5E4B] hover:text-white transition-all hover:-translate-y-0.5"
                   >
                     <Phone className="w-5 h-5" />
@@ -923,10 +880,9 @@ export default function MigraineTreatmentPage() {
                 <Clock className="w-6 h-6 group-hover:rotate-12 transition-transform" />
                 <span>Book Consultation</span>
               </a>
-              <a
-                href="https://wa.me/971566597878"
-                className="group inline-flex items-center gap-3 bg-white text-[#1F5E4B] px-10 py-5 rounded-full font-semibold text-lg hover:bg-[#1F5E4B] hover:text-white transition-all border-2 border-[#1F5E4B] hover:scale-105 shadow-lg"
-              >
+              <a rel="nofollow noopener noreferrer" target="_blank" href="https://wa.me/971566597878"
+                className="group inline-flex items-center gap-3 bg-white text-[#1F5E4B] px-10 py-5 rounded-full font-semibold text-lg hover:bg-[#1F5E4B] hover:text-white transition-all border-2 border-[#1F5E4B] hover:scale-105 shadow-lg">
+              
                 <Phone className="w-6 h-6 group-hover:rotate-12 transition-transform" />
                 <span>WhatsApp Us</span>
               </a>

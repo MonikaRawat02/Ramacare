@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function OxygeneoIlluminateFacialPage() {
   const categoryName = 'Facial';
@@ -24,8 +25,8 @@ export default function OxygeneoIlluminateFacialPage() {
   return (
      <Layout>
       <Head>
-  <title>OxyGeneo Illuminate Facial in Dubai – Brighten Your Skin</title>
-  <meta name="description" content="OxyGeneo Illuminate Facial in Dubai exfoliates, oxygenates, and brightens skin, leaving it smooth, radiant, and refreshed under professional care." />
+  <title key="title">OxyGeneo Illuminate Facial in Dubai – Brighten Your Skin</title>
+  <meta name="description" content="OxyGeneo Illuminate Facial in Dubai exfoliates, oxygenates, and brightens skin, leaving it smooth, radiant, and refreshed under professional care." key="description" />
   <meta name="keywords" content="OxyGeneo Illuminate Facial in Dubai, Skin brightening facial in Dubai, Exfoliating facial treatment, Oxygenating facial in Dubai, Radiant skin therapy Dubai, Professional facial treatment, Skin rejuvenation Dubai, Glow-enhancing facial in Dubai, Anti-aging facial in Dubai, Healthy skin facial in Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function OxygeneoIlluminateFacialPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai/#condition",
           "name": "Facial Skin Dullness and Texture Concerns",
           "alternateName": "Skin Radiance and Texture Issues",
-          "url": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai/",
           "description": "Facial skin dullness and texture concerns include lack of radiance, uneven tone, minor congestion, fine lines, and signs of tired or stressed skin caused by environmental exposure, aging, and lifestyle factors.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function OxygeneoIlluminateFacialPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai/#procedure",
           "name": "OxyGeneo Illuminate Facial in Dubai",
           "alternateName": "Oxygenating Glow Facial Treatment",
-          "url": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/oxygeneo-illuminate-facial-dubai/",
           "description": "The OxyGeneo Illuminate Facial in Dubai at RamaCare Polyclinic is a non-invasive, advanced skin treatment designed to exfoliate, oxygenate, and nourish the skin for improved radiance, texture, and hydration.",
           "procedureType": "Non-invasive aesthetic skin enhancement",
           "howPerformed": "Performed using specialized OxyGeneo technology, the treatment combines gentle exfoliation with nutrient infusion and oxygenation to revitalize the skin’s surface and boost glow.",
@@ -97,7 +98,7 @@ export default function OxygeneoIlluminateFacialPage() {
       hero={content?.hero}
     />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function OxygeneoIlluminateFacialPage() {
     />
     <PatientTestimonials content={content?.testimonials} />
      <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
     <FAQSection content={content?.faq} />
     <BookConsultation content={content?.bookConsultation} />

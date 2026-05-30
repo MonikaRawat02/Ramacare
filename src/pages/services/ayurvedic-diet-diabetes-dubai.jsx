@@ -279,8 +279,8 @@ export default function AyurvedicDietDiabetesPage() {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Ayurvedic Diet for Diabetes Dubai | Natural Blood Sugar Control</title>
-        <meta name="description" content="Manage Type 2 Diabetes and Prediabetes naturally. Our DHA-licensed Ayurvedic diet plans in Dubai focus on insulin sensitivity and glucose balance through ancient wisdom. Book at RamaCare Jumeirah." />
+        <title key="title">Ayurvedic Diet for Diabetes Dubai | Natural Blood Sugar Control</title>
+        <meta name="description" content="Manage Type 2 Diabetes and Prediabetes naturally. Our DHA-licensed Ayurvedic diet plans in Dubai focus on insulin sensitivity and glucose balance through ancient wisdom. Book at RamaCare Jumeirah." key="description" />
         
       </Head>
 
@@ -334,7 +334,7 @@ export default function AyurvedicDietDiabetesPage() {
                   <LucideIcons.Calendar size={20} />
                   {content.hero.ctaButtons.primary.text}
                 </button>
-                <a 
+                <a target="_blank" rel="nofollow noopener noreferrer" 
                   href={`https://wa.me/${content.hero.ctaButtons.secondary.phone.replace(/[\s+]/g, '')}`}
                   className="bg-white text-[#1F5E4B] px-8 py-4 rounded-lg hover:bg-gray-50 transition-all flex items-center justify-center gap-2 border-2 border-[#1F5E4B] font-bold text-base shadow-sm"
                 >
@@ -892,7 +892,7 @@ export default function AyurvedicDietDiabetesPage() {
                 <a 
                   href={`https://wa.me/${content.hero.ctaButtons.secondary.phone.replace(/[\s+]/g, '')}`}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="bg-[#00B853] text-white py-4 rounded-xl font-bold text-lg hover:bg-[#009E47] transition-all flex items-center justify-center gap-2 shadow-lg"
                 >
                   <LucideIcons.MessageCircle size={20} />

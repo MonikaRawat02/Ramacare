@@ -1,13 +1,16 @@
 User-agent: *
+# Block administrative and tag pages
 Disallow: /wp-admin/
 Disallow: /wp-content/
 Disallow: /wp-includes/
 Disallow: /tag/
 Disallow: /author/
-Disallow: /?*
-Disallow: /*?
 Disallow: /best-fillers-in-dubai
 
+# Allow Next.js optimized images (prevents the 870 blocked resource errors)
+Allow: /_next/image*
+
+# Allow all other pages
 Allow: /
 
 Sitemap: https://ramacarepolyclinic.ae/sitemap.xml

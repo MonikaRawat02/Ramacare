@@ -51,8 +51,8 @@ const PostSurgeryRecoveryPage = () => {
     <>
     <Layout>
       <Head>
-        <title>Post-Surgery Recovery Dubai | Ultrasound for Scar Tissue at RamaCare</title>
-        <meta name="description" content="Speed up your post-surgical healing in Dubai. Learn how RamaCare's ultrasound therapy prevents scar tissue stiffness and accelerates tissue repair after surgery." />
+        <title key="title">Post-Op Healing: Ultrasound for Scar Tissue in Dubai | RamaCare</title>
+        <meta name="description" content="Speed up your post-surgical healing in Dubai. Learn how RamaCare's ultrasound therapy prevents scar tissue stiffness and accelerates tissue repair after surgery." key="description" />
         
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
@@ -76,7 +76,7 @@ const PostSurgeryRecoveryPage = () => {
 
                 {/* Description */}
                 <p className="text-[16px] text-[#5F5F5F] leading-[1.7]">
-                  Speed up your post-surgical healing in Dubai. Learn how RamaCare's <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> prevents scar tissue stiffness and accelerates tissue repair after surgery.
+                  Speed up your post-surgical healing in Dubai. Learn how RamaCare's <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> prevents scar tissue stiffness and accelerates tissue repair after surgery.
                 </p>
 
                 {/* H2 subheading */}
@@ -90,7 +90,7 @@ const PostSurgeryRecoveryPage = () => {
                     After any surgery—whether it is an ACL reconstruction, rotator cuff repair, or a standard orthopedic procedure—the body begins a complex healing process. However, the biggest risk during this time is the formation of <strong className="text-[#1A1A1A] font-semibold">Adhesions</strong> (thick, disorganized scar tissue) that can limit your range of motion forever.
                   </p>
                   <p>
-                    At RamaCare Polyclinic, we use therapeutic <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> as a primary tool in post-surgical rehabilitation to ensure your new tissue grows back flexible, strong, and pain-free.
+                    At RamaCare Polyclinic, we use therapeutic <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> as a primary tool in post-surgical rehabilitation to ensure your new tissue grows back flexible, strong, and pain-free.
                   </p>
                 </div>
 
@@ -106,7 +106,7 @@ const PostSurgeryRecoveryPage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white text-[15px] font-bold px-7 py-[14px] rounded-lg hover:bg-[#20bd5a] transition-colors"
                   >
                     <MessageCircle className="w-[18px] h-[18px]" />
@@ -183,7 +183,7 @@ const PostSurgeryRecoveryPage = () => {
 
               {/* Body */}
               <p className="text-[15px] text-[#5F5F5F] leading-[1.7]">
-                <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">Ultrasound therapy</a> is most effective during the <strong className="text-[#1A1A1A] font-semibold">Remodeling Phase</strong> of healing (usually 2–6 weeks post-op). It uses high-frequency vibrations to "reorganize" collagen fibers, ensuring they lay down in a neat, functional pattern rather than a messy, stiff clump.
+                <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">Ultrasound therapy</a> is most effective during the <strong className="text-[#1A1A1A] font-semibold">Remodeling Phase</strong> of healing (usually 2–6 weeks post-op). It uses high-frequency vibrations to "reorganize" collagen fibers, ensuring they lay down in a neat, functional pattern rather than a messy, stiff clump.
               </p>
 
               {/* Timeline */}
@@ -240,17 +240,17 @@ const PostSurgeryRecoveryPage = () => {
                 {
                   icon: <Activity className="w-6 h-6" />,
                   title: 'Increased Protein Synthesis:',
-                  body: <>The "acoustic streaming" effect of <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> stimulates the cells (fibroblasts) responsible for producing the proteins needed to close and strengthen surgical wounds.</>
+                  body: <>The "acoustic streaming" effect of <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> stimulates the cells (fibroblasts) responsible for producing the proteins needed to close and strengthen surgical wounds.</>
                 },
                 {
                   icon: <Droplet className="w-6 h-6" />,
                   title: 'Reduction of Edema (Swelling):',
-                  body: <>Post-op swelling can trap nerves and cause immense pain. <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">Ultrasound therapy</a> helps move interstitial fluid back into the lymphatic system, visibly reducing swelling in the joint.</>
+                  body: <>Post-op swelling can trap nerves and cause immense pain. <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">Ultrasound therapy</a> helps move interstitial fluid back into the lymphatic system, visibly reducing swelling in the joint.</>
                 },
                 {
                   icon: <Shield className="w-6 h-6" />,
                   title: 'Softening Internal Scar Tissue:',
-                  body: <>It prevents internal "internal snagging" where the skin or muscle sticks to the surgical hardware (screws/plates) or the bone. <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">Ultrasound therapy</a> softens internal scar tissue effectively.</>
+                  body: <>It prevents internal "internal snagging" where the skin or muscle sticks to the surgical hardware (screws/plates) or the bone. <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">Ultrasound therapy</a> softens internal scar tissue effectively.</>
                 }
               ].map((card, idx) => (
                 <motion.div
@@ -381,7 +381,7 @@ const PostSurgeryRecoveryPage = () => {
                 <div className="relative z-10 flex flex-col gap-4">
                   <h3 style={{ fontSize: '20px', fontWeight: 700, lineHeight: 1.4 }}>Fracture Healing Support</h3>
                   <p style={{ fontSize: '15px', color: 'rgba(255,255,255,0.90)', lineHeight: 1.7 }}>
-                    Low-intensity pulsed <a href="/services/ultrasound-therapy-dubai" className="underline font-semibold text-white">ultrasound therapy</a> (LIPUS) can actually help speed up bone knitting in non-union fractures.
+                    Low-intensity pulsed <a href="/services/ultrasound-therapy-dubai/" className="underline font-semibold text-white">ultrasound therapy</a> (LIPUS) can actually help speed up bone knitting in non-union fractures.
                   </p>
                   <a href="#book-now" className="inline-flex items-center gap-1 text-white hover:underline" style={{ fontSize: '14px', fontWeight: 600 }}>
                     Learn More
@@ -405,7 +405,7 @@ const PostSurgeryRecoveryPage = () => {
                 The RamaCare &quot;Safe-Start&quot; Protocol
               </h2>
               <p className="text-[#5F5F5F] max-w-3xl mx-auto" style={{ fontSize: '17px', lineHeight: 1.7 }}>
-                Timing is everything in post-surgical care. We follow a strict safety timeline to ensure the surgical site is ready for <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a>:
+                Timing is everything in post-surgical care. We follow a strict safety timeline to ensure the surgical site is ready for <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a>:
               </p>
             </div>
 
@@ -608,7 +608,7 @@ const PostSurgeryRecoveryPage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex items-center justify-center gap-3 bg-[#25D366] text-white px-10 py-4 rounded-xl font-bold hover:bg-[#20bd5a] transition-all shadow-lg text-lg"
                   >
                     <MessageCircle className="w-6 h-6" />

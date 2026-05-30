@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function FractionalCo2LaserPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function FractionalCo2LaserPage() {
   return (
     <Layout>
       <Head>
-  <title>Fractional CO2 Laser in Dubai for Skin Resurfacing</title>
-  <meta name="description" content="Fractional CO2 laser in Dubai improves skin texture, reduces scars, fine lines, and pigmentation, delivering smoother, youthful skin under expert care." />
+  <title key="title">Fractional CO2 Laser in Dubai for Skin Resurfacing</title>
+  <meta name="description" content="Fractional CO2 laser in Dubai improves skin texture, reduces scars, fine lines, and pigmentation, delivering smoother, youthful skin under expert care." key="description" />
   <meta name="keywords" content="Fractional CO2 laser Dubai, Skin resurfacing Dubai, Scar removal treatment Dubai, Acne scar treatment Dubai, Fine lines reduction Dubai, Pigmentation treatment Dubai, Non-surgical skin rejuvenation, Laser skin treatment Dubai, Professional CO2 laser therapy, Anti-aging skin treatment" />
   
   <script
@@ -36,10 +37,10 @@ export default function FractionalCo2LaserPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai/#condition",
           "name": "Skin Texture Irregularities, Scarring & Aging Signs",
           "alternateName": "Fine Lines, Wrinkles, Acne Scars & Uneven Texture",
-          "url": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai/",
           "description": "Skin texture irregularities, fine lines, wrinkles, acne scars, stretch marks, and other surface irregularities can impact skin smoothness and appearance. Fractional CO2 laser therapy helps improve these conditions by stimulating skin remodeling and collagen regeneration.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function FractionalCo2LaserPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai/#procedure",
           "name": "Fractional CO2 Laser Treatment in Dubai",
           "alternateName": "CO2 Laser Skin Resurfacing & Texture Correction",
-          "url": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/fractional-co2-laser-dubai/",
           "description": "Fractional CO2 laser treatment at RamaCare Polyclinic in Dubai is an advanced, minimally invasive laser procedure designed to improve skin texture, reduce fine lines and wrinkles, and treat acne scars and other surface irregularities by promoting collagen remodeling.",
           "procedureType": "Minimally invasive laser dermatologic procedure",
           "howPerformed": "A trained clinician delivers controlled fractional carbon dioxide laser energy in micro‑columns into the skin. This stimulates natural wound healing and collagen production, resurfacing aged or scarred skin while leaving surrounding tissue intact for faster healing.",
@@ -97,7 +98,7 @@ export default function FractionalCo2LaserPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function FractionalCo2LaserPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

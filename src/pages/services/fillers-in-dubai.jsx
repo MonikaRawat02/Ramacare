@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function FillersPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function FillersPage() {
   return (
     <Layout>
       <Head>
-  <title>Fillers in Dubai for Natural Facial Volume and Contour</title>
-  <meta name="description" content="Fillers in Dubai help restore facial volume, smooth lines, and enhance contours using safe, doctor-administered treatments for natural-looking results." />
+  <title key="title">Fillers in Dubai for Natural Facial Volume and Contour</title>
+  <meta name="description" content="Fillers in Dubai help restore facial volume, smooth lines, and enhance contours using safe, doctor-administered treatments for natural-looking results." key="description" />
   <meta name="keywords" content="Fillers in Dubai, Dermal fillers Dubai, Facial fillers treatment, Anti-aging fillers Dubai, Lip fillers Dubai, Cheek fillers Dubai, Wrinkle reduction treatment, Non-surgical facial enhancement, Hyaluronic acid fillers, Aesthetic injectables Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function FillersPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/fillers-in-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/fillers-in-dubai/#condition",
           "name": "Facial Volume Loss and Aging Concerns",
           "alternateName": "Facial Lines, Wrinkles & Loss of Volume",
-          "url": "https://ramacarepolyclinic.ae/services/fillers-in-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/fillers-in-dubai/",
           "description": "Facial volume loss and aging concerns include reduced facial fullness, fine lines, deeper folds, loss of youthful contours, and changes in skin elasticity often seen with aging or environmental effects.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function FillersPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/fillers-in-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/fillers-in-dubai/#procedure",
           "name": "Facial Fillers Treatment in Dubai",
           "alternateName": "Dermal Filler Injections",
-          "url": "https://ramacarepolyclinic.ae/services/fillers-in-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/fillers-in-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/fillers-in-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/fillers-in-dubai/",
           "description": "Facial fillers treatment in Dubai at RamaCare Polyclinic is a minimally invasive aesthetic procedure that uses injectable dermal fillers to restore volume, reduce lines, and enhance facial contours.",
           "procedureType": "Minimally invasive aesthetic injection therapy",
           "howPerformed": "Performed by trained clinicians, the treatment involves precise injections of quality dermal filler products into targeted facial areas such as cheeks, lips, nasolabial folds, and under-eye regions to add volume and smooth lines.",
@@ -97,7 +98,7 @@ export default function FillersPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function FillersPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

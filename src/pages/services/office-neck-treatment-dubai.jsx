@@ -50,8 +50,8 @@ const OfficeNeckTreatmentPage = () => {
     <>
     <Layout>
       <Head>
-        <title>'Office Neck' Treatment Dubai | Ultrasound Therapy at RamaCare</title>
-        <meta name="description" content="Are you a professional in DIFC or Business Bay suffering from neck stiffness? Discover how RamaCare’s ultrasound therapy fixes 'Office Neck' and postural strain fast." />
+        <title key="title">'Office Neck' Treatment Dubai | Ultrasound Therapy at RamaCare</title>
+        <meta name="description" content="Are you a professional in DIFC or Business Bay suffering from neck stiffness? Discover how RamaCare’s ultrasound therapy fixes 'Office Neck' and postural strain fast." key="description" />
         
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
@@ -73,7 +73,7 @@ const OfficeNeckTreatmentPage = () => {
                     'Office Neck' Treatment Dubai | Ultrasound Therapy at RamaCare
                   </h1>
                   <p className="text-base md:text-[18px] text-[#5F5F5F] leading-relaxed">
-                    Are you a professional in DIFC or Business Bay suffering from neck stiffness? Discover how RamaCare's <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy </a> fixes "Office Neck" and postural strain fast.
+                    Are you a professional in DIFC or Business Bay suffering from neck stiffness? Discover how RamaCare's <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy </a> fixes "Office Neck" and postural strain fast.
                   </p>
                 </div>
 
@@ -86,7 +86,7 @@ const OfficeNeckTreatmentPage = () => {
                       In the high-pressure hubs of DIFC and Downtown Dubai, "Office Neck" (Cervical Myofascial Pain) has become the leading cause of sick leave and reduced productivity. Spending 8–10 hours leaning toward a dual-monitor setup or looking down at a smartphone creates "Micro-Trauma" in the levator scapulae and trapezius muscles.
                     </p>
                     <p>
-                      At RamaCare Polyclinic, we provide a targeted medical intervention using clinical <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> to "reset" these muscles without the need for invasive injections or long-term medication.
+                      At RamaCare Polyclinic, we provide a targeted medical intervention using clinical <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> to "reset" these muscles without the need for invasive injections or long-term medication.
                     </p>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ const OfficeNeckTreatmentPage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex items-center justify-center gap-3 bg-white text-[#1F5E4B] border-2 border-[#1F5E4B] px-8 py-4 rounded-xl font-bold hover:bg-[#F5F1E8] transition-all"
                   >
                     <MessageCircle className="w-5 h-5" />
@@ -187,7 +187,7 @@ const OfficeNeckTreatmentPage = () => {
                   The 60-Minute Recovery:
                 </h2>
                 <p className="text-base md:text-[18px] text-[#5F5F5F] leading-relaxed">
-                  Because <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> sessions take only 10–15 minutes, professionals from DIFC can receive treatment and return to their office in under an hour, making it the most efficient recovery tool for the Dubai corporate lifestyle.
+                  Because <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">ultrasound therapy</a> sessions take only 10–15 minutes, professionals from DIFC can receive treatment and return to their office in under an hour, making it the most efficient recovery tool for the Dubai corporate lifestyle.
                 </p>
               </div>
             </motion.div>
@@ -199,10 +199,10 @@ const OfficeNeckTreatmentPage = () => {
           <div className="max-w-7xl mx-auto">
             <div className="text-center space-y-4 max-w-3xl mx-auto mb-16">
               <h2 className="text-4xl md:text-5xl font-semibold text-[#1A1A1A] leading-tight">
-                How <a href="/services/ultrasound-therapy-dubai" className="hover:underline">Ultrasound</a> Targets Postural Strain
+                How <a href="/services/ultrasound-therapy-dubai/" className="hover:underline">Ultrasound</a> Targets Postural Strain
               </h2>
               <p className="text-lg text-[#5F5F5F] leading-relaxed">
-                When you suffer from postural strain, your neck muscles develop "Trigger Points"—tight knots that restrict blood flow and cause tension headaches. <a href="/services/ultrasound-therapy-dubai" className="text-[#1F5E4B] hover:underline font-semibold">Ultrasound therapy</a> treats this via two specific mechanisms:
+                When you suffer from postural strain, your neck muscles develop "Trigger Points"—tight knots that restrict blood flow and cause tension headaches. <a href="/services/ultrasound-therapy-dubai/" className="text-[#1F5E4B] hover:underline font-semibold">Ultrasound therapy</a> treats this via two specific mechanisms:
               </p>
             </div>
 
@@ -528,7 +528,7 @@ const OfficeNeckTreatmentPage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex items-center gap-3 text-[#1F5E4B] font-bold hover:underline"
                   >
                     <MessageCircle className="w-6 h-6" />

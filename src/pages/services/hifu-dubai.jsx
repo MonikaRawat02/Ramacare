@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function HIFUPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function HIFUPage() {
   return (
     <Layout>
       <Head>
-  <title>HIFU in Dubai for Non-Surgical Skin Lifting Treatment</title>
-  <meta name="description" content="HIFU in Dubai helps lift and tighten sagging skin using focused ultrasound technology under expert medical supervision for natural-looking results." />
+  <title key="title">HIFU in Dubai for Non-Surgical Skin Lifting Treatment</title>
+  <meta name="description" content="HIFU in Dubai helps lift and tighten sagging skin using focused ultrasound technology under expert medical supervision for natural-looking results." key="description" />
   <meta name="keywords" content="HIFU in Dubai, HIFU treatment Dubai, Non-surgical skin tightening Dubai, HIFU face lifting Dubai, Skin lifting treatment Dubai, Anti-aging HIFU treatment, Facial skin tightening Dubai, Ultrasound skin therapy, Aesthetic skin care Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function HIFUPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/hifu-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/hifu-dubai/#condition",
           "name": "Facial Skin Laxity and Aging Changes",
           "alternateName": "Loose Skin & Loss of Elasticity",
-          "url": "https://ramacarepolyclinic.ae/services/hifu-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hifu-dubai/",
           "description": "Facial skin laxity and aging changes refer to loose or sagging skin, reduced elasticity, diminished facial contour, and age-related signs that often occur due to collagen loss and natural aging processes.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function HIFUPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/hifu-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/hifu-dubai/#procedure",
           "name": "HIFU Skin Tightening in Dubai",
           "alternateName": "Non-Surgical Ultrasound Skin Lift",
-          "url": "https://ramacarepolyclinic.ae/services/hifu-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hifu-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hifu-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hifu-dubai/",
           "description": "HIFU Skin Tightening in Dubai at RamaCare Polyclinic is a non-surgical aesthetic procedure that uses high-intensity focused ultrasound energy to target deep skin layers, stimulate collagen production, and lift and tighten sagging skin.",
           "procedureType": "Non-invasive aesthetic dermatology procedure",
           "howPerformed": "The clinician uses a specialized HIFU device to deliver focused ultrasound energy to specific layers beneath the skin’s surface. This stimulates collagen remodeling and tissue tightening over following weeks.",
@@ -97,7 +98,7 @@ export default function HIFUPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function HIFUPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

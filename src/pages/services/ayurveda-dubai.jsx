@@ -39,104 +39,17 @@ export default function AyurvedaCategoryPage() {
   return (
     <Layout>
       <Head>
-  <title>Ayurveda Treatment in Dubai | Best Ayurvedic Clinic & Care</title>
-  <meta name="description" content="Restore health naturally with Ayurveda treatment in Dubai. Personalized herbal therapies, Panchakarma, and holistic care by certified Ayurvedic doctors for wellness." />
+  <title key="title">Ayurveda Treatment in Dubai | Best Ayurvedic Clinic & Care</title>
+  <meta name="description" content="Restore health naturally with Ayurveda treatment in Dubai. Personalized herbal therapies, Panchakarma, and holistic care by certified Ayurvedic doctors for wellness." key="description" />
   <meta name="keywords" content="Ayurveda treatment Dubai, Ayurvedic clinic Dubai, Ayurvedic doctor in Dubai, Panchakarma treatment in Dubai, Herbal therapy Dubai, Holistic health Dubai, Ayurvedic massage Dubai, Traditional Ayurveda Dubai, Ayurveda wellness Dubai, Dosha balancing treatment, Ayurveda Hospital Dubai, Natural healing Dubai" />
   
-  <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "@id": "https://ramacarepolyclinic.ae/services/ayurveda-dubai/#medicalclinic",
-  "name": "Ayurveda Treatment in Dubai",
-  "url": "https://ramacarepolyclinic.ae/services/ayurveda-dubai",
-  "image": "https://ramacarepolyclinic.ae/images/ayurveda.png",
-  "description": "Premium Ayurveda treatment and Panchakarma in Jumeirah 1, Dubai. Authentic detox therapies, chronic pain relief, stress management, digestive wellness, and holistic healing by DHA-licensed Ayurvedic practitioners.",
-  "medicalSpecialty": "Ayurvedic Medicine",
-  "parentOrganization": {
-    "@type": "MedicalOrganization",
-    "@id": "https://ramacarepolyclinic.ae/#organization",
-    "name": "RamaCare Polyclinic"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
-    "addressLocality": "Dubai",
-    "postalCode": "393558",
-    "addressCountry": "AE"
-  },
-  "telephone": "+971566597878",
-  "areaServed": {
-    "@type": "City",
-    "name": "Dubai"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Ayurveda Treatments",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@type": "MedicalProcedure",
-          "name": "Panchakarma Treatment"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@type": "MedicalProcedure",
-          "name": "Chronic Pain Relief Therapy"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@type": "MedicalProcedure",
-          "name": "Stress & Sleep Balance Therapy"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "item": {
-          "@type": "MedicalProcedure",
-          "name": "Women's Wellness Program"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "item": {
-          "@type": "MedicalProcedure",
-          "name": "Digestive & Weight Balance Program"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "item": {
-          "@type": "MedicalProcedure",
-          "name": "Ayurvedic Hairfall Treatment"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "item": {
-          "@type": "MedicalProcedure",
-          "name": "Skin Diseases Treatment"
-        }
-      }
-    ]
-  }
-}`
-  }}
-/>
+  
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaData)
+          }}
+        />
 </Head>
 
       <HeroSection content={content?.hero} />

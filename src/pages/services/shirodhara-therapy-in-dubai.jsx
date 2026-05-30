@@ -15,6 +15,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function ShirodharaTherapyTreatmentPage() {
   const categoryName = 'Ayurveda';
@@ -39,8 +40,8 @@ export default function ShirodharaTherapyTreatmentPage() {
   return (
     <Layout>
       <Head>
-        <title>Shirodhara Therapy in Dubai | Relaxing Ayurvedic Treatment</title>
-        <meta name="description" content="Experience Shirodhara Therapy in Dubai at RamaCare Polyclinic. A traditional Ayurvedic treatment involving a continuous flow of warm herbal oil on the forehead for deep relaxation and mental clarity." />
+        <title key="title">Shirodhara Therapy in Dubai | Relaxing Ayurvedic Treatment</title>
+        <meta name="description" content="Experience Shirodhara Therapy in Dubai at RamaCare Polyclinic. A traditional Ayurvedic treatment involving a continuous flow of warm herbal oil on the forehead for deep relaxation and mental clarity." key="description" />
         <meta name="keywords" content="Shirodhara Therapy Dubai, Ayurvedic Shirodhara Dubai, Stress relief treatment Dubai, Ayurvedic oil pouring therapy, Mental wellness Dubai, Holistic healing Dubai, Traditional Shirodhara Dubai, Relaxation therapy Dubai, Ayurvedic head massage Dubai" />
         
         <script
@@ -50,11 +51,11 @@ export default function ShirodharaTherapyTreatmentPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/shirodhara-therapy-in-dubai#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/shirodhara-therapy-in-dubai/#procedure",
   "name": "Shirodhara Therapy in Dubai",
   "alternateName": "Ayurvedic Oil Pouring Therapy",
-  "url": "https://ramacarepolyclinic.ae/services/shirodhara-therapy-in-dubai",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/shirodhara-therapy-in-dubai",
+  "url": "https://ramacarepolyclinic.ae/services/shirodhara-therapy-in-dubai/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/shirodhara-therapy-in-dubai/",
   "description": "Shirodhara Therapy in Dubai at RamaCare Polyclinic is a deeply relaxing Ayurvedic treatment where warm medicated oil is gently poured in a continuous stream over the forehead (the 'third eye' area) to calm the nervous system and promote mental clarity.",
   "procedureType": "Ayurvedic treatment and relaxation therapy",
   "bodyLocation": "Head and forehead",
@@ -97,7 +98,7 @@ export default function ShirodharaTherapyTreatmentPage() {
         hero={content?.hero}
       />
       <QuickNavigation navItems={navItems} />
-      {/* <CertificationsSection content={content?.certifications} /> */}
+      
       <TreatmentOverview 
         subcategoryName={subcategoryName}
         content={content?.overview}/>
@@ -109,7 +110,7 @@ export default function ShirodharaTherapyTreatmentPage() {
       <CostAndResults content={content?.costResults} />
       <PatientTestimonials content={content?.testimonials} />
       <DoctorsSection content={content?.doctors} />
-      {/* <PricingPackages content={content?.pricing} /> */}
+      
       <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

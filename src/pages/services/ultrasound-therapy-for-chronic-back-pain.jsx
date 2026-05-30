@@ -50,8 +50,8 @@ const UltrasoundBackPainPage = () => {
     <>
     <Layout>
       <Head>
-        <title>Ultrasound Therapy for Back Pain Dubai | Chronic Relief at RamaCare</title>
-        <meta name="description" content="Struggle with chronic back pain or sciatica in Dubai? Discover how targeted ultrasound therapy at RamaCare Jumeirah 1 reduces deep-tissue inflammation and speeds up recovery." />
+        <title key="title">Relieve Chronic Back Pain with Ultrasound in Dubai | RamaCare</title>
+        <meta name="description" content="Struggle with chronic back pain or sciatica in Dubai? Discover how targeted ultrasound therapy at RamaCare Jumeirah 1 reduces deep-tissue inflammation and speeds up recovery." key="description" />
         
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       </Head>
@@ -73,7 +73,7 @@ const UltrasoundBackPainPage = () => {
                     Ultrasound Therapy for Back Pain Dubai | Chronic Relief at RamaCare
                   </h1>
                   <p className="text-lg md:text-xl text-[#5F5F5F] leading-relaxed">
-                    Struggle with chronic back pain or sciatica in Dubai? Discover how targeted <a href="/services/ultrasound-therapy-dubai" className="text-[#1b5e3f] hover:underline font-semibold">ultrasound therapy</a> at RamaCare Jumeirah 1 reduces deep-tissue inflammation and speeds up recovery.
+                    Struggle with chronic back pain or sciatica in Dubai? Discover how targeted <a href="/services/ultrasound-therapy-dubai/" className="text-[#1b5e3f] hover:underline font-semibold">ultrasound therapy</a> at RamaCare Jumeirah 1 reduces deep-tissue inflammation and speeds up recovery.
                   </p>
                 </div>
 
@@ -86,7 +86,7 @@ const UltrasoundBackPainPage = () => {
                       Living in a fast-paced city like Dubai often means long hours sitting at desks in DIFC or stuck in traffic on Sheikh Zayed Road. This sedentary lifestyle leads to "Mechanical Back Pain"—where muscles stay tight, blood flow decreases, and spinal discs face constant pressure.
                     </p>
                     <p>
-                      At RamaCare Polyclinic, we use <a href="/services/ultrasound-therapy-dubai" className="text-[#1b5e3f] hover:underline font-semibold">ultrasound therapy </a> to reach the deep muscle layers that manual massage simply cannot access.
+                      At RamaCare Polyclinic, we use <a href="/services/ultrasound-therapy-dubai/" className="text-[#1b5e3f] hover:underline font-semibold">ultrasound therapy </a> to reach the deep muscle layers that manual massage simply cannot access.
                     </p>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ const UltrasoundBackPainPage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex items-center justify-center gap-3 bg-[#f5f1e8] text-[#1b5e3f] px-8 py-4 rounded-xl font-bold hover:bg-[#ebe5d9] transition-colors border border-[#1b5e3f]/20 shadow-md"
                   >
                     <MessageCircle className="w-5 h-5" />
@@ -148,7 +148,7 @@ const UltrasoundBackPainPage = () => {
               className="bg-white p-10 md:p-12 rounded-2xl shadow-lg border border-gray-100"
             >
               <p className="text-lg md:text-xl text-[#5F5F5F] leading-relaxed">
-                <a href="/services/ultrasound-therapy-dubai" className="text-[#1b5e3f] hover:underline font-semibold">Ultrasound therapy</a> uses high-frequency sound waves to create deep thermal heat in the lower back (lumbar) tissues. This heat increases "Tissue Extensibility," making your back feel less stiff and more mobile after just one session."
+                <a href="/services/ultrasound-therapy-dubai/" className="text-[#1b5e3f] hover:underline font-semibold">Ultrasound therapy</a> uses high-frequency sound waves to create deep thermal heat in the lower back (lumbar) tissues. This heat increases "Tissue Extensibility," making your back feel less stiff and more mobile after just one session."
               </p>
             </motion.div>
           </div>
@@ -481,7 +481,7 @@ const UltrasoundBackPainPage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="flex items-center justify-center gap-3 bg-white text-[#1F5E4B] border-2 border-[#1F5E4B] px-8 py-5 rounded-xl font-bold hover:bg-[#F5F1E8] transition-all"
                   >
                     <MessageCircle className="w-5 h-5" />

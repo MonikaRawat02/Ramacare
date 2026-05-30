@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function MicrodermabrasionPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function MicrodermabrasionPage() {
   return (
     <Layout>
       <Head>
-  <title>Microdermabrasion in Dubai for Smooth Radiant Skin</title>
-  <meta name="description" content="Microdermabrasion in Dubai gently exfoliates the skin to improve texture, reduce dullness, unclog pores, and support a clearer, healthier complexion." />
+  <title key="title">Microdermabrasion in Dubai for Smooth Radiant Skin</title>
+  <meta name="description" content="Microdermabrasion in Dubai gently exfoliates the skin to improve texture, reduce dullness, unclog pores, and support a clearer, healthier complexion." key="description" />
   <meta name="keywords" content="Microdermabrasion in Dubai, Skin exfoliation treatment Dubai, Microdermabrasion facial Dubai, Skin rejuvenation Dubai, Dead skin removal treatment, Open pores treatment Dubai, Skin texture improvement, Professional facial treatment Dubai, Non-invasive skin treatment, Clear skin therapy Dubai, Microdermabrasion in dubai price, Microdermabrasion in dubai cost, Best microdermabrasion in dubai, Microdermabrasion in dubai offers, Microdermabrasion near me, Microdermabrasion benefits, Microdermabrasion meaning, Microdermabrasion vs HydraFacial" />
   
    <script
@@ -36,10 +37,10 @@ export default function MicrodermabrasionPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai/#condition",
           "name": "Facial Skin Texture and Surface Concerns",
           "alternateName": "Uneven Texture, Mild Scarring & Dull Skin",
-          "url": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai/",
           "description": "Facial skin texture and surface concerns include uneven skin feel, mild surface scarring, clogged pores, dullness, and early signs of aging that affect the smooth appearance and glow of the skin.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function MicrodermabrasionPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai/#procedure",
           "name": "Microdermabrasion Treatment in Dubai",
           "alternateName": "Crystal/Diamond Microdermabrasion Facial",
-          "url": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/microdermabrasion-dubai/",
           "description": "Microdermabrasion treatment in Dubai at RamaCare Polyclinic is a non-invasive aesthetic dermatology procedure that gently exfoliates the skin’s outer layer to improve texture, clarity, and tone.",
           "procedureType": "Non-invasive aesthetic dermatology procedure",
           "howPerformed": "This procedure involves using a specialized microdermabrasion device that emits fine crystals or diamond tips to abrade the skin’s surface, followed by vacuum suction to remove dead skin cells and impurities, helping reveal smoother, brighter skin.",
@@ -97,7 +98,7 @@ export default function MicrodermabrasionPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function MicrodermabrasionPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

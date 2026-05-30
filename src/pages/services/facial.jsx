@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function FacialPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function FacialPage() {
   return (
     <Layout>
       <Head>
-  <title>Facial in Dubai for Healthy, Refreshed, and Glowing Skin</title>
-  <meta name="description" content="Facial in Dubai treatments cleanse, exfoliate, and nourish the skin, improving texture, hydration, and overall skin health under expert care." />
+  <title key="title">Facial in Dubai for Healthy, Refreshed, and Glowing Skin</title>
+  <meta name="description" content="Facial in Dubai treatments cleanse, exfoliate, and nourish the skin, improving texture, hydration, and overall skin health under expert care." key="description" />
   <meta name="keywords" content="Facial in Dubai, Professional facial treatment in Dubai, Skin care facial Dubai, Hydrating facial Dubai, Skin rejuvenation facial, Deep cleansing facial in Dubai, Glow facial treatment, Anti-aging facial in Dubai, Dermatology facial Dubai" />
 </Head>
 
@@ -35,7 +36,7 @@ export default function FacialPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -46,7 +47,7 @@ export default function FacialPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

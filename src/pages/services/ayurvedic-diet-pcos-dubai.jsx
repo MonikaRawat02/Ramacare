@@ -225,8 +225,8 @@ export default function AyurvedicDietPCOSPage() {
     <Layout>
       {ToastComponent}
       <Head>
-        <title>Ayurvedic Diet for PCOS Dubai | Balance Hormones Naturally | RamaCare</title>
-        <meta name="description" content="Struggling with PCOS in the UAE? Discover a personalized Ayurvedic Diet Plan in Dubai designed to balance hormones, improve insulin sensitivity, and regularize cycles. Reviewed by DHA-licensed experts at RamaCare Jumeirah. Book your consultation today!" />
+        <title key="title">Ayurvedic Diet for PCOS Dubai | Balance Hormones Naturally | RamaCare</title>
+        <meta name="description" content="Struggling with PCOS in the UAE? Discover a personalized Ayurvedic Diet Plan in Dubai designed to balance hormones, improve insulin sensitivity, and regularize cycles. Reviewed by DHA-licensed experts at RamaCare Jumeirah. Book your consultation today!" key="description" />
         <meta name="keywords" content="Ayurvedic diet for PCOS Dubai, PCOS treatment Dubai, hormonal balance Ayurveda, PCOS diet plan UAE, natural PCOS remedy Dubai" />
         
       </Head>
@@ -301,7 +301,7 @@ export default function AyurvedicDietPCOSPage() {
                 <a 
                   href="https://wa.me/971566597878"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all duration-300 hover:shadow-lg"
                   style={{ 
                     fontFamily: "'Nunito Sans', sans-serif", 

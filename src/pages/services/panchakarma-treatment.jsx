@@ -14,6 +14,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function PanchakarmaTreatmentPage() {
   const categoryName = 'Ayurveda';
@@ -25,8 +26,8 @@ export default function PanchakarmaTreatmentPage() {
   return (
     <Layout>
       <Head>
-  <title>Panchakarma Treatment in Dubai | Ayurvedic Detox & Wellness</title>
-  <meta name="description" content="Discover authentic Panchakarma treatment in Dubai for detox, stress relief, immunity boost, and rejuvenation. Affordable pricing, Bur Dubai & Al Nahda centers available." />
+  <title key="title">Panchakarma Treatment in Dubai | Ayurvedic Detox & Wellness</title>
+  <meta name="description" content="Discover authentic Panchakarma treatment in Dubai for detox, stress relief, immunity boost, and rejuvenation. Affordable pricing, Bur Dubai & Al Nahda centers available." key="description" />
   <meta name="keywords" content="Panchakarma treatment in Dubai, Ayurvedic Panchakarma Dubai, Panchakarma treatment cost in Dubai, Panchakarma treatment price list, Panchakarma Bur Dubai, Panchakarma Ayurvedic Centre, Panchakarma Ayurveda centre reviews, Panchakarma Al Nahda, Ayurvedic treatment in Dubai, Panchakarma treatment near me, Body detox Ayurveda Dubai, Stress Relief Ayurveda Dubai" />
    
    <script
@@ -36,11 +37,11 @@ export default function PanchakarmaTreatmentPage() {
 {
   "@context": "https://schema.org",
   "@type": "MedicalProcedure",
-  "@id": "https://ramacarepolyclinic.ae/services/panchakarma-treatment#procedure",
+  "@id": "https://ramacarepolyclinic.ae/services/panchakarma-treatment/#procedure",
   "name": "Panchakarma Treatment in Dubai",
   "alternateName": "Ayurvedic Panchakarma Detox & Rejuvenation",
-  "url": "https://ramacarepolyclinic.ae/services/panchakarma-treatment",
-  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/panchakarma-treatment",
+  "url": "https://ramacarepolyclinic.ae/services/panchakarma-treatment/",
+  "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/panchakarma-treatment/",
   "description": "Panchakarma Treatment in Dubai at RamaCare Polyclinic offers traditional Ayurvedic detoxification and rejuvenation therapies designed to cleanse the body, balance doshas, and restore wellness, guided by experienced practitioners.",
   "procedureType": "Ayurvedic detox treatment",
   "bodyLocation": "Whole body",
@@ -85,7 +86,7 @@ export default function PanchakarmaTreatmentPage() {
       hero={content?.hero}
     />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -97,7 +98,7 @@ export default function PanchakarmaTreatmentPage() {
     <PanchakarmaWhyChoose content={content?.panchakarmaWhyChoose} />
     <PatientTestimonials content={content?.testimonials} />
      <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
     <FAQSection content={content?.faq} />
     <BookConsultation content={content?.bookConsultation} />

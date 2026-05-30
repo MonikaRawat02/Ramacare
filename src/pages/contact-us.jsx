@@ -188,8 +188,8 @@ const ContactUsPage = () => {
     <div className="force-light">
       <Layout>
         <Head>
-        <title>Contact Us | RamaCare Polyclinic Dubai</title>
-        <meta name="description" content="Get in touch with RamaCare Polyclinic in Jumeirah 1, Dubai. Book your appointment, find our location, or call us for any inquiries." />
+        <title key="title">Contact Us | RamaCare Polyclinic Dubai</title>
+        <meta name="description" content="Get in touch with RamaCare Polyclinic in Jumeirah 1, Dubai. Book your appointment, find our location, or call us for any inquiries." key="description" />
       </Head>
 
         <style jsx global>{`
@@ -555,7 +555,7 @@ const ContactUsPage = () => {
                     <a 
                       href="https://wa.me/971566597878"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                       className="block w-full bg-[#25d366] hover:bg-[#128c7e] rounded-xl py-3 px-4 text-center font-medium transition-all"
                     >
                       <div className="flex items-center justify-center gap-2">

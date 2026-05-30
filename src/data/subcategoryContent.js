@@ -1234,49 +1234,49 @@ comparisonData: [
             id: 1,
             text: 'Panchakarma Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/panchakarma-treatment-dubai'
+            link: '/services/panchakarma-treatment/'
           },
           {
             id: 2,
             text: 'Diet Advice',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 3,
             text: 'Analysis of Individual',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/analysis-of-individual-dubai'
+            link: '/services/analysis-of-individual-dubai/'
           },
            {
             id: 4,
             text: 'Ayurvedic Hairfall Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/ayurvedic-hairfall-treatment-dubai'
+            link: '/services/ayurvedic-hairfall-treatment-dubai/'
           },
           {
             id: 5,
             text: ' Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/skin-diseases-treatment-dubai'
+            link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
             text: ' Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
             text: ' Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gastrointestinal-diseases-treatment-dubai'
+            link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
           {
             id: 8,
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pcos-treatment-dubai'
+            link: '/services/pcos-treatment-dubai/'
           }
         ]
       },
@@ -1948,49 +1948,49 @@ comparisonData: [
             id: 1,
             text: 'Panchakarma Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/panchakarma-treatment-dubai'
+            link: '/services/panchakarma-treatment/'
           },
           {
             id: 2,
             text: 'Diet Advice',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 3,
             text: 'Analysis of Individual',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/analysis-of-individual-dubai'
+            link: '/services/analysis-of-individual-dubai/'
           },
            {
             id: 4,
             text: 'Ayurvedic Hairfall Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/ayurvedic-hairfall-treatment-dubai'
+            link: '/services/ayurvedic-hairfall-treatment-dubai/'
           },
           {
             id: 5,
             text: ' Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/skin-diseases-treatment-dubai'
+            link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
             text: ' Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
             text: ' Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gastrointestinal-diseases-treatment-dubai'
+            link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
           {
             id: 8,
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pcos-treatment-dubai'
+            link: '/services/pcos-treatment-dubai/'
           }
         ]
       },
@@ -2454,7 +2454,7 @@ comparisonData: [
     digestiveHealth: {
       title: 'Why Digestive Health Matters for Skin Wellness',
       description: 'According to Ayurveda, digestion and skin health are closely connected. Poor digestion and toxin accumulation may affect blood purification, immunity, and skin balance, contributing to recurring skin concerns over time.',
-      approach: 'Ayurvedic therapies focus on improving digestive wellness naturally while supporting detoxification and internal balance. Many individuals combine skin wellness therapies with <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> programs to support deeper detoxification and long-term wellness naturally.'
+      approach: 'Ayurvedic therapies focus on improving digestive wellness naturally while supporting detoxification and internal balance. Many individuals combine skin wellness therapies with <a href="/services/panchakarma-treatment/">Panchakarma Treatment Dubai</a> programs to support deeper detoxification and long-term wellness naturally.'
     },
 
     dietLifestyle: {
@@ -2473,7 +2473,7 @@ comparisonData: [
             'Avoid harsh chemical products',
             'Follow personalized wellness guidance'
           ],
-          conclusion: 'For comprehensive wellness support, explore <a href="/services/ayurveda-dubai/">Ayurveda Treatment Dubai</a> and <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> programs.'
+          conclusion: 'For comprehensive wellness support, explore <a href="/services/ayurveda-dubai/">Ayurveda Treatment Dubai</a> and <a href="/services/panchakarma-treatment/">Panchakarma Treatment Dubai</a> programs.'
         }
       }
     },
@@ -2734,7 +2734,7 @@ comparisonData: [
   {
     id: 9,
     question: 'Is Panchakarma helpful for skin detoxification?',
-    answer: 'Many individuals combine Ayurvedic skin therapies with <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> programs to support detoxification and long-term wellness.'
+    answer: 'Many individuals combine Ayurvedic skin therapies with <a href="/services/panchakarma-treatment/">Panchakarma Treatment Dubai</a> programs to support detoxification and long-term wellness.'
   },
   {
     id: 10,
@@ -2747,49 +2747,49 @@ comparisonData: [
             id: 1,
             text: 'Panchakarma Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/panchakarma-treatment-dubai'
+            link: '/services/panchakarma-treatment/'
           },
           {
             id: 2,
             text: 'Diet Advice',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 3,
             text: 'Analysis of Individual',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/analysis-of-individual-dubai'
+            link: '/services/analysis-of-individual-dubai/'
           },
            {
             id: 4,
             text: 'Ayurvedic Hairfall Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/ayurvedic-hairfall-treatment-dubai'
+            link: '/services/ayurvedic-hairfall-treatment-dubai/'
           },
           {
             id: 5,
             text: ' Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/skin-diseases-treatment-dubai'
+            link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
             text: ' Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
             text: ' Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gastrointestinal-diseases-treatment-dubai'
+            link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
           {
             id: 8,
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pcos-treatment-dubai'
+            link: '/services/pcos-treatment-dubai/'
           }
         ]
       },
@@ -3504,49 +3504,49 @@ comparisonData: [
             id: 1,
             text: 'Panchakarma Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/panchakarma-treatment-dubai'
+            link: '/services/panchakarma-treatment/'
           },
           {
             id: 2,
             text: 'Diet Advice',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 3,
             text: 'Analysis of Individual',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/analysis-of-individual-dubai'
+            link: '/services/analysis-of-individual-dubai/'
           },
            {
             id: 4,
             text: 'Ayurvedic Hairfall Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/ayurvedic-hairfall-treatment-dubai'
+            link: '/services/ayurvedic-hairfall-treatment-dubai/'
           },
           {
             id: 5,
             text: ' Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/skin-diseases-treatment-dubai'
+            link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
             text: ' Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
             text: ' Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gastrointestinal-diseases-treatment-dubai'
+            link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
           {
             id: 8,
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pcos-treatment-dubai'
+            link: '/services/pcos-treatment-dubai/'
           }
         ]
       },
@@ -3951,7 +3951,7 @@ rootCauses: [
       'To maximize results of Basti Therapy in Dubai, we provide personalized Ayurvedic diet and lifestyle recommendations.',
     hasLearnMore: true,
     expandedContent:
-      'This includes warm, easy-to-digest meals, hydration guidance, sleep routine improvement, and stress management practices. <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> and <a href="/services/ayurveda-dubai/">Ayurveda Treatment Dubai</a>. Goal: Maintain long-term benefits of Basti Therapy in Dubai.'
+      'This includes warm, easy-to-digest meals, hydration guidance, sleep routine improvement, and stress management practices. <a href="/services/panchakarma-treatment/">Panchakarma Treatment Dubai</a> and <a href="/services/ayurveda-dubai/">Ayurveda Treatment Dubai</a>. Goal: Maintain long-term benefits of Basti Therapy in Dubai.'
   },
   {
     id: 6,
@@ -3995,10 +3995,10 @@ rootCauses: [
         }
       ],
       internalLinks: [
-        { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment-dubai' },
-        { text: 'Shirodhara Therapy Dubai', link: '/services/shirodhara-therapy-in-dubai' },
-        { text: 'Ayurvedic Stress Management Dubai', link: '/services/ayurvedic-stress-management-dubai' },
-        { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai' }
+        { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment/' },
+        { text: 'Shirodhara Therapy Dubai', link: '/services/shirodhara-therapy-in-dubai/' },
+        { text: 'Ayurvedic Stress Management Dubai', link: '/services/ayurvedic-stress-management-dubai/' },
+        { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai/' }
       ],
       
     },
@@ -4197,8 +4197,8 @@ rootCauses: [
           'Follow personalized wellness guidance'
         ],
         internalLinks: [
-          { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai' },
-          { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment-dubai' }
+          { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai/' },
+          { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment/' }
         ]
       },
       relatedTherapies: {
@@ -4235,8 +4235,8 @@ rootCauses: [
         'Follow personalized wellness guidance'
       ],
       internalLinks: [
-        { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai' },
-        { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment-dubai' }
+        { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai/' },
+        { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment/' }
       ]
     },
     recovery: {
@@ -4311,8 +4311,8 @@ rootCauses: [
       ],
       ayurvedicPrinciple: 'According to Ayurveda, digestive health is fundamental to overall wellness. Ayurvedic detox therapies focus on improving gut health naturally by supporting digestion, promoting healthy elimination, and restoring dosha balance.',
       ayurvedicBenefits: [
-        'Many individuals choose <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> and Ayurvedic wellness therapies to support long-term digestive balance',
-        'Therapies such as <a href="/services/nasya-therapy-in-dubai/">Nasya Therapy Dubai</a>, <a href="/services/abhyanga-massage-dubai/">Abhyanga Massage Dubai</a>, and Shirodhara treatments may be recommended as part of personalized wellness programs',
+        'Many individuals choose <a href="/services/panchakarma-treatment/">Panchakarma Treatment Dubai</a> and Ayurvedic wellness therapies to support long-term digestive balance',
+        'Therapies such as <a href="/services/nasya-therapy-dubai/">Nasya Therapy Dubai</a>, <a href="/services/abhyanga-massage-dubai/">Abhyanga Massage Dubai</a>, and Shirodhara treatments may be recommended as part of personalized wellness programs',
         'Ayurvedic specialists create individualized detoxification plans to support digestive efficiency, toxin elimination, and holistic rejuvenation'
       ],
       additionalContent: {
@@ -4329,7 +4329,7 @@ rootCauses: [
           'Irregular appetite and metabolism',
           'Feeling physically or mentally exhausted'
         ],
-        conclusion: 'Ayurvedic cleansing therapies aim to address these concerns holistically by supporting healthy digestion, natural toxin elimination, and internal balance. As part of personalized <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> programs, additional therapies such as <a href="/services/shirodhara-therapy-in-dubai/">Shirodhara Therapy Dubai</a> and <a href="/services/nasya-therapy-in-dubai/">Nasya Therapy Dubai</a> may also be recommended to support nervous system balance, stress management, and overall rejuvenation.\n\nAt Rama Care Polyclinic, every wellness plan is customized according to the patient\'s body constitution, lifestyle habits, health condition, and detoxification goals to ensure safe and effective Ayurvedic care.'
+        conclusion: 'Ayurvedic cleansing therapies aim to address these concerns holistically by supporting healthy digestion, natural toxin elimination, and internal balance. As part of personalized <a href="/services/panchakarma-treatment/">Panchakarma Treatment Dubai</a> programs, additional therapies such as <a href="/services/shirodhara-therapy-in-dubai/">Shirodhara Therapy Dubai</a> and <a href="/services/nasya-therapy-dubai/">Nasya Therapy Dubai</a> may also be recommended to support nervous system balance, stress management, and overall rejuvenation.\n\nAt Rama Care Polyclinic, every wellness plan is customized according to the patient\'s body constitution, lifestyle habits, health condition, and detoxification goals to ensure safe and effective Ayurvedic care.'
       }
     },
     gutHealth: {
@@ -4361,9 +4361,9 @@ rootCauses: [
         }
       ],
       internalLinks: [
-        { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment-dubai' },
-        { text: 'Shirodhara Therapy Dubai', link: '/services/shirodhara-therapy-dubai' },
-        { text: 'Ayurvedic Stress Management Dubai', link: '/services/ayurvedic-stress-management-dubai' }
+        { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment/' },
+        { text: 'Shirodhara Therapy Dubai', link: '/services/shirodhara-therapy-in-dubai/' },
+        { text: 'Ayurvedic Stress Management Dubai', link: '/services/ayurvedic-stress-management-dubai/' }
       ]
     },
     paymentInsurance: {
@@ -4427,7 +4427,7 @@ rootCauses: [
     id: 8,
     question: 'Is Basti Therapy part of Panchakarma Treatment?',
     answer:
-      'Yes, Basti is considered one of the most important therapies in <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> programs designed for detoxification, dosha balancing, and long-term wellness support.'
+      'Yes, Basti is considered one of the most important therapies in <a href="/services/panchakarma-treatment/">Panchakarma Treatment Dubai</a> programs designed for detoxification, dosha balancing, and long-term wellness support.'
   },
   {
     id: 9,
@@ -4542,8 +4542,8 @@ rootCauses: [
         }
       ],
       internalLinks: [
-        { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai' },
-        { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment-dubai' }
+        { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai/' },
+        { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment/' }
       ],
       quickFacts: [
         { label: 'Treatment Type', value: 'Ayurvedic nasal therapy' },
@@ -4741,8 +4741,8 @@ rootCauses: [
           'Avoid environmental triggers when possible'
         ],
         internalLinks: [
-          { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai' },
-          { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment-dubai' }
+          { text: 'Ayurveda Treatment Dubai', link: '/services/ayurveda-dubai/' },
+          { text: 'Panchakarma Treatment Dubai', link: '/services/panchakarma-treatment/' }
         ]
       },
       respiratoryWellness: {
@@ -4824,7 +4824,7 @@ rootCauses: [
       id: 6,
       question: 'Is Nasya Therapy part of Panchakarma Treatment?',
       answer:
-        'Yes, Nasya is considered an important therapy in <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a> programs designed to support detoxification, dosha balance, and long-term wellness naturally.'
+        'Yes, Nasya is considered an important therapy in <a href="/services/panchakarma-treatment/">Panchakarma Treatment Dubai</a> programs designed to support detoxification, dosha balance, and long-term wellness naturally.'
     },
     {
       id: 7,
@@ -6598,49 +6598,49 @@ comparisonData: [
             id: 1,
             text: 'Panchakarma Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/panchakarma-treatment-dubai'
+            link: '/services/panchakarma-treatment/'
           },
           {
             id: 2,
             text: 'Diet Advice',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 3,
             text: 'Analysis of Individual',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/analysis-of-individual-dubai'
+            link: '/services/analysis-of-individual-dubai/'
           },
            {
             id: 4,
             text: 'Ayurvedic Hairfall Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/ayurvedic-hairfall-treatment-dubai'
+            link: '/services/ayurvedic-hairfall-treatment-dubai/'
           },
           {
             id: 5,
             text: ' Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/skin-diseases-treatment-dubai'
+            link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
             text: ' Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
             text: ' Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gastrointestinal-diseases-treatment-dubai'
+            link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
           {
             id: 8,
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pcos-treatment-dubai'
+            link: '/services/pcos-treatment-dubai/'
           }
       ]
     },
@@ -7033,7 +7033,7 @@ comparisonData: [
     title: 'Diet & Lifestyle Guidance',
     description: 'Healthy daily habits play a major role in digestive wellness and recovery.',
     hasLearnMore: true,
-    expandedContent: 'Patients may receive guidance on personalized meal planning, gut-friendly dietary habits, hydration support, stress management practices, and sleep improvement strategies. <a href="/services/ayurveda-dubai/">Ayurveda Treatment Dubai</a> and <a href="/services/panchakarma-treatment-dubai/">Panchakarma Treatment Dubai</a>. Goal: Maintain long-term digestive stability and prevent recurrence.'
+    expandedContent: 'Patients may receive guidance on personalized meal planning, gut-friendly dietary habits, hydration support, stress management practices, and sleep improvement strategies. <a href="/services/ayurveda-dubai/">Ayurveda Treatment Dubai</a> and <a href="/services/panchakarma-treatment/">Panchakarma Treatment Dubai</a>. Goal: Maintain long-term digestive stability and prevent recurrence.'
   },
   {
     id: 6,
@@ -7342,49 +7342,49 @@ comparisonData: [
             id: 1,
             text: 'Panchakarma Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/panchakarma-treatment-dubai'
+            link: '/services/panchakarma-treatment/'
           },
           {
             id: 2,
             text: 'Diet Advice',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 3,
             text: 'Analysis of Individual',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/analysis-of-individual-dubai'
+            link: '/services/analysis-of-individual-dubai/'
           },
            {
             id: 4,
             text: 'Ayurvedic Hairfall Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/ayurvedic-hairfall-treatment-dubai'
+            link: '/services/ayurvedic-hairfall-treatment-dubai/'
           },
           {
             id: 5,
             text: ' Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/skin-diseases-treatment-dubai'
+            link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
             text: ' Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
             text: ' Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gastrointestinal-diseases-treatment-dubai'
+            link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
           {
             id: 8,
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pcos-treatment-dubai'
+            link: '/services/pcos-treatment-dubai/'
           }
       ]
     },
@@ -8071,49 +8071,49 @@ comparisonData: [
             id: 1,
             text: 'Panchakarma Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/panchakarma-treatment-dubai'
+            link: '/services/panchakarma-treatment/'
           },
           {
             id: 2,
             text: 'Diet Advice',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 3,
             text: 'Analysis of Individual',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/analysis-of-individual-dubai'
+            link: '/services/analysis-of-individual-dubai/'
           },
            {
             id: 4,
             text: 'Ayurvedic Hairfall Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/ayurvedic-hairfall-treatment-dubai'
+            link: '/services/ayurvedic-hairfall-treatment-dubai/'
           },
           {
             id: 5,
             text: ' Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/skin-diseases-treatment-dubai'
+            link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
             text: ' Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/ayurvedic-diet-plan-dubai'
+            link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
             text: ' Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gastrointestinal-diseases-treatment-dubai'
+            link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
           {
             id: 8,
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pcos-treatment-dubai'
+            link: '/services/pcos-treatment-dubai/'
           },
       ]
     },
@@ -8802,37 +8802,37 @@ comparisonData: [
             id: 1,
             text: 'Ultrasound Therepy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/ultrasound-therapy-dubai'
+            link: '/services/ultrasound-therapy-dubai/'
           },
           {
             id: 2,
             text: 'Electrotherapy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/electrotherapy-dubai'
+            link: '/services/electrotherapy-dubai/'
           },
           {
             id: 3,
             text: 'Pelvic Floor Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/pelvic-floor-therapy-dubai'
+            link: '/services/pelvic-floor-therapy-dubai/'
           },
            {
             id: 4,
             text: 'Scoliosis Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scoliosis-treatment-dubai'
+            link: '/services/scoliosis-treatment-in-dubai/'
           },
           {
             id: 5,
             text: 'Functional Exercise',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/functional-exercises-dubai'
+            link: '/services/functional-exercises-dubai/'
           },
           {
             id: 6,
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dry-needling-dubai'
+            link: '/services/dry-needling-dubai/'
           },
       ]
     },
@@ -9579,37 +9579,37 @@ comparisonData: [
             id: 1,
             text: 'Ultrasound Therepy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/ultrasound-therapy-dubai'
+            link: '/services/ultrasound-therapy-dubai/'
           },
           {
             id: 2,
             text: 'Electrotherapy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/electrotherapy-dubai'
+            link: '/services/electrotherapy-dubai/'
           },
           {
             id: 3,
             text: 'Pelvic Floor Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/pelvic-floor-therapy-dubai'
+            link: '/services/pelvic-floor-therapy-dubai/'
           },
            {
             id: 4,
             text: 'Scoliosis Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scoliosis-treatment-dubai'
+            link: '/services/scoliosis-treatment-in-dubai/'
           },
           {
             id: 5,
             text: 'Functional Exercise',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/functional-exercises-dubai'
+            link: '/services/functional-exercises-dubai/'
           },
           {
             id: 6,
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dry-needling-dubai'
+            link: '/services/dry-needling-dubai/'
           },
       ]
     },
@@ -10336,37 +10336,37 @@ comparisonData: [
             id: 1,
             text: 'Ultrasound Therepy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/ultrasound-therapy-dubai'
+            link: '/services/ultrasound-therapy-dubai/'
           },
           {
             id: 2,
             text: 'Electrotherapy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/electrotherapy-dubai'
+            link: '/services/electrotherapy-dubai/'
           },
           {
             id: 3,
             text: 'Pelvic Floor Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/pelvic-floor-therapy-dubai'
+            link: '/services/pelvic-floor-therapy-dubai/'
           },
            {
             id: 4,
             text: 'Scoliosis Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scoliosis-treatment-dubai'
+            link: '/services/scoliosis-treatment-in-dubai/'
           },
           {
             id: 5,
             text: 'Functional Exercise',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/functional-exercises-dubai'
+            link: '/services/functional-exercises-dubai/'
           },
           {
             id: 6,
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dry-needling-dubai'
+            link: '/services/dry-needling-dubai/'
           },,
         ]
       },
@@ -11048,37 +11048,37 @@ comparisonData: [
             id: 1,
             text: 'Ultrasound Therepy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/ultrasound-therapy-dubai'
+            link: '/services/ultrasound-therapy-dubai/'
           },
           {
             id: 2,
             text: 'Electrotherapy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/electrotherapy-dubai'
+            link: '/services/electrotherapy-dubai/'
           },
           {
             id: 3,
             text: 'Pelvic Floor Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/pelvic-floor-therapy-dubai'
+            link: '/services/pelvic-floor-therapy-dubai/'
           },
            {
             id: 4,
             text: 'Scoliosis Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scoliosis-treatment-dubai'
+            link: '/services/scoliosis-treatment-in-dubai/'
           },
           {
             id: 5,
             text: 'Functional Exercise',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/functional-exercises-dubai'
+            link: '/services/functional-exercises-dubai/'
           },
           {
             id: 6,
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dry-needling-dubai'
+            link: '/services/dry-needling-dubai/'
           },,
         ]
       },
@@ -11788,37 +11788,37 @@ comparisonData: [
             id: 1,
             text: 'Ultrasound Therepy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/ultrasound-therapy-dubai'
+            link: '/services/ultrasound-therapy-dubai/'
           },
           {
             id: 2,
             text: 'Electrotherapy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/electrotherapy-dubai'
+            link: '/services/electrotherapy-dubai/'
           },
           {
             id: 3,
             text: 'Pelvic Floor Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/pelvic-floor-therapy-dubai'
+            link: '/services/pelvic-floor-therapy-dubai/'
           },
            {
             id: 4,
             text: 'Scoliosis Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scoliosis-treatment-dubai'
+            link: '/services/scoliosis-treatment-in-dubai/'
           },
           {
             id: 5,
             text: 'Functional Exercise',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/functional-exercises-dubai'
+            link: '/services/functional-exercises-dubai/'
           },
           {
             id: 6,
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dry-needling-dubai'
+            link: '/services/dry-needling-dubai/'
           },,
         ]
       },
@@ -12513,37 +12513,37 @@ comparisonData: [
             id: 1,
             text: 'Ultrasound Therepy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/ultrasound-therapy-dubai'
+            link: '/services/ultrasound-therapy-dubai/'
           },
           {
             id: 2,
             text: 'Electrotherapy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/electrotherapy-dubai'
+            link: '/services/electrotherapy-dubai/'
           },
           {
             id: 3,
             text: 'Pelvic Floor Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/pelvic-floor-therapy-dubai'
+            link: '/services/pelvic-floor-therapy-dubai/'
           },
            {
             id: 4,
             text: 'Scoliosis Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scoliosis-treatment-dubai'
+            link: '/services/scoliosis-treatment-in-dubai/'
           },
           {
             id: 5,
             text: 'Functional Exercise',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/functional-exercises-dubai'
+            link: '/services/functional-exercises-dubai/'
           },
           {
             id: 6,
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dry-needling-dubai'
+            link: '/services/dry-needling-dubai/'
           },,
         ]
       },
@@ -13128,37 +13128,37 @@ comparisonData: [
             id: 1,
             text: 'Ultrasound Therapy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/ultrasound-therapy-dubai'
+            link: '/services/ultrasound-therapy-dubai/'
           },
           {
             id: 2,
             text: 'Electrotherapy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/electrotherapy-dubai'
+            link: '/services/electrotherapy-dubai/'
           },
           {
             id: 3,
             text: 'Pelvic Floor Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/pelvic-floor-therapy-dubai'
+            link: '/services/pelvic-floor-therapy-dubai/'
           },
           {
             id: 4,
             text: 'Scoliosis Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scoliosis-treatment-dubai'
+            link: '/services/scoliosis-treatment-in-dubai/'
           },
           {
             id: 5,
             text: 'Functional Exercise',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/functional-exercises-dubai'
+            link: '/services/functional-exercises-dubai/'
           },
           {
             id: 6,
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dry-needling-dubai'
+            link: '/services/dry-needling-dubai/'
           }
         ]
       },
@@ -13736,79 +13736,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -14524,79 +14524,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -15292,79 +15292,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -16037,79 +16037,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -16790,79 +16790,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -17549,79 +17549,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -18318,79 +18318,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -19091,79 +19091,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -19870,79 +19870,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -20644,79 +20644,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -21405,79 +21405,79 @@ comparisonData: [
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -22142,79 +22142,79 @@ healingJourney: {
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -22877,79 +22877,79 @@ healingJourney: {
             id: 1,
             text: 'Gastrointestinal Disorders',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/gastrointestinal-disorders-dubai'
+            link: '/services/gastrointestinal-disorders-dubai/'
           },
           {
             id: 2,
             text: 'Management Of Allergy',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/management-of-allergy-dubai'
+            link: '/services/management-of-allergy-dubai/'
           },
           {
             id: 3,
             text: 'Wound Stiching Services',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/wound-stitching-services-dubai'
+            link: '/services/wound-stitching-services-dubai/'
           },
             {
             id: 4,
             text: 'Minor Injury Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/minor-injury-care-dubai'
+            link: '/services/minor-injury-care/'
           },
            {
             id: 5,
             text: 'Treatment of Acute Infections',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/treatment-of-acute-infections-dubai'
+            link: '/services/treatment-of-acute-infections-dubai/'
           },
            {
             id: 6,
             text: 'Dyslipidemia Diagnosis & Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/dyslipidemia-diagnosis-and-treatment'
+            link: '/services/dyslipidemia-diagnosis-and-treatment/'
           },
           {
             id: 7,
             text: 'Personalized Slimming Programs',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/personalized-slimming-programs'
+            link: '/services/personalized-slimming-programs/'
           },
           {
             id: 8,
             text: 'Thyroid Dysfunction Solutions',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/thyroid-dysfunction-solutions-dubai'
+            link: '/services/thyroid-dysfunction-solutions-dubai/'
           },
           {
             id: 9,
             text: 'Asthma & COPD Expertise',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/asthma-and-copd-expertise-dubai'
+            link: '/services/asthma-and-copd-expertise-dubai/'
           },
            {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care-dubai'
+            link: '/services/diabetes-mellitus-care/'
           },
            {
             id: 11,
             text: 'Specialized Hypertension Management',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/specialized-hypertension-management'
+            link: '/services/specialized-hypertension-management/'
           },
            {
             id: 12,
             text: 'Expertise in Routine Check-Ups',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/routine-check-ups-dubai'
+            link: '/services/routine-check-ups-dubai/'
           },
            {
             id: 13,
             text: 'Comprehensive Physical Examination',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/comprehensive-physical-examinations-dubai'
+            link: '/services/comprehensive-physical-examinations-dubai/'
           }
       ]
     },
@@ -23657,31 +23657,31 @@ healingJourney: {
             id: 1,
             text: 'Face-PRP Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
           {
             id: 2,
             text: 'Golden Elixir Facial',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/golden-elixir-facial-dubai'
+            link: '/services/golden-elixir-facial-dubai/'
           },
           {
             id: 3,
             text: 'Signature Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai'
+            link: '/services/signature-hydra-facial-dubai/'
           },
            {
             id: 4,
             text: 'Exosomes Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/exosomes-facial-dubai'
+            link: '/services/exosomes-facial-dubai/'
           },
           {
             id: 5,
             text: 'Oxygeneo Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/oxygeneo-illuminate-facial-dubai'
+            link: '/services/oxygeneo-illuminate-facial-dubai/'
           }
       ]
     },
@@ -24352,31 +24352,31 @@ healingJourney: {
             id: 1,
             text: 'Face-PRP Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
           {
             id: 2,
             text: 'Golden Elixir Facial',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/golden-elixir-facial-dubai'
+            link: '/services/golden-elixir-facial-dubai/'
           },
           {
             id: 3,
             text: 'Signature Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai'
+            link: '/services/signature-hydra-facial-dubai/'
           },
            {
             id: 4,
             text: 'Exosomes Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/exosomes-facial-dubai'
+            link: '/services/exosomes-facial-dubai/'
           },
           {
             id: 5,
             text: 'Oxygeneo Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/oxygeneo-illuminate-facial-dubai'
+            link: '/services/oxygeneo-illuminate-facial-dubai/'
           }
       ]
     },
@@ -25051,31 +25051,31 @@ healingJourney: {
             id: 1,
             text: 'Face-PRP Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
           {
             id: 2,
             text: 'Golden Elixir Facial',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/golden-elixir-facial-dubai'
+            link: '/services/golden-elixir-facial-dubai/'
           },
           {
             id: 3,
             text: 'Signature Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai'
+            link: '/services/signature-hydra-facial-dubai/'
           },
            {
             id: 4,
             text: 'Exosomes Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/exosomes-facial-dubai'
+            link: '/services/exosomes-facial-dubai/'
           },
           {
             id: 5,
             text: 'Oxygeneo Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/oxygeneo-illuminate-facial-dubai'
+            link: '/services/oxygeneo-illuminate-facial-dubai/'
           }
       ]
     },
@@ -25738,31 +25738,31 @@ healingJourney: {
             id: 1,
             text: 'Face-PRP Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
           {
             id: 2,
             text: 'Golden Elixir Facial',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/golden-elixir-facial-dubai'
+            link: '/services/golden-elixir-facial-dubai/'
           },
           {
             id: 3,
             text: 'Signature Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai'
+            link: '/services/signature-hydra-facial-dubai/'
           },
            {
             id: 4,
             text: 'Exosomes Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/exosomes-facial-dubai'
+            link: '/services/exosomes-facial-dubai/'
           },
           {
             id: 5,
             text: 'Oxygeneo Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/oxygeneo-illuminate-facial-dubai'
+            link: '/services/oxygeneo-illuminate-facial-dubai/'
           }
       ]
     },
@@ -26418,31 +26418,31 @@ healingJourney: {
             id: 1,
             text: 'Face-PRP Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
           {
             id: 2,
             text: 'Golden Elixir Facial',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/golden-elixir-facial-dubai'
+            link: '/services/golden-elixir-facial-dubai/'
           },
           {
             id: 3,
             text: 'Signature Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai'
+            link: '/services/signature-hydra-facial-dubai/'
           },
            {
             id: 4,
             text: 'Exosomes Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/exosomes-facial-dubai'
+            link: '/services/exosomes-facial-dubai/'
           },
           {
             id: 5,
             text: 'Oxygeneo Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/oxygeneo-illuminate-facial-dubai'
+            link: '/services/oxygeneo-illuminate-facial-dubai/'
           }
       ]
     },
@@ -27119,97 +27119,97 @@ healingJourney: {
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -27782,25 +27782,25 @@ healingJourney: {
             id: 1,
             text: 'Hair Loss',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/hair-loss-dubai'
+            link: '/services/hair-loss-dubai/'
           },
           {
             id: 2,
             text: 'Hair Growth',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/hair-growth-dubai'
+            link: '/services/hair-growth-dubai/'
           },
           {
             id: 3,
             text: 'Hair PRP',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/hair-prp-dubai'
+            link: '/services/hair-prp-dubai/'
           },
           {
             id: 4,
             text: 'Hair Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hair-removal-dubai'
+            link: '/services/hair-removal-dubai/'
           },
         ]
       },
@@ -28409,67 +28409,67 @@ healingJourney: {
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -29059,19 +29059,19 @@ healingJourney: {
             id: 1,
             text: 'Eximia Body Contouring',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/eximia-body-contouring-dubai'
+            link: '/services/eximia-body-contouring-dubai/'
           },
           {
             id: 2,
             text: 'IV Drip',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/iv-drip-dubai'
+            link: '/services/iv-drip-dubai/'
           },
           {
             id: 3,
             text: 'Body Shaping',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/body-shaping-dubai'
+            link: '/services/body-shaping-dubai/'
           },
         ]
       },
@@ -29631,61 +29631,61 @@ healingJourney: {
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -30304,61 +30304,61 @@ healingJourney: {
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -31155,61 +31155,61 @@ healingJourney: {
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -31882,61 +31882,61 @@ healingJourney: {
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -32506,61 +32506,61 @@ healingJourney: {
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -33139,61 +33139,61 @@ healingJourney: {
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -33806,61 +33806,61 @@ healingJourney: {
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -34541,61 +34541,61 @@ healingJourney: {
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -35183,61 +35183,61 @@ Recovery: Minimal downtime for non-surgical care
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -35858,61 +35858,61 @@ Long-term oral health support
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },
@@ -36529,61 +36529,61 @@ Seek a cost-effective smile restoration`
             id: 1,
             text: 'Composite Veneers',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/composite-veneers-dubai'
+            link: '/services/composite-veneers/'
           },
           {
             id: 2,
             text: 'dental Veneers',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/dental-veneers-dubai'
+            link: '/services/dental-veneers-dubai/'
           },
           {
             id: 3,
             text: 'Root Canal Treatment',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/root-canal-treatment-dubai'
+            link: '/services/root-canal-treatment-dubai/'
           },
            {
             id: 4,
             text: 'Snap On Smile',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/snap-on-smile-dubai'
+            link: '/services/snap-on-smile-dubai/'
           },
           {
             id: 5,
             text: ' Teeth Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-bleaching-dubai'
+            link: '/services/teeth-bleaching-dubai/'
           },
           {
             id: 6,
             text: ' Teeth Dentures',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-dentures-dubai'
+            link: '/services/teeth-dentures-dubai/'
           },
           {
             id: 7,
             text: ' Tooth Composite Restoration',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/teeth-composite-restoration-dubai'
+            link: '/services/teeth-composite-restoration-dubai/'
           },
           {
             id: 8,
             text: ' Braces (Metal & Ceramic)',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/braces-metal-ceramic-dubai'
+            link: '/services/braces-metal-ceramic-dubai/'
           },
             {
             id: 9,
             text: ' dental Crown Bridge',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dental-crown-bridges-dubai'
+            link: '/services/dental-crown-bridges-dubai/'
           },
             {
             id: 10,
             text: 'Gum Disease Treatment',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/gum-disease-treatment-dubai'
+            link: '/services/gum-disease-treatment-dubai/'
           },
         ]
       },

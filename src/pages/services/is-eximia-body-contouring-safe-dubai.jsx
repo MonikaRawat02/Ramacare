@@ -135,8 +135,8 @@ const EximiaSafetyPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Is Eximia Body Contouring Safe? Everything You Need to Know</title>
-        <meta name="description" content="Explore Eximia treatment safety and potential side effects of Eximia Dubai. Learn why Eximia Body Contouring Dubai is a safe, non-invasive alternative to surgery." />
+        <title key="title">Eximia Safety Guide: Side Effects & Clinical Facts | RamaCare</title>
+        <meta name="description" content="Explore Eximia treatment safety and potential side effects of Eximia Dubai. Learn why Eximia Body Contouring Dubai is a safe, non-invasive alternative to surgery." key="description" />
         <meta name="keywords" content="Eximia treatment safety, side effects of Eximia Dubai, Eximia Body Contouring Dubai, Non-surgical body sculpting safety, Dubai aesthetic treatment safety" />
         
       </Head>
@@ -493,7 +493,7 @@ const EximiaSafetyPage = () => {
               </h3>
               <p className="text-xl text-white/90 leading-relaxed max-w-3xl mx-auto">
                 Ready to reshape your body with peace of mind? Visit our main{' '}
-                <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai" className="text-white font-bold border-b-2 border-white/50 hover:border-white transition-all">
+                <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/" className="text-white font-bold border-b-2 border-white/50 hover:border-white transition-all">
                   Eximia Body Contouring Dubai
                 </a>{' '}
                 page to learn about our clinical protocols and book your safety assessment today.

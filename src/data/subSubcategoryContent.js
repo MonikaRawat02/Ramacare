@@ -518,97 +518,97 @@ export const subSubcategoryContent = {
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
             {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
       ]
     },
@@ -1132,97 +1132,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
       ]
     },
@@ -1753,97 +1753,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
       ]
     },
@@ -2400,97 +2400,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
       ]
       },
@@ -3080,97 +3080,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
       ]
       },
@@ -3749,97 +3749,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
       ]
       },
@@ -4475,97 +4475,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -5193,97 +5193,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -5932,97 +5932,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -6650,97 +6650,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -7337,97 +7337,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -8082,97 +8082,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -8915,97 +8915,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -9618,97 +9618,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -9810,7 +9810,7 @@ rootCauses: [
         hero: {
            title: 'Dark Circles Treatment in Dubai',
             subtitle: 'Advanced Under Eye Rejuvenation for Brighter, Younger-Looking Eyes',
-            description: 'Dark circles under the eyes can make your face look tired, dull, stressed, and older than your actual age. At Rama Care Polyclinic, we provide advanced and personalized dark circles treatment in Dubai designed to reduce under-eye pigmentation, puffiness, hollowness, and tired-looking eyes safely and effectively.\n\n Our DHA-licensed dermatology specialists use advanced under-eye rejuvenation treatments and customized skincare solutions to improve skin texture, stimulate collagen production, and restore naturally brighter and fresher-looking eyes. Whether your dark circles are caused by genetics, aging, pigmentation, lack of sleep, eye strain, dehydration, or volume loss, we create personalized treatment plans based on your skin condition and aesthetic goals.\n\nPatients looking to improve overall skin health often combine dark circles treatment with our <a href="/services/skin-boosters-dubai">Skin Brightening Treatment in Dubai</a>, <a href="/services/face-prp-in-dubai/">PRP Facial Treatment in Dubai</a>, and <a href="/services/pigmentation-dubai/">Pigmentation Treatment in Dubai</a> for complete facial rejuvenation and healthier-looking skin.With modern dermatology technologies, evidence-based procedures, and patient-focused care, we help patients achieve smoother, healthier, and naturally radiant under-eye skin.',
+            description: 'Dark circles under the eyes can make your face look tired, dull, stressed, and older than your actual age. At Rama Care Polyclinic, we provide advanced and personalized dark circles treatment in Dubai designed to reduce under-eye pigmentation, puffiness, hollowness, and tired-looking eyes safely and effectively.\n\n Our DHA-licensed dermatology specialists use advanced under-eye rejuvenation treatments and customized skincare solutions to improve skin texture, stimulate collagen production, and restore naturally brighter and fresher-looking eyes. Whether your dark circles are caused by genetics, aging, pigmentation, lack of sleep, eye strain, dehydration, or volume loss, we create personalized treatment plans based on your skin condition and aesthetic goals.\n\nPatients looking to improve overall skin health often combine dark circles treatment with our <a href="/services/skin-boosters-dubai/">Skin Brightening Treatment in Dubai</a>, <a href="/services/face-prp-in-dubai/">PRP Facial Treatment in Dubai</a>, and <a href="/services/pigmentation-dubai/">Pigmentation Treatment in Dubai</a> for complete facial rejuvenation and healthier-looking skin.With modern dermatology technologies, evidence-based procedures, and patient-focused care, we help patients achieve smoother, healthier, and naturally radiant under-eye skin.',
             rating: '500+ Happy Clients',  
             stats: [
               {
@@ -10317,97 +10317,97 @@ rootCauses: [
             id: 1,
             text: 'Skin Boosters',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-boosters-dubai'
+            link: '/services/skin-boosters-dubai/'
           },
           {
             id: 2,
             text: 'Derma Roller',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/derma-roller-dubai'
+            link: '/services/derma-roller-dubai/'
           },
           {
             id: 3,
             text: 'Skin Tightening',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/skin-tightening-dubai'
+            link: '/services/skin-tightening-dubai/'
           },
           {
             id: 4,
             text: 'Microdermabrasion',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/microdermabrasion-dubai'
+            link: '/services/microdermabrasion-dubai/'
           },
           {
             id: 5,
             text: 'Skin Allergy',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/skin-allergy-dubai'
+            link: '/services/skin-allergy-dubai/'
           },
           {
             id: 6,
             text: 'Botox Hyperhidrosis',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/botox-hyperhidrosis-dubai'
+            link: '/services/botox-hyperhidrosis-dubai/'
           },
           {
             id: 7,
             text: 'Carboxy Therapy',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/carboxy-therapy-dubai'
+            link: '/services/carboxy-therapy-dubai/'
           },
           {
             id: 8,
             text: 'Electrolysis',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/electrolysis-dubai'
+            link: '/services/electrolysis-dubai/'
           },
             {
             id: 9,
             text: 'Fillers',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/fillers-in-dubai'
+            link: '/services/fillers-in-dubai/'
           },
             {
             id: 10,
             text: 'Facial',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/facial'
+            link: '/services/facial/'
           },
             {
             id: 11,
             text: 'HIFU',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hifu-dubai'
+            link: '/services/hifu-dubai/'
           },
             {
             id: 12,
             text: 'Face PRP',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/face-prp-in-dubai'
+            link: '/services/face-prp-in-dubai/'
           },
             {
             id: 13,
             text: 'Botox',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/botox-dubai'
+            link: '/services/botox-dubai/'
           },
             {
             id: 14,
             text: 'Mesotherapy',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mesotherapy-dubai'
+            link: '/services/mesotherapy-dubai/'
           },
             {
             id: 15,
             text: 'Pigmentation',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/pigmentation-dubai'
+            link: '/services/pigmentation-dubai/'
           },
              {
             id: 16,
             text: 'Dark Circle',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/dark-circle-dubai'
+            link: '/services/dark-circle-dubai/'
           }
         ]
       },
@@ -10934,25 +10934,25 @@ rootCauses: [
             id: 1,
             text: 'Hair Loss',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/hair-loss-dubai'
+            link: '/services/hair-loss-dubai/'
           },
           {
             id: 2,
             text: 'Hair Growth',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/hair-growth-dubai'
+            link: '/services/hair-growth-dubai/'
           },
           {
             id: 3,
             text: 'Hair PRP',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/hair-prp-dubai'
+            link: '/services/hair-prp-dubai/'
           },
           {
             id: 4,
             text: 'Hair Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hair-removal-dubai'
+            link: '/services/hair-removal-dubai/'
           },
         ]
       },
@@ -11580,25 +11580,25 @@ rootCauses: [
             id: 1,
             text: 'Hair Loss',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/hair-loss-dubai'
+            link: '/services/hair-loss-dubai/'
           },
           {
             id: 2,
             text: 'Hair Growth',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/hair-growth-dubai'
+            link: '/services/hair-growth-dubai/'
           },
           {
             id: 3,
             text: 'Hair PRP',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/hair-prp-dubai'
+            link: '/services/hair-prp-dubai/'
           },
           {
             id: 4,
             text: 'Hair Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hair-removal-dubai'
+            link: '/services/hair-removal-dubai/'
           },
         ]
       },
@@ -12216,25 +12216,25 @@ faq: {
             id: 1,
             text: 'Hair Loss',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/hair-loss-dubai'
+            link: '/services/hair-loss-dubai/'
           },
           {
             id: 2,
             text: 'Hair Growth',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/hair-growth-dubai'
+            link: '/services/hair-growth-dubai/'
           },
           {
             id: 3,
             text: 'Hair PRP',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/hair-prp-dubai'
+            link: '/services/hair-prp-dubai/'
           },
           {
             id: 4,
             text: 'Hair Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/hair-removal-dubai'
+            link: '/services/hair-removal-dubai/'
           },
         ]
       },
@@ -13580,67 +13580,67 @@ comparisonData: [
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -14277,67 +14277,67 @@ comparisonData: [
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
       ]
     },
@@ -14904,67 +14904,67 @@ comparisonData: [
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -15634,67 +15634,67 @@ comparisonData: [
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -16302,67 +16302,67 @@ solutionIntro: {
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -16968,67 +16968,67 @@ solutionIntro: {
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -17640,67 +17640,67 @@ solutionIntro: {
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -18307,67 +18307,67 @@ solutionIntro: {
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -18989,67 +18989,67 @@ solutionIntro: {
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -19712,67 +19712,67 @@ solutionIntro: {
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -20415,67 +20415,67 @@ rootCauses: [
             id: 1,
             text: 'Spider Veins Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/spider-veins-laser-treatment'
+            link: '/services/spider-veins-laser-treatment-dubai/'
           },
           {
             id: 2,
             text: 'Carbon Laser Treatment',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/carbon-laser-dubai'
+            link: '/services/carbon-laser-dubai/'
           },
           {
             id: 3,
             text: 'Fractional CO2 Laser',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/fractional-co2-laser-dubai'
+            link: '/services/fractional-co2-laser-dubai/'
           },
           {
             id: 4,
             text: 'Laser Rejuvenation',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/laser-rejuvenation-dubai'
+            link: '/services/laser-rejuvenation-dubai/'
           },
           {
             id: 5,
             text: 'Laser Bleaching',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/laser-bleaching-dubai'
+            link: '/services/laser-bleaching-dubai/'
           },
           {
             id: 6,
             text: 'Birthmarks Removal',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/birthmark-removal-dubai'
+            link: '/services/birthmark-removal-dubai/'
           },
           {
             id: 7,
             text: 'Female Genital Rejuvenation',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/female-genital-rejuvenation-dubai'
+            link: '/services/female-genital-rejuvenation-dubai/'
           },
           {
             id: 8,
             text: 'Scars Removal',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/scars-removal-dubai'
+            link: '/services/scars-removal-dubai/'
           },
           {
             id: 9,
             text: 'Mole Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/mole-removal-dubai'
+            link: '/services/mole-removal-dubai/'
           },
             {
             id: 10,
             text: 'Tattoo Removal',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/tattoo-removal-dubai'
+            link: '/services/tattoo-removal-dubai/'
           },
             {
             id: 11,
             text: 'Nail Fungus',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/nail-fungus-dubai'
+            link: '/services/nail-fungus-dubai/'
           },
         ]
       },
@@ -21121,19 +21121,19 @@ rootCauses: [
             id: 1,
             text: 'Eximia Body Contouring',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/eximia-body-contouring-dubai'
+            link: '/services/eximia-body-contouring-dubai/'
           },
           {
             id: 2,
             text: 'IV Drip',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/iv-drip-dubai'
+            link: '/services/iv-drip-dubai/'
           },
           {
             id: 3,
             text: 'Body Shaping',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/body-shaping-dubai'
+            link: '/services/body-shaping-dubai/'
           },
         ]
       },
@@ -21708,19 +21708,19 @@ rootCauses: [
             id: 1,
             text: 'Eximia Body Contouring',
             bgColor: 'bg-[#ECFDF5]',
-            link: '/services/eximia-body-contouring-dubai'
+            link: '/services/eximia-body-contouring-dubai/'
           },
           {
             id: 2,
             text: 'IV Drip',
             bgColor: 'bg-[#EFF6FF]',
-            link: '/services/iv-drip-dubai'
+            link: '/services/iv-drip-dubai/'
           },
           {
             id: 3,
             text: 'Body Shaping',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/body-shaping-dubai'
+            link: '/services/body-shaping-dubai/'
           },
         ]
       },

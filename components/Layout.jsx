@@ -9,12 +9,12 @@ const Layout = ({ children }) => {
   const router = useRouter();
   const isServicesRoute = router.pathname.startsWith('/services');
   const excludedCategoryRoutes = new Set([
-    '/services/ayurveda-dubai',
-    '/services/dental-dubai',
-    '/services/physiotherapy-dubai',
-    '/services/general-physician-dubai',
-    '/services/aesthetic-dermatology-dubai',
-    '/services/facial-dubai',
+    '/services/ayurveda-dubai/',
+    '/services/dental-dubai/',
+    '/services/physiotherapy-dubai/',
+    '/services/general-physician-dubai/',
+    '/services/aesthetic-dermatology-dubai/',
+    '/services/facial-dubai/',
   ]);
   const isSubcategoryRoute = isServicesRoute && !excludedCategoryRoutes.has(router.pathname);
   const isBlogRoute = router.pathname.startsWith('/blog/') && router.pathname !== '/blog';

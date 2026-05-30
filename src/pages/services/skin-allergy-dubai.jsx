@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function SkinAllergyPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function SkinAllergyPage() {
   return (
     <Layout>
       <Head>
-  <title>Skin Allergy Treatment in Dubai for Safe Symptom Relief</title>
-  <meta name="description" content="Skin allergy treatment in Dubai helps diagnose causes, relieve itching and rashes, and restore skin health through safe, doctor-guided medical care." />
+  <title key="title">Skin Allergy Treatment in Dubai for Safe Symptom Relief</title>
+  <meta name="description" content="Skin allergy treatment in Dubai helps diagnose causes, relieve itching and rashes, and restore skin health through safe, doctor-guided medical care." key="description" />
   <meta name="keywords" content="Skin allergy treatment in Dubai, Skin allergy care Dubai, Allergy rash treatment Dubai, Itching skin treatment Din ubai, Dermatitis treatment Dubai, Skin infection and allergy care, Eczema treatment Dubai, Medical skin treatment Dubai, Allergy diagnosis and treatment, Sensitive skin treatment Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function SkinAllergyPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai/#condition",
           "name": "Skin Allergy and Dermatitis Conditions",
           "alternateName": "Allergic Skin Reactions",
-          "url": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai/",
           "description": "Skin allergy and dermatitis conditions include immune-mediated reactions of the skin to allergens such as chemicals, cosmetics, plants, insect bites, and environmental substances, leading to redness, itching, swelling, rash, irritation, or hives.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function SkinAllergyPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai/#procedure",
           "name": "Skin Allergy Diagnosis and Treatment in Dubai",
           "alternateName": "Dermatitis Evaluation & Management",
-          "url": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/skin-allergy-dubai/",
           "description": "Skin allergy diagnosis and treatment in Dubai at RamaCare Polyclinic offers thorough clinical assessment and tailored management plans for allergic skin reactions, including contact dermatitis, eczema, urticaria, and other related conditions.",
           "procedureType": "Allergy assessment and dermatologic management",
           "howPerformed": "Assessment begins with detailed clinical history and physical examination, may include diagnostic allergy testing (patch tests, blood testing), and individualized treatment using topical agents, antihistamines, moisturizers, and avoidance strategies.",
@@ -97,7 +98,7 @@ export default function SkinAllergyPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function SkinAllergyPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

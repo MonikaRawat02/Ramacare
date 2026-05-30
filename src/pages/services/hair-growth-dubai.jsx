@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function HairGrowthPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -24,8 +25,8 @@ export default function HairGrowthPage() {
   return (
     <Layout>
       <Head>
-  <title>Hair Growth in Dubai with Safe Medical Treatment Options</title>
-  <meta name="description" content="Hair growth in Dubai is supported through doctor-guided treatments that strengthen hair follicles, improve scalp health, and promote natural regrowth safely." />
+  <title key="title">Hair Growth in Dubai with Safe Medical Treatment Options</title>
+  <meta name="description" content="Hair growth in Dubai is supported through doctor-guided treatments that strengthen hair follicles, improve scalp health, and promote natural regrowth safely." key="description" />
   <meta name="keywords" content="Hair growth in Dubai, Hair growth treatment Dubai, Hair regrowth solutions, Medical hair growth therapy, Scalp stimulation treatment, Hair restoration Dubai, Non-surgical hair growth, Hair fall control in Dubai, Professional hair care Dubai" />
   
   <script
@@ -36,10 +37,10 @@ export default function HairGrowthPage() {
       "@graph": [
         {
           "@type": "MedicalCondition",
-          "@id": "https://ramacarepolyclinic.ae/services/hair-growth-dubai#condition",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-growth-dubai/#condition",
           "name": "Hair Thinning, Slow Hair Growth & Weak Scalp Conditions",
           "alternateName": "Reduced Hair Density, Weak Hair Roots & Slow Regrowth",
-          "url": "https://ramacarepolyclinic.ae/services/hair-growth-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hair-growth-dubai/",
           "description": "Hair thinning, slow hair growth, and weak scalp conditions include reduced hair density, diminished hair strength, and other issues where the natural hair growth cycle is disrupted, often due to nutritional, hormonal, stress‑related, or scalp health factors.",
           "possibleTreatment": {
             "@type": "MedicalTherapy",
@@ -49,11 +50,11 @@ export default function HairGrowthPage() {
         },
         {
           "@type": "MedicalProcedure",
-          "@id": "https://ramacarepolyclinic.ae/services/hair-growth-dubai#procedure",
+          "@id": "https://ramacarepolyclinic.ae/services/hair-growth-dubai/#procedure",
           "name": "Hair Growth Treatment in Dubai",
           "alternateName": "Hair Regrowth & Scalp Health Restoration Therapy",
-          "url": "https://ramacarepolyclinic.ae/services/hair-growth-dubai",
-          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-growth-dubai",
+          "url": "https://ramacarepolyclinic.ae/services/hair-growth-dubai/",
+          "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/hair-growth-dubai/",
           "description": "Hair growth treatment at RamaCare Polyclinic in Dubai is a clinically supervised, personalized program focused on activating dormant hair follicles, improving scalp health, and supporting the natural hair growth cycle for stronger, denser hair regrowth. Treatments are selected based on individual needs and long‑term goals.",
           "procedureType": "Medical and aesthetic dermatologic treatment",
           "howPerformed": "After a detailed hair and scalp assessment, tailored therapies such as follicle stimulation treatments, scalp nourishment protocols, PRP sessions, mesotherapy, and supportive guidance on diet and lifestyle are used to stimulate natural hair growth and strengthen existing hair.",
@@ -97,7 +98,7 @@ export default function HairGrowthPage() {
         hero={content?.hero}
       />
      <QuickNavigation />
-    {/* <CertificationsSection content={content?.certifications} /> */}
+    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -108,7 +109,7 @@ export default function HairGrowthPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

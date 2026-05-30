@@ -374,8 +374,8 @@ const AllDoctorsPage = ({ content }) => {
   return (
     <Layout>
       <Head>
-        <title>All Doctors - RamaCare</title>
-        <meta name="description" content="Meet all our expert doctors at RamaCare" />
+        <title key="title">All Doctors - RamaCare</title>
+        <meta name="description" content="Meet all our expert doctors at RamaCare" key="description" />
         
       </Head>
       

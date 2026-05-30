@@ -13,6 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
+import { generateMedicalSchema } from '../../../utils/schema';
 
 export default function DryNeedlingPage() {
   const categoryName = 'Physiotherapy';
@@ -24,8 +25,8 @@ export default function DryNeedlingPage() {
  return (
    <Layout>
     <Head>
-  <title>Dry Needling in Dubai – Fast Muscle Pain Relief Therapy</title>
-  <meta name="description" content="Muscle pain or stiffness? Get dry needling in Dubai to release trigger points and improve movement. Safe, expert physiotherapy care. Book now! " />
+  <title key="title">Dry Needling in Dubai – Fast Muscle Pain Relief Therapy</title>
+  <meta name="description" content="Muscle pain or stiffness? Get dry needling in Dubai to release trigger points and improve movement. Safe, expert physiotherapy care. Book now! " key="description" />
   <meta name="keywords" content="Dry needling therapy in Dubai, Dry needling treatment Dubai, Dry needling Dubai price, Trigger point therapy Dubai, Physiotherapy dry needling Dubai, Muscle pain treatment Dubai, Sports injury physiotherapy Dubai, Dry needling near me, Pain relief physiotherapy Dubai" />
   
   <script
@@ -34,11 +35,11 @@ export default function DryNeedlingPage() {
       __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "MedicalProcedure",
-        "@id": "https://ramacarepolyclinic.ae/services/dry-needling-dubai#procedure",
+        "@id": "https://ramacarepolyclinic.ae/services/dry-needling-dubai/#procedure",
         "name": "Dry Needling in Dubai",
         "alternateName": "Therapeutic Dry Needling Treatment",
-        "url": "https://ramacarepolyclinic.ae/services/dry-needling-dubai",
-        "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/dry-needling-dubai",
+        "url": "https://ramacarepolyclinic.ae/services/dry-needling-dubai/",
+        "mainEntityOfPage": "https://ramacarepolyclinic.ae/services/dry-needling-dubai/",
         "description": "Dry needling in Dubai at RamaCare Polyclinic is a therapeutic physiotherapy technique used to alleviate muscle pain, reduce trigger points, and improve musculoskeletal function, administered by experienced physiotherapy practitioners.",
         "procedureType": "Physical therapy technique",
         "bodyLocation": "Muscles and connective tissues",
@@ -82,7 +83,7 @@ export default function DryNeedlingPage() {
      />
      <QuickNavigation />
      <DoctorsSection content={content?.doctors} />
-     {/* <CertificationsSection content={content?.certifications} /> */}
+     
      <TreatmentOverview 
        subcategoryName={subcategoryName}
        content={content?.overview}
@@ -92,7 +93,7 @@ export default function DryNeedlingPage() {
        content={content?.benefits}
      />
       <PatientTestimonials content={content?.testimonials} />
-    {/* <PricingPackages content={content?.pricing} /> */}
+    
     <PaymentInsurance content={content?.paymentInsurance} />
      <FAQSection content={content?.faq} />
      <BookConsultation content={content?.bookConsultation} />

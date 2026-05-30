@@ -123,8 +123,8 @@ export default function EximiaTreatmentCostPage() {
   return (
     <Layout>
       <Head>
-        <title>Eximia Treatment Cost in Dubai: 2026 Pricing Guide</title>
-        <meta name="description" content="Discover the cost of Eximia body contouring treatment in Dubai. Get detailed pricing information, factors affecting cost, and book your consultation at RamaCare Polyclinic." />
+        <title key="title">Eximia Treatment Cost in Dubai: 2026 Pricing Guide</title>
+        <meta name="description" content="Discover the cost of Eximia body contouring treatment in Dubai. Get detailed pricing information, factors affecting cost, and book your consultation at RamaCare Polyclinic." key="description" />
         <meta name="keywords" content="Eximia treatment cost Dubai, Eximia body contouring price, non-surgical body sculpting cost, skin tightening treatment price, fat reduction treatment Dubai, Eximia HR77 cost, body contouring packages Dubai, aesthetic treatment pricing" />
         
         <script
@@ -701,7 +701,7 @@ export default function EximiaTreatmentCostPage() {
                 Ready to Start Your Transformation?
               </h2>
               <p className="text-white/90 text-lg leading-relaxed mb-8">
-                For a detailed breakdown of the procedure and to see why we are the top-rated clinic for <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai" className="text-white font-bold border-b-2 border-white/50 hover:border-white transition-all">Eximia Body Contouring Dubai</a>, book your consultation today.
+                For a detailed breakdown of the procedure and to see why we are the top-rated clinic for <a href="https://ramacarepolyclinic.ae/services/eximia-body-contouring-dubai/" className="text-white font-bold border-b-2 border-white/50 hover:border-white transition-all">Eximia Body Contouring Dubai</a>, book your consultation today.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
