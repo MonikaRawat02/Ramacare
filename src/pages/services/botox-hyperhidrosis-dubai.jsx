@@ -66,7 +66,7 @@ export default function BotoxHyperhidrosisPage() {
             "Sweat-related discomfort impacting daily activities"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Medical Care",
             "address": {
               "@type": "PostalAddress",

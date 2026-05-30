@@ -67,7 +67,7 @@ export default function GastrointestinalDisordersPage() {
             "Constipation or diarrhea"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Gastroenterology & Wellness",
             "address": {
               "@type": "PostalAddress",

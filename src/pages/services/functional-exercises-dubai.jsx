@@ -54,7 +54,7 @@ export default function FunctionalExercisesPage() {
         ],
         "possibleComplication": "Temporary muscle soreness may occur after exercise sessions.",
         "provider": {
-          "@type": "MedicalBusiness",
+          "@type": "MedicalClinic",
           "name": "RamaCare Polyclinic – Physiotherapy & Rehabilitation Department",
           "address": {
             "@type": "PostalAddress",

@@ -53,7 +53,7 @@ export default function DryNeedlingPage() {
         ],
         "possibleComplication": "Temporary muscle soreness or mild bruising may occur at needle sites.",
         "provider": {
-          "@type": "MedicalBusiness",
+          "@type": "MedicalClinic",
           "name": "RamaCare Polyclinic – Physiotherapy & Rehabilitation Department",
           "address": {
             "@type": "PostalAddress",

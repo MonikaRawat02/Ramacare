@@ -69,7 +69,7 @@ export default function ShirodharaTherapyTreatmentPage() {
     "Overall nervous system relaxation"
   ],
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic - Ayurveda Department",
     "address": {
       "@type": "PostalAddress",

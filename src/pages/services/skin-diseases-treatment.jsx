@@ -71,7 +71,7 @@ export default function SkinDiseasesTreatmentPage() {
   ],
   "possibleComplication": "Mild irritation or temporary sensitivity may occur depending on treatment type.",
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic - Dermatology Department",
     "address": {
       "@type": "PostalAddress",

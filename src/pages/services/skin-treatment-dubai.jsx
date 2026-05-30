@@ -30,8 +30,8 @@ export default function SkinTreatmentPage() {
         dangerouslySetInnerHTML={{
           __html: `{
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "@id": "https://ramacarepolyclinic.ae/services/skin-treatment-dubai/#medicalbusiness",
+  "@type": "MedicalClinic",
+  "@id": "https://ramacarepolyclinic.ae/services/skin-treatment-dubai/#medicalclinic",
   "name": "Skin Treatment in Dubai",
   "url": "https://ramacarepolyclinic.ae/services/skin-treatment-dubai",
   "description": "Advanced skin treatment in Dubai including acne treatment, pigmentation therapy, eczema management, psoriasis care, skin rejuvenation, and holistic dermatology solutions by DHA-licensed specialists in Jumeirah 1.",

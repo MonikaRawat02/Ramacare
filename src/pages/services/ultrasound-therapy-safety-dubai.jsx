@@ -158,7 +158,7 @@ const UltrasoundSafetyPage = () => {
                   <a href="#booking-section" className="inline-block py-3 px-6 bg-[#1F5E4B] text-white text-center font-bold rounded-lg shadow-md hover:bg-opacity-90 transition-all">
                     Book Your Safe Assessment Now
                   </a>
-                  <a href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer" className="inline-block py-3 px-6 bg-[#E9E2D6] text-[#1A1A1A] text-center font-bold rounded-lg hover:bg-[#dfd5c5] transition-all">
+                  <a href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`} target="_blank" rel="nofollow noopener noreferrer" className="inline-block py-3 px-6 bg-[#E9E2D6] text-[#1A1A1A] text-center font-bold rounded-lg hover:bg-[#dfd5c5] transition-all">
                     WhatsApp Consultation
                   </a>
                 </div>
@@ -507,7 +507,7 @@ const UltrasoundSafetyPage = () => {
                   <a 
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     className="w-full bg-[#E9E2D6] text-[#1A1A1A] font-bold py-4 rounded-xl hover:bg-[#dfd5c5] transition-all text-center"
                   >
                     Book via WhatsApp Instantly

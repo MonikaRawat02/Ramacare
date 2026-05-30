@@ -68,7 +68,7 @@ export default function CarbonLaserTreatmentPage() {
             "Acne‑prone or congested skin"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

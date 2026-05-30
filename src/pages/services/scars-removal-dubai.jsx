@@ -67,7 +67,7 @@ export default function ScarsRemovalPage() {
             "Uneven skin surface post-injury"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

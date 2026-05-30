@@ -66,7 +66,7 @@ export default function BodyShapingPage() {
             "Individuals seeking non‑surgical contouring options"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

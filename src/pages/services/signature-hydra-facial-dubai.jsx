@@ -52,7 +52,7 @@ export default function SignatureHydraFacialPage() {
                 "Congested pores"
               ],
               "provider": {
-                "@type": "MedicalBusiness",
+                "@type": "MedicalClinic",
                 "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
                 "address": {
                   "@type": "PostalAddress",

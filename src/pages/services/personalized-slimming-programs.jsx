@@ -65,7 +65,7 @@ export default function PersonalizedSlimmingProgramsPage() {
         "Health risk reduction (e.g., diabetes, hypertension)"
       ],
       "provider": {
-        "@type": "MedicalBusiness",
+        "@type": "MedicalClinic",
         "name": "RamaCare Polyclinic – Weight Management & Wellness Services",
         "address": {
           "@type": "PostalAddress",

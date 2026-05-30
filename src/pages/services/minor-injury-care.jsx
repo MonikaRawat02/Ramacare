@@ -67,7 +67,7 @@ export default function MinorInjuryCarePage() {
             "Simple falls"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Minor Injury & General Care",
             "address": {
               "@type": "PostalAddress",

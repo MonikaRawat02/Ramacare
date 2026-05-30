@@ -280,7 +280,7 @@ const Header = () => {
             <Link href="/" className="flex items-center space-x-2 flex-shrink-0">
               <Image src="/images/Logo.png" alt="RamaCare" width={36} height={36} className="object-contain" />
               <div>
-                <h1 className="text-lg font-bold text-[#1C4942] leading-tight">RamaCare</h1>
+                <span className="text-lg font-bold text-[#1C4942] leading-tight">RamaCare</span>
               </div>
             </Link>
 

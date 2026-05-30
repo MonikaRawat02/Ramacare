@@ -286,7 +286,7 @@ const ProgramsSection = ({ content }) => {
                   <a 
                     href={`https://wa.me/971566597878?text=Hi, I'm interested in the ${encodeURIComponent(program.title)} program. I'd like to know more details.`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     className="block w-full bg-[#0F4C3A] text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-[#0a3828] transition-all duration-300 shadow-sm hover:shadow-md text-center"
                   >
                     Book Now

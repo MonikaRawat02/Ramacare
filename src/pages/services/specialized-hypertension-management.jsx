@@ -67,7 +67,7 @@ export default function SpecializedHypertensionManagementPage() {
         "Symptoms like headache or dizziness (if present)"
       ],
       "provider": {
-        "@type": "MedicalBusiness",
+        "@type": "MedicalClinic",
         "name": "RamaCare Polyclinic – Hypertension & General Health Care",
         "address": {
           "@type": "PostalAddress",

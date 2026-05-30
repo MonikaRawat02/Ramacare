@@ -67,7 +67,7 @@ export default function FillersPage() {
             "Under-eye hollows"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

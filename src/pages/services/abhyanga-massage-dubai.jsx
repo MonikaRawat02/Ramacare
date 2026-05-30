@@ -66,7 +66,7 @@ export default function AbhyangaMassageTreatmentPage() {
     "Fatigue and low energy"
   ],
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic - Ayurveda Department",
     "address": {
       "@type": "PostalAddress",

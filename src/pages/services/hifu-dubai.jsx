@@ -67,7 +67,7 @@ export default function HIFUPage() {
             "Desire for non-surgical lifting"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

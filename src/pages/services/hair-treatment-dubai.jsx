@@ -33,8 +33,8 @@ export default function HairTreatmentPage() {
       dangerouslySetInnerHTML={{
         __html: `{
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "@id": "https://ramacarepolyclinic.ae/services/hair-treatment-dubai/#medicalbusiness",
+  "@type": "MedicalClinic",
+  "@id": "https://ramacarepolyclinic.ae/services/hair-treatment-dubai/#medicalclinic",
   "name": "Hair Treatment in Dubai",
   "url": "https://ramacarepolyclinic.ae/services/hair-treatment-dubai",
   "description": "Advanced hair treatment in Dubai for hair fall, thinning hair, dandruff, scalp disorders, and hair regrowth. Personalized, DHA-licensed dermatology care in Jumeirah 1.",

@@ -69,7 +69,7 @@ export default function HairRemovalPage() {
             "Long‑term hair reduction goals"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

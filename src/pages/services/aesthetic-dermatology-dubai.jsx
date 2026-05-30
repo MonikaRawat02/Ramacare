@@ -11,10 +11,31 @@ import WhyAyurvedaDubaiSection from "../../../components/WhyAyurvedaDubaiSection
 import FAQSection from "../../../components/FAQSection";
 // import OurFacilitySection from "../../../components/OurFacilitySection";
 import BeginYourHealingJourneySection from "../../../components/BeginYourHealingJourneySection";
+import SEOContentSection from "../../../components/SEOContentSection";
 import { getCategoryContent } from "../../data/categoryContent";
 
 export default function AestheticDermatologyCategoryPage() {
   const content = getCategoryContent('aesthetic-dermatology');
+  const dermatologySEOContent = [
+    "RamaCare Polyclinic is your destination for advanced aesthetic dermatology in Dubai. Our clinic specializes in helping patients achieve healthy, radiant skin through a combination of medical expertise and innovative cosmetic treatments. Our DHA-licensed dermatologists are experts in managing a wide range of skin concerns, from acne and pigmentation to anti-aging and rejuvenation.",
+    {
+      type: "heading",
+      text: "Advanced Skin & Hair Treatments in Jumeirah 1"
+    },
+    "We offer a comprehensive suite of treatments designed to enhance your natural beauty and boost your confidence. Each procedure is performed in our modern facility using the latest technology and safety standards.",
+    {
+      type: "list",
+      items: [
+        "Laser Hair Removal: Long-lasting results for smooth, hair-free skin.",
+        "Facial Rejuvenation: Personalized facials and peels for a glowing complexion.",
+        "PRP Therapy: Using your body's natural healing power for skin and hair restoration.",
+        "Injectables & Fillers: Expertly administered treatments for youthful contours.",
+        "Medical Dermatology: Professional management of skin conditions like eczema and psoriasis."
+      ]
+    },
+    "At RamaCare, we understand that every skin type is different. That's why we start every journey with a detailed skin analysis and consultation. Our team will create a personalized care plan that addresses your specific needs and ensures safe, effective results. Experience the best in dermatology care in Dubai at RamaCare Polyclinic."
+  ];
+
   return (
     <Layout>
       <Head>
@@ -27,8 +48,8 @@ export default function AestheticDermatologyCategoryPage() {
   dangerouslySetInnerHTML={{
     __html: `{
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "@id": "https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai/#medicalbusiness",
+  "@type": "MedicalClinic",
+  "@id": "https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai/#medicalclinic",
   "name": "Aesthetic Dermatology in Dubai",
   "url": "https://ramacarepolyclinic.ae/services/aesthetic-dermatology-dubai",
   "description": "Advanced aesthetic dermatology services in Dubai, including laser hair removal, PRP therapy, skin rejuvenation, and non-surgical cosmetic treatments.",
@@ -102,6 +123,7 @@ export default function AestheticDermatologyCategoryPage() {
       <FAQSection content={content?.faq} />
      {/* <OurFacilitySection content={content?.facility} /> */}
       <BeginYourHealingJourneySection content={content?.booking} />
+      <SEOContentSection title="Aesthetic Dermatology Excellence in Dubai" content={dermatologySEOContent} />
     </Layout>
   );
 }

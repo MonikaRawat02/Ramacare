@@ -149,7 +149,7 @@ export default function EximiaTreatmentCostPage() {
                     "Body contouring and shaping"
                   ],
                   "provider": {
-                    "@type": "MedicalBusiness",
+                    "@type": "MedicalClinic",
                     "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
                     "address": {
                       "@type": "PostalAddress",

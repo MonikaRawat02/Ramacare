@@ -67,7 +67,7 @@ export default function SkinAllergyPage() {
             "Allergic rash and irritation"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Dermatology & Allergy Care",
             "address": {
               "@type": "PostalAddress",

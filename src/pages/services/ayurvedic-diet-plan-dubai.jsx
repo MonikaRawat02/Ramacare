@@ -54,7 +54,7 @@ export default function AyurvedicDietPlanPage() {
   ],
   "possibleComplication": "No serious complications; some initial adjustment to dietary changes may occur.",
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic – Ayurvedic & Wellness Department",
     "address": {
       "@type": "PostalAddress",

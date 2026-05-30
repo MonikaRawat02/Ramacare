@@ -90,7 +90,7 @@ export default function MigraineTreatmentPage() {
               ],
               "possibleComplication": "Temporary discomfort may occur during initial physiotherapy or treatment sessions.",
               "provider": {
-                "@type": "MedicalBusiness",
+                "@type": "MedicalClinic",
                 "name": "Rama Care Polyclinic",
                 "address": {
                   "@type": "PostalAddress",
@@ -151,10 +151,7 @@ export default function MigraineTreatmentPage() {
                   className="space-y-2"
                 >
                   <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#1A1A1A] leading-[1.1]">
-                    Migraine
-                  </h1>
-                  <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1]">
-                    <span className="text-[#1F5E4B]">Treatment</span> in Dubai
+                    Migraine <span className="text-[#1b5e3f]">Treatment</span>
                   </h1>
                 </motion.div>
 

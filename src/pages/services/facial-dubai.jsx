@@ -11,10 +11,30 @@ import WhyAyurvedaDubaiSection from "../../../components/WhyAyurvedaDubaiSection
 import FAQSection from "../../../components/FAQSection";
 // import OurFacilitySection from "../../../components/OurFacilitySection";
 import BeginYourHealingJourneySection from "../../../components/BeginYourHealingJourneySection";
+import SEOContentSection from "../../../components/SEOContentSection";
 import { getCategoryContent } from "../../data/categoryContent";
 
-export default function FacialCategoryPage() {
+export default function facialdubaiCategoryPage() {
   const content = getCategoryContent('facial');
+  const facialSEOContent = [
+    "Rediscover your natural glow with expert facial treatments in Dubai at RamaCare Polyclinic. Our skin care specialists in Jumeirah 1 offer a curated selection of advanced facials and rejuvenation procedures designed to address various skin concerns and promote long-term skin health. Whether you want to combat signs of aging, treat acne, or simply relax with a deep-cleansing treatment, we have the perfect solution for you.",
+    {
+      type: "heading",
+      text: "Specialized Facial Rejuvenation in Jumeirah 1"
+    },
+    "We use high-quality medical-grade products and innovative techniques to deliver visible results. Each facial is customized after a professional assessment of your skin's unique needs.",
+    {
+      type: "list",
+      items: [
+        "Deep Cleansing Facials: Removing impurities and restoring skin clarity.",
+        "Anti-Aging Facials: Reducing the appearance of fine lines and wrinkles.",
+        "Hydration Treatments: Restoring moisture and plumpness to dull skin.",
+        "Chemical Peels: Improving skin texture and tone through controlled exfoliation.",
+        "Brightening Facials: Targeting pigmentation and evening out skin complexion."
+      ]
+    },
+    "At RamaCare, we believe that consistent skin care is essential for maintaining a youthful and healthy appearance. Our team will provide you with expert advice and a personalized home-care regimen to complement your in-clinic treatments. Visit us for the most effective facial treatments in Dubai."
+  ];
 
   return (
     <Layout>
@@ -29,8 +49,8 @@ export default function FacialCategoryPage() {
     __html: `
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "@id": "https://ramacarepolyclinic.ae/services/facial-dubai/#medicalbusiness",
+  "@type": "MedicalClinic",
+  "@id": "https://ramacarepolyclinic.ae/services/facial-dubai/#medicalclinic",
   "name": "Facial Treatments in Dubai",
   "url": "https://ramacarepolyclinic.ae/services/facial-dubai",
   "description": "Premium facial treatments in Jumeirah 1, Dubai including HydraFacial, PRP facial, anti-aging therapy, skin rejuvenation, pigmentation treatment, and personalized skincare plans by DHA-licensed aesthetic specialists.",
@@ -90,6 +110,7 @@ export default function FacialCategoryPage() {
       <FAQSection content={content?.faq} />
        {/* <OurFacilitySection content={content?.facility} /> */}
        <BeginYourHealingJourneySection content={content?.booking} />
+      <SEOContentSection title="Advanced Facial Treatments in Dubai" content={facialSEOContent} />
     </Layout>
   );
 }

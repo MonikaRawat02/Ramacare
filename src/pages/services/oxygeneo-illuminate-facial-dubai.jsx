@@ -67,7 +67,7 @@ export default function OxygeneoIlluminateFacialPage() {
             "Loss of natural glow"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

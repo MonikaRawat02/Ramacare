@@ -67,7 +67,7 @@ export default function DermaRollerPage() {
             "Skin rejuvenation and glow enhancement"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

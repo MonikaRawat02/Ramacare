@@ -67,7 +67,7 @@ export default function ElectrolysisPage() {
             "Areas unsuitable for laser hair removal"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

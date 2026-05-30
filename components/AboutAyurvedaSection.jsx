@@ -149,7 +149,7 @@ const AboutAyurvedaSection = ({ content }) => {
 
             {/* Call-to-Action Button */}
            <button onClick={() => {
-                window.location.href = '/doctors';
+                window.location.href = '/doctors/';
               }}
   className="bg-[#3d5f4a] hover:bg-[#2d4a37] text-white px-7 sm:px-8 py-3.5 sm:py-4 rounded-xl font-semibold text-base shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95 flex items-center gap-3 group">
   <span>{ctaText}</span>

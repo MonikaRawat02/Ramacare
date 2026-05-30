@@ -67,7 +67,7 @@ export default function PigmentationPage() {
             "Freckles and age spots"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Dermatology & Aesthetic Care",
             "address": {
               "@type": "PostalAddress",

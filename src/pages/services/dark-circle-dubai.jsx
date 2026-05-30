@@ -66,7 +66,7 @@ export default function DarkCirclePage() {
             "Tired or aged under‑eye appearance"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

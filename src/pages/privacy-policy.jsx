@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import SEOContentSection from '../../components/SEOContentSection';
 import { 
   Shield, Lock, Eye, FileText, Calendar, Mail, 
   Phone, MapPin, Search, Download, Printer, 
@@ -11,6 +12,25 @@ import {
 } from 'lucide-react';
 
 const PolicyPages = () => {
+  const privacySEOContent = [
+    "At RamaCare Polyclinic, we are committed to maintaining the highest standards of data protection and patient confidentiality. Our privacy policy is designed to ensure that your personal and medical information is handled with the utmost care, in full compliance with the laws of the United Arab Emirates and the regulations of the Dubai Health Authority (DHA).",
+    {
+      type: "heading",
+      text: "Commitment to Patient Confidentiality"
+    },
+    "We understand that the trust you place in us is the foundation of your healthcare experience. That's why we implement robust security measures to protect your digital and physical records. Our team is trained to handle sensitive information professionally, ensuring that only authorized personnel have access to your data for the purpose of providing you with high-quality medical care.",
+    {
+      type: "list",
+      items: [
+        "Data Security: Advanced encryption and secure storage systems for all patient records.",
+        "Regulatory Compliance: Adherence to UAE Federal Decree-Law No. 45 of 2021 regarding Personal Data Protection.",
+        "Informed Consent: We ensure you are fully aware of how your data is used and shared for treatment and billing purposes.",
+        "Patient Rights: Easy access to your medical records and the right to request updates or corrections."
+      ]
+    },
+    "As a leading healthcare provider in Dubai, RamaCare Polyclinic continues to invest in technology and training to stay ahead of evolving data protection standards. We are dedicated to providing you with a safe and secure environment for all your medical and wellness needs."
+  ];
+
   const [activeSection, setActiveSection] = useState('');
   const [isScrolled, setIsScrolled] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
@@ -97,7 +117,7 @@ const PolicyPages = () => {
                   />
                 </div>
                 <div>
-                  <h1 className="text-lg font-bold text-gray-900">Privacy Policy</h1>
+                  <span className="text-lg font-bold text-gray-900 block">Privacy Policy</span>
                   <p className="text-xs text-gray-500">Last Updated: January 2026</p>
                 </div>
               </div>
@@ -225,6 +245,8 @@ const PolicyPages = () => {
             </main>
           </div>
         </div>
+
+        <SEOContentSection title="Our Commitment to Your Privacy" content={privacySEOContent} />
 
         {/* Back to Top Button */}
         {showBackToTop && (

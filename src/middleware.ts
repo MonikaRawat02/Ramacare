@@ -4,16 +4,31 @@ import type { NextRequest } from 'next/server';
 export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone();
   const hostname = request.headers.get('host');
+  const protocol = request.headers.get('x-forwarded-proto') || 'http';
 
-  // Check if hostname starts with www.
+  // Force HTTPS and non-www
+  let changed = false;
+
+  // 1. Redirect HTTP to HTTPS
+  if (protocol === 'http' && process.env.NODE_ENV === 'production') {
+    url.protocol = 'https:';
+    changed = true;
+  }
+
+  // 2. Redirect www to non-www
   if (hostname && hostname.startsWith('www.')) {
     const newHostname = hostname.replace(/^www\./, '');
     url.hostname = newHostname;
-    return NextResponse.redirect(url, 301);
+    changed = true;
+  }
+
+  if (changed) {
+    const response = NextResponse.redirect(url, 301);
+    response.headers.set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains; preload');
+    return response;
   }
 
   // Legacy WordPress Redirects
-  // This catches old WP paths that might still be in Google's index
   const pathname = request.nextUrl.pathname;
   if (
     pathname.startsWith('/wp-') || 
@@ -21,9 +36,14 @@ export function middleware(request: NextRequest) {
     pathname.includes('xmlrpc.php')
   ) {
     url.pathname = '/';
-    return NextResponse.redirect(url, 301);
+    const response = NextResponse.redirect(url, 301);
+    response.headers.set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains; preload');
+    return response;
   }
-  return NextResponse.next();
+  
+  const response = NextResponse.next();
+  response.headers.set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains; preload');
+  return response;
 }
 // See "Matching Paths" below to learn more
 export const config = {

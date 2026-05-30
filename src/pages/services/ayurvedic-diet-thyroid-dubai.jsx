@@ -249,7 +249,7 @@ export default function AyurvedicDietThyroidPage() {
   "bodyLocation": "Whole body",
   "howPerformed": "The treatment includes an Ayurvedic consultation to assess body constitution (dosha) and thyroid function, followed by personalized diet recommendations using traditional Ayurvedic nutrition principles tailored to hormonal balance.",
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic – Ayurvedic & Wellness Department",
     "address": {
       "@type": "PostalAddress",

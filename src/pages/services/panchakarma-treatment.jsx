@@ -56,7 +56,7 @@ export default function PanchakarmaTreatmentPage() {
   ],
   "possibleComplication": "Mild temporary fatigue or detox reactions may occur depending on individual response.",
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic – Ayurvedic & Wellness Department",
     "address": {
       "@type": "PostalAddress",

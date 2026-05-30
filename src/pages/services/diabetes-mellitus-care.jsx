@@ -69,7 +69,7 @@ export default function DiabetesMellitusCarePage() {
         "High HbA1c readings"
       ],
       "provider": {
-        "@type": "MedicalBusiness",
+        "@type": "MedicalClinic",
         "name": "RamaCare Polyclinic – Diabetes & General Health Care",
         "address": {
           "@type": "PostalAddress",

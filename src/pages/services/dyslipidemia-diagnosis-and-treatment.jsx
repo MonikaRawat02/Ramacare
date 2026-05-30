@@ -68,7 +68,7 @@ export default function DyslipidemiaDiagnosisandTreatmentPage() {
         "Cardiovascular risk due to abnormal lipid levels"
       ],
       "provider": {
-        "@type": "MedicalBusiness",
+        "@type": "MedicalClinic",
         "name": "RamaCare Polyclinic – Lipid & General Health Care",
         "address": {
           "@type": "PostalAddress",

@@ -494,7 +494,7 @@ const ContactUsPage = () => {
                     />
                     <label className="text-sm text-gray-600">
                       I agree to the processing of my personal data in accordance with the 
-                      <a href="/privacy-policy" className="text-[#1a5f3f] hover:underline ml-1">Privacy Policy</a>
+                      <a href="/privacy-policy/" className="text-[#1a5f3f] hover:underline ml-1">Privacy Policy</a>
                     </label>
                   </div>
                   {errors.consent && (

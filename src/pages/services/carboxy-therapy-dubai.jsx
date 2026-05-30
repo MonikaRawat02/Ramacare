@@ -67,7 +67,7 @@ export default function CarboxyTherapyPage() {
             "Fine lines and early signs of aging"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

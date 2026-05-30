@@ -67,7 +67,7 @@ export default function TattooRemovalPage() {
             "Preparation for cover‑up tattoo work"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

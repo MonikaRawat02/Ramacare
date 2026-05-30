@@ -53,7 +53,7 @@ export default function AnalysisOfIndividualTreatmentPage() {
     "Overall health optimisation"
   ],
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic - Comprehensive Care Department",
     "address": {
       "@type": "PostalAddress",

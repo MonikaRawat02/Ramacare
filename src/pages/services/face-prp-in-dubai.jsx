@@ -52,7 +52,7 @@ export default function FacePRPinDubaiPage() {
         "General facial skin rejuvenation"
       ],
       "provider": {
-        "@type": "MedicalBusiness",
+        "@type": "MedicalClinic",
         "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
         "address": {
           "@type": "PostalAddress",

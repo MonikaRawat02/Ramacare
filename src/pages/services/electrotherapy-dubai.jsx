@@ -55,7 +55,7 @@ export default function ElectrotherapyPage() {
   ],
   "possibleComplication": "Mild skin irritation or tingling may occur at electrode sites.",
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic – Physiotherapy Department",
     "address": {
       "@type": "PostalAddress",

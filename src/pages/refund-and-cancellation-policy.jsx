@@ -97,7 +97,7 @@ const RefundCancellationPage = () => {
                   />
                 </div>
                 <div>
-                  <h1 className="text-lg font-bold text-gray-900">Refund & Cancellation Policy</h1>
+                  <span className="text-lg font-bold text-gray-900 block">Refund & Cancellation Policy</span>
                   <p className="text-xs text-gray-500">Last Updated: January 2026</p>
                 </div>
               </div>

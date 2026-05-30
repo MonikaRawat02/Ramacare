@@ -55,7 +55,7 @@ export default function UltrasoundTherapyPage() {
   ],
   "possibleComplication": "Temporary mild warmth at the treatment site may occur.",
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic – Physiotherapy Department",
     "address": {
       "@type": "PostalAddress",

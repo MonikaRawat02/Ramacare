@@ -68,7 +68,7 @@ export default function ThyroidDysfunctionSolutionsPage() {
         "Neck swelling (goiter)"
       ],
       "provider": {
-        "@type": "MedicalBusiness",
+        "@type": "MedicalClinic",
         "name": "RamaCare Polyclinic – Thyroid & General Health Care",
         "address": {
           "@type": "PostalAddress",

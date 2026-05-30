@@ -53,7 +53,7 @@ export default function ScoliosisTreatmentPage() {
         ],
         "possibleComplication": "Mild muscle soreness may occur during early therapy phases.",
         "provider": {
-          "@type": "MedicalBusiness",
+          "@type": "MedicalClinic",
           "name": "RamaCare Polyclinic – Physiotherapy & Rehabilitation Department",
           "address": {
             "@type": "PostalAddress",

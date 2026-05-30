@@ -1,0 +1,24 @@
+# RamaCare Polyclinic Dubai
+
+Premium DHA-licensed multi-specialty medical center located in Jumeirah 1, Dubai.
+
+## Core Information
+- **Location**: Jumeirah 1, Ground Floor, Jumeirah Terrace Building, Dubai, UAE.
+- **Hours**: Sunday - Saturday, 10:00 AM - 10:00 PM.
+- **License**: DHA Licensed Polyclinic.
+- **Specialties**: Ayurveda, Physiotherapy, Aesthetic Dermatology, Dental Care, General Medicine.
+
+## Key Services
+- **Ayurveda**: Authentic Panchakarma, Detoxification, Shirodhara, and Abhyanga.
+- **Physiotherapy**: Sports injury rehab, post-surgery recovery, and chronic pain management.
+- **Dermatology**: Laser hair removal, facial rejuvenation, PRP, and anti-aging treatments.
+- **Dental**: Cosmetic dentistry, root canal, teeth whitening, and general oral care.
+- **General Medicine**: Routine checkups, chronic disease management, and family healthcare.
+
+## Contact
+- **Phone**: +971 56 659 7878
+- **Email**: query@ramacarepolyclinic.com
+- **Website**: https://ramacarepolyclinic.ae/
+
+## Sitemap
+- Full sitemap: https://ramacarepolyclinic.ae/sitemap.xml

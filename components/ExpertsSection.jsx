@@ -545,7 +545,7 @@ const ExpertsSection = ({ content, onBookAppointment }) => {
             </button>
             <button 
               onClick={() => {
-                window.location.href = '/doctors';
+                window.location.href = '/doctors/';
               }}
               className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-3.5 rounded-xl font-medium text-sm transition-all duration-200"
             >

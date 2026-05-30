@@ -38,6 +38,8 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-3 pt-4 w-full max-w-[700px]">
             <a
               href="https://wa.me/971542669345"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
               className="inline-flex h-12 items-center justify-center gap-2 rounded-[6px] bg-[#22c55e] px-6 text-[15px] font-medium text-white shadow-sm transition-all duration-200 hover:bg-[#16a34a] w-full sm:w-auto sm:flex-1"
             >
               <svg

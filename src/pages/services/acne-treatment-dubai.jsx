@@ -92,7 +92,7 @@ export default function AcneTreatmentPage() {
               ],
               "possibleComplication": "Temporary redness or mild irritation may occur after some treatments.",
               "provider": {
-                "@type": "MedicalBusiness",
+                "@type": "MedicalClinic",
                 "name": "Rama Care Polyclinic – Dermatology Department",
                 "address": {
                   "@type": "PostalAddress",

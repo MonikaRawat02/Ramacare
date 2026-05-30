@@ -2,8 +2,32 @@ import Layout from "../../components/Layout";
 import Script from "next/script";
 import Head from "next/head";
 import PatientTestimonials from "../../components/PatientTestimonials";
+import SEOContentSection from "../../components/SEOContentSection";
 
 export default function TestimonialsPage() {
+  const testimonialsSEOContent = [
+    "At RamaCare Polyclinic, nothing speaks louder than the success stories of our patients. We are honored to have been a part of the health journeys of so many individuals in Dubai. Our testimonials page is a reflection of our commitment to providing compassionate, expert medical care that delivers real results. From pain recovery to skin transformations, these stories represent the high standard of care we strive for every day.",
+    {
+      type: "heading",
+      text: "Real Patient Experiences in Jumeirah 1"
+    },
+    "Our patients come to us with diverse health goals, and we take pride in creating personalized paths to wellness for each one. Whether it's a life-changing Ayurvedic detox, successful rehabilitation through physiotherapy, or a confidence-boosting aesthetic treatment, the feedback from our community motivates us to keep improving.",
+    {
+      type: "list",
+      items: [
+        "Verified Reviews: Genuine feedback from patients who have visited our Jumeirah 1 clinic.",
+        "Success Stories: Documented journeys of recovery and transformation across all our departments.",
+        "Expert-Led Care: Testimonials highlighting the professionalism and expertise of our DHA-licensed doctors.",
+        "Holistic Results: Feedback on how our integrated approach to medicine has improved overall quality of life."
+      ]
+    },
+    {
+      type: "heading",
+      text: "Join Our Community of Healthy Patients"
+    },
+    "We believe that every patient deserves a success story. If you are looking for a trusted polyclinic in Dubai where your health and well-being are prioritized, we invite you to read through these testimonials and see the RamaCare difference for yourself. We look forward to helping you achieve your own health milestones and becoming a part of our growing community of satisfied patients."
+  ];
+
   // Content for the testimonials page - you can add more testimonials here
   const testimonialsContent = {
     badge: 'Patient Success Stories',
@@ -119,9 +143,10 @@ export default function TestimonialsPage() {
         `}
       </Script>
       
-      <div className="w-full">
+      <main>
         <PatientTestimonials content={testimonialsContent} />
-      </div>
+        <SEOContentSection title="What Our Patients Say About RamaCare Dubai" content={testimonialsSEOContent} />
+      </main>
 
       {/* Visually Hidden SEO Content - Fixes Word Count without affecting UI */}
       <div className="sr-only" aria-hidden="true">

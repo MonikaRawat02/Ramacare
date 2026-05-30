@@ -67,7 +67,7 @@ export default function BirthmarkRemovalPage() {
             "Birthmarks unresponsive to conservative care"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

@@ -69,7 +69,7 @@ export default function NasyaTherapyPage() {
   ],
   "possibleComplication": "Mild temporary nasal drainage may occur during detoxification depending on therapy intensity and individual body constitution.",
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic – Ayurvedic & Wellness Department",
     "address": {
       "@type": "PostalAddress",

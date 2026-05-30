@@ -3,8 +3,33 @@ import Layout from '../../../components/Layout';
 import Head from 'next/head';
 import Image from 'next/image';
 import BeginYourHealingJourneySection from '../../../components/BeginYourHealingJourneySection';
+import SEOContentSection from '../../../components/SEOContentSection';
 
 const AllDoctorsPage = ({ content }) => {
+  const doctorsSEOContent = [
+    "At RamaCare Polyclinic, our team of DHA-licensed doctors in Dubai is the heart of our healthcare services. We take pride in bringing together highly qualified specialists who are dedicated to providing ethical, patient-centered care. Each of our physicians brings years of experience and a deep commitment to clinical excellence, ensuring that our patients in Jumeirah 1 receive the best possible medical attention.",
+    {
+      type: "heading",
+      text: "Expert Medical Specialists in Jumeirah 1"
+    },
+    "Our doctors specialize in a variety of fields, allowing us to offer a holistic approach to your health. From modern medicine to traditional Ayurveda, our team works collaboratively to provide comprehensive solutions for your well-being.",
+    {
+      type: "list",
+      items: [
+        "Expert Physiotherapists: Specialists in mobility restoration and pain management.",
+        "Ayurvedic Practitioners: Dedicated to authentic healing and lifestyle balance.",
+        "General Physicians: Your trusted partners for primary care and preventive medicine.",
+        "Dermatology Specialists: Experts in advanced skin and aesthetic treatments.",
+        "Dental Surgeons: Providing premium oral healthcare and cosmetic enhancements."
+      ]
+    },
+    {
+      type: "heading",
+      text: "Why Consult Our Doctors?"
+    },
+    "When you consult a doctor at RamaCare Polyclinic, you are choosing a healthcare provider who listens. We believe that a strong doctor-patient relationship is essential for effective healing. Our specialists take the time to explain your diagnosis and involve you in the development of your treatment plan. With over 37 years of combined experience, our medical team is equipped to handle both simple and complex health concerns with the highest level of professionalism."
+  ];
+
   const [isVisible, setIsVisible] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [toast, setToast] = useState({ show: false, type: 'success', message: '' });
@@ -512,6 +537,7 @@ const AllDoctorsPage = ({ content }) => {
 
           </div>
         </section>
+        <SEOContentSection title="Our Medical Experts in Dubai" content={doctorsSEOContent} />
       </main>
       
       {/* Appointment Modal */}

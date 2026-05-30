@@ -330,10 +330,7 @@ export default function KneePainTreatmentPage() {
                   className="space-y-2"
                 >
                   <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#1A1A1A] leading-[1.1]">
-                    Knee Pain
-                  </h1>
-                  <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1]">
-                    <span className="text-[#1F5E4B]">Treatment</span> in Dubai
+                    Knee Pain <span className="text-[#1F5E4B]">Treatment</span> in Dubai
                   </h1>
                 </motion.div>
 

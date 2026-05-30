@@ -219,7 +219,7 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
                   >
                     Book Injury Assessment
                   </button>
-                  <a href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer" className="bg-[#F5F1EA] text-[#1F5E4B] px-8 py-4 rounded-lg font-medium hover:bg-[#E9E2D6] transition-all flex items-center justify-center gap-2">
+                  <a href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`} target="_blank" rel="nofollow noopener noreferrer" className="bg-[#F5F1EA] text-[#1F5E4B] px-8 py-4 rounded-lg font-medium hover:bg-[#E9E2D6] transition-all flex items-center justify-center gap-2">
                     <MessageCircle className="w-5 h-5" />
                     WhatsApp Instantly
                   </a>
@@ -593,7 +593,7 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
                 <a 
                   href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hello RamaCare, I'd like to speak to a specialist about ultrasound vs laser therapy.")}`}
                   target="_blank" 
-                  rel="noopener noreferrer" 
+                  rel="nofollow noopener noreferrer" 
                   className="bg-white text-[#1F5E4B] border border-[#1F5E4B]/10 px-8 py-4 rounded-xl font-bold hover:bg-white/90 transition-all shadow-md inline-flex items-center justify-center"
                 >
                   Speak to a Specialist
@@ -838,7 +838,7 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
                     <a 
                       href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`} 
                       target="_blank" 
-                      rel="noopener noreferrer" 
+                      rel="nofollow noopener noreferrer" 
                       className="w-full bg-[#F5F1EA] text-[#1F5E4B] font-bold py-4 rounded-xl flex items-center justify-center gap-2 hover:bg-[#E9E2D6] transition-all"
                     >
                       <MessageCircle className="w-5 h-5" />

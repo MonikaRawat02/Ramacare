@@ -112,7 +112,7 @@ const DoctorProfilePage = ({ doctor }) => {
             {/* Back to all doctors */}
             <div className="mb-8">
               <button 
-                onClick={() => window.location.href = '/doctors'}
+                onClick={() => window.location.href = '/doctors/'}
                 className="flex items-center gap-2 text-[#1b5e3f] hover:text-[#2d7a56] font-medium"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -247,10 +247,10 @@ const DoctorProfilePage = ({ doctor }) => {
                   Book Consultation Now
                 </button>
                 <button 
-                  onClick={() => window.location.href = '/doctors'}
-                  className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-3.5 rounded-xl font-medium text-sm transition-all duration-200"
+                  onClick={() => window.location.href = '/doctors/'}
+                  className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-3.5 rounded-xl font-medium text-sm transition-all duration-200"
                 >
-                  View All Doctors
+                  View All Specialists
                 </button>
               </div>
             </div>

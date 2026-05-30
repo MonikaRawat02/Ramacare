@@ -13,7 +13,7 @@ const PromoBanner = () => {
           <a
             href="https://wa.me/971566597878?text=Hi%20I%20want%20to%20claim%20the%20offer"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="flex-shrink-0"
           >
             <button 

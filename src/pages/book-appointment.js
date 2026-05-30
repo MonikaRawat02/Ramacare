@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Layout from '../../components/Layout';
 import BeginYourHealingJourneySection from '../../components/BeginYourHealingJourneySection';
+import SEOContentSection from '../../components/SEOContentSection';
 import { 
   Calendar, 
   Clock, 
@@ -15,6 +16,29 @@ import {
 } from 'lucide-react';
 
 const AppointmentPage = () => {
+  const appointmentSEOContent = [
+    "Booking an appointment at RamaCare Polyclinic is the first step toward receiving high-quality, personalized healthcare in Dubai. Our facility in Jumeirah 1 is designed to provide a seamless and stress-free experience for our patients. Whether you are seeking a consultation with a specialist or a routine health checkup, we offer flexible scheduling to accommodate your busy lifestyle.",
+    {
+      type: "heading",
+      text: "What to Expect During Your First Visit"
+    },
+    "When you visit RamaCare Polyclinic, you will be welcomed by our professional and friendly staff. Our team will guide you through the registration process and ensure that you are comfortable before meeting with your doctor. During your consultation, our DHA-licensed specialists will perform a thorough assessment and discuss your health concerns in detail.",
+    {
+      type: "list",
+      items: [
+        "Personalized Assessment: A detailed review of your medical history and current symptoms.",
+        "Expert Consultation: Direct access to specialized doctors in various medical fields.",
+        "Diagnostic Support: On-site diagnostic tools for quick and accurate health evaluations.",
+        "Transparent Communication: Clear explanations of your diagnosis and treatment options."
+      ]
+    },
+    {
+      type: "heading",
+      text: "Convenient Healthcare in the Heart of Dubai"
+    },
+    "Located in Jumeirah Terrace Building, Jumeirah 1, our clinic is easily accessible with ample parking for our patients. We are open seven days a week from 10:00 AM to 10:00 PM to ensure that you can access medical care when you need it most. We also offer same-day appointments for urgent health concerns. Book your appointment today and experience the RamaCare difference."
+  ];
+
   // Stats data for the hero section
   const stats = [
     { number: '500+', label: 'Happy Patients' },
@@ -241,6 +265,7 @@ const AppointmentPage = () => {
           </div>
         </div>
       </section>
+      <SEOContentSection title="Schedule Your Health Journey Today" content={appointmentSEOContent} />
     </Layout>
   );
 };

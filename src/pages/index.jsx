@@ -12,8 +12,34 @@ import WhyAyurvedaDubaiSection from "../../components/WhyAyurvedaDubaiSection";
 import FAQSection from "../../components/FAQSection";
 // import OurFacilitySection from "../../components/OurFacilitySection";
 import BeginYourHealingJourneySection from "../../components/BeginYourHealingJourneySection";
+import SEOContentSection from "../../components/SEOContentSection";
 
 export default function Home() {
+  const homeSEOContent = [
+    "RamaCare Polyclinic is your premier destination for high-quality healthcare in Dubai. Located in the heart of Jumeirah 1, our DHA-licensed medical center is dedicated to providing comprehensive medical services that cater to the diverse needs of our patients. We believe in a holistic approach to healing, combining the wisdom of traditional Ayurveda with the precision of modern medicine.",
+    {
+      type: "heading",
+      text: "Comprehensive Medical Services in Jumeirah 1"
+    },
+    "Our polyclinic offers a wide range of specialized treatments, ensuring that you and your family receive the best possible care under one roof. Whether you are seeking physiotherapy in Dubai for pain management, advanced dental care for a perfect smile, or expert dermatology services for healthy skin, our team of experienced doctors is here to support you.",
+    {
+      type: "list",
+      items: [
+        "Expert Ayurveda Treatments: Authentic healing for mind and body balance.",
+        "Advanced Physiotherapy: Helping you move better and live pain-free with personalized rehab plans.",
+        "Dermatology & Skin Care: Specialized treatments for acne, pigmentation, and anti-aging.",
+        "Premium Dental Services: Complete oral healthcare from routine checkups to cosmetic dentistry.",
+        "General Physician Consultations: Primary care for everyday health and chronic condition management."
+      ]
+    },
+    {
+      type: "heading",
+      text: "Why Choose RamaCare Polyclinic Dubai?"
+    },
+    "Choosing the right polyclinic in Dubai is crucial for your health journey. At RamaCare, we prioritize patient satisfaction and ethical medical practices. Our facility is equipped with modern medical technology, and our DHA-licensed specialists are committed to delivering results-oriented care. We understand that every patient is unique, which is why we create customized wellness plans tailored to your specific health goals.",
+    "Visit us in Jumeirah 1 today and experience a new standard of healthcare. From our welcoming environment to our professional medical team, we are dedicated to helping you achieve and maintain optimal health. Book your free consultation now and take the first step toward a healthier, happier life."
+  ];
+
   return (
     <Layout>
       <Head>
@@ -27,7 +53,7 @@ export default function Home() {
   dangerouslySetInnerHTML={{
     __html: `{
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
+  "@type": "MedicalClinic",
   "@id": "https://ramacarepolyclinic.ae/#organization",
   "name": "RamaCare Polyclinic",
   "url": "https://ramacarepolyclinic.ae/",
@@ -94,6 +120,7 @@ export default function Home() {
       <FAQSection />
       {/* <OurFacilitySection /> */}
       <BeginYourHealingJourneySection />
+      <SEOContentSection title="Your Health, Our Priority: Leading Polyclinic in Jumeirah 1" content={homeSEOContent} />
     </Layout>
   );
 }

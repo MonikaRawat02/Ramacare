@@ -68,7 +68,7 @@ export default function WoundStitchingServicesPage() {
             "Open wounds needing expert closure"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – General & Emergency Care",
             "address": {
               "@type": "PostalAddress",

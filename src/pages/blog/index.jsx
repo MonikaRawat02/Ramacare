@@ -4,8 +4,33 @@ import Head from "next/head";
 import axios from "axios";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import SEOContentSection from "../../../components/SEOContentSection";
 
 export default function BlogListPage() {
+  const blogSEOContent = [
+    "Welcome to the RamaCare Polyclinic Health & Wellness Blog, your trusted source for expert medical insights and wellness advice in Dubai. Our mission is to empower our community with reliable health information that helps you make informed decisions about your well-being. Our articles are written and reviewed by our DHA-licensed specialists, covering a wide range of topics from modern medicine to holistic Ayurveda.",
+    {
+      type: "heading",
+      text: "Stay Informed with the Latest Health Trends"
+    },
+    "In our blog, we explore the latest advancements in medical technology, provide practical tips for healthy living, and share deep dives into specialized treatments. Whether you're looking for information on skin care, dental hygiene, pain management, or natural healing, you'll find valuable content tailored to the Dubai lifestyle.",
+    {
+      type: "list",
+      items: [
+        "Aesthetic & Dermatology Tips: Maintaining healthy skin in the UAE climate.",
+        "Ayurvedic Wisdom: Integrating traditional healing into your daily routine.",
+        "Physiotherapy Insights: Strategies for injury prevention and recovery.",
+        "Dental Health Guides: Keeping your smile bright and healthy.",
+        "General Health Updates: Managing everyday health concerns effectively."
+      ]
+    },
+    {
+      type: "heading",
+      text: "Expert-Led Health Education"
+    },
+    "We believe that education is a vital part of the healing journey. By sharing our expertise through this blog, we hope to build a healthier and more informed community in Jumeirah 1 and across Dubai. We invite you to explore our articles, share them with your loved ones, and reach out to our specialists if you have any questions about the topics we cover. Your health journey starts with knowledge."
+  ];
+
   const router = useRouter();
   const { topic: queryTopic } = router.query;
   
@@ -699,9 +724,10 @@ export default function BlogListPage() {
         </div>
 
         {/* Footer Decoration */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="h-px bg-gradient-to-r from-transparent via-green-300 to-transparent"></div>
         </div>
+        <SEOContentSection title="Health & Wellness Insights" content={blogSEOContent} />
       </div>
     </Layout>
   );

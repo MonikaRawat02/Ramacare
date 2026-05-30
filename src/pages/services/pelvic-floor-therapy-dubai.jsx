@@ -55,7 +55,7 @@ export default function PelvicFloorTherapyPage() {
   ],
   "possibleComplication": "Temporary muscle soreness or discomfort may occur after therapy sessions.",
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic – Physiotherapy Department",
     "address": {
       "@type": "PostalAddress",

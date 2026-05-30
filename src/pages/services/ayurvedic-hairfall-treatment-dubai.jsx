@@ -61,7 +61,7 @@ export default function AyurvedicHairfallTreatmentPage() {
               possibleComplication:
                 "Mild scalp sensitivity or temporary itching may occur during early stages of herbal treatment.",
               provider: {
-                "@type": "MedicalBusiness",
+                "@type": "MedicalClinic",
                 name: "RamaCare Polyclinic - Ayurvedic & Hair Wellness Department",
                 address: {
                   "@type": "PostalAddress",

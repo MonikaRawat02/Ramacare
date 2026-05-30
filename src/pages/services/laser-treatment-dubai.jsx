@@ -33,8 +33,8 @@ export default function LaserTreatmentPage() {
     dangerouslySetInnerHTML={{
       __html: `{
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "@id": "https://ramacarepolyclinic.ae/services/laser-treatment-dubai/#medicalbusiness",
+  "@type": "MedicalClinic",
+  "@id": "https://ramacarepolyclinic.ae/services/laser-treatment-dubai/#medicalclinic",
   "name": "Laser Treatment in Dubai",
   "url": "https://ramacarepolyclinic.ae/services/laser-treatment-dubai",
   "description": "Advanced laser treatment in Dubai for hair removal, pigmentation, acne scars, skin rejuvenation, spider veins, and anti-aging. Performed by DHA-licensed specialists using FDA-approved laser technology in Jumeirah 1.",

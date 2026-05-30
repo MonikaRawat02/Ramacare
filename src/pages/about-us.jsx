@@ -4,10 +4,34 @@ import AboutAyurvedaSection from "../../components/AboutAyurvedaSection";
 import WhyAyurvedaDubaiSection from "../../components/WhyAyurvedaDubaiSection";
 import ExpertsSection from "../../components/ExpertsSection";
 import BeginYourHealingJourneySection from "../../components/BeginYourHealingJourneySection";
+import SEOContentSection from "../../components/SEOContentSection";
 import { useState, useEffect } from "react";
-import { X } from "lucide-react";
 
 export default function About() {
+  const aboutSEOContent = [
+    "RamaCare Polyclinic is a leading DHA-licensed multi-specialty medical center located in Jumeirah 1, Dubai. Our clinic was founded with the vision of providing patient-centered, high-quality healthcare that combines the best of modern medical science with time-tested traditional healing practices. We are committed to excellence in everything we do, from our clinical treatments to our patient support services.",
+    {
+      type: "heading",
+      text: "Our Philosophy of Care"
+    },
+    "At RamaCare, we believe that true healing involves more than just treating symptoms. We focus on the whole person, taking into account their lifestyle, environment, and individual health goals. Our team of expert doctors in Dubai works collaboratively to ensure that each patient receives a comprehensive and personalized treatment plan.",
+    {
+      type: "list",
+      items: [
+        "Patient-Focused Approach: We listen to your concerns and involve you in every decision about your care.",
+        "Ethical Medical Practices: We adhere to the highest standards of integrity and transparency in all our treatments.",
+        "Modern Technology: Our facility is equipped with advanced medical equipment for accurate diagnosis and effective treatment.",
+        "Experienced Specialists: Our DHA-licensed doctors bring years of expertise in their respective fields."
+      ]
+    },
+    {
+      type: "heading",
+      text: "Serving the Dubai Community"
+    },
+    "Since our establishment, RamaCare Polyclinic has become a trusted name in the Dubai healthcare landscape. We are proud to serve the diverse community of Jumeirah 1 and the wider Dubai area, offering a welcoming and professional environment for patients of all ages. Whether you are visiting us for preventive care or specialized treatment, your health and well-being are our top priorities.",
+    "We invite you to learn more about our services and meet our dedicated team. At RamaCare Polyclinic, we are here to support you on your journey to better health. Discover why we are considered one of the best polyclinics in Dubai for personalized and effective medical care."
+  ];
+
   const [isClient, setIsClient] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [toast, setToast] = useState({ show: false, type: 'success', message: '' });
@@ -180,6 +204,7 @@ const whyContent = {
       <AboutAyurvedaSection content={aboutContent} />
       <WhyAyurvedaDubaiSection content={whyContent} />
       <ExpertsSection content={expertsContent} onBookAppointment={handleBookAppointment} />
+      <SEOContentSection title="About RamaCare: Excellence in Healthcare Dubai" content={aboutSEOContent} />
 
       {/* Booking Modal */}
       {isModalOpen && (

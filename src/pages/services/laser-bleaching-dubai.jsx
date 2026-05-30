@@ -67,7 +67,7 @@ export default function LaserBleachingPage() {
             "Hair aesthetic enhancement for confidence and cosmetic blending"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

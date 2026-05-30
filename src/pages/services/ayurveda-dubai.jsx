@@ -11,10 +11,30 @@ import WhyAyurvedaDubaiSection from "../../../components/WhyAyurvedaDubaiSection
 import FAQSection from "../../../components/FAQSection";
 // import OurFacilitySection from "../../../components/OurFacilitySection";
 import BeginYourHealingJourneySection from "../../../components/BeginYourHealingJourneySection";
+import SEOContentSection from "../../../components/SEOContentSection";
 import { getCategoryContent } from "../../data/categoryContent";
 
 export default function AyurvedaCategoryPage() {
   const content = getCategoryContent('ayurveda');
+  const ayurvedaSEOContent = [
+    "Experience the profound healing power of traditional Ayurveda in Dubai at RamaCare Polyclinic. Our Ayurveda department is dedicated to restoring balance and harmony to your mind, body, and spirit through authentic therapies and personalized wellness plans. Led by experienced Ayurvedic doctors, we provide a holistic alternative for those seeking natural health solutions in Jumeirah 1.",
+    {
+      type: "heading",
+      text: "Authentic Ayurvedic Therapies in Jumeirah 1"
+    },
+    "Our clinic offers a wide range of classical Ayurvedic treatments, each tailored to your unique body constitution (Dosha). We focus on identifying the root cause of health issues rather than just managing symptoms.",
+    {
+      type: "list",
+      items: [
+        "Panchakarma: Deep detoxification and rejuvenation programs.",
+        "Abhyanga: Therapeutic herbal oil massages for relaxation and pain relief.",
+        "Shirodhara: Specialized head therapy for stress, sleep, and mental clarity.",
+        "Ayurvedic Diet & Lifestyle: Personalized nutrition plans based on your body type.",
+        "Chronic Condition Management: Natural support for digestive issues, joint pain, and more."
+      ]
+    },
+    "At RamaCare, we blend the wisdom of ancient traditions with modern medical standards to ensure a safe and effective healing journey. Whether you are looking to detoxify, manage stress, or address a specific health concern, our team is here to guide you toward lasting wellness. Discover authentic Ayurveda in Dubai with us."
+  ];
 
   return (
     <Layout>
@@ -28,8 +48,8 @@ export default function AyurvedaCategoryPage() {
   dangerouslySetInnerHTML={{
     __html: `{
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "@id": "https://ramacarepolyclinic.ae/services/ayurveda-dubai/#medicalbusiness",
+  "@type": "MedicalClinic",
+  "@id": "https://ramacarepolyclinic.ae/services/ayurveda-dubai/#medicalclinic",
   "name": "Ayurveda Treatment in Dubai",
   "url": "https://ramacarepolyclinic.ae/services/ayurveda-dubai",
   "image": "https://ramacarepolyclinic.ae/images/ayurveda.png",
@@ -140,6 +160,7 @@ export default function AyurvedaCategoryPage() {
       <FAQSection content={content?.faq} />
        {/* <OurFacilitySection content={content?.facility} /> */}
       <BeginYourHealingJourneySection content={content?.booking} />
+      <SEOContentSection title="Authentic Ayurveda Treatment in Dubai" content={ayurvedaSEOContent} />
     </Layout>
   );
 }

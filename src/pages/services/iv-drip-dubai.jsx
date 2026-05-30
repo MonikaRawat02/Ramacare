@@ -67,7 +67,7 @@ export default function IVdripPage() {
             "Support during recovery from illness or stress"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

@@ -67,7 +67,7 @@ export default function ManagementofAllergyPage() {
             "Environmental allergies"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Allergy & General Healthcare",
             "address": {
               "@type": "PostalAddress",

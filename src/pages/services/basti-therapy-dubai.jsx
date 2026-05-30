@@ -73,7 +73,7 @@ export default function BastiTherapyPage() {
   ],
   "possibleComplication": "Mild temporary digestive changes may occur during detoxification depending on therapy intensity and individual body constitution.",
   "provider": {
-    "@type": "MedicalBusiness",
+    "@type": "MedicalClinic",
     "name": "RamaCare Polyclinic – Ayurvedic & Wellness Department",
     "address": {
       "@type": "PostalAddress",

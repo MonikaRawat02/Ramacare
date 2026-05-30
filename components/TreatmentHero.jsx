@@ -250,7 +250,7 @@ const categoryData = categories.find(
                 <a
                   href={`https://wa.me/${ctaButtons.secondary.phone?.replace(/[^0-9]/g, '')}`}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-white border-2 border-[#2D5F3F] text-[#2D5F3F] px-6 py-3.5 rounded-lg font-semibold text-sm hover:bg-[#2D5F3F] hover:text-white transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5 group flex-1 sm:flex-initial min-w-[180px]"
                 >
                   <svg className="w-5 h-5 flex-shrink-0 text-[#25D366] group-hover:text-white transition-colors duration-300" fill="currentColor" viewBox="0 0 24 24">

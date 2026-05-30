@@ -67,7 +67,7 @@ export default function SkinBoostersPage() {
             "Loss of skin elasticity"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

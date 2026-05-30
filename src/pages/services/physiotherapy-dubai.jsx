@@ -11,10 +11,30 @@ import WhyAyurvedaDubaiSection from "../../../components/WhyAyurvedaDubaiSection
 import FAQSection from "../../../components/FAQSection";
 // import OurFacilitySection from "../../../components/OurFacilitySection";
 import BeginYourHealingJourneySection from "../../../components/BeginYourHealingJourneySection";
+import SEOContentSection from "../../../components/SEOContentSection";
 import { getCategoryContent } from "../../data/categoryContent";
 
-export default function PhysiotherapyCategoryPage() {
+export default function physiotherapydubaiCategoryPage() {
   const content = getCategoryContent('physiotherapy');
+  const physioSEOContent = [
+    "Recover your mobility and live pain-free with expert physiotherapy in Dubai at RamaCare Polyclinic. Our specialized physiotherapy department in Jumeirah 1 offers advanced rehabilitation services for a wide range of musculoskeletal and neurological conditions. Our DHA-licensed physiotherapists use evidence-based techniques and personalized treatment plans to help you achieve your recovery goals.",
+    {
+      type: "heading",
+      text: "Advanced Rehabilitation Services in Jumeirah 1"
+    },
+    "Whether you are recovering from surgery, managing chronic pain, or seeking to improve your athletic performance, we provide focused care designed to restore function and improve your quality of life.",
+    {
+      type: "list",
+      items: [
+        "Manual Therapy: Hands-on techniques to mobilize joints and soft tissues.",
+        "Sports Injury Rehab: Specialized care for athletes to get back in the game safely.",
+        "Post-Operative Rehabilitation: Personalized plans to ensure optimal recovery after surgery.",
+        "Pain Management: Effective strategies for back pain, neck pain, and joint issues.",
+        "Posture Correction: Expert guidance to improve ergonomics and prevent future injuries."
+      ]
+    },
+    "At RamaCare, we utilize modern equipment and therapeutic exercises to deliver lasting results. We take a holistic approach to rehabilitation, addressing the underlying causes of your pain to prevent recurrence. Experience the highest standard of physiotherapy care in Dubai. Book your free consultation with our specialists today."
+  ];
 
   return (
     <Layout>
@@ -28,8 +48,8 @@ export default function PhysiotherapyCategoryPage() {
   dangerouslySetInnerHTML={{
     __html: `{
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "@id": "https://ramacarepolyclinic.ae/services/physiotherapy-dubai/#medicalbusiness",
+  "@type": "MedicalClinic",
+  "@id": "https://ramacarepolyclinic.ae/services/physiotherapy-dubai/#medicalclinic",
   "name": "Physiotherapy Treatment in Dubai",
   "url": "https://ramacarepolyclinic.ae/services/physiotherapy-dubai",
   "description": "Advanced physiotherapy and rehabilitation in Jumeirah 1, Dubai. Evidence-based physiotherapy treatment for pain relief, injury recovery, posture correction, and functional restoration by DHA-licensed physiotherapists.",
@@ -103,6 +123,7 @@ export default function PhysiotherapyCategoryPage() {
       <FAQSection content={content?.faq} />
        {/* <OurFacilitySection content={content?.facility} /> */}
        <BeginYourHealingJourneySection content={content?.booking} />
+      <SEOContentSection title="Leading Physiotherapy Center in Dubai" content={physioSEOContent} />
     </Layout>
   );
 }

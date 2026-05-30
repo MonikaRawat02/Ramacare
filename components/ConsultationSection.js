@@ -98,7 +98,7 @@ export default function ConsultationSection() {
         </a>
 
         {/* WhatsApp - green */}
-        <a href="https://wa.me/971542669345" style={{
+        <a href="https://wa.me/971542669345" target="_blank" rel="nofollow noopener noreferrer" style={{
           display: 'inline-flex',
           alignItems: 'center',
           gap: '10px',

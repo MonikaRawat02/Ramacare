@@ -67,7 +67,7 @@ export default function MesotherapyPage() {
             "Mild localized fat deposits"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

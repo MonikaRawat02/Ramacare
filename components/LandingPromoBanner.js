@@ -25,7 +25,7 @@ const { openModal } = useModal();
 
         <div className="promo-right">
 
-          <a href="https://wa.me/971542669345" className="btn btn-wa">
+          <a href="https://wa.me/971542669345" target="_blank" rel="nofollow noopener noreferrer" className="btn btn-wa">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="10"/>
               <path d="M8 12a4 4 0 0 0 8 0"/>

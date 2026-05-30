@@ -67,7 +67,7 @@ export default function PCOSTreatmentPage() {
         "Acne or weight gain related to PCOS"
       ],
       "provider": {
-        "@type": "MedicalBusiness",
+        "@type": "MedicalClinic",
         "name": "RamaCare Polyclinic",
         "address": {
           "@type": "PostalAddress",

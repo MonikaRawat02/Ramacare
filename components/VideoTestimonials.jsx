@@ -325,7 +325,7 @@ const PatientTestimonials = ({ content }) => {
         {showSeeAllButton && (
           <div className="flex justify-center mt-8 md:mt-12">
             <a 
-              href="/testimonials"
+              href="/testimonials/"
               className="inline-flex items-center px-6 py-3 bg-[#2D5F3F] hover:bg-[#3A7B51] text-white font-medium rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
             >
               See All Testimonials

@@ -67,7 +67,7 @@ export default function LaserRejuvenationPage() {
             "Loss of skin radiance"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

@@ -68,7 +68,7 @@ export default function BotoxPage() {
             "Excessive muscle activity causing expression wrinkles"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Aesthetic & Dermatology Care",
             "address": {
               "@type": "PostalAddress",

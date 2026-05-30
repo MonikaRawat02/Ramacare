@@ -68,7 +68,7 @@ export default function AsthmaandCOPDExpertisePage() {
         "History of respiratory triggers"
       ],
       "provider": {
-        "@type": "MedicalBusiness",
+        "@type": "MedicalClinic",
         "name": "RamaCare Polyclinic – Respiratory & General Health Care",
         "address": {
           "@type": "PostalAddress",

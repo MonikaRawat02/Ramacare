@@ -88,7 +88,7 @@ export default function BackPainTreatmentPage() {
               ],
               "possibleComplication": "Temporary muscle soreness may occur after initial therapy sessions.",
               "provider": {
-                "@type": "MedicalBusiness",
+                "@type": "MedicalClinic",
                 "name": "Rama Care Polyclinic – Physiotherapy Department",
                 "address": {
                   "@type": "PostalAddress",

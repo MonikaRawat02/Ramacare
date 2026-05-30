@@ -67,7 +67,7 @@ export default function TreatmentofAcuteInfectionsPage() {
             "Gastrointestinal infections"
           ],
           "provider": {
-            "@type": "MedicalBusiness",
+            "@type": "MedicalClinic",
             "name": "RamaCare Polyclinic – Acute Infection Care",
             "address": {
               "@type": "PostalAddress",
