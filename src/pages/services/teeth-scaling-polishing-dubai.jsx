@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function TeethScalingPolishingPage() {
   const categoryName = 'Dental';
@@ -30,12 +30,7 @@ export default function TeethScalingPolishingPage() {
   <meta name="keywords" content="Teeth scaling in Dubai, Teeth Polishing in Dubai, dental cleaning in Dubai, Professional teeth cleaning, Plaque removal Dubai, Tartar removal Dubai, Oral hygiene Dubai, Licensed dentist in Dubai, Routine dental cleaning, Preventive dental care in Dubai, Healthy teeth Dubai, Bright Smile dental Care" />
    
    
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

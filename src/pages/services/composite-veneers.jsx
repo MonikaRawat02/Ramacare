@@ -14,7 +14,7 @@ import ServiceExtrasSection from '../../../components/ServiceExtrasSection';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function CompositeVeneersPage() {
   const categoryName = 'Dental';
@@ -31,12 +31,7 @@ export default function CompositeVeneersPage() {
   <meta name="keywords" content="Composite veneers Dubai, dental veneers Dubai, Cosmetic dentistry Dubai, Smile makeover Dubai, Tooth restoration in Dubai, Affordable veneers Dubai, Same-day veneers Dubai, Composite bonding Dubai, Durable veneers Dubai, Natural-looking veneers Dubai, DHA-licensed dentist in Dubai, Best veneers Dubai" />
   
    
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

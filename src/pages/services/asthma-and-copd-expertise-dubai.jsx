@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function AsthmaandCOPDExpertisePage() {
   const categoryName = 'General Physician';
@@ -30,12 +30,7 @@ export default function AsthmaandCOPDExpertisePage() {
   <meta name="keywords" content="Asthma and COPD specialist in Dubai, Asthma treatment Dubai, COPD treatment in Dubai, Lung care specialist Dubai, Respiratory clinic Dubai, Pulmonologist in Dubai, Chronic asthma management Dubai, COPD breathing treatment in Dubai, Adult asthma specialist in Dubai, Inhaler therapy Dubai, Chronic lung disease treatment in Dubai, Respiratory health care in Dubai" />
    
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function SnapOnSmilePage() {
   const categoryName = 'Dental';
@@ -30,12 +30,7 @@ export default function SnapOnSmilePage() {
   <meta name="keywords" content="Snap-On Smile Dubai, Snap-on teeth Dubai, Temporary veneers Dubai, Smile makeover Dubai, Non-invasive dental veneers Dubai, Affordable Snap-On Smile Dubai, Cosmetic dentistry Dubai, Teeth restoration Dubai, Natural-looking Snap-On Smile Dubai, DHA-licensed dentist in Dubai, Quick smile makeover Dubai, Removable Veneers Dubai" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

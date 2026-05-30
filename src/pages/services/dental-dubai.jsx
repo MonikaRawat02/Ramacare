@@ -44,12 +44,7 @@ export default function dentaldubaiCategoryPage() {
   <meta name="keywords" content="Best dental clinic in Dubai, Dentist in Dubai, dental treatment in Dubai, Cosmetic dentistry Dubai, Teeth whitening in Dubai, dental veneers Dubai, dental implants Dubai, Braces treatment in Dubai, Smile makeover Dubai, Family dentistry Dubai, DHA-licensed dentist in Dubai, Top dentist Dubai" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <HeroSection content={content?.hero} />

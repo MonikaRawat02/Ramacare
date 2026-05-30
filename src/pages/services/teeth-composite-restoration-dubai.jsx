@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function TeethCompositeRestorationPage() {
   const categoryName = 'Dental';
@@ -30,12 +30,7 @@ export default function TeethCompositeRestorationPage() {
   <meta name="keywords" content="Tooth composite restoration, dental composite filling, Composite bonding treatment, Tooth repair Dubai, Cosmetic dental restoration, Durable tooth restoration, Natural-looking fillings, DHA licensed dentist in Dubai, Smile restoration Dubai, Tooth repair treatment, Affordable composite restoration, dental repair solutions" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

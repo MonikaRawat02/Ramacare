@@ -14,7 +14,7 @@ import ServiceExtrasSection from '../../../components/ServiceExtrasSection';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function RootCanalTreatmentPage() {
   const categoryName = 'Dental';
@@ -31,12 +31,7 @@ export default function RootCanalTreatmentPage() {
   <meta name="keywords" content="Root canal treatment Dubai, Root canal therapy Dubai, Endodontist Dubai, Painless root canal Dubai, Tooth infection treatment in Dubai, dental clinic Dubai, Emergency root canal Dubai, Tooth restoration in Dubai, Best endodontist in Dubai, DHA-licensed dentist in Dubai, Root canal cost in Dubai, Advanced root canal Dubai" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

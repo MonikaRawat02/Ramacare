@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function dentaldubaiVeneersPage() {
   const categoryName = 'Dental';
@@ -30,12 +30,7 @@ export default function dentaldubaiVeneersPage() {
   <meta name="keywords" content="dental veneers Dubai, Porcelain veneers Dubai, Composite veneers Dubai, Cosmetic dentistry Dubai, Smile makeover Dubai, Tooth restoration in Dubai, Same-day veneers Dubai, Natural-looking veneers Dubai, Emax veneers Dubai, Affordable veneers Dubai, DHA-licensed dentist in Dubai, Best dental veneers Dubai, dental veneers Jumeirah 1, Best dental veneers Jumeirah 1" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function HairTreatmentPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -30,12 +30,7 @@ export default function HairTreatmentPage() {
   <meta name="keywords" content="Hair treatment in Dubai, Hair treatment in Jumeirah 1, Hair loss treatment Dubai, Hair restoration Dubai, PRP hair treatment Dubai, Mesotherapy hair treatment Dubai, Hair transplant Dubai, Thinning hair solutions Dubai, Scalp treatment Dubai, Medical hair clinic Dubai, DHA licensed hair clinic, Hair care specialists in Dubai, Advanced hair therapy Dubai" />
   
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function GumDiseaseTreatmentPage() {
   const categoryName = 'Dental';
@@ -30,12 +30,7 @@ export default function GumDiseaseTreatmentPage() {
   <meta name="keywords" content="Gum disease treatment Dubai, Periodontitis treatment Dubai, Gum infection treatment, Gum care Dubai, Gum disease dentist Dubai, Periodontal therapy Dubai, Gum inflammation treatment, Oral health Dubai, Healthy gums Dubai, dental clinic for gums, Gum treatment near me in Dubai, Professional gum care" />
   
    
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
       <TreatmentHero 
         categoryName={categoryName}

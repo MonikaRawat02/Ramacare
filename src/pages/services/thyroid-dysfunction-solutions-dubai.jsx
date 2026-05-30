@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function ThyroidDysfunctionSolutionsPage() {
   const categoryName = 'General Physician';
@@ -30,12 +30,7 @@ export default function ThyroidDysfunctionSolutionsPage() {
   <meta name="keywords" content="Thyroid dysfunction solutions in Dubai, Thyroid treatment Dubai, Hypothyroidism treatment in Dubai, Hyperthyroidism treatment Dubai, Thyroid disorder management in Dubai, Thyroid specialist Dubai, Thyroid diagnosis Dubai, Hormonal imbalance treatment in Dubai, Endocrinology clinic Dubai" />
   
  
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function DyslipidemiaDiagnosisandTreatmentPage() {
   const categoryName = 'General Physician';
@@ -30,12 +30,7 @@ export default function DyslipidemiaDiagnosisandTreatmentPage() {
   <meta name="keywords" content="Dyslipidemia diagnosis and treatment, High cholesterol treatment, Lipid profile test, Cholesterol management, Dyslipidemia care, Heart health treatment, High LDL cholesterol, Triglyceride management, Preventive cardiac care" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

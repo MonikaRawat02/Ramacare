@@ -14,7 +14,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 import { Check, Info, TrendingUp, Scissors, IndianRupee, Wallet, Target, Sparkles, XCircle, CheckCircle2 } from 'lucide-react';
 
 export default function AyurvedicHairfallTreatmentPage() {

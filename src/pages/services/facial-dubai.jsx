@@ -44,12 +44,7 @@ export default function facialdubaiCategoryPage() {
   <meta name="keywords" content="facial treatments in Dubai, skin care clinic Dubai, advanced facial treatment Dubai, acne facial treatment Dubai, anti-aging facial Dubai, pigmentation treatment Dubai, medical facial Dubai, professional skin treatment Dubai, dermatology facial Dubai" />
   
    
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <HeroSection content={content?.hero} />

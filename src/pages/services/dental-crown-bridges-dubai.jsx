@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function dentaldubaiCrownBridgePage() {
   const categoryName = 'Dental';
@@ -30,12 +30,7 @@ export default function dentaldubaiCrownBridgePage() {
   <meta name="keywords" content="dental crown bridges Dubai, Tooth crown Dubai, dental bridge treatment, Porcelain crown Dubai, Metal ceramic crowns, Tooth replacement in Dubai, Cosmetic dental bridges, Long-lasting dental crowns, Licensed dentist in Dubai, Full mouth restoration Dubai, Affordable crown bridges, Natural-looking dental crowns" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

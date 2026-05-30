@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function SkinTreatmentPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -29,12 +29,7 @@ export default function SkinTreatmentPage() {
         <title key="title">Skin Treatment in Dubai | RamaCare Polyclinic</title>
       
       
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
     </Head>
       <TreatmentHero 
         categoryName={categoryName}

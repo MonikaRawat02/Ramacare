@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function SpecializedHypertensionManagementPage() {
   const categoryName = 'General Physician';
@@ -30,12 +30,7 @@ export default function SpecializedHypertensionManagementPage() {
   <meta name="keywords" content="Hypertension treatment in Dubai, High blood pressure treatment in Dubai, Hypertension specialist Dubai, Blood pressure doctor Dubai, Hypertension clinic Dubai, Chronic hypertension management in Dubai, Cardiovascular risk management in Dubai, Hypertension diagnosis and care in Dubai, Lifestyle management for high blood pressure, Hypertension medication Dubai, 24-hour blood pressure monitoring in Dubai" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

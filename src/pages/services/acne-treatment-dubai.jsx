@@ -65,12 +65,7 @@ export default function AcneTreatmentPage() {
         <meta name="keywords" content="Acne treatment Dubai, Best acne treatment Dubai, Acne scar treatment Dubai, Dermatologist acne treatment, Chemical peel for acne, Laser acne treatment, Hormonal acne treatment" />
         
         
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
       </Head>
 
       {/* Hero Section with Gradient Background */}

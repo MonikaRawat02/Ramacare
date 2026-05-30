@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function PersonalizedSlimmingProgramsPage() {
   const categoryName = 'General Physician';
@@ -28,12 +28,7 @@ export default function PersonalizedSlimmingProgramsPage() {
         <title key="title">Personalized Slimming Programs in Dubai | RamaCare Polyclinic</title>
         <meta name="description" content="Achieve your health goals with our personalized slimming programs in Dubai. Expert-led medical weight management and lifestyle guidance at RamaCare Polyclinic." key="description" />
         
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
       </Head>
       <TreatmentHero 
         categoryName={categoryName}

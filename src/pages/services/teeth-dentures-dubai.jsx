@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function TeethDenturesPage() {
   const categoryName = 'Dental';
@@ -30,12 +30,7 @@ export default function TeethDenturesPage() {
   <meta name="keywords" content="Teeth dentures Dubai, Dentures Dubai, Full dentures Dubai, Partial dentures Dubai, Implant-supported dentures Dubai, Removable dentures Dubai, Affordable dentures Dubai, DHA-licensed dentist in Dubai, dental prosthetics Dubai, Smile restoration Dubai, Comfortable dentures Dubai, Natural-looking dentures in Dubai" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

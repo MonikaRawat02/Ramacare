@@ -60,12 +60,7 @@ export default function BackPainTreatmentPage() {
         <meta name="keywords" content="Back pain treatment Dubai, Physiotherapy for back pain, Lower back pain treatment, Sciatica treatment Dubai, Posture correction Dubai, Non-surgical back pain treatment, Back pain specialist Dubai" />
         
         
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
       </Head>
 
       {/* Hero Section with Parallax Effect */}

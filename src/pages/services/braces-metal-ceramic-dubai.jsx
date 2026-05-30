@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function BracesMetalCeramicPage() {
   const categoryName = 'Dental';
@@ -30,12 +30,7 @@ export default function BracesMetalCeramicPage() {
   <meta name="keywords" content="Braces Dubai, Metal braces Dubai, Ceramic braces Dubai, Orthodontic treatment Dubai, Teeth alignment Dubai, dental braces for adults, Kids braces Dubai, Invisible braces Dubai, Smile correction Dubai, Affordable braces Dubai, Licensed orthodontist in Dubai, Corrective dental braces" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <TreatmentHero 

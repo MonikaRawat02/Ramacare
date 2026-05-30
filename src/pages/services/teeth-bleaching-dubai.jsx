@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function TeethBleachingPage() {
   const categoryName = 'Dental';
@@ -28,12 +28,7 @@ export default function TeethBleachingPage() {
         <title key="title">Teeth Bleaching in Dubai | Professional Tooth Whitening | RamaCare</title>
         <meta name="description" content="Brighten your smile with professional teeth bleaching in Dubai at RamaCare Polyclinic. Safe, effective cosmetic whitening performed by expert dentists." key="description" />
     
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
   </Head>
       <TreatmentHero 
         categoryName={categoryName}

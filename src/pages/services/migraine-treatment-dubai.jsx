@@ -63,12 +63,7 @@ export default function MigraineTreatmentPage() {
         <meta name="keywords" content="Migraine treatment Dubai, Chronic migraine treatment, Headache treatment Dubai, Tension headache treatment, Stress-related headache Dubai, Migraine specialist Dubai, Physiotherapy for migraine" />
         
         
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
       </Head>
 
       {/* Hero Section - Unique Diagonal Design */}

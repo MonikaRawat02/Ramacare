@@ -44,12 +44,7 @@ export default function generalphysiciandubaiCategoryPage() {
   <meta name="keywords" content="General physician treatment, General physician care, Primary care doctor, Family medicine treatment, Routine health checkup, Diagnosis and treatment clinic, Chronic disease management, Common illness treatment, Preventive health care, Medical consultation services" />
   
   
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
 
       <HeroSection content={content?.hero} />

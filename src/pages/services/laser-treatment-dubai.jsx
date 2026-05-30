@@ -13,7 +13,7 @@ import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
-import { generateMedicalSchema } from '../../../utils/schema';
+
 
 export default function LaserTreatmentPage() {
   const categoryName = 'Aesthetic Dermatology';
@@ -30,12 +30,7 @@ export default function LaserTreatmentPage() {
   <meta name="keywords" content="Laser treatment in Dubai, Laser clinic Dubai, Laser hair removal Dubai, Skin laser treatment Dubai, Laser pigmentation treatment Dubai, Laser skin rejuvenation Dubai, DHA licensed laser clinic, Advanced laser therapy Dubai, Medical laser clinic Dubai, Safe laser treatment in Dubai, Cosmetic laser treatment Dubai, Pico laser treatment Dubai" />
   
    
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData)
-          }}
-        />
+        
 </Head>
       <TreatmentHero 
         categoryName={categoryName}
