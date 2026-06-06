@@ -8249,8 +8249,8 @@ comparisonData: [
 
   'physiotherapy-dubai-ultrasound-therapy':{
     hero: {
-      subtitle: 'Advanced Pain Relief & Faster Healing with Safe, Non-Invasive Care',
-      description: 'Ultrasound therapy is a proven physiotherapy treatment used to reduce pain, improve circulation, and speed up tissue healing. At ramacare polyclinic, we provide safe and effective Ultrasound Therapy in Dubai as part of personalised rehabilitation and pain-management programs.',
+      subtitle: 'Advanced Pain Relief & Faster Muscle Recovery with Non-Invasive Physiotherapy Care',
+      description: 'Ultrasound therapy is a non-invasive physiotherapy treatment that uses therapeutic sound waves to reduce inflammation, improve blood circulation, relax muscles, and support natural tissue healing.This advanced rehabilitation therapy helps relieve pain, improve mobility, and accelerate recovery from muscle strain, joint stiffness, sports injuries, tendon inflammation, and chronic pain conditions.  At RamaCare Polyclinic, we provide personalized ultrasound therapy in Dubai as part of evidence-based physiotherapy and rehabilitation programs tailored to each patient’s condition and recovery goals.Our DHA-licensed physiotherapists use advanced therapeutic ultrasound technology to help restore physical function, reduce discomfort, and support long-term recovery without surgery or downtime.  Ultrasound physiotherapy is commonly recommended for back pain, neck pain, frozen shoulder, arthritis, ligament injuries, muscle spasms, tendonitis, and post-injury rehabilitation.The treatment is safe, effective, and suitable for patients seeking natural pain relief and improved movement in a comfortable clinical environment.',
       rating: '500+ Happy Clients',  
       stats: [
         {
@@ -8282,13 +8282,13 @@ comparisonData: [
         }
       },
       features: [
-        ' DHA-Licensed Polyclinic',
-        'Experienced Physiotherapists',
-         'Modern Therapeutic Ultrasound Technology',
+        '  DHA-Licensed Physiotherapy Clinic',
+        'Advanced Rehabilitation Technology',
+         'Personalised Recovery Programs',
       ],
       image: {
           src: '/images/ultra1.jpg',
-          alt: 'Ultrasound therapy performed to relieve muscle pain, reduce inflammation, and promote tissue healing.'
+          alt: 'Physiotherapist performing ultrasound therapy treatment in Dubai clinic.'
         },
       medicalNotice: {
         text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual body constitution, hair condition, and adherence to the treatment plan. All Ayurvedic treatments are provided at a DHA-licensed clinic using approved herbal formulations and protocols.',
@@ -8365,50 +8365,53 @@ comparisonData: [
     overview: {
       title: 'Understanding Ultrasound Therapy',
       problemIntro: {
-        title: 'The Problem: Pain, Stiffness & Muscle Issues',
-        description: 'Pain and stiffness can affect daily activities, sleep, and overall quality of life. Many patients rely on painkillers for temporary relief, which do not address the root cause.'
+        title: 'The Problem: Pain, Stiffness & Muscle Dysfunction',
+        description: 'Pain, stiffness, and soft tissue injuries can affect mobility, posture, sleep quality, work performance, and overall quality of life. Many patients rely on temporary pain relief methods that do not address the underlying cause of inflammation, muscle tension, or tissue damage. Ultrasound therapy helps support long-term recovery by targeting deep tissues, improving circulation, reducing inflammation, and promoting natural healing.'
       },
      solutionIntro: {
-  title: 'Our Solution: Ultrasound Therapy in Dubai',
+  title: 'Advanced Ultrasound Therapy in Dubai for Pain Relief & Faster Recovery',
   description:
-    'Our Ultrasound Therapy in Dubai is a non-invasive, effective treatment designed to relieve pain, accelerate healing, and restore mobility.'
+    'At RamaCare Polyclinic, our ultrasound therapy in Dubai is designed to reduce pain, improve mobility, accelerate tissue healing, and support long-term recovery through safe and non-invasive physiotherapy care. Using advanced therapeutic ultrasound technology, our DHA-licensed physiotherapists create personalized rehabilitation programs based on each patient’s condition, pain level, and recovery goals.'
 },
       leftCards: [
         {
           id: 1,
           title: 'What Is Ultrasound Therapy?',
-          description: 'Ultrasound therapy uses high-frequency sound waves to penetrate deep into muscles, joints, and soft tissues. These sound waves generate gentle heat and vibrations that help reduce inflammation, relax muscles, and promote natural healing.This therapy is commonly used in physiotherapy and rehabilitation for pain relief and recovery.'
+          description: 'Ultrasound therapy is an advanced physiotherapy treatment that uses high-frequency sound waves to penetrate deep into muscles, joints, ligaments, and soft tissues. These therapeutic sound waves create gentle heat and micro-vibrations that help improve blood circulation, reduce inflammation, relax tight muscles, and accelerate the body’s natural healing process.This non-invasive rehabilitation therapy is widely used in physiotherapy and pain-management programs to support faster recovery from injuries, chronic pain conditions, muscle stiffness, and mobility limitations. Ultrasound physiotherapy is safe, comfortable, and effective for improving physical function without surgery or downtime. At RamaCare Polyclinic, our DHA-licensed physiotherapists provide personalized ultrasound therapy in Dubai using evidence-based rehabilitation techniques tailored to each patient’s condition and recovery goals.'
         },
         {
           id: 2,
           title: 'Conditions Treated with Ultrasound Therapy:',
           sections: [
             {
-              heading: 'Ultrasound therapy is effective for managing:',
+              heading: 'Ultrasound therapy is commonly recommended for treating:',
               items: [
                 'Muscle pain and stiffness',
                 'Joint inflammation and arthritis',
                 'Back pain and neck pain',
-                'Sports injuries and sprains',
+                'Sports injuries and muscle sprains',
                 'Tendonitis and ligament injuries',
                 'Shoulder pain and frozen shoulder',
                 'Sciatica and nerve-related pain',
-                'Post-surgical rehabilitation'
+                'Post-surgical rehabilitation',
+                'Muscle spasms and soft tissue injuries'
               ]
             },
           ]
         },
         {
           id: 3,
-          title: 'Who Needs Ultrasound Therapy?',
-          description: 'Ultrasound therapy may be recommended if you experience:',
+          title: 'Who May Benefit from Ultrasound Therapy?',
+          description: 'Ultrasound physiotherapy may be recommended for patients experiencing:',
           listItems: [
             'Chronic muscle or joint pain',
-            'Limited movement or stiffness',
-            'Swelling or inflammation',
-            'Sports or work-related injuries',
+            'Limited movement or reduced flexibility',
+            'Swelling and inflammation',
+            'Sports-related or work-related injuries',
             'Slow healing after injury or surgery',
-            'Pain not responding well to medication'
+            'Persistent pain not responding to medication',
+            'Muscle tightness and repetitive strain injuries',
+            'Reduced mobility affecting daily activities'
           
           ]
         },
@@ -8419,113 +8422,115 @@ comparisonData: [
           'Initial Assessment: 20–30 minutes \n\n Therapy Session: 10–15 minutes \n\n Number of Sessions: Depends on condition severity \n\n Frequency: 2–3 sessions per week'
         }
       ],
-     rootCauses: [
+    rootCauses: [
   {
     id: 1,
     title: 'Chronic Muscle Pain',
-    description: 'Persistent soreness, tightness, or tension in muscles limits strength, mobility, and range of motion. Chronic muscle pain can affect daily activities, work performance, and recreational activities, reducing overall life quality.',
+    description: 'Persistent muscle soreness, tightness, and tension can reduce flexibility, strength, and physical performance. Chronic muscle pain may interfere with everyday activities, exercise, work productivity, and overall comfort.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Joint Stiffness & Limited Flexibility',
-    description: 'Arthritis, injuries, or long-term inflammation can cause stiff joints, limiting movement and making everyday tasks painful. Reduced flexibility can impact posture, coordination, and overall physical performance.',
+    title: 'Joint Stiffness & Reduced Mobility',
+    description: 'Arthritis, inflammation, injuries, and prolonged inactivity can lead to stiff joints and restricted movement. Limited flexibility often causes discomfort during walking, bending, lifting, and other daily movements.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
     title: 'Soft Tissue Injuries',
-    description: 'Tendonitis, ligament sprains, and muscle strains slow recovery and impair normal function. Without proper therapy, these injuries may become recurrent, prolonging pain and limiting mobility for sports and routine activities.',
+    description: 'Ligament sprains, tendonitis, and muscle strains can slow recovery and increase the risk of recurring injuries. Proper physiotherapy treatment supports faster healing and improved tissue repair.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
     title: 'Inflammation & Swelling',
-    description: 'Localized inflammation and swelling from injury or overuse delay healing, increase discomfort, and can lead to further tissue damage if not properly treated.',
+    description: 'Inflammation caused by injury, overuse, or repetitive strain may increase pain and delay recovery. Ultrasound therapy helps improve circulation and reduce swelling in affected tissues.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 5,
-    title: 'Postural Imbalances',
-    description: 'Poor posture and repetitive movements strain muscles and joints, leading to chronic tension, back pain, neck stiffness, and reduced overall flexibility.',
+    title: 'Poor Posture & Muscle Imbalance',
+    description: 'Long hours of sitting, repetitive movements, and poor posture can place excessive stress on muscles and joints, contributing to neck pain, back pain, stiffness, and reduced mobility.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 6,
-    title: 'Overuse & Sports-Related Strain',
-    description: 'Excessive physical activity or repetitive motion causes overuse injuries, delayed recovery, and persistent soreness, affecting both athletes and active individuals.',
+    title: 'Sports Injuries & Overuse Strain',
+    description: 'Athletes and physically active individuals often experience muscle fatigue, repetitive strain, and sports-related injuries that affect performance and recovery. Ultrasound physiotherapy supports muscle recovery and rehabilitation.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 7,
-    title: 'Reduced Blood Circulation & Muscle Fatigue',
-    description: 'Poor circulation to muscles and joints slows nutrient delivery and healing, increasing stiffness, fatigue, and the risk of chronic pain.',
+    title: 'Reduced Circulation & Muscle Fatigue',
+    description: 'Poor blood circulation may slow nutrient delivery to muscles and tissues, increasing fatigue, stiffness, and delayed healing. Therapeutic ultrasound helps stimulate circulation and tissue repair naturally.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   }
 ],
-      quickFacts: [
-        { label: 'Treatment Type', value: 'Physiotherapy modality' },
-        { label: 'Treatments Used:', value: 'Therapeutic ultrasound' },
-        { label: 'Pain Level', value: 'Painless and comfortable' },
-        { label: 'Downtime:', value: 'None' },
-        { label: 'Safety: ', value: 'DHA-approved physiotherapy protocols' },
-      ],
+     quickFacts: [
+  { label: 'Treatment Type', value: 'Non-invasive physiotherapy modality' },
+  { label: 'Technology Used', value: 'Therapeutic ultrasound therapy' },
+  { label: 'Pain Level', value: 'Painless and comfortable' },
+  { label: 'Downtime', value: 'None' },
+  { label: 'Recovery Time', value: 'Immediate return to daily activities' },
+  { label: 'Safety', value: 'DHA-approved physiotherapy protocols' },
+  { label: 'Suitable For', value: 'Sports injuries, chronic pain, rehabilitation & mobility improvement' },
+],
      approachCards: [
   {
     id: 1,
     title: 'Deep Tissue Healing',
-    description: 'High-frequency ultrasound waves penetrate deep into muscles, tendons, and joints, stimulating cellular repair and promoting tissue regeneration.',
+    description: 'Therapeutic ultrasound waves penetrate deep into muscles, tendons, ligaments, and joints to stimulate cellular repair and promote natural tissue regeneration.',
     hasLearnMore: true,
-    expandedContent: 'This helps heal chronic and acute injuries at the root level rather than just masking pain.'
+    expandedContent: 'This helps improve recovery from muscle strain, soft tissue injuries, inflammation, and chronic pain conditions.'
   },
   {
     id: 2,
     title: 'Pain Relief & Reduced Inflammation',
-    description: 'Ultrasound therapy reduces swelling, inflammation, and discomfort in injured or strained areas.',
+    description: 'Ultrasound physiotherapy helps reduce swelling, inflammation, stiffness, and discomfort in affected muscles and joints.',
     hasLearnMore: true,
-    expandedContent: 'It alleviates pain associated with conditions such as arthritis, tendonitis, and muscle strains, supporting faster and more effective recovery.'
+    expandedContent: 'The treatment supports natural pain relief while improving circulation and reducing pressure on injured tissues.'
   },
   {
     id: 3,
-    title: 'Improves Flexibility & Range of Motion',
-    description: 'By relaxing tight muscles and increasing tissue elasticity, ultrasound therapy improves joint and muscle mobility.',
+    title: 'Improved Flexibility & Joint Mobility',
+    description: 'By relaxing tight muscles and improving tissue elasticity, ultrasound therapy enhances flexibility, joint movement, and overall physical mobility.',
     hasLearnMore: true,
-    expandedContent: 'This helps patients regain strength, functional movement, and overall physical performance.'
+    expandedContent: 'This makes daily activities, exercise, and rehabilitation more comfortable and effective.'
   },
   {
     id: 4,
-    title: 'Accelerates Tissue Regeneration',
-    description: 'The therapy boosts blood circulation and nutrient delivery to affected areas, promoting faster healing of soft tissue injuries, ligaments, and tendons.',
+    title: 'Accelerated Tissue Regeneration',
+    description: 'Improved blood circulation and oxygen delivery help damaged tissues heal faster.',
     hasLearnMore: true,
-    expandedContent: 'It reduces recovery time after surgery or injury.'
+    expandedContent: 'Ultrasound therapy supports the repair of tendons, ligaments, muscles, and soft tissues affected by injury, overuse, or repetitive strain.'
   },
   {
     id: 5,
-    title: 'Safe & Non-Invasive',
-    description: 'Ultrasound therapy is gentle, painless, and has no downtime, making it suitable for all ages, fitness levels, and chronic conditions.',
+    title: 'Safe, Gentle & Non-Invasive Treatment',
+    description: 'Ultrasound therapy is a painless and non-surgical physiotherapy treatment with no downtime or recovery restrictions.',
     hasLearnMore: true,
-    expandedContent: 'It provides an alternative to medications or invasive procedures.'
+    expandedContent: 'It is suitable for patients of different age groups, fitness levels, and chronic pain conditions seeking safe rehabilitation support.'
   },
   {
     id: 6,
     title: 'Supports Post-Surgical Rehabilitation',
-    description: 'Ultrasound therapy aids recovery after surgeries by reducing stiffness, improving tissue elasticity, and accelerating healing, ensuring a smoother rehabilitation process.',
+    description: 'Ultrasound therapy plays an important role in post-surgical physiotherapy by reducing stiffness, improving tissue flexibility, supporting scar tissue healing, and accelerating overall rehabilitation and physical recovery.',
     hasLearnMore: false,
     expandedContent: null
   },
   {
     id: 7,
-    title: 'Result',
-    description: 'Faster pain relief, reduced inflammation, improved flexibility and joint function, accelerated tissue healing, reduced muscle tension, enhanced circulation, and overall improvement in mobility and quality of life.',
+    title: 'Treatment Results & Benefits',
+    description: 'Patients undergoing ultrasound therapy in Dubai may experience faster pain relief and reduced inflammation, improved flexibility and joint function, enhanced blood circulation and tissue repair, and reduced muscle tension and stiffness.',
     hasLearnMore: true,
-    expandedContent: 'Ultrasound therapy offers a safe, non-invasive solution for both acute injuries and chronic musculoskeletal conditions.'
+    expandedContent: 'Additional benefits include faster recovery from sports and soft tissue injuries, better mobility and physical performance, improved comfort during daily activities, and long-term support for rehabilitation and recovery.'
   }
 ]
     },
@@ -8594,114 +8599,127 @@ comparisonData: [
   ]
 },
   // Benefits Section
-    benefits: {
+ benefits: {
   title: 'Clinically Observed Results of Ultrasound Therapy in Dubai',
   description:
-    'With 15+ years of clinical experience and 2,500+ successfully treated patients, our specialists deliver safe, evidence-based results through advanced Ultrasound Therapy in Dubai, designed to accelerate healing and restore mobility.',
+    'With 15+ years of physiotherapy and rehabilitation experience and 2,500+ successfully treated cases, RamaCare Polyclinic provides evidence-based ultrasound therapy in Dubai designed to reduce pain, improve mobility, accelerate tissue healing, and support long-term musculoskeletal recovery.',
   benefits: [
     {
       id: 1,
-      title: 'Reduces chronic pain and inflammation effectively',
+      title: 'Reduces Chronic Pain & Inflammation',
       percentage: 91,
-      description: 'Relief reported by 91% of patients'
+      description: 'Helps reduce chronic muscle pain, joint inflammation, swelling, and soft tissue discomfort.'
     },
     {
       id: 2,
-      title: 'Improves blood circulation and tissue oxygenation',
+      title: 'Improves Blood Circulation & Tissue Oxygenation',
       percentage: 88,
-      description: 'Observed in 88% of cases'
+      description: 'Stimulates circulation and oxygen delivery to damaged muscles and soft tissues.'
     },
     {
       id: 3,
-      title: 'Accelerates muscle and soft tissue healing',
+      title: 'Accelerates Muscle & Soft Tissue Healing',
       percentage: 86,
-      description: 'Noted by 86% of patients'
+      description: 'Supports tissue repair and recovery from muscle strain, tendon injuries, and ligament damage.'
     },
     {
       id: 4,
-      title: 'Enhances joint flexibility and range of motion',
+      title: 'Enhances Joint Flexibility & Range of Motion',
       percentage: 84,
-      description: 'Improvement seen in 84% of patients'
+      description: 'Reduces stiffness and improves flexibility, movement, and overall mobility.'
     },
     {
       id: 5,
-      title: 'Breaks down scar tissue and adhesions',
+      title: 'Supports Scar Tissue & Adhesion Management',
       percentage: 79,
-      description: 'Effective in 79% of treatments'
+      description: 'May help soften scar tissue and improve tissue mobility during rehabilitation.'
     },
     {
       id: 6,
-      title: 'Relieves stiffness caused by sports injuries and overuse',
+      title: 'Relieves Sports Injuries & Overuse Strain',
       percentage: 90,
-      description: 'Experienced by 90% of patients'
+      description: 'Helps reduce muscle tension, stiffness, and repetitive strain from physical activity.'
     },
     {
       id: 7,
-      title: 'Supports faster recovery after injury or surgery',
+      title: 'Supports Faster Post-Injury & Post-Surgical Recovery',
       percentage: 87,
-      description: 'Achieved in 87% of cases'
+      description: 'Improves mobility and supports faster recovery after injury or surgery.'
     },
     {
       id: 8,
-      title: 'Non-invasive, safe, and pain-free therapy option',
+      title: 'Safe, Non-Invasive & Comfortable Treatment',
       percentage: 95,
-      description: 'Preferred by 95% of patients'
+      description: 'A painless physiotherapy treatment with no downtime or recovery restrictions.'
     },
     {
       id: 9,
-      title: 'Promotes long-term musculoskeletal health',
+      title: 'Promotes Long-Term Musculoskeletal Health',
       percentage: 92,
-      description: 'Maintained by 92% of patients'
+      description: 'Supports better movement, reduced recurring pain, and long-term joint health.'
     }
   ],
-     comparisonTitle: 'Ultrasound Therapy in Dubai vs. Conventional Pain Treatment',
+     comparisonTitle: 'Ultrasound Therapy in Dubai vs Conventional Pain Treatment',
+
 comparisonDescription:
-  'A detailed comparison highlighting how Ultrasound Therapy in Dubai differs from conventional pain treatment approaches.',
+  ' Ultrasound Therapy in Dubai is a modern physiotherapy treatment designed to support natural healing, reduce inflammation, improve mobility, and address the underlying cause of musculoskeletal pain. Unlike conventional pain management methods that mainly focus on temporary symptom relief, therapeutic ultrasound helps stimulate deep tissue repair and supports long-term recovery through non-invasive rehabilitation care.',
+
 comparisonHeaders: {
   feature: 'Aspect',
   ourTreatment: 'Ultrasound Therapy in Dubai',
   traditional: 'Conventional Pain Treatment'
 },
+
 comparisonData: [
   {
-    feature: 'Approach',
-    ayurvedic: 'Targets the root cause by promoting deep tissue healing',
-    conventional: 'Primarily focuses on pain suppression'
+    feature: 'Treatment Approach',
+    ayurvedic: 'Targets the underlying cause of pain by promoting deep tissue healing and rehabilitation',
+    conventional: 'Primarily focuses on temporary pain suppression and symptom management'
   },
   {
     feature: 'Treatment Method',
-    ayurvedic: 'Uses high-frequency sound waves for internal healing',
-    conventional: 'Relies on medications, injections, or rest'
+    ayurvedic: 'Uses high-frequency therapeutic sound waves to stimulate tissue repair, circulation, and healing',
+    conventional: 'Relies on pain medications, injections, muscle relaxants, or prolonged rest'
   },
   {
     feature: 'Invasiveness',
-    ayurvedic: 'Non-invasive and painless',
-    conventional: 'May include invasive procedures or long-term drugs'
+    ayurvedic: 'It is non-invasive, painless, and does not require surgery or injections',
+    conventional: 'May involve invasive procedures, repeated injections, or long-term medication use'
   },
   {
     feature: 'Side Effects',
-    ayurvedic: 'Minimal to none when applied professionally',
-    conventional: 'Possible stomach issues, dependency, or irritation'
-  },
-  {
-    feature: 'Results',
-    ayurvedic: 'Gradual, long-lasting improvement',
-    conventional: 'Often quick but temporary relief'
+    ayurvedic: 'Minimal to none when performed by qualified physiotherapists',
+    conventional: 'Possible side effects such as stomach irritation, dependency, drowsiness, or inflammation'
   },
   {
     feature: 'Healing Process',
-    ayurvedic: 'Improves blood circulation & tissue regeneration',
-    conventional: 'Does not actively repair damaged tissues'
+    ayurvedic: 'Supports blood circulation, tissue regeneration, muscle relaxation, and natural recovery',
+    conventional: 'Provides temporary relief without actively repairing damaged tissues'
+  },
+  {
+    feature: 'Pain Relief',
+    ayurvedic: 'Gradual and long-lasting improvement in pain and mobility',
+    conventional: 'Often provides fast but temporary symptom relief'
   },
   {
     feature: 'Rehabilitation Support',
-    ayurvedic: 'Enhances effectiveness of physiotherapy & exercises',
-    conventional: 'Limited support for functional recovery'
+    ayurvedic: 'Enhances the effectiveness of physiotherapy exercises and rehabilitation programs',
+    conventional: 'Limited support for long-term physical recovery and mobility improvement'
+  },
+  {
+    feature: 'Mobility & Flexibility',
+    ayurvedic: 'Helps improve joint flexibility, muscle function, and range of motion',
+    conventional: 'Does not significantly improve tissue flexibility or movement'
   },
   {
     feature: 'Long-Term Benefits',
-    ayurvedic: 'Reduces recurrence of pain and stiffness',
-    conventional: 'May require ongoing medication or repeat treatment'
+    ayurvedic: 'May reduce recurring pain, stiffness, and muscle tension through ongoing rehabilitation support',
+    conventional: 'Often requires repeated medication use or ongoing pain management treatments'
+  },
+  {
+    feature: 'Suitability',
+    ayurvedic: 'Suitable for sports injuries, chronic pain, soft tissue injuries, arthritis, and post-surgical recovery',
+    conventional: 'Commonly used for short-term pain control and inflammation management'
   }
 ]
     },
@@ -8760,43 +8778,68 @@ comparisonData: [
       title: 'Frequently Asked Questions About Ultrasound Therapy in Dubai',
       description: null,
       resourcesHeading: 'Complete Physiotherepy Services',
-      faqs: [
-        {
-          id: 1,
-          question: 'What is ultrasound therapy?',
-          answer: 'Ultrasound therapy is a physiotherapy treatment that uses sound waves to reduce pain, improve circulation, and support the healing of muscles, joints, and soft tissues.'
-         },
-        {
-          id: 2,
-          question: 'Is ultrasound therapy safe?',
-          answer: 'Yes, ultrasound therapy is safe when performed by trained physiotherapists using approved equipment at a DHA-licensed clinic like ramacarepolyclinic.'
-        },
-        {
-          id: 3,
-          question: 'Does ultrasound therapy cause pain?',
-          answer: 'No, ultrasound therapy is painless. Most patients feel gentle warmth or mild vibrations during the treatment.'
-        },
-        {
-          id: 4,
-          question: 'How does ultrasound therapy help with pain relief?',
-          answer: 'Ultrasound waves improve blood flow, reduce inflammation, relax muscles, and speed up tissue repair, helping relieve pain naturally.'
-        },
-        {
-          id: 5,
-          question: 'What conditions can be treated with ultrasound therapy?',
-          answer: 'Ultrasound therapy treats muscle pain, joint stiffness, arthritis, sports injuries, back pain, shoulder pain, tendonitis, and post-surgical stiffness.'
-        },
-        {
-          id: 6,
-          question: 'How long does one ultrasound therapy session take?',
-          answer: 'Each ultrasound therapy session usually lasts 10 to 15 minutes, depending on the area treated and the severity.'
-        },
-        {
-          id: 7,
-          question: 'How many ultrasound therapy sessions are needed?',
-          answer: 'The number of sessions depends on your condition. Acute pain may improve quickly, while chronic issues may need multiple sessions.'
-        }
-      ],
+     faqs: [
+  {
+    id: 1,
+    question: 'What is ultrasound therapy in physiotherapy?',
+    answer: 'Ultrasound therapy is a non-invasive physiotherapy treatment that uses high-frequency sound waves to reduce pain, improve blood circulation, relax muscles, and accelerate natural tissue healing. It is commonly used for rehabilitation, sports injuries, muscle stiffness, and chronic pain management.'
+  },
+  {
+    id: 2,
+    question: 'What conditions can ultrasound therapy help treat?',
+    answer: 'Ultrasound therapy in Dubai is commonly recommended for back pain, neck pain, arthritis, tendonitis, sports injuries, frozen shoulder, ligament injuries, muscle strain, sciatica, joint stiffness, and post-surgical rehabilitation.'
+  },
+  {
+    id: 3,
+    question: 'Is ultrasound therapy painful?',
+    answer: 'No, ultrasound physiotherapy is generally painless and comfortable. Most patients experience a gentle warming sensation during treatment without discomfort or downtime.'
+  },
+  {
+    id: 4,
+    question: 'How long does an ultrasound therapy session take?',
+    answer: 'A typical ultrasound therapy session usually lasts between 10 to 15 minutes, depending on the treatment area and severity of the condition. Initial physiotherapy assessments may take 20 to 30 minutes.'
+  },
+  {
+    id: 5,
+    question: 'How many ultrasound therapy sessions are needed?',
+    answer: 'The number of sessions depends on the patient’s condition, pain level, injury severity, and recovery goals. Many patients may benefit from 2–3 sessions per week as part of a personalized physiotherapy rehabilitation program.'
+  },
+  {
+    id: 6,
+    question: 'Is ultrasound therapy safe?',
+    answer: 'Yes, therapeutic ultrasound is considered a safe and non-invasive physiotherapy treatment when performed by qualified and DHA-licensed physiotherapists using professional rehabilitation protocols.'
+  },
+  {
+    id: 7,
+    question: 'Can ultrasound therapy help with sports injuries?',
+    answer: 'Yes, ultrasound physiotherapy is commonly used for sports injury rehabilitation. It may help reduce muscle soreness, inflammation, ligament strain, tendon injuries, and stiffness while supporting faster recovery and improved mobility.'
+  },
+  {
+    id: 8,
+    question: 'Does ultrasound therapy reduce inflammation?',
+    answer: 'Ultrasound therapy may help reduce inflammation and swelling by improving blood circulation and stimulating tissue repair in affected muscles, joints, and soft tissues.'
+  },
+  {
+    id: 9,
+    question: 'Can ultrasound therapy improve mobility and flexibility?',
+    answer: 'Yes, ultrasound physiotherapy helps relax tight muscles, improve tissue elasticity, and increase joint flexibility, which may support better movement and physical function.'
+  },
+  {
+    id: 10,
+    question: 'Is there any downtime after ultrasound therapy?',
+    answer: 'No, ultrasound therapy does not usually require downtime. Most patients can return to normal daily activities immediately after treatment.'
+  },
+  {
+    id: 11,
+    question: 'Who may benefit from ultrasound therapy in Dubai?',
+    answer: 'Patients experiencing chronic pain, muscle stiffness, joint discomfort, sports injuries, postural strain, repetitive stress injuries, arthritis, or limited mobility may benefit from ultrasound physiotherapy and rehabilitation care.'
+  },
+  {
+    id: 12,
+    question: 'Why choose RamaCare Polyclinic for Ultrasound Therapy in Dubai?',
+    answer: 'RamaCare Polyclinic provides personalised Ultrasound Therapy in Dubai using advanced physiotherapy techniques, evidence-based rehabilitation care, and DHA-licensed physiotherapists focused on improving recovery, mobility, and long-term musculoskeletal health.'
+  }
+],
       resources: [
          {
             id: 1,
@@ -8975,7 +9018,7 @@ comparisonData: [
   'physiotherapy-dubai-electrotherapy':{
     hero: {
       title: 'Electrotherapy in Dubai for Fast Pain Relief & Muscle Recovery',
-      subtitle: 'Get Relief from Back, Neck & Muscle Pain in Just a Few Sessions',
+      subtitle: 'Advanced Physiotherapy Treatment for Back Pain, Muscle Stiffness & Rehabilitation',
       description: 'Struggling with back pain, muscle stiffness, or injury recovery? Electrotherapy in Dubai offers a safe and effective solution to reduce pain, improve mobility, and speed up healing. At Rama Care Polyclinic, our expert physiotherapists use advanced electrotherapy techniques to deliver fast and long-lasting relief. ',
       rating: '500+ Happy Clients',  
       stats: [
