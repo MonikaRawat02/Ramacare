@@ -247,7 +247,7 @@ export default function AyurvedicHairfallTreatmentPage() {
       </div>
     </section>
 
-     <DoctorsSection content={content?.doctors} />
+     <DoctorsSection content={content?.doctors} customDoctors={content?.doctors?.doctors} />
     
     <PaymentInsurance content={content?.paymentInsurance} />
     <FAQSection content={content?.faq} />

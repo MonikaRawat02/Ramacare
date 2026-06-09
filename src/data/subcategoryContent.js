@@ -687,10 +687,52 @@ export const subcategoryContent = {
         medicalNotice: {
           text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual body constitution, hair condition, and adherence to the treatment plan. All Ayurvedic treatments are provided at a DHA-licensed clinic using approved herbal formulations and protocols.',
           show: true
+      }
+    },
+    doctors: {
+      badge: 'MEET YOUR SPECIALISTS',
+      title: "Your Hairfall Treatment Is Performed by Dubai's Licensed Ayurveda Experts",
+      doctors: [
+        {
+          id: 2,
+          name: 'Dr. Shamna Keloth Meethal',
+          firstName: 'Dr. Shamna Keloth',
+          image: '/images/Dr Shamna Keloth Meethal.jpeg',
+          qualifications: 'BAMS (Ayurveda Practitioner)',
+          rating: 4.8,
+          specialization: 'General Ayurveda & Preventive Care',
+          experience: '11+ Years Experience | DHA Licensed',
+          isDHALicensed: true,
+          expertise: [
+            'Comprehensive clinical expertise in classical Ayurvedic treatments',
+            'Strong focus on preventive healthcare & lifestyle correction',
+            'Successfully treated 800+ patients with personalized Ayurvedic protocols'
+          ],
+          languages: ['English']
+        },
+        {
+          id: 9,
+          name: 'Syamkumar Sasidharan',
+          firstName: 'Syamkumar',
+          image: '/images/Syam.jpeg',
+          qualifications: 'Diploma in Ayurveda Panchakarma Therapy',
+          rating: 5.0,
+          specialization: 'Ayurvedic Treatments & Holistic Wellness',
+          experience: '17+ years of professional experience ',
+          isDHALicensed: true,
+          expertise: [
+            'Delivering traditional Ayurvedic treatments including Abhyanga, Panchakarma, and Shirodhara',
+            'Detoxification therapies and personalized lifestyle consultations',
+            'Holistic diagnosis and restoration of body imbalances',
+            'Stress relief and wellness-focused therapeutic treatments',
+            'Specialized therapies including Basti treatments and Nasya',
+            'Therapeutic massage techniques including Swedish and Deep Tissue massage'
+          ],
+          languages: ['English']
         }
-      },
-      
-      certifications: {
+      ]
+    },
+    certifications: {
         title: 'Certifications & Accreditations',
         certifications: [
           {
