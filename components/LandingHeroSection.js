@@ -1,14 +1,24 @@
+import Image from 'next/image';
 import { useModal } from './ModalContext';
 
 export default function HeroSection() {
   const { openModal } = useModal();
 
   return (
-    <section
-      className="relative flex items-center min-h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/images/HOME.png')" }}
-    >
-      <div className="relative z-10 w-full px-6 py-20 md:py-24 lg:py-28 md:px-10 lg:px-16 xl:px-24">
+    <section className="relative flex items-center min-h-screen overflow-hidden">
+      {/* Background Image Optimized */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/HOME.png"
+          alt="Dermal Fillers in Dubai - Rama Care Polyclinic"
+          fill
+          priority
+          sizes="(max-width: 768px) 100vw, 1200px"
+          className="object-cover object-center"
+        />
+      </div>
+      
+      <div className="relative z-10 w-full px-6 py-20 md:py-24 lg:py-28 md:px-10 lg:px-16 xl:px-24 bg-white/20">
         <div className="max-w-[1100px] flex flex-col gap-5 text-left">
           {/* Special Offer Badge */}
           <div className="inline-flex items-center self-start border border-[#fca5a5] rounded-[8px] bg-[#fef2f2] px-4 py-2 text-[14px] font-medium tracking-wide text-[#dc2626]">

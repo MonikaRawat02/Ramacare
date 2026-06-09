@@ -336,9 +336,10 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
               </button>
             </div>
 
-            {/* Tab Content */}
-            {activeTab === 'problem' && (
-              <div>
+            {/* Tab Content - Optimized for SEO (all content in HTML) */}
+            <div className="relative">
+              {/* Problem Tab Content */}
+              <div className={`${activeTab === 'problem' ? 'block' : 'hidden'} animate-in fade-in duration-300`}>
                 {/* Root Causes Box */}
                 <div className="bg-[#FEF2F2] border border-[#FEE2E2] rounded-xl p-5 mb-5 shadow-[-2px_0_6px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.04)]">
                   <h3 className="text-base font-bold text-[#7F1D1D] mb-2">
@@ -369,10 +370,9 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
                   ))}
                 </div>
               </div>
-            )}
 
-            {activeTab === 'solution' && (
-              <div>
+              {/* Solution Tab Content */}
+              <div className={`${activeTab === 'solution' ? 'block' : 'hidden'} animate-in fade-in duration-300`}>
                 {/* Intro Box */}
                 <div className="bg-[#F0FDF4] rounded-xl p-5 mb-5 shadow-[-2px_0_6px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.04)] border border-[#D1FAE5]">
                   <h3 className="text-base font-bold text-[#065F46] mb-2">
@@ -437,7 +437,7 @@ const TreatmentOverview = ({ content, subcategoryName }) => {
                   ))}
                 </div>
               </div>
-            )}
+            </div>
           </div>
         </div>
       </div>

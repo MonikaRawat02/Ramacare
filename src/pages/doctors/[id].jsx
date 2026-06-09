@@ -98,7 +98,53 @@ const DoctorProfilePage = ({ doctor }) => {
       <Head>
         <title key="title">{currentDoctor.name} - Doctor Profile - RamaCare</title>
         <meta name="description" content={`Learn more about ${currentDoctor.name}, ${currentDoctor.specialization} at RamaCare`} />
-        <link rel="canonical" href={`https://ramacarepolyclinic.ae/doctors/${currentDoctor.id}`} />
+        <link rel="canonical" href={`https://ramacarepolyclinic.ae/doctors/${currentDoctor.id}`} key="canonical" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Physician",
+              "name": currentDoctor.name,
+              "image": `https://ramacarepolyclinic.ae${currentDoctor.image}`,
+              "description": currentDoctor.biography,
+              "medicalSpecialty": currentDoctor.specialization,
+              "telephone": "+971566597878",
+              "memberOf": {
+                "@type": "MedicalClinic",
+                "name": "RamaCare Polyclinic",
+                "url": "https://ramacarepolyclinic.ae/"
+              },
+              "knowsLanguage": currentDoctor.languages,
+              "occupationalCredential": [
+                ...currentDoctor.education.map(edu => ({
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "degree",
+                  "name": edu
+                })),
+                ...currentDoctor.certifications.map(cert => ({
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "certification",
+                  "name": cert
+                }))
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": currentDoctor.rating.toString(),
+                "reviewCount": "542",
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
+                "addressLocality": "Dubai",
+                "postalCode": "393558",
+                "addressCountry": "AE"
+              }
+            })
+          }}
+        />
       </Head>
       
       <main>
@@ -133,6 +179,8 @@ const DoctorProfilePage = ({ doctor }) => {
                         src={currentDoctor.image} 
                         alt={currentDoctor.name}
                         fill
+                        priority
+                        sizes="(max-width: 768px) 100vw, 400px"
                         className="object-cover object-[50%_20%]"
                       />
                     ) : (
@@ -177,121 +225,63 @@ const DoctorProfilePage = ({ doctor }) => {
                 {/* Doctor Details */}
                 <div className="lg:w-2/3 p-8">
                   <div className="mb-8">
-                    <h2 className="text-xl font-bold text-[#111827] mb-4">About {currentDoctor.firstName}</h2>
-                    <p className="text-[#6B7280] leading-relaxed">
+                    <h2 className="text-xl font-bold text-[#111827] mb-4 border-b pb-2">Biography</h2>
+                    <p className="text-[#4B5563] leading-relaxed">
                       {currentDoctor.biography}
                     </p>
                   </div>
                   
-                  <div className="mb-8">
-                    <h2 className="text-xl font-bold text-[#111827] mb-4">Specialization</h2>
-                    <p className="text-[#6B7280] font-medium mb-2">{currentDoctor.specialization}</p>
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <div>
+                      <h2 className="text-xl font-bold text-[#111827] mb-4 border-b pb-2">Expertise</h2>
+                      <ul className="space-y-3">
+                        {currentDoctor.expertise.map((item, idx) => (
+                          <li key={idx} className="flex items-start gap-3">
+                            <span className="w-1.5 h-1.5 rounded-full bg-[#C9A961] mt-2 flex-shrink-0"></span>
+                            <span className="text-[#4B5563]">{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h2 className="text-xl font-bold text-[#111827] mb-4 border-b pb-2">Education</h2>
+                      <ul className="space-y-3">
+                        {currentDoctor.education.map((item, idx) => (
+                          <li key={idx} className="flex items-start gap-3">
+                            <svg className="w-5 h-5 text-[#1b5e3f] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                            </svg>
+                            <span className="text-[#4B5563]">{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                   
-                  <div className="mb-8">
-                    <h2 className="text-xl font-bold text-[#111827] mb-4">Key Expertise</h2>
-                    <ul className="space-y-3">
-                      {currentDoctor.expertise.map((item, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
-                          <span className="w-2 h-2 rounded-full bg-[#C9A961] mt-2.5 flex-shrink-0"></span>
-                          <span className="text-[#6B7280]">{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  
-                  <div className="mb-8">
-                    <h2 className="text-xl font-bold text-[#111827] mb-4">Education</h2>
-                    <ul className="space-y-3">
-                      {currentDoctor.education.map((edu, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
-                          <svg className="w-5 h-5 text-[#C9A961] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  <div className="mt-8">
+                    <h2 className="text-xl font-bold text-[#111827] mb-4 border-b pb-2">Certifications</h2>
+                    <div className="flex flex-wrap gap-3">
+                      {currentDoctor.certifications.map((item, idx) => (
+                        <div key={idx} className="flex items-center gap-2 bg-[#F3F4F6] px-4 py-2 rounded-lg text-sm text-[#4B5563]">
+                          <svg className="w-4 h-4 text-[#C9A961]" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                           </svg>
-                          <span className="text-[#6B7280]">{edu}</span>
-                        </li>
+                          {item}
+                        </div>
                       ))}
-                    </ul>
-                  </div>
-                  
-                  <div>
-                    <h2 className="text-xl font-bold text-[#111827] mb-4">Certifications</h2>
-                    <ul className="space-y-3">
-                      {currentDoctor.certifications.map((cert, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
-                          <svg className="w-5 h-5 text-[#C9A961] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                          </svg>
-                          <span className="text-[#6B7280]">{cert}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             
-            {/* Related Doctors */}
-            <div className="bg-gradient-to-r from-[#1b5e3f] via-[#2d7a56] to-[#1b5e3f] rounded-3xl p-8 sm:p-12 text-center shadow-xl">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white mb-4">
-                Need Another Specialist?
-              </h2>
-              <p className="text-base sm:text-lg text-white/90 font-normal mb-8 max-w-2xl mx-auto">
-                Explore our team of expert physicians to find the right specialist for your needs.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button 
-                  onClick={() => setIsModalOpen(true)}
-                  className="bg-[#C9A961] hover:bg-[#B8984E] text-white px-8 py-3.5 rounded-xl font-medium text-sm shadow-lg hover:shadow-xl transition-all duration-200"
-                >
-                  Book Consultation Now
-                </button>
-                <button 
-                  onClick={() => window.location.href = '/doctors/'}
-                  className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-3.5 rounded-xl font-medium text-sm transition-all duration-200"
-                >
-                  View All Specialists
-                </button>
-              </div>
-            </div>
+            <BeginYourHealingJourneySection />
           </div>
         </section>
-        
-        {/* Appointment Modal */}
-        {isModalOpen && (
-          <div className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-[9999] p-4">
-            <div className="relative w-full max-w-6xl max-h-[90vh] overflow-y-auto bg-white rounded-2xl shadow-2xl">
-              <button 
-                onClick={() => setIsModalOpen(false)}
-                className="absolute top-4 right-4 z-10 p-2 bg-white rounded-full shadow-lg hover:bg-gray-100 transition-colors"
-                aria-label="Close modal"
-              >
-                <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-              <div className="p-6">
-                <BeginYourHealingJourneySection 
-                  isModal={true} 
-                  onClose={() => setIsModalOpen(false)} 
-                  onSubmissionSuccess={() => {
-                    setIsModalOpen(false);
-                    showToast('Appointment booked!', 'success');
-                  }}
-                />
-              </div>
-            </div>
-          </div>
-        )}
       </main>
-      {/* Toast Notification */}
-      {toast.show && (
-        <div className="fixed top-4 right-4 z-[10000] animate-fadeIn">
-          <div className={`px-3 py-2 rounded-full text-xs font-medium text-white shadow-md ${toast.type === 'success' ? 'bg-emerald-600' : 'bg-red-600'}`}>
-            {toast.message}
-          </div>
-        </div>
-      )}
     </Layout>
   );
 };

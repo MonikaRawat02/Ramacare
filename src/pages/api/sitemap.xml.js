@@ -74,6 +74,7 @@ async function getAllDoctorIds() {
 // Function to generate sitemap with deduplication
 async function generateSitemap(blogs, services, doctorIds) {
   const baseUrl = 'https://ramacarepolyclinic.ae';
+  const currentDate = new Date().toISOString().split('T')[0];
   
   // Use a Set to track unique URLs and prevent duplicates
   const urlSet = new Set();
@@ -83,57 +84,46 @@ async function generateSitemap(blogs, services, doctorIds) {
   
   // Helper function to add URL only if it doesn't exist
   const addUrl = (loc, lastmod, priority, changefreq) => {
-    if (!urlSet.has(loc)) {
-      // Ensure location has trailing slash if it's not a file extension
-      const finalLoc = loc.endsWith('/') ? loc : `${loc}/`;
-      if (!urlSet.has(finalLoc)) {
-        urlSet.add(finalLoc);
-        xml += `  <url>
-    <loc>${finalLoc}</loc>
+    // Ensure loc is a full URL
+    const fullUrl = loc.startsWith('http') ? loc : `${baseUrl}${loc}`;
+    // Normalize: ensure trailing slash
+    const normalizedUrl = fullUrl.endsWith('/') ? fullUrl : `${fullUrl}/`;
+    
+    if (!urlSet.has(normalizedUrl)) {
+      urlSet.add(normalizedUrl);
+      xml += `  <url>
+    <loc>${normalizedUrl}</loc>
     <lastmod>${lastmod}</lastmod>
     <priority>${priority}</priority>
     <changefreq>${changefreq}</changefreq>
   </url>
 `;
-      }
-    } else {
-      console.log(`Duplicate URL skipped: ${loc}`);
     }
   };
-  
-  // Add homepage
-  addUrl(`${baseUrl}/`, new Date().toISOString(), '1.0', 'daily');
-  
-  // Add static pages
-  const staticPages = [
-    '/about-us',
-    '/services',
-    '/blog',
-    '/doctors',
-    '/contact-us',
-    '/privacy-policy',
-    '/refund-and-cancellation-policy',
-    '/testimonials'
-  ];
-  
-  staticPages.forEach(page => {
-    addUrl(`${baseUrl}${page}`, new Date().toISOString(), '0.9', 'weekly');
+
+  // 1. Add Static Pages
+  addUrl('/', currentDate, '1.0', 'daily');
+  addUrl('/about-us', currentDate, '0.8', 'monthly');
+  addUrl('/services', currentDate, '0.9', 'weekly');
+  addUrl('/testimonials', currentDate, '0.8', 'weekly');
+  addUrl('/contact-us', currentDate, '0.7', 'monthly');
+  addUrl('/privacy-policy', currentDate, '0.3', 'monthly');
+  addUrl('/refund-and-cancellation-policy', currentDate, '0.3', 'monthly');
+
+  // 2. Add Service Pages
+  services.forEach(path => {
+    addUrl(path, currentDate, '0.8', 'weekly');
   });
-  
-  // Add service pages (individual services, not the /services index)
-  for (const service of services) {
-    addUrl(`${baseUrl}${service}`, new Date().toISOString(), '0.8', 'weekly');
-  }
-  
-  // Add individual blog posts if they exist
+
+  // 3. Add Doctor Pages
+  doctorIds.forEach(id => {
+    addUrl(`/doctors/${id}`, currentDate, '0.7', 'monthly');
+  });
+
+  // 4. Add Blog Pages
   blogs.forEach(blog => {
-    const lastmod = blog.updatedAt || blog.createdAt;
-    addUrl(`${baseUrl}/blog/${blog.paramlink}`, new Date(lastmod).toISOString(), '0.7', 'weekly');
-  });
-  
-  // Add individual doctor pages
-  doctorIds.forEach(doctorId => {
-    addUrl(`${baseUrl}/doctors/${doctorId}`, new Date().toISOString(), '0.7', 'weekly');
+    const lastmod = blog.updatedAt ? new Date(blog.updatedAt).toISOString().split('T')[0] : currentDate;
+    addUrl(`/blog/${blog.paramlink}`, lastmod, '0.6', 'weekly');
   });
   
   xml += '</urlset>';

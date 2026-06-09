@@ -164,14 +164,16 @@ const FAQSection = ({ content }) => {
                   </svg>
                 </div>
 
-                {/* Answer Content - INCREASED FONT SIZE */}
-                {openIndex === index && (
-                  <div className="mt-4 pt-4 border-t border-[#F3F4F6]">
-                    <p className="text-xs md:text-sm text-[#4B5563] leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </div>
-                )}
+                {/* Answer Content - ALWAYS present in DOM for SEO */}
+                <div 
+                  className={`mt-4 pt-4 border-t border-[#F3F4F6] transition-all duration-300 ${
+                    openIndex === index ? 'block opacity-100' : 'hidden md:block md:invisible md:h-0 md:mt-0 md:pt-0 opacity-0'
+                  }`}
+                >
+                  <p className="text-xs md:text-sm text-[#4B5563] leading-relaxed">
+                    {faq.answer}
+                  </p>
+                </div>
               </div>
             ))}
           </div>

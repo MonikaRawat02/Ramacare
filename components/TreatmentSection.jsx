@@ -230,7 +230,7 @@ const TreatmentSection = ({ category, content }) => {
         rel="stylesheet" 
       />
 
-      <section id="treatments" className="relative w-full bg-white py-12 md:py-16 overflow-hidden font-inter">
+      <section id="treatments" className="py-24 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Main Content - Centered */}
           <div className="text-center max-w-4xl mx-auto mb-10 md:mb-12">
@@ -320,104 +320,95 @@ const TreatmentSection = ({ category, content }) => {
             })}
           </div>
 
-          {/* Detailed Treatment Preview Panel */}
+          {/* Detailed Treatment Preview Panel - Optimized for SEO (all content in HTML) */}
           <div className="bg-white rounded-3xl shadow-lg overflow-hidden transition-all duration-300">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-              {/* Left Side - Image */}
-              <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[450px] bg-gray-100 overflow-hidden rounded-t-3xl lg:rounded-l-3xl lg:rounded-tr-none">
-                <Image 
-                  src={selectedTreatment.image || 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'}
-                  alt={selectedTreatment.alt || `${selectedTreatment.title} - ${selectedTreatment.subtitle}`}
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-black/10"></div>
-                
-                {/* Duration Badge - Dynamic Color Based on Treatment */}
-                {/* <div className={`absolute top-4 left-4 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg ${
-                  selectedTreatment.badgeColor === 'teal' 
-                    ? 'bg-[#14B8A6]' 
-                    : selectedTreatment.badgeColor === 'pink'
-                    ? 'bg-gradient-to-r from-[#EC4899] to-[#DB2777]'
-                    : selectedTreatment.badgeColor === 'purple'
-                    ? 'bg-gradient-to-r from-[#9333EA] to-[#7C3AED]'
-                    : selectedTreatment.badgeColor === 'orange'
-                    ? 'bg-gradient-to-r from-[#F97316] to-[#EA580C]'
-                    : selectedTreatment.badgeColor === 'blue'
-                    ? 'bg-gradient-to-r from-[#3B82F6] to-[#2563EB]'
-                    : selectedTreatment.badgeColor === 'green'
-                    ? 'bg-gradient-to-r from-[#10B981] to-[#059669]'
-                    : 'bg-[#14B8A6]'
-                }`}>
-                  {selectedTreatment.duration}
-                </div> */}
-              </div>
+            {treatmentsList.map((treatment) => {
+              const isSelected = treatment.id === selectedTreatmentId;
+              return (
+                <div 
+                  key={treatment.id} 
+                  className={`${isSelected ? 'block' : 'hidden'} animate-in fade-in duration-500`}
+                >
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+                    {/* Left Side - Image */}
+                    <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[450px] bg-gray-100 overflow-hidden rounded-t-3xl lg:rounded-l-3xl lg:rounded-tr-none">
+                      <Image 
+                        src={treatment.image || 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'}
+                        alt={treatment.alt || `${treatment.title} - ${treatment.subtitle}`}
+                        fill
+                        className="object-cover"
+                        priority={isSelected}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-black/10"></div>
+                    </div>
 
-              {/* Right Side - Content */}
-              <div className="p-8 lg:p-10 flex flex-col justify-center">
-                {/* Title */}
-                <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-2">
-                  {selectedTreatment.title}
-                </h3>
+                    {/* Right Side - Content */}
+                    <div className="p-8 lg:p-10 flex flex-col justify-center">
+                      {/* Title */}
+                      <h3 className="text-2xl md:text-3xl font-bold text-[#111827] mb-2">
+                        {treatment.title}
+                      </h3>
 
-                {/* Subtitle */}
-                <p className="text-base text-[#6B7280] mb-6 font-normal">
-                  {selectedTreatment.subtitle}
-                </p>
+                      {/* Subtitle */}
+                      <p className="text-base text-[#6B7280] mb-6 font-normal">
+                        {treatment.subtitle}
+                      </p>
 
-                {/* Treatment Benefits Section */}
-                <div className="mb-6">
-                  <h4 className="text-lg font-semibold text-[#111827] mb-4">
-                    Treatment Benefits
-                  </h4>
-                  <ul className="space-y-3">
-                    {selectedTreatment.benefits.map((benefit, index) => (
-                      <li key={index} className="flex items-start">
-                        {/* CircleCheckBig icon with gradient background */}
-                        <div className="w-6 h-6 bg-gradient-to-br from-[#1b5e3f] to-[#c9a961] rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 mr-3">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-white">
-                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
-                            <path d="m9 11 3 3L22 4"></path>
-                          </svg>
+                      {/* Treatment Benefits Section */}
+                      <div className="mb-6">
+                        <h4 className="text-lg font-semibold text-[#111827] mb-4">
+                          Treatment Benefits
+                        </h4>
+                        <ul className="space-y-3">
+                          {treatment.benefits.map((benefit, index) => (
+                            <li key={index} className="flex items-start">
+                              <div className="w-6 h-6 bg-gradient-to-br from-[#1b5e3f] to-[#c9a961] rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 mr-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-white">
+                                  <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                  <path d="m9 11 3 3L22 4"></path>
+                                </svg>
+                              </div>
+                              <span className="text-[#4B5563] text-[15px] font-normal leading-relaxed">{benefit}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Ideal For Section - Fully rounded box */}
+                      <div className="mb-6">
+                        <h4 className="text-lg font-semibold text-[#111827] mb-3">
+                          Ideal For:
+                        </h4>
+                        <div className="bg-[#FFFBF5] border-l-4 border-[#C9A547] rounded-xl p-4">
+                          <p className="text-[#4B5563] text-[15px] leading-relaxed font-normal">
+                            {treatment.idealFor}
+                          </p>
                         </div>
-                        <span className="text-[#4B5563] text-[15px] font-normal leading-relaxed">{benefit}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                      </div>
 
-                {/* Ideal For Section - Fully rounded box */}
-                <div className="mb-6">
-                  <h4 className="text-lg font-semibold text-[#111827] mb-3">
-                    Ideal For:
-                  </h4>
-                  <div className="bg-[#FFFBF5] border-l-4 border-[#C9A547] rounded-xl p-4">
-                    <p className="text-[#4B5563] text-[15px] leading-relaxed font-normal">
-                      {selectedTreatment.idealFor}
-                    </p>
+                      {/* CTA Buttons */}
+                      <div className="flex flex-col sm:flex-row gap-3">
+                        <button 
+                          onClick={() => window.open('https://wa.me/971566597878', '_blank')}
+                          className="flex items-center justify-center bg-[#1E5A3C] text-white px-6 py-3.5 rounded-xl font-semibold text-sm hover:bg-[#16472F] transition-all duration-300 shadow-md hover:shadow-lg hover:scale-95"
+                        >
+                          <span>Book This Treatment</span>
+                          <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                          </svg>
+                        </button>
+                        <button
+                          onClick={handleLearnMore}
+                          className="flex items-center justify-center bg-white border-2 border-[#1E5A3C] text-[#1E5A3C] px-6 py-3.5 rounded-xl font-semibold text-sm hover:bg-[#1E5A3C] hover:text-white transition-all duration-300"
+                        >
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <button 
-                    onClick={() => window.open('https://wa.me/971566597878', '_blank')}
-                    className="flex items-center justify-center bg-[#1E5A3C] text-white px-6 py-3.5 rounded-xl font-semibold text-sm hover:bg-[#16472F] transition-all duration-300 shadow-md hover:shadow-lg hover:scale-95"
-                  >
-                    <span>Book This Treatment</span>
-                    <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                  </button>
-                  <button
-                    onClick={handleLearnMore}
-                    className="flex items-center justify-center bg-white border-2 border-[#1E5A3C] text-[#1E5A3C] px-6 py-3.5 rounded-xl font-semibold text-sm hover:bg-[#1E5A3C] hover:text-white transition-all duration-300"
-                  >
-                    Learn More
-                  </button>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
 
           {/* Consultation CTA Block */}

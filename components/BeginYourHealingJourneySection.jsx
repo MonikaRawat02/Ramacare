@@ -625,6 +625,7 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmission
                     <input
                       type="text"
                       name="fullName"
+                      autoComplete="name"
                       value={formData.fullName}
                       onChange={handleChange}
                       placeholder="Enter your full name"
@@ -673,6 +674,8 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmission
                     <input
                       type="tel"
                       name="phone"
+                      autoComplete="tel"
+                      inputMode="tel"
                       value={formData.phone}
                       onChange={handleChange}
                       placeholder="(+971) XX XXX XXXX"
@@ -720,6 +723,7 @@ const BeginYourHealingJourneySection = ({ isModal = false, onClose, onSubmission
                     <input
                       type="email"
                       name="email"
+                      autoComplete="email"
                       value={formData.email}
                       onChange={handleChange}
                       placeholder="your.email@example.com"

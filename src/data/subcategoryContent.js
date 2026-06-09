@@ -9019,7 +9019,7 @@ comparisonData: [
     hero: {
       title: 'Electrotherapy in Dubai for Fast Pain Relief & Muscle Recovery',
       subtitle: 'Advanced Physiotherapy Treatment for Back Pain, Muscle Stiffness & Rehabilitation',
-      description: 'Struggling with back pain, muscle stiffness, or injury recovery? Electrotherapy in Dubai offers a safe and effective solution to reduce pain, improve mobility, and speed up healing. At Rama Care Polyclinic, our expert physiotherapists use advanced electrotherapy techniques to deliver fast and long-lasting relief. ',
+      description: 'Struggling with back pain, neck stiffness, muscle tension, sports injuries, or slow recovery after physical strain?Electrotherapy in Dubai is a safe, non-invasive physiotherapy treatment designed to reduce pain, improve muscle function, accelerate tissue healing, and restore mobility naturally. At RamaCare Polyclinic, our DHA-licensed physiotherapists use advanced electrotherapy techniques as part of personalized rehabilitation and pain-management programs tailored to each patient’s condition and recovery goals.Electrotherapy helps stimulate muscles, improve blood circulation, reduce inflammation, and support faster recovery from acute and chronic musculoskeletal conditions. This advanced physiotherapy treatment is commonly recommended for back pain, neck pain, joint stiffness, muscle spasms, sports injuries, arthritis, nerve-related pain, post-surgical rehabilitation, and mobility limitations. Our evidence-based rehabilitation approach focuses on improving physical function, reducing discomfort, and supporting long-term recovery without surgery or excessive medication use.Whether you are recovering from an injury, managing chronic pain, or seeking improved mobility and muscle recovery, our experienced physiotherapy team provides safe and effective electrotherapy in Dubai in a comfortable clinical environment.',
       rating: '500+ Happy Clients',  
       stats: [
         {
@@ -9051,11 +9051,9 @@ comparisonData: [
         }
       },
       features: [
-        'Evidence-based physiotherapy treatments',
-        'Drug-free pain management',
-         'Suitable for acute and chronic conditions',
-         'Personalised therapy plans',
-         'Safe for all age groups'
+        'DHA-Licensed Physiotherapy Clinic',
+        'Advanced Electrotherapy Technology',
+         'Personalised Rehabilitation Programs',
       ],
       image: {
           src: '/images/electro1.jpg',
@@ -9136,30 +9134,31 @@ comparisonData: [
     overview: {
       title: 'Understanding Electrotherapy',
       problemIntro: {
-        title: 'The Problem: Causes of Pain, Muscle & Nerve Disorders',
-        description: 'Pain and muscle weakness can interfere with daily activities and quality of life. Many patients depend on painkillers, which may only provide temporary relief.'
+        title: 'The Problem: Pain, Muscle Weakness & Nerve Dysfunction',
+        description: 'Pain, muscle weakness, poor posture, nerve compression, and chronic inflammation can affect mobility, physical performance, sleep quality, and overall quality of life. Many patients rely on temporary pain relief methods that may not address the underlying cause of muscle tension, nerve dysfunction, or reduced mobility. Electrotherapy helps stimulate muscles and nerves naturally while supporting circulation, rehabilitation, and long-term recovery.'
       },
      solutionIntro: {
-  title: 'Our Solution: Electrotherapy in Dubai',
-  description: 'Our electrotherapy in Dubai is a non-invasive physiotherapy treatment that uses controlled electrical stimulation to relieve pain, restore muscle function, and accelerate healing.'
+  title: 'Our Solution: Advanced Electrotherapy in Dubai for Pain Relief & Muscle Recovery',
+  description: 'At RamaCare Polyclinic, our electrotherapy in Dubai is designed to reduce pain, improve muscle function, stimulate nerve activity, and support faster recovery through safe and non-invasive physiotherapy care. Using advanced electrical stimulation technology, our DHA-licensed physiotherapists create personalized rehabilitation programs tailored to each patient’s condition, pain severity, and recovery goals. Electrotherapy is widely used in physiotherapy and rehabilitation to help relieve chronic pain, improve mobility, reduce inflammation, strengthen muscles, and restore physical function without surgery or long-term medication use.'
 },
       leftCards: [
         {
           id: 1,
           title: 'What Is Electrotherapy?',
-          description: 'Electrotherapy uses controlled electrical impulses delivered through small electrodes placed on the skin. These impulses stimulate nerves and muscles, helping to relieve pain, reduce swelling, and improve muscle function.It is commonly used in physiotherapy for pain relief, muscle rehabilitation, and recovery after injury or surgery.'
+          description: 'Electrotherapy is an advanced physiotherapy treatment that uses controlled electrical impulses delivered through small electrodes placed on the skin. These gentle electrical stimulations help activate nerves and muscles, reduce pain signals, improve blood circulation, decrease inflammation, and support natural muscle recovery. Electrotherapy is widely used in physiotherapy and rehabilitation programs for pain management, muscle strengthening, nerve stimulation, injury recovery, and post-surgical rehabilitation. This non-invasive treatment helps improve physical function, mobility, and overall musculoskeletal health without surgery or prolonged medication use. At RamaCare Polyclinic, our DHA-licensed physiotherapists provide personalized electrotherapy in Dubai using evidence-based rehabilitation techniques tailored to each patient’s condition, pain severity, and recovery goals.'
         },
         {
           id: 2,
           title: 'Types of Electrotherapy Used',
           sections: [
             {
-              heading: 'Depending on your condition, our physiotherapists may use:',
+              heading: 'Depending on the patient’s condition and rehabilitation needs, our physiotherapists may use:',
               items: [
-                'TENS (Transcutaneous Electrical Nerve Stimulation)',
-                'EMS (Electrical Muscle Stimulation)',
-                'IFT (Interferential Therapy)',
-                'Muscle strengthening and relaxation therapies'
+                'TENS (Transcutaneous Electrical Nerve Stimulation) for pain relief',
+                'EMS (Electrical Muscle Stimulation) for muscle activation and strengthening',
+                'IFT (Interferential Therapy) for deep pain management and circulation improvement',
+                'Muscle stimulation and relaxation therapies for rehabilitation support',
+                'Nerve stimulation therapies to improve muscle response and recovery'
               ]
             },
           ]
@@ -9167,7 +9166,7 @@ comparisonData: [
         {
           id: 3,
           title: 'Conditions Treated with Electrotherapy',
-          description: 'Electrotherapy is effective for:',
+          description: 'Electrotherapy may help manage and support recovery from:',
           listItems: [
             'Back and neck pain',
             'Muscle spasms and stiffness',
@@ -9182,8 +9181,8 @@ comparisonData: [
         },
         {
           id: 4,
-          title: 'Who Needs Electrotherapy?',
-          description: 'Electrotherapy may be recommended if you experience:',
+          title: 'Who May Benefit from Electrotherapy?',
+          description: 'Electrotherapy may be recommended for patients experiencing:',
           listItems: [
             'Chronic or acute pain',
             'Muscle weakness or fatigue',
@@ -9200,133 +9199,157 @@ comparisonData: [
           'Initial Assessment: 20–30 minutes \n\n Electrotherapy Session: 10–15 minutes \n\n Number of Sessions: Depends on diagnosis \n\n Frequency: 2–3 sessions per week'
         }
       ],
-    rootCauses: [
+ rootCauses: [
   {
     id: 1,
     title: 'Muscle Stiffness & Chronic Pain',
-    description: 'Persistent muscle stiffness, tension, and chronic pain affect the back, neck, shoulders, and joints. This can reduce mobility, limit daily activity, and contribute to poor posture and long-term musculoskeletal issues.',
+    description: 'Persistent muscle tension, stiffness, and chronic pain can affect the back, neck, shoulders, and joints, limiting flexibility, mobility, and overall physical comfort.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Nerve Compression & Weak Signals',
-    description: 'Compression of nerves or weak nerve signaling can lead to tingling, numbness, weakness, and delayed muscle responses. Conditions such as sciatica or cervical radiculopathy may cause long-term discomfort and functional limitations if untreated.',
+    title: 'Nerve Compression & Reduced Nerve Function',
+    description: 'Conditions such as sciatica, cervical radiculopathy, and nerve irritation may cause tingling, numbness, weakness, and delayed muscle response, affecting movement and daily activities.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
     title: 'Poor Blood Circulation',
-    description: 'Inadequate blood flow limits oxygen and nutrient delivery to muscles and tissues, slowing healing, increasing fatigue, and prolonging recovery from injuries or physical strain.',
+    description: 'Reduced circulation may slow oxygen and nutrient delivery to muscles and tissues, increasing fatigue, delaying healing, and prolonging recovery after injury or physical stress.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
     title: 'Inflammation & Tissue Damage',
-    description: 'Chronic inflammation or tissue injury can cause swelling, pain, reduced joint mobility, and long recovery periods, increasing the risk of degenerative conditions like arthritis.',
+    description: 'Chronic inflammation and soft tissue injuries can lead to swelling, discomfort, reduced joint movement, and prolonged rehabilitation needs.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
     title: 'Stress & Muscular Fatigue',
-    description: 'Mental stress, overwork, or improper ergonomics lead to muscle tightness, tension headaches, posture-related pain, and reduced flexibility, further aggravating musculoskeletal discomfort.',
+    description: 'Mental stress, repetitive work, and poor ergonomics often contribute to muscle tightness, posture-related pain, headaches, and reduced flexibility.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 6,
     title: 'Joint Degeneration & Wear',
-    description: 'Repeated strain, aging, or untreated injuries can cause joint degeneration, cartilage wear, and osteoarthritis, leading to persistent pain and functional limitations.',
+    description: 'Age-related wear, repetitive strain, and untreated injuries may contribute to joint stiffness, cartilage degeneration, arthritis, and chronic discomfort.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 7,
-    title: 'Postural Imbalances & Spine Misalignment',
-    description: 'Poor posture and spinal misalignment place extra strain on muscles and nerves, resulting in chronic back, neck, and shoulder pain, as well as reduced mobility.',
+    title: 'Postural Imbalances & Spinal Misalignment',
+    description: 'Poor posture and spinal strain place excessive pressure on muscles and nerves, contributing to chronic neck pain, back pain, shoulder tension, and restricted mobility.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 8,
     title: 'Repetitive Motion & Overuse Injuries',
-    description: 'Activities that involve repetitive movement, lifting, or overexertion can cause tendonitis, bursitis, and chronic muscle strain, slowing recovery and increasing pain.',
+    description: 'Repetitive activities, lifting, sports strain, and overexertion may cause tendonitis, bursitis, muscle fatigue, and recurring musculoskeletal pain.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 9,
     title: 'Sedentary Lifestyle & Weak Muscles',
-    description: 'Prolonged sitting and lack of physical activity weaken muscles, reduce joint support, and contribute to stiffness, chronic pain, and poor overall musculoskeletal health.',
+    description: 'Lack of physical activity and prolonged sitting can weaken muscles, reduce joint support, increase stiffness, and negatively affect long-term musculoskeletal health.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   }
 ],
       quickFacts: [
-        { label: 'Treatment Type', value: 'Physiotherapy modality' },
-        { label: 'Treatments Used:', value: 'Electrical stimulation devices' },
-        { label: 'Pain Level', value: 'Mild tingling sensation' },
-        { label: 'Downtime:', value: 'None' },
-        { label: 'Safety: ', value: 'DHA-approved protocols' },
-      ],
+  {
+    label: 'Treatment Type',
+    value: 'Non-invasive physiotherapy modality',
+  },
+  {
+    label: 'Technology Used',
+    value: 'Electrical stimulation therapy devices',
+  },
+  {
+    label: 'Pain Level',
+    value: 'Mild tingling sensation with minimal discomfort',
+  },
+  {
+    label: 'Downtime',
+    value: 'None',
+  },
+  {
+    label: 'Recovery Time',
+    value: 'Immediate return to daily activities',
+  },
+  {
+    label: 'Safety',
+    value: 'DHA-approved physiotherapy protocols',
+  },
+  {
+    label: 'Suitable For',
+    value: 'Pain relief, rehabilitation, muscle recovery & mobility improvement',
+  },
+],
     approachCards: [
   {
     id: 1,
     title: 'Pain Relief & Muscle Relaxation',
-    description: 'Reduces pain signals, eases muscle spasms, and provides immediate relief from discomfort.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Reduces pain signals, eases muscle spasms, and provides effective relief from chronic pain and physical discomfort.',
+    hasLearnMore: true,
+    expandedContent: 'Electrotherapy helps reduce pain signals, relax tight muscles, ease muscle spasms, and provide effective relief from chronic pain, stiffness, and physical discomfort. The treatment supports better movement and improved daily comfort.'
   },
   {
     id: 2,
     title: 'Nerve Stimulation & Muscle Activation',
-    description: 'Improves nerve function, strengthens weak muscles, and restores natural movement patterns.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Improves nerve communication, activates weak muscles, and restores natural movement patterns.',
+    hasLearnMore: true,
+    expandedContent: 'Controlled electrical stimulation helps improve nerve communication, activate weak muscles, and restore natural muscle movement patterns. This therapy is commonly used for rehabilitation, muscle weakness, and nerve-related conditions.'
   },
   {
     id: 3,
     title: 'Improved Blood Circulation',
-    description: 'Enhances blood flow to affected areas, promoting faster tissue repair and recovery.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Enhances blood flow and oxygen delivery to support tissue repair and muscle recovery.',
+    hasLearnMore: true,
+    expandedContent: 'Electrotherapy stimulates blood circulation and oxygen delivery to affected muscles and soft tissues, helping support faster tissue repair, muscle recovery, and overall rehabilitation.'
   },
   {
     id: 4,
     title: 'Inflammation Reduction & Healing Support',
-    description: 'Helps reduce swelling, speeds up healing, and supports long-term rehabilitation.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Helps reduce swelling and inflammation while supporting the body’s healing response.',
+    hasLearnMore: true,
+    expandedContent: 'The treatment helps reduce swelling, inflammation, and tissue irritation while supporting the body’s natural healing response. Electrotherapy may improve recovery from injuries, muscle strain, and post-surgical rehabilitation.'
   },
   {
     id: 5,
     title: 'Stress Reduction & Functional Recovery',
-    description: 'Relaxes tense muscles, improves flexibility, and restores mobility for daily activities.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Relaxes muscles, improves flexibility, and restores mobility during recovery.',
+    hasLearnMore: true,
+    expandedContent: 'Electrotherapy helps relax tense muscles, improve flexibility, reduce fatigue, and restore mobility. It also supports better posture, improved muscle balance, and smoother physical movement during rehabilitation and recovery.'
   }
 ]
     },
 
     // Healing Journey / Process Section
-   healingJourney: {
-  title: 'Electrotherapy in Dubai: Advanced Healing for Pain Relief and Recovery',
-  description: 'Discover the benefits of Electrotherapy in Dubai, a safe and non-invasive treatment designed to relieve pain, improve muscle function, and accelerate healing. Our structured approach ensures effective results tailored to your needs.',
+  healingJourney: {
+  title: 'Electrotherapy in Dubai: Advanced Physiotherapy for Pain Relief & Muscle Recovery',
+  description: 'Discover the benefits of electrotherapy in Dubai, a safe and non-invasive physiotherapy treatment designed to reduce pain, stimulate muscles, improve mobility, and accelerate natural healing. At RamaCare Polyclinic, our structured rehabilitation approach helps ensure personalized care and effective recovery outcomes tailored to each patient’s condition and treatment goals.',
   steps: [
     {
       id: 1,
       number: '01',
-      title: 'Comprehensive Assessment',
-      duration: 'Step 1',
-      description: 'Before starting therapy, our experts evaluate your condition to create a personalized plan.',
+      title: 'Comprehensive Assessment & Diagnosis',
+      duration: 'Step 01',
+      description: 'Before starting electrotherapy treatment, our DHA-licensed physiotherapists perform a detailed assessment to understand the underlying cause of pain, muscle weakness, stiffness, or mobility limitations. This helps us create a personalized physiotherapy and rehabilitation plan based on your condition and recovery needs.',
       keyActivities: [
-        'Detailed medical history review',
+        'Detailed medical history and symptom evaluation',
         'Physical and musculoskeletal examination',
-        'Identification of pain points and affected areas',
-        'Customized electrotherapy plan'
+        'Identification of pain points and affected muscles or joints',
+        'Mobility and posture assessment',
+        'Personalised electrotherapy treatment planning'
       ],
       side: 'right'
     },
@@ -9334,41 +9357,47 @@ comparisonData: [
       id: 2,
       number: '02',
       title: 'Targeted Electrotherapy Sessions',
-      duration: 'Step 2',
-      description: 'Professional sessions focus on stimulating muscles and tissues for pain relief and recovery.',
+      duration: 'Step 02',
+      description: 'During treatment sessions, controlled electrical stimulation is applied to targeted muscles, nerves, and soft tissues to reduce pain, improve circulation, activate muscles, and support faster recovery. Our physiotherapists continuously monitor treatment intensity to ensure safe, comfortable, and effective rehabilitation.',
       keyActivities: [
-        '2–3 sessions per week, depending on severity',
-        'Application of electrical currents to affected areas',
-        'Real-time monitoring of response',
-        'Adjustment of intensity for comfort and effectiveness'
+        '2–3 physiotherapy sessions per week based on condition severity',
+        'Application of controlled electrical stimulation to affected areas',
+        'Muscle activation and nerve stimulation therapy',
+        'Real-time monitoring of patient response and comfort',
+        'Adjustment of treatment intensity for optimal rehabilitation outcomes'
       ],
       side: 'left'
     },
     {
       id: 3,
       number: '03',
-      title: 'Supportive Home Care',
-      duration: 'Step 3',
-      description: 'Patients are guided on exercises and lifestyle practices to enhance therapy outcomes.',
+      title: 'Supportive Home Care & Recovery Guidance',
+      duration: 'Step 03',
+      description: 'To improve long-term recovery and rehabilitation results, patients receive personalised guidance on home exercises, posture correction, stretching routines, and lifestyle modifications. This helps maintain flexibility, strengthen muscles, reduce recurrence of pain, and support overall musculoskeletal health.',
       keyActivities: [
-        'Home exercise routines to maintain strength',
-        'Posture and ergonomic guidance',
-        'Diet and lifestyle recommendations',
-        'Progress tracking for therapy optimization'
+        'Home exercise programs for strength and flexibility',
+        'Posture correction and ergonomic guidance',
+        'Stretching and mobility improvement routines',
+        'Lifestyle and recovery recommendations',
+        'Ongoing progress monitoring and therapy optimisation'
       ],
       side: 'right'
     },
     {
       id: 4,
       number: '04',
-      title: 'Follow-Up and Maintenance',
-      duration: 'Step 4',
-      description: 'Long-term wellness is achieved through consistent follow-ups and maintenance strategies.',
+      title: 'Expected Treatment Outcomes',
+      duration: 'Results',
+      description: 'Patients undergoing electrotherapy in Dubai may experience the following improvements as part of their physiotherapy and rehabilitation journey.',
       keyActivities: [
-        'Monthly or periodic check-ins',
-        'Maintenance electrotherapy sessions if needed',
-        'Adjustments to the therapy plan based on results',
-        'Focus on sustained mobility and pain relief'
+        'Reduced pain and muscle stiffness',
+        'Improved muscle strength and flexibility',
+        'Better circulation and tissue healing',
+        'Enhanced mobility and physical function',
+        'Faster rehabilitation after injury or surgery',
+        'Reduced inflammation and muscle fatigue',
+        'Improved posture and movement control',
+        'Long-term support for musculoskeletal recovery'
       ],
       side: 'left'
     }
@@ -9377,111 +9406,124 @@ comparisonData: [
 benefits: {
   title: 'Clinically Observed Results of Electrotherapy in Dubai',
   description:
-    'Backed by 15+ years of clinical expertise and the successful treatment of 2,500+ patients, our advanced Electrotherapy in Dubai programs are designed to relieve pain, restore movement, and accelerate recovery safely and effectively.',
-  benefits: [
-    {
-      id: 1,
-      title: 'Provides fast and effective pain relief',
-      percentage: 93,
-      description: 'Improvement reported by 93% of patients'
-    },
-    {
-      id: 2,
-      title: 'Reduces muscle stiffness and spasms',
-      percentage: 89,
-      description: 'Observed in 89% of cases'
-    },
-    {
-      id: 3,
-      title: 'Improves nerve stimulation and muscle activation',
-      percentage: 86,
-      description: 'Noted by 86% of patients'
-    },
-    {
-      id: 4,
-      title: 'Enhances blood circulation and tissue healing',
-      percentage: 88,
-      description: 'Experienced by 88% of patients'
-    },
-    {
-      id: 5,
-      title: 'Supports recovery from sports injuries and trauma',
-      percentage: 84,
-      description: 'Effective in 84% of treatments'
-    },
-    {
-      id: 6,
-      title: 'Helps manage chronic pain conditions',
-      percentage: 91,
-      description: 'Relief achieved by 91% of patients'
-    },
-    {
-      id: 7,
-      title: 'Improves muscle strength and functional mobility',
-      percentage: 83,
-      description: 'Seen in 83% of patients'
-    },
-    {
-      id: 8,
-      title: 'Non-invasive and drug-free pain management solution',
-      percentage: 95,
-      description: 'Preferred by 95% of patients'
-    },
-    {
-      id: 9,
-      title: 'Promotes long-term musculoskeletal and nerve health',
-      percentage: 92,
-      description: 'Maintained by 92% of patients'
-    }
-  ],
-     comparisonTitle: 'Electrotherapy in Dubai vs. Conventional Pain Treatment',
+    'With 15+ years of physiotherapy and rehabilitation experience and 2,500+ successfully treated cases, RamaCare Polyclinic provides evidence-based electrotherapy in Dubai designed to reduce pain, improve muscle function, stimulate nerve activity, and support long-term recovery. Our DHA-licensed physiotherapists use advanced electrotherapy techniques to deliver safe, non-invasive, and personalized rehabilitation care for a wide range of musculoskeletal and nerve-related conditions.',
+ benefits: [
+  {
+    id: 1,
+    title: 'Fast & Effective Pain Relief',
+    percentage: 93,
+    description: 'Reduces pain, muscle tension, and joint discomfort for improved daily comfort.'
+  },
+  {
+    id: 2,
+    title: 'Reduces Muscle Stiffness & Spasms',
+    percentage: 89,
+    description: 'Relaxes tight muscles and improves flexibility, movement, and overall comfort.'
+  },
+  {
+    id: 3,
+    title: 'Improves Nerve Stimulation & Muscle Activation',
+    percentage: 86,
+    description: 'Supports nerve communication and helps activate weak or underused muscles.'
+  },
+  {
+    id: 4,
+    title: 'Enhances Blood Circulation & Tissue Healing',
+    percentage: 88,
+    description: 'Improves circulation to support tissue repair and faster recovery.'
+  },
+  {
+    id: 5,
+    title: 'Supports Sports Injury & Trauma Recovery',
+    percentage: 84,
+    description: 'Aids rehabilitation following injuries, muscle strain, and physical trauma.'
+  },
+  {
+    id: 6,
+    title: 'Helps Manage Chronic Pain Conditions',
+    percentage: 91,
+    description: 'Provides ongoing support for chronic pain and mobility limitations.'
+  },
+  {
+    id: 7,
+    title: 'Improves Muscle Strength & Functional Mobility',
+    percentage: 83,
+    description: 'Strengthens muscles and improves movement, balance, and physical function.'
+  },
+  {
+    id: 8,
+    title: 'Safe, Non-Invasive & Drug-Free Treatment',
+    percentage: 95,
+    description: 'Supports recovery without surgery, injections, or long-term medication.'
+  },
+  {
+    id: 9,
+    title: 'Supports Long-Term Musculoskeletal & Nerve Health',
+    percentage: 92,
+    description: 'Promotes lasting muscle balance, posture, and overall physical wellbeing.'
+  }
+],
+     comparisonTitle: 'Electrotherapy in Dubai vs Conventional Pain Treatment',
+
 comparisonDescription:
-  'A detailed comparison highlighting how Electrotherapy in Dubai differs from conventional pain treatment approaches.',
+  'Electrotherapy in Dubai is an advanced physiotherapy treatment designed to reduce pain, stimulate muscles and nerves, improve circulation, and support long-term rehabilitation. Unlike conventional pain treatment methods that mainly focus on temporary symptom relief, electrotherapy helps improve muscle activation, nerve function, tissue healing, and overall physical recovery through safe and non-invasive physiotherapy care.',
+
 comparisonHeaders: {
   feature: 'Aspect',
   ourTreatment: 'Electrotherapy in Dubai',
   traditional: 'Conventional Pain Treatment'
 },
+
 comparisonData: [
   {
-    feature: 'Approach',
-    ayurvedic: 'Addresses the root cause by stimulating nerves and muscles',
-    conventional: 'Focuses mainly on temporary pain relief'
+    feature: 'Treatment Approach',
+    ayurvedic: 'Targets the underlying cause of pain by stimulating muscles, nerves, and circulation to support rehabilitation',
+    conventional: 'Primarily focuses on temporary pain suppression and symptom management'
   },
   {
     feature: 'Treatment Method',
-    ayurvedic: 'Uses controlled electrical impulses to promote healing',
-    conventional: 'Relies on medications, injections, or rest'
+    ayurvedic: 'Uses controlled electrical impulses to improve muscle activation, nerve stimulation, circulation, and healing',
+    conventional: 'Relies on medications, painkillers, injections, or prolonged rest'
   },
   {
     feature: 'Invasiveness',
-    ayurvedic: 'Non-invasive and drug-free',
-    conventional: 'May involve invasive procedures or long-term medication'
+    ayurvedic: 'Non-invasive, drug-free, and comfortable physiotherapy treatment',
+    conventional: 'May involve invasive procedures, injections, or long-term medication use'
   },
   {
     feature: 'Side Effects',
-    ayurvedic: 'Minimal to none under professional supervision',
-    conventional: 'Possible drowsiness, dependency, or gastric issues'
+    ayurvedic: 'Minimal to none when performed by qualified physiotherapists using professional protocols',
+    conventional: 'Possible side effects such as drowsiness, dependency, stomach irritation, or fatigue'
   },
   {
-    feature: 'Results',
-    ayurvedic: 'Progressive, long-lasting improvement',
-    conventional: 'Often fast but short-term relief'
+    feature: 'Pain Relief',
+    ayurvedic: 'Helps provide progressive and long-lasting improvement in pain and mobility',
+    conventional: 'Often provides fast but temporary symptom relief'
   },
   {
     feature: 'Healing Process',
-    ayurvedic: 'Enhances muscle activation, circulation & nerve function',
-    conventional: 'Does not actively restore muscle or nerve health'
+    ayurvedic: 'Supports muscle recovery, nerve stimulation, blood circulation, and natural tissue healing',
+    conventional: 'Does not actively restore muscle strength, nerve function, or tissue repair'
+  },
+  {
+    feature: 'Muscle & Nerve Function',
+    ayurvedic: 'Improves muscle activation, flexibility, coordination, and nerve communication',
+    conventional: 'Limited improvement in muscle rehabilitation or functional recovery'
   },
   {
     feature: 'Rehabilitation Support',
-    ayurvedic: 'Supports physiotherapy and functional recovery',
-    conventional: 'Limited role in rehabilitation'
+    ayurvedic: 'Enhances physiotherapy exercises, rehabilitation programs, and mobility recovery',
+    conventional: 'Limited role in long-term rehabilitation and physical recovery'
   },
   {
     feature: 'Long-Term Benefits',
-    ayurvedic: 'Reduces recurrence of pain and muscle weakness',
-    conventional: 'May require continuous treatment or medication'
+    ayurvedic: 'May help reduce recurring pain, stiffness, muscle weakness, and mobility limitations',
+    conventional: 'Often requires repeated medication use or ongoing pain management treatments'
+  },
+  {
+    feature: 'Suitability',
+    ayurvedic: 'Suitable for sports injuries, chronic pain, muscle weakness, postural strain, arthritis, and post-surgical rehabilitation',
+    conventional: 'Commonly used for short-term pain and inflammation management'
   }
 ]
 },
@@ -23129,8 +23171,8 @@ healingJourney: {
 
     'facial-dubai-signature-hydra-facial': {
     hero: {
-      subtitle: 'Revitalize Your Skin with Deep Hydration and Glow',
-      description: 'Healthy, glowing skin starts with proper hydration and deep cleansing. At ramacare polyclinic, our Signature Hydra Facial combines exfoliation, extraction, hydration, and antioxidant infusion to rejuvenate your skin, leaving it refreshed, smooth, and radiant.',
+      subtitle: 'HydraFacial in Dubai — Deep Cleanse, Hydrate & Glow in One Session',
+      description: 'Experience the best HydraFacial in Dubai at Rama Care Polyclinic. Our DHA-licensed aesthetic specialists deliver a medical-grade HydraFacial treatment that deeply cleanses, exfoliates, extracts impurities, and floods your skin with nourishing serums—all in a single 60-minute session. No downtime. Instant results. Visible glow from your very first visit.',
       rating: '500+ Happy Clients',
       stats: [
         {
@@ -23168,46 +23210,54 @@ healingJourney: {
       ],
       image: {
           src: '/images/signature.jpg',
-          alt: 'Signature Hydra Facial in Dubai performed by specialists to deeply cleanse, hydrate, and rejuvenate the skin.'
+          alt: 'Hydra Facial in Dubai performed by specialists to deeply cleanse, hydrate, and rejuvenate the skin.'
         },
       medicalNotice: {
-        text: 'Safety & Medical Disclaimer:Results may vary depending on individual skin type, conditions, and adherence to post-treatment care. All facials at ramacare polyclinic follow DHA-approved skincare protocols for safety and effectiveness.',
+        text: 'Safety & Medical Disclaimer: Results may vary depending on individual skin type, conditions, and adherence to post-treatment care. All facials at Rama Care Polyclinic follow DHA-approved skincare protocols for safety and effectiveness.',
         show: true
       }
     },
     doctors: {
-     doctors: [
-         {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
-        ]
+      badge: 'MEET YOUR SPECIALISTS',
+      title: "Your HydraFacial Is Performed by Dubai's Licensed Aesthetic Experts",
+      doctors: [
+        {
+          id: 7,
+          name: 'Sonita Sinaga',
+          title: 'DHA-Licensed Aesthetic Therapist',
+          qualifications: '14+ years of experience',
+          specializations: 'Advanced facial therapies, HydraFacial and laser skin treatments',
+          experience: 'NCLC laser certified | Skin rejuvenation and pigmentation correction specialist',
+          patientsTreated: '14+ years of clinical excellence',
+          rating: '5.0/5',
+          image: '/images/Sonita.jpeg',
+          isDHALicensed: true,
+          expertise: [
+            '14+ years of experience in advanced facial therapies',
+            'NCLC laser certified specialist',
+            'Expertise in HydraFacial and laser skin treatments',
+            'Specializes in skin rejuvenation and pigmentation correction'
+          ]
+        },
+        {
+          id: 11,
+          name: 'Dr. Sahar Zomorrodi',
+          title: 'DHA-licensed general practitioner',
+          qualifications: 'Diploma from the American Aesthetic Academy',
+          specializations: 'Aesthetic & Skin Rejuvenation Treatments',
+          experience: 'Oversees all aesthetic and skin treatments at Ramacare Polyclinic',
+          patientsTreated: 'Ensuring highest medical safety standards',
+          rating: '5.0/5',
+          image: '/images/Sahar.jpeg',
+          isDHALicensed: true,
+          expertise: [
+            'Trained general practitioner',
+            'Diploma from the American Aesthetic Academy',
+            'Oversees all aesthetic and skin rejuvenation treatments',
+            'Ensures highest medical safety standards'
+          ]
+        }
+      ]
     },
     certifications: {
       title: 'Certifications & Accreditations',
@@ -23254,18 +23304,20 @@ healingJourney: {
       leftCards: [
         {
           id: 1,
-          title: 'What Is a Signature Hydra Facial?',
-          description: 'The Signature Hydra Facial is a non-invasive skincare treatment designed to cleanse, exfoliate, extract impurities, and infuse skin with hydrating serums. It improves texture, reduces pigmentation, and restores youthful radiance.'
+          title: 'What Is a HydraFacial Treatment in Dubai?',
+          description: 'A HydraFacial is a non-invasive, medical-grade skin treatment that combines cleansing, exfoliation, gentle extraction, and deep hydration into one session. Using patented Vortex-Fusion technology, it removes dead skin cells and pore congestion while simultaneously infusing the skin with hydrating serums, antioxidants, and peptides. The result is immediately smoother, brighter, and more hydrated skin — with no redness, no downtime, and no discomfort. At Rama Care Polyclinic in Jumeirah, Dubai, every HydraFacial session is customized to your skin type and concerns by our DHA-licensed aesthetic team.'
         },
         {
           id: 2,
-          title: 'Who Can Benefit From a Signature Hydra Facial?',
-          description: 'This facial is suitable for anyone who:',
+          title: 'Is HydraFacial Right for You?',
+          description: 'HydraFacial in Dubai is safe and effective for all skin types — including sensitive, oily, dry, and combination skin. You are an ideal candidate if you:',
           listItems: [
-            'Wants smoother, hydrated, and glowing skin',
-            'Experiences dullness, dryness, or uneven skin texture',
-            'Has fine lines, mild wrinkles, or sun damage',
-            'Wants a safe, non-invasive facial treatment in Dubai'
+            'Have dull, tired, or dehydrated skin',
+            'Struggle with clogged pores, blackheads, or congestion',
+            'Notice fine lines, early wrinkles, or sun damage',
+            'Wants a safe, non-invasive facial treatment in Dubai',
+            'Experience uneven skin tone or hyperpigmentation',
+            'Maintain healthy skin as a regular wellness routine'
           ]
         },
         {
@@ -23282,7 +23334,7 @@ healingJourney: {
         {
           id: 4,
           title: 'Why Patients Choose Our Signature Hydra Facial',
-          description: 'At ramacare polyclinic, our Signature Hydra Facial delivers immediate results with long-term skin health in mind. Patients choose it for:',
+          description: 'At Rama Care Polyclinic, our Signature Hydra Facial delivers immediate results with long-term skin health in mind. Patients choose it for:',
           listItems: [
             'Deep hydration and skin nourishment',
             'Safe, non-invasive rejuvenation',
@@ -23360,12 +23412,12 @@ healingJourney: {
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
 ],
-      quickFacts: [
-        { label: 'Treatment Type', value: 'Multi-step facial treatment' },
-        { label: 'Duration', value: '60-75 minutes' },
-        { label: 'Frequency', value: 'Monthly (maintenance)' },
-        { label: 'Downtime', value: 'None' }
-      ],
+    quickFacts: [
+  { label: 'Treatment Duration', value: '60–75 minutes' },
+  { label: 'Downtime', value: 'None' },
+  { label: 'Recommended Frequency', value: 'Once every 4–6 weeks' },
+  { label: 'Suitable For', value: 'All skin types' }
+],
     approachCards: [
   {
     id: 1,
@@ -23495,76 +23547,102 @@ healingJourney: {
   ]
 },
     benefits: {
-      title: 'Clinically-Observed Benefits',
-      description: 'Evidence-based results from Signature Hydra Facial treatments.',
-      comparisonTitle: 'Signature Hydra Facial vs. Conventional Facials',
-      comparisonDescription: 'Understanding the Difference Before Choosing Your Skincare-Here’s a comparison to help you understand how a Signature Hydra Facial differs from traditional facials:',
-      comparisonHeaders: {
-        feature: 'Aspect',
-        ourTreatment: 'Signature Hydra Facial',
-        traditional: 'Conventional Facial'
-      },
-      benefits: [
-        {
-          id: 1,
-          title: 'Deeply cleansed and hydrated skin',
-          percentage: null,
-          description: null
-        },
-        {
-          id: 2,
-          title: 'Reduced fine lines and improved skin texture',
-          percentage: null,
-          description: null
-        },
-        {
-          id: 3,
-          title: 'Enhanced radiance and youthful glow',
-          percentage: null,
-          description: null
-        },
-        {
-          id: 4,
-          title: 'Reduced pore size and blackheads',
-          percentage: null,
-          description: null
-        },
-        {
-          id: 5,
-          title: 'Safe for all skin types, including sensitive skin',
-          percentage: null,
-          description: null
-        }
-      ],
-            
-      comparisonData: [
-        {
-          feature: 'Approach',
-          ayurvedic: 'Deep cleansing, exfoliation, extraction, and serum infusion',
-          conventional: 'Surface-level cleansing and massage'
-        },
-        {
-          feature: 'Hydration',
-          ayurvedic: 'Infuses skin with potent hydrating serums',
-          conventional: 'Limited hydration, mostly topical'
-        },
-        {
-          feature: 'Skin Benefits',
-          ayurvedic: 'Reduces fine lines, improves texture, restores glow',
-          conventional: 'Temporary improvement, minimal rejuvenation'
-        },
-        {
-          feature: 'Safety',
-          ayurvedic: 'Non-invasive and suitable for sensitive skin',
-          conventional: 'May irritate sensitive skin'
-        },
-        {
-          feature: 'Long-Term Results',
-          ayurvedic: 'Promotes healthy, nourished skin over time',
-          conventional: 'Short-term effects, minimal long-term benefits'
-        },
-      ]
+  title: 'Clinically Observed Benefits of HydraFacial at Rama Care Polyclinic',
+  description: 'Our patients consistently experience the following results, observed across 3,000+ sessions at our Dubai clinic.',
+  
+  comparisonTitle: "HydraFacial vs. Regular Facial — What's the Difference?",
+  
+  comparisonDescription:
+    'Many patients ask us why a professional HydraFacial delivers better results than a standard salon facial. Here is a direct comparison:',
+
+  comparisonHeaders: {
+    feature: 'Aspect',
+    ourTreatment: 'HydraFacial in Dubai',
+    traditional: 'Standard Salon Facial'
+  },
+
+  benefits: [
+    {
+      id: 1,
+      title: 'Deeply Cleansed, Unclogged Pores',
+      percentage: 94,
+      description: '94% patient satisfaction'
     },
+    {
+      id: 2,
+      title: 'Smoother Skin Texture',
+      percentage: 92,
+      description: '92% patient satisfaction'
+    },
+    {
+      id: 3,
+      title: 'Reduced Fine Lines & Improved Elasticity',
+      percentage: 89,
+      description: '89% patient satisfaction'
+    },
+    {
+      id: 4,
+      title: 'Brighter, More Even Skin Tone',
+      percentage: 87,
+      description: '87% patient satisfaction'
+    },
+    {
+      id: 5,
+      title: 'Immediate Glow & Hydration After First Session',
+      percentage: 85,
+      description: '85% patient satisfaction'
+    },
+    {
+      id: 6,
+      title: 'Safe & Comfortable for Sensitive Skin',
+      percentage: 98,
+      description: '98% patient satisfaction'
+    }
+  ],
+
+  comparisonData: [
+    {
+      feature: 'Technology',
+      ayurvedic: 'Medical-grade Vortex-Fusion device',
+      conventional: 'Basic cleansing tools'
+    },
+    {
+      feature: 'Extraction',
+      ayurvedic: 'Painless vacuum extraction',
+      conventional: 'Manual pressing (can irritate)'
+    },
+    {
+      feature: 'Hydration',
+      ayurvedic: 'Active serum infusion into skin layers',
+      conventional: 'Surface moisturiser only'
+    },
+    {
+      feature: 'Results',
+      ayurvedic: 'Visible from session one',
+      conventional: 'Temporary surface improvement'
+    },
+    {
+      feature: 'Downtime',
+      ayurvedic: 'None',
+      conventional: 'Possible redness'
+    },
+    {
+      feature: 'Suitable for Sensitive Skin',
+      ayurvedic: 'Yes',
+      conventional: 'Not always'
+    },
+    {
+      feature: 'Customisation',
+      ayurvedic: 'Serums tailored to your skin concern',
+      conventional: 'Limited'
+    },
+    {
+      feature: 'Long-Term Benefit',
+      ayurvedic: 'Proven with regular sessions',
+      conventional: 'Minimal'
+    }
+  ],
+},
     pricing: {
       title: 'Transparent Pricing & Treatment Packages',
       description: 'Clear pricing for Signature Hydra Facial treatments',
@@ -23618,83 +23696,48 @@ healingJourney: {
       title: 'Frequently Asked Questions About Signature Hydra Facial in Dubai',
       description: '',  
       resourcesHeading: 'Complete Facial Services',
-      faqs: [
-        {
-          id: 1,
-          question: 'What is a Signature Hydra Facial?',
-          answer: 'A Signature Hydra Facial is a non-invasive facial treatment that deeply cleanses, exfoliates, extracts impurities, and infuses hydrating serums to rejuvenate skin and restore a radiant, youthful glow.'
-        },
-        {
-          id: 2,
-          question: 'Who can benefit from a Signature Hydra Facial?',
-          answer: 'Anyone seeking smoother, hydrated, and glowing skin can benefit from a Signature Hydra Facial, including those with dull skin, fine lines, mild wrinkles, sun damage, or sensitive and acne-prone skin.'
-        },
-        {
-          id: 3,
-          question: 'How often should I get a Signature Hydra Facial?',
-          answer: 'For optimal results, most patients schedule a Signature Hydra Facial every 4–6 weeks, allowing for deep hydration, skin rejuvenation, and maintenance of long-term glow and healthy skin.'
-        },
-        {
-          id: 4,
-          question: 'Does the treatment hurt?',
-          answer: 'No, the Signature Hydra Facial is completely non-invasive and painless, designed to provide deep cleansing, extraction, and hydration without discomfort, making it suitable for all skin types, even sensitive skin.'
-        },
-        {
-          id: 5,
-          question: 'What skin concerns does a Signature Hydra Facial address?',
-          answer: 'This treatment targets dryness, dullness, uneven texture, fine lines, blackheads, enlarged pores, and early signs of aging, offering hydration, radiance, and improved skin health for all skin types.'
-        },
-        {
-          id: 6,
-          question: 'How long does a Signature Hydra Facial session take?',
-          answer: 'A typical Signature Hydra Facial lasts about 45–60 minutes, including consultation, cleansing, exfoliation, extraction, serum infusion, and post-treatment hydration for a refreshed and radiant skin appearance.'
-        },
-        {
-          id: 7,
-          question: 'Can a Signature Hydra Facial help with acne-prone skin?',
-          answer: 'Yes, the Signature Hydra Facial deeply cleanses pores, removes impurities, and infuses hydrating serums, reducing breakouts, blackheads, and excess oil, making it safe and effective for acne-prone skin.'
-        },
-        {
-          id: 8,
-          question: 'Are there any side effects?',
-          answer: 'The Signature Hydra Facial is safe and gentle, with minimal side effects. Some patients may experience temporary redness or mild sensitivity, which typically subsides within a few hours.'
-        },
-        {
-          id: 9,
-          question: 'How soon will I see results?',
-          answer: 'Most patients notice immediate hydration, smoother texture, and radiant skin after the first Signature Hydra Facial session, with cumulative benefits appearing over multiple sessions for long-term glow.'
-        },
-        {
-          id: 10,
-          question: 'Is the treatment suitable for sensitive skin?',
-          answer: 'Absolutely. The Signature Hydra Facial is designed for all skin types, including sensitive skin, providing gentle cleansing, hydration, and nourishment without irritation or harsh effects.'
-        },
-        {
-          id: 11,
-          question: 'Can a Signature Hydra Facial reduce fine lines?',
-          answer: 'Yes, regular Signature Hydra Facial sessions hydrate and plump the skin, improving elasticity and reducing the appearance of fine lines and early wrinkles for a youthful, rejuvenated look.'
-        },
-        {
-          id: 12,
-          question: 'How should I care for my skin after the facial?',
-          answer: 'After a Signature Hydra Facial, patients should use sunscreen, stay hydrated, follow a gentle skincare routine, and avoid harsh exfoliants to maintain hydration, glow, and long-lasting skin benefits.'
-        },
-        {
-          id: 13,
-          question: 'Can men get a Signature Hydra Facial?',
-          answer: 'Yes, the Signature Hydra Facial is suitable for both men and women, helping improve skin hydration, texture, and radiance while addressing concerns like dullness, oiliness, and early aging.'
-        },
-        {
-          id: 14,
-          question: 'How is a Signature Hydra Facial different from a regular facial?',
-          answer: 'Unlike traditional facials, the Signature Hydra Facial combines cleansing, exfoliation, extraction, and serum infusion with advanced technology for deep hydration, long-lasting glow, and improved overall skin health.'
-        },
-        {
-          id: 15,
-          question: 'How can I book a Signature Hydra Facial in Dubai?',
-          answer: 'You can book your Signature Hydra Facial at ramacarepolyclinic by calling the clinic, visiting our website, or using the online appointment system for convenient scheduling and personalized care.'
-        }
-      ],    
+     faqs: [
+  {
+    id: 1,
+    question: 'How much does a HydraFacial cost in Dubai?',
+    answer: 'HydraFacial price in Dubai typically ranges from AED 499 to AED 1,400 depending on the clinic, session type, and any add-on boosters used. At Ramacare Polyclinic, we offer competitive, transparent pricing with flexible payment options. Contact us for a personalised quote.'
+  },
+  {
+    id: 2,
+    question: 'Is HydraFacial safe for sensitive skin?',
+    answer: 'Yes. HydraFacial is one of the safest facial treatments available and is specifically suitable for sensitive skin. The treatment is non-abrasive, involves no chemical peels, and uses gentle suction rather than manual extraction. Our DHA-licensed team will customise the serums to your skin sensitivity level.'
+  },
+  {
+    id: 3,
+    question: 'How many HydraFacial sessions do I need to see results?',
+    answer: 'Most patients notice a visible improvement—brighter skin, reduced pores, and better hydration—after just one session. For targeted concerns such as pigmentation, fine lines, or acne scarring, we recommend a course of 3–6 sessions spaced 3–4 weeks apart.'
+  },
+  {
+    id: 4,
+    question: 'Is there any downtime after a HydraFacial in Dubai?',
+    answer: 'No. HydraFacial has zero downtime. You can return to work, apply makeup, and go about your day immediately after your session. Some patients experience a mild flush of colour that fades within a few hours.'
+  },
+  {
+    id: 5,
+    question: 'Can I get a HydraFacial during summer in Dubai?',
+    answer: 'Absolutely. HydraFacial is an excellent summer treatment. Dubai’s heat, humidity, and UV exposure accelerate dehydration and pore congestion—exactly what HydraFacial is designed to address. Post-treatment, we recommend applying SPF 50+ to protect freshly treated skin.'
+  },
+  {
+    id: 6,
+    question: 'What is the difference between HydraFacial and a regular facial?',
+    answer: 'Unlike a regular facial that cleanses the skin’s surface, a HydraFacial uses medical-grade Vortex-Fusion technology to simultaneously exfoliate, extract, and infuse your skin with customised serums. The results are deeper, longer-lasting, and supported by clinical data.'
+  },
+  {
+    id: 7,
+    question: 'Where can I get the best HydraFacial in Dubai?',
+    answer: 'Ramacare Polyclinic in Jumeirah 1 is a DHA-licensed medical facility offering professional HydraFacial treatments performed by certified aesthetic specialists with over 14 years of experience. With 3,000+ sessions completed and a 98% patient satisfaction rate, it is one of Dubai’s most trusted choices for HydraFacial.'
+  },
+  {
+    id: 8,
+    question: 'Does HydraFacial help with acne in Dubai?',
+    answer: 'Yes. HydraFacial helps acne-prone skin by clearing clogged pores, removing excess sebum, and delivering anti-inflammatory serums to calm active breakouts. It is a non-aggressive treatment that will not irritate or worsen sensitive, acne-prone skin when performed by a trained specialist.'
+  }
+],
       resources: [
           {
             id: 1,
@@ -23716,15 +23759,21 @@ healingJourney: {
           },
            {
             id: 4,
-            text: 'Exosomes Facial',
-            bgColor: 'bg-[#FEF2F2]',
-            link: '/services/exosomes-facial-dubai/'
+            text: 'Dark Circles Treatment',
+            bgColor: 'bg-[#FDF2F8]',
+            link: '/services/dark-circle-dubai/'
           },
           {
             id: 5,
-            text: 'Oxygeneo Facial',
+            text: 'Skin Tightening',
+            bgColor: 'bg-[#F0F9FF]',
+            link: '/services/skin-tightening-dubai/'
+          },
+          {
+            id: 6,
+            text: 'Aesthetic Dermatology',
             bgColor: 'bg-[#F5F3FF]',
-            link: '/services/oxygeneo-illuminate-facial-dubai/'
+            link: '/services/skin-treatment-dubai/'
           }
       ]
     },
@@ -23814,10 +23863,18 @@ healingJourney: {
     bookConsultation: {
       badge: 'Start Your Journey',
       title: 'Book Your Signature Hydra Facial in Dubai Today',
-      description: 'Reveal smoother, hydrated, and radiant skin with the Signature Hydra Facial at ramacare polyclinic, trusted for safe, advanced, and personalized facial treatments in Dubai.',
+      description: 'Reveal smoother, hydrated, and radiant skin with the Signature Hydra Facial at Rama Care Polyclinic, trusted for safe, advanced, and personalized facial treatments in Dubai.',
       getInTouchTitle: 'Get In Touch',
       requestAppointmentTitle: 'Request Appointment',
       submitButtonText: 'Confirm Session',
+      concerns: [
+        { value: 'dull-skin', label: 'Dull skin' },
+        { value: 'dehydrated-skin', label: 'Dry/dehydrated skin' },
+        { value: 'acne-congestion', label: 'Acne/congestion' },
+        { value: 'fine-lines', label: 'Fine lines' },
+        { value: 'pigmentation', label: 'Pigmentation' },
+        { value: 'other', label: 'Other' }
+      ],
      contactInfo: {
       phone: '+971 04 286 2006',
       whatsapp: '971566597878',

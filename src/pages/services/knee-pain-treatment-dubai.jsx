@@ -702,15 +702,10 @@ export default function KneePainTreatmentPage() {
             </div>
           </div>
 
-          {/* Tab Content with Color Coding */}
-          <motion.div
-            key={activeTab}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3 }}
-            className="max-w-5xl mx-auto"
-          >
-            {activeTab === 0 && (
+          {/* Tab Content with Color Coding - Optimized for SEO */}
+          <div className="max-w-5xl mx-auto relative">
+            {/* All Causes Tab */}
+            <div className={`${activeTab === 0 ? 'block' : 'hidden'} animate-in fade-in duration-300`}>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {causes.map((cause, index) => {
                   const bgColors = [
@@ -745,9 +740,10 @@ export default function KneePainTreatmentPage() {
                   );
                 })}
               </div>
-            )}
+            </div>
 
-            {activeTab === 1 && (
+            {/* Symptoms Tab */}
+            <div className={`${activeTab === 1 ? 'block' : 'hidden'} animate-in fade-in duration-300`}>
               <div className="grid md:grid-cols-2 gap-6">
                 {symptoms.map((symptom, index) => {
                   const symptomColors = [
@@ -772,9 +768,10 @@ export default function KneePainTreatmentPage() {
                   );
                 })}
               </div>
-            )}
+            </div>
 
-            {activeTab === 2 && (
+            {/* When to See Doctor Tab */}
+            <div className={`${activeTab === 2 ? 'block' : 'hidden'} animate-in fade-in duration-300`}>
               <div className="bg-gradient-to-br from-[#1F5E4B] to-[#2A7D63] p-8 md:p-12 rounded-2xl text-white shadow-xl">
                 <h3 className="text-2xl font-bold mb-6">When Should You See a Knee Pain Specialist?</h3>
                 <p className="text-white/90 mb-8 text-lg">
@@ -789,8 +786,8 @@ export default function KneePainTreatmentPage() {
                   ))}
                 </div>
               </div>
-            )}
-          </motion.div>
+            </div>
+          </div>
         </div>
       </section>
 

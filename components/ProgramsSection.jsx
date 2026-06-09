@@ -183,7 +183,7 @@ const ProgramsSection = ({ content }) => {
   return (
     <section 
       id="programs" 
-      className="relative w-full bg-[#F7F6F1] py-16 overflow-hidden"
+      className="py-24 bg-[#FAFAF8] relative overflow-hidden"
       style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}
     >
       <div className="max-w-[1280px] mx-auto px-6">

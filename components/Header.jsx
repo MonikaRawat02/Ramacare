@@ -112,7 +112,7 @@ const Header = () => {
       name: 'Facial',
       slug: 'facial-dubai',
       subcategories: [
-        { name: 'Signature Hydra Facial', slug: 'signature-hydra-facial-dubai' },
+        { name: 'Signature Hydra Facial', slug: 'hydrafacial-dubai' },
         { name: 'Face PRP in Dubai', slug: 'face-prp-in-dubai' },
         { name: 'Golden Elixir Facial', slug: 'golden-elixir-facial-dubai' },
         { name: 'Exosomes Facial Dubai', slug: 'exosomes-facial-dubai' },
@@ -278,7 +278,7 @@ const Header = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2 flex-shrink-0">
-              <Image src="/images/Logo.png" alt="RamaCare" width={36} height={36} className="object-contain" />
+              <Image src="/images/Logo.png" alt="RamaCare" width={36} height={36} className="object-contain" priority />
               <div>
                 <span className="text-lg font-bold text-[#1C4942] leading-tight">RamaCare</span>
               </div>
@@ -379,7 +379,7 @@ const Header = () => {
               {/* Menu Header */}
               <div className="sticky top-0 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between z-10">
                 <div className="flex items-center space-x-2">
-                  <Image src="/images/Logo.png" alt="RamaCare" width={28} height={28} className="object-contain" />
+                  <Image src="/images/Logo.png" alt="RamaCare" width={28} height={28} className="object-contain" priority />
                   <span className="font-bold text-[#1C4942]">RamaCare</span>
                 </div>
                 <button onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100 rounded-lg transition-colors">

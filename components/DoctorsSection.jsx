@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 
-const DoctorsSection = ({ content }) => {
+const DoctorsSection = ({ content, customDoctors }) => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
 
@@ -110,25 +110,25 @@ const DoctorsSection = ({ content }) => {
       ],
       languages: ['English']
     },
-    {
-      id: 6,
-      name: 'Mildred L. Eugenio',
-      firstName: 'Mildred',
-      image: '/images/Mildred.jpeg',
-      qualifications: 'Bachelor of Science in Nursing – Philippines',
-      rating: 5.0,
-      specialization: 'Front Desk & Patient Coordination',
-      experience: 'Professional experience in administrative support and patient services.',
-      isDHALicensed: false,
-      expertise: [
-        'Managing appointment scheduling and patient inquiries',
-        'Ensuring smooth day-to-day clinic operations',
-        'Welcoming and assisting patients with professionalism and care',
-        'Strong organizational skills and attention to detail',
-        'Multitasking and client relations support'
-      ],
-      languages: ['English']
-    },
+    // {
+    //   id: 6,
+    //   name: 'Mildred L. Eugenio',
+    //   firstName: 'Mildred',
+    //   image: '/images/Mildred.jpeg',
+    //   qualifications: 'Bachelor of Science in Nursing – Philippines',
+    //   rating: 5.0,
+    //   specialization: 'Front Desk & Patient Coordination',
+    //   experience: 'Professional experience in administrative support and patient services.',
+    //   isDHALicensed: false,
+    //   expertise: [
+    //     'Managing appointment scheduling and patient inquiries',
+    //     'Ensuring smooth day-to-day clinic operations',
+    //     'Welcoming and assisting patients with professionalism and care',
+    //     'Strong organizational skills and attention to detail',
+    //     'Multitasking and client relations support'
+    //   ],
+    //   languages: ['English']
+    // },
     {
       id: 7,
       name: 'Sonita Sinaga',
@@ -205,23 +205,23 @@ const DoctorsSection = ({ content }) => {
     //   ],
     //   languages: ['English']
     // },
-    {
-      id: 10,
-      name: 'Preethi',
-      firstName: 'Preethi',
-      image: '/images/Preethi.jpeg',
-      qualifications: 'Housekeeping',
-      rating: 5.0,
-      specialization: 'Housekeeping',
-      experience: '5+ Years of experience',
-      isDHALicensed: false,
-      expertise: [
-        'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
-        'Expertise in organizing, cleaning, and managing household tasks efficiently',
-        'Known for attention to detail, reliability, and creating a tidy, safe environment',
-      ],
-      languages: ['English']
-    },
+    // {
+    //   id: 10,
+    //   name: 'Preethi',
+    //   firstName: 'Preethi',
+    //   image: '/images/Preethi.jpeg',
+    //   qualifications: 'Housekeeping',
+    //   rating: 5.0,
+    //   specialization: 'Housekeeping',
+    //   experience: '5+ Years of experience',
+    //   isDHALicensed: false,
+    //   expertise: [
+    //     'Skilled in maintaining cleanliness and hygiene in residential and commercial spaces',
+    //     'Expertise in organizing, cleaning, and managing household tasks efficiently',
+    //     'Known for attention to detail, reliability, and creating a tidy, safe environment',
+    //   ],
+    //   languages: ['English']
+    // },
     {
       id: 11,
       name: 'Dr. Sahar Zomorrodi',
@@ -304,7 +304,7 @@ const DoctorsSection = ({ content }) => {
     };
   };
   
-  const rawDoctors = DEFAULT_DOCTORS;
+  const rawDoctors = (customDoctors && customDoctors.length > 0) ? customDoctors : DEFAULT_DOCTORS;
   const doctors = rawDoctors.map(normalizeDoctor);
 
   const renderStars = (rating, size = 'w-4 h-4') => {
@@ -352,47 +352,51 @@ const DoctorsSection = ({ content }) => {
         </div>
 
         <div className="relative mb-12">
-          <div className="absolute inset-y-0 left-0 flex items-center z-10">
-            <button
-              onClick={() => {
-                const el = document.getElementById('doctors-slider');
-                if (!el) return;
-                const visible = window.innerWidth >= 1024 ? 3 : window.innerWidth >= 768 ? 2 : 1;
-                const step = el.offsetWidth / visible;
-                el.scrollBy({ left: -step, behavior: 'smooth' });
-              }}
-              className="rounded-full bg-white shadow-md border border-gray-200 text-[#1b5e3f] hover:text-white hover:bg-[#1b5e3f] p-2"
-              aria-label="Previous"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-            </button>
-          </div>
-          <div className="absolute inset-y-0 right-0 flex items-center z-10">
-            <button
-              onClick={() => {
-                const el = document.getElementById('doctors-slider');
-                if (!el) return;
-                const visible = window.innerWidth >= 1024 ? 3 : window.innerWidth >= 768 ? 2 : 1;
-                const step = el.offsetWidth / visible;
-                el.scrollBy({ left: step, behavior: 'smooth' });
-              }}
-              className="rounded-full bg-white shadow-md border border-gray-200 text-[#1b5e3f] hover:text-white hover:bg-[#1b5e3f] p-2"
-              aria-label="Next"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
-          </div>
+          {doctors.length > 1 && (
+            <>
+              <div className={`absolute inset-y-0 left-0 flex items-center z-10 ${doctors.length <= 3 ? 'lg:hidden' : ''} ${doctors.length <= 2 ? 'md:hidden' : ''}`}>
+                <button
+                  onClick={() => {
+                    const el = document.getElementById('doctors-slider');
+                    if (!el) return;
+                    const visible = window.innerWidth >= 1024 ? 3 : window.innerWidth >= 768 ? 2 : 1;
+                    const step = el.offsetWidth / visible;
+                    el.scrollBy({ left: -step, behavior: 'smooth' });
+                  }}
+                  className="rounded-full bg-white shadow-md border border-gray-200 text-[#1b5e3f] hover:text-white hover:bg-[#1b5e3f] p-2"
+                  aria-label="Previous"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+              </div>
+              <div className={`absolute inset-y-0 right-0 flex items-center z-10 ${doctors.length <= 3 ? 'lg:hidden' : ''} ${doctors.length <= 2 ? 'md:hidden' : ''}`}>
+                <button
+                  onClick={() => {
+                    const el = document.getElementById('doctors-slider');
+                    if (!el) return;
+                    const visible = window.innerWidth >= 1024 ? 3 : window.innerWidth >= 768 ? 2 : 1;
+                    const step = el.offsetWidth / visible;
+                    el.scrollBy({ left: step, behavior: 'smooth' });
+                  }}
+                  className="rounded-full bg-white shadow-md border border-gray-200 text-[#1b5e3f] hover:text-white hover:bg-[#1b5e3f] p-2"
+                  aria-label="Next"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </>
+          )}
 
           <div
             id="doctors-slider"
-            className="overflow-x-auto scroll-smooth snap-x snap-mandatory px-1"
+            className={`overflow-x-auto scroll-smooth snap-x snap-mandatory px-1 ${doctors.length <= 3 ? 'lg:overflow-x-visible' : ''}`}
             style={{ scrollBehavior: 'smooth' }}
           >
-            <div className="flex gap-6 items-stretch">
+            <div className={`flex gap-6 items-stretch ${doctors.length <= 3 ? 'lg:justify-center' : ''} ${doctors.length <= 2 ? 'md:justify-center' : ''}`}>
               {doctors.map((doctor) => (
                 <div key={doctor.id} className="snap-start w-full md:w-1/2 lg:w-1/3 flex-shrink-0 bg-white rounded-2xl overflow-hidden shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)] transition-shadow duration-300 flex flex-col">
                   <div className="relative h-72 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden group flex-shrink-0">

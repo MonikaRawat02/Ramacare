@@ -5,7 +5,7 @@ const BookConsultation = ({ content }) => {
   const defaultContent = {
     badge: 'Start Your Journey',
     title: 'Book Your Free Consultation Today',
-    description: 'Take the first step towards natural hair restoration. Our DHA-licensed Ayurvedic doctors are ready to help.',
+    description: 'Take the first step towards better health and wellness. Our DHA-licensed specialists are ready to help.',
     getInTouchTitle: 'Get In Touch',
     requestAppointmentTitle: 'Request Appointment',
     submitButtonText: 'Confirm Free Consultation',
@@ -41,6 +41,13 @@ const BookConsultation = ({ content }) => {
         title: '4.9/5 Rating',
         description: '500+ Verified Reviews'
       }
+    ],
+    concerns: [
+      { value: 'hair-loss', label: 'Hair Loss' },
+      { value: 'thinning', label: 'Hair Thinning' },
+      { value: 'baldness', label: 'Baldness' },
+      { value: 'scalp-issues', label: 'Scalp Issues' },
+      { value: 'other', label: 'Other' }
     ]
   };
 
@@ -54,6 +61,7 @@ const BookConsultation = ({ content }) => {
   const contactInfo = content?.contactInfo || defaultContent.contactInfo;
   const clinicHours = content?.clinicHours || defaultContent.clinicHours;
   const statCards = content?.statCards || defaultContent.statCards;
+  const concerns = content?.concerns || defaultContent.concerns;
   const [formData, setFormData] = useState({
     fullName: '',
     phone: '',
@@ -355,11 +363,9 @@ const BookConsultation = ({ content }) => {
                     className={`w-full px-4 py-3 border rounded-lg text-sm focus:outline-none transition-all duration-200 bg-white text-[#1F2937] ${errors.concern ? 'border-red-500 focus:border-red-500' : 'border-[#D1D5DB] focus:border-[#2D5F3F] focus:ring-2 focus:ring-[#2D5F3F]/20'}`}
                   >
                     <option value="">Select your concern</option>
-                    <option value="hair-loss">Hair Loss</option>
-                    <option value="thinning">Hair Thinning</option>
-                    <option value="baldness">Baldness</option>
-                    <option value="scalp-issues">Scalp Issues</option>
-                    <option value="other">Other</option>
+                    {concerns.map((option) => (
+                      <option key={option.value} value={option.value}>{option.label}</option>
+                    ))}
                   </select>
                   {errors.concern && (
                     <p className="mt-1.5 text-red-600 text-xs">{errors.concern}</p>

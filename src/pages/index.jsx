@@ -52,49 +52,91 @@ export default function Home() {
        
        <script type="application/ld+json"
   dangerouslySetInnerHTML={{
-    __html: `{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "@id": "https://ramacarepolyclinic.ae/#organization",
-  "name": "RamaCare Polyclinic",
-  "url": "https://ramacarepolyclinic.ae/",
-  "logo": "https://ramacarepolyclinic.ae/images/Logo.png",
-  "image": "https://ramacarepolyclinic.ae/images/Logo.png",
-  "description": "DHA-licensed polyclinic in Jumeirah 1, Dubai offering dermatology, dental, physiotherapy, Ayurveda, and general medicine services.",
-  "telephone": "+971566597878",
-  "email": "query@ramacarepolyclinic.com",
-  "priceRange": "$$",
-  "openingHours": "Su-Sa 10:00-22:00",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
-    "addressLocality": "Dubai",
-    "postalCode": "393558",
-    "addressCountry": "AE"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": "Dubai"
-  },
-  "sameAs": [
-    "https://www.facebook.com/RamaCarePolyClinic/",
-    "https://www.instagram.com/ramacarepolyclinic/",
-    "https://www.linkedin.com/company/ramacarepolyclinics/"
-  ],
-  "medicalSpecialty": [
-    "General Medicine",
-    "Dermatology",
-    "Dental Care",
-    "Physiotherapy",
-    "Ayurveda"
-  ],
-  "foundingDate": "2008",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "500"
-  }
-}`
+    __html: JSON.stringify([
+      {
+        "@context": "https://schema.org",
+        "@type": ["MedicalClinic", "LocalBusiness"],
+        "@id": "https://ramacarepolyclinic.ae/#organization",
+        "name": "RamaCare Polyclinic",
+        "alternateName": "Rama Care Polyclinic Dubai",
+        "url": "https://ramacarepolyclinic.ae/",
+        "logo": "https://ramacarepolyclinic.ae/images/Logo.png",
+        "image": "https://ramacarepolyclinic.ae/images/Logo.png",
+        "description": "DHA-licensed multi-specialty polyclinic in Jumeirah 1, Dubai offering expert care in Dermatology, Dental, Physiotherapy, and Ayurveda.",
+        "telephone": "+971566597878",
+        "email": "query@ramacarepolyclinic.com",
+        "priceRange": "$$",
+        "openingHours": "Mo-Su 10:00-22:00",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
+          "addressLocality": "Dubai",
+          "postalCode": "393558",
+          "addressCountry": "AE"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "25.2345",
+          "longitude": "55.2712"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Dubai"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "542",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "medicalSpecialty": [
+          "General Medicine",
+          "Dermatology",
+          "Dental Care",
+          "Physiotherapy",
+          "Ayurveda"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What services do you offer at RamaCare Polyclinic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide a wide range of healthcare services, including general medicine, dermatology, dental care, physiotherapy, Ayurveda, and facial treatments—all under one roof in Jumeirah 1, Dubai."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is RamaCare Polyclinic located?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "RamaCare Polyclinic is located in Jumeirah 1, Dubai, Ground Floor, Jumeirah Terrace Building. We provide easy access and a comfortable clinical environment for all our patients."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are your doctors DHA-licensed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, all our doctors and specialists are DHA-licensed and follow strict clinical standards to ensure safe and effective treatment for every patient."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I book an appointment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can book an appointment by calling us at +971566597878, sending a WhatsApp message, or using the online booking option on our website."
+            }
+          }
+        ]
+      }
+    ])
   }}
   />
         </Head>

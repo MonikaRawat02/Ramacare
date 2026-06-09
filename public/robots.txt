@@ -3,11 +3,14 @@ User-agent: *
 Disallow: /wp-admin/
 Disallow: /wp-content/
 Disallow: /wp-includes/
+Disallow: /admin/
+Disallow: /api/admin/
 Disallow: /tag/
 Disallow: /author/
 Disallow: /best-fillers-in-dubai
 
-# Allow Next.js optimized images (prevents the 870 blocked resource errors)
+# Allow Next.js internal files and optimized images
+Allow: /_next/static/
 Allow: /_next/image*
 
 # Allow all other pages

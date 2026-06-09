@@ -1,9 +1,70 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import Head from 'next/head';
 
 const HairfallTreatmentHero = () => {
+  const procedureSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalProcedure",
+    "name": "Ayurvedic Hairfall Treatment in Dubai",
+    "description": "Restore natural hair growth through authentic Ayurvedic therapies. Treat the root cause, not just symptoms—with 15+ years of proven expertise in Dubai.",
+    "procedureType": "Medical Treatment",
+    "relevantSpecialty": {
+      "@type": "MedicalSpecialty",
+      "name": "Ayurveda"
+    },
+    "bodyLocation": "Hair, Scalp",
+    "howPerformed": "Authentic Ayurvedic therapies performed by DHA-licensed specialists.",
+    "preparation": "Consultation with an Ayurvedic doctor is required.",
+    "provider": {
+      "@type": "MedicalClinic",
+      "name": "RamaCare Polyclinic",
+      "url": "https://ramacarepolyclinic.ae/",
+      "telephone": "+971566597878",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jumeirah 1, Ground Floor, Jumeirah Terrace Building",
+        "addressLocality": "Dubai",
+        "postalCode": "393558",
+        "addressCountry": "AE"
+      }
+    }
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://ramacarepolyclinic.ae/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Ayurveda Services",
+        "item": "https://ramacarepolyclinic.ae/treatments"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Hairfall Treatment",
+        "item": "https://ramacarepolyclinic.ae/services/ayurvedic-hairfall-treatment-dubai/"
+      }
+    ]
+  };
+
   return (
     <section id="hero-section" className="w-full bg-[#F5F1E8] py-8 md:py-12">
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify([procedureSchema, breadcrumbSchema]) }}
+        />
+      </Head>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumbs */}
         <nav className="mb-4" aria-label="Breadcrumb">
@@ -133,15 +194,16 @@ const HairfallTreatmentHero = () => {
           {/* Right Panel - Video Player */}
           <div className="bg-[#F5F1E8] rounded-2xl p-4 md:p-6">
             <div className="relative rounded-2xl overflow-hidden bg-gray-200 aspect-video mb-3">
-              {/* Video Thumbnail */}
-              <div 
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80')`
-                }}
-              >
-                <div className="absolute inset-0 bg-black/20"></div>
-              </div>
+              {/* Video Thumbnail Optimized */}
+              <Image 
+                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                alt="Ayurvedic Hairfall Treatment in Dubai - Scalp therapy"
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-black/20"></div>
               
               {/* Play Button */}
               <button className="absolute inset-0 flex items-center justify-center group">

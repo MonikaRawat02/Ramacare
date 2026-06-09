@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
+import Link from 'next/link';
 
 const TreatmentHero = ({ categoryName, subcategoryName, description, hero }) => {
   // Helper function to parse description into paragraphs
@@ -36,7 +38,7 @@ const TreatmentHero = ({ categoryName, subcategoryName, description, hero }) => 
               <span dangerouslySetInnerHTML={{ 
                 __html: para.replace(
                   /<a\s/gi, 
-                  '<a class="font-semibold text-[#2D5F3F] hover:text-[#407D54] transition-colors duration-200" '
+                  '<a class="font-semibold text-[#2D5F3F] hover:text-[#407D54] underline decoration-2 underline-offset-2 hover:decoration-[#407D54] transition-colors duration-200" '
                 ) 
               }} />
             </p>
@@ -90,7 +92,7 @@ const categoryData = categories.find(
   const rating = heroData.rating || '500+ Happy Clients';
   
   // Statistics from hero.stats or defaults
-  const stats =   [
+  const stats = heroData.stats || [
     { id: 1, number: '98%', label: 'Success Rate' },
     { id: 2, number: '2,500+', label: 'Patients Treated' },
     { id: 3, number: '15+', label: 'Years Experience' }
@@ -116,9 +118,40 @@ const categoryData = categories.find(
     text: 'Medical Notice: Results vary by individual. This treatment is not a cure-all. Consult our qualified healthcare professionals for personalized assessment. DHA-approved facility adhering to Dubai healthcare standards.',
     show: true
   };
-  
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://ramacarepolyclinic.ae/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": categoryName || 'Treatments',
+        "item": `https://ramacarepolyclinic.ae${categoryData ? `/services/${categoryData.slug}` : '/services'}`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": subcategory,
+        "item": `https://ramacarepolyclinic.ae/services/${subcategory.toLowerCase().replace(/\s+/g, '-')}/`
+      }
+    ]
+  };
+
   return (
     <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
+      </Head>
       <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
       <section id="hero-section" className="w-full bg-[#F5F1E8] py-8 md:py-12" style={{ fontFamily: "'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -206,16 +239,10 @@ const categoryData = categories.find(
                   height={600}
                   className="w-full h-auto object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                   priority
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  sizes="(max-width: 768px) 100vw, 1200px"
                 />
                 {/* Subtle overlay on hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#2D5F3F]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                {/* Zoom icon indicator */}
-                {/* <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg">
-                  <svg className="w-5 h-5 text-[#2D5F3F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
-                  </svg>
-                </div> */}
               </div>
             )}
 
@@ -290,36 +317,32 @@ const categoryData = categories.find(
                   fill
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                   priority
-                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  sizes="(max-width: 768px) 100vw, 1200px"
                 />
                 {/* Subtle overlay on hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#2D5F3F]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                {/* Zoom icon indicator */}
-                {/* <div className="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg">
-                  <svg className="w-6 h-6 text-[#2D5F3F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
-                  </svg>
-                </div> */}
               </div>
             </div>
           )}
         </div>
+      </div>
 
-        {/* Medical Notice */}
-        {medicalNotice && medicalNotice.show && (
-          <div className="bg-[#FEF3C7] border-l-4 border-[#F59E0B] rounded-lg p-3 md:p-4">
-            <div className="flex items-start gap-2">
-              <svg className="w-5 h-5 text-[#92400E] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+      {/* Medical Notice Section */}
+      {medicalNotice.show && (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4">
+          <div className="bg-white/50 backdrop-blur-sm border border-gray-100 rounded-xl p-3 md:p-4">
+            <div className="flex items-start gap-3">
+              <svg className="w-5 h-5 text-[#2D5F3F] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <p className="text-xs md:text-sm text-[#92400E] leading-relaxed">
+              <p className="text-[10px] md:text-xs text-[#6B7280] leading-relaxed italic">
                 {medicalNotice.text}
               </p>
             </div>
           </div>
-        )}
-      </div>
-      </section>
+        </div>
+      )}
+    </section>
     </>
   );
 };

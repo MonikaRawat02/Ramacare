@@ -1,11 +1,43 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+import { ChevronRight, Home } from 'lucide-react';
+import Head from 'next/head';
 
 const HeroSection = ({ content }) => {
   const [hoveredStat, setHoveredStat] = useState(null);
   const [hoveredFeature, setHoveredFeature] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
+
+  // Extract category from content or derive from current path
+  const categoryName = content?.titleLine1?.replace(/,/g, '').trim() || 'Service';
+  const categoryUrl = typeof window !== 'undefined' ? window.location.pathname : '';
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://ramacarepolyclinic.ae/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://ramacarepolyclinic.ae/services/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": categoryName,
+        "item": `https://ramacarepolyclinic.ae${categoryUrl}`
+      }
+    ]
+  };
 
   useEffect(() => {
     setIsVisible(true);
@@ -56,6 +88,12 @@ const HeroSection = ({ content }) => {
 
   return (
     <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
+      </Head>
       {/* ✅ Google Font Import */}
       <link 
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" 
@@ -71,6 +109,7 @@ const HeroSection = ({ content }) => {
             fill
             className="object-cover"
             priority
+            sizes="(max-width: 768px) 100vw, 1200px"
             style={{
               transform: 'scale(1.05)',
             }}
@@ -94,6 +133,20 @@ const HeroSection = ({ content }) => {
             <div className={`max-w-5xl space-y-3 sm:space-y-4 lg:space-y-5 transform transition-all duration-1000 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}>
+              {/* Visible Breadcrumbs */}
+              <nav className="flex items-center space-x-2 text-white/60 text-sm mb-4 overflow-x-auto whitespace-nowrap pb-2 scrollbar-hide">
+                <Link href="/" className="hover:text-white flex items-center gap-1 transition-colors">
+                  <Home className="w-3.5 h-3.5" />
+                  <span>Home</span>
+                </Link>
+                <ChevronRight className="w-3.5 h-3.5" />
+                <Link href="/services" className="hover:text-white transition-colors">
+                  Services
+                </Link>
+                <ChevronRight className="w-3.5 h-3.5" />
+                <span className="text-white font-medium">{categoryName}</span>
+              </nav>
+
               {/* Top Badge with Glow Animation */}
               <div className="relative inline-block">
                 {/* Animated Golden Glow Outline */}                                  

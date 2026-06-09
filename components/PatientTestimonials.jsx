@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 
 const PatientTestimonials = ({ content }) => {
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -217,30 +218,29 @@ const PatientTestimonials = ({ content }) => {
               >
                 {/* Video Section */}
                 <div className="relative aspect-video bg-black">
-                  {/* Mixed Thumbnail Support - Custom image or video frame */}
+                  {/* Mixed Thumbnail Support - Custom image or Video Frame (SEO Optimized) */}
                   {playingVideo !== testimonial.id && (
                     testimonial.thumbnail ? (
-                      // Custom image thumbnail
                       <img 
                         src={testimonial.thumbnail} 
                         alt={`Testimonial ${testimonial.id}`} 
                         className="absolute inset-0 w-full h-full object-cover"
+                        loading="lazy"
                       />
                     ) : (
-                      // Video-generated thumbnail (first frame)
+                      // Show video first frame without downloading the whole video (preload="metadata")
                       <video
                         className="absolute inset-0 w-full h-full object-cover"
-                        poster=""
                         preload="metadata"
                         muted
                         playsInline
                       >
-                        <source src={testimonial.videoUrl} type="video/mp4" />
+                        <source src={`${testimonial.videoUrl}#t=0.1`} type="video/mp4" />
                       </video>
                     )
                   )}
                   
-                  {/* Video Element - Only visible when playing */}
+                  {/* Video Element - Only visible and loaded when clicked (Click-to-Play) */}
                   {playingVideo === testimonial.id && (
                     <video
                       ref={(el) => (videoRefs.current[testimonial.id] = el)}
@@ -249,6 +249,8 @@ const PatientTestimonials = ({ content }) => {
                       controls
                       autoPlay
                       playsInline
+                      preload="none"
+                      poster={testimonial.thumbnail || "/images/Logo.png"}
                     >
                       <source src={testimonial.videoUrl} type="video/mp4" />
                       Your browser does not support the video tag.
@@ -314,6 +316,8 @@ const PatientTestimonials = ({ content }) => {
                   controls
                   playsInline
                   autoPlay
+                  preload="metadata"
+                  poster={(testimonials.find(t => t.id === zoomVideoId) || {}).thumbnail || "/images/Logo.png"}
                 >
                   <source src={(testimonials.find(t => t.id === zoomVideoId) || {}).videoUrl} type="video/mp4" />
                 </video>
@@ -325,7 +329,7 @@ const PatientTestimonials = ({ content }) => {
           {/* See All Testimonials Button - Show on homepage */}
         {showSeeAllButton && (
           <div className="flex justify-center mt-8 md:mt-12">
-            <a 
+            <Link 
               href="/testimonials/"
               className="inline-flex items-center px-6 py-3 bg-[#2D5F3F] hover:bg-[#3A7B51] text-white font-medium rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group"
             >
@@ -338,7 +342,7 @@ const PatientTestimonials = ({ content }) => {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
-            </a>
+            </Link>
           </div>
         )}
 
