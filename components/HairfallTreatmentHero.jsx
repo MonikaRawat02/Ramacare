@@ -66,35 +66,6 @@ const HairfallTreatmentHero = () => {
         />
       </Head>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Breadcrumbs */}
-        <nav className="mb-4" aria-label="Breadcrumb">
-          <ol className="flex items-center space-x-2 text-sm text-[#6B7280]">
-            <li>
-              <Link href="/" className="hover:bg-gradient-to-r hover:from-[#047857] hover:to-[#059669] hover:bg-clip-text hover:text-transparent transition-all duration-300">
-                Home
-              </Link>
-            </li>
-            <li>
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-              </svg>
-            </li>
-            <li>
-              <Link href="/treatments" className="hover:bg-gradient-to-r hover:from-[#047857] hover:to-[#059669] hover:bg-clip-text hover:text-transparent transition-all duration-300">
-                Ayurveda Services
-              </Link>
-            </li>
-            <li>
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-              </svg>
-            </li>
-            <li className="text-[#1F2937] font-medium" aria-current="page">
-              Hairfall Treatment
-            </li>
-          </ol>
-        </nav>
-
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 mb-6">
           {/* Left Panel - Content */}

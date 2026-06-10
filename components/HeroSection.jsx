@@ -133,20 +133,6 @@ const HeroSection = ({ content }) => {
             <div className={`max-w-5xl space-y-3 sm:space-y-4 lg:space-y-5 transform transition-all duration-1000 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}>
-              {/* Visible Breadcrumbs */}
-              <nav className="flex items-center space-x-2 text-white/60 text-sm mb-4 overflow-x-auto whitespace-nowrap pb-2 scrollbar-hide">
-                <Link href="/" className="hover:text-white flex items-center gap-1 transition-colors">
-                  <Home className="w-3.5 h-3.5" />
-                  <span>Home</span>
-                </Link>
-                <ChevronRight className="w-3.5 h-3.5" />
-                <Link href="/services" className="hover:text-white transition-colors">
-                  Services
-                </Link>
-                <ChevronRight className="w-3.5 h-3.5" />
-                <span className="text-white font-medium">{categoryName}</span>
-              </nav>
-
               {/* Top Badge with Glow Animation */}
               <div className="relative inline-block">
                 {/* Animated Golden Glow Outline */}                                  
