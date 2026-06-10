@@ -12,6 +12,8 @@ import DoctorsSection from '../../../components/DoctorsSection';
 import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
+
+import DetailedServiceContent from '../../../components/DetailedServiceContent';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
 
 
@@ -92,6 +94,7 @@ export default function DryNeedlingPage() {
      <TreatmentBenefits 
        content={content?.benefits}
      />
+     <DetailedServiceContent content={content?.detailedContent} />
       <PatientTestimonials content={content?.testimonials} />
     
     <PaymentInsurance content={content?.paymentInsurance} />

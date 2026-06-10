@@ -29,10 +29,8 @@ export default function DyslipidemiaDiagnosisandTreatmentPage() {
   <meta name="description" content="Dyslipidemia diagnosis and treatment focused on managing cholesterol levels, reducing heart disease risk, and supporting long-term cardiovascular health safely." key="description" />
   <meta name="keywords" content="Dyslipidemia diagnosis and treatment, High cholesterol treatment, Lipid profile test, Cholesterol management, Dyslipidemia care, Heart health treatment, High LDL cholesterol, Triglyceride management, Preventive cardiac care" />
   
-  
         
 </Head>
-
       <TreatmentHero 
         categoryName={categoryName}
         subcategoryName={subcategoryName}

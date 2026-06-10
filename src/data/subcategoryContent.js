@@ -11713,25 +11713,30 @@ comparisonData: [
 
     'physiotherapy-dubai-dry-needling':{
       hero: {
-        title: 'Dry Needling in Dubai for Fast Muscle Pain Relief & Recovery',
-        subtitle: 'Relieve Muscle Tightness, Improve Mobility & Restore Natural Movement ',
-        description: 'Struggling with muscle pain, stiffness, or restricted movement? Dry needling in Dubai is a safe and effective therapy that targets trigger points to relieve pain, improve flexibility, and restore natural movement. At Rama Care Polyclinic, our licensed physiotherapists use advanced techniques to deliver fast and long-lasting results. ',
+        title: 'Dry Needling in Dubai for Effective Pain Relief and Faster Recovery',
+        subtitle: 'Reduce Muscle Pain, Release Trigger Points, and Restore Movement Naturally',
+        description: 'Are you experiencing persistent muscle pain, tightness, stiffness, or limited mobility that affects your daily activities or sports performance? At Rama Care Polyclinic, we provide professional Dry Needling in Dubai to help relieve muscular pain, reduce tension, and support faster recovery.This advanced physiotherapy technique targets myofascial trigger points to improve muscle function, increase flexibility, and restore natural movement without surgery or medication dependence. Our licensed physiotherapists create personalised treatment plans tailored to your condition, helping you achieve long-lasting pain relief and improved physical performance.',
         rating: '500+ Happy Clients',  
+        topBadges: [
+          { icon: 'location', text: 'Trusted Results ' },
+          { icon: 'building', text: 'Experienced Physiotherapists' },
+          { icon: 'star', text: 'Patient-Centred Care' }
+        ],
         stats: [
           {
             id: 1,
-            number: '95%',
-            label: 'Patient Satisfaction'
+            number: '98% ',
+            label: 'Patient Satisfaction Rate'
           },
           {
             id: 2,
-            number: '6000+',
-            label: 'Electrotherapy Performed'
+            number: '2500+',
+            label: 'Successful Physiotherapy Treatments'
           },
           {
             id: 3,
             number: '15+',
-            label: 'Years of Experience'
+            label: 'Years of Clinical Experience'
           }
         ],
         ctaButtons: {
@@ -11798,50 +11803,58 @@ comparisonData: [
         ]
       },
       overview: {
-        title: 'Understanding Dry Needling',
+        title: 'Understanding Dry Needling in Dubai',
         problemIntro: {
-          title: 'The Problem: Muscle Pain, Stiffness & Trigger Points',
-          description: 'Muscle tightness, knots, and chronic pain can limit daily activities, posture, and quality of life. Conventional treatments may not effectively target deep muscle trigger points.'
+          title: 'Common Problems Treated with Dry Needling in Dubai',
+          description: 'Persistent muscle tension and trigger points can affect movement, posture, athletic performance, and overall quality of life. Many people continue to experience discomfort because the underlying muscle dysfunction remains untreated.'
         },
        solutionIntro: {
-  title: 'Our Solution: Dry Needling Therapy in Dubai',
+  title: 'Our Solution: Expert Dry Needling Therapy in Dubai',
   description:
-    'Our Dry Needling Therapy in Dubai is a safe, effective technique that targets muscle trigger points to relieve pain, restore mobility, and accelerate healing.'
+    'At Rama Care Polyclinic, we provide advanced Dry Needling Therapy in Dubai to help patients overcome chronic muscle pain, trigger points, movement restrictions, and sports-related injuries. Our licensed physiotherapists use evidence-based techniques to target the root cause of muscular dysfunction rather than simply masking symptoms. Whether you are recovering from an injury, managing chronic pain, or looking to improve athletic performance, our personalised treatment plans are designed to support long-term recovery and improved physical function.'
 },
         leftCards: [
           {
             id: 1,
             // title: 'What Are Functional Exercises?',
-            description: 'Dry needling involves inserting thin, sterile needles into tight muscle areas known as trigger points. This helps release tension, reduce inflammation, improve blood flow, and restore normal muscle function. Unlike acupuncture, it targets musculoskeletal pain specifically.'
+            description: 'Dry Needling in Dubai is an advanced physiotherapy technique used to relieve muscle pain, release trigger points, and improve movement. During treatment, a licensed physiotherapist inserts fine, sterile needles into tight muscle bands known as trigger points. These trigger points often develop due to injury, poor posture, repetitive strain, stress, or prolonged muscle overuse. By targeting the source of muscular dysfunction, dry needling helps reduce pain, improve blood circulation, decrease muscle tension, and restore normal muscle function. Many patients experience noticeable relief after just a few sessions.Unlike traditional acupuncture, which is based on Chinese medicine principles, dry needling therapy focuses specifically on musculoskeletal conditions and is commonly integrated into modern physiotherapy and rehabilitation programs.'
           },
           {
             id: 2,
-            title: 'Conditions Treated with Dry Needling',
+            title: 'Conditions Treated with Dry Needling Therapy',
             sections: [
               {
-                heading: 'Dry needling therapy can help with:',
+                heading: 'Our physiotherapists use Dry Needling Treatment in Dubai to help manage a wide range of musculoskeletal conditions, including:',
                 items: [
-                  'Chronic back, neck, and shoulder pain',
-                  'Muscle tightness and spasms',
-                  'Sports injuries and overuse conditions',
-                  'Joint and tendon pain',
-                  'Postural imbalance',
-                  'Age-related mobility issues',
-                  'Restricted movement after injury or surgery'
+                   'Chronic neck pain and stiffness',
+  'Lower back pain and muscle tension',
+  'Shoulder pain and frozen shoulder',
+  'Sports injuries and muscle strains',
+  'Muscle spasms and trigger points',
+  'Tennis elbow and golfer\'s elbow',
+  'Knee pain and tendon-related conditions',
+  'Sciatica and nerve-related muscle tightness',
+  'Headaches caused by muscle tension',
+  'Postural dysfunction and muscle imbalance',
+  'Restricted mobility following injury or surgery',
+  'Repetitive strain injuries from office work or physical activity'
                 ]
               },
             ]
           },
           {
             id: 3,
-            title: 'Who Needs Dry Needling Therapy?',
-            description: 'Dry needling therapy is recommended for:',
+            title: 'Who Can Benefit from Dry Needling?',
+            description: 'Dry needling therapy may be suitable for individuals experiencing persistent muscle pain, movement restrictions, or recovery challenges.This treatment is commonly recommended for:',
             listItems: [
-              'Athletes recovering from injuries',
-              'Individuals with chronic muscle pain or stiffness',
-              'Patients with posture-related pain',
-              'Those seeking non-surgical pain relief',
-              'People recovering from repetitive strain or post-surgical limitations'
+              'Athletes recovering from sports injuries',
+  'Office workers with neck, shoulder, and back pain',
+  'Individuals suffering from chronic muscular tension',
+  'Patients with posture-related discomfort',
+  'People experiencing reduced flexibility and mobility',
+  'Individuals seeking non-surgical pain management solutions',
+  'Patients undergoing physiotherapy rehabilitation',
+  'People recovering from orthopedic injuries or surgery'
             ]
           },
           {
@@ -11852,183 +11865,204 @@ comparisonData: [
           }
         ],
        rootCauses: [
-  {
-    id: 1,
-    title: 'Chronic Muscle Pain',
-    description: 'Persistent muscle tightness, soreness, and trigger points can interfere with daily tasks such as sitting, walking, or lifting. Ongoing discomfort may also affect sleep quality, productivity, and overall physical well-being.',
-    severity: 'High',
-    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
-  },
-  {
-    id: 2,
-    title: 'Limited Mobility & Flexibility',
-    description: 'Muscle tension and active trigger points restrict joint movement and flexibility, making stretching, bending, and exercise challenging. Over time, reduced mobility can increase the risk of injury and joint strain.',
-    severity: 'Medium',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-  },
-  {
-    id: 3,
-    title: 'Post-Injury Muscle Dysfunction',
-    description: 'After injuries, muscles may remain tight, weak, or imbalanced, slowing the rehabilitation process. Untreated trigger points can prolong recovery and contribute to chronic pain patterns.',
-    severity: 'Medium',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-  },
-  {
-    id: 4,
-    title: 'Reduced Performance & Discomfort',
-    description: 'Muscle imbalances and persistent pain can decrease athletic performance, endurance, and coordination. Even everyday movements may feel uncomfortable and restricted due to underlying muscle dysfunction.',
-    severity: 'Medium',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-  },
-  {
-    id: 5,
-    title: 'Referred Pain Patterns',
-    description: 'Trigger points can cause pain in areas away from the original muscle knot, leading to headaches, neck pain, shoulder discomfort, or lower back pain that may be difficult to diagnose without proper assessment.',
-    severity: 'Medium',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-  },
-  {
-    id: 6,
-    title: 'Poor Posture & Muscle Imbalance',
-    description: 'Chronic muscle tightness contributes to postural misalignment, placing excess strain on the spine and joints, and increasing the likelihood of long-term musculoskeletal issues.',
-    severity: 'Medium',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-  },
-  {
-    id: 7,
-    title: 'Stress-Related Muscle Tension',
-    description: 'Emotional stress and prolonged desk work can lead to persistent muscle contraction, especially in the neck, shoulders, and back, worsening trigger point formation and chronic stiffness.',
-    severity: 'Medium',
-    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-  }
+ {
+  id: 1,
+  title: 'Chronic Muscle Pain',
+  description: 'Long-term muscle tightness and trigger points can cause ongoing discomfort in the neck, shoulders, back, hips, and legs. Chronic pain often interferes with daily activities, sleep quality, work productivity, and exercise performance.',
+  severity: 'High',
+  severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+},
+{
+  id: 2,
+  title: 'Limited Mobility and Flexibility',
+  description: 'Tight muscles and trigger points restrict joint movement and reduce flexibility. Simple activities such as bending, stretching, exercising, or lifting objects may become uncomfortable and difficult.',
+  severity: 'Medium',
+  severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+},
+{
+  id: 3,
+  title: 'Post-Injury Muscle Dysfunction',
+  description: 'Following an injury, muscles often develop protective tension patterns that limit recovery. Untreated trigger points can delay rehabilitation and contribute to recurring pain and weakness.',
+  severity: 'Medium',
+  severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+},
+{
+  id: 4,
+  title: 'Reduced Athletic Performance',
+  description: 'Athletes frequently develop muscular tightness due to repetitive training and overuse. Trigger points can reduce strength, endurance, flexibility, and coordination, increasing the risk of future injuries.',
+  severity: 'Medium',
+  severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+},
+{
+  id: 5,
+  title: 'Referred Pain Patterns',
+  description: 'Muscle trigger points can create pain in areas far from the actual source. For example, trigger points in the neck may contribute to headaches, while shoulder trigger points can cause pain extending down the arm.',
+  severity: 'Medium',
+  severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+},
+{
+  id: 6,
+  title: 'Poor Posture and Muscle Imbalances',
+  description: 'Prolonged sitting, desk work, and repetitive movements often create muscular imbalances. Over time, poor posture places additional stress on joints, ligaments, and the spine.',
+  severity: 'Medium',
+  severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+},
+{
+  id: 7,
+  title: 'Stress-Related Muscle Tension',
+  description: 'Physical and emotional stress can cause muscles to remain contracted for extended periods. This frequently affects the neck, shoulders, upper back, and jaw muscles, leading to persistent tightness and discomfort.',
+  severity: 'Medium',
+  severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+}
 ],
-        quickFacts: [
-          { label: 'Treatment Type', value:  'Physiotherapy-based trigger point therapy' },
-          { label: 'Focus Areas', value: 'Muscles, tendons, joints' },
-          { label: 'Pain Level', value: 'Mild discomfort or twitch sensation' },
-          { label: 'Downtime:', value: 'Minimal or none' },
-          { label: 'Safety: ', value: ' DHA-approved physiotherapy protocols' },
-        ],
+       quickFacts: [
+  { label: 'Treatment Type', value: 'Physiotherapy-Based Trigger Point Therapy' },
+  { label: 'Primary Focus Areas', value: 'Muscles, Tendons, Connective Tissue & Joints' },
+  { label: 'Sensation', value: 'Mild twitch response or temporary discomfort' },
+  { label: 'Recovery Time', value: 'Minimal downtime' },
+  { label: 'Safety', value: 'DHA-approved protocols by licensed physiotherapists' }
+],
      approachCards: [
   {
     id: 1,
     title: 'Precise Trigger Point Release',
-    description: 'Using ultra-fine sterile needles, our specialists precisely target tight muscle knots and trigger points.',
+    description: 'One of the primary goals of Dry Needling Treatment in Dubai is to release trigger points—tight bands of muscle tissue that can cause pain, stiffness, weakness, and restricted movement.',
     hasLearnMore: true,
-    expandedContent: 'This technique helps relax contracted muscle fibers, release deep tension, and restore normal muscle function.'
+    expandedContent: 'Using ultra-fine sterile needles, our physiotherapists accurately target these trigger points to reduce muscle tension, release painful muscle knots, improve muscle function, restore normal movement patterns, and reduce pressure on surrounding tissues. Many patients experience an immediate sense of relief and improved mobility following treatment.'
   },
   {
     id: 2,
-    title: 'Pain Reduction & Muscle Recovery',
-    description: 'Dry needling stimulates blood circulation and reduces inflammation in affected areas, providing relief from chronic pain, muscle soreness, and stiffness.',
+    title: 'Effective Pain Relief and Faster Muscle Recovery',
+    description: 'Persistent muscle tension can affect daily activities, sleep quality, work performance, and overall well-being.',
     hasLearnMore: true,
-    expandedContent: 'Enhanced circulation promotes faster tissue repair and long-term recovery.'
+    expandedContent: 'Dry needling promotes the body’s natural healing response by increasing local blood circulation, reducing inflammation, decreasing muscle spasms, improving oxygen delivery to tissues, and supporting faster recovery from injury. This makes Dry Needling for Muscle Pain in Dubai an effective option for individuals suffering from chronic neck pain, lower back pain, shoulder pain, and sports injuries.'
   },
   {
     id: 3,
-    title: 'Improved Flexibility & Range of Motion',
-    description: 'By releasing tight muscles and reducing neuromuscular restrictions, dry needling restores natural movement patterns.',
+    title: 'Improved Flexibility and Range of Motion',
+    description: 'Restricted muscles often limit flexibility and joint mobility, making everyday movements uncomfortable.',
     hasLearnMore: true,
-    expandedContent: 'Patients experience improved flexibility, smoother joint motion, and reduced movement-related discomfort.'
+    expandedContent: 'By releasing tight muscle fibers and reducing neuromuscular restrictions, dry needling helps improve flexibility, increase joint mobility, reduce movement-related discomfort, enhance posture and body mechanics, and restore natural movement patterns. Patients frequently notice easier movement during activities such as walking, exercising, stretching, and lifting.'
   },
   {
     id: 4,
-    title: 'Supports Rehabilitation & Performance',
-    description: 'Dry needling complements physiotherapy and rehabilitation programs by enhancing muscle activation, improving coordination, and accelerating recovery after injury.',
+    title: 'Supports Physiotherapy Rehabilitation and Injury Recovery',
+    description: 'Dry needling is often combined with physiotherapy to create a comprehensive rehabilitation program.',
     hasLearnMore: true,
-    expandedContent: 'Athletes and active individuals benefit from improved strength and performance.'
+    expandedContent: 'Our physiotherapists may incorporate dry needling alongside manual therapy, therapeutic exercises, strengthening programs, mobility training, and postural correction techniques. This integrated approach helps accelerate recovery following sports injuries, muscle strains, tendon injuries, orthopedic conditions, and post-surgical rehabilitation. By addressing muscular dysfunction early, patients can often return to their normal activities more efficiently.'
   },
   {
     id: 5,
-    title: 'Safe, Non-Surgical & Professional Care',
-    description: 'Performed by trained and certified physiotherapy professionals, dry needling is minimally invasive with little to no downtime.',
+    title: 'Safe, Non-Surgical Treatment with Minimal Downtime',
+    description: 'For patients seeking a non-invasive alternative to surgery or long-term medication use, Dry Needling Therapy Dubai offers a safe and effective solution.',
     hasLearnMore: true,
-    expandedContent: 'It offers a safe alternative to medication-based pain management.'
+    expandedContent: 'Benefits include minimally invasive treatment, no surgical procedures, little to no downtime, short treatment sessions, suitability for most adults and athletes, and treatment performed by licensed physiotherapists. Most patients can resume their normal daily routine shortly after treatment.'
   },
   {
     id: 6,
-    title: 'Reduces Referred Pain & Headaches',
-    description: 'Dry needling effectively treats trigger points responsible for referred pain patterns, helping relieve tension headaches, neck stiffness, shoulder pain, and lower back discomfort.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Reduces Referred Pain and Tension Headaches',
+    description: 'Trigger points can often cause pain in areas far from the original muscle problem. This phenomenon is known as referred pain.',
+    hasLearnMore: true,
+    expandedContent: 'Dry needling may help relieve tension headaches, neck stiffness, shoulder pain, upper back discomfort, lower back pain, and jaw and facial muscle tension. By treating the underlying trigger points, our physiotherapists can help reduce recurring pain patterns and improve overall comfort.'
   },
   {
     id: 7,
-    title: 'Enhances Nerve-Muscle Communication',
-    description: 'The therapy improves neuromuscular signaling, allowing muscles to contract and relax efficiently, which supports better posture and movement control.',
-    hasLearnMore: false,
-    expandedContent: null
-  },
+    title: 'Enhances Muscle Activation and Movement Control',
+    description: 'Healthy muscles need efficient communication with the nervous system to function properly.',
+    hasLearnMore: true,
+    expandedContent: 'Dry needling supports improved neuromuscular performance by enhancing nerve-muscle communication, improving muscle activation, increasing coordination, supporting balance and stability, and promoting better posture. This is particularly beneficial for athletes, active individuals, and patients recovering from injury who want to restore optimal movement and physical performance.'
+  }
+
 ]
       },
   
       // Healing Journey / Process Section
      healingJourney: {
-  title: 'Dry Needling Therapy in Dubai: Step-by-Step Healing Process',
-  description: 'Experience targeted relief and faster recovery with Dry Needling Therapy in Dubai, a modern technique for reducing muscle pain, releasing tension, and improving mobility. Our structured approach ensures safe, effective, and personalized care.',
+  title: 'Dry Needling Therapy in Dubai: Our Step-by-Step Treatment Process',
+  description: 'At Rama Care Polyclinic, we follow a structured and patient-focused approach to Dry Needling Therapy in Dubai. Every treatment plan is tailored to your specific condition, pain levels, mobility restrictions, and recovery goals. Our experienced physiotherapists ensure that each session is performed safely, comfortably, and according to DHA-approved clinical standards.Whether you are seeking relief from chronic muscle pain, sports injuries, neck stiffness, back pain, or movement limitations, our goal is to help you achieve long-lasting results and improved quality of life.',
   steps: [
-    {
-      id: 1,
-      number: '01',
-      title: 'Comprehensive Assessment',
-      duration: 'Step 1',
-      description: 'We start by evaluating your condition to create a tailored therapy plan.',
-      keyActivities: [
-        'Review of medical and musculoskeletal history',
-        'Physical examination of affected muscles and trigger points',
-        'Identification of pain patterns and movement limitations',
-        'Personalized dry needling therapy plan'
-      ],
-      side: 'right'
-    },
-    {
-      id: 2,
-      number: '02',
-      title: 'Targeted Dry Needling Sessions',
-      duration: 'Step 2',
-      description: 'Professional sessions focus on relieving tight muscles and improving overall function.',
-      keyActivities: [
-        '1–2 sessions per week based on condition severity',
-        'Insertion of fine needles into specific trigger points',
-        'Continuous monitoring of patient comfort and response',
-        'Adjustments to technique for optimal results'
-      ],
-      side: 'left'
-    },
-    {
-      id: 3,
-      number: '03',
-      title: 'Home Care & Lifestyle Support',
-      duration: 'Step 3',
-      description: 'Patients are guided on exercises and habits to complement therapy and enhance recovery.',
-      keyActivities: [
-        'Home stretches and strengthening exercises',
-        'Posture and movement guidance',
-        'Lifestyle and ergonomic recommendations',
-        'Progress tracking and ongoing feedback'
-      ],
-      side: 'right'
-    },
-    {
-      id: 4,
-      number: '04',
-      title: 'Follow-Up & Maintenance',
-      duration: 'Step 4',
-      description: 'Sustained relief and muscle health are achieved through regular follow-ups and support.',
-      keyActivities: [
-        'Periodic check-ins to monitor recovery',
-        'Maintenance sessions if needed',
-        'Adjustments to exercises and lifestyle strategies',
-        'Long-term support for pain prevention and improved mobility'
-      ],
-      side: 'left'
-    }
-  ]
+  {
+    id: 1,
+    number: '01',
+    title: 'Comprehensive Physiotherapy Assessment',
+    duration: 'Step 1',
+    description:
+      'Every successful treatment begins with a detailed assessment. Before starting Dry Needling Treatment in Dubai, our physiotherapists conduct a thorough evaluation to identify the root cause of your symptoms rather than simply treating the pain itself. This comprehensive evaluation allows us to create a personalised treatment plan designed specifically for your condition and recovery goals. Many muscle pain conditions are linked to poor posture, repetitive strain, sports injuries, or movement dysfunction. Identifying these contributing factors helps us deliver more effective and long-lasting results.',
+    keyActivities: [
+      'Detailed review of your medical history',
+      'Discussion of current symptoms and pain levels',
+      'Evaluation of posture and movement patterns',
+      'Examination of affected muscles and trigger points',
+      'Assessment of flexibility, strength, and joint mobility',
+      'Identification of underlying muscular imbalances'
+    ],
+    side: 'right'
+  },
+  {
+    id: 2,
+    number: '02',
+    title: 'Targeted Dry Needling Sessions',
+    duration: 'Step 2',
+    description:
+      'Once the assessment is complete, treatment begins with carefully targeted dry needling sessions performed by our licensed physiotherapists. During treatment, ultra-fine sterile needles are inserted into specific trigger points and tight muscle bands. This process helps release muscular tension, improve circulation, and stimulate the body’s natural healing response. The number of sessions required varies depending on the severity of the condition, duration of symptoms, and individual treatment response.',
+    keyActivities: [
+      'Treatment duration typically ranges from 20–30 minutes',
+      'Fine sterile needles are placed into identified trigger points',
+      'Mild muscle twitch responses may occur',
+      'Temporary soreness may be experienced after treatment',
+      'Continuous monitoring for comfort and safety',
+      'Relief from muscle tightness and stiffness',
+      'Reduction in chronic pain symptoms',
+      'Improved muscle function',
+      'Enhanced flexibility and mobility',
+      'Faster recovery from injury'
+    ],
+    side: 'left'
+  },
+  {
+    id: 3,
+    number: '03',
+    title: 'Home Care, Rehabilitation and Lifestyle Guidance',
+    duration: 'Step 3',
+    description:
+      'For optimal results, dry needling works best when combined with a comprehensive rehabilitation program. Our physiotherapists provide personalised recommendations to help support recovery between appointments and reduce the likelihood of recurring pain. Addressing trigger points is only one part of recovery. Improving movement patterns, muscle strength, and posture helps prevent future dysfunction and supports long-term musculoskeletal health.',
+    keyActivities: [
+      'Stretching exercises for affected muscles',
+      'Strengthening programs to improve stability',
+      'Mobility and flexibility exercises',
+      'Postural correction techniques',
+      'Ergonomic recommendations for work and daily activities',
+      'Sports-specific rehabilitation strategies'
+    ],
+    side: 'right'
+  },
+  {
+    id: 4,
+    number: '04',
+    title: 'Follow-Up Care and Long-Term Maintenance',
+    duration: 'Step 4',
+    description:
+      'Recovery does not end after symptom relief. Our team continues to monitor your progress and adjust your treatment plan as needed to ensure lasting results. Regular follow-up care can help maintain long-term recovery and physical function.',
+    keyActivities: [
+      'Progress evaluations and reassessments',
+      'Monitoring pain reduction and mobility improvements',
+      'Adjustments to rehabilitation exercises',
+      'Preventive strategies for future injuries',
+      'Maintenance sessions when appropriate',
+      'Prevent recurring muscle pain',
+      'Maintain flexibility and mobility',
+      'Improve posture and movement quality',
+      'Support athletic performance',
+      'Reduce the risk of future injuries'
+    ],
+    side: 'left'
+  }
+]
 },
 benefits: {
-  title: 'Clinically Observed Results of Dry Needling in Dubai',
+  title: 'Benefits of Dry Needling in Dubai',
   description:
-    'Backed by 15+ years of clinical experience and 2,500+ successfully treated patients, our expert-led Dry Needling in Dubai treatments target muscular pain, trigger points, and movement restrictions to deliver fast and lasting relief.',
+    'At Rama Care Polyclinic, our Dry Needling in Dubai treatments are designed to address the root cause of muscular pain, trigger points, and movement restrictions. When performed by experienced physiotherapists, dry needling can help reduce discomfort, improve mobility, and support faster recovery from injuries and chronic musculoskeletal conditions. By targeting dysfunctional muscle tissue directly, Dry Needling Therapy in Dubai offers a safe, minimally invasive approach to pain management and rehabilitation.',
   benefits: [
     {
       id: 1,
@@ -12087,52 +12121,58 @@ benefits: {
   ],
        comparisonTitle: 'Dry Needling vs. Conventional Muscle Pain Treatment',
 comparisonDescription:
-  'A detailed comparison highlighting how Dry Needling differs from conventional muscle pain treatment approaches.',
+  'Many people suffering from chronic muscle pain, trigger points, stiffness, or sports injuries wonder whether Dry Needling in Dubai is the right treatment option compared to traditional pain management methods. While conventional treatments such as medication, massage therapy, rest, and heat therapy can provide relief, Dry Needling Therapy in Dubai is specifically designed to target myofascial trigger points and muscular dysfunction that may contribute to ongoing pain and movement limitations.The most effective treatment often depends on the individual\'s condition, symptoms, and recovery goals. In many cases, dry needling is used alongside physiotherapy and rehabilitation exercises to achieve the best outcomes.',
 comparisonHeaders: {
   feature: 'Aspect',
-  ourTreatment: 'Dry Needling',
-  traditional: 'Conventional Muscle Pain Treatment'
+  ourTreatment: 'Dry Needling Therapy',
+  traditional: 'Conventional Muscle Pain Treatments'
 },
+
 comparisonData: [
   {
-    feature: 'Approach',
-    ayurvedic: 'Targets trigger points & underlying muscle tension',
-    conventional: 'Focuses mainly on pain suppression'
+    feature: 'Primary Focus',
+    ayurvedic: 'Targets trigger points, muscle tension, and movement dysfunction',
+    conventional: 'Often focuses on symptom management and pain relief'
   },
   {
     feature: 'Treatment Method',
-    ayurvedic: 'Uses thin needles to release tight muscles',
-    conventional: 'Uses medications, massage, or rest'
+    ayurvedic: 'Uses sterile, ultra-fine needles to release trigger points and improve muscle function',
+    conventional: 'May include medication, massage, rest, heat therapy, or other conservative treatments'
   },
   {
-    feature: 'Invasiveness',
-    ayurvedic: 'Minimally invasive and safe',
-    conventional: 'Non-invasive, but may rely on drugs or injections'
+    feature: 'Approach to Recovery',
+    ayurvedic: 'Addresses underlying muscular restrictions contributing to pain and limited mobility',
+    conventional: 'May provide temporary symptom relief depending on the treatment method'
+  },
+  {
+    feature: 'Mobility Improvement',
+    ayurvedic: 'Helps improve flexibility, muscle performance, and range of motion',
+    conventional: 'Mobility improvements vary based on treatment type'
+  },
+  {
+    feature: 'Rehabilitation Integration',
+    ayurvedic: 'Commonly combined with physiotherapy and corrective exercises',
+    conventional: 'Often used independently or as part of broader treatment plans'
+  },
+  {
+    feature: 'Downtime',
+    ayurvedic: 'Minimal downtime for most patients',
+    conventional: 'Usually minimal, depending on the treatment provided'
   },
   {
     feature: 'Side Effects',
-    ayurvedic: 'Temporary muscle soreness or mild bruising',
-    conventional: 'Possible medication side effects or irritation'
+    ayurvedic: 'Temporary soreness, mild bruising, or muscle fatigue may occur',
+    conventional: 'Side effects vary depending on medications or treatment approach'
   },
   {
-    feature: 'Results',
-    ayurvedic: 'Gradual, long-lasting relief and improved mobility',
-    conventional: 'Often temporary symptom relief'
+    feature: 'Sports Injury Recovery',
+    ayurvedic: 'Frequently used in sports rehabilitation programs to address muscular dysfunction',
+    conventional: 'May focus on symptom management and recovery support'
   },
   {
-    feature: 'Healing Process',
-    ayurvedic: 'Restores muscle function, flexibility & circulation',
-    conventional: 'Does not actively restore underlying muscle health'
-  },
-  {
-    feature: 'Rehabilitation Support',
-    ayurvedic: 'Enhances physiotherapy and functional recovery',
-    conventional: 'Limited role in rehabilitation'
-  },
-  {
-    feature: 'Long-Term Benefits',
-    ayurvedic: 'Reduces recurrence of muscle pain',
-    conventional: 'May require ongoing medication or therapy'
+    feature: 'Long-Term Management',
+    ayurvedic: 'Supports restoration of healthy movement patterns and muscle function',
+    conventional: 'Long-term outcomes depend on the underlying cause and treatment strategy'
   }
 ]
       },
@@ -12190,82 +12230,82 @@ comparisonData: [
         description: null,
         resourcesHeading: 'Complete Physiotherepy Services',
         faqs: [
-          {
-            id: 1,
-            question: 'What is dry needling therapy?',
-            answer: 'Dry needling therapy is a physiotherapy technique that uses thin needles to target muscle trigger points, relieve tension, reduce pain, and restore normal movement and function.'
-           },
-          {
-            id: 2,
-            question: 'How does dry needling differ from acupuncture?',
-            answer: 'Unlike acupuncture, dry needling focuses on musculoskeletal pain and trigger points rather than energy pathways. It targets tight muscles to reduce pain and improve flexibility effectively.'
-          },
-          {
-            id: 3,
-            question: 'Who can benefit from dry needling therapy?',
-            answer: 'Dry needling benefits adults, athletes, and individuals with chronic pain, muscle stiffness, sports injuries, postural imbalance, or slow recovery from surgery or repetitive strain injuries.'
-          },
-          {
-            id: 4,
-            question: ' Is dry needling painful?',
-            answer: 'Dry needling may cause mild discomfort or a twitch sensation at the trigger point. Physiotherapists adjust techniques to ensure the procedure is safe, tolerable, and effective.'
-          },
-          {
-            id: 5,
-            question: 'How long does a dry needling session take?',
-            answer: 'A typical dry needling session lasts between 20 and 30 minutes, depending on the number of muscles treated, the severity of pain, and the patient’s response during therapy.'
-          },
-          {
-            id: 6,
-            question: 'How many sessions are required for results?',
-            answer: 'The number of sessions depends on pain severity and condition. Some patients notice improvement after a few sessions, while others may require a longer, customised treatment plan.'
-          },
-          {
-            id: 7,
-            question: 'Can dry needling help with sports injuries?',
-            answer: 'Yes, dry needling accelerates recovery from sports injuries by releasing muscle knots, improving blood flow, reducing inflammation, and restoring flexibility and functional movement safely.'
-          },
-          {
-            id: 8,
-            question: 'Is dry needling safe?',
-            answer: 'Yes, dry needling is safe when performed by trained physiotherapists at a DHA-licensed clinic like ramacarepolyclinic, using sterile needles and approved protocols.'
-          },
-          {
-            id: 9,
-            question: 'Are there side effects of dry needling?',
-            answer: 'Side effects are usually minimal and temporary, such as mild soreness, slight bruising, or minor fatigue in treated muscles, which typically resolve within a day or two.'
-          },
-           {
-            id: 10,
-            question: 'Can dry needling treat chronic back and neck pain?',
-            answer: 'Yes, dry needling targets muscle trigger points and tension in the back and neck, reducing pain, improving flexibility, and enhancing posture and movement.'
-          },
-           {
-            id: 11,
-            question: ' Can it improve posture and mobility?',
-            answer: 'Yes, dry needling helps release tight muscles, improve blood circulation, reduce stiffness, and enhance overall mobility, allowing better posture and ease of movement.'
-          },
-           {
-            id: 12,
-            question: 'Can children undergo dry needling therapy?',
-            answer: 'Dry needling is generally recommended for adults and adolescents with trained supervision. Pediatric patients should be evaluated individually for suitability and safety.'
-          },
-           {
-            id: 13,
-            question: 'Do I need home exercises after dry needling?',
-            answer: 'Yes, physiotherapists provide home exercises to maintain results, strengthen muscles, and prevent recurrence of muscle tightness or pain between sessions.'
-          },
-           {
-            id: 14,
-            question: 'How quickly will I see results?',
-            answer: 'Many patients notice reduced pain and improved movement within a few sessions. Complete recovery depends on condition severity, consistency, and adherence to therapy guidance.'
-          },
-           {
-            id: 15,
-            question: 'How can I book dry needling therapy in Dubai?',
-            answer: 'You can book professional Dry Needling Therapy in Dubai at ramacarepolyclinic by calling the clinic, visiting in person, or scheduling an online consultation for personalised care.'
-          }
-        ],
+  {
+    id: 1,
+    question: 'What is Dry Needling?',
+    answer: 'Dry needling is a physiotherapy technique that uses thin, sterile needles to target trigger points and tight muscles. It helps reduce pain, improve mobility, and restore normal muscle function. Dry Needling in Dubai is commonly used for musculoskeletal pain, sports injuries, and muscle tension.'
+  },
+  {
+    id: 2,
+    question: 'How Does Dry Needling Work?',
+    answer: 'Dry needling works by targeting trigger points within muscles that may be causing pain, stiffness, or restricted movement. The treatment stimulates a healing response, improves blood circulation, reduces muscle tension, and promotes better muscle function.'
+  },
+  {
+    id: 3,
+    question: 'Is Dry Needling Painful?',
+    answer: 'Most patients experience minimal discomfort during treatment. Some may feel a brief twitch response or mild soreness in the treated area. These sensations are generally temporary and often indicate that the trigger point has been effectively targeted.'
+  },
+  {
+    id: 4,
+    question: 'What Conditions Can Dry Needling Treat?',
+    answer: 'Dry Needling Therapy in Dubai may help manage neck pain, lower back pain, shoulder pain, sports injuries, muscle tightness, trigger points, tension headaches, postural pain, tendon-related conditions, and repetitive strain injuries.'
+  },
+  {
+    id: 5,
+    question: 'Is Dry Needling the Same as Acupuncture?',
+    answer: 'No. While both treatments use fine needles, dry needling is based on modern physiotherapy and focuses on treating musculoskeletal conditions, trigger points, and movement dysfunction. Acupuncture is based on traditional Chinese medicine principles.'
+  },
+  {
+    id: 6,
+    question: 'How Many Dry Needling Sessions Will I Need?',
+    answer: 'The number of sessions varies depending on the severity of your condition, symptom duration, and treatment goals. Some patients notice improvement after a few sessions, while others may benefit from a structured physiotherapy program.'
+  },
+  {
+    id: 7,
+    question: 'How Long Does a Dry Needling Session Take?',
+    answer: 'A typical dry needling session usually lasts between 20 and 30 minutes. Initial consultations may take longer because they include a comprehensive assessment and treatment planning.'
+  },
+  {
+    id: 8,
+    question: 'Is Dry Needling Safe?',
+    answer: 'When performed by qualified physiotherapists, Dry Needling Treatment in Dubai is generally considered safe. At Rama Care Polyclinic, strict hygiene and safety protocols are followed using sterile, single-use needles.'
+  },
+  {
+    id: 9,
+    question: 'Can Dry Needling Help with Back Pain?',
+    answer: 'Yes. Dry needling is commonly used to treat lower back pain caused by muscle tension, trigger points, and movement dysfunction. It is often combined with physiotherapy exercises for optimal results.'
+  },
+  {
+    id: 10,
+    question: 'Can Dry Needling Help Neck and Shoulder Pain?',
+    answer: 'Dry needling may help reduce muscle tightness and trigger points that contribute to neck pain, shoulder pain, and tension headaches. Many patients report improved comfort and mobility following treatment.'
+  },
+  {
+    id: 11,
+    question: 'Is Dry Needling Effective for Sports Injuries?',
+    answer: 'Dry Needling for Sports Injuries in Dubai is frequently used to support recovery from muscle strains, overuse injuries, and movement restrictions. It can help athletes return to training and activity more efficiently when combined with rehabilitation exercises.'
+  },
+  {
+    id: 12,
+    question: 'Are There Any Side Effects After Dry Needling?',
+    answer: 'Some patients may experience temporary soreness, mild bruising, or muscle fatigue after treatment. These effects are usually short-lived and resolve within a few days.'
+  },
+  {
+    id: 13,
+    question: 'Can Dry Needling Improve Mobility and Flexibility?',
+    answer: 'Yes. By releasing tight muscles and reducing trigger point activity, dry needling can improve flexibility, joint mobility, and overall movement quality. This can be beneficial for both athletes and individuals with sedentary lifestyles.'
+  },
+  {
+    id: 14,
+    question: 'Who Is a Good Candidate for Dry Needling Therapy?',
+    answer: 'Dry needling may be suitable for adults experiencing chronic muscle pain, sports injuries, stiffness, trigger points, postural dysfunction, or movement limitations. A physiotherapy assessment can determine whether treatment is appropriate for your condition.'
+  },
+  {
+    id: 15,
+    question: 'Why Choose Rama Care Polyclinic for Dry Needling in Dubai?',
+    answer: 'Rama Care Polyclinic offers personalised Dry Needling Therapy in Dubai delivered by experienced physiotherapists. Our patient-focused approach combines evidence-based treatment techniques, rehabilitation exercises, and long-term recovery strategies to help patients achieve lasting pain relief and improved mobility.'
+  }
+],
         resources: [
          {
             id: 1,
@@ -12302,9 +12342,109 @@ comparisonData: [
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/dry-needling-dubai/'
-          },,
+          },
+          {
+            id: 7,
+            text: 'Dry Needling & Ultrasound Combo',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/dry-needling-ultrasound-combo-dubai/'
+          },
         ]
       },
+
+      detailedContent: [
+        {
+          title: "Why Choose Rama Care Polyclinic for Dry Needling in Dubai?",
+          description: "At Rama Care Polyclinic, our experienced physiotherapists provide personalised treatment plans based on a thorough assessment of your condition and recovery goals.",
+          type: "why-choose",
+          items: [
+            "Comprehensive physiotherapy assessment",
+            "Evidence-based dry needling techniques",
+            "Personalised rehabilitation programs",
+            "Advanced pain management strategies",
+            "Focus on long-term recovery and prevention",
+            "Patient-centred care in a comfortable clinical environment"
+          ],
+          footerText: "Whether you are dealing with chronic pain, sports injuries, muscle stiffness, or movement restrictions, our Dry Needling Specialists in Dubai are committed to helping you achieve lasting relief and improved mobility."
+        },
+        {
+          title: "What Makes Our Dry Needling Process Different?",
+          description: "At Rama Care Polyclinic, we focus on treating the underlying cause of pain rather than simply managing symptoms.",
+          type: "process",
+          subtitle: "Our Patient-Centred Approach Includes:",
+          items: [
+            "Detailed physiotherapy assessments",
+            "Personalised treatment plans",
+            "Evidence-based dry needling techniques",
+            "Integrated rehabilitation programs",
+            "DHA-compliant safety protocols",
+            "Ongoing support throughout recovery",
+            "Focus on long-term pain relief and injury prevention"
+          ],
+          footerText: "By combining Dry Needling Therapy in Dubai with physiotherapy, rehabilitation exercises, and lifestyle guidance, we help patients achieve sustainable improvements in pain management, mobility, and overall physical function."
+        },
+        {
+          title: "Is Dry Needling Better Than Traditional Treatments?",
+          description: "There is no single treatment that is best for every patient. For some individuals, rest, exercise therapy, massage, or medication may be sufficient. For others, trigger points and deep muscular tension require a more targeted approach.",
+          type: "comparison",
+          subtitle: "Our physiotherapists assess each patient individually to determine whether Dry Needling Treatment in Dubai should be combined with:",
+          items: [
+            "Physiotherapy & Manual therapy",
+            "Corrective exercises",
+            "Postural rehabilitation",
+            "Sports injury rehabilitation",
+            "Strength and mobility training"
+          ],
+          footerText: "This personalised approach helps ensure the most effective treatment plan for long-term recovery."
+        },
+        {
+          title: "Why Combine Dry Needling with Physiotherapy?",
+          description: "Research and clinical experience show that dry needling often produces the best results when integrated into a comprehensive physiotherapy program.",
+          type: "checklist",
+          subtitle: "Combining treatments can help:",
+          items: [
+            "Address the root cause of pain",
+            "Improve muscle activation",
+            "Restore joint mobility",
+            "Correct movement dysfunction",
+            "Reduce injury recurrence",
+            "Support long-term recovery and performance"
+          ],
+          footerText: "At Rama Care Polyclinic, our physiotherapists use evidence-based treatment strategies to help patients achieve lasting improvements in pain relief and mobility."
+        },
+        {
+          title: "Is Dry Needling Right for You?",
+          description: "Many people live with ongoing muscle pain, stiffness, and movement limitations without realizing that trigger points may be contributing to their symptoms. If traditional approaches have provided only temporary relief, Dry Needling in Dubai may be worth considering.",
+          type: "suitability",
+          subtitle: "You may benefit from Dry Needling Therapy if you experience:",
+          items: [
+            "Chronic neck and shoulder tension",
+            "Lower back pain and muscle tightness",
+            "Sports-related muscle injuries",
+            "Recurrent muscle spasms",
+            "Limited flexibility and mobility",
+            "Tension headaches caused by muscular tightness",
+            "Postural discomfort from prolonged sitting",
+            "Muscle pain affecting work, exercise, or daily activities"
+          ],
+          footerText: "Our physiotherapists perform a detailed assessment to determine whether dry needling is appropriate for your condition. By addressing the root cause of muscular dysfunction, dry needling can help restore comfortable movement."
+        },
+        {
+          title: "Why Early Treatment Matters",
+          description: "Many people ignore muscle pain and stiffness, assuming it will resolve on its own. However, untreated trigger points can gradually affect movement, posture, and overall performance.",
+          type: "early-intervention",
+          subtitle: "Over time, persistent muscle tension may contribute to:",
+          items: [
+            "Reduced flexibility and mobility",
+            "Poor posture and movement patterns",
+            "Increased risk of sports injuries",
+            "Chronic neck and back pain",
+            "Muscle weakness and fatigue",
+            "Joint stress and compensatory movements"
+          ],
+          footerText: "Seeking professional Dry Needling Treatment in Dubai at an early stage can help prevent symptoms from becoming more severe. Early intervention allows physiotherapists to identify movement dysfunction and release trigger points before long-term complications develop."
+        }
+      ],
   
       // Patient Testimonials Section
       testimonials: {
