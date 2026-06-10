@@ -3,6 +3,7 @@ import Head from "next/head";
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import BookConsultation from '../../../components/BookConsultation';
+import DoctorsSection from '../../../components/DoctorsSection';
 import { subcategoryContent } from '../../data/subcategoryContent';
 import { 
   Activity, 
@@ -846,6 +847,8 @@ export default function BackPainTreatmentPage() {
           </div>
         </div>
       </section>
+
+      <DoctorsSection content={content?.doctors} />
 
       {/* Book Consultation Section */}
       <BookConsultation 

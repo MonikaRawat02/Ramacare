@@ -8,6 +8,7 @@
  */
 
 import { devNull } from "os";
+import { DOCTORS, DOCTOR_GROUPS } from './doctors';
 
 export const subSubcategoryContent = {
   // ============================================
@@ -40,36 +41,8 @@ export const subSubcategoryContent = {
     },
    doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -663,36 +636,8 @@ export const subSubcategoryContent = {
     },
      doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -1277,36 +1222,8 @@ rootCauses: [
     },
      doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -1925,36 +1842,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -2604,36 +2493,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -3284,36 +3145,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -3987,36 +3820,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -4713,36 +4518,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -5431,36 +5208,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -6170,36 +5919,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -6887,36 +6608,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -7576,36 +7269,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -8322,36 +7987,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -9153,36 +8790,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -9857,36 +9466,8 @@ rootCauses: [
           },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.sonita,
+          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -10485,36 +10066,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -11101,36 +10653,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -11746,36 +11269,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -12383,36 +11877,7 @@ faq: {
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -13101,36 +12566,7 @@ comparisonData: [
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -13797,36 +13233,7 @@ comparisonData: [
     },
     doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
     certifications: {
@@ -14420,36 +13827,7 @@ comparisonData: [
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -15159,36 +14537,7 @@ comparisonData: [
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -15843,36 +15192,7 @@ comparisonData: [
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -16511,36 +15831,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -17177,36 +16468,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -17848,36 +17110,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -18515,36 +17748,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -19244,36 +18448,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -19921,36 +19096,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -20623,36 +19769,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -21281,36 +20398,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-          {
-            id: 1,
-            name: 'Dr Shamna Keloth Meethal ',
-            title: ' Ayurveda Practitioner',
-            qualifications: 'Having 11 years of clinical experience.', 
-            specializations: 'General Ayurveda & Preventive Care',
-            patientsTreated: ' Successfully treated 800+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Shamna Keloth Meethal.jpeg'
-          },
-          {
-            id: 2,
-            name: 'Dr Anan',
-            title: 'General Dentist',
-            qualifications: 'Having 5 years of experience in dentistry.',
-            specializations: 'General Dentistry',
-            patientsTreated: 'Successfully treated 500+ patients.',
-            rating: '4.9/5',
-            image: '/images/Dr Anan.jpeg'
-          },
-          {
-            id: 3,
-            name: 'Jeena Mathew',
-            title: 'Physiotherapist',
-            qualifications: 'Having 8 years of clinical experience.',
-            specializations: 'Musculoskeletal Physiotherapy',
-            patientsTreated: 'Successfully treated 600+ patients.',
-            rating: '4.8/5',
-            image: '/images/Jeena Mathew.jpeg'
-          }
+         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
