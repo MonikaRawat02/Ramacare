@@ -9355,7 +9355,7 @@ rootCauses: [
           }
         ]
       },
-      paymentInsurance: {
+  paymentInsurance: {
   paymentTitle: 'Payment & Insurance',
   insuranceTitle: 'Insurance & Reimbursement Policy',
   paymentOptions: [
@@ -9414,7 +9414,7 @@ rootCauses: [
       ]
     }
   },
-  
+
   'aesthetic-dermatology-dubai-skin-treatment-dark-circle': {
         hero: {
            title: 'Dark Circles Treatment in Dubai',
@@ -9455,7 +9455,7 @@ rootCauses: [
               ' Experienced Dermatologists & Aesthetic Doctors',
               ' Clinically-Proven Dark Circle Treatments'
             ],
-            image: {
+          image: {
           src: '/images/dark.jpg',
           alt: 'Dark circle treatment performed by specialists to reduce under-eye pigmentation and refresh the appearance.'
         },
@@ -9470,6 +9470,7 @@ rootCauses: [
           DOCTORS.mahrokh,
         ]
       },
+      
       certifications: {
         title: 'Certifications & Accreditations',
         certifications: [

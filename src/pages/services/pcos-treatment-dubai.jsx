@@ -109,7 +109,7 @@ export default function PCOSTreatmentPage() {
         content={content?.benefits}
       />
        <PatientTestimonials content={content?.testimonials} />
-       <DoctorsSection content={content?.doctors} />
+       <DoctorsSection content={content?.doctors} /> 
     
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />

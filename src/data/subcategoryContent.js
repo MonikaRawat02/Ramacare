@@ -1277,19 +1277,19 @@ comparisonData: [
           },
           {
             id: 5,
-            text: ' Skin Diseases Treatment',
+            text: 'Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
-            text: ' Ayurvedic Diet Plan',
+            text: 'Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
-            text: ' Gastric Disorder Treatment',
+            text: 'Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
@@ -1298,6 +1298,54 @@ comparisonData: [
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/pcos-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Abhyanga Massage',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/abhyanga-massage-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Basti Therapy',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/basti-therapy-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Shirodhara Therapy',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/shirodhara-therapy-in-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Nasya Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/nasya-therapy-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Ayurvedic Gut Health',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ayurvedic-gut-health-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ayurvedic Detox Diet',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/ayurvedic-detox-diet-plan-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ayurvedic Diet for PCOS',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ayurvedic-diet-pcos-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Ayurvedic Diet for Thyroid',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ayurvedic-diet-thyroid-dubai/'
           }
         ]
       },
@@ -1962,19 +2010,19 @@ comparisonData: [
           },
           {
             id: 5,
-            text: ' Skin Diseases Treatment',
+            text: 'Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
-            text: ' Ayurvedic Diet Plan',
+            text: 'Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
-            text: ' Gastric Disorder Treatment',
+            text: 'Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
@@ -1983,6 +2031,54 @@ comparisonData: [
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/pcos-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Abhyanga Massage',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/abhyanga-massage-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Basti Therapy',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/basti-therapy-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Shirodhara Therapy',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/shirodhara-therapy-in-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Nasya Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/nasya-therapy-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Ayurvedic Gut Health',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ayurvedic-gut-health-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ayurvedic Detox Diet',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/ayurvedic-detox-diet-plan-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ayurvedic Diet for PCOS',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ayurvedic-diet-pcos-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Ayurvedic Diet for Thyroid',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ayurvedic-diet-thyroid-dubai/'
           }
         ]
       },
@@ -2732,19 +2828,19 @@ comparisonData: [
           },
           {
             id: 5,
-            text: ' Skin Diseases Treatment',
+            text: 'Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
-            text: ' Ayurvedic Diet Plan',
+            text: 'Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
-            text: ' Gastric Disorder Treatment',
+            text: 'Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
@@ -2753,6 +2849,54 @@ comparisonData: [
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/pcos-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Abhyanga Massage',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/abhyanga-massage-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Basti Therapy',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/basti-therapy-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Shirodhara Therapy',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/shirodhara-therapy-in-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Nasya Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/nasya-therapy-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Ayurvedic Gut Health',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ayurvedic-gut-health-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ayurvedic Detox Diet',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/ayurvedic-detox-diet-plan-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ayurvedic Diet for PCOS',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ayurvedic-diet-pcos-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Ayurvedic Diet for Thyroid',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ayurvedic-diet-thyroid-dubai/'
           }
         ]
       },
@@ -3460,19 +3604,19 @@ comparisonData: [
           },
           {
             id: 5,
-            text: ' Skin Diseases Treatment',
+            text: 'Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
-            text: ' Ayurvedic Diet Plan',
+            text: 'Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
-            text: ' Gastric Disorder Treatment',
+            text: 'Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
@@ -3481,6 +3625,54 @@ comparisonData: [
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/pcos-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Abhyanga Massage',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/abhyanga-massage-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Basti Therapy',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/basti-therapy-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Shirodhara Therapy',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/shirodhara-therapy-in-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Nasya Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/nasya-therapy-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Ayurvedic Gut Health',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ayurvedic-gut-health-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ayurvedic Detox Diet',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/ayurvedic-detox-diet-plan-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ayurvedic Diet for PCOS',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ayurvedic-diet-pcos-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Ayurvedic Diet for Thyroid',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ayurvedic-diet-thyroid-dubai/'
           }
         ]
       },
@@ -3670,36 +3862,7 @@ comparisonData: [
       title: 'Meet Our Ayurvedic Basti Therapy Specialists in Dubai',
       description: 'DHA-licensed Ayurvedic practitioners with extensive experience in authentic Basti therapies and Panchakarma detoxification treatments.',
       doctors: [
-        {
-          id: 1,
-          name: 'Dr Shamna Keloth Meethal',
-          title: 'Ayurveda Practitioner',
-          qualifications: 'Having 11 years of clinical experience.',
-          specializations: 'General Ayurveda & Preventive Care',
-          patientsTreated: 'Successfully treated 800+ patients.',
-          rating: '4.9/5',
-          image: '/images/Dr Shamna Keloth Meethal.jpeg'
-        },
-        {
-          id: 2,
-          name: 'Dr Anan',
-          title: 'General Dentist',
-          qualifications: 'Having 5 years of experience in dentistry.',
-          specializations: 'General Dentistry',
-          patientsTreated: 'Successfully treated 500+ patients.',
-          rating: '4.9/5',
-          image: '/images/Dr Anan.jpeg'
-        },
-        {
-          id: 3,
-          name: 'Jeena Mathew',
-          title: 'Physiotherapist',
-          qualifications: 'Having 8 years of clinical experience.',
-          specializations: 'Musculoskeletal Physiotherapy',
-          patientsTreated: 'Successfully treated 600+ patients.',
-          rating: '4.8/5',
-          image: '/images/Jeena Mathew.jpeg'
-        }
+        DOCTORS.shamna, DOCTORS.syamkumar
       ]
     },
     certifications: {
@@ -4710,15 +4873,19 @@ rootCauses: [
         }
       ]
     },
-   
-    doctors: {
+   doctors: {
+      badge: 'Ayurvedic Expertise',
       title: 'Meet Our Ayurvedic Specialists',
-      description: 'Our experienced Ayurvedic doctors are committed to providing personalized care and effective treatments.'
+      description: 'Our experienced Ayurvedic doctors are committed to providing personalized care and effective treatments.',
+      doctors: [
+        DOCTORS.shamna, DOCTORS.syamkumar
+      ]
     },
     paymentInsurance: {
       title: 'Payment & Insurance',
       description: 'We accept various payment methods and work with insurance providers to make your treatment accessible.'
     },
+
     faq: {
   title: 'Frequently Asked Questions About Nasya Therapy in Dubai',
   description: 'Personalized Ayurvedic Nasya Therapy & Wellness Support',
@@ -5208,16 +5375,7 @@ comparisonData: [
       title: 'Meet Our Shirodhara Therapy Specialists in Dubai',
       description: 'DHA-licensed Ayurvedic practitioners with extensive experience in Shirodhara and mind-healing therapies.',
       doctors: [
-        {
-          id: 1,
-          name: 'Dr Shamna Keloth Meethal ',
-          title: 'Ayurveda Practitioner',
-          qualifications: 'Having 11 years of clinical experience.',
-          specializations: 'General Ayurveda & Preventive Care',
-          patientsTreated: 'Successfully treated 800+ patients.',
-          rating: '4.9/5',
-          image: '/images/Dr Shamna Keloth Meethal.jpeg'
-        }
+        DOCTORS.shamna, DOCTORS.syamkumar
       ]
     },
     scientificExplanation: {
@@ -5734,16 +5892,7 @@ comparisonData: [
       title: 'Meet Our Abhyanga Massage Specialists in Dubai',
       description: 'DHA-licensed Ayurvedic practitioners with extensive experience in Abhyanga and relaxation therapies.',
       doctors: [
-        {
-          id: 1,
-          name: 'Dr Shamna Keloth Meethal ',
-          title: 'Ayurveda Practitioner',
-          qualifications: 'Having 11 years of clinical experience.',
-          specializations: 'General Ayurveda & Preventive Care',
-          patientsTreated: 'Successfully treated 800+ patients.',
-          rating: '4.9/5',
-          image: '/images/Dr Shamna Keloth Meethal.jpeg'
-        }
+       DOCTORS.shamna, DOCTORS.syamkumar
       ]
     },
     costResults: {
@@ -6525,19 +6674,19 @@ comparisonData: [
           },
           {
             id: 5,
-            text: ' Skin Diseases Treatment',
+            text: 'Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
-            text: ' Ayurvedic Diet Plan',
+            text: 'Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
-            text: ' Gastric Disorder Treatment',
+            text: 'Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
@@ -6546,6 +6695,54 @@ comparisonData: [
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/pcos-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Abhyanga Massage',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/abhyanga-massage-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Basti Therapy',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/basti-therapy-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Shirodhara Therapy',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/shirodhara-therapy-in-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Nasya Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/nasya-therapy-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Ayurvedic Gut Health',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ayurvedic-gut-health-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ayurvedic Detox Diet',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/ayurvedic-detox-diet-plan-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ayurvedic Diet for PCOS',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ayurvedic-diet-pcos-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Ayurvedic Diet for Thyroid',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ayurvedic-diet-thyroid-dubai/'
           }
       ]
     },
@@ -7240,19 +7437,19 @@ comparisonData: [
           },
           {
             id: 5,
-            text: ' Skin Diseases Treatment',
+            text: 'Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
-            text: ' Ayurvedic Diet Plan',
+            text: 'Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
-            text: ' Gastric Disorder Treatment',
+            text: 'Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
@@ -7261,6 +7458,54 @@ comparisonData: [
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/pcos-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Abhyanga Massage',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/abhyanga-massage-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Basti Therapy',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/basti-therapy-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Shirodhara Therapy',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/shirodhara-therapy-in-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Nasya Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/nasya-therapy-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Ayurvedic Gut Health',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ayurvedic-gut-health-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ayurvedic Detox Diet',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/ayurvedic-detox-diet-plan-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ayurvedic Diet for PCOS',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ayurvedic-diet-pcos-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Ayurvedic Diet for Thyroid',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ayurvedic-diet-thyroid-dubai/'
           }
       ]
     },
@@ -7940,19 +8185,19 @@ comparisonData: [
           },
           {
             id: 5,
-            text: ' Skin Diseases Treatment',
+            text: 'Skin Diseases Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/skin-diseases-treatment/'
           },
           {
             id: 6,
-            text: ' Ayurvedic Diet Plan',
+            text: 'Ayurvedic Diet Plan',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/ayurvedic-diet-plan-dubai/'
           },
           {
             id: 7,
-            text: ' Gastric Disorder Treatment',
+            text: 'Gastric Disorder Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/gastrointestinal-diseases-treatment-dubai/'
           },
@@ -7961,6 +8206,54 @@ comparisonData: [
             text: 'PCOS Treatment',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/pcos-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Abhyanga Massage',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/abhyanga-massage-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Basti Therapy',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/basti-therapy-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Shirodhara Therapy',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/shirodhara-therapy-in-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Nasya Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/nasya-therapy-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Ayurvedic Gut Health',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ayurvedic-gut-health-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ayurvedic Detox Diet',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/ayurvedic-detox-diet-plan-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ayurvedic Diet for PCOS',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ayurvedic-diet-pcos-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Ayurvedic Diet for Thyroid',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ayurvedic-diet-thyroid-dubai/'
           },
       ]
     },
@@ -8661,7 +8954,7 @@ comparisonData: [
       resources: [
          {
             id: 1,
-            text: 'Ultrasound Therepy',
+            text: 'Ultrasound Therapy',
             bgColor: 'bg-[#ECFDF5]',
             link: '/services/ultrasound-therapy-dubai/'
           },
@@ -8695,6 +8988,96 @@ comparisonData: [
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/dry-needling-dubai/'
           },
+          {
+            id: 7,
+            text: 'Dry Needling & Ultrasound Combo',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/dry-needling-ultrasound-combo-dubai/'
+          },
+          {
+            id: 8,
+            text: 'Back Pain Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/back-pain-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Knee Pain Treatment',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/knee-pain-treatment-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Migraine Treatment',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/migraine-treatment-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Post Surgery Recovery',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/post-surgery-recovery-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Office Neck Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/office-neck-treatment-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Physiotherapy Insurance',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/physiotherapy-insurance-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ultrasound vs Laser Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-vs-laser-therapy-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ultrasound vs Shockwave Therapy',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ultrasound-vs-shockwave-therapy-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Thermal vs Mechanical Ultrasound',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/thermal-vs-mechanical-ultrasound-therapy-dubai/'
+          },
+          {
+            id: 17,
+            text: 'Ultrasound Therapy Cost',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ultrasound-therapy-cost-dubai/'
+          },
+          {
+            id: 18,
+            text: 'Ultrasound Therapy Safety',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-therapy-safety-dubai/'
+          },
+          {
+            id: 19,
+            text: 'Professional vs Home Ultrasound',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/professional-vs-home-ultrasound/'
+          },
+          {
+            id: 20,
+            text: 'How Many Ultrasound Sessions',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/how-many-ultrasound-therapy-sessions/'
+          },
+          {
+            id: 21,
+            text: '1MHz vs 3MHz Ultrasound Science',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/1mhz-vs-3mhz-ultrasound-therapy-science/'
+          }
       ]
     },
 
@@ -9451,7 +9834,7 @@ comparisonData: [
       resources: [
           {
             id: 1,
-            text: 'Ultrasound Therepy',
+            text: 'Ultrasound Therapy',
             bgColor: 'bg-[#ECFDF5]',
             link: '/services/ultrasound-therapy-dubai/'
           },
@@ -9485,6 +9868,96 @@ comparisonData: [
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/dry-needling-dubai/'
           },
+          {
+            id: 7,
+            text: 'Dry Needling & Ultrasound Combo',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/dry-needling-ultrasound-combo-dubai/'
+          },
+          {
+            id: 8,
+            text: 'Back Pain Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/back-pain-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Knee Pain Treatment',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/knee-pain-treatment-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Migraine Treatment',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/migraine-treatment-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Post Surgery Recovery',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/post-surgery-recovery-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Office Neck Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/office-neck-treatment-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Physiotherapy Insurance',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/physiotherapy-insurance-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ultrasound vs Laser Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-vs-laser-therapy-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ultrasound vs Shockwave Therapy',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ultrasound-vs-shockwave-therapy-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Thermal vs Mechanical Ultrasound',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/thermal-vs-mechanical-ultrasound-therapy-dubai/'
+          },
+          {
+            id: 17,
+            text: 'Ultrasound Therapy Cost',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ultrasound-therapy-cost-dubai/'
+          },
+          {
+            id: 18,
+            text: 'Ultrasound Therapy Safety',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-therapy-safety-dubai/'
+          },
+          {
+            id: 19,
+            text: 'Professional vs Home Ultrasound',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/professional-vs-home-ultrasound/'
+          },
+          {
+            id: 20,
+            text: 'How Many Ultrasound Sessions',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/how-many-ultrasound-therapy-sessions/'
+          },
+          {
+            id: 21,
+            text: '1MHz vs 3MHz Ultrasound Science',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/1mhz-vs-3mhz-ultrasound-therapy-science/'
+          }
       ]
     },
 
@@ -10177,9 +10650,9 @@ comparisonData: [
           }
         ],
         resources: [
-            {
+           {
             id: 1,
-            text: 'Ultrasound Therepy',
+            text: 'Ultrasound Therapy',
             bgColor: 'bg-[#ECFDF5]',
             link: '/services/ultrasound-therapy-dubai/'
           },
@@ -10212,7 +10685,97 @@ comparisonData: [
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/dry-needling-dubai/'
-          },,
+          },
+          {
+            id: 7,
+            text: 'Dry Needling & Ultrasound Combo',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/dry-needling-ultrasound-combo-dubai/'
+          },
+          {
+            id: 8,
+            text: 'Back Pain Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/back-pain-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Knee Pain Treatment',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/knee-pain-treatment-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Migraine Treatment',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/migraine-treatment-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Post Surgery Recovery',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/post-surgery-recovery-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Office Neck Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/office-neck-treatment-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Physiotherapy Insurance',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/physiotherapy-insurance-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ultrasound vs Laser Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-vs-laser-therapy-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ultrasound vs Shockwave Therapy',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ultrasound-vs-shockwave-therapy-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Thermal vs Mechanical Ultrasound',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/thermal-vs-mechanical-ultrasound-therapy-dubai/'
+          },
+          {
+            id: 17,
+            text: 'Ultrasound Therapy Cost',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ultrasound-therapy-cost-dubai/'
+          },
+          {
+            id: 18,
+            text: 'Ultrasound Therapy Safety',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-therapy-safety-dubai/'
+          },
+          {
+            id: 19,
+            text: 'Professional vs Home Ultrasound',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/professional-vs-home-ultrasound/'
+          },
+          {
+            id: 20,
+            text: 'How Many Ultrasound Sessions',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/how-many-ultrasound-therapy-sessions/'
+          },
+          {
+            id: 21,
+            text: '1MHz vs 3MHz Ultrasound Science',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/1mhz-vs-3mhz-ultrasound-therapy-science/'
+          }
         ]
       },
   
@@ -10860,9 +11423,9 @@ comparisonData: [
           }
         ],
         resources: [
-           {
+          {
             id: 1,
-            text: 'Ultrasound Therepy',
+            text: 'Ultrasound Therapy',
             bgColor: 'bg-[#ECFDF5]',
             link: '/services/ultrasound-therapy-dubai/'
           },
@@ -10895,7 +11458,97 @@ comparisonData: [
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/dry-needling-dubai/'
-          },,
+          },
+          {
+            id: 7,
+            text: 'Dry Needling & Ultrasound Combo',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/dry-needling-ultrasound-combo-dubai/'
+          },
+          {
+            id: 8,
+            text: 'Back Pain Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/back-pain-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Knee Pain Treatment',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/knee-pain-treatment-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Migraine Treatment',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/migraine-treatment-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Post Surgery Recovery',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/post-surgery-recovery-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Office Neck Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/office-neck-treatment-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Physiotherapy Insurance',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/physiotherapy-insurance-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ultrasound vs Laser Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-vs-laser-therapy-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ultrasound vs Shockwave Therapy',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ultrasound-vs-shockwave-therapy-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Thermal vs Mechanical Ultrasound',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/thermal-vs-mechanical-ultrasound-therapy-dubai/'
+          },
+          {
+            id: 17,
+            text: 'Ultrasound Therapy Cost',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ultrasound-therapy-cost-dubai/'
+          },
+          {
+            id: 18,
+            text: 'Ultrasound Therapy Safety',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-therapy-safety-dubai/'
+          },
+          {
+            id: 19,
+            text: 'Professional vs Home Ultrasound',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/professional-vs-home-ultrasound/'
+          },
+          {
+            id: 20,
+            text: 'How Many Ultrasound Sessions',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/how-many-ultrasound-therapy-sessions/'
+          },
+          {
+            id: 21,
+            text: '1MHz vs 3MHz Ultrasound Science',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/1mhz-vs-3mhz-ultrasound-therapy-science/'
+          },
         ]
       },
   
@@ -11571,9 +12224,9 @@ comparisonData: [
           }
         ],
         resources: [
-           {
+          {
             id: 1,
-            text: 'Ultrasound Therepy',
+            text: 'Ultrasound Therapy',
             bgColor: 'bg-[#ECFDF5]',
             link: '/services/ultrasound-therapy-dubai/'
           },
@@ -11606,7 +12259,97 @@ comparisonData: [
             text: 'Dry Needling Therapy',
             bgColor: 'bg-[#F5F3FF]',
             link: '/services/dry-needling-dubai/'
-          },,
+          },
+          {
+            id: 7,
+            text: 'Dry Needling & Ultrasound Combo',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/dry-needling-ultrasound-combo-dubai/'
+          },
+          {
+            id: 8,
+            text: 'Back Pain Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/back-pain-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Knee Pain Treatment',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/knee-pain-treatment-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Migraine Treatment',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/migraine-treatment-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Post Surgery Recovery',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/post-surgery-recovery-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Office Neck Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/office-neck-treatment-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Physiotherapy Insurance',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/physiotherapy-insurance-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ultrasound vs Laser Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-vs-laser-therapy-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ultrasound vs Shockwave Therapy',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ultrasound-vs-shockwave-therapy-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Thermal vs Mechanical Ultrasound',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/thermal-vs-mechanical-ultrasound-therapy-dubai/'
+          },
+          {
+            id: 17,
+            text: 'Ultrasound Therapy Cost',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ultrasound-therapy-cost-dubai/'
+          },
+          {
+            id: 18,
+            text: 'Ultrasound Therapy Safety',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-therapy-safety-dubai/'
+          },
+          {
+            id: 19,
+            text: 'Professional vs Home Ultrasound',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/professional-vs-home-ultrasound/'
+          },
+          {
+            id: 20,
+            text: 'How Many Ultrasound Sessions',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/how-many-ultrasound-therapy-sessions/'
+          },
+          {
+            id: 21,
+            text: '1MHz vs 3MHz Ultrasound Science',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/1mhz-vs-3mhz-ultrasound-therapy-science/'
+          },
         ]
       },
   
@@ -12307,9 +13050,9 @@ comparisonData: [
   }
 ],
         resources: [
-         {
+        {
             id: 1,
-            text: 'Ultrasound Therepy',
+            text: 'Ultrasound Therapy',
             bgColor: 'bg-[#ECFDF5]',
             link: '/services/ultrasound-therapy-dubai/'
           },
@@ -12346,9 +13089,93 @@ comparisonData: [
           {
             id: 7,
             text: 'Dry Needling & Ultrasound Combo',
-            bgColor: 'bg-[#F5F3FF]',
+            bgColor: 'bg-[#ECFDF5]',
             link: '/services/dry-needling-ultrasound-combo-dubai/'
           },
+          {
+            id: 8,
+            text: 'Back Pain Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/back-pain-treatment-dubai/'
+          },
+          {
+            id: 9,
+            text: 'Knee Pain Treatment',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/knee-pain-treatment-dubai/'
+          },
+          {
+            id: 10,
+            text: 'Migraine Treatment',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/migraine-treatment-dubai/'
+          },
+          {
+            id: 11,
+            text: 'Post Surgery Recovery',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/post-surgery-recovery-dubai/'
+          },
+          {
+            id: 12,
+            text: 'Office Neck Treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/office-neck-treatment-dubai/'
+          },
+          {
+            id: 13,
+            text: 'Physiotherapy Insurance',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/physiotherapy-insurance-dubai/'
+          },
+          {
+            id: 14,
+            text: 'Ultrasound vs Laser Therapy',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-vs-laser-therapy-dubai/'
+          },
+          {
+            id: 15,
+            text: 'Ultrasound vs Shockwave Therapy',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/ultrasound-vs-shockwave-therapy-dubai/'
+          },
+          {
+            id: 16,
+            text: 'Thermal vs Mechanical Ultrasound',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/thermal-vs-mechanical-ultrasound-therapy-dubai/'
+          },
+          {
+            id: 17,
+            text: 'Ultrasound Therapy Cost',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/ultrasound-therapy-cost-dubai/'
+          },
+          {
+            id: 18,
+            text: 'Ultrasound Therapy Safety',
+            bgColor: 'bg-[#F5F3FF]',
+            link: '/services/ultrasound-therapy-safety-dubai/'
+          },
+          {
+            id: 19,
+            text: 'Professional vs Home Ultrasound',
+            bgColor: 'bg-[#ECFDF5]',
+            link: '/services/professional-vs-home-ultrasound/'
+          },
+          {
+            id: 20,
+            text: 'How Many Ultrasound Sessions',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/how-many-ultrasound-therapy-sessions/'
+          },
+          {
+            id: 21,
+            text: '1MHz vs 3MHz Ultrasound Science',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/1mhz-vs-3mhz-ultrasound-therapy-science/'
+          }
         ]
       },
 

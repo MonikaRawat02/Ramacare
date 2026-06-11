@@ -71,7 +71,22 @@ const Header = () => {
         { name: 'Ayurvedic Diet Plan', slug: 'ayurvedic-diet-plan-dubai' },
         { name: 'Panchakarma Treatment', slug: 'panchakarma-treatment' },
         { name: 'Gastrointestinal Diseases Treatment', slug: 'gastrointestinal-diseases-treatment-dubai' },
-        { name: 'PCOS Treatment', slug: 'pcos-treatment-dubai' }
+        { name: 'PCOS Treatment', slug: 'pcos-treatment-dubai' },
+        { name: 'Abhyanga Massage', slug: 'abhyanga-massage-dubai' },
+        { name: 'Basti Therapy', slug: 'basti-therapy-dubai' },
+        { name: 'Shirodhara Therapy', slug: 'shirodhara-therapy-in-dubai' },
+        { name: 'Nasya Therapy', slug: 'nasya-therapy-dubai' },
+        { name: 'Ayurvedic Gut Health', slug: 'ayurvedic-gut-health-dubai' },
+        { name: 'Ayurvedic Detox Diet Plan', slug: 'ayurvedic-detox-diet-plan-dubai' },
+        { name: 'Ayurvedic Diet for Skin & Hair', slug: 'ayurvedic-diet-skin-hair-dubai' },
+        { name: 'Ayurvedic Diet vs Intermittent Fasting', slug: 'ayurvedic-diet-vs-intermittent-fasting-dubai' },
+        { name: 'Ayurvedic Diet vs Keto', slug: 'ayurvedic-diet-vs-keto-dubai' },
+        { name: 'Ayurvedic Diet for PCOS', slug: 'ayurvedic-diet-pcos-dubai' },
+        { name: 'Ayurvedic Diet for Diabetes', slug: 'ayurvedic-diet-diabetes-dubai' },
+        { name: 'Ayurvedic Diet Plan for Busy Professionals', slug: 'ayurvedic-diet-plan-busy-professionals-dubai' },
+        { name: 'Ayurvedic Diet for Weight Loss', slug: 'ayurvedic-diet-weight-loss-dubai' },
+        { name: 'Ayurvedic Diet for Dubai Summer', slug: 'ayurvedic-diet-dubai-summer' },
+        { name: 'Ayurvedic Diet for Thyroid', slug: 'ayurvedic-diet-thyroid-dubai' }
       ],
       icon: Leaf
     },
@@ -290,8 +305,7 @@ const Header = () => {
                 return (
                   <div key={index} className="relative flex-shrink-0" 
                     onMouseEnter={() => handleDropdownEnter(index)} 
-                    onMouseLeave={handleDropdownLeave}
-                  >
+                    onMouseLeave={handleDropdownLeave}>
                     <div 
                       className="flex items-center cursor-pointer"
                       onClick={() => setOpenDropdown(openDropdown === index ? null : index)}
@@ -311,15 +325,14 @@ const Header = () => {
                         className="absolute top-full left-0 mt-2 w-64" 
                         style={{ zIndex: 9999 }}
                         onMouseEnter={() => handleDropdownEnter(index)}
-                        onMouseLeave={handleDropdownLeave}
-                      >
+                        onMouseLeave={handleDropdownLeave}>
                         <div className="bg-white rounded-lg shadow-2xl border border-gray-200 py-2 dropdown-animate">
                           <div className="px-4 py-3 border-b border-gray-100 bg-gray-50">
                             <div className="flex items-center gap-2">
                               <span className="text-sm font-semibold text-gray-900">{category.name}</span>
                             </div>
                           </div>
-                          <div className="max-h-[400px] overflow-y-auto py-1">
+                          <div className="max-h-[400px] overflow-y-auto py-1 dropdown-scroll">
                             {category.subcategories.map((subcategory, subIndex) => (
                               <Link 
                                 key={subIndex} 
@@ -375,7 +388,7 @@ const Header = () => {
             <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setIsMenuOpen(false)}></div>
             
             {/* Slide-out Menu */}
-            <div className="absolute right-0 top-0 h-full w-80 max-w-[85vw] bg-white shadow-2xl overflow-y-auto">
+            <div className="absolute right-0 top-0 h-full w-80 max-w-[85vw] bg-white shadow-2xl overflow-y-auto scrollbar-hide">
               {/* Menu Header */}
               <div className="sticky top-0 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between z-10">
                 <div className="flex items-center space-x-2">
@@ -419,7 +432,7 @@ const Header = () => {
                         </div>
                         
                         {openMobileDropdown === index && (
-                          <div className="ml-10 mt-1 space-y-0.5 pb-2">
+                          <div className="ml-10 mt-1 space-y-0.5 pb-2 max-h-[300px] overflow-y-auto dropdown-scroll">
                             {category.subcategories.map((subcategory, subIndex) => (
                               <Link 
                                 key={subIndex} 
