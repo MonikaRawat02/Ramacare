@@ -6,6 +6,7 @@ import QuickNavigation from '../../../components/QuickNavigation';
 import TreatmentOverview from '../../../components/TreatmentOverview';
 import HealingJourney from '../../../components/HealingJourney';
 import TreatmentBenefits from '../../../components/TreatmentBenefits';
+import ServiceWhyChoose from '../../../components/ServiceWhyChoose';
 import PatientTestimonials from '../../../components/VideoTestimonials';
 import DoctorsSection from '../../../components/DoctorsSection';
 // import PricingPackages from '../../../components/PricingPackages';
@@ -22,13 +23,23 @@ export default function ElectrotherapyPage() {
   // Get content from data file
   const content = getSubcategoryContent('physiotherapy-dubai', 'electrotherapy');
 
+  const navItems = [
+    { id: 'treatment-info', label: 'Treatment Info' },
+    { id: 'how-it-works', label: 'How It Works' },
+    { id: 'benefits', label: 'Benefits' },
+    { id: 'why-choose-us', label: 'Why Choose Us' },
+    { id: 'testimonials', label: 'Success Stories' },
+    { id: 'our-doctors', label: 'Our Doctors' },
+    { id: 'faq', label: 'FAQ' },
+    { id: 'book-now', label: 'Book Now' },
+  ];
+
   return (
     <Layout>
       <Head>
   <title key="title">Electrotherapy in Dubai for Pain Relief and Physiotherapy</title>
   <meta name="description" content="Electrotherapy in Dubai offers safe physiotherapy treatment for pain relief, muscle stimulation, and faster recovery using TENS, IFC, and NMES under expert care." key="description" />
   <meta name="keywords" content="Electrotherapy in Dubai, Electrotherapy treatment Dubai, Physiotherapy electrotherapy, TENS therapy Dubai, IFC therapy Dubai, NMES therapy Dubai, Pain relief physiotherapy Dubai, Muscle stimulation therapy, Electrotherapy physiotherapy clinic, Rehabilitation therapy Dubai" />
-  
    <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
@@ -78,26 +89,24 @@ export default function ElectrotherapyPage() {
   }}
 />
 </Head>
-
       <TreatmentHero 
         categoryName={categoryName}
         subcategoryName={subcategoryName}
         hero={content?.hero}
       />
-     <QuickNavigation />
-    
-    <TreatmentOverview 
+      <QuickNavigation navItems={navItems} />
+      <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
-    />
+      />
       <HealingJourney content={content?.healingJourney} />
       <TreatmentBenefits 
         content={content?.benefits}
       />
-       <PatientTestimonials content={content?.testimonials} />
-       <DoctorsSection content={content?.doctors} />
-    
-    <PaymentInsurance content={content?.paymentInsurance} />
+      <ServiceWhyChoose content={content?.whyChoose} />
+      <PatientTestimonials content={content?.testimonials} />
+      <DoctorsSection content={content?.doctors} />
+      <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />
     </Layout>

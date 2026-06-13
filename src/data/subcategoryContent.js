@@ -8400,8 +8400,8 @@ comparisonData: [
         },
         {
           id: 2,
-          number: '6000+',
-          label: 'Hair Sessions Performed'
+          number: '2,500+',
+          label: 'Physiotherapy Sessions Performed'
         },
         {
           id: 3,
@@ -8431,7 +8431,7 @@ comparisonData: [
           alt: 'Physiotherapist performing ultrasound therapy treatment in Dubai clinic.'
         },
       medicalNotice: {
-        text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual body constitution, hair condition, and adherence to the treatment plan. All Ayurvedic treatments are provided at a DHA-licensed clinic using approved herbal formulations and protocols.',
+        text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on the patient\'s condition, severity of symptoms, overall health status, and adherence to the prescribed physiotherapy plan. All treatments are performed by DHA-licensed physiotherapists using approved rehabilitation protocols.',
         show: true
       }
     },
@@ -8713,7 +8713,7 @@ comparisonData: [
  benefits: {
   title: 'Clinically Observed Results of Ultrasound Therapy in Dubai',
   description:
-    'With 15+ years of physiotherapy and rehabilitation experience and 2,500+ successfully treated cases, RamaCare Polyclinic provides evidence-based ultrasound therapy in Dubai designed to reduce pain, improve mobility, accelerate tissue healing, and support long-term musculoskeletal recovery.',
+    'With 15+ years of physiotherapy and rehabilitation experience and 2,500+ Physiotherapy Patients Treated Since 2008., RamaCare Polyclinic provides evidence-based ultrasound therapy in Dubai designed to reduce pain, improve mobility, accelerate tissue healing, and support long-term musculoskeletal recovery.',
   benefits: [
     {
       id: 1,
@@ -8887,7 +8887,7 @@ comparisonData: [
     // FAQ Section
     faq: {
       title: 'Frequently Asked Questions About Ultrasound Therapy in Dubai',
-      description: null,
+      description: 'Expert answers about Ultrasound Therapy and physiotherapy treatment in Dubai.',
       resourcesHeading: 'Complete Physiotherepy Services',
      faqs: [
   {
@@ -9084,7 +9084,7 @@ comparisonData: [
     // Patient Testimonials Section
     testimonials: {
       title: 'Real Success Stories from Dubai Patients',
-      subtitle: 'Verified testimonials from patients who experienced natural hair restoration',
+      subtitle: 'Verified testimonials from patients who experienced pain relief, improved mobility, and successful rehabilitation outcomes.',
        testimonials: [
           {
       id: 1,
@@ -9230,8 +9230,8 @@ comparisonData: [
         },
         {
           id: 2,
-          number: '6000+',
-          label: 'Electrotherapy Performed'
+          number: '2,500+ ',
+          label: 'Patients Treated Since 2008.'
         },
         {
           id: 3,
@@ -9261,7 +9261,7 @@ comparisonData: [
           alt: 'Electrotherapy treatment using electrical stimulation to relieve pain, improve muscle function, and support rehabilitation.'
         },
       medicalNotice: {
-        text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual body constitution, hair condition, and adherence to the treatment plan. All Ayurvedic treatments are provided at a DHA-licensed clinic using approved herbal formulations and protocols.',
+        text: 'Safety & Medical Disclaimer: Treatment outcomes and recovery timelines may vary depending on the patient\'s condition, severity of symptoms, overall health status, and adherence to the prescribed physiotherapy plan. All electrotherapy treatments are performed by DHA-licensed physiotherapists using approved rehabilitation protocols and professional clinical standards.',
         show: true
       }
     },
@@ -9504,6 +9504,48 @@ comparisonData: [
   }
 ]
     },
+    whyChoose: {
+        title: 'Why Patients Choose RamaCare for Electrotherapy in Dubai',
+        intro: 'Choosing the right physiotherapy clinic is an important part of your recovery journey. At RamaCare Polyclinic, we understand that living with pain, muscle stiffness, or reduced mobility can affect your work, sleep, physical activity, and overall quality of life. Our goal is to help you recover safely while restoring confidence in your movement and daily routine.\n\nOur DHA-licensed physiotherapists take the time to understand your symptoms, medical history, and rehabilitation goals before recommending treatment. Rather than applying a one-size-fits-all approach, we create personalized electrotherapy programs tailored to your specific condition and recovery needs.\n\nUsing advanced electrotherapy technology and evidence-based rehabilitation techniques, we focus on reducing pain, improving muscle function, supporting tissue healing, and enhancing long-term mobility. Throughout your treatment journey, our team monitors your progress closely and adjusts your rehabilitation plan to help you achieve the best possible outcomes.',
+        features: [
+          {
+            id: 1,
+            title: 'Comprehensive physiotherapy assessments to identify the underlying cause of pain and dysfunction.',
+            description: ''
+          },
+          {
+            id: 2,
+            title: 'Personalised electrotherapy treatment plans designed around your lifestyle and recovery goals.',
+            description: ''
+          },
+          {
+            id: 3,
+            title: 'DHA-licensed physiotherapists experienced in musculoskeletal rehabilitation and pain management.',
+            description: ''
+          },
+          {
+            id: 4,
+            title: 'Modern electrotherapy equipment used according to established clinical protocols.',
+            description: ''
+          },
+          {
+            id: 5,
+            title: 'Guidance on home exercises, posture correction, and self-care strategies to support lasting results.',
+            description: ''
+          },
+          {
+            id: 6,
+            title: 'Ongoing progress monitoring and treatment modifications when needed.',
+            description: ''
+          },
+          {
+            id: 7,
+            title: 'A professional, respectful, and patient-focused environment where your comfort and well-being remain our priority.',
+            description: ''
+          }
+        ],
+        closingParagraph: 'Whether you are recovering from a sports injury, managing chronic pain, or seeking to improve mobility after surgery, our team is committed to supporting you at every stage of your rehabilitation journey. Early treatment and the right guidance can often lead to faster recovery, improved function, and a better quality of life.'
+    },
 
     // Healing Journey / Process Section
   healingJourney: {
@@ -9578,7 +9620,7 @@ comparisonData: [
 benefits: {
   title: 'Clinically Observed Results of Electrotherapy in Dubai',
   description:
-    'With 15+ years of physiotherapy and rehabilitation experience and 2,500+ successfully treated cases, RamaCare Polyclinic provides evidence-based electrotherapy in Dubai designed to reduce pain, improve muscle function, stimulate nerve activity, and support long-term recovery. Our DHA-licensed physiotherapists use advanced electrotherapy techniques to deliver safe, non-invasive, and personalized rehabilitation care for a wide range of musculoskeletal and nerve-related conditions.',
+    'With 15+ years of physiotherapy and rehabilitation experience and 2,500+ Physiotherapy Patients Treated Since 2008, RamaCare Polyclinic provides evidence-based electrotherapy in Dubai designed to reduce pain, improve muscle function, stimulate nerve activity, and support long-term recovery. Our DHA-licensed physiotherapists use advanced electrotherapy techniques to deliver safe, non-invasive, and personalized rehabilitation care for a wide range of musculoskeletal and nerve-related conditions.',
  benefits: [
   {
     id: 1,
@@ -9752,7 +9794,7 @@ comparisonData: [
     // FAQ Section
       faq: {
       title: 'Frequently Asked Questions About Electrotherapy in Dubai',
-      description: null,
+      description: 'Expert answers about Electrotherapy in Dubai, pain management, rehabilitation, and physiotherapy treatment.',
       resourcesHeading: 'Complete Physiotherepy Services',
       faqs: [
         {
@@ -9964,7 +10006,7 @@ comparisonData: [
     // Patient Testimonials Section
     testimonials: {
       title: 'Real Success Stories from Dubai Patients',
-      subtitle: 'Verified testimonials from patients who experienced natural hair restoration',
+      subtitle: 'Verified testimonials from patients who experienced pain relief, improved mobility, and successful rehabilitation outcomes through personalized physiotherapy care.',
       testimonials: [
           {
       id: 1,
@@ -10137,7 +10179,7 @@ comparisonData: [
           alt: 'Pelvic Floor Therapy in Dubai is provided by specialists to strengthen pelvic muscles and improve bladder and core health.'
         },
         medicalNotice: {
-          text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual body constitution, hair condition, and adherence to the treatment plan. All Ayurvedic treatments are provided at a DHA-licensed clinic using approved herbal formulations and protocols.',
+          text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual body constitution, hair condition, and adherence to the treatment plan. All Pelvic Floor Therapy treatments are provided at a DHA-licensed clinic using approved herbal formulations and protocols.',
           show: true
         }
       },
@@ -10344,6 +10386,48 @@ comparisonData: [
   }
 ]
       },
+      whyChoose: {
+        title: 'Why Patients Choose RamaCare for Pelvic Floor Therapy in Dubai',
+        intro: 'Seeking help for pelvic floor concerns can feel overwhelming, and many people delay treatment due to embarrassment or uncertainty about where to begin. At RamaCare Polyclinic, we provide a supportive, respectful, and confidential environment where patients can discuss sensitive health concerns with confidence and receive the care they deserve.\n\nOur DHA-licensed physiotherapists understand that pelvic floor dysfunction affects every individual differently. Whether you are recovering after childbirth, managing urinary incontinence, experiencing pelvic pain, or undergoing rehabilitation after pelvic surgery, we take the time to understand your symptoms, lifestyle, and treatment goals before creating a personalised therapy plan.\n\nUsing evidence-based pelvic rehabilitation techniques, we focus on improving muscle strength, coordination, bladder and bowel control, core stability, and overall quality of life. Every treatment plan is tailored to your needs, and your progress is monitored closely to ensure the most effective and comfortable recovery experience possible.',
+        features: [
+          {
+            id: 1,
+            title: 'Confidential and compassionate care delivered with professionalism and respect.',
+            description: ''
+          },
+          {
+            id: 2,
+            title: 'Comprehensive assessments to identify the underlying cause of pelvic floor dysfunction.',
+            description: ''
+          },
+          {
+            id: 3,
+            title: 'Personalised treatment plans designed around your symptoms, lifestyle, and recovery goals.',
+            description: ''
+          },
+          {
+            id: 4,
+            title: 'DHA-licensed physiotherapists experienced in women’s and men’s pelvic health rehabilitation.',
+            description: ''
+          },
+          {
+            id: 5,
+            title: 'Guidance on home exercises, breathing techniques, posture, and lifestyle modifications.',
+            description: ''
+          },
+          {
+            id: 6,
+            title: 'Ongoing monitoring and treatment adjustments based on your progress.',
+            description: ''
+          },
+          {
+            id: 7,
+            title: 'A patient-centred approach focused on restoring confidence, comfort, and long-term wellbeing.',
+            description: ''
+          }
+        ],
+        closingParagraph: 'Early intervention can often lead to better outcomes and improved quality of life. If pelvic floor symptoms are affecting your daily activities, relationships, confidence, or overall wellbeing, our experienced team is here to support you throughout your recovery journey with compassionate and evidence-based care.'
+      },
   healingJourney: {
   title: 'Pelvic Floor Therapy in Dubai: Step-by-Step Healing Journey',
   description: 'Experience specialized Pelvic Floor Therapy in Dubai designed to restore strength, improve bladder and bowel control, and enhance overall pelvic health. Our structured approach ensures safe, effective, and personalized care.',
@@ -10409,7 +10493,7 @@ comparisonData: [
 benefits: {
   title: 'Clinically Observed Results of Pelvic Floor Therapy in Dubai',
   description:
-    'Supported by over 15 years of clinical experience and the successful treatment of more than 2,500 patients, our specialized Pelvic Floor Therapy programs in Dubaiare designed to restore pelvic strength, improve bladder control, and enhance overall quality of life.',
+    'Supported by over 15 years of clinical experience and the successful treatment of more than 2,500 patients, our specialized Pelvic Floor Therapy programs in Dubai are designed to restore pelvic strength, improve bladder control, and enhance overall quality of life.',
   benefits: [
     {
       id: 1,
@@ -10926,7 +11010,7 @@ comparisonData: [
           alt: 'Functional exercises performed under professional guidance to improve strength, balance, and daily movement efficiency.'
         },
         medicalNotice: {
-          text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual body constitution, hair condition, and adherence to the treatment plan. All Ayurvedic treatments are provided at a DHA-licensed clinic using approved herbal formulations and protocols.',
+          text: 'Safety & Medical Disclaimer: Treatment outcomes and recovery timelines vary depending on individual health conditions, treatment adherence, and physical goals. Functional exercise programs are provided by DHA-licensed physiotherapists following approved clinical rehabilitation protocols.',
           show: true
         }
       },
@@ -11132,6 +11216,36 @@ comparisonData: [
   },
 ]
       },
+      whyChoose: {
+        title: 'Why Patients Choose RamaCare for Functional Exercises in Dubai',
+        intro: 'Choosing the right physiotherapy clinic is essential for achieving long-term improvements in strength, mobility, and movement quality. At RamaCare Polyclinic, our approach goes beyond generic exercise programs. Every patient receives a personalized rehabilitation plan designed around their physical abilities, lifestyle demands, and recovery goals.\n\nOur DHA-licensed physiotherapists focus on identifying the root causes of movement dysfunction, poor posture, muscle weakness, and balance problems. Using evidence-based functional training techniques, we help patients build strength, improve coordination, reduce injury risk, and regain confidence in everyday activities.',
+        features: [
+          { id: 1, title: 'DHA-licensed physiotherapists with extensive rehabilitation experience', description: '' },
+          { id: 2, title: 'Individualised exercise programs tailored to each patient\'s needs', description: '' },
+          { id: 3, title: 'Functional movement assessments and posture analysis', description: '' },
+          { id: 4, title: 'Progressive training adapted to different recovery stages', description: '' },
+          { id: 5, title: 'Support for sports rehabilitation and post-surgical recovery', description: '' },
+          { id: 6, title: 'Safe exercise programs suitable for children, adults, and seniors', description: '' },
+          { id: 7, title: 'Ongoing monitoring and treatment adjustments', description: '' },
+          { id: 8, title: 'A patient-centred approach focused on sustainable, long-term results', description: '' }
+        ],
+        closingParagraph: 'Whether your goal is returning to sports, improving daily mobility, recovering from injury, or preventing future problems, our Functional Exercises in Dubai are designed to help you move better, feel stronger, and live more confidently.'
+      },
+      everydayActivities: {
+        title: 'How Functional Exercises Improve Everyday Life',
+        description: 'Unlike traditional workouts that often isolate individual muscles, functional exercises train your body to perform the movements you use every day. These exercises improve the coordination between muscles, joints, and the nervous system, making daily activities easier, safer, and more efficient.',
+        benefits: [
+          { id: 1, text: 'Lift and carry objects using proper body mechanics' },
+          { id: 2, text: 'Climb stairs with improved strength and balance' },
+          { id: 3, text: 'Sit down and stand up more comfortably' },
+          { id: 4, text: 'Improve walking efficiency and endurance' },
+          { id: 5, text: 'Reduce the risk of falls in older adults' },
+          { id: 6, text: 'Return to work safely after injury or surgery' },
+          { id: 7, text: 'Enhance sports performance, agility, and coordination' },
+          { id: 8, text: 'Maintain independence and mobility as they age' }
+        ],
+        closingParagraph: 'By improving movement quality rather than simply increasing muscle size, functional exercise programs support long-term physical health, reduce the likelihood of future injuries, and contribute to a better quality of life.'
+      },
   healingJourney: {
   title: 'Functional Exercises in Dubai: Step-by-Step Program',
   description: 'Boost your strength, mobility, and overall fitness with Functional Exercises in Dubai, designed to improve daily movement, prevent injuries, and enhance performance. Our structured program ensures safe, effective, and personalized results.',
@@ -11197,7 +11311,7 @@ comparisonData: [
 benefits: {
   title: 'Clinically Observed Results of Functional Exercise in Dubai',
   description:
-    'With over 15 years of clinical experience and more than 2,500 patients successfully treated, our personalized Functional Exercise programs in Dubaiare designed to restore natural movement, improve strength, and support long-term physical performance.',
+    'With over 15 years of clinical experience and more than 2,500 patients successfully treated, our personalized Functional Exercise programs in Dubai are designed to restore natural movement, improve strength, and support long-term physical performance.',
   benefits: [
     {
       id: 1,
@@ -11343,7 +11457,7 @@ comparisonData: [
       // FAQ Section
       faq: {
         title: 'Frequently Asked Questions (FAQs) – Functional Exercises in Dubai',
-        description: null,
+        description: 'Expert answers to common questions about Functional Exercises in Dubai.',
         resourcesHeading: 'Complete Physiotherepy Services',
         faqs: [
           {
@@ -11555,7 +11669,7 @@ comparisonData: [
       // Patient Testimonials Section
       testimonials: {
         title: 'Real Success Stories from Dubai Patients',
-        subtitle: 'Verified testimonials from patients who experienced natural hair restoration',
+        subtitle: 'Verified testimonials from patients who improved their strength, mobility, and overall movement through personalised physiotherapy care.',
          testimonials: [
           {
       id: 1,
@@ -12506,7 +12620,7 @@ comparisonData: [
           alt: 'Dry needling therapy performed by a trained physiotherapist to relieve muscle pain and improve mobility.'
         },
         medicalNotice: {
-          text: 'Safety & Medical Disclaimer: Treatment results and duration may vary depending on individual body constitution, hair condition, and adherence to the treatment plan. All Ayurvedic treatments are provided at a DHA-licensed clinic using approved herbal formulations and protocols.',
+          text: 'Safety & Medical Disclaimer: Treatment outcomes and recovery timelines may vary depending on the patient’s condition, severity of symptoms, adherence to rehabilitation recommendations, and overall health status. Dry Needling Therapy is performed by DHA-licensed physiotherapists following approved clinical protocols and safety standards.',
           show: true
         }
       },
@@ -12970,7 +13084,7 @@ comparisonData: [
       // FAQ Section
       faq: {
         title: 'Frequently Asked Questions – Dry Needling Therapy in Dubai',
-        description: null,
+        description: 'Expert answers to common questions about Dry Needling Therapy in Dubai.',
         resourcesHeading: 'Complete Physiotherepy Services',
         faqs: [
   {
@@ -13276,7 +13390,7 @@ comparisonData: [
       // Patient Testimonials Section
       testimonials: {
         title: 'Real Success Stories from Dubai Patients',
-       subtitle: 'Verified testimonials from patients who experienced natural hair restoration',
+       subtitle: 'Verified testimonials from patients who achieved pain relief, improved mobility, and faster recovery through personalised physiotherapy care.',
         testimonials: [
           {
       id: 1,
@@ -13333,7 +13447,7 @@ comparisonData: [
       bookConsultation: {
         badge: 'Start Your Journey',
         title: 'Book Dry Needling Therapy in Dubai Today',
-        description: 'Restore your muscle fitness naturally with trusted Dry Needling Therapy at Rama Care Polyclinic—safe, personalized, and focused on long-term results.',
+        description: 'Restore comfortable movement and reduce muscular pain with trusted Dry Needling Therapy at Rama Care Polyclinic—safe, personalised, and focused on long-term recovery.',
         getInTouchTitle: 'Get In Touch',
         requestAppointmentTitle: 'Request Appointment',
         submitButtonText: 'Confirm Free Consultation',
@@ -13378,7 +13492,7 @@ comparisonData: [
       hero: {
         title: 'Back Pain Treatment in Dubai',
         subtitle: 'Advanced Physiotherapy & Non-Surgical Care for Lasting Pain Relief',
-        description: 'Back pain can affect every aspect of daily life, from sitting and walking to sleeping and working comfortably. Whether caused by long office hours, poor posture, sports injuries, muscle strain, or spinal conditions, chronic back pain can reduce mobility, productivity, and overall quality of life. At Rama Care Polyclinic, we provide comprehensive and personalized back pain treatment in Dubai focused on long-term recovery, mobility improvement, and effective pain management.',
+        description: 'Back pain can affect every aspect of daily life, from sitting and walking to sleeping and working comfortably. Whether caused by long office hours, poor posture, sports injuries, muscle strain, or spinal conditions, chronic back pain can reduce mobility, productivity, and overall quality of life. At Rama Care Polyclinic, we provide comprehensive and personalised back pain treatment in Dubai focused on long-term recovery, mobility improvement, and effective pain management.',
         rating: '500+ Happy Clients',
         stats: [
           {

@@ -33,7 +33,7 @@ const QuickNavigation = ({ navItems }) => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [items]);
 
   const handleNavClick = (id) => {
     setActiveSection(id);

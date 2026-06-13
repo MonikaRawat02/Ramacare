@@ -6,6 +6,7 @@ import QuickNavigation from '../../../components/QuickNavigation';
 import TreatmentOverview from '../../../components/TreatmentOverview';
 import HealingJourney from '../../../components/HealingJourney';
 import TreatmentBenefits from '../../../components/TreatmentBenefits';
+import ServiceWhyChoose from '../../../components/ServiceWhyChoose';
 import PatientTestimonials from '../../../components/VideoTestimonials';
 import DoctorsSection from '../../../components/DoctorsSection';
 // import PricingPackages from '../../../components/PricingPackages';
@@ -22,13 +23,23 @@ export default function PelvicFloorTherapyPage() {
   // Get content from data file
   const content = getSubcategoryContent('physiotherapy-dubai', 'pelvic-floor-therapy');
 
+  const navItems = [
+    { id: 'treatment-info', label: 'Treatment Info' },
+    { id: 'how-it-works', label: 'How It Works' },
+    { id: 'benefits', label: 'Benefits' },
+    { id: 'why-choose-us', label: 'Why Choose Us' },
+    { id: 'testimonials', label: 'Success Stories' },
+    { id: 'our-doctors', label: 'Our Doctors' },
+    { id: 'faq', label: 'FAQ' },
+    { id: 'book-now', label: 'Book Now' },
+  ];
+
   return (
     <Layout>
-      <Head>
+    <Head>
   <title key="title">Pelvic Floor Therapy in Dubai for Strength and Recovery</title>
   <meta name="description" content="Pelvic floor therapy in Dubai helps improve bladder control, core strength, and recovery after childbirth or surgery through safe, guided physiotherapy care." key="description" />
   <meta name="keywords" content="Pelvic floor therapy in Dubai, Pelvic floor physiotherapy Dubai, Pelvic floor treatment Dubai, Women’s health physiotherapy Dubai, Postnatal pelvic floor therapy, Pelvic floor exercises Dubai, Urinary incontinence treatment Dubai, Pelvic pain physiotherapy, Core strengthening physiotherapy, Rehabilitation physiotherapy Dubai" />
-  
   <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
@@ -78,13 +89,12 @@ export default function PelvicFloorTherapyPage() {
   }}
 />
 </Head>
-
       <TreatmentHero 
         categoryName={categoryName}
         subcategoryName={subcategoryName}
         hero={content?.hero}
       />
-     <QuickNavigation />
+    <QuickNavigation navItems={navItems} />
     
     <TreatmentOverview 
       subcategoryName={subcategoryName}
@@ -94,6 +104,7 @@ export default function PelvicFloorTherapyPage() {
       <TreatmentBenefits 
         content={content?.benefits}
       />
+      <ServiceWhyChoose content={content?.whyChoose} />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
     

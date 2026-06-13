@@ -79,7 +79,7 @@ const FAQSection = ({ content }) => {
 
   // Use provided content or defaults
   const sectionTitle = content?.title || 'Frequently Asked Questions';
-  const sectionDescription = content?.description || 'Expert answers about Ayurvedic hairfall treatment in Dubai';
+  const sectionDescription = content?.description || '';
   const faqs = content?.faqs || defaultFaqs;
   const resources = content?.resources || defaultResources;
   const resourcesHeading = content?.resourcesHeading !== undefined ? content?.resourcesHeading : 'Complete Skin & Beauty Services';
