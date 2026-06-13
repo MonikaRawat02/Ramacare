@@ -20253,6 +20253,12 @@ rootCauses: [
             bgColor: 'bg-[#FEF2F2]',
             link: '/services/body-shaping-dubai/'
           },
+           {
+            id: 4,
+            text: 'Eximia Belly Fat Reduction',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/eximia-belly-fat-reduction-dubai/'
+          },
         ]
       },
       testimonials: {

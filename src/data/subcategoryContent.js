@@ -29549,6 +29549,24 @@ healingJourney: {
             bgColor: 'bg-[#FEF2F2]',
             link: '/services/body-shaping-dubai/'
           },
+           {
+            id: 4,
+            text: 'Eximia Belly Fat Reduction',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/eximia-belly-fat-reduction-dubai/'
+          },
+           {
+            id: 5,
+            text: 'Eximia cellulite treatment',
+            bgColor: 'bg-[#EFF6FF]',
+            link: '/services/eximia-cellulite-treatment-dubai/'
+          },
+           {
+            id: 6,
+            text: 'Eximia Vs CoolSculpting',
+            bgColor: 'bg-[#FEF2F2]',
+            link: '/services/eximia-vs-coolsculpting-dubai/'
+          },
         ]
       },
       testimonials: {

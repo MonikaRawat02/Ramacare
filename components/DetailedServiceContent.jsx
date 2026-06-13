@@ -188,7 +188,7 @@ const DetailedServiceContent = ({ content }) => {
                   {rightSection.subtitle}
                 </h4>
               )}
-              
+            
               <div className="grid grid-cols-1 gap-3 mb-6">
                 {rightSection.items.map((item, i) => (
                   <div key={i} className="flex items-start gap-3 p-4 bg-gray-50/50 transition-all duration-300 hover:bg-gray-100">

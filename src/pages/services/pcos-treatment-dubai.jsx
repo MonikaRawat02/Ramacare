@@ -88,18 +88,16 @@ export default function PCOSTreatmentPage() {
     }
   ]
 }
-    `,
+  `,
   }}
 />
 </Head>
-
       <TreatmentHero 
         categoryName={categoryName}
         subcategoryName={subcategoryName}
         hero={content?.hero}
       />
      <QuickNavigation />
-    
     <TreatmentOverview 
       subcategoryName={subcategoryName}
       content={content?.overview}
@@ -110,7 +108,6 @@ export default function PCOSTreatmentPage() {
       />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} /> 
-    
     <PaymentInsurance content={content?.paymentInsurance} />
       <FAQSection content={content?.faq} />
       <BookConsultation content={content?.bookConsultation} />

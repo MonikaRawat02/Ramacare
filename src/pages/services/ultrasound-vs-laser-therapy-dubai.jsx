@@ -156,8 +156,7 @@ Which treatment (Ultrasound or Laser) would be best for me?`;
               </span>
               <button 
                 onClick={() => scrollToSection('booking-section')}
-                className="bg-white text-[#1F5E4B] px-6 py-2.5 rounded-lg font-medium hover:bg-white/90 transition-colors flex items-center gap-2 cursor-pointer"
-              >
+                className="bg-white text-[#1F5E4B] px-6 py-2.5 rounded-lg font-medium hover:bg-white/90 transition-colors flex items-center gap-2 cursor-pointer">
                 Check Which Treatment You Need
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

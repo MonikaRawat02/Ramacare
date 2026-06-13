@@ -62,6 +62,8 @@ export const categoryContent = {
         }
       ]
     },
+
+
     about: {
       badge: 'About Our Ayurveda Department',
       title: 'Authentic Ayurveda Treatment in Dubai Within a Modern Polyclinic',
@@ -162,7 +164,6 @@ export const categoryContent = {
            image: '/images/skin1.jpg',
           alt: 'Skin disease treatment in Ayurveda utilizes natural therapies to support healing and promote long-term skin health.'
         },
-       
       ],
       consultationCTA: {
         heading: 'Not Sure Which Treatment is Right for You?',
@@ -172,6 +173,7 @@ export const categoryContent = {
         buttonColor: 'bg-[#C9A547]'
       }
     },
+    
     experts: {
       badge: 'Expert Medical Team',
 
