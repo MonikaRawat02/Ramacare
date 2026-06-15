@@ -104,7 +104,7 @@ const DetailedServiceContent = ({ content }) => {
                         <div className="w-20 h-20 bg-[#1a5f3f]/10 rounded-3xl flex items-center justify-center mb-8 transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
                           {getIcon(section.type, 0)}
                         </div>
-                        <h4 className="text-xl font-bold text-gray-900 mb-4">{section.title}</h4>
+                        
                         <p className="text-gray-500 italic leading-relaxed">
                           {section.footerText}
                         </p>
