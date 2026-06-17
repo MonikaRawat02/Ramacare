@@ -13125,7 +13125,7 @@ comparisonData: [
   {
     id: 8,
     question: 'Is Dry Needling Safe?',
-    answer: 'When performed by qualified physiotherapists, Dry Needling Treatment in Dubai is generally considered safe. At Rama Care Polyclinic, strict hygiene and safety protocols are followed using sterile, single-use needles.'
+    answer: 'Dry needling is considered safe when performed by trained and DHA-licensed physiotherapists using sterile, single-use needles and approved clinical protocols.'
   },
   {
     id: 9,
@@ -13161,7 +13161,27 @@ comparisonData: [
     id: 15,
     question: 'Why Choose Rama Care Polyclinic for Dry Needling in Dubai?',
     answer: 'Rama Care Polyclinic offers personalised Dry Needling Therapy in Dubai delivered by experienced physiotherapists. Our patient-focused approach combines evidence-based treatment techniques, rehabilitation exercises, and long-term recovery strategies to help patients achieve lasting pain relief and improved mobility.'
-  }
+  },
+  {
+    id: 16,
+    question: 'Can Dry Needling help with sports injuries?',
+    answer: 'Yes. Dry needling is commonly used in sports rehabilitation to reduce muscle tension, improve flexibility, and support faster recovery from overuse injuries and muscle strains.'
+  },
+  {
+    id: 17,
+    question: 'How soon will I notice results from Dry Needling?',
+    answer: 'Many patients experience improvement after one or two sessions, although the number of treatments required depends on the condition being treated and individual response.'
+  },
+  {
+    id: 18,
+    question: 'Can Dry Needling be combined with physiotherapy?',
+    answer: 'Yes. Dry needling is often integrated with physiotherapy exercises, manual therapy, and rehabilitation programs to improve long-term treatment outcomes.'
+  },
+  {
+    id: 19,
+    question: 'Who should avoid Dry Needling?',
+    answer: 'Dry needling may not be suitable for everyone. Patients with certain medical conditions, bleeding disorders, needle phobia, or pregnancy should consult their physiotherapist before treatment.'
+  },
 ],
         resources: [
         {
@@ -29817,7 +29837,7 @@ healingJourney: {
       },
       doctors: {
         doctors: [
-          DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+          DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna 
         ]
       },
       certifications: {
@@ -30398,7 +30418,7 @@ healingJourney: {
       },
       doctors: {
        doctors: [
-         DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+         DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna
         ]
       },
       certifications: {
@@ -31141,7 +31161,7 @@ healingJourney: {
       },
       doctors: {
         doctors: [
-         DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+         DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna
         ]
       },
       certifications: {
@@ -31938,7 +31958,7 @@ healingJourney: {
       },
       doctors: {
        doctors: [
-          DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+          DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna
         ]
       },
       certifications: {
@@ -32562,7 +32582,7 @@ healingJourney: {
       },
       doctors: {
         doctors: [
-          DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+          DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna
         ]
       },
       certifications: {
@@ -33156,7 +33176,7 @@ healingJourney: {
       },
       doctors: {
        doctors: [
-         DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+         DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna 
         ]
       },
       certifications: {
@@ -33763,7 +33783,7 @@ healingJourney: {
       },
       doctors: {
        doctors: [
-        DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+        DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna 
         ]
       },
       certifications: {
@@ -34399,7 +34419,7 @@ healingJourney: {
       },
       doctors: {
         doctors: [
-          DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+          DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna 
         ]
       },
       certifications: {
@@ -35135,7 +35155,7 @@ healingJourney: {
       },
       doctors: {
        doctors: [
-         DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+         DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna 
         ]
       },
       certifications: {
@@ -35748,7 +35768,7 @@ Recovery: Minimal downtime for non-surgical care
       },
       doctors: {
         doctors: [
-        DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya
+        DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya , DOCTORS.aparna 
         ]
       },
       certifications: {

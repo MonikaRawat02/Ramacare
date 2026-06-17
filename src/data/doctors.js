@@ -51,7 +51,7 @@ export const DOCTORS = {
     languages: ['English']
   },
   hafsina: {
-    id: 5,
+    id: 4,
     name: 'Hafsina Karadi Kandy',
     firstName: 'Hafsina',
     image: '/images/Hafsina.jpeg',
@@ -70,7 +70,7 @@ export const DOCTORS = {
     languages: ['English']
   },
   sonita: {
-    id: 7,
+    id: 6,
     name: 'Sonita Sinaga',
     firstName: 'Sonita',
     image: '/images/Sonita.jpeg',
@@ -89,7 +89,7 @@ export const DOCTORS = {
     languages: ['English']
   },
   soumya: {
-    id: 8,
+    id: 7,
     name: 'Soumya Abraham',
     firstName: 'Soumya',
     image: '/images/Saumya.jpeg',
@@ -109,7 +109,7 @@ export const DOCTORS = {
     languages: ['English']
   },
   syamkumar: {
-    id: 9,
+    id: 8,
     name: 'Syamkumar Sasidharan',
     firstName: 'Syamkumar',
     image: '/images/Syam.jpeg',
@@ -129,10 +129,10 @@ export const DOCTORS = {
     languages: ['English']
   },
   sahar: {
-    id: 11,
+    id: 10,
     name: 'Dr. Sahar Zomorrodi',
     firstName: 'Dr. Sahar',
-    image: '/images/Sahar.jpeg',
+    image: '/images/Sahar.png',
     qualifications: 'DHA-licensed General Practitioner',
     rating: 5.0,
     specialization: 'General Practitioner',
@@ -145,25 +145,8 @@ export const DOCTORS = {
     ],
     languages: ['English']
   },
-  mahrokh: {
-    id: 12,
-    name: 'Dr Mahrokh Fotooei',
-    firstName: 'Mahrokh',
-    image: '/images/Fatooie.jpeg',
-    qualifications: 'DHA-Licensed Dermatology and Aesthetic Specialist',
-    rating: 4.9,
-    specialization: 'Clinical & Aesthetic Dermatology',
-    experience: '6+ Years Experience',
-    isDHALicensed: true,
-    expertise: [
-      'Individualized, evidence-based dermatological care',
-      'Specialized in injectables and facial contouring',
-      'Expertise in thread lifting and non-surgical skin rejuvenation'
-    ],
-    languages: ['English']
-  },
   hirbod: {
-    id: 13,
+    id: 12,
     name: 'Dr Hirbod Gilandoust',
     firstName: 'Hirbod',
     image: '/images/Hirbod.jpeg',
@@ -179,12 +162,32 @@ export const DOCTORS = {
       'Comprehensive dental surgery procedures'
     ],
     languages: ['English']
+  },
+  aparna: {
+    id: 13,
+    name: 'Dr Aparna Balakrishnan',
+    firstName: 'Aparna',
+    image: '/images/Dr Aparna.jpg',
+    qualifications: 'DHA-Licensed General & Cosmetic Dentist',
+    rating: 4.8,
+    specialization: 'General & Cosmetic Dentistry',
+    experience: '9+ Years Experience',
+    isDHALicensed: true,
+    expertise: [
+      'Root canal treatments',
+      'Cosmetic restorations',
+      'Dental veneers',
+      'Dental crowns and bridges',
+      'Teeth whitening treatments',
+      'Comprehensive dental care'
+    ],
+    languages: ['English']
   }
 };
 
 export const DOCTOR_GROUPS = {
   AYURVEDA: [DOCTORS.shamna, DOCTORS.syamkumar],
-  DENTAL: [DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya],
+  DENTAL: [DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya, DOCTORS.aparna],
   PHYSIO: [DOCTORS.jeena, DOCTORS.hafsina],
   DERMA: [DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya],
   GP: [DOCTORS.sahar],

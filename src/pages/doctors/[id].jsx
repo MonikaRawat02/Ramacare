@@ -3,6 +3,7 @@ import Layout from '../../../components/Layout';
 import Head from 'next/head';
 import Image from 'next/image';
 import BeginYourHealingJourneySection from '../../../components/BeginYourHealingJourneySection';
+import { DOCTORS } from '../../../src/data/doctors';
 
 const DoctorProfilePage = ({ doctor }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -285,5 +286,35 @@ const DoctorProfilePage = ({ doctor }) => {
     </Layout>
   );
 };
+
+export async function getStaticPaths() {
+  const paths = Object.values(DOCTORS).map(doctor => ({
+    params: { id: doctor.id.toString() }
+  }));
+  
+  return {
+    paths,
+    fallback: false
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const doctorId = parseInt(params.id);
+  const doctor = Object.values(DOCTORS).find(d => d.id === doctorId);
+  
+  // Add default biography, education, certifications if not present
+  const doctorWithDefaults = {
+    ...doctor,
+    biography: doctor.biography || `${doctor.name} is a dedicated professional with expertise in ${doctor.specialization}.`,
+    education: doctor.education || [doctor.qualifications],
+    certifications: doctor.certifications || (doctor.isDHALicensed ? ['DHA Licensed'] : [])
+  };
+  
+  return {
+    props: {
+      doctor: doctorWithDefaults
+    }
+  };
+}
 
 export default DoctorProfilePage;
