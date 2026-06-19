@@ -182,14 +182,54 @@ export const DOCTORS = {
       'Comprehensive dental care'
     ],
     languages: ['English']
-  }
+  },
+  nodainne: {
+  id: 14,
+  name: 'Nodainne Baves Guerrero',
+  firstName: 'Nodainne',
+  image: '/images/Nodainne.jpeg',
+  qualifications: 'DHA-Licensed Beauty Therapist',
+  rating: 4.8,
+  specialization: 'Beauty Therapy & Advanced Aesthetic Treatments',
+  experience: '10+ Years Experience',
+  isDHALicensed: true,
+  expertise: [
+    'Advanced facial treatments',
+    'Skin rejuvenation therapies',
+    'Anti-ageing skincare procedures',
+    'Acne and pigmentation management',
+    'Beauty and wellness treatments',
+    'Personalised aesthetic care'
+  ],
+  languages: ['English']
+},
+mariya: {
+  id: 15,
+  name: 'Mariya Thayyil Muhammed',
+  firstName: 'Mariya',
+  image: '/images/Mariya.jpeg',
+  qualifications: 'DHA-Licensed Ayurveda Therapist',
+  rating: 4.8,
+  specialization: 'Ayurveda Therapy & Holistic Wellness',
+  experience: '14+ Years UAE Experience',
+  isDHALicensed: true,
+  expertise: [
+    'Traditional Ayurveda therapies',
+    'Panchakarma support treatments',
+    'Abhyanga and therapeutic massage',
+    'Stress management and relaxation therapies',
+    'Pain management through Ayurveda',
+    'Personalised wellness and rejuvenation programmes'
+  ],
+  languages: ['English']
+}
 };
 
 export const DOCTOR_GROUPS = {
-  AYURVEDA: [DOCTORS.shamna, DOCTORS.syamkumar],
+  AYURVEDA: [DOCTORS.shamna, DOCTORS.syamkumar, DOCTORS.mariya],
   DENTAL: [DOCTORS.anan, DOCTORS.hirbod, DOCTORS.soumya, DOCTORS.aparna],
   PHYSIO: [DOCTORS.jeena, DOCTORS.hafsina],
-  DERMA: [DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya],
+  DERMA: [ DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya ,DOCTORS.nodainne],
   GP: [DOCTORS.sahar],
   ALL: Object.values(DOCTORS)
 };

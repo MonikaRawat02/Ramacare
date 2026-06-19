@@ -12,6 +12,7 @@ import DoctorsSection from '../../../components/DoctorsSection';
 import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
+import SkinTreatmentAdditionalContent from '../../../components/SkinTreatmentAdditionalContent';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
 
 
@@ -21,6 +22,19 @@ export default function SkinTreatmentPage() {
 
   // Get content from data file
   const content = getSubcategoryContent('aesthetic-dermatology-dubai', 'skin-treatment');
+
+  const navItems = [
+    { id: 'treatment-info', label: 'Treatment Info' },
+    { id: 'how-it-works', label: 'How It Works' },
+    { id: 'benefits', label: 'Benefits' },
+    { id: 'why-choose-ramacare', label: 'Why Choose Us' },
+    { id: 'professional-benefits', label: 'Professional Care' },
+    { id: 'when-to-consider', label: 'When to Treat' },
+    { id: 'skin-conditions', label: 'Conditions' },
+    { id: 'our-doctors', label: 'Our Doctors' },
+    { id: 'faq', label: 'FAQ' },
+    { id: 'book-now', label: 'Book Now' }
+  ];
 
   return (
     <Layout>
@@ -37,7 +51,8 @@ export default function SkinTreatmentPage() {
         description={content?.hero?.description}
         hero={content?.hero}
       />
-     <QuickNavigation />
+     <QuickNavigation navItems={navItems} />
+    
     
     <TreatmentOverview 
       subcategoryName={subcategoryName}
@@ -47,6 +62,7 @@ export default function SkinTreatmentPage() {
       <TreatmentBenefits 
         content={content?.benefits}
       />
+      <SkinTreatmentAdditionalContent content={content} />
        <PatientTestimonials content={content?.testimonials} />
         <DoctorsSection content={content?.doctors} />
     

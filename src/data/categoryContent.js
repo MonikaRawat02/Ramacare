@@ -2475,7 +2475,7 @@ export const categoryContent = {
       id: 10,
       title: 'Diabetes Mellitus Management',
       slug: 'diabetes-management',
-      fullSlug: '/services/diabetes-mellitus-care/',
+      fullSlug: '/services/diabetes-mellitus-care-dubai/',
       icon: 'Droplets',
       subtitle: 'Comprehensive Blood Sugar Control',
       duration: null,

@@ -226,7 +226,7 @@ export const subcategoryContent = {
         title: 'Meet Our Acne Specialists',
         description: 'Our team of DHA-licensed dermatologists and aesthetic therapists specialize in advanced acne treatments and scar management.',
         doctors: [
-          DOCTORS.mahrokh,
+          
           DOCTORS.sahar,
           DOCTORS.sonita
         ]
@@ -6093,7 +6093,7 @@ comparisonData: [
       title: 'Meet Our Panchakarma Specialists in Dubai',
       description: 'DHA-licensed Ayurvedic practitioners with extensive experience in authentic Panchakarma therapies and detoxification treatments.',
       doctors: [
-        DOCTORS.shamna, DOCTORS.syamkumar
+        DOCTORS.shamna, DOCTORS.syamkumar, DOCTORS.mariya
         ]
     },
     certifications: {
@@ -6929,7 +6929,7 @@ comparisonData: [
       title: 'Meet Our Gastrointestinal Treatment Specialists in Dubai',
       description: 'DHA-licensed Ayurvedic practitioners with extensive experience in digestive health and gastrointestinal disorders.',
       doctors: [
-        DOCTORS.shamna, DOCTORS.syamkumar
+        DOCTORS.shamna, DOCTORS.syamkumar, DOCTORS.mariya
         ]
     },
     certifications: {
@@ -7692,7 +7692,7 @@ comparisonData: [
       title: 'Meet Our PCOS Treatment Specialists in Dubai',
       description: 'DHA-licensed Ayurvedic practitioners with extensive experience in women\'s health and PCOS management.',
        doctors: [
-        DOCTORS.shamna, DOCTORS.syamkumar
+        DOCTORS.shamna, DOCTORS.syamkumar, DOCTORS.mariya
         ]
     },
     certifications: {
@@ -14649,7 +14649,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -15437,7 +15437,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -16205,7 +16205,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -16950,7 +16950,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -17703,7 +17703,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -18462,7 +18462,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -19231,7 +19231,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -20004,7 +20004,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -20783,7 +20783,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -20935,7 +20935,7 @@ comparisonData: [
   // GENERAL PHYSICIAN CATEGORY (Diabetes Mellitus Care)
   // ============================================
 
-  'general-physician-dubai-diabetes-mellitus-care': {
+  'general-physician-dubai-diabetes-mellitus-care-dubai': {
     hero: {
       subtitle: 'Personalized Diabetes Management for a Healthier Life',
       description: 'Living with diabetes requires ongoing care, monitoring, and lifestyle balance. At ramacarepolyclinic, we provide expert Diabetes Mellitus Care in Dubai to help patients control blood sugar levels, prevent complications, and maintain a healthy, active lifestyle through personalized medical support.',
@@ -21557,7 +21557,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -22318,7 +22318,7 @@ comparisonData: [
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -23055,7 +23055,7 @@ healingJourney: {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -23790,7 +23790,7 @@ healingJourney: {
             id: 10,
             text: 'Diabetes Mellitus Care',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/diabetes-mellitus-care/'
+            link: '/services/diabetes-mellitus-care-dubai/'
           },
            {
             id: 11,
@@ -23937,12 +23937,9 @@ healingJourney: {
       ]
     }
   },
-
-
   // ============================================
   // FACIAL CATEGORY (Signature Hydra Facial)
   // ============================================
-
     'facial-dubai-signature-hydra-facial': {
     hero: {
       subtitle: 'HydraFacial in Dubai — Deep Cleanse, Hydrate & Glow in One Session',
@@ -23995,7 +23992,7 @@ healingJourney: {
       badge: 'MEET YOUR SPECIALISTS',
       title: "Your HydraFacial Is Performed by Dubai's Licensed Aesthetic Experts",
       doctors: [
-        DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita
+         DOCTORS.sahar, DOCTORS.sonita, DOCTORS.nodainne
       ]
     },
     certifications: {
@@ -24705,7 +24702,7 @@ healingJourney: {
     },
     doctors: {
       doctors: [
-        DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita
+        DOCTORS.sahar, DOCTORS.sonita, DOCTORS.nodainne
         ]
     },
     certifications: {
@@ -25370,7 +25367,7 @@ healingJourney: {
     },
     doctors: {
      doctors: [
-        DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita
+         DOCTORS.sahar, DOCTORS.sonita , DOCTORS.nodainne
         ]
     },
     certifications: {
@@ -26044,7 +26041,7 @@ healingJourney: {
     },
     doctors: {
      doctors: [
-        DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita
+         DOCTORS.sahar, DOCTORS.sonita , DOCTORS.nodainne
         ]
     },
     certifications: {
@@ -26698,7 +26695,7 @@ healingJourney: {
     },
     doctors: {
      doctors: [
-       DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita
+        DOCTORS.sahar, DOCTORS.sonita, DOCTORS.nodainne
         ]
     },
     // certifications: {
@@ -27301,7 +27298,7 @@ healingJourney: {
     'aesthetic-dermatology-dubai-skin-treatment': {
         hero: {
             subtitle: 'Restore Healthy, Glowing Skin with Natural Ayurvedic Care',
-            description: 'Experience advanced skin treatment in Dubai that focuses on healing the root cause, not just covering symptoms. Our DHA-licensed Ayurvedic clinic offers personalized, natural skin therapies backed by 15+ years of clinical experience and proven patient results.',
+            description: 'Looking for effective skin treatment in Dubai?At RamaCare Polyclinic, we provide personalized Ayurvedic skin care solutions designed to address the root causes of skin concerns rather than simply masking symptoms. Our DHA-licensed practitioners combine traditional Ayurvedic principles with modern clinical expertise to help improve skin health naturally. Whether you are struggling with acne, pigmentation, eczema, psoriasis, dry skin, sensitive skin, or recurring skin irritation, our customized treatment plans focus on restoring balance, enhancing skin health, and supporting long-term results.',
             rating: '500+ Happy Clients',
            
             ctaButtons: {
@@ -27330,10 +27327,185 @@ healingJourney: {
               show: true
             }
           },
+      whyChooseSection: {
+        title: 'Why Choose RamaCare for Skin Treatment in Dubai?',
+        intro: 'At RamaCare Polyclinic, we are committed to providing exceptional skin care that delivers real, lasting results. Our approach combines medical expertise, personalized care, and advanced technology to help you achieve your skin goals.',
+        features: [
+          {
+            id: 1,
+            title: 'Experienced Medical Professionals',
+            description: 'Our team provides personalized care based on thorough skin assessments and evidence-based treatment planning.'
+          },
+          {
+            id: 2,
+            title: 'Customized Treatment Plans',
+            description: 'No two patients have identical skin concerns. Every treatment plan is tailored to individual needs.'
+          },
+          {
+            id: 3,
+            title: 'Advanced Treatment Technology',
+            description: 'We utilize modern skin treatment technologies and professional-grade procedures to maximize treatment effectiveness.'
+          },
+          {
+            id: 4,
+            title: 'Patient-Focused Care',
+            description: 'From consultation through follow-up care, our team is committed to helping patients achieve safe and sustainable improvements.'
+          },
+          {
+            id: 5,
+            title: 'Comprehensive Skin Solutions',
+            description: 'We address acne, pigmentation, melasma, eczema, psoriasis, acne scars, dry skin, sensitive skin, and skin rejuvenation concerns under one roof.'
+          }
+        ]
+      },
+      professionalBenefits: {
+        title: 'Why Professional Skin Treatment May Be Beneficial',
+        intro: 'Professional skin treatment offers several advantages for individuals experiencing persistent or recurring skin concerns.',
+        points: [
+          {
+            id: 1,
+            title: 'Personalized Assessment',
+            description: 'Every person\'s skin is unique. Professional evaluation helps identify triggers and contributing factors that may not be obvious through self-treatment alone.'
+          },
+          {
+            id: 2,
+            title: 'Targeted Treatment Planning',
+            description: 'Treatment recommendations are based on your specific skin type, condition severity, medical history, and treatment goals.'
+          },
+          {
+            id: 3,
+            title: 'Ongoing Progress Monitoring',
+            description: 'Regular follow-up appointments allow specialists to adjust treatments as your skin improves and your needs change.'
+          },
+          {
+            id: 4,
+            title: 'Support for Multiple Skin Concerns',
+            description: 'Professional skin treatment can address several concerns simultaneously, including acne and acne scars, hyperpigmentation, melasma, eczema, psoriasis, dry skin, sensitive skin, and premature skin aging.'
+          },
+          {
+            id: 5,
+            title: 'Focus on Long-Term Skin Health',
+            description: 'Rather than simply improving appearance, professional treatment aims to support healthy skin function, strengthen the skin barrier, and encourage sustainable improvements over time.'
+          }
+        ]
+      },
+      whenToConsider: {
+        title: 'When Should You Consider Professional Skin Treatment?',
+        intro: 'You may benefit from professional skin treatment if you experience:',
+        points: [
+          'Persistent acne despite using skincare products',
+          'Recurrent pigmentation or dark spots',
+          'Chronic skin irritation or sensitivity',
+          'Eczema or psoriasis flare-ups',
+          'Acne scarring or uneven skin texture',
+          'Premature signs of skin aging',
+          'Skin concerns that continue to return despite treatment'
+        ],
+        closing: 'A professional consultation can help determine the most appropriate treatment options based on your individual skin condition and goals.'
+      },
+      choosingRightApproach: {
+        title: 'Choosing the Right Skin Care Approach',
+        content: 'Both professional skin treatment and daily skincare routines play important roles in maintaining healthy skin. While skincare products help support everyday skin maintenance, professional treatment may provide additional guidance and targeted solutions for individuals dealing with more complex or persistent skin concerns.',
+        closing: 'At RamaCare Polyclinic, we create personalized skin treatment plans designed to help patients achieve healthier, clearer, and more balanced skin through a combination of professional care, evidence-based treatments, and long-term support.'
+      },
+      skinConditions: {
+        title: 'Skin Conditions We Treat in Dubai',
+        intro: 'Comprehensive Skin Treatment for a Wide Range of Skin Concerns. At RamaCare Polyclinic, we provide personalized skin treatment in Dubai for various acute and chronic skin conditions. Our goal is to help patients achieve healthier, clearer, and more balanced skin through individualized treatment plans that address both symptoms and contributing factors.',
+        conditions: [
+          {
+            id: 1,
+            title: 'Acne Treatment in Dubai',
+            description: 'Acne is one of the most common skin conditions affecting teenagers and adults. It can appear as blackheads, whiteheads, inflamed pimples, cystic acne, and painful breakouts. Our skin specialists focus on identifying possible triggers such as hormonal fluctuations, excess oil production, stress, lifestyle factors, and skin barrier dysfunction.',
+            commonConcerns: [
+              'Persistent acne breakouts',
+              'Hormonal acne',
+              'Cystic acne',
+              'Acne scars',
+              'Post-acne pigmentation',
+              'Oily skin and enlarged pores'
+            ]
+          },
+          {
+            id: 2,
+            title: 'Pigmentation Treatment in Dubai',
+            description: 'Uneven skin tone and pigmentation can occur due to sun exposure, hormonal changes, aging, inflammation, and environmental factors. Our treatment approach focuses on improving skin clarity and supporting healthy skin renewal.',
+            commonConcerns: [
+              'Hyperpigmentation',
+              'Dark spots',
+              'Sun damage',
+              'Uneven skin tone',
+              'Post-inflammatory pigmentation',
+              'Age spots'
+            ]
+          },
+          {
+            id: 3,
+            title: 'Melasma Treatment in Dubai',
+            description: 'Melasma is a common pigmentation disorder that causes brown or gray patches on the face, particularly on the cheeks, forehead, nose, and upper lip. Our personalized treatment plans aim to help manage melasma while supporting long-term skin health and preventing recurrence.',
+            commonConcerns: [
+              'Facial discoloration',
+              'Patchy pigmentation',
+              'Sun-sensitive skin',
+              'Hormonal pigmentation changes'
+            ]
+          },
+          {
+            id: 4,
+            title: 'Eczema Treatment in Dubai',
+            description: 'Eczema can cause chronic itching, redness, irritation, dryness, and inflammation. Symptoms may flare up due to allergens, environmental triggers, stress, or skin barrier dysfunction. Our skin treatment programs focus on calming irritation, improving hydration, and supporting healthier skin function.',
+            commonConcerns: [
+              'Itchy skin',
+              'Dry patches',
+              'Redness',
+              'Skin sensitivity',
+              'Recurring flare-ups'
+            ]
+          },
+          {
+            id: 5,
+            title: 'Psoriasis Treatment in Dubai',
+            description: 'Psoriasis is a chronic inflammatory skin condition that can cause thick, scaly patches, itching, and discomfort. Our specialists develop individualized treatment plans to help manage symptoms, reduce irritation, and support overall skin wellness.',
+            commonConcerns: [
+              'Red patches',
+              'Scaling',
+              'Dry skin',
+              'Itching',
+              'Skin inflammation'
+            ]
+          },
+          {
+            id: 6,
+            title: 'Dry & Sensitive Skin Treatment in Dubai',
+            description: 'Dry and sensitive skin can lead to discomfort, irritation, flaking, and increased susceptibility to environmental damage. Treatment focuses on strengthening the skin barrier, improving hydration levels, and reducing sensitivity triggers.',
+            commonConcerns: [
+              'Tight skin',
+              'Flaking',
+              'Redness',
+              'Sensitivity',
+              'Rough texture'
+            ]
+          },
+          {
+            id: 7,
+            title: 'Acne Scar Treatment in Dubai',
+            description: 'Acne scars can affect skin texture and confidence long after active acne has cleared. Professional treatment can help improve skin smoothness and support natural skin renewal.',
+            commonConcerns: [
+              'Atrophic scars',
+              'Rolling scars',
+              'Boxcar scars',
+              'Post-acne marks',
+              'Uneven skin texture'
+            ]
+          }
+        ],
+        earlyTreatment: {
+          title: 'Why Early Treatment Matters',
+          description: 'Many skin conditions become more difficult to manage when left untreated. Early diagnosis and personalized care can help reduce complications, improve treatment outcomes, and support healthier skin over the long term. If you are experiencing recurring acne, pigmentation, eczema, psoriasis, or other skin concerns, seeking professional guidance can help identify the most appropriate treatment options for your needs.'
+        }
+      },
       doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -27369,203 +27541,224 @@ healingJourney: {
       overview: {
         title: 'Understanding Skin Treatment in Dubai',
         problemIntro: {
-          title: 'Common Skin Problems',
-          description: 'Many individuals seeking skin treatment experience recurring or chronic skin concerns because temporary solutions often address only visible symptoms rather than underlying triggers. Without proper diagnosis and targeted care, skin issues such as acne, pigmentation, dryness, or inflammation tend to return.Professional skin treatment focuses on identifying contributing factors such as excess oil production, dehydration, environmental damage, hormonal changes, and lifestyle stress to deliver long-term improvement instead of short-term relief.'
+          title: 'Common Skin Problems We Treat',
+          description: 'Many people seek skin treatment only after experiencing recurring symptoms that continue despite using over-the-counter creams, home remedies, or temporary solutions. Unfortunately, these approaches often fail to address the underlying causes of skin concerns.At RamaCare Polyclinic, we focus on understanding the factors contributing to skin conditions, helping patients achieve more sustainable improvements through personalized care.'
         },
         solutionIntro: {
           title: 'Advanced Skin Treatment in Dubai',
           description: 'Our professional skin treatment in Dubai focuses on identifying and correcting the underlying causes of skin concerns rather than offering temporary cosmetic relief. We combine medical expertise, advanced technology, and personalized care plans to deliver safe, effective, and long-lasting results.'
         },
-     leftCards: [
+    leftCards: [
   {
     id: 1,
-    title: 'What Is It?',
-    description: 'Skin treatment refers to professional dermatological and aesthetic procedures aimed at diagnosing, managing, and improving various skin conditions. These treatments are tailored to individual skin types and concerns to deliver safe and noticeable results.',
+    title: 'What Is Skin Treatment?',
+    description: 'Skin treatment refers to a range of professional therapies designed to diagnose, manage, and improve various skin concerns while supporting long-term skin health. At RamaCare Polyclinic, our approach combines personalized assessment with natural Ayurvedic principles to help address the root causes of skin conditions rather than simply managing visible symptoms. Many common skin concerns such as acne, pigmentation, eczema, psoriasis, and skin sensitivity are often influenced by multiple factors including lifestyle habits, environmental exposure, stress, hormonal imbalances, and skin barrier dysfunction. By identifying these contributing factors, we create customized treatment plans that promote healthier, clearer, and more resilient skin.',
     listItems: [
-      'Identifying the underlying cause of skin problems',
-      'Improving skin barrier function',
-      'Reducing inflammation',
-      'This ensures long-lasting improvements rather than short-term surface fixes.'
+      'Identify underlying triggers affecting skin health',
+      'Improve skin barrier strength and hydration',
+      'Reduce inflammation and skin irritation',
+      'Support natural skin repair and regeneration',
+      'Promote balanced, healthy-looking skin',
+      'Focus on long-term skin wellness rather than temporary relief'
     ]
   },
   {
     id: 2,
-    title: 'Who Is It For?',
-    description: 'Our Skin Treatment in Dubai is suitable for individuals experiencing:',
+    title: 'Who Can Benefit from Skin Treatment?',
+    description: 'Our Skin Treatment in Dubai is suitable for individuals experiencing a wide range of skin concerns, including:',
     listItems: [
-      'Acne and acne scars',
-      'Pigmentation and melasma',
-      'Eczema and psoriasis',
-      'Fungal skin infections',
-      'Dry or sensitive skin',
+      'Acne & Acne Scars – Persistent acne, blackheads, whiteheads, cystic acne, and post-acne scarring',
+      'Pigmentation & Uneven Skin Tone – Melasma, sunspots, dark patches, and hyperpigmentation caused by environmental and hormonal factors',
+      'Eczema & Psoriasis – Chronic inflammatory skin conditions that may cause itching, redness, irritation, and discomfort',
+      'Fungal Skin Infections – Recurring fungal infections that affect skin health and appearance',
+      'Dry & Sensitive Skin – Skin that is prone to irritation, flaking, dehydration, redness, and sensitivity',
+      'Premature Skin Aging – Fine lines, dullness, loss of elasticity, and environmental skin damage'
     ]
   },
   {
     id: 3,
-    title: 'Duration',
-    description: 'Skin healing depends on the type and severity of the condition. While minor issues may respond quickly, chronic concerns may require a structured treatment plan.',
+    title: 'How Long Does Skin Treatment Take?',
+    description: 'The duration of treatment depends on the specific skin condition, severity, medical history, and individual response to therapy. While some patients notice early improvements within a few weeks, long-standing skin concerns often require a structured treatment plan for optimal results.'
+  },
+  {
+    id: 4,
+    title: 'Typical Recovery Timeline',
     listItems: [
       'Initial Improvement: 3–6 weeks',
-      'Noticeable Skin Healing: 2–4 months',
-      'Long-Term Results: 4–6 months',
-      'Consistency and proper follow-up are essential for sustained improvement.'
+      'Visible Skin Healing: 2–4 months',
+      'Long-Term Skin Health Improvements: 4–6 months or longer',
+      'Maintenance & Prevention: Ongoing skincare guidance and periodic follow-up consultations may help maintain results and reduce recurrence',
+      'Consistency, adherence to treatment recommendations, and healthy lifestyle habits play a significant role in achieving the best possible outcomes'
     ]
   }
 ],
        rootCauses: [
   {
     id: 1,
-    title: 'Acne & Inflammatory Conditions',
-    description: 'Excess oil production, clogged pores, bacteria, and hormonal fluctuations can lead to acne, redness, rashes, and inflamed breakouts. If not treated properly, these conditions may result in scarring and uneven skin texture.',
+    title: 'Acne & Inflammatory Skin Conditions',
+    description: 'Acne develops when excess oil, dead skin cells, bacteria, and hormonal fluctuations clog pores and trigger inflammation. Without appropriate treatment, acne may lead to recurring breakouts, skin discoloration, and permanent scarring. Common symptoms include whiteheads and blackheads, red inflamed pimples, painful cystic acne, post-acne pigmentation, and acne scars.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
     title: 'Dryness & Skin Barrier Damage',
-    description: 'A weakened skin barrier can cause dryness, rough texture, flakiness, fine lines, and a dull complexion. Environmental exposure, harsh skincare products, and dehydration often contribute to this issue.',
+    description: 'A compromised skin barrier can result in moisture loss, irritation, rough texture, and increased sensitivity. Environmental pollution, harsh skincare products, and dehydration are common contributing factors. Common symptoms include dry patches, flaky skin, tightness, redness, and increased sensitivity.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
     title: 'Oily Skin & Congested Pores',
-    description: 'Overactive oil glands can result in clogged pores, whiteheads, blackheads, and cystic acne. Without proper skin treatment, this condition may become persistent and difficult to control.',
+    description: 'Excessive sebum production can clog pores and contribute to blackheads, whiteheads, and frequent breakouts. Effective treatment focuses on balancing oil production while maintaining skin hydration. Common symptoms include enlarged pores, oily appearance, blackheads, whiteheads, and recurring acne.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
-    title: 'Slow Skin Repair & Poor Regeneration',
-    description: 'When the skin’s natural repair process slows down, healing becomes delayed. This can lead to prolonged breakouts, pigmentation marks, and uneven texture. Factors such as poor nutrition, lack of proper skincare, and environmental stressors often contribute to slower regeneration.',
+    title: 'Slow Skin Repair & Regeneration',
+    description: 'The skin naturally repairs itself, but factors such as aging, nutritional deficiencies, stress, and environmental exposure can slow this process. Delayed healing often contributes to prolonged pigmentation, scarring, and uneven skin texture. Common symptoms include slow healing, persistent acne marks, uneven texture, dull complexion, and post-inflammatory pigmentation.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
-    title: 'Stress & Hormonal Imbalance',
-    description: 'Chronic stress and hormonal fluctuations can trigger breakouts, eczema flare-ups, psoriasis, and uneven skin tone. These internal factors significantly affect skin health and require targeted skin treatment to restore balance and clarity.',
+    title: 'Stress & Hormonal Imbalances',
+    description: 'Internal factors can significantly influence skin health. Hormonal fluctuations and chronic stress are common triggers for acne, eczema flare-ups, psoriasis symptoms, and increased skin sensitivity. Common symptoms include hormonal acne, stress-related breakouts, eczema flare-ups, increased oil production, and skin inflammation.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   }
 ],
-
-       quickFacts: [
+     quickFacts: [
   { label: 'Treatment Type', value: 'Non-invasive or minimally invasive' },
-  { label: 'Anesthesia', value: 'Not required in most cases' },
-  { label: 'Recovery Time', value: 'Immediate to minimal downtime' },
-  { label: 'Side Effects', value: 'Mild temporary redness in some treatments' }
+  { label: 'Consultation', value: 'Personalized skin assessment' },
+  { label: 'Anesthesia', value: 'Usually not required' },
+  { label: 'Downtime', value: 'Minimal to none' },
+  { label: 'Recovery Time', value: 'Immediate to short recovery period' },
+  { label: 'Suitable For', value: 'Most skin types' },
+  { label: 'Treatment Goal', value: 'Healthier, clearer, balanced skin' },
+  { label: 'Follow-Up Care', value: 'Customized according to condition' }
 ],
-       approachCards: [
+     approachCards: [
   {
     id: 1,
     title: 'Targeted Skin Balancing Therapy',
-    description: 'This approach restores balance to the skin by regulating oil production, reducing inflammation, and strengthening the skin barrier. It helps prevent recurring issues such as acne, redness, irritation, and uneven texture.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Healthy skin requires proper balance. Excess oil production, inflammation, dehydration, and environmental stressors can disrupt normal skin function and contribute to recurring skin problems.',
+    hasLearnMore: true,
+    expandedContent: 'Our skin balancing therapies are designed to regulate excess oil production, reduce redness and inflammation, improve skin barrier strength, restore hydration levels, minimize recurring breakouts, and improve skin texture and comfort. These treatments are particularly beneficial for individuals experiencing acne-prone skin, sensitive skin, oily skin, and chronic irritation.'
   },
   {
     id: 2,
     title: 'Deep Skin Detox & Purification',
-    description: 'Advanced cleansing and medical-grade treatments remove impurities, excess oil, and buildup from pores. This process improves skin clarity, enhances oxygen flow, and supports faster healing and regeneration.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Environmental pollutants, excess oil, dead skin cells, and impurities can accumulate within the skin and contribute to congestion, dullness, and breakouts.',
+    hasLearnMore: true,
+    expandedContent: 'Our deep skin cleansing and purification treatments help remove pore-clogging impurities, reduce blackheads and whiteheads, improve skin clarity, enhance oxygen circulation, support healthy skin renewal, and promote a brighter complexion. Professional skin detoxification can significantly improve the effectiveness of other skin treatments while helping maintain healthier skin over time.'
   },
   {
     id: 3,
     title: 'Clinical Skin Rejuvenation Therapies',
-    description: 'We use scientifically proven procedures such as laser treatments, chemical peels, hydrating facials, and collagen-boosting therapies to repair damaged skin, improve tone, and restore a youthful glow.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'As skin ages, collagen production naturally declines, leading to fine lines, uneven texture, dullness, and reduced elasticity.',
+    hasLearnMore: true,
+    expandedContent: 'Our advanced skin rejuvenation treatments may include Laser Skin Rejuvenation, which targets pigmentation, sun damage, uneven skin tone, and texture irregularities; Chemical Peel Treatments, which promote controlled skin renewal by removing damaged outer skin layers and encouraging fresh skin cell growth; Hydrating Facial Therapies that deeply nourish and hydrate the skin while restoring softness and radiance; and Collagen-Stimulating Treatments that support natural collagen production to improve firmness, elasticity, and overall skin quality. These treatments help restore a smoother, healthier, and more youthful appearance.'
   },
   {
     id: 4,
     title: 'Personalized Skincare & Lifestyle Guidance',
-    description: 'Every skin type is different. We provide customized skincare routines, product recommendations, and practical lifestyle advice to help maintain long-term results and prevent recurrence.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Successful skin treatment extends beyond in-clinic procedures.',
+    hasLearnMore: true,
+    expandedContent: 'Every patient receives individualized recommendations based on skin type, existing skin concerns, daily skincare routine, environmental exposure, lifestyle factors, and treatment goals. Our specialists provide guidance on appropriate skincare products, sun protection strategies, hydration recommendations, nutritional support for skin health, and prevention of future skin concerns. This personalized approach helps patients maintain long-term treatment outcomes.'
   },
   {
     id: 5,
     title: 'Stress & Hormonal Skin Support',
-    description: 'Hormonal fluctuations and stress can significantly impact skin health. Our skin treatment plans include targeted solutions to control breakouts, reduce flare-ups, and promote overall skin stability and balance.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Stress and hormonal fluctuations are among the most common triggers of skin problems.',
+    hasLearnMore: true,
+    expandedContent: 'These internal factors may contribute to hormonal acne, excess oil production, eczema flare-ups, psoriasis symptoms, skin sensitivity, and uneven skin tone. Our treatment plans aim to support overall skin stability by addressing contributing factors and implementing targeted therapies that help reduce inflammation and promote healthier skin function.'
   },
   {
     id: 6,
     title: 'Advanced Pigmentation & Scar Correction',
-    description: 'For concerns such as melasma, dark spots, and acne scars, we offer targeted correction treatments designed to even out skin tone and improve texture. These procedures stimulate natural skin renewal and help achieve smoother, clearer skin over time.',
-    hasLearnMore: false,
-    expandedContent: null
-  },
- 
+    description: 'Pigmentation disorders and acne scars can affect both appearance and self-confidence.',
+    hasLearnMore: true,
+    expandedContent: 'We offer advanced treatments for Melasma Treatment to help reduce hormone-related pigmentation and uneven skin tone, Hyperpigmentation Correction to target sunspots, dark patches, and post-inflammatory pigmentation, Acne Scar Treatment to improve the appearance of acne scars and uneven skin texture, and Skin Tone Rejuvenation to support brighter, smoother, and more balanced-looking skin. These treatments work by stimulating natural skin regeneration, encouraging collagen remodeling, and promoting healthier skin renewal processes.'
+  }
 ]
       },
       healingJourney: {
-        title: 'Your Skin Healing Journey: Step by Step',
-        description: 'A transparent, structured approach to deliver safe and lasting skin improvement.',
-        steps: [
-          {
-            id: 1,
-            number: '01',
-            title: 'Initial Consultation (60 Minutes)',
-            duration: 'Step 1',
-            description: 'Comprehensive skin assessment to identify internal and external triggers.',
-            keyActivities: [
-              'Health & lifestyle questionnaire',
-              'Prakriti and dosha analysis',
-              'Skin examination',
-              'Digestive assessment',
-              'Personalized skin treatment plan'
-            ],
-            side: 'right'
-          },
-          {
-            id: 2,
-            number: '02',
-            title: 'Detoxification Phase',
-            duration: 'Step 2',
-            description: 'Internal cleansing to remove toxins and prepare the body for skin repair.',
-            keyActivities: [
-              'Ayurvedic detox medicines',
-              'Diet and food correction',
-              'Panchakarma (if required)',
-              'Lifestyle modifications'
-            ],
-            side: 'left'
-          },
-          {
-            id: 3,
-            number: '03',
-            title: 'Active Skin Treatment Phase',
-            duration: 'Step 3',
-            description: 'Targeted therapies to heal skin, reduce inflammation, and restore glow.',
-            keyActivities: [
-              'Herbal face packs & applications',
-              'Mukha Abhyanga (facial therapy)',
-              'Internal herbal medications',
-              'Stress-relief therapies',
-              'Weekly progress tracking'
-            ],
-            side: 'right'
-          },
-          {
-            id: 4,
-            number: '04',
-            title: 'Maintenance & Follow-Up',
-            duration: 'Step 4',
-            description: 'Ensures long-term skin health and prevents recurrence.',
-            keyActivities: [
-              'Monthly follow-ups',
-              'Seasonal skin care',
-              'Diet & lifestyle support',
-              'Long-term skin wellness plan'
-            ],
-            side: 'left'
-          }
-        ]
-      },
+  title: 'Your Personalized Skin Healing Journey',
+  description: 'At RamaCare Polyclinic, we believe that successful skin treatment begins with understanding the unique factors affecting your skin health. Our structured Ayurvedic skin treatment process is designed to identify root causes, support natural healing, and help achieve long-lasting improvements rather than temporary cosmetic results.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Comprehensive Skin Consultation & Assessment',
+      duration: 'Approximately 60 Minutes',
+      description: 'The first stage of your skin treatment journey involves a detailed consultation with our experienced Ayurvedic specialists. This assessment helps us understand both the visible symptoms and the internal factors that may be contributing to your skin concerns.',
+      keyActivities: [
+        'Detailed medical history review',
+        'Health and lifestyle questionnaire',
+        'Comprehensive skin examination',
+        'Ayurvedic Prakriti (body constitution) assessment',
+        'Dosha imbalance evaluation',
+        'Digestive health analysis',
+        'Identification of possible triggers',
+        'Treatment goal discussion',
+        'Personalized skin treatment roadmap'
+      ],
+      side: 'right'
+    },
+    {
+      id: 2,
+      number: '02',
+      title: 'Detoxification & Internal Cleansing Phase',
+      duration: 'Preparing the Body for Effective Skin Healing',
+      description: 'According to Ayurvedic principles, many chronic skin conditions are associated with internal toxin accumulation, digestive imbalances, and impaired metabolic function. Before focusing on external improvements, it is important to support the body\'s natural cleansing processes.',
+      keyActivities: [
+        'Ayurvedic detoxification therapies',
+        'Herbal cleansing formulations',
+        'Personalized dietary recommendations',
+        'Digestive health support',
+        'Lifestyle modification strategies',
+        'Panchakarma therapies (when clinically appropriate)',
+        'Hydration and nutritional guidance'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Active Skin Treatment & Restoration Phase',
+      duration: 'Targeted Therapies for Visible Skin Improvement',
+      description: 'Once the body is prepared, we begin the active treatment phase focused on improving skin appearance, reducing symptoms, and supporting natural healing mechanisms. The specific therapies selected depend on the patient\'s skin condition, severity, and treatment goals.',
+      keyActivities: [
+        'Herbal Skin Applications',
+        'Mukha Abhyanga (Ayurvedic Facial Therapy)',
+        'Internal Herbal Support',
+        'Stress Management Therapies',
+        'Skin Rejuvenation Support',
+        'Weekly Monitoring & Progress Tracking'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Long-Term Maintenance & Follow-Up Care',
+      duration: 'Protecting Your Results',
+      description: 'Achieving healthier skin is only part of the journey. Long-term maintenance is essential to help preserve results and reduce the likelihood of recurrence.',
+      keyActivities: [
+        'Monthly follow-up consultations',
+        'Seasonal skincare recommendations',
+        'Personalized dietary guidance',
+        'Lifestyle coaching',
+        'Preventive skin health strategies',
+        'Maintenance treatment recommendations',
+        'Long-term wellness planning'
+      ],
+      side: 'left'
+    }
+  ]
+},
       benefits: {
         title: 'Clinically Observed Benefits',
         description: 'Based on 15+ years of providing skin treatment in Dubai.',
@@ -27619,45 +27812,65 @@ healingJourney: {
             description: null
           }
         ],
-        comparisonTitle: 'Skin Treatment vs Conventional Skincare',
-        comparisonDescription: 'Compare our professional skin treatment approach with conventional skincare methods',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Professional Skin Treatment',
-          traditional: 'Conventional Skincare'
-        },
-        comparisonData: [
-          {
-            feature: 'Treatment Method	',
-            ayurvedic: 'Combines internal support, lifestyle guidance, and topical care.',
-            conventional: 'Mainly topical products or procedures'
-          },
-          {
-            feature: 'Results',
-            ayurvedic: 'Gradual improvement with longer-lasting outcomes.',
-            conventional: 'Faster results, but often temporary'
-          },
-          {
-            feature: 'Ingredients & Products',
-            ayurvedic: 'Uses carefully selected, skin-friendly formulations.',
-            conventional: 'Often relies on chemical-based formulations'
-          },
-          {
-            feature: 'Side Effects',
-            ayurvedic: 'Generally minimal when professionally supervised.',
-            conventional: 'Possible irritation, dryness, or sensitivity'
-          },
-          {
-            feature: 'Skin Care Scope',
-            ayurvedic: 'Looks at overall skin balance and function.',
-            conventional: 'Targets specific skin issues only.'
-          },
-          {
-            feature: 'Long-Term Safety',
-            ayurvedic: 'Suitable for extended skin care plans.',
-            conventional: 'Limited for prolonged or repeated use'
-          }
-        ]
+       comparisonTitle: 'Skin Treatment vs Conventional Skincare',
+comparisonDescription: 'Understanding the Difference Between Professional Skin Treatment and Conventional Skincare',
+comparisonHeaders: {
+  feature: 'Aspect',
+  ourTreatment: 'Professional Skin Treatment',
+  traditional: 'Conventional Skincare'
+},
+comparisonData: [
+  {
+    feature: 'Approach',
+    ayurvedic: 'Personalized treatment plan based on skin assessment, medical history, lifestyle factors, and individual concerns.',
+    conventional: 'Typically focuses on general skincare products designed for broad use.'
+  },
+  {
+    feature: 'Primary Goal',
+    ayurvedic: 'Improve overall skin health, balance, and long-term skin function.',
+    conventional: 'Manage specific cosmetic concerns or daily skincare needs.'
+  },
+  {
+    feature: 'Assessment Process',
+    ayurvedic: 'Includes professional evaluation to identify contributing factors affecting the skin.',
+    conventional: 'Usually self-selected products without professional diagnosis.'
+  },
+  {
+    feature: 'Treatment Strategy',
+    ayurvedic: 'May combine topical therapies, lifestyle guidance, skin treatments, and ongoing monitoring.',
+    conventional: 'Primarily relies on cleansers, moisturizers, serums, and cosmetic products.'
+  },
+  {
+    feature: 'Customization Level',
+    ayurvedic: 'Highly individualized according to skin type, condition, and treatment goals.',
+    conventional: 'Generally standardized formulations for common skin concerns.'
+  },
+  {
+    feature: 'Management of Chronic Skin Conditions',
+    ayurvedic: 'Can provide structured support for conditions such as acne, pigmentation, eczema, and sensitive skin.',
+    conventional: 'May help manage symptoms but often lacks individualized medical guidance.'
+  },
+  {
+    feature: 'Monitoring & Follow-Up',
+    ayurvedic: 'Regular reviews and treatment adjustments based on progress.',
+    conventional: 'Usually self-managed without professional follow-up.'
+  },
+  {
+    feature: 'Skin Health Focus',
+    ayurvedic: 'Addresses skin barrier function, hydration, inflammation, and overall skin wellness.',
+    conventional: 'Often focuses on visible cosmetic improvements.'
+  },
+  {
+    feature: 'Long-Term Planning',
+    ayurvedic: 'Designed to support sustainable skin health and maintenance.',
+    conventional: 'Frequently aimed at short-term skincare routines.'
+  },
+  {
+    feature: 'Professional Supervision',
+    ayurvedic: 'Delivered under the guidance of qualified healthcare professionals.',
+    conventional: 'Typically purchased and used independently.'
+  }
+]
       },
       pricing: {
         title: 'Transparent Pricing & Skin Treatment Packages',
@@ -28004,12 +28217,11 @@ healingJourney: {
       ]
     }
   },
-
     'aesthetic-dermatology-dubai-hair-treatment': {
       hero: {
-        title: 'Hair Treatment in Dubai for Hair Fall Control & Natural Regrowth ',
-        subtitle: 'Stop Hair Fall, Strengthen Roots & Restore Healthy Hair with Expert Care',
-        description: 'If you\'re experiencing hair fall, thinning, dandruff, or scalp issues, our professional hair treatment in Dubai is designed to address the real cause—not just temporary symptoms. At our DHA-licensed clinic, we offer personalized hair and scalp treatments approved by medical expertise, modern techniques, and years of proven results.',
+        title: 'Effective Hair Fall & Scalp Treatments Tailored to Your Needs ',
+        subtitle: '',
+        description: 'Noticing more hair on your pillow, in the shower drain, or on your hairbrush?Hair fall can affect both men and women at any age and is often caused by a combination of factors such as stress, hormonal changes, genetics, nutritional deficiencies, scalp conditions, and lifestyle habits. At RamaCare Polyclinic, we offer personalized hair treatment in Dubai designed to identify the factors contributing to your hair concerns and create a treatment plan that supports healthier hair and scalp function.Rather than focusing only on the visible symptoms, our approach aims to improve overall scalp health, strengthen hair roots, and support natural hair growth over time. Whether you are experiencing hair thinning, excessive hair shedding, dandruff, scalp irritation, weak hair roots, or reduced hair density, our experienced healthcare professionals provide individualized care based on your condition and treatment goals.',
         rating: '500+ Happy Clients',
        
         ctaButtons: {
@@ -28038,9 +28250,207 @@ healingJourney: {
           show: true
         }
       },
+      professionalBenefits: {
+        title: 'Benefits of Professional Hair Treatment in Dubai',
+        intro: 'Supporting Healthier Hair and Scalp Function\n\nHair concerns such as excessive hair fall, thinning hair, dandruff, scalp irritation, and reduced hair density can affect both appearance and confidence. Professional hair treatment focuses on improving scalp health, strengthening existing hair, and supporting healthier hair growth over time.\n\nWhile results vary from person to person, many patients report noticeable improvements in hair quality, scalp condition, and overall hair health when following a personalized treatment plan.',
+        points: [
+          {
+            id: 1,
+            title: 'Reduced Hair Fall',
+            description: 'One of the primary goals of hair treatment is to help manage excessive hair shedding.\n\nHair fall can occur due to stress, hormonal changes, nutritional deficiencies, scalp conditions, genetics, and lifestyle factors. Through professional assessment and targeted treatment strategies, patients may experience a reduction in daily hair shedding and improved hair stability.',
+            benefits: [
+              'Less hair fall during washing and brushing',
+              'Reduced hair breakage',
+              'Improved hair retention',
+              'Stronger hair growth cycle'
+            ]
+          },
+          {
+            id: 2,
+            title: 'Improved Hair Thickness & Density',
+            description: 'Hair thinning is a common concern among both men and women.\n\nProfessional hair treatment aims to support healthier hair follicles and create an environment that promotes stronger and fuller-looking hair.',
+            benefits: [
+              'Improved hair volume',
+              'Healthier hair strands',
+              'Better hair texture',
+              'Increased hair density over time'
+            ]
+          },
+          {
+            id: 3,
+            title: 'Healthier Scalp & Reduced Dandruff',
+            description: 'A healthy scalp provides the foundation for healthy hair growth.\n\nConditions such as dandruff, excess oil production, scalp irritation, and buildup can negatively affect scalp comfort and hair quality.\n\nProfessional scalp treatments help maintain a cleaner and healthier scalp environment.',
+            benefits: [
+              'Reduced scalp flaking',
+              'Less itching and irritation',
+              'Improved scalp hygiene',
+              'Better scalp comfort',
+              'Enhanced scalp balance'
+            ]
+          },
+          {
+            id: 4,
+            title: 'Stronger Hair Roots',
+            description: 'Weak hair roots may contribute to increased shedding and reduced hair strength.\n\nHair treatment programs often focus on improving scalp condition and supporting stronger hair anchoring within the follicles.',
+            benefits: [
+              'Improved hair resilience',
+              'Reduced hair fragility',
+              'Better root support',
+              'Healthier hair growth environment'
+            ]
+          },
+          {
+            id: 5,
+            title: 'Improved Hair Growth Cycle',
+            description: 'Hair naturally grows in cycles. Stress, illness, hormonal changes, and other factors can disrupt this process and contribute to excessive shedding or slower growth.\n\nPersonalized treatment plans are designed to support normal hair growth patterns and overall scalp wellness.',
+            benefits: [
+              'Support for healthy hair growth',
+              'Improved hair quality',
+              'Better follicle function',
+              'Long-term hair health support'
+            ]
+          },
+          {
+            id: 6,
+            title: 'Enhanced Hair Quality & Appearance',
+            description: 'Beyond managing hair fall, many patients seek treatment to improve the overall appearance and feel of their hair.\n\nHealthier hair often appears stronger, smoother, and easier to manage.',
+            benefits: [
+              'Improved shine',
+              'Better texture',
+              'Reduced breakage',
+              'Stronger-looking hair',
+              'Improved manageability'
+            ]
+          },
+          {
+            id: 7,
+            title: 'Better Scalp Health',
+            description: 'The condition of the scalp directly affects hair quality and growth.\n\nProfessional treatment focuses on addressing scalp concerns such as excess oil production, dry scalp, dandruff, scalp irritation, and scalp buildup. Maintaining scalp health helps create a supportive environment for healthier hair.'
+          },
+          {
+            id: 8,
+            title: 'Personalized Treatment for Individual Needs',
+            description: 'Every person experiences hair concerns differently.\n\nA key advantage of professional hair treatment is the ability to develop a customized plan based on hair type, scalp condition, medical history, lifestyle factors, and treatment goals. This individualized approach helps ensure recommendations are relevant to each patient\'s unique situation.'
+          },
+          {
+            id: 9,
+            title: 'Long-Term Hair Wellness Support',
+            description: 'Hair health is an ongoing process rather than a one-time treatment.\n\nProfessional follow-up care, lifestyle guidance, and personalized recommendations help patients maintain improvements and support healthier hair over the long term.'
+          }
+        ]
+      },
+      whyChoose: {
+        title: 'Why Patients Choose Professional Hair Treatment',
+        points: [
+          'Non-surgical approach',
+          'Personalized treatment plans',
+          'Professional supervision',
+          'Focus on scalp health',
+          'Long-term hair wellness support',
+          'Suitable for men and women',
+          'Comprehensive hair and scalp assessment',
+          'Ongoing monitoring and follow-up care'
+        ]
+      },
+      causesSection: {
+        title: 'What Causes Hair Fall and Hair Loss?',
+        intro: 'Understanding the Root Causes of Hair Problems\n\nHair fall is one of the most common concerns affecting both men and women. While losing a small amount of hair daily is a normal part of the hair growth cycle, excessive shedding, thinning hair, or noticeable bald patches may indicate an underlying issue that requires professional attention.\n\nMany people focus only on treating the visible symptoms of hair loss, but understanding the cause is often the first step toward healthier hair and long-term improvement.',
+        causes: [
+          {
+            id: 1,
+            title: 'Genetics and Hereditary Hair Loss',
+            description: 'Family history plays a significant role in many cases of hair loss. Male pattern hair loss and female pattern hair loss can gradually develop over time, leading to thinning hair, a receding hairline, or reduced hair density.\n\nEarly assessment can help identify the extent of hair loss and support appropriate treatment planning.'
+          },
+          {
+            id: 2,
+            title: 'Stress and Lifestyle Factors',
+            description: 'Modern lifestyles often expose individuals to high levels of stress, irregular sleep patterns, and demanding schedules. Chronic stress may affect the normal hair growth cycle and contribute to increased shedding.',
+            factors: [
+              'Work-related pressure',
+              'Emotional stress',
+              'Lack of sleep',
+              'Poor dietary habits',
+              'Physical exhaustion'
+            ]
+          },
+          {
+            id: 3,
+            title: 'Hormonal Changes',
+            description: 'Hormonal fluctuations can significantly impact hair health. Changes in hormone levels may affect hair growth patterns and contribute to thinning or excessive shedding.',
+            factors: [
+              'Pregnancy and postpartum changes',
+              'Menopause',
+              'Thyroid imbalances',
+              'Polycystic Ovary Syndrome (PCOS)',
+              'Age-related hormonal changes'
+            ]
+          },
+          {
+            id: 4,
+            title: 'Nutritional Deficiencies',
+            description: 'Healthy hair requires a consistent supply of essential nutrients. Poor nutrition or certain deficiencies may weaken hair structure and slow the natural growth process.',
+            nutrients: [
+              'Iron',
+              'Protein',
+              'Zinc',
+              'Vitamin D',
+              'Biotin',
+              'B Vitamins'
+            ],
+            closing: 'A balanced diet supports both scalp health and healthy hair growth.'
+          },
+          {
+            id: 5,
+            title: 'Dandruff and Scalp Conditions',
+            description: 'The condition of the scalp directly influences hair quality. Persistent dandruff, scalp irritation, excessive oil production, and scalp inflammation can create an unhealthy environment for hair follicles.',
+            concerns: [
+              'Dandruff',
+              'Oily scalp',
+              'Dry scalp',
+              'Itching and irritation',
+              'Scalp buildup'
+            ],
+            closing: 'Maintaining a healthy scalp is an important part of supporting healthy hair growth.'
+          },
+          {
+            id: 6,
+            title: 'Hair Damage from Styling and Chemical Treatments',
+            description: 'Frequent use of heat styling tools, chemical treatments, hair coloring, and harsh hair products may contribute to hair breakage and weakened hair strands.',
+            causes: [
+              'Excessive blow-drying',
+              'Hair straightening',
+              'Frequent coloring',
+              'Chemical treatments',
+              'Tight hairstyles'
+            ],
+            closing: 'Protecting hair from unnecessary damage can help preserve hair strength and appearance.'
+          },
+          {
+            id: 7,
+            title: 'Environmental Factors in Dubai',
+            description: 'Dubai\'s climate can present unique challenges for hair and scalp health. Exposure to heat, sun, humidity, dust, and hard water may affect both the scalp and hair quality over time.',
+            factors: [
+              'Dryness',
+              'Scalp irritation',
+              'Hair breakage',
+              'Increased hair shedding',
+              'Reduced hair manageability'
+            ]
+          },
+          {
+            id: 8,
+            title: 'Medical Conditions and Hair Health',
+            description: 'Certain health conditions can influence the hair growth cycle and contribute to hair loss or thinning. This is why a professional consultation is important when hair loss becomes persistent or excessive.\n\nA comprehensive assessment helps identify potential contributing factors and allows for a personalized treatment approach.'
+          }
+        ],
+        whyIdentify: {
+          title: 'Why Identifying the Cause Matters',
+          description: 'Hair loss is rarely caused by a single factor. In many cases, genetics, lifestyle habits, nutrition, scalp health, stress, and environmental influences work together to affect hair growth.\n\nBy understanding the root causes of hair fall, it becomes possible to create a more targeted treatment plan focused on improving scalp health, supporting stronger hair growth, and maintaining long-term hair wellness.\n\nIf you are experiencing ongoing hair fall, thinning hair, dandruff, or scalp concerns, an early assessment can help identify potential causes and provide guidance on the most appropriate treatment options for your needs.'
+        }
+      },
       doctors: {
        doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+          DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -28071,8 +28481,8 @@ healingJourney: {
       overview: {
         title: 'Understanding Hair Treatment in Dubai',
         problemIntro: {
-          title: 'Common Hair Problems',
-          description: 'Many individuals seeking hair treatment in Dubai feel frustrated after trying shampoos, oils, or temporary solutions that only mask the problem. In most cases, hair loss and scalp concerns begin beneath the surface and require professional evaluation and targeted care.'
+          title: 'Common Hair Problems We Treat',
+          description: 'Many individuals seeking hair treatment in Dubai feel frustrated after trying numerous shampoos, oils, supplements, and home remedies without achieving lasting improvement.In many cases, hair loss and scalp concerns develop gradually and may be influenced by multiple underlying factors. Professional evaluation helps identify these contributing factors and allows for a more targeted treatment approach.'
         },
         solutionIntro: {
           title: 'Comprehensive Hair Treatment in Dubai',
@@ -28082,71 +28492,98 @@ healingJourney: {
           {
             id: 1,
             title: 'What is Hair Treatment?',
-            description: 'Hair treatment in Dubai involves a medically supervised approach to treating hair fall, thinning, dandruff, scalp infections, and poor hair growth by identifying internal and external triggers and promoting natural hair recovery.'
+            description: 'Hair treatment is a professional approach to managing hair fall, hair thinning, scalp concerns, and hair growth issues through a combination of medical assessment, scalp care, lifestyle guidance, and personalized treatment planning. Many people notice gradual changes in their hair, such as increased shedding, reduced volume, slower growth, dandruff, or visible thinning. While these issues may appear to affect only the hair, they are often influenced by factors such as genetics, stress, hormonal changes, nutritional deficiencies, scalp health, and lifestyle habits. At RamaCare Polyclinic, our hair treatment programs focus on identifying the factors contributing to hair and scalp concerns and creating individualized treatment plans designed to support healthier hair growth and long-term scalp wellness.Rather than relying solely on temporary solutions, we aim to improve the overall environment needed for stronger, healthier hair.'
           },
-          {
-            id: 2,
-            title: 'Who is it for?',
-            description: 'Hair treatment is suitable for individuals experiencing:',
-            listItems: [
-              'Excessive hair fall',
-              'Thinning hair or bald patches',
-              'Dandruff and itchy scalp',
-              'Weak hair roots',
-              'Stress-related hair loss',
-              'Hormonal or lifestyle-related hair issues'
-            ]
-          },
-          {
-            id: 3,
-            title: 'Duration',
-            description: 'Initial improvement: 4–6 weeks , Visible strengthening: 2–3 months , Long-term results: 4–6 months (varies by condition)'
-          }
+         {
+  id: 2,
+  title: 'Who Can Benefit from Hair Treatment?',
+  description: 'Hair treatment may be suitable for both men and women experiencing a variety of hair and scalp concerns.',
+  listItems: [
+    'Excessive hair fall',
+    'Hair thinning and reduced hair density',
+    'Early-stage hair loss',
+    'Weak hair roots',
+    'Dandruff and scalp flaking',
+    'Itchy or irritated scalp',
+    'Oily scalp conditions',
+    'Stress-related hair shedding',
+    'Hormonal hair loss',
+    'Lifestyle-related hair concerns',
+    'Slow hair growth',
+    'Post-illness hair shedding'
+  ]
+},
+{
+  id: 3,
+  title: 'How Long Does Hair Treatment Take?',
+  description: 'Hair growth is a gradual biological process, and visible improvements often take time. The treatment duration depends on factors such as the cause of hair loss, scalp condition, overall health, genetics, and treatment consistency.'
+},
+{
+  id: 4,
+  title: 'Typical Treatment Timeline',
+  listItems: [
+    'Initial Improvement – 4–6 Weeks',
+    'Reduced Hair Fall – 6–8 Weeks',
+    'Visible Hair Strengthening – 2–3 Months',
+    'Improved Hair Density – 3–6 Months',
+    'Long-Term Hair Health Support – Ongoing'
+  ]
+}
         ],
-        rootCauses: [
-          {
-            id: 1,
-            title: 'Weak hair roots & excessive shedding',
-            description: ' Leading to visible thinning and reduced hair volume',
-            severity: 'High',
-            severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
-          },
-          {
-            id: 2,
-            title: 'Poor scalp circulation',
-            description: ' Limiting nutrient delivery to hair follicles',
-            severity: 'High',
-            severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
-          },
-          {
-            id: 3,
-            title: 'Dandruff & scalp buildup',
-            description: 'Causing itching, inflammation, and unhealthy hair growth',
-            severity: 'Medium',
-            severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-          },
-          {
-            id: 4,
-            title: 'Hormonal & stress-related hair loss',
-            description: ' Disrupting the natural hair growth cycle',
-            severity: 'Medium',
-            severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-          },
-          {
-            id: 5,
-            title: 'Nutritional deficiencies',
-            description: ' Weakening hair structure and slowing regrowth',
-            severity: 'Medium',
-            severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-          }
-        ],
-        quickFacts: [
-          { label: 'Treatment Type', value: 'Non-surgical' },
-          { label: 'Anesthesia', value: 'Not required' },
-          { label: 'Downtime', value: 'None' },
-          { label: 'Side Effects', value: 'Minimal to none '
-          }
-        ],
+       rootCauses: [
+  {
+    id: 1,
+    title: 'Weak Hair Roots & Excessive Hair Shedding',
+    description: 'One of the most common reasons patients seek treatment is persistent hair fall. Weak hair roots can cause increased shedding, reduced volume, and noticeable thinning over time. Common signs include hair strands on pillows and clothing, excessive shedding during washing, reduced hair density, weak and fragile hair, and loss of hair volume.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+  },
+  {
+    id: 2,
+    title: 'Poor Scalp Circulation',
+    description: 'Healthy hair growth depends on a healthy scalp environment. Reduced circulation may affect the delivery of nutrients and oxygen to hair follicles, potentially impacting hair strength and growth cycles. Common signs include slow hair growth, weak hair strands, thinning areas, and reduced hair vitality.',
+    severity: 'High',
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+  },
+  {
+    id: 3,
+    title: 'Dandruff & Scalp Build-Up',
+    description: 'Dandruff, excess oil, and scalp build-up can create an unhealthy scalp environment and contribute to irritation, itching, and hair quality concerns. Common signs include white flakes, itchy scalp, oily scalp, redness and irritation, and scalp discomfort.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+  },
+  {
+    id: 4,
+    title: 'Stress & Hormonal Hair Loss',
+    description: 'Stress and hormonal fluctuations are among the most common contributors to temporary hair shedding and hair growth disruption. Common signs include sudden hair fall, diffuse thinning, increased shedding after stressful events, and hormone-related hair changes.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+  },
+  {
+    id: 5,
+    title: 'Nutritional Deficiencies & Hair Health',
+    description: 'Hair follicles require adequate nutrition to support healthy growth. Deficiencies in essential nutrients may contribute to weak, brittle hair and slower regrowth. Common signs include brittle hair, slow growth, hair breakage, reduced hair thickness, and dull-looking hair.',
+    severity: 'Medium',
+    severityColor: 'bg-[#FED7AA] text-[#9A3412]'
+  },
+  {
+    id: 6,
+    title: 'Why Early Hair Treatment Matters',
+    description: 'Hair concerns are often easier to manage when identified early. Delaying treatment may allow underlying issues to progress, potentially making improvement more challenging over time. Seeking professional guidance at the first signs of excessive hair fall, thinning, scalp irritation, or reduced hair density can help create a personalized treatment plan and support better long-term hair health outcomes.',
+    severity: 'Important',
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
+  }
+],
+      quickFacts: [
+  { label: 'Treatment Type', value: 'Non-surgical' },
+  { label: 'Consultation', value: 'Personalized hair and scalp assessment' },
+  { label: 'Anesthesia', value: 'Not required' },
+  { label: 'Downtime', value: 'None' },
+  { label: 'Recovery Period', value: 'Immediate return to daily activities' },
+  { label: 'Suitable For', value: 'Men and women' },
+  { label: 'Primary Focus', value: 'Hair fall control, scalp health, hair strengthening' },
+  { label: 'Follow-Up Care', value: 'Customized according to individual needs' }
+],
        approachCards: [
   {
     id: 1,
@@ -28185,65 +28622,84 @@ healingJourney: {
   }
 ]
       },
-      healingJourney: {
-        title: 'Your Hair Recovery Journey',
-        description: 'Comprehensive approach to restore healthy hair growth.',
-        steps: [
-          {
-            id: 1,
-            number: '01',
-            title: 'Initial Consultation (60 Minutes)',
-            duration: 'Step 1',
-            description: null,
-            keyActivities: [
-              'Hair & scalp examination',
-              'Medical & lifestyle assessment',
-              'Personalized treatment plan'
-            ],
-            side: 'right'
-          },
-          {
-            id: 2,
-            number: '02',
-            title: 'Scalp Preparation Phase',
-            duration: 'Step 2',
-            description: null,
-            keyActivities: [
-              'Scalp cleansing treatments',
-              'Hair care routine correction',
-              'Nutritional & lifestyle guidance'
-            ],
-            side: 'left'
-          },
-          {
-            id: 3,
-            number: '03',
-            title: 'Active Hair Treatment Phase',
-            duration: 'Step 3',
-            description: null,
-            keyActivities: [
-              'Professional scalp therapies',
-              'Hair-strengthening applications',
-              'Stress & lifestyle support',
-              'Progress monitoring'
-            ],
-            side: 'right'
-          },
-          {
-            id: 4,
-            number: '04',
-            title: 'Maintenance & Follow-Up',
-            duration: 'Step 4',
-            description: null,
-            keyActivities: [
-              'Monthly check-ups',
-              'Long-term hair care guidance',
-              'Prevention of recurrence'
-            ],
-            side: 'left'
-          }
-        ]
-      },
+    healingJourney: {
+  title: 'Your Personalized Hair Recovery Journey',
+  description: 'Healthy hair growth does not happen overnight. Hair loss, thinning hair, dandruff, and scalp concerns often develop gradually due to multiple factors such as genetics, stress, hormonal changes, nutritional deficiencies, scalp conditions, and lifestyle habits. At RamaCare Polyclinic, we follow a structured and personalized hair treatment process designed to identify contributing factors, improve scalp health, strengthen hair roots, and support healthier hair growth over time. Every treatment plan is tailored to the individual because no two patients experience hair concerns in exactly the same way.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Comprehensive Hair & Scalp Consultation',
+      duration: 'Approximately 60 Minutes',
+      description: 'Your journey begins with a detailed consultation and hair assessment performed by our healthcare professionals. This stage helps us understand your concerns, evaluate scalp health, and identify factors that may be contributing to hair fall or poor hair growth. Many hair concerns have multiple contributing factors. A thorough evaluation helps ensure that treatment recommendations are based on your individual needs rather than a one-size-fits-all approach.',
+      keyActivities: [
+        'Detailed hair and scalp examination',
+        'Review of medical history',
+        'Lifestyle and stress assessment',
+        'Evaluation of hair fall patterns',
+        'Assessment of scalp condition',
+        'Review of current hair care routine',
+        'Discussion of treatment goals',
+        'Development of a personalized treatment strategy'
+      ],
+      side: 'right'
+    },
+    {
+      id: 2,
+      number: '02',
+      title: 'Scalp Preparation & Hair Health Optimization',
+      duration: 'Creating the Right Environment for Healthy Hair Growth',
+      description: 'Healthy hair starts with a healthy scalp. Before beginning active treatment, it is important to improve scalp condition and address factors that may interfere with hair growth. This stage focuses on preparing the scalp and supporting overall hair health.',
+      keyActivities: [
+        'Professional scalp cleansing treatments',
+        'Removal of excess oil and scalp buildup',
+        'Hair care routine assessment',
+        'Personalized hair care recommendations',
+        'Nutritional guidance',
+        'Hydration support',
+        'Lifestyle modification advice',
+        'Improved scalp hygiene and follicle environment'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Active Hair Treatment Phase',
+      duration: 'Supporting Hair Strength, Scalp Health & Hair Growth',
+      description: 'Once the scalp has been properly prepared, active treatment begins. The exact therapies recommended depend on the individual\'s condition, severity of hair loss, scalp health, and treatment goals. Our treatment plans focus on improving hair quality, reducing excessive shedding, and supporting healthier hair growth.',
+      keyActivities: [
+        'Professional scalp therapies',
+        'Hair strengthening applications',
+        'Hair growth support programs',
+        'Stress and lifestyle management',
+        'Progress monitoring',
+        'Reduced hair shedding',
+        'Improved scalp health',
+        'Support for natural hair growth'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Maintenance & Long-Term Hair Care',
+      duration: 'Protecting Your Results',
+      description: 'Maintaining healthy hair requires ongoing care and monitoring. The maintenance phase is designed to help patients preserve improvements and reduce the risk of future hair concerns.',
+      keyActivities: [
+        'Monthly follow-up appointments',
+        'Scalp health assessments',
+        'Hair care routine reviews',
+        'Long-term hair wellness planning',
+        'Nutritional guidance',
+        'Lifestyle recommendations',
+        'Preventive hair care strategies',
+        'Ongoing professional guidance'
+      ],
+      side: 'left'
+    }
+  ]
+},
       benefits: {
         title: 'Clinically-Observed Benefits',
         description: 'Based on years of providing hair treatment in Dubai.',
@@ -28568,8 +29024,8 @@ healingJourney: {
   
     'aesthetic-dermatology-dubai-laser-treatment': {
       hero: {
-        subtitle: 'Safe, Advanced & Clinically Proven Laser Solutions for Skin & Hair',
-        description: 'Experience advanced laser treatment in Dubai designed to deliver visible, long-lasting results with maximum safety and minimal downtime. Our DHA-licensed medical laser clinic offers personalized laser solutions for hair removal, skin rejuvenation, pigmentation, acne scars, and anti-aging—using FDA-approved laser technology and expert medical supervision.',
+        subtitle: 'Advanced Laser Treatments for Hair Removal, Skin Rejuvenation & Aesthetic Concerns',
+        description: 'Looking for safe and effective laser treatment in Dubai?At RamaCare Polyclinic, we provide personalized laser solutions designed to address a wide range of skin and hair concerns, including unwanted hair, pigmentation, acne scars, uneven skin tone, sun damage, and visible signs of aging. Using FDA-approved laser technology within a DHA-licensed medical facility, our experienced team develops customized treatment plans based on your skin type, treatment goals, and individual concerns.Every procedure begins with a detailed consultation to help determine the most suitable laser treatment approach for you. Whether you are considering laser hair removal, skin rejuvenation, pigmentation correction, acne scar treatment, or anti-aging laser procedures, our goal is to deliver safe, effective, and personalized care with minimal disruption to your daily routine.',
         rating: '500+ Happy Clients',
        
         ctaButtons: {
@@ -28599,6 +29055,235 @@ healingJourney: {
         medicalNotice: {
           text: 'Medical Notice: Laser treatment results may vary based on skin type, condition severity, and adherence to post-treatment care. All procedures are performed at a DHA-licensed facility following Dubai healthcare regulations.',
           show: true
+        }
+      },
+      sessionsAndResults: {
+        title: 'How Many Laser Sessions Are Needed?',
+        intro: 'The number of sessions required depends on several factors, including:',
+        factors: [
+          'Type of laser treatment',
+          'Treatment area',
+          'Skin condition',
+          'Hair type and density',
+          'Individual treatment goals',
+          'Skin response'
+        ],
+        note: 'Some concerns may improve after a few sessions, while others may require a more comprehensive treatment plan for optimal results.',
+        whenResults: {
+          title: 'When Can Results Be Seen?',
+          description: 'Results vary depending on the treatment being performed.',
+          examples: [
+            'Laser Hair Removal results develop gradually over multiple sessions.',
+            'Pigmentation treatments may show progressive improvement as the skin naturally renews.',
+            'Acne scar treatments often require multiple sessions for noticeable texture improvement.',
+            'Skin rejuvenation treatments may produce gradual enhancements in skin tone and texture over time.'
+          ],
+          closing: 'Your specialist will discuss realistic expectations during your consultation.'
+        }
+      },
+      professionalBenefits: {
+        title: 'Benefits of Laser Treatment in Dubai',
+        intro: 'Why Many Patients Choose Laser Treatment for Skin & Hair Concerns\n\nLaser treatment has become one of the most popular non-surgical solutions for addressing unwanted hair, pigmentation, acne scars, skin texture concerns, and visible signs of aging. Modern laser technology allows treatments to be customized according to individual skin types and treatment goals, helping patients achieve noticeable improvements with minimal disruption to daily life.\n\nWhile results vary from person to person, laser treatments are widely used because of their precision, versatility, and ability to target specific concerns without affecting surrounding tissue.',
+        points: [
+          {
+            id: 1,
+            title: 'Long-Term Hair Reduction',
+            description: 'One of the most common reasons patients seek laser treatment is to reduce unwanted facial and body hair.\n\nUnlike shaving, waxing, or temporary hair removal methods, laser technology targets hair follicles directly, helping reduce future hair growth over time.',
+            benefits: [
+              'Reduced hair regrowth',
+              'Fewer ingrown hairs',
+              'Smoother skin',
+              'Less need for frequent shaving or waxing',
+              'Long-lasting results with maintenance when required'
+            ]
+          },
+          {
+            id: 2,
+            title: 'Improved Skin Texture & Rejuvenation',
+            description: 'Laser skin rejuvenation treatments are designed to support healthier-looking skin by addressing uneven texture, enlarged pores, dullness, and early signs of aging.',
+            benefits: [
+              'Smoother skin texture',
+              'Improved skin tone',
+              'Enhanced skin radiance',
+              'Reduction in rough skin areas',
+              'Fresher and healthier appearance'
+            ]
+          },
+          {
+            id: 3,
+            title: 'Improvement in Pigmentation & Uneven Skin Tone',
+            description: 'Pigmentation concerns such as dark spots, sun damage, and uneven skin tone can affect overall skin appearance.\n\nLaser treatments may help target excess pigment and support a more even complexion.',
+            benefits: [
+              'Reduction in visible dark spots',
+              'Improved skin clarity',
+              'More even skin tone',
+              'Support for natural skin renewal'
+            ]
+          },
+          {
+            id: 4,
+            title: 'Acne Scar & Skin Resurfacing Benefits',
+            description: 'Acne scars often remain long after active breakouts have resolved.\n\nLaser resurfacing treatments may help improve skin texture by supporting collagen remodeling and skin renewal processes.',
+            benefits: [
+              'Improved skin smoothness',
+              'Reduced appearance of certain acne scars',
+              'Enhanced skin texture',
+              'More even-looking skin surface'
+            ]
+          },
+          {
+            id: 5,
+            title: 'Precision Treatment with Advanced Technology',
+            description: 'Modern laser systems are designed to target specific treatment areas with accuracy.\n\nThis precision helps maximize treatment effectiveness while minimizing unnecessary impact on surrounding tissue.',
+            benefits: [
+              'Targeted treatment delivery',
+              'Greater treatment accuracy',
+              'Customized treatment settings',
+              'Suitable options for different skin types'
+            ]
+          },
+          {
+            id: 6,
+            title: 'Minimal Downtime & Faster Recovery',
+            description: 'Many laser procedures require little to no downtime, allowing patients to return to normal activities relatively quickly.\n\nRecovery experiences vary depending on the treatment performed and individual skin response.',
+            benefits: [
+              'Convenient treatment sessions',
+              'Minimal interruption to daily routines',
+              'Non-surgical approach',
+              'Gradual and natural-looking improvements'
+            ]
+          },
+          {
+            id: 7,
+            title: 'Personalized Treatment for Individual Needs',
+            description: 'No two patients have identical skin concerns or treatment goals.\n\nProfessional laser treatment allows care plans to be customized according to:\n\n- Skin type\n- Hair type\n- Treatment area\n- Medical history\n- Lifestyle considerations\n- Desired outcomes\n\nThis personalized approach helps ensure treatment recommendations are appropriate for each individual.'
+          },
+          {
+            id: 8,
+            title: 'Enhanced Confidence & Quality of Life',
+            description: 'Many patients choose laser treatment not only for cosmetic reasons but also because improvements in skin appearance and hair reduction can positively impact confidence and overall well-being.\n\nFeeling comfortable in your skin can contribute to a more positive self-image and greater confidence in everyday life.'
+          }
+        ]
+      },
+      whyChoose: {
+        title: 'Why Patients Choose Laser Treatment in Dubai',
+        points: [
+          'Non-surgical treatment option',
+          'Minimal downtime',
+          'Personalized treatment plans',
+          'Advanced laser technology',
+          'Suitable for a variety of skin concerns',
+          'Professional medical supervision',
+          'Long-term treatment benefits',
+          'Safe and effective treatment protocols'
+        ],
+        note: 'Treatment outcomes vary depending on factors such as skin type, treatment area, condition severity, individual response, and adherence to post-treatment recommendations. A consultation is necessary to determine suitability and expected results.'
+      },
+      conditionsWeTreat: {
+        title: 'Conditions We Treat with Laser Treatment in Dubai',
+        intro: 'Personalized Laser Solutions for a Wide Range of Skin & Hair Concerns\n\nLaser treatment is used to address various cosmetic and dermatological concerns by targeting specific skin layers or hair follicles with precision. At RamaCare Polyclinic, treatment recommendations are customized according to individual skin type, condition severity, and treatment goals.',
+        conditions: [
+          {
+            id: 1,
+            title: 'Laser Hair Removal',
+            description: 'Unwanted facial and body hair can require constant shaving, waxing, or threading. Laser hair removal targets hair follicles to help reduce future hair growth and provide longer-lasting results.',
+            items: [
+              'Face',
+              'Upper Lip',
+              'Chin',
+              'Underarms',
+              'Arms',
+              'Legs',
+              'Back',
+              'Chest',
+              'Bikini Area'
+            ]
+          },
+          {
+            id: 2,
+            title: 'Pigmentation & Dark Spot Treatment',
+            description: 'Pigmentation can develop due to sun exposure, hormonal changes, aging, or previous skin inflammation. Laser treatment may help improve the appearance of uneven skin tone and visible pigmentation.',
+            items: [
+              'Sunspots',
+              'Age Spots',
+              'Hyperpigmentation',
+              'Melasma',
+              'Post-Inflammatory Pigmentation',
+              'Uneven Skin Tone'
+            ]
+          },
+          {
+            id: 3,
+            title: 'Acne Scar Laser Treatment',
+            description: 'Acne scars can affect skin texture long after active breakouts have healed. Laser resurfacing procedures may help improve skin smoothness and support natural collagen production.',
+            items: [
+              'Atrophic Acne Scars',
+              'Uneven Skin Texture',
+              'Enlarged Pores',
+              'Post-Acne Skin Changes'
+            ]
+          },
+          {
+            id: 4,
+            title: 'Skin Rejuvenation & Anti-Aging Treatments',
+            description: 'Laser technology can be used to improve overall skin quality by addressing visible signs of aging and environmental damage.',
+            items: [
+              'Fine Lines',
+              'Early Wrinkles',
+              'Dull Skin',
+              'Uneven Texture',
+              'Loss of Skin Radiance',
+              'Mild Skin Laxity'
+            ]
+          },
+          {
+            id: 5,
+            title: 'Sun Damage & Uneven Skin Tone',
+            description: "Dubai's climate and year-round sun exposure can contribute to skin discoloration and premature aging.\n\nLaser treatments may help improve the appearance of:",
+            items: [
+              'Sun-Damaged Skin',
+              'Uneven Complexion',
+              'Rough Skin Texture',
+              'Visible Pigmentation'
+            ]
+          },
+          {
+            id: 6,
+            title: 'Enlarged Pores & Texture Concerns',
+            description: 'Laser skin treatments may support smoother-looking skin by helping improve overall texture and reducing the appearance of enlarged pores.',
+            items: [
+              'Rough Skin Surface',
+              'Visible Pores',
+              'Uneven Texture',
+              'Loss of Skin Smoothness'
+            ]
+          },
+          {
+            id: 7,
+            title: 'Vascular Lesions & Spider Veins',
+            description: 'Certain laser technologies can be used to target visible blood vessels and vascular concerns while minimizing impact on surrounding skin.',
+            items: [
+              'Spider Veins',
+              'Facial Redness',
+              'Small Visible Blood Vessels',
+              'Vascular Skin Imperfections'
+            ]
+          },
+          {
+            id: 8,
+            title: 'Ingrown Hair & Razor Bumps',
+            description: 'Repeated shaving and waxing may lead to ingrown hairs and skin irritation.\n\nLaser treatment may help reduce recurring hair growth and minimize irritation caused by traditional hair removal methods.',
+            items: [
+              'Razor Bumps',
+              'Ingrown Hairs',
+              'Post-Shaving Irritation',
+              'Skin Discomfort'
+            ]
+          }
+        ],
+        whyAssessment: {
+          title: 'Why Professional Assessment Matters',
+          description: 'Every skin concern is different. Factors such as skin type, medical history, treatment goals, and previous procedures influence which laser treatment may be most appropriate.\n\nA professional consultation helps determine the safest and most effective treatment plan based on your individual needs and expectations.'
         }
       },
       doctors: {
@@ -28641,204 +29326,230 @@ healingJourney: {
       overview: {
         title: 'Understanding Laser Treatment in Dubai',
         problemIntro: {
-          title: 'Common Laser Treatment Concerns',
-          description: 'Many people searching for laser treatment in Dubai feel confused or hesitant due to inconsistent results, safety concerns, or treatments performed without proper medical supervision. Non-medical clinics and generic laser settings often fail to deliver lasting results and may increase the risk of skin irritation or burns.'
+          title: 'Common Concerns Patients Have About Laser Treatment',
+          description: 'Many people considering laser treatment in Dubai have questions about safety, effectiveness, comfort, and expected results. Understanding these concerns helps patients make informed decisions.'
         },
         solutionIntro: {
           title: 'Advanced Laser Treatment in Dubai',
-          description: 'Our DHA-licensed laser clinic in Dubai delivers safe, precise, and result-oriented laser treatments using FDA-approved technology and expert medical oversight.'
+          description: 'At RamaCare Polyclinic, we believe that successful laser treatment begins with understanding the individual, not just the condition being treated. Every patient has unique skin characteristics, treatment goals, and medical considerations, which is why we follow a personalized approach for all laser procedures.Our DHA-licensed laser clinic in Dubai combines advanced FDA-approved laser technology with professional medical supervision to provide safe, effective, and customized treatment solutions for a wide range of skin and hair concerns.Whether you are seeking laser hair removal, pigmentation correction, acne scar treatment, skin rejuvenation, or anti-aging laser procedures, our goal is to deliver noticeable improvements while prioritizing safety, comfort, and long-term results.'
         },
-        leftCards: [
-          {
-            id: 1,
-            title: 'What is Laser Treatment?',
-            description: 'Laser treatment is a medical procedure that uses focused light energy to target specific skin or hair concerns without damaging surrounding tissue. Laser technology works at a cellular level, making it one of the most effective treatments for long-term skin and hair improvement.'
-          },
-          {
-            id: 2,
-            title: 'Who is it for?',
-            description: 'Laser Treatment is Commonly Used For:',
-            listItems: [
-              'Laser hair removal',
-              'Pigmentation & dark spots',
-              'Acne & acne scars',
-              'Skin rejuvenation & glow',
-              'Removal of vascular lesions and spider veinsFine lines & wrinkles',
-              'Uneven skin tone',
-              'Sun damage',
-              'Ingrown hair & razor bumps'
-            ]
-          },
-          {
-            id: 3,
-            title: 'Who is Laser Treatment Suitable For?',
-            description: 'Laser treatment in Dubai is suitable for:',
-            listItems: [
-              'Men and women of all age groups',
-              'All skin tones and hair types',
-              'Individuals seeking long-term results',
-              'People looking for non-surgical solutions',
-              'Those with busy lifestyles and minimal downtime needs'
-            ]
-          }
-        ],
-       rootCauses: [
+       leftCards: [
+  {
+    id: 1,
+    title: 'What Is Laser Treatment?',
+    description: 'Laser treatment is a non-invasive or minimally invasive medical procedure that uses focused light energy to target specific skin and hair concerns with precision. Modern laser technology can be used to improve skin appearance, reduce unwanted hair, treat pigmentation, minimize acne scars, and support skin rejuvenation while preserving the surrounding tissue. At RamaCare Polyclinic, every laser treatment begins with a detailed consultation and skin assessment to determine the most suitable treatment approach based on your skin type, concerns, and desired outcomes. Laser treatments are widely used because they can provide targeted results with minimal downtime compared to many traditional cosmetic procedures.'
+  },
+  {
+    id: 2,
+    title: 'What Can Laser Treatment Help With?',
+    description: 'Our laser treatment services in Dubai may be recommended for a variety of cosmetic and skin concerns, including:',
+    listItems: [
+      'Laser Hair Removal',
+      'Pigmentation & Dark Spots',
+      'Acne & Acne Scar Treatment',
+      'Skin Rejuvenation & Texture Improvement',
+      'Fine Lines & Early Signs of Aging',
+      'Uneven Skin Tone',
+      'Sun-Damaged Skin',
+      'Enlarged Pores',
+      'Vascular Lesions & Spider Veins',
+      'Ingrown Hair & Razor Bumps'
+    ]
+  },
+  {
+    id: 3,
+    title: 'Who Is Laser Treatment Suitable For?',
+    description: 'Laser treatment may be suitable for many adults looking for non-surgical solutions to skin and hair concerns.',
+    listItems: [
+      'Want long-term hair reduction',
+      'Have pigmentation or uneven skin tone concerns',
+      'Are looking to improve skin texture',
+      'Wish to reduce acne scars',
+      'Want to address early signs of aging',
+      'Prefer non-surgical cosmetic treatments',
+      'Need minimal downtime',
+      'Are seeking personalized treatment options'
+    ]
+  }
+],
+      rootCauses: [
   {
     id: 1,
     title: 'Unwanted Hair with Frequent Regrowth',
-    description: 'Shaving, waxing, and salon lasers offer temporary results, leading to repeated regrowth and skin irritation.',
+    description: 'Shaving, waxing, and temporary hair removal methods often require continuous maintenance. Laser hair removal targets hair follicles to help reduce future hair growth and provide longer-lasting results compared to traditional hair removal methods. Common concerns include frequent shaving, razor bumps, ingrown hairs, skin irritation, and time-consuming maintenance.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
     title: 'Pigmentation & Uneven Skin Tone',
-    description: 'Sun exposure, hormonal changes, and aging can cause dark spots that topical products fail to correct.',
+    description: 'Dark spots, sun damage, and pigmentation can affect skin appearance and confidence. Laser pigmentation treatments may help improve skin clarity by targeting areas of excess pigment while supporting a more even skin tone. Common concerns include sunspots, age spots, uneven complexion, and post-inflammatory pigmentation.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
-    title: 'Acne Scars & Skin Texture Issues',
-    description: 'Deep scars and uneven skin texture often remain untreated with surface-level procedures.',
+    title: 'Acne Scars & Skin Texture Concerns',
+    description: 'Acne scars can remain long after active breakouts have healed. Laser skin resurfacing and rejuvenation treatments may help improve texture, support collagen production, and reduce the appearance of certain types of acne scars. Common concerns include acne scars, enlarged pores, rough skin texture, and uneven skin surface.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
-    title: 'Sensitive Skin Reactions',
-    description: 'Incorrect laser settings can cause redness, burns, or hyperpigmentation—especially on darker or sensitive skin types.',
+    title: 'Sensitive Skin & Treatment Safety',
+    description: 'Many patients worry about how laser treatments may affect sensitive skin. A professional consultation and customized treatment settings help improve treatment safety and suitability for different skin types. Common concerns include skin sensitivity, temporary redness, post-treatment care, and treatment suitability.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 5,
-    title: 'Lack of Medical Customization',
-    description: 'One-size-fits-all laser treatments do not consider individual skin type, concerns, or medical history.',
+    title: 'The Importance of Personalized Treatment Planning',
+    description: 'No two patients have identical skin concerns. Factors such as skin type, medical history, treatment goals, lifestyle, and previous treatments should all be considered before selecting a laser procedure. This individualized approach helps create a treatment plan that is appropriate for each patient\'s unique needs and expectations.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 6,
-    title: 'Outdated Laser Technology',
-    description: 'Many clinics still use older laser machines that are less effective and require more sessions. Advanced laser treatment in Dubai should utilize FDA-approved, latest-generation technology for safer procedures and faster, long-lasting results.',
+    title: 'Why Technology and Professional Expertise Matter',
+    description: 'Modern laser technology allows treatments to be customized according to skin type and treatment goals. When combined with professional assessment, appropriate treatment planning, and follow-up care, laser procedures can provide a safe and effective option for addressing a variety of cosmetic and skin concerns.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
-  },
-  {
-    id: 7,
-    title: 'Unqualified Practitioners',
-    description: 'Laser procedures performed by untrained technicians increase the risk of burns, scarring, and uneven results. Choosing a DHA-licensed clinic in Dubai with medically supervised laser treatments ensures safety, precision, and optimal outcomes.',
-    severity: 'High',
-    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   }
 ],
 
-        quickFacts: [
-          { label: 'Treatment Type', value: 'Non-invasive' },
-          { label: 'Anesthesia', value: 'Not required' },
-          { label: 'Downtime', value: 'Minimal to none' },
-          { label: 'Sessions Required', value: '4–8 (depends on concern)' },
-          { label: 'Results', value: 'Progressive & long-lasting' },
-          { label: 'Safety', value: 'DHA-approved & FDA-certified' }
-        ],
-       approachCards: [
+      quickFacts: [
+  { label: 'Treatment Type', value: 'Non-invasive or minimally invasive' },
+  { label: 'Consultation Required', value: 'Yes' },
+  { label: 'Anesthesia', value: 'Usually not required' },
+  { label: 'Downtime', value: 'Minimal to none' },
+  { label: 'Sessions Required', value: 'Depends on treatment area and concern' },
+  { label: 'Results', value: 'Gradual and progressive' },
+  { label: 'Suitable For', value: 'Various skin types and concerns' },
+  { label: 'Treatment Goals', value: 'Hair reduction, skin improvement, rejuvenation' },
+  { label: 'Safety', value: 'Performed under professional supervision' }
+],
+      approachCards: [
   {
     id: 1,
-    title: 'Comprehensive Skin & Hair Analysis',
-    description: 'Identifying the right laser wavelength and settings for your skin type and concern.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Comprehensive Skin & Hair Assessment',
+    description: 'Every laser treatment begins with a detailed consultation and evaluation. Our specialists assess skin type, hair type, treatment area, medical history, previous treatments, and individual goals to determine the most appropriate laser settings and treatment strategy.',
+    hasLearnMore: true,
+    expandedContent: 'Assessment factors may include skin type and sensitivity, hair type and density, treatment area, medical history, previous treatments, and individual goals and expectations. This personalized evaluation helps optimize treatment effectiveness and suitability.'
   },
   {
     id: 2,
-    title: 'Customized Laser Treatment Plans',
-    description: 'Tailored protocols for hair removal, pigmentation, acne scars, and skin rejuvenation.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Personalized Laser Treatment Plans',
+    description: 'No two patients are exactly alike. Based on your consultation, we develop a customized treatment plan designed to address your concerns while considering your skin type, lifestyle, and desired outcomes.',
+    hasLearnMore: true,
+    expandedContent: 'Treatment plans may be recommended for laser hair removal, pigmentation treatment, acne scar treatment, skin rejuvenation, uneven skin tone, fine lines and wrinkles, and sun-damaged skin. This individualized approach helps support patient safety while improving treatment outcomes.'
   },
   {
     id: 3,
     title: 'Advanced FDA-Approved Laser Technology',
-    description: 'Ensuring effective treatment with minimal discomfort and downtime.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'Modern laser systems allow treatments to be performed with greater precision and consistency. Our laser technology is selected to help target specific skin and hair concerns while minimizing unnecessary impact on surrounding tissue.',
+    hasLearnMore: true,
+    expandedContent: 'Potential advantages include precise treatment delivery, enhanced patient comfort, reduced recovery time, improved treatment efficiency, and suitable options for various skin types.'
   },
   {
     id: 4,
-    title: 'Expert Medical Supervision',
-    description: 'All procedures are performed or supervised by DHA-licensed professionals.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Professional Medical Supervision',
+    description: 'Patient safety remains a priority throughout every stage of treatment. All laser procedures are performed or supervised by qualified healthcare professionals within our DHA-licensed facility.',
+    hasLearnMore: true,
+    expandedContent: 'Professional supervision helps ensure treatment parameters are selected appropriately and adjusted when necessary based on individual response, progress, and treatment goals.'
   },
   {
     id: 5,
-    title: 'Post-Treatment Care & Monitoring',
-    description: 'Guided aftercare to support healing, prevent side effects, and maximize results.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Precision Cooling & Comfort Technology',
+    description: 'Patient comfort is an important part of the treatment experience. Our advanced laser systems incorporate cooling technologies designed to help protect the skin surface during treatment.',
+    hasLearnMore: true,
+    expandedContent: 'Benefits may include improved comfort during procedures, reduced skin irritation, lower risk of overheating, greater suitability for sensitive skin, and an enhanced overall treatment experience.'
   },
   {
     id: 6,
-    title: 'Precision Cooling & Comfort Technology',
-    description: 'Our advanced laser treatment in Dubai integrates built-in cooling systems to protect the skin surface, reduce discomfort, and minimize the risk of burns—making procedures safer for sensitive and darker skin types.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Post-Treatment Care & Recovery Support',
+    description: 'The treatment journey does not end when a session is completed. We provide detailed aftercare guidance to support healing and help patients achieve the best possible outcomes.',
+    hasLearnMore: true,
+    expandedContent: 'Support may include skin care recommendations, sun protection guidance, recovery instructions, follow-up assessments, and progress monitoring to help maintain results and support recovery.'
   },
   {
     id: 7,
-    title: 'Long-Term Hair & Skin Reduction Solutions',
-    description: 'Unlike temporary solutions, our medical laser treatments target hair follicles and pigmentation at the root level, delivering long-lasting hair reduction and visible skin clarity with fewer maintenance sessions.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Long-Term Solutions for Hair & Skin Concerns',
+    description: 'Unlike temporary cosmetic solutions that require frequent maintenance, laser treatments are designed to address targeted concerns more effectively over time.',
+    hasLearnMore: true,
+    expandedContent: 'Depending on the treatment area and condition, laser procedures may help reduce unwanted hair growth, improve skin texture, minimize pigmentation concerns, improve the appearance of acne scars, support skin rejuvenation, and enhance overall skin clarity. Multiple sessions may be recommended to achieve optimal results.'
   }
 ]
       },
-      healingJourney: {
-        title: 'Your Laser Treatment Journey: Step by Step',
-        description: 'Comprehensive approach to achieve optimal laser treatment results.',
-        steps: [
-          {
-            id: 1,
-            number: '01',
-            title: 'Initial Consultation',
-            duration: 'Step 1',
-            description: 'Skin assessment, treatment planning, and patch test if needed.',
-            keyActivities: [
-              'Skin & hair assessment',
-              'Medical history review',
-              'Customized treatment plan'
-            ],
-            side: 'right'
-          },
-          {
-            id: 2,
-            number: '02',
-            title: 'Laser Session',
-            duration: 'Step 2',
-            description: 'Skin preparation and pre-treatment instructions.',
-            keyActivities: [
-              'Cleansing & preparation',
-              'Controlled laser application',
-              'Cooling & comfort measures'
-            ],
-            side: 'left'
-          },
-          {
-            id: 3,
-            number: '03',
-            title: ' Post-Treatment Care',
-            duration: 'Step 3',
-            description: 'Regular laser treatment sessions with progress monitoring.',
-            keyActivities: [
-              'Soothing care advice',
-              'Sun protection guidance',
-              'Follow-up scheduling'
-            ],
-            side: 'right'
-          }
-        ]
-      },
+     healingJourney: {
+  title: 'Your Laser Treatment Journey: Step by Step',
+  description: 'At RamaCare Polyclinic, every laser treatment begins with a detailed consultation and personalized treatment plan. Our structured approach prioritizes patient safety, treatment effectiveness, long-term results, and a comfortable treatment experience.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Initial Consultation & Skin Assessment (30–60 Minutes)',
+      duration: 'Step 1',
+      description: 'Comprehensive consultation and skin evaluation to determine suitability, treatment goals, and the most appropriate laser settings for your individual needs.',
+      keyActivities: [
+        'Detailed skin and hair assessment',
+        'Medical history review',
+        'Evaluation of skin type and sensitivity',
+        'Discussion of treatment expectations',
+        'Identification of treatment areas',
+        'Customized treatment planning',
+        'Patch test (when appropriate)'
+      ],
+      side: 'right'
+    },
+    {
+      id: 2,
+      number: '02',
+      title: 'Laser Treatment Session',
+      duration: 'Step 2',
+      description: 'Precision treatment performed using advanced laser technology with carefully selected treatment parameters customized for your skin type and concerns.',
+      keyActivities: [
+        'Treatment area preparation',
+        'Cleansing and skin protection',
+        'Customized laser settings',
+        'Controlled laser application',
+        'Cooling and comfort measures',
+        'Continuous monitoring during treatment'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Post-Treatment Care & Recovery',
+      duration: 'Step 3',
+      description: 'Personalized aftercare guidance to support healing, reduce irritation, and help maintain treatment outcomes while monitoring recovery progress.',
+      keyActivities: [
+        'Post-treatment skin assessment',
+        'Soothing care recommendations',
+        'Sun protection guidance',
+        'Skincare instructions',
+        'Recovery monitoring',
+        'Follow-up scheduling'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Progress Monitoring & Follow-Up',
+      duration: 'Step 4',
+      description: 'Regular follow-up appointments help evaluate treatment response, monitor progress, and adjust treatment plans when necessary for optimal results.',
+      keyActivities: [
+        'Progress assessments',
+        'Treatment response evaluation',
+        'Adjustment of treatment parameters',
+        'Additional session planning',
+        'Long-term skin maintenance guidance'
+      ],
+      side: 'left'
+    }
+  ]
+},
       benefits: {
         title: 'Clinically-Observed Benefits',
         description: 'Evidence-based results from our advanced laser treatments.',
@@ -29210,8 +29921,8 @@ healingJourney: {
   
     'aesthetic-dermatology-dubai-body-shaping': {
       hero: {
-        subtitle: 'Safe, Non-Surgical Body Contouring for Natural & Visible Results',
-        description: 'Achieve a more sculpted, toned, and confident body with advanced body shaping in Dubai. Our DHA-licensed clinic offers non-surgical body contouring treatments designed to reduce stubborn fat, tighten skin, and enhance natural body proportions—without surgery or downtime.',
+        subtitle: 'Non-Surgical Body Contouring & Fat Reduction Treatments',
+        description: 'Struggling with stubborn fat deposits, unwanted body contours, or areas that do not respond to diet and exercise alone?At RamaCare Polyclinic, we offer advanced body shaping in Dubai designed to help improve body contours, support fat reduction, and enhance overall body confidence without surgery or lengthy recovery periods. Our DHA-licensed clinic provides personalized body contouring treatments tailored to individual body goals and treatment needs.Using FDA-approved technologies and medically supervised treatment protocols, we help patients address common concerns such as localized fat, body sculpting, skin tightening, and contour enhancement. Whether you are looking to refine your waistline, improve body proportions, reduce stubborn fat pockets, or achieve a more toned appearance, our team develops customized treatment plans based on your body composition and desired outcomes.',
         rating: '500+ Happy Clients',
        
         ctaButtons: {
@@ -29243,9 +29954,251 @@ healingJourney: {
           show: true
         }
       },
+      sessionsAndResults: {
+        title: 'When Will Results Become Visible?',
+        intro: 'Results vary from person to person. Many patients notice gradual improvements in body contour and definition over the weeks following treatment, while optimal outcomes often develop progressively as the body naturally responds.',
+        factors: [
+          'Treatment area',
+          'Body composition',
+          'Metabolism',
+          'Lifestyle habits',
+          'Treatment consistency'
+        ],
+        note: 'How Many Sessions Are Needed? The number of sessions varies according to individual goals and the area being treated. Some patients may achieve their desired improvement with fewer sessions, while others may benefit from a more comprehensive treatment plan. During your consultation, a personalized recommendation will be provided based on your assessment.',
+        whenResults: {
+          title: 'Supporting Long-Term Results',
+          description: 'Body shaping treatments work best when combined with healthy lifestyle habits.',
+          examples: [
+            'Follow balanced nutrition habits',
+            'Stay physically active',
+            'Maintain a stable weight',
+            'Attend recommended follow-up visits',
+            'Follow individualized guidance from the treatment team'
+          ],
+          closing: 'This comprehensive approach helps support long-term body contouring outcomes and overall wellness.'
+        }
+      },
+      professionalBenefits: {
+        title: 'Benefits of Body Shaping in Dubai',
+        badge: 'Why Choose Body Contouring',
+        intro: 'Why Patients Choose Non-Surgical Body Contouring\nBody shaping treatments have become increasingly popular among individuals who want to improve body contours, reduce stubborn fat deposits, and enhance body definition without undergoing surgery. Modern body contouring technologies offer a non-invasive approach that can help refine specific areas of the body while allowing patients to maintain their normal daily routines.\nWhile individual outcomes vary, body shaping treatments are often chosen because they provide gradual, natural-looking improvements with minimal downtime.',
+        points: [
+          {
+            id: 1,
+            title: 'Targeted Fat Reduction',
+            description: 'Many people maintain a healthy diet and exercise routine but still struggle with localized fat deposits. Body shaping treatments are designed to target specific areas that may be resistant to traditional weight management efforts.',
+            benefits: [
+              'Improved body contours',
+              'Better definition in treated areas',
+              'Enhanced body proportions',
+              'More sculpted appearance',
+              'Support for long-term body confidence'
+            ]
+          },
+          {
+            id: 2,
+            title: 'Improved Body Firmness & Skin Tightening',
+            description: 'Body contouring treatments may also help improve the appearance of mild skin laxity in certain treatment areas. This can be especially beneficial after weight loss, pregnancy, or age-related changes in skin elasticity.',
+            benefits: [
+              'Firmer-looking skin',
+              'Improved body definition',
+              'Enhanced contour appearance',
+              'Smoother body profile',
+              'Better overall body tone'
+            ]
+          },
+          {
+            id: 3,
+            title: 'Reduction in the Appearance of Cellulite',
+            description: 'Cellulite affects many individuals regardless of body weight or fitness level. Some body shaping technologies are designed to improve skin texture and support smoother-looking skin.',
+            benefits: [
+              'Improved skin texture',
+              'Smoother appearance',
+              'Enhanced confidence',
+              'Better contour definition'
+            ]
+          },
+          {
+            id: 4,
+            title: 'Non-Surgical Alternative to Body Contouring Procedures',
+            description: 'One of the main reasons patients choose body shaping in Dubai is the ability to improve body contours without surgery.',
+            benefits: [
+              'No surgical incisions',
+              'No general anesthesia',
+              'Minimal downtime',
+              'Lower recovery requirements',
+              'Convenient treatment sessions',
+              'Gradual and natural-looking improvements'
+            ]
+          },
+          {
+            id: 5,
+            title: 'Long-Lasting Body Contouring Support',
+            description: 'When combined with healthy lifestyle habits, body contouring treatments can support long-term improvements in body shape and definition.',
+            benefits: [
+              'Balanced nutrition',
+              'Regular exercise',
+              'Weight maintenance',
+              'Hydration',
+              'Follow-up care'
+            ]
+          },
+          {
+            id: 6,
+            title: 'Enhanced Body Confidence',
+            description: 'Many patients seek body shaping treatments because they want to feel more comfortable and confident in their appearance.',
+            benefits: [
+              'Greater confidence',
+              'Improved self-image',
+              'Better clothing fit',
+              'Increased motivation for healthy lifestyle habits',
+              'Positive body perception'
+            ]
+          },
+          {
+            id: 7,
+            title: 'Minimal Downtime & Convenient Recovery',
+            description: 'Most non-invasive body shaping treatments allow patients to return to normal activities shortly after their session. This makes body contouring an attractive option for individuals with busy schedules who prefer treatments with minimal disruption to their daily lives.',
+            benefits: [
+              'Quick return to routine activities',
+              'Minimal recovery time',
+              'Convenient treatment schedule',
+              'Comfortable treatment experience'
+            ]
+          },
+          {
+            id: 8,
+            title: 'Personalized Treatment Experience',
+            description: 'Every patient\'s body contouring goals are different. Professional assessment and customized treatment planning help ensure that recommendations are tailored according to body composition, treatment area, skin condition, lifestyle habits, and desired outcomes. This personalized approach helps create realistic expectations and individualized treatment strategies.'
+          }
+        ]
+      },
+      whyChooseSection: {
+        title: 'Why Choose Body Shaping in Dubai?',
+        badge: 'Why RamaCare',
+        stats: [
+          { number: '15+', label: 'Years Experience' },
+          { number: '2,500+', label: 'Sessions Completed' },
+          { number: '4.9', label: 'Patient Rating' },
+          { number: 'DHA', label: 'Approved' }
+        ],
+        commitment: {
+          title: 'Our Commitment',
+          description: 'Patients often choose body shaping treatments because they offer a non-surgical option for improving body contours, reducing stubborn fat, enhancing skin appearance, and supporting long-term body confidence. When combined with professional assessment, customized treatment plans, and healthy lifestyle habits, body shaping can be an effective solution for individuals seeking gradual and natural-looking contour enhancement.'
+        },
+        points: [
+          'Non-surgical alternative',
+          'Customized treatment plans',
+          'DHA-licensed specialists',
+          'FDA-approved technologies',
+          'Minimal downtime',
+          'Focus on long-term results',
+          'Personalized care',
+          'Support for healthy lifestyle habits'
+        ]
+      },
+      conditionsWeTreat: {
+        title: 'Areas We Treat with Body Shaping in Dubai',
+        badge: 'What We Can Help',
+        intro: 'Personalized Body Contouring for Different Treatment Areas\nEvery individual stores fat differently. While some struggle with abdominal fat, others may be concerned about love handles, thighs, arms, or post-weight-loss body contours. Our body shaping treatments in Dubai are customized according to the treatment area, body composition, and desired outcomes.',
+        conditions: [
+          {
+            id: 1,
+            title: 'Abdomen & Belly Fat Reduction',
+            description: 'The abdomen is one of the most common areas where stubborn fat accumulates. Despite regular exercise and healthy eating habits, many individuals find it difficult to achieve a flatter and more defined midsection.',
+            items: [
+              'Improve abdominal contours',
+              'Reduce stubborn belly fat',
+              'Enhance waistline definition',
+              'Support a more sculpted appearance'
+            ]
+          },
+          {
+            id: 2,
+            title: 'Waist & Love Handle Contouring',
+            description: 'Excess fat around the waist can affect overall body proportions and clothing fit. Body contouring treatments target:',
+            items: [
+              'Love handles',
+              'Waistline definition',
+              'Side fat deposits',
+              'Improved body symmetry'
+            ]
+          },
+          {
+            id: 3,
+            title: 'Thigh Shaping & Contouring',
+            description: 'The inner and outer thighs are common treatment areas for individuals seeking better lower-body definition.Benefits may include:',
+            items: [
+              'Improved thigh contours',
+              'Enhanced body proportions',
+              'Smoother silhouette',
+              'Better clothing confidence'
+            ]
+          },
+          {
+            id: 4,
+            title: 'Arm Contouring',
+            description: 'Stubborn fat around the upper arms can be difficult to reduce through exercise alone. Body shaping treatments may help improve:',
+            items: [
+              'Arm definition',
+              'Upper arm contours',
+              'Overall body balance',
+              'Skin appearance'
+            ]
+          },
+          {
+            id: 5,
+            title: 'Back Fat Reduction',
+            description: 'Back fat and bra-line bulges are common concerns for both men and women. Treatment goals often include: ',
+            items: [
+              'Smoother body contours',
+              'Improved clothing fit',
+              'Enhanced upper body definition',
+              'Better overall proportions'
+            ]
+          },
+          {
+            id: 6,
+            title: 'Chin & Jawline Contouring',
+            description: 'Some body contouring technologies can help improve the appearance of excess fat beneath the chin.Potential benefits include:',
+            items: [
+              'Better jawline definition',
+              'Improved facial profile',
+              'More balanced facial contours',
+              'Enhanced confidence'
+            ]
+          },
+          {
+            id: 7,
+            title: 'Post-Pregnancy Body Contouring',
+            description: 'Pregnancy can lead to changes in body shape that may persist despite diet and exercise. Body shaping treatments can be customized to address :',
+            items: [
+              'Abdominal contour concerns',
+              'Mild skin laxity',
+              'Waistline definition',
+              'Overall body confidence'
+            ]
+          },
+          {
+            id: 8,
+            title: 'Post-Weight-Loss Body Reshaping',
+            description: 'Significant weight loss is a major achievement, but some individuals may still experience areas of uneven contouring or loose skin. Body shaping treatments may help: ',
+            items: [
+              'Refine body proportions',
+              'Improve contour definition',
+              'Support skin tightening',
+              'Enhance overall body shape'
+            ]
+          }
+        ],
+        whyAssessment: {
+          title: 'Which Area Is Best for Body Shaping?',
+          description: 'The ideal treatment area depends on your individual concerns, body composition, and goals. During your consultation, our specialists perform a detailed assessment to recommend the most appropriate body contouring approach and create a personalized treatment plan tailored to your needs.'
+        }
+      },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+         DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -29276,190 +30229,224 @@ healingJourney: {
       overview: {
         title: 'Understanding Body Shaping in Dubai',
         problemIntro: {
-          title: 'Common Body Shaping Concerns',
-          description: 'Many people searching for body shaping in Dubai feel frustrated after months of dieting and exercise that fail to reduce stubborn fat or tighten loose skin. These concerns are often genetic, hormonal, or related to aging and cannot be corrected with lifestyle changes alone.'
+          title: 'Common Body Contouring Concerns',
+          description: 'Many individuals maintain healthy eating habits and regular exercise routines but still notice certain areas that remain resistant to change. Body shaping treatments are often considered when targeted contouring is desired beyond what lifestyle changes alone can achieve.'
         },
         solutionIntro: {
           title: 'Advanced Body Shaping in Dubai',
-          description: 'Our DHA-licensed body shaping clinic in Dubai offers safe, non-surgical body contouring solutions that reshape and sculpt the body naturally—without surgery or downtime.'
+          description: 'At RamaCare Polyclinic, we understand that body contouring is not simply about reducing fat—it is about creating balanced, natural-looking body proportions that complement your individual physique and goals.Our DHA-licensed clinic offers advanced body shaping in Dubai using non-surgical body contouring technologies designed to help reduce stubborn fat, improve body definition, support skin tightening, and enhance overall body confidence without surgery or prolonged recovery.Every treatment plan is tailored to the individual, ensuring a personalized approach that prioritizes safety, comfort, and realistic outcomes.'
         },
-        leftCards: [
-          {
-            id: 1,
-            title: 'What is Body Shaping?',
-            description: 'Body shaping, also known as body contouring, is a medical aesthetic treatment that targets localized fat, improves skin firmness, and reshapes body contours using non-surgical technologies. It is ideal for individuals who struggle with stubborn fat deposits that do not respond to diet or exercise. Body Shaping Treatments Help With:',
-            listItems: [
-              'Localized fat reduction',
-              'Body contouring & sculpting',
-              'Skin tightening',
-              'Cellulite reduction',
-              'Post-weight-loss body reshaping',
-              'Improving body symmetry'
-            ]
-          },
-          {
-            id: 2,
-            title: 'Who is Body Shaping Suitable For?',
-            description: 'Body shaping in Dubai is suitable for:',
-            listItems: [
-              'Men and women close to their ideal weight',
-              'Individuals with stubborn fat pockets',
-              'Post-pregnancy body concerns',
-              'Post-weight-loss skin laxity',
-              'People seeking non-surgical alternatives to liposuction',
-              'Note: Body shaping is not a weight-loss procedure but a contouring treatment'
-            ]
-          }
-        ],
+       leftCards: [
+{
+id: 1,
+title: 'What Is Body Shaping?',
+description: 'Body shaping, also known as body contouring, is a non-surgical aesthetic treatment designed to improve body definition by targeting localized fat deposits, enhancing body contours, and supporting skin tightening. These treatments are commonly chosen by individuals who maintain a healthy lifestyle but continue to struggle with stubborn fat pockets or areas that do not respond to diet and exercise alone. Modern body shaping treatments use advanced technologies to help contour specific areas of the body while minimizing discomfort and downtime. Unlike traditional surgical procedures, non-invasive body contouring allows patients to return to their normal activities quickly. At RamaCare Polyclinic, every treatment begins with a personalized body assessment to determine the most suitable body shaping approach based on your goals, body composition, and treatment area.'
+},
+{
+id: 2,
+title: 'What Can Body Shaping Help With?',
+description: 'Body shaping treatments may help improve:',
+listItems: [
+'Localized Fat Reduction',
+'Body Contouring & Sculpting',
+'Skin Tightening',
+'Cellulite Appearance',
+'Post-Weight-Loss Body Reshaping',
+'Body Definition & Symmetry',
+'Waistline Contouring',
+'Abdomen & Belly Fat Concerns',
+'Thigh & Arm Contouring',
+'Overall Body Confidence'
+]
+},
+{
+id: 3,
+title: 'Who Is Body Shaping Suitable For?',
+description: 'Body shaping in Dubai may be suitable for:',
+listItems: [
+'Men and women close to their target weight',
+'Individuals with stubborn fat deposits',
+'People looking to improve body contours',
+'Patients concerned about mild skin laxity',
+'Post-pregnancy body contouring candidates',
+'Individuals seeking non-surgical alternatives to liposuction',
+'People wanting minimal downtime'
+]
+},
+{
+id: 4,
+title: 'Important Note',
+description: 'Body shaping is not intended as a weight-loss treatment. Instead, it focuses on contouring and refining specific areas of the body to improve overall proportions and definition. A consultation is required to determine suitability and expected outcomes.'
+}
+],
+
        rootCauses: [
   {
     id: 1,
-    title: 'Stubborn Fat Pockets',
-    description: 'Localized fat in areas like the abdomen, thighs, arms, and flanks that does not respond to workouts or diet.',
+    title: 'Stubborn Fat Deposits',
+    description: 'Localized fat can develop in specific areas of the body despite consistent physical activity. Common areas include the abdomen, waistline, love handles, thighs, arms, and back. Body contouring treatments are designed to target these areas and support improved body definition.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
     title: 'Loose or Sagging Skin',
-    description: 'Skin laxity caused by weight loss, pregnancy, or aging affects body shape and confidence.',
+    description: 'Skin elasticity naturally changes over time and may be affected by aging, pregnancy, or significant weight loss. Common concerns include mild skin laxity, reduced firmness, loss of body definition, and post-weight-loss skin concerns. Certain body shaping treatments may also support skin tightening and contour enhancement.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 3,
     title: 'Uneven Body Contours',
-    description: 'Irregular fat distribution leading to disproportionate or undefined body lines.',
+    description: 'Body fat distribution varies from person to person and may create areas that appear disproportionate compared to the rest of the body. Common concerns include lack of waist definition, uneven contours, disproportionate body shape, and difficulty achieving desired body proportions.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 4,
-    title: 'Cellulite & Skin Dimpling',
-    description: 'Textured skin appearance is commonly seen on thighs and hips, even in fit individuals.',
+    title: 'Cellulite & Skin Texture Concerns',
+    description: 'Cellulite affects many men and women regardless of weight or fitness level. Common concerns include dimpled skin appearance, uneven skin texture, thigh cellulite, and hip and buttock cellulite. Body contouring treatments may be incorporated into a comprehensive plan aimed at improving overall body appearance.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 5,
-    title: 'Fear of Surgery & Downtime',
-    description: 'Many people avoid invasive procedures due to pain, scars, and long recovery periods.',
+    title: 'Preference for Non-Surgical Solutions',
+    description: 'Many individuals seek alternatives to surgical body contouring procedures. Common reasons include no surgical incisions, minimal downtime, reduced recovery period, gradual and natural-looking improvements, and the ability to resume normal activities quickly.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   },
   {
     id: 6,
-    title: 'Slow Metabolism & Hormonal Fat Retention',
-    description: 'Hormonal imbalances and a slow metabolism can make fat loss extremely difficult, even with a strict diet and exercise. Advanced body shaping treatments in Dubai help target resistant fat areas that are influenced by metabolic and hormonal factors.',
+    title: 'Personalized Treatment Planning',
+    description: 'No two bodies are the same. Factors such as body composition, treatment area, skin quality, lifestyle habits, and individual goals all influence treatment recommendations. A professional consultation helps determine the most appropriate body shaping strategy while ensuring realistic expectations and personalized care throughout the treatment journey.',
     severity: 'Medium',
     severityColor: 'bg-[#FED7AA] text-[#9A3412]'
   }
 ],
-        quickFacts: [
-          { label: 'Treatment Type', value: 'Non-surgical & non-invasive' },
-          { label: 'Anesthesia', value: 'Not required' },
-          { label: 'Downtime', value: 'Minimal to none' },
-          { label: 'Sessions Required', value: '4–8 (varies by area)' },
-          { label: 'Target Areas', value: 'Abdomen, thighs, arms, flanks, hips, back, chin' },
-          { label: 'Safety', value: 'DHA-approved & FDA-certified' },
-        ],
-       approachCards: [
+       quickFacts: [
+  { label: 'Treatment Type', value: 'Non-surgical & non-invasive' },
+  { label: 'Consultation Required', value: 'Yes' },
+  { label: 'Anesthesia', value: 'Not required' },
+  { label: 'Downtime', value: 'Minimal to none' },
+  { label: 'Sessions Required', value: 'Depends on treatment area and goals' },
+  { label: 'Common Treatment Areas', value: 'Abdomen, thighs, arms, flanks, hips, back, chin' },
+  { label: 'Treatment Goal', value: 'Body contouring and fat reduction' },
+  { label: 'Suitable For', value: 'Men and women' },
+  { label: 'Safety', value: 'Performed under professional supervision' }
+],
+      approachCards: [
   {
     id: 1,
-    title: 'Detailed Body & Fat Assessment',
-    description: 'Identifying problem areas and selecting the most effective body shaping method.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Comprehensive Body Assessment',
+    description: 'Successful body shaping begins with understanding your unique body composition and concerns. Before recommending treatment, our specialists perform a detailed evaluation that may include body contour analysis, assessment of stubborn fat areas, skin quality evaluation, lifestyle and activity review, discussion of body goals, and treatment suitability assessment.',
+    hasLearnMore: true,
+    expandedContent: 'This comprehensive assessment helps identify the most appropriate body contouring approach based on your individual needs, body composition, treatment area, and desired outcomes.'
   },
   {
     id: 2,
     title: 'Personalized Body Shaping Plans',
-    description: 'Customized treatments based on body type, fat thickness, and individual goals.',
-    hasLearnMore: false,
-    expandedContent: null
+    description: 'No two bodies respond the same way. Our customized treatment plans are designed according to body type, fat distribution, treatment area, skin elasticity, lifestyle factors, and desired outcomes.',
+    hasLearnMore: true,
+    expandedContent: 'Whether your goal is abdominal contouring, waist shaping, thigh sculpting, arm contouring, or post-weight-loss body refinement, treatment recommendations are tailored specifically to you for optimal results.'
   },
   {
     id: 3,
-    title: 'Non-Invasive, FDA-Approved Technologies',
-    description: 'Targeted fat reduction and skin tightening with comfort and safety.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Advanced Non-Surgical Body Contouring Technologies',
+    description: 'Modern body shaping treatments allow targeted contouring without the need for surgery. Our technologies are selected to help address localized fat deposits and body definition concerns while minimizing discomfort and downtime.',
+    hasLearnMore: true,
+    expandedContent: 'Potential benefits may include targeted fat reduction, improved body contours, enhanced skin firmness, minimal recovery time, comfortable treatment experience, and a non-surgical approach.'
   },
   {
     id: 4,
-    title: 'Expert Medical Supervision',
-    description: 'All procedures are performed or monitored by DHA-licensed professionals.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Professional Medical Supervision',
+    description: 'Patient safety remains a priority throughout every stage of treatment. All body shaping procedures are performed or supervised by qualified healthcare professionals within our DHA-licensed facility.',
+    hasLearnMore: true,
+    expandedContent: 'This ensures treatments are delivered according to individual requirements while supporting safe and effective outcomes throughout the body contouring journey.'
   },
   {
     id: 5,
-    title: 'Post-Treatment Lifestyle Guidance',
-    description: 'Support to maintain results and improve long-term body contouring outcomes.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Skin Tightening & Contour Enhancement',
+    description: 'In addition to addressing stubborn fat deposits, body shaping treatments may also help improve the appearance of mild skin laxity and body definition.',
+    hasLearnMore: true,
+    expandedContent: 'Many patients seek body contouring solutions to achieve better waistline definition, improved abdominal contours, enhanced body proportions, firmer-looking skin, and smoother body contours. Treatment recommendations depend on the area being treated and individual goals.'
   },
   {
     id: 6,
-    title: 'Advanced Fat-Freezing & Skin Tightening Technology',
-    description: 'Our body shaping treatments in Dubai use clinically proven fat-freezing and radiofrequency technologies to target stubborn fat cells while tightening loose skin. This ensures smoother contours and visible inch loss without surgery.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Lifestyle & Long-Term Results Support',
+    description: 'Maintaining body contouring results requires a combination of healthy lifestyle habits and appropriate follow-up care.',
+    hasLearnMore: true,
+    expandedContent: 'Our team provides guidance that may include nutrition recommendations, physical activity guidance, healthy lifestyle support, progress monitoring, and long-term maintenance advice. This comprehensive approach helps patients maintain improvements and support overall wellness.'
   },
   {
     id: 7,
-    title: 'Gradual, Natural-Looking Body Contouring Results',
-    description: 'We focus on achieving balanced, proportionate body shaping results that enhance your natural silhouette. Fat reduction occurs progressively, allowing your body to adjust naturally with minimal downtime.',
-    hasLearnMore: false,
-    expandedContent: null
+    title: 'Natural-Looking Body Contouring Results',
+    description: 'Our goal is to achieve gradual, balanced improvements that enhance your natural body shape rather than create an artificial appearance.',
+    hasLearnMore: true,
+    expandedContent: 'Because the body responds differently from person to person, improvements typically develop progressively over time as the treatment process continues. This approach allows for natural-looking contour enhancement while minimizing disruption to daily activities.'
+  },
+  {
+    id: 8,
+    title: 'Why Personalization Matters',
+    description: 'Successful body shaping is not based on a one-size-fits-all approach.',
+    hasLearnMore: true,
+    expandedContent: 'Factors such as body composition, skin condition, metabolism, lifestyle, and treatment expectations all influence outcomes. By combining professional assessment, customized treatment planning, advanced technology, and ongoing support, we help patients pursue their body contouring goals with greater confidence and realistic expectations.'
   }
 ]
       },
-      healingJourney: {
-        title: 'Your Body Shaping Journey: Step by Step',
-        description: 'Comprehensive approach to achieve your desired body shape.',
-        steps: [
-          {
-            id: 1,
-            number: '01',
-            title: 'Consultation & Assessment',
-            duration: 'Step 1',
-            description: 'Body assessment, goal setting, and treatment planning.',
-            keyActivities: [
-              'Body composition analysis',
-              'Target area identification',
-              'Goal setting & planning'
-            ],
-            side: 'right'
-          },
-          {
-            id: 2,
-            number: '02',
-            title: ' Treatment Sessions',
-            duration: 'Step 2',
-            description: 'Regular body shaping sessions with progress monitoring.',
-            keyActivities: [
-              'Non-invasive body shaping procedures',
-              'Comfortable and pain-free sessions',
-              'Gradual fat reduction & skin tightening'
-            ],
-            side: 'left'
-          },
-          {
-            id: 3,
-            number: '03',
-            title: 'Follow-Up & Maintenance',
-            duration: 'Step 3',
-            description: 'Enjoying results and maintenance as needed.',
-            keyActivities: [
-              'Progress evaluation',
-              'Lifestyle guidance',
-              'Optional maintenance sessions'
-            ],
-            side: 'right'
-          }
-        ]
-      },
+     healingJourney: {
+  title: 'Your Body Shaping Journey: Step by Step',
+  description: 'At RamaCare Polyclinic, every body shaping treatment begins with a detailed assessment and personalized treatment strategy. Our structured approach is designed to help patients achieve gradual, natural-looking body contouring results while prioritizing safety, comfort, and long-term satisfaction.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Consultation & Body Assessment',
+      duration: 'Approximately 30–60 Minutes',
+      description: 'Your body shaping journey begins with a comprehensive consultation and body evaluation. This assessment helps our specialists understand your concerns, evaluate treatment areas, and determine the most appropriate body contouring approach.',
+      keyActivities: [
+        'Body composition analysis',
+        'Target area identification',
+        'Skin quality assessment',
+        'Medical and lifestyle review',
+        'Discussion of body contouring goals',
+        'Treatment suitability evaluation',
+        'Personalized treatment planning'
+      ],
+      side: 'right'
+    },
+    {
+      id: 2,
+      number: '02',
+      title: 'Body Shaping Treatment Sessions',
+      duration: 'Step 2',
+      description: 'Once your treatment plan has been developed, body shaping sessions are performed using advanced non-invasive technologies. These procedures are designed to target stubborn fat deposits, improve body definition, and support skin tightening without surgery or extended recovery periods.',
+      keyActivities: [
+        'Targeted body contouring treatment',
+        'Non-invasive fat reduction procedures',
+        'Skin tightening therapies (when indicated)',
+        'Comfortable treatment experience',
+        'Progress monitoring throughout treatment'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Progress Monitoring & Follow-Up',
+      duration: 'Step 3',
+      description: 'Body contouring improvements typically develop gradually as the body responds to treatment. Regular follow-up appointments allow our team to monitor progress and provide guidance throughout the process.',
+      keyActivities: [
+        'Progress evaluation',
+        'Body contour assessment',
+        'Lifestyle recommendations',
+        'Long-term maintenance planning',
+        'Optional maintenance treatments'
+      ],
+      side: 'right'
+    }
+  ]
+},
       benefits: {
         title: 'Clinically-Observed Benefits',
         description: 'Evidence-based results from our body shaping treatments.',
@@ -30998,7 +31985,7 @@ healingJourney: {
           }
         ]
       },
-     paymentInsurance: {
+  paymentInsurance: {
   paymentTitle: 'Payment & Insurance',
   insuranceTitle: 'Insurance & Reimbursement Policy',
   paymentOptions: [

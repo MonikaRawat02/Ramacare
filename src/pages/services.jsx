@@ -83,7 +83,7 @@ const getServicesData = () => {
       color: '#1a5f3f',
       description: 'Comprehensive medical care for all health needs',
       featured: true,
-      categorySlugs: ['gastrointestinal-disorders-dubai', 'management-of-allergy-dubai', 'wound-stitching-services-dubai', 'minor-injury-care', 'treatment-of-acute-infections-dubai', 'dyslipidemia-diagnosis-and-treatment', 'personalized-slimming-programs', 'thyroid-dysfunction-solutions-dubai', 'asthma-and-copd-expertise-dubai', 'diabetes-mellitus-care', 'specialized-hypertension-management', 'routine-check-ups-dubai', 'comprehensive-physical-examinations-dubai']
+      categorySlugs: ['gastrointestinal-disorders-dubai', 'management-of-allergy-dubai', 'wound-stitching-services-dubai', 'minor-injury-care', 'treatment-of-acute-infections-dubai', 'dyslipidemia-diagnosis-and-treatment', 'personalized-slimming-programs', 'thyroid-dysfunction-solutions-dubai', 'asthma-and-copd-expertise-dubai', 'diabetes-mellitus-care-dubai', 'specialized-hypertension-management', 'routine-check-ups-dubai', 'comprehensive-physical-examinations-dubai']
     },
     {
       id: 6,

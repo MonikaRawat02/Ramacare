@@ -12,6 +12,7 @@ import DoctorsSection from '../../../components/DoctorsSection';
 import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
+import TreatmentAdditionalContent from '../../../components/TreatmentAdditionalContent';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
 
 
@@ -21,6 +22,18 @@ export default function BodyShapingPage() {
 
   // Get content from data file
   const content = getSubcategoryContent('aesthetic-dermatology-dubai', 'body-shaping');
+
+  const navItems = [
+    { id: 'treatment-info', label: 'Treatment Info' },
+    { id: 'how-it-works', label: 'How It Works' },
+    { id: 'sessions-and-results', label: 'Results & Sessions' },
+    { id: 'professional-benefits', label: 'Professional Benefits' },
+    { id: 'why-choose', label: 'Why Choose Us' },
+    { id: 'conditions-we-treat', label: 'Areas We Treat' },
+    { id: 'our-doctors', label: 'Our Doctors' },
+    { id: 'faq', label: 'FAQ' },
+    { id: 'book-now', label: 'Book Now' }
+  ];
 
   return (
     <Layout>
@@ -96,7 +109,7 @@ export default function BodyShapingPage() {
         subcategoryName={subcategoryName}
         hero={content?.hero}
       />
-     <QuickNavigation />
+     <QuickNavigation navItems={navItems} />
     
     <TreatmentOverview 
       subcategoryName={subcategoryName}
@@ -106,6 +119,7 @@ export default function BodyShapingPage() {
       <TreatmentBenefits 
         content={content?.benefits}
       />
+        <TreatmentAdditionalContent content={content} />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
     

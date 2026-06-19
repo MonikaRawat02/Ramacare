@@ -20,7 +20,7 @@ export default function DiabetesMellitusCarePage() {
   const subcategoryName = 'Diabetes Mellitus Care';
 
   // Get content from data file
-  const content = getSubcategoryContent('general-physician-dubai', 'diabetes-mellitus-care');
+  const content = getSubcategoryContent('general-physician-dubai', 'diabetes-mellitus-care-dubai');
 
   return (
     <Layout>

@@ -116,7 +116,7 @@ const Header = () => {
         { name: 'Personalized Slimming Programs', slug: 'personalized-slimming-programs' },
         { name: 'Thyroid Dysfunction Solutions', slug: 'thyroid-dysfunction-solutions-dubai' },
         { name: 'Asthma and COPD Expertise', slug: 'asthma-and-copd-expertise-dubai' },
-        { name: 'Diabetes Mellitus Care', slug: 'diabetes-mellitus-care' },
+        { name: 'Diabetes Mellitus Care', slug: 'diabetes-mellitus-care-dubai' },
         { name: 'Specialized Hypertension Management', slug: 'specialized-hypertension-management' },
         { name: 'Expertise in Routine Check-Ups', slug: 'routine-check-ups-dubai' },
         { name: 'Comprehensive Physical Examinations', slug: 'comprehensive-physical-examinations-dubai' }
@@ -127,7 +127,7 @@ const Header = () => {
       name: 'Facial',
       slug: 'facial-dubai',
       subcategories: [
-        { name: 'Signature Hydra Facial', slug: 'hydrafacial-dubai' },
+        { name: 'Hydra Facial', slug: 'hydrafacial-dubai' },
         { name: 'Face PRP in Dubai', slug: 'face-prp-in-dubai' },
         { name: 'Golden Elixir Facial', slug: 'golden-elixir-facial-dubai' },
         { name: 'Exosomes Facial Dubai', slug: 'exosomes-facial-dubai' },

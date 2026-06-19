@@ -252,7 +252,7 @@ Each subcategory entry includes **ALL sections**:
 - Aesthetic Dermatology: `'aesthetic-dermatology-dubai-hair-treatment'`
 - dental: `'dental-dubai-teeth-whitening'`
 - Physiotherapy: `'physiotherapy-dubai-scoliosis-treatment'`
-- General Physician: `'general-physician-dubai-diabetes-mellitus-care'`
+- General Physician: `'general-physician-dubai-diabetes-mellitus-care-dubai'`
 - Facial: `'facial-dubai-signature-hydra-facial'`
 
 ## Current Coverage
@@ -276,7 +276,7 @@ Currently includes **complete content** (all 8 sections) for:
 - Aesthetic Dermatology: `'aesthetic-dermatology-dubai-hair-treatment'`
 - dental: `'dental-dubai-teeth-whitening'`
 - Physiotherapy: `'physiotherapy-dubai-scoliosis-treatment'`
-- General Physician: `'general-physician-dubai-diabetes-mellitus-care'`
+- General Physician: `'general-physician-dubai-diabetes-mellitus-care-dubai'`
 - Facial: `'facial-dubai-signature-hydra-facial'`
 
 ## Important Notes

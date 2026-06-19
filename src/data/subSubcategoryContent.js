@@ -42,7 +42,6 @@ export const subSubcategoryContent = {
    doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -637,7 +636,6 @@ export const subSubcategoryContent = {
      doctors: {
         doctors: [
           DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -1223,7 +1221,6 @@ rootCauses: [
      doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -1843,7 +1840,6 @@ rootCauses: [
       doctors: {
         doctors: [
           DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -2494,7 +2490,6 @@ rootCauses: [
       doctors: {
         doctors: [
           DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -3146,7 +3141,6 @@ rootCauses: [
       doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -3821,7 +3815,6 @@ rootCauses: [
       doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -4519,7 +4512,7 @@ rootCauses: [
       doctors: {
         doctors: [
           DOCTORS.sonita,
-          DOCTORS.mahrokh,
+         
         ]
       },
       certifications: {
@@ -5209,7 +5202,7 @@ rootCauses: [
       doctors: {
         doctors: [
           DOCTORS.sonita,
-          DOCTORS.mahrokh,
+          
         ]
       },
       certifications: {
@@ -5920,7 +5913,7 @@ rootCauses: [
       doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
+          
         ]
       },
       certifications: {
@@ -6609,7 +6602,7 @@ rootCauses: [
       doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
+         
         ]
       },
       certifications: {
@@ -7270,7 +7263,7 @@ rootCauses: [
       doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
+         
         ]
       },
       certifications: {
@@ -7988,7 +7981,7 @@ rootCauses: [
       doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
+         
         ]
       },
       certifications: {
@@ -8791,7 +8784,6 @@ rootCauses: [
       doctors: {
         doctors: [
          DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       certifications: {
@@ -9467,7 +9459,6 @@ rootCauses: [
       doctors: {
         doctors: [
           DOCTORS.sonita,
-          DOCTORS.mahrokh,
         ]
       },
       
@@ -10067,7 +10058,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+           DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -10654,7 +10645,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+           DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -11270,7 +11261,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+          DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -11878,7 +11869,7 @@ faq: {
       },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+          DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -12567,7 +12558,7 @@ comparisonData: [
       },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+          DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -13234,7 +13225,7 @@ comparisonData: [
     },
     doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+          DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
     certifications: {
@@ -13828,7 +13819,7 @@ comparisonData: [
       },
       doctors: {
         doctors: [
-          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+           DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -14538,7 +14529,7 @@ comparisonData: [
       },
       doctors: {
         doctors: [
-          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+           DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -15193,7 +15184,7 @@ comparisonData: [
       },
       doctors: {
         doctors: [
-          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+           DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -15832,7 +15823,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+          DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -16469,7 +16460,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+           DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -17111,7 +17102,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+         DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -17749,7 +17740,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+          DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -18449,7 +18440,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+       DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -19097,7 +19088,7 @@ solutionIntro: {
       },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+          DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -19770,7 +19761,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-          DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+           DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
@@ -20405,7 +20396,7 @@ rootCauses: [
       },
       doctors: {
         doctors: [
-         DOCTORS.mahrokh, DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
+          DOCTORS.sahar, DOCTORS.sonita, DOCTORS.soumya
         ]
       },
       certifications: {
