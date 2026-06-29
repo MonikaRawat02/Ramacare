@@ -6,6 +6,7 @@ import QuickNavigation from '../../../components/QuickNavigation';
 import TreatmentOverview from '../../../components/TreatmentOverview';
 import HealingJourney from '../../../components/HealingJourney';
 import TreatmentBenefits from '../../../components/TreatmentBenefits';
+import SkinTreatmentAdditionalContent from '../../../components/SkinTreatmentAdditionalContent';
 import PatientTestimonials from '../../../components/VideoTestimonials';
 import DoctorsSection from '../../../components/DoctorsSection';
 // import PricingPackages from '../../../components/PricingPackages';
@@ -107,6 +108,7 @@ export default function SkinBoostersPage() {
       <TreatmentBenefits 
         content={content?.benefits}
       />
+      <SkinTreatmentAdditionalContent content={content} />
        <PatientTestimonials content={content?.testimonials} />
        <DoctorsSection content={content?.doctors} />
     

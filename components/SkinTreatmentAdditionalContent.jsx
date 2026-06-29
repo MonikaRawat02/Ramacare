@@ -152,7 +152,23 @@ const SkinTreatmentAdditionalContent = ({ content }) => {
               </h2>
             </div>
             <div className="bg-gradient-to-br from-[#F9FAFB] to-white rounded-2xl p-8 md:p-10 shadow-lg border border-[#E5E7EB]">
-              <p className="text-base md:text-lg text-[#6B7280] leading-relaxed mb-6">{choosingRightApproach.content}</p>
+              <div className="text-base md:text-lg text-[#6B7280] leading-relaxed mb-6 space-y-4" dangerouslySetInnerHTML={{ __html: choosingRightApproach.content }}></div>
+              <style>{`
+                #choosing-right-approach ul {
+                  margin: 0.75rem 0 1rem 1.25rem;
+                  padding: 0;
+                }
+                #choosing-right-approach li {
+                  margin: 0.35rem 0;
+                  padding-left: 0.25rem;
+                  list-style-type: disc;
+                  color: #4b5563;
+                }
+                #choosing-right-approach b {
+                  color: #111827;
+                  font-weight: 700;
+                }
+              `}</style>
               <div className="p-6 bg-[#ECFDF5] rounded-xl border-l-4 border-[#2D5F3F]">
                 <p className="text-[#2D5F3F] font-semibold text-base md:text-lg">{choosingRightApproach.closing}</p>
               </div>

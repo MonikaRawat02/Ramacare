@@ -23942,8 +23942,8 @@ healingJourney: {
   // ============================================
     'facial-dubai-signature-hydra-facial': {
     hero: {
-      subtitle: 'HydraFacial in Dubai — Deep Cleanse, Hydrate & Glow in One Session',
-      description: 'Experience the best HydraFacial in Dubai at Rama Care Polyclinic. Our DHA-licensed aesthetic specialists deliver a medical-grade HydraFacial treatment that deeply cleanses, exfoliates, extracts impurities, and floods your skin with nourishing serums—all in a single 60-minute session. No downtime. Instant results. Visible glow from your very first visit.',
+      subtitle: 'Medical-Grade HydraFacial Treatment for Deep Cleansing, Hydration & Radiant Skin',
+      description: 'Reveal healthier, smoother, and more radiant-looking skin with a professional HydraFacial in Dubai at Rama Care Polyclinic. Our DHA-licensed aesthetic specialists provide customized HydraFacial treatments designed to deeply cleanse pores, gently exfoliate dead skin cells, remove impurities, and deliver intensive hydration through advanced medical-grade technology. Whether you are concerned about dull skin, dehydration, clogged pores, uneven texture, or early signs of aging, our personalized HydraFacial treatments help support healthier-looking skin with minimal discomfort and no downtime.',
       rating: '500+ Happy Clients',
       stats: [
         {
@@ -23988,6 +23988,48 @@ healingJourney: {
         show: true
       }
     },
+    whyChooseSection: {
+      title: 'Why Patients Choose HydraFacial at Rama Care Polyclinic',
+      badge: 'Why Choose HydraFacial',
+      points: [
+        'Non-invasive and comfortable procedure',
+        'Customizable for different skin concerns',
+        'No significant downtime required',
+        'Suitable for a wide range of skin types',
+        'Performed under professional clinical care'
+      ]
+    },
+    conditionsWeTreat: {
+      title: 'Who Is HydraFacial Suitable For?',
+      badge: 'Ideal Candidates',
+      intro: 'HydraFacial is a gentle, non-invasive skin treatment designed for almost all skin types. It is a great option for people who want clearer, healthier, and more hydrated-looking skin without downtime or discomfort.\n\nAt Rama Care Polyclinic in Dubai, we customize each HydraFacial session based on your skin condition, so the treatment is suitable whether you have specific concerns or simply want to maintain a healthy glow.',
+      conditions: [
+        {
+          id: 1,
+          title: 'You May Benefit from HydraFacial If You Have:',
+          description: 'HydraFacial is commonly recommended for people dealing with:',
+          items: [
+            'Dull or tired-looking skin that needs a natural glow boost',
+            'Oily skin with clogged or enlarged pores',
+            'Acne-prone skin that needs deep cleansing and oil control support',
+            'Dry or dehydrated skin lacking moisture and softness',
+            'Uneven skin tone or mild pigmentation concerns',
+            'Fine lines and early signs of aging',
+            'Sensitive skin that reacts to harsh facials or treatments'
+          ]
+        },
+        {
+          id: 2,
+          title: 'A Gentle Option for Most Skin Types',
+          description: 'One of the key advantages of HydraFacial is that it is suitable for a wide range of skin types, including sensitive skin. The treatment is designed to be comfortable, non-irritating, and adjustable based on individual skin needs.\n\nMany patients prefer HydraFacial because it delivers visible freshness and hydration without harsh downtime or recovery time.',
+          items: []
+        }
+      ],
+      whyAssessment: {
+        title: 'When You Should Consult First',
+        description: 'While HydraFacial is generally safe for most people, a consultation is recommended if you have:\n\n- Active skin infections or open wounds\n- Severe acne flare-ups\n- Recently undergone laser or deep chemical peel treatments\n\nOur skincare specialists will always assess your skin first to ensure the treatment is safe and effective for you.'
+      }
+    },
     doctors: {
       badge: 'MEET YOUR SPECIALISTS',
       title: "Your HydraFacial Is Performed by Dubai's Licensed Aesthetic Experts",
@@ -24027,66 +24069,64 @@ healingJourney: {
       
     },
     overview: {
-      title: 'Understanding the Signature Hydra Facial',
+      title: 'Understanding HydraFacial Treatment in Dubai',
       problemIntro: {
         title: 'The Problem: Common Causes of Skin Concerns',
         description: 'Basic facials may provide temporary hydration but often lack deep cleansing, extraction, or infusion of nourishing serums, limiting long-term benefits.'
       },
       solutionIntro: {
-  title: 'Our Solution: Signature Hydra Facial in Dubai',
-  description: 'Our Signature Hydra Facial in Dubai is a multi-step advanced facial designed to deeply cleanse, hydrate, and restore skin health by addressing the root causes of common skin concerns.'
+  title: 'Our Solution:  Hydra Facial in Dubai',
+  description: 'Our  Hydra Facial in Dubai is a multi-step advanced facial designed to deeply cleanse, hydrate, and restore skin health by addressing the root causes of common skin concerns.'
 },
 
       leftCards: [
         {
           id: 1,
-          title: 'What Is a HydraFacial Treatment in Dubai?',
-          description: 'A HydraFacial is a non-invasive, medical-grade skin treatment that combines cleansing, exfoliation, gentle extraction, and deep hydration into one session. Using patented Vortex-Fusion technology, it removes dead skin cells and pore congestion while simultaneously infusing the skin with hydrating serums, antioxidants, and peptides. The result is immediately smoother, brighter, and more hydrated skin — with no redness, no downtime, and no discomfort. At Rama Care Polyclinic in Jumeirah, Dubai, every HydraFacial session is customized to your skin type and concerns by our DHA-licensed aesthetic team.'
+          title: 'What Is a HydraFacial Treatment?',
+          description: 'HydraFacial is an advanced, non-invasive, medical-grade facial treatment that combines deep cleansing, gentle exfoliation, painless extraction, and intensive hydration in a single session. Using patented Vortex-Fusion® technology, the treatment removes dead skin cells, excess oil, and impurities while simultaneously infusing the skin with hydrating serums, antioxidants, peptides, and skin-nourishing ingredients. Unlike traditional facials that primarily focus on surface cleansing, HydraFacial works at multiple levels to improve skin health, hydration, texture, and overall radiance. Many patients notice smoother, brighter, and healthier-looking skin immediately after treatment, with no downtime required.At Rama Care Polyclinic in Jumeirah, Dubai, every HydraFacial treatment is customized by our DHA-licensed aesthetic professionals according to your skin type, concerns, and skincare goals.'
         },
         {
           id: 2,
           title: 'Is HydraFacial Right for You?',
-          description: 'HydraFacial in Dubai is safe and effective for all skin types — including sensitive, oily, dry, and combination skin. You are an ideal candidate if you:',
+          description: 'HydraFacial in Dubai is suitable for most skin types, including oily, dry, sensitive, combination, acne-prone, and mature skin. You may be an ideal candidate if you:',
           listItems: [
-            'Have dull, tired, or dehydrated skin',
-            'Struggle with clogged pores, blackheads, or congestion',
-            'Notice fine lines, early wrinkles, or sun damage',
-            'Wants a safe, non-invasive facial treatment in Dubai',
-            'Experience uneven skin tone or hyperpigmentation',
-            'Maintain healthy skin as a regular wellness routine'
+            ' Have dull, tired, or dehydrated skin',
+            'Experience clogged pores, blackheads, or congestion',
+            ' Notice fine lines, early wrinkles, or sun damage',
+            'Want a safe, non-invasive facial treatment in Dubai',
+            'Have uneven skin tone, pigmentation, or mild acne scars',
+            'Need regular skin maintenance and hydration',
+            'Want healthier-looking skin with minimal downtime'
           ]
         },
         {
           id: 3,
-          title: 'Why Choose Our Signature Hydra Facial',
+          title: 'Benefits of HydraFacial Treatment in Dubai',
+          description:'Patients choose HydraFacial because it provides multiple skincare benefits in a single treatment session.',
           listItems: [
-            'Deeply cleanses and unclogs pores',
-            'Hydrates and nourishes all skin types',
-            'Reduces fine lines and improves elasticity',
-            'Enhances skin radiance and glow',
-            'Safe, non-invasive treatment suitable for sensitive skin'
-          ]
-        },
-        {
-          id: 4,
-          title: 'Why Patients Choose Our Signature Hydra Facial',
-          description: 'At Rama Care Polyclinic, our Signature Hydra Facial delivers immediate results with long-term skin health in mind. Patients choose it for:',
-          listItems: [
-            'Deep hydration and skin nourishment',
-            'Safe, non-invasive rejuvenation',
-            'Immediate glow and smoother texture',
-            'Personalized treatment tailored to their skin type'
+            ' Deep pore cleansing and extraction',
+            ' Intensive skin hydration',
+            ' Improved skin texture and smoothness',
+            ' Enhanced skin glow and radiance',
+            ' Reduction in blackheads and congestion',
+            ' Support for healthy skin barrier function',
+            'Suitable for sensitive skin',
+            'Comfortable, non-invasive treatment',
+            'No downtime or recovery period',
+            ' Personalized according to individual skin concerns'
           ]
         },
         {
           id: 5,
-          title: 'Common Skin Concerns Addressed',
-          description: 'Many patients face skin issues due to stress, environmental exposure, and aging. Our Signature Hydra Facial helps with:',
+          title: 'Common Skin Concerns HydraFacial Can Help Address',
+          description: 'HydraFacial is commonly recommended as part of a personalized skin rejuvenation plan to address: ',
           listItems: [
-            'Dry skin',
-            'Dull and uneven skin tone',
-            'Early signs of aging, like fine lines and wrinkles',
-            'Acne-prone or sensitive skin'
+            'Dry & Dehydrated Skin -Replenishes moisture and improves hydration levels for healthier-looking skin.',
+            'Oily Skin & Congested Pores-Helps remove excess oil, impurities, and buildup that contribute to blackheads and enlarged pores.',
+            'Uneven Skin Tone & Pigmentation - Supports brighter, more even-looking skin and improved overall radiance.',
+            'Acne-Prone Skin -Deep cleansing and extraction help reduce congestion and support clearer-looking skin.',
+            'Fine Lines & Early Signs of Aging-Hydration and antioxidant infusion help improve skin texture and overall skin appearance.',
+            ' Sensitive Skin-The treatment can be customized to suit sensitive skin while maintaining comfort and effectiveness.',
           ]
         }
       ],
@@ -24148,11 +24188,14 @@ healingJourney: {
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
 ],
-    quickFacts: [
-  { label: 'Treatment Duration', value: '60–75 minutes' },
+   quickFacts: [
+  { label: 'Treatment Duration', value: '60–75 Minutes' },
   { label: 'Downtime', value: 'None' },
-  { label: 'Recommended Frequency', value: 'Once every 4–6 weeks' },
-  { label: 'Suitable For', value: 'All skin types' }
+  { label: 'Pain Level', value: 'Comfortable' },
+  { label: 'Recommended Frequency', value: 'Every 4–6 Weeks' },
+  { label: 'Suitable For', value: 'All Skin Types' },
+  { label: 'Treatment Type', value: 'Non-Invasive' },
+  { label: 'Recovery Time', value: 'Immediate Return to Daily Activities' }
 ],
     approachCards: [
   {
@@ -24436,42 +24479,72 @@ healingJourney: {
   {
     id: 1,
     question: 'How much does a HydraFacial cost in Dubai?',
-    answer: 'HydraFacial price in Dubai typically ranges from AED 499 to AED 1,400 depending on the clinic, session type, and any add-on boosters used. At Ramacare Polyclinic, we offer competitive, transparent pricing with flexible payment options. Contact us for a personalised quote.'
+    answer: 'The cost of a HydraFacial in Dubai varies depending on the clinic, treatment package, and any additional boosters included. At RamaCare Polyclinic, we offer personalized HydraFacial treatments designed to suit your skin concerns and goals. Contact us for the latest pricing and special offers.'
   },
   {
     id: 2,
     question: 'Is HydraFacial safe for sensitive skin?',
-    answer: 'Yes. HydraFacial is one of the safest facial treatments available and is specifically suitable for sensitive skin. The treatment is non-abrasive, involves no chemical peels, and uses gentle suction rather than manual extraction. Our DHA-licensed team will customise the serums to your skin sensitivity level.'
+    answer: 'Yes, HydraFacial is generally safe for sensitive skin. The treatment uses gentle cleansing, exfoliation, extraction, and hydration techniques that can be customized according to your skin type. Our skincare specialists assess your skin before treatment to ensure the best results.'
   },
   {
     id: 3,
     question: 'How many HydraFacial sessions do I need to see results?',
-    answer: 'Most patients notice a visible improvement—brighter skin, reduced pores, and better hydration—after just one session. For targeted concerns such as pigmentation, fine lines, or acne scarring, we recommend a course of 3–6 sessions spaced 3–4 weeks apart.'
+    answer: 'Many patients notice brighter, smoother, and more hydrated skin immediately after their first HydraFacial session. However, for long-term improvements in skin texture, pigmentation, acne, or fine lines, monthly sessions are often recommended.'
   },
   {
     id: 4,
     question: 'Is there any downtime after a HydraFacial in Dubai?',
-    answer: 'No. HydraFacial has zero downtime. You can return to work, apply makeup, and go about your day immediately after your session. Some patients experience a mild flush of colour that fades within a few hours.'
+    answer: 'No, HydraFacial is a non-invasive treatment with little to no downtime. Most patients can return to work, social events, or daily activities immediately after their appointment with a refreshed and radiant complexion.'
   },
   {
     id: 5,
     question: 'Can I get a HydraFacial during summer in Dubai?',
-    answer: 'Absolutely. HydraFacial is an excellent summer treatment. Dubai’s heat, humidity, and UV exposure accelerate dehydration and pore congestion—exactly what HydraFacial is designed to address. Post-treatment, we recommend applying SPF 50+ to protect freshly treated skin.'
+    answer: 'Absolutely. HydraFacial is suitable throughout the year, including Dubai\'s hot summer months. It helps deeply hydrate the skin, remove impurities, and restore a healthy glow that can be affected by sun exposure and air conditioning.'
   },
   {
     id: 6,
     question: 'What is the difference between HydraFacial and a regular facial?',
-    answer: 'Unlike a regular facial that cleanses the skin’s surface, a HydraFacial uses medical-grade Vortex-Fusion technology to simultaneously exfoliate, extract, and infuse your skin with customised serums. The results are deeper, longer-lasting, and supported by clinical data.'
+    answer: 'Unlike traditional facials, HydraFacial uses advanced vortex technology to cleanse, exfoliate, extract impurities, and infuse the skin with nourishing serums in a single treatment. The result is deeper hydration, improved skin texture, and more noticeable results with no downtime.'
   },
   {
     id: 7,
     question: 'Where can I get the best HydraFacial in Dubai?',
-    answer: 'Ramacare Polyclinic in Jumeirah 1 is a DHA-licensed medical facility offering professional HydraFacial treatments performed by certified aesthetic specialists with over 14 years of experience. With 3,000+ sessions completed and a 98% patient satisfaction rate, it is one of Dubai’s most trusted choices for HydraFacial.'
+    answer: 'Choosing the best HydraFacial clinic in Dubai depends on factors such as practitioner experience, technology used, patient reviews, and personalized care. At RamaCare Polyclinic, our experienced skincare professionals provide customized HydraFacial treatments tailored to your unique skin needs.'
   },
   {
     id: 8,
     question: 'Does HydraFacial help with acne in Dubai?',
-    answer: 'Yes. HydraFacial helps acne-prone skin by clearing clogged pores, removing excess sebum, and delivering anti-inflammatory serums to calm active breakouts. It is a non-aggressive treatment that will not irritate or worsen sensitive, acne-prone skin when performed by a trained specialist.'
+    answer: 'Yes, HydraFacial can help improve acne-prone skin by removing excess oil, unclogging pores, and exfoliating dead skin cells. Regular treatments may reduce congestion, minimize breakouts, and improve overall skin clarity when combined with a professional skincare plan.'
+  },
+  {
+    id: 9,
+    question: 'Is HydraFacial good for pigmentation and uneven skin tone?',
+    answer: 'Yes, HydraFacial can help improve mild pigmentation, sun damage, and uneven skin tone by exfoliating dead skin cells and delivering skin-brightening serums. Regular sessions may contribute to a brighter and more even complexion.'
+  },
+  {
+    id: 10,
+    question: 'How long do HydraFacial results last?',
+    answer: 'Most patients enjoy visible results for 4 to 6 weeks after treatment. Maintaining a proper skincare routine and scheduling regular HydraFacial sessions can help prolong the benefits and keep your skin looking healthy and radiant.'
+  },
+  {
+    id: 11,
+    question: 'Can men get a HydraFacial in Dubai?',
+    answer: 'Yes, HydraFacial is suitable for both men and women. It is an effective treatment for concerns such as oily skin, enlarged pores, acne, dehydration, and dullness, making it a popular choice among male patients in Dubai.'
+  },
+  {
+    id: 12,
+    question: 'How long does a HydraFacial treatment take?',
+    answer: 'A typical HydraFacial session takes approximately 30 to 60 minutes, depending on the treatment plan and whether additional boosters or complementary procedures are included.'
+  },
+  {
+    id: 13,
+    question: 'Can HydraFacial reduce fine lines and wrinkles?',
+    answer: 'HydraFacial helps improve skin hydration, elasticity, and texture, which can reduce the appearance of fine lines and early signs of aging. Regular treatments support healthier, younger-looking skin.'
+  },
+  {
+    id: 14,
+    question: 'Who is a good candidate for HydraFacial?',
+    answer: 'HydraFacial is suitable for most skin types, including dry, oily, sensitive, combination, and aging skin. A consultation with our skincare experts can determine the most suitable treatment plan for your specific concerns.'
   }
 ],
       resources: [
@@ -24489,9 +24562,9 @@ healingJourney: {
           },
           {
             id: 3,
-            text: 'Signature Hydra Facial',
+            text: 'Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai/'
+            link: '/services/hydrafacial-dubai/'
           },
            {
             id: 4,
@@ -25169,9 +25242,9 @@ healingJourney: {
           },
           {
             id: 3,
-            text: 'Signature Hydra Facial',
+            text: 'Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai/'
+            link: '/services/hydrafacial-dubai/'
           },
            {
             id: 4,
@@ -25839,9 +25912,9 @@ healingJourney: {
           },
           {
             id: 3,
-            text: 'Signature Hydra Facial',
+            text: 'Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai/'
+            link: '/services/hydrafacial-dubai/'
           },
            {
             id: 4,
@@ -26497,9 +26570,9 @@ healingJourney: {
           },
           {
             id: 3,
-            text: 'Signature Hydra Facial',
+            text: 'Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai/'
+            link: '/services/hydrafacial-dubai/'
           },
            {
             id: 4,
@@ -27148,9 +27221,9 @@ healingJourney: {
           },
           {
             id: 3,
-            text: 'Signature Hydra Facial',
+            text: 'Hydra Facial',
             bgColor: 'bg-[#FEF2F2]',
-            link: '/services/signature-hydra-facial-dubai/'
+            link: '/services/hydrafacial-dubai/'
           },
            {
             id: 4,

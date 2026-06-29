@@ -18,7 +18,7 @@ export const subSubcategoryContent = {
   'aesthetic-dermatology-dubai-skin-treatment-skin-boosters': {
     hero: {
       subtitle: 'Deep Hydration & Natural Skin Rejuvenation',
-      description: 'Restore your skin’s natural glow and hydration with Skin Booster Treatment in Dubai at ramacare polyclinic. This advanced injectable treatment deeply nourishes the skin from within, improving texture, elasticity, and overall skin quality for a fresh, youthful appearance.',
+      description: 'Restore your skin\'s natural glow, hydration, and youthful appearance with Skin Boosters in Dubai at RamaCare Polyclinic.Our advanced injectable skin rejuvenation treatment is designed to deeply hydrate the skin from within, improve elasticity, refine texture, and reduce the appearance of fine lines for healthy, radiant-looking skin. Unlike traditional dermal fillers that primarily restore facial volume, skin boosters focus on improving overall skin quality by delivering hydrating hyaluronic acid into the deeper layers of the skin.This stimulates collagen production, enhances skin firmness, and provides long-lasting hydration, making your skin look smoother, fresher, and naturally rejuvenated. Whether you are concerned about dry skin, dullness, early signs of ageing, uneven texture, or loss of elasticity, our DHA-licensed aesthetic specialists create a personalized treatment plan tailored to your unique skin type and aesthetic goals.Skin booster treatments are suitable for the face, neck, décolletage, and hands, offering comprehensive skin rejuvenation with minimal discomfort and little to no downtime. At RamaCare Polyclinic, we prioritize patient safety, medical excellence, and natural-looking results.Every treatment begins with a detailed consultation and skin assessment to ensure you receive the most appropriate care using high-quality products and advanced injection techniques.',
       rating: '500+ Happy Clients',  
       stats: [
         { id: 1, number: '92%', label: 'Patient Satisfaction' },
@@ -79,25 +79,30 @@ export const subSubcategoryContent = {
         problemIntro: {
           title: 'The Problem: Dehydrated & Dull Skin',
           description:
-            'Many people struggle with dehydrated skin that topical products cannot fully treat. Environmental exposure, aging, and lifestyle factors worsen skin texture and radiance over time.'
+            'Many people invest in expensive skincare products but continue to experience dry, tired, and aging skin. This is because topical creams primarily work on the skin\'s surface and may not provide sufficient hydration to the deeper layers where skin health begins.As we age, the body\'s natural production of hyaluronic acid, collagen, and elastin gradually declines. Combined with sun exposure, air conditioning, pollution, stress, smoking, and inadequate hydration, these changes can affect the skin\'s appearance and texture, making it look less vibrant and more prone to fine lines.Understanding the underlying causes of skin dehydration helps create an effective treatment plan focused on restoring long-term skin health rather than providing temporary cosmetic improvements.'
         },
       
      solutionIntro: {
-  title: 'Our Solution: Skin Boosters Treatment in Dubai',
+  title: 'Our Solution: Skin Boosters Treatment in Dubai for Deep Hydration & Natural Skin Rejuvenation',
   description:
-    'Our Skin Boosters Treatment in Dubai is an advanced injectable therapy designed to deeply hydrate, rejuvenate, and improve overall skin quality.'
+    'At RamaCare Polyclinic, our Skin Boosters Treatment in Dubai is designed to improve your skin from within rather than simply treating surface concerns. Using advanced injectable technology and premium-quality hyaluronic acid-based skin boosters, this non-surgical treatment replenishes deep skin hydration, enhances elasticity, stimulates natural collagen production, and restores a healthy, youthful glow. Unlike traditional dermal fillers that primarily add facial volume or contour specific areas, skin boosters work across the entire treatment area to improve overall skin quality. The treatment delivers micro-droplets of hyaluronic acid into the deeper layers of the skin, where they attract and retain moisture, helping the skin become smoother, firmer, and more radiant over time.Every patient has unique skin concerns, which is why our DHA-licensed aesthetic specialists perform a comprehensive skin assessment before creating a personalized treatment plan. Whether your goal is to address dehydration, improve texture, reduce early signs of ageing, or maintain healthy-looking skin, we tailor each treatment to suit your individual needs while prioritizing safety and natural-looking results.'
 },
      
     leftCards: [
-  {
-    "id": 1,
-    "title": "What Is Skin Booster Treatment?",
-    "description": "Skin Booster Treatment in Dubai is a minimally invasive aesthetic procedure that delivers hyaluronic acid and skin-nourishing ingredients directly into the skin. Unlike fillers, it improves overall skin quality rather than adding volume."
-  },
+      {
+        id: 1,
+        title: '',
+        description: 'Healthy, radiant skin is built on hydration, collagen, and elasticity. Over time, factors such as ageing, sun exposure, pollution, stress, inadequate hydration, and lifestyle habits can weaken the skin\'s natural barrier, leading to dryness, dullness, fine lines, and uneven texture. While skincare products can improve the skin\'s surface, they often cannot deliver deep hydration where it is needed most.Skin Boosters in Dubai are an advanced, minimally invasive aesthetic treatment designed to hydrate the skin from within rather than simply treating surface concerns. By delivering hyaluronic acid and skin-rejuvenating ingredients directly into the deeper layers of the skin, skin boosters help improve hydration, stimulate collagen production, enhance elasticity, and restore a naturally healthy glow.At RamaCare Polyclinic, every skin booster treatment begins with a comprehensive skin assessment. Our DHA-licensed aesthetic specialists evaluate your skin condition, hydration levels, lifestyle, and aesthetic goals to create a personalized treatment plan that supports healthy, natural-looking skin rejuvenation. The treatment is suitable for both men and women seeking smoother, firmer, and more radiant skin without surgery or extended downtime.'
+      },
   {
     "id": 2,
+    "title": "What Is Skin Booster Treatment?",
+    "description": "Skin Booster Treatment is a non-surgical injectable skin rejuvenation procedure that uses stabilized hyaluronic acid to deeply hydrate the skin and improve its overall quality. Unlike dermal fillers, which are designed to restore facial volume or reshape facial contours, skin boosters focus on enhancing the skin itself.The micro-injections deliver moisture directly beneath the skin's surface, where hyaluronic acid attracts and retains water molecules. This helps replenish hydration, improve skin texture, support collagen production, and increase elasticity over time. As the skin becomes better hydrated, it appears smoother, softer, brighter, and healthier.Skin boosters are commonly used to treat areas where the skin is prone to dehydration and early aging, including:Face,Neck,Décolletage,Hands , Around the mouth , Under-eye area (where clinically appropriate).Because the treatment works gradually by improving skin health from within, results develop naturally over several weeks and continue to improve with a recommended treatment course."
+  },
+  {
+    "id": 3,
     "title": "Who Is Skin Booster Treatment For?",
-    "description": "This treatment is ideal for individuals who experience:",
+    "description": "Skin Booster Treatment is suitable for adults who want to improve skin quality, restore hydration, and address the early signs of skin aging without undergoing surgical procedures. Whether you are looking to maintain youthful skin or refresh tired-looking skin, this treatment can be tailored to your individual concerns.You may benefit from skin boosters in Dubai if you have the following:",
     "listItems": [
       "Dry, dehydrated, or dull skin",
       "Fine lines and early signs of aging",
@@ -107,184 +112,257 @@ export const subSubcategoryContent = {
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Treatment Results",
-    "description": "Regular sessions help maintain healthy, hydrated, and youthful-looking skin."
+    "description": "Skin Booster Treatment works gradually to improve skin quality from within. While some patients notice enhanced hydration and smoother skin within a few weeks, the best results typically develop after completing the recommended series of treatment sessions."
   }
 ],
-  rootCauses: [
+ rootCauses: [
   {
     id: 1,
-    title: 'Lack of Skin Hydration ',
+    title: 'Lack of Skin Hydration',
     description:
-      'Dehydrated skin looks dull, rough, and tired, with reduced elasticity and radiance.',
+      'Healthy skin relies on adequate moisture to remain smooth, supple, and resilient. When hydration levels decrease, the skin may appear rough, flaky, tight, and dull while losing its natural glow. Skin boosters replenish deep hydration, helping improve moisture balance and overall skin quality.',
     severity: 'High',
-    severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
+    severityColor: 'bg-[#FEE2E2] text-[#991B1B]',
   },
   {
     id: 2,
-    title: 'Fine Lines & Early Aging ',
+    title: 'Fine Lines & Early Signs of Ageing',
     description:
-      'Loss of moisture and collagen causes fine lines, creases, and uneven skin texture.',
+      'As collagen and elastin production naturally slow with age, the skin becomes thinner and less flexible. This can lead to the development of fine lines, early wrinkles, and reduced skin firmness. Deep hydration combined with collagen stimulation helps soften these early signs of ageing while maintaining a natural appearance.',
     severity: 'Medium',
-    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]',
   },
   {
     id: 3,
-    title: 'Uneven Skin Tone',
+    title: 'Uneven Skin Tone & Texture',
     description:
-      'Sun exposure, pollution, and aging lead to pigmentation and a lack of skin clarity.',
+      'Sun exposure, environmental pollutants, and everyday stress can contribute to uneven skin tone, rough texture, and reduced skin clarity. Although skin boosters are not designed to treat pigmentation directly, improved hydration and healthier skin function can contribute to smoother, brighter, and more radiant-looking skin.',
     severity: 'Medium',
-    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]',
   },
   {
     id: 4,
     title: 'Reduced Skin Elasticity',
     description:
-      'Aging slows natural collagen production, making skin appear loose and lifeless.',
+      'Over time, the skin gradually loses its ability to remain firm and resilient due to declining collagen production. Reduced elasticity may cause the skin to appear loose, tired, or less youthful. The skin booster treatment supports the skin’s natural regenerative processes, helping improve firmness and elasticity while promoting healthier-looking skin.',
     severity: 'Medium',
-    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
-  }
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]',
+  },
 ],
 
-      quickFacts: [
-        { label: 'Treatment Type', value: 'Injectable' },
-        { label: 'Recovery Time', value: 'Minimal' },
-        { label: 'Results', value: 'Long-lasting' }
-      ],
-     approachCards: [
+     quickFacts: [
+  {
+    label: "Treatment Type",
+    value: "Injectable Skin Rejuvenation",
+  },
+  {
+    label: "Procedure Time",
+    value: "Approximately 30–45 minutes",
+  },
+  {
+    label: "Anaesthesia",
+    value: "Topical numbing cream (if required)",
+  },
+  {
+    label: "Downtime",
+    value: "Minimal",
+  },
+  {
+    label: "Recovery Time",
+    value: "Most patients resume normal activities within 24 hours",
+  },
+  {
+    label: "Recommended Sessions",
+    value: "Personalised according to skin condition",
+  },
+  {
+    label: "Results",
+    value: "Gradual and long-lasting with maintenance treatments",
+  },
+  {
+    label: "Suitable For",
+    value: "Men and women seeking healthier, hydrated skin",
+  },
+],
+    approachCards: [
   {
     id: 1,
     title: 'Deep Skin Hydration',
     description:
-      'Infuses hyaluronic acid into the skin to restore moisture from within.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Infuses stabilized hyaluronic acid into the skin to restore deep hydration, improve moisture retention, and enhance overall skin health.',
+    hasLearnMore: true,
+    expandedContent:
+      'One of the primary benefits of skin booster treatment is its ability to restore hydration deep within the skin. As we age, natural levels of hyaluronic acid decline, reducing the skin\'s ability to retain moisture, which may lead to dryness, roughness, tightness, and a dull complexion. Skin boosters deliver stabilized hyaluronic acid beneath the skin\'s surface, where it binds with water molecules to provide long-lasting hydration. This helps strengthen the skin barrier, increase softness, and restore a healthy, supple appearance. Benefits include deep and long-lasting hydration, improved moisture retention, softer and smoother skin, reduced dryness and tightness, and a healthier-looking complexion.'
   },
   {
     id: 2,
-    title: 'Improves Skin Texture & Glow',
+    title: 'Improves Skin Texture & Natural Glow',
     description:
-      'Enhances smoothness, brightness, and natural radiance.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Enhances skin smoothness, brightness, and natural radiance by improving hydration and supporting collagen production.',
+    hasLearnMore: true,
+    expandedContent:
+      'Healthy skin reflects light more evenly, creating a naturally radiant appearance. Environmental pollution, UV exposure, stress, and ageing can gradually make the skin appear rough, uneven, and tired. Skin booster treatment supports the skin\'s natural renewal process through improved hydration and collagen stimulation, helping achieve smoother texture, refined pores, enhanced luminosity, and a fresher complexion. It may improve rough skin texture, dull-looking skin, mild unevenness, loss of natural radiance, and overall skin quality while maintaining a natural, healthy-looking appearance.'
   },
   {
     id: 3,
-    title: 'Reduces Fine Lines',
+    title: 'Reduces Fine Lines & Improves Skin Elasticity',
     description:
-      'Softens early signs of aging by improving skin elasticity and firmness.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Supports collagen production to soften fine lines while improving skin firmness and elasticity.',
+    hasLearnMore: true,
+    expandedContent:
+      'Fine lines are often among the earliest visible signs of skin ageing. Reduced collagen production and moisture loss make the skin less flexible, allowing lines and creases to become more noticeable. By improving deep hydration and supporting collagen formation, Skin Boosters help enhance skin elasticity and firmness. Although they are not intended to replace wrinkle-relaxing injections or dermal fillers, they can noticeably soften superficial fine lines and improve the overall appearance of ageing skin. Many patients choose skin boosters as part of a comprehensive skin maintenance programme to preserve youthful-looking skin and delay more noticeable signs of ageing.'
   },
   {
     id: 4,
-    title: 'Natural, Subtle Results',
+    title: 'Natural, Healthy-Looking Results',
     description:
-      'Provides refreshed, healthy-looking skin without altering facial features.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Provides refreshed, healthy-looking skin while preserving natural facial features and expressions.',
+    hasLearnMore: true,
+    expandedContent:
+      'At RamaCare Polyclinic, we believe aesthetic treatments should enhance your natural beauty rather than change your facial features. Skin booster treatment gradually improves skin quality from within, allowing results to develop naturally over several weeks. Friends and family may notice that your skin looks healthier, brighter, and more refreshed without obvious signs of cosmetic treatment. Our personalised approach focuses on achieving balanced, subtle, and natural-looking improvements that complement your facial features while maintaining natural facial expressions.'
   },
   {
     id: 5,
-    title: 'Safe & Long-Lasting Benefits',
+    title: 'Safe Procedure & Long-Lasting Benefits',
     description:
-      'Minimal downtime with gradual, long-lasting improvement in skin quality.',
-    hasLearnMore: false,
-    expandedContent: null
-  }
-]
-    },
-    healingJourney: {
-      title: 'Your Skin Booster Journey',
-      description: 'A step-by-step, patient-friendly approach for hydrated, glowing skin. ',
-    steps: [
-  {
-    id: 1,
-    number: '01',
-    title: 'Initial Skin Consultation',
-    duration: 'Step 1',
-    description: 'Detailed skin analysis and concern assessment.',
-    keyActivities: [
-      'Detailed skin analysis and concern assessment',
-      'Review of medical history and lifestyle factors',
-      'Selection of the right skin booster based on skin needs'
-    ],
-    side: 'right'
-  },
-  {
-    id: 2,
-    number: '02',
-    title: 'Personalized Treatment Planning',
-    duration: 'Step 2',
-    description: 'Customized skin booster protocol and treatment mapping.',
-    keyActivities: [
-      'Customized skin booster protocol',
-      'Area mapping (face, neck, under-eyes, hands)',
-      'Explanation of expected results and number of sessions'
-    ],
-    side: 'left'
-  },
-  {
-    id: 3,
-    number: '03',
-    title: 'Skin Preparation',
-    duration: 'Step 3',
-    description: 'Preparing the skin safely and comfortably before treatment.',
-    keyActivities: [
-      'Gentle cleansing and disinfection',
-      'Application of numbing cream for comfort',
-      'Final skin evaluation before treatment'
-    ],
-    side: 'right'
-  },
-  {
-    id: 4,
-    number: '04',
-    title: 'Skin Booster Application',
-    duration: 'Step 4',
-    description: 'Delivery of skin boosters using precise techniques.',
-    keyActivities: [
-      'Micro-injections or the mesotherapy technique',
-      'Even distribution of hyaluronic acid–based boosters',
-      'Focus on hydration, glow, and skin texture improvement'
-    ],
-    side: 'left'
-  },
-  {
-    id: 5,
-    number: '05',
-    title: 'Post-Treatment Care',
-    duration: 'Step 5',
-    description: 'Immediate aftercare and skin recovery support.',
-    keyActivities: [
-      'Soothing serum or calming mask application',
-      'Immediate aftercare instructions',
-      'Guidance on skincare, sun protection, and hydration'
-    ],
-    side: 'right'
+      'A minimally invasive treatment with minimal downtime and gradual, long-lasting improvements in skin quality.',
+    hasLearnMore: true,
+    expandedContent:
+      'Skin Booster Treatment is performed by our DHA-licensed aesthetic professionals using evidence-based techniques and high-quality injectable products. Most treatment sessions take approximately 30 to 45 minutes with minimal discomfort and little to no downtime, allowing most patients to resume normal activities shortly after treatment. With the recommended treatment course and maintenance sessions, patients may enjoy long-lasting improvements in skin hydration, firmness, elasticity, texture, radiance, and overall skin quality. Results vary depending on individual skin condition, age, lifestyle, and adherence to the personalised treatment plan recommended by your aesthetic specialist.'
   },
   {
     id: 6,
-    number: '06',
-    title: 'Follow-Up & Maintenance',
-    duration: 'Step 6',
-    description: 'Ongoing evaluation and long-term skin health planning.',
-    keyActivities: [
-      'Progress evaluation after each session',
-      'Additional sessions scheduled if needed',
-      'Maintenance plan for long-lasting skin health'
-    ],
-    side: 'left'
+    title: 'Why Choose Skin Boosters at RamaCare Polyclinic?',
+    description:
+      'Receive personalised care from DHA-licensed aesthetic specialists using advanced techniques and premium-quality products.',
+    hasLearnMore: true,
+    expandedContent:
+      'Choosing a qualified medical provider is essential for safe and effective aesthetic treatment. At RamaCare Polyclinic, we combine clinical expertise with personalised care to deliver natural-looking skin rejuvenation tailored to each patient. Our commitment includes DHA-licensed aesthetic specialists, individualised treatment planning, premium-quality skin booster products, advanced injection techniques, high standards of patient safety, evidence-based aesthetic care, a comfortable treatment experience, comprehensive aftercare support, and natural, refreshed results focused on improving skin health. Whether you are looking to restore hydration, improve skin texture, or maintain a youthful glow, our team is dedicated to helping you achieve healthier, revitalised skin with a treatment plan designed specifically for your needs.'
   }
 ]
+    },
+   healingJourney: {
+  title: 'Your Skin Booster Journey',
+  description:
+    'At RamaCare Polyclinic, every Skin Booster treatment follows a structured, medically guided process designed to improve hydration, texture, elasticity, and overall skin quality. From your initial consultation through long-term maintenance, our DHA-licensed aesthetic specialists provide personalised care to deliver safe, comfortable, and natural-looking results with minimal downtime.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Initial Skin Consultation',
+      duration: 'Step 1',
+      description:
+        'Your journey begins with a comprehensive consultation where our aesthetic specialist evaluates your skin concerns, medical history, lifestyle, and treatment goals to determine whether Skin Booster Treatment is the right option for you.',
+      keyActivities: [
+        'Comprehensive skin analysis and hydration assessment',
+        'Discussion of skin concerns and aesthetic goals',
+        'Review of medical history, allergies, and current medications',
+        'Evaluation of lifestyle factors affecting skin health',
+        'Assessment of previous cosmetic or aesthetic treatments',
+        'Selection of the most suitable skin booster product',
+        'Opportunity to ask questions and understand the procedure'
+      ],
+      side: 'right'
+    },
+    {
+      id: 2,
+      number: '02',
+      title: 'Personalised Treatment Planning',
+      duration: 'Step 2',
+      description:
+        'Based on your consultation, a customised treatment plan is created according to your skin type, age, hydration level, collagen loss, and treatment goals to ensure optimal long-term results.',
+      keyActivities: [
+        'Creation of a personalised skin booster treatment plan',
+        'Selection of the appropriate injectable formulation',
+        'Treatment area mapping for face, neck, décolletage, hands, and under-eye area where appropriate',
+        'Discussion of expected treatment outcomes',
+        'Explanation of the recommended treatment schedule',
+        'Review of pre-treatment instructions'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Skin Preparation',
+      duration: 'Step 3',
+      description:
+        'Before treatment, your skin is carefully cleansed and prepared to maximise comfort, safety, and treatment effectiveness while reducing the risk of irritation.',
+      keyActivities: [
+        'Gentle cleansing of the treatment area',
+        'Thorough skin disinfection',
+        'Application of topical numbing cream if required',
+        'Final skin evaluation before treatment',
+        'Marking of injection points when necessary',
+        'Preparation using sterile equipment and techniques'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Skin Booster Application',
+      duration: 'Step 4',
+      description:
+        'Using advanced micro-injection or mesotherapy techniques, hyaluronic acid-based skin boosters are precisely delivered beneath the skin to improve hydration, stimulate collagen production, and enhance overall skin quality.',
+      keyActivities: [
+        'Precise micro-injections or mesotherapy delivery',
+        'Even distribution of hyaluronic acid throughout the treatment area',
+        'Improvement of skin hydration and overall skin quality',
+        'Enhancement of skin elasticity and firmness',
+        'Support for collagen stimulation',
+        'Continuous monitoring of patient comfort throughout the procedure'
+      ],
+      side: 'left'
+    },
+    {
+      id: 5,
+      number: '05',
+      title: 'Post-Treatment Care',
+      duration: 'Step 5',
+      description:
+        'After treatment, personalised aftercare is provided to support healing, reduce irritation, and help maximise long-term treatment results with minimal downtime.',
+      keyActivities: [
+        'Application of a soothing serum or calming mask',
+        'Assessment of treated skin before discharge',
+        'Personalised aftercare instructions',
+        'Guidance on gentle skincare routines',
+        'Advice regarding sun protection',
+        'Recommendations for maintaining adequate hydration',
+        'Information about temporary post-treatment reactions',
+        'Instructions on when to resume normal skincare products'
+      ],
+      side: 'right'
+    },
+    {
+      id: 6,
+      number: '06',
+      title: 'Follow-Up & Maintenance',
+      duration: 'Step 6',
+      description:
+        'Regular follow-up appointments allow our specialists to monitor your progress, evaluate treatment results, and recommend maintenance sessions that support long-term skin health and natural rejuvenation.',
+      keyActivities: [
+        'Evaluation of treatment progress',
+        'Comparison of improvements in skin hydration and texture',
+        'Assessment of patient satisfaction',
+        'Scheduling of additional sessions when recommended',
+        'Development of a personalised maintenance programme',
+        'Long-term skin health planning',
+        'Ongoing professional skincare advice',
+        'Recommendations for maintaining healthy, radiant skin throughout the year'
+      ],
+      side: 'left'
+    }
+  ]
 
       },
     benefits: {
-      title: 'Clinically-Observed Benefits',
-      description: 'Evidence-based results from our comprehensive Skin Booster treatment.',
+      title: 'Clinically Observed Benefits of Skin Boosters in Dubai',
+      description: 'The skin booster treatment is designed to improve overall skin quality by restoring hydration, enhancing elasticity, and supporting the skin\'s natural renewal process. Unlike treatments that focus only on surface-level improvements, skin boosters work beneath the skin to deliver deep hydration and encourage healthier, smoother, and more radiant-looking skin. At RamaCare Polyclinic, every treatment plan is personalized to your skin type, concerns, and aesthetic goals. While individual results vary, many patients notice gradual improvements in hydration, texture, firmness, and overall skin appearance after completing the recommended treatment sessions.',
       comparisonTitle: 'Skin Booster Treatment vs. Traditional Facials',
-      comparisonDescription: 'Understanding the Difference Before Choosing Your Care',
+      comparisonDescription: 'Understanding the Difference Before Choosing Your Skin Rejuvenation Treatment .If you\'re looking to improve your skin\'s appearance, you may wonder whether a skin booster treatment in Dubai or a traditional facial is the better option. ',
       comparisonHeaders: {
         feature: 'Aspect',
         ourTreatment: 'Skin Booster Treatment',
@@ -293,64 +371,139 @@ export const subSubcategoryContent = {
       benefits: [
         {
           id: 1,
-          title: '  Improved skin hydration and glow',
+          title: 'Improved Skin Hydration & Natural Glow',
           percentage: 89,
-          description: null
+          description: 'One of the primary benefits of Skin Boosters is long-lasting hydration. Hyaluronic acid attracts and retains moisture within the skin, helping restore hydration where it is needed most. Well-hydrated skin appears healthier, softer, smoother, and naturally radiant.',
+          hasLearnMore: true,
+          expandedContent: 'Patients commonly notice: Improved skin moisture, reduced dryness and tightness, brighter, healthier-looking complexion, increased softness and smoothness, naturally refreshed appearance.'
         },
         {
           id: 2,
-          title: ' Smoother texture and refined pores',
+          title: 'Smoother Skin Texture & Refined Pores',
           percentage: 92,
-          description: null
+          description: 'Environmental pollution, ageing, and dehydration can leave the skin feeling rough and uneven. Skin Booster Treatment helps improve skin texture by supporting hydration and collagen production, resulting in smoother, healthier-looking skin over time.',
+          hasLearnMore: true,
+          expandedContent: 'Potential benefits include: Smoother skin surface, improved skin softness, refined skin texture, healthier skin barrier, more even-looking complexion, reduced the appearance of enlarged pores.'
         },
         {
           id: 3,
-          title: ' Reduced fine lines and skin roughness',
+          title: 'Reduced Fine Lines & Skin Roughness',
           percentage: 87,
-          description: null
+          description: 'As skin loses moisture and collagen with age, fine lines and roughness may become more noticeable. By deeply hydrating the skin and supporting its natural repair processes, Skin Boosters help improve skin elasticity and soften the appearance of early signs of ageing.',
+          hasLearnMore: true,
+          expandedContent: 'Patients may notice: Softer fine lines, improved skin suppleness, better moisture retention, smoother facial appearance, healthier, revitalized skin. Results develop gradually, creating a natural and refreshed appearance rather than an overtreated look.'
         },
         {
           id: 4,
-          title: 'Enhanced elasticity and firmness',
+          title: 'Enhanced Skin Elasticity & Firmness',
           percentage: 95,
-          description:null
+          description: 'Healthy skin depends on collagen and elastin to maintain its firmness and resilience. As natural collagen production slows over time, skin may begin to lose its youthful structure.',
+          hasLearnMore: true,
+          expandedContent: 'Skin Boosters help improve skin elasticity by providing deep hydration and supporting collagen stimulation. This contributes to firmer, more resilient skin with improved texture and overall quality. Benefits may include: Improved skin elasticity, firmer-looking skin, better skin resilience, enhanced facial freshness, long-term improvement in skin quality.'
         },
         {
           id: 5,
-          title: 'Natural, refreshed appearance',
+          title: 'Natural, Healthy & Refreshed Appearance',
           percentage: 85,
-          description: null
+          description: 'One of the biggest advantages of the skin booster treatment is that it enhances your skin without changing your facial features. Instead of adding volume, the treatment improves the skin itself, creating a fresher, healthier, and more youthful appearance.',
+          hasLearnMore: true,
+          expandedContent: 'Many patients appreciate that friends and family often notice healthier-looking skin without realizing they have undergone an aesthetic treatment. Natural-looking improvements may include: Healthy skin glow, better skin tone, improved hydration, refined skin quality, youthful appearance, increased confidence.'
         },
+        {
+          id: 6,
+          title: 'Why Patients Choose Skin Boosters',
+          percentage: 94,
+          description: 'The Skin Booster Treatment offers multiple skin health benefits in a single minimally invasive procedure.',
+          hasLearnMore: true,
+          expandedContent: 'Key Advantages: Deep skin hydration from within, supports natural collagen production, improves skin elasticity, enhances skin texture, restores healthy skin radiance, softens early signs of ageing, suitable for most skin types, minimal downtime, gradual, natural-looking results, personalized treatment plans by DHA-licensed aesthetic specialists. Please note: Individual results vary depending on skin type, age, lifestyle, and the recommended treatment plan. Your aesthetic specialist will discuss realistic expectations during your consultation and recommend the number of sessions best suited to your skin goals.'
+        }
       
       ],
-      comparisonData: [
-        {
-          feature: 'Depth of Action',
-          ayurvedic: 'Works within the skin layers',
-          conventional: 'Works on skin surface'
-        },
-        {
-          feature: 'Hydration',
-          ayurvedic: 'Long-lasting deep hydration',
-          conventional: 'Temporary hydration'
-        },
-        {
-          feature: 'Anti-Aging Benefit',
-          ayurvedic: 'Improves elasticity and fine lines',
-          conventional: 'Limited anti-aging results'
-        },
-        {
-          feature: 'Results Duration',
-          ayurvedic: 'Long-term improvement',
-          conventional: 'Short-term glow'
-        },
-        {
-          feature: 'Medical Supervision',
-          ayurvedic: 'Doctor-led aesthetic procedure',
-          conventional: 'Non-medical skincare'
-        },
-      ]
+     comparisonData: [
+  {
+    feature: 'Treatment Approach',
+    ayurvedic:
+      'Injectable skin rejuvenation using hyaluronic acid to improve skin quality from within',
+    conventional:
+      'Non-invasive skincare treatment focused on cleansing, exfoliation, and hydration of the skin surface'
+  },
+  {
+    feature: 'Depth of Action',
+    ayurvedic:
+      'Works within the deeper layers of the skin to improve hydration and skin health',
+    conventional:
+      'Primarily works on the outer layer of the skin'
+  },
+  {
+    feature: 'Hydration',
+    ayurvedic:
+      'Deep, long-lasting hydration from within',
+    conventional:
+      'Temporary surface hydration'
+  },
+  {
+    feature: 'Skin Texture',
+    ayurvedic:
+      'Improves texture, smoothness, and overall skin quality',
+    conventional:
+      'Provides temporary softness and freshness'
+  },
+  {
+    feature: 'Collagen Support',
+    ayurvedic:
+      'Encourages natural collagen production',
+    conventional:
+      'Does not significantly stimulate collagen production'
+  },
+  {
+    feature: 'Anti-Ageing Benefits',
+    ayurvedic:
+      'Helps improve skin elasticity and soften the appearance of fine lines',
+    conventional:
+      'Limited anti-ageing benefits'
+  },
+  {
+    feature: 'Results',
+    ayurvedic:
+      'Gradual, natural-looking improvement over several weeks',
+    conventional:
+      'Immediate but short-term glow'
+  },
+  {
+    feature: 'Longevity of Results',
+    ayurvedic:
+      'Long-lasting with recommended maintenance sessions',
+    conventional:
+      'Usually lasts a few days to a few weeks'
+  },
+  {
+    feature: 'Downtime',
+    ayurvedic:
+      'Minimal downtime with temporary redness or mild swelling possible',
+    conventional:
+      'Little to no downtime'
+  },
+  {
+    feature: 'Medical Supervision',
+    ayurvedic:
+      'Performed by DHA-licensed aesthetic professionals',
+    conventional:
+      'Typically provided as a cosmetic skincare treatment'
+  },
+  {
+    feature: 'Suitable For',
+    ayurvedic:
+      'Individuals seeking long-term skin rejuvenation and deep hydration',
+    conventional:
+      'Individuals looking for routine skin maintenance and relaxation'
+  }
+]
     },
+  choosingRightApproach: {
+    title: 'Which Treatment Is Right for You?',
+    content: 'Both treatments can play a valuable role in maintaining healthy skin, but they serve different purposes.<br><br><b>A skin booster treatment may be suitable if you want to:</b><ul><li>Improve long-term skin hydration</li><li>Enhance skin elasticity and firmness</li><li>Reduce the appearance of fine lines</li><li>Improve overall skin texture</li><li>Restore a healthy, natural glow</li><li>Achieve gradual, long-lasting skin rejuvenation</li></ul><b>Traditional facials may be suitable if you want to:</b><ul><li>Cleanse and refresh your skin</li><li>Remove surface impurities</li><li>Enjoy a relaxing skincare treatment</li><li>Maintain your regular skincare routine</li><li>Prepare your skin for a special occasion</li></ul>',
+    closing: 'For many patients, skin booster treatments and professional facials can complement one another as part of a comprehensive skincare plan. Following a detailed skin assessment, our aesthetic specialists can recommend the most appropriate combination of treatments based on your skin type, concerns, and long-term goals.'
+  },
   pricing: {
   title: 'Transparent Pricing & Customized Treatment Packages',
   description:
@@ -614,8 +767,8 @@ export const subSubcategoryContent = {
 
   'aesthetic-dermatology-dubai-skin-treatment-derma-roller': {
     hero: {
-      subtitle: 'Natural Skin Repair for Smoother, Healthier Skin',
-      description: 'Restore your skin’s natural texture and glow with Derma Roller Treatment in Dubai at ramacarepolyclinic. This minimally invasive treatment stimulates collagen production, helping improve acne scars, fine lines, and uneven skin tone naturally.',
+      subtitle: 'Natural Skin Repair for Smoother, Healthier-Looking Skin',
+      description: 'Restore smoother, healthier, and more radiant skin with derma roller treatment in Dubai at RamaCare Polyclinic.This advanced microneedling treatment stimulates your skin\'s natural healing process by encouraging collagen and elastin production, helping improve acne scars, fine lines, enlarged pores, uneven skin texture, and overall skin quality without surgery. Over time, aging, acne, sun exposure, and environmental factors can affect your skin\'s appearance, leaving it dull, rough, or uneven.Derma roller treatment uses a medical-grade device to create controlled micro-channels in the skin, activating natural collagen renewal and supporting healthier, firmer, and smoother-looking skin.As the skin repairs itself, you may notice gradual improvements in texture, elasticity, and overall radiance. At RamaCare Polyclinic, every treatment begins with a detailed skin assessment by our DHA-licensed aesthetic specialists.We create a personalized treatment plan based on your skin type, concerns, and aesthetic goals to deliver safe, natural-looking results.Suitable for most skin types, derma roller treatment is a minimally invasive procedure with little downtime, making it an effective option for long-term skin rejuvenation and collagen stimulation.',
       rating: '500+ Happy Clients',  
       stats: [
         { id: 1, number: '91%', label: 'Patient Satisfaction' },
@@ -669,272 +822,413 @@ export const subSubcategoryContent = {
         ]
       },
     overview: {
-      title: 'Understanding Skin Boosters in Dubai',
+      title: 'Understanding Derma Roller Treatment in Dubai',
         problemIntro: {
-          title: 'The Problem: Skin & Hair Concerns',
+          title: 'The Problem: Common Skin Concerns',
           description:
-            'Many people struggle with scars, texture irregularities, or aging signs that topical skincare cannot fully correct.'
+            'Many skin concerns develop beneath the surface, where topical creams and skincare products may have limited effect. As collagen production slows and environmental damage accumulates, the skin may lose its smooth texture, firmness, and healthy appearance. Understanding the underlying cause of these concerns allows our specialists to recommend a treatment plan tailored to your skin\'s needs.'
         },
       
-     solutionIntro: {
-  title: 'Our Solution: Derma Roller in Dubai',
+  solutionIntro: {
+  title: 'Our Solution: Derma Roller Treatment in Dubai for Natural Skin Rejuvenation',
   description:
-    'Our Derma Roller in Dubai treatment uses microneedling technology to naturally stimulate skin and hair regeneration.'
+    'At RamaCare Polyclinic, our Derma Roller Treatment in Dubai is designed to improve skin quality by stimulating your body\'s natural healing process. Using advanced medical microneedling technology, this minimally invasive treatment creates controlled micro-channels within the skin, encouraging the production of collagen and elastin—two essential proteins responsible for maintaining smooth, firm, and healthy-looking skin.Unlike treatments that temporarily improve the skin\'s surface, Derma Roller Treatment works beneath the skin to support long-term skin renewal. Promoting natural collagen production, it helps reduce the appearance of acne scars, refine skin texture, minimize enlarged pores, soften fine lines, and restore a healthier complexion over time.'
 },
      leftCards: [
   {
     id: 1,
     title: 'What Is Derma Roller Treatment?',
     description:
-      'Derma Roller Treatment in Dubai is a skin rejuvenation procedure that uses a medical-grade roller with fine needles to create controlled micro-injuries on the skin. This triggers natural healing and collagen production.'
+      'Derma roller treatment is an advanced microneedling procedure that uses a sterile, medical-grade roller equipped with fine needles to create tiny, controlled micro-injuries in the skin. These microscopic channels trigger the body\'s natural healing response, encouraging the production of new collagen and elastin while improving skin regeneration.Unlike treatments that only improve the surface of the skin, microneedling works from within to strengthen the skin\'s structure and improve overall skin quality over time. This treatment may help improve:',
+      listItems: [
+        'Acne scars and post-acne marks',
+        'Uneven skin texture',
+        'Enlarged pores',
+        'Fine lines and early wrinkles',
+        'Mild pigmentation concerns',
+        'Sun-damaged skin',
+        'Dull and tired-looking skin',
+        'Mild stretch marks (where clinically appropriate)'
+      ]
   },
   {
     id: 2,
     title: 'Who Should Consider Derma Roller Treatment?',
-    description: `
-Acne scars or post-acne marks
-Uneven skin texture or enlarged pores
-Fine lines and early aging signs
-Mild pigmentation or dull skin
-Sun-damaged or tired-looking skin
-
-Consistent sessions help achieve smoother, firmer, and healthier skin.
-`
+    description: `A derma roller treatment may be suitable for adults looking to improve skin texture and overall skin quality without surgery. It is commonly recommended for individuals experiencing mild to moderate skin concerns and those seeking natural collagen stimulation.You may benefit from this treatment if you have:`,
+    listItems: [
+        'Acne scars or post-inflammatory acne marks',
+        'Enlarged pores',
+        'Rough or uneven skin texture',
+        'Fine lines and early signs of ageing',
+        'Mild pigmentation irregularities',
+        'Sun-damaged skin',
+        'Dull complexion',
+        'Mild stretch marks',
+        'Reduced skin firmness',
+        'Healthy skin requiring collagen maintenance'
+      ]
   },
   {
     id: 3,
     title: 'Trusted Derma Roller Care You Can Depend On',
-    description: `
-Improves acne scars and pigmentation
-Reduces fine lines and enlarged pores
-Boosts collagen and skin renewal
-Enhances absorption of skincare serums
-Suitable for most skin types
-`
+    description: `At RamaCare Polyclinic, every Derma Roller treatment is personalized to achieve safe, natural-looking results while maintaining the highest standards of patient care.Our treatment focuses on improving skin quality through controlled collagen stimulation rather than masking skin concerns.Benefits of Our Treatment:`,
+    listItems: [
+        'Helps improve acne scars',
+        'Supports collagen and elastin production',
+        'Reduces the appearance of enlarged pores',
+        'Improves overall skin texture',
+        'Softens fine lines',
+        'Enhances skin firmness',
+        'Promotes healthier skin renewal',
+        'Improves absorption of professional skincare products',
+        'Suitable for most skin types after assessment',
+        'Minimal downtime'
+      ]
   }
 ],
 rootCauses: [
   {
     id: 1,
-    title: 'Acne Scars & Uneven Texture ',
+    title: 'Acne Scars & Uneven Texture',
     description:
-      'Acne scars, open pores, and rough skin texture affect overall skin appearance and confidence.',
+      'Acne can leave behind scars, enlarged pores, and uneven skin texture that persist long after breakouts have resolved. Microneedling encourages collagen remodeling, helping improve skin texture gradually.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Fine Lines & Wrinkles ',
+    title: 'Fine Lines & Early Signs of Ageing',
     description:
-      'Aging and collagen loss lead to fine lines, wrinkles, and dull-looking skin.',
+      'Natural collagen loss contributes to fine lines and reduced skin elasticity. By stimulating collagen production, Derma Roller Treatment supports firmer, smoother-looking skin over time.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Hair Thinning & Slow Growth',
+    title: 'Enlarged Pores & Dull Skin',
     description:
-      'Poor scalp circulation and weak follicles result in hair thinning and reduced hair density.',
+      'Loss of collagen and environmental exposure may make pores appear larger while reducing the skin’s natural radiance. Skin renewal through microneedling can improve texture and create a smoother, healthier-looking complexion.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Uneven Skin Tone',
+    title: 'Uneven Skin Tone & Sun Damage',
     description:
-      'Pigmentation, stretch marks, and sun damage create patchy, tired-looking skin.',
+      'Sun exposure and environmental stress can contribute to uneven skin tone and mild pigmentation changes. While individual results vary, improved skin renewal may help create a brighter and more even-looking complexion as part of a personalized treatment plan.',
     severity: 'Medium',
-    severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
+    severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   }
 ],
-      quickFacts: [
-        { label: 'Treatment Type', value: 'Microneedling' },
-        { label: 'Recovery Time', value: '24-48 hours' },
-        { label: 'Sessions', value: '3-6 recommended' }
-      ],
+     quickFacts: [
+  {
+    label: 'Treatment Type',
+    value: 'Medical Microneedling'
+  },
+  {
+    label: 'Procedure Time',
+    value: 'Approximately 30–60 minutes'
+  },
+  {
+    label: 'Recovery Time',
+    value: 'Usually 24–48 hours'
+  },
+  {
+    label: 'Recommended Sessions',
+    value: 'Typically 3–6 sessions (depending on individual needs)'
+  },
+  {
+    label: 'Downtime',
+    value: 'Minimal'
+  },
+  {
+    label: 'Suitable For',
+    value: 'Men and women with appropriate skin concerns'
+  },
+  {
+    label: 'Results',
+    value: 'Gradual improvement through collagen stimulation'
+  }
+],
      approachCards: [
   {
     id: 1,
-    title: 'Boosts Collagen Production',
+    title: 'Boosts Natural Collagen Production',
     description:
-      'Creates micro-channels in the skin, triggering natural collagen and elastin production.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Creates controlled micro-channels in the skin to stimulate natural collagen and elastin production, improving skin firmness and elasticity.',
+    hasLearnMore: true,
+    expandedContent:
+      'Collagen is one of the most important structural proteins in the skin, but its production naturally declines with age, leading to fine lines, uneven texture, and reduced firmness. Derma Roller Treatment stimulates the skin’s natural repair response by creating microscopic channels that encourage collagen and elastin formation. As the skin heals, it gradually becomes firmer, smoother, and more resilient. This treatment supports natural collagen production, encourages skin renewal, improves skin firmness, enhances elasticity, and promotes healthier skin structure.'
   },
   {
     id: 2,
-    title: 'Improves Acne Scars & Texture',
+    title: 'Improves Acne Scars & Skin Texture',
     description:
-      'Reduces scars, minimizes pores, and smooths uneven skin texture.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Helps reduce acne scars, refine enlarged pores, and smooth uneven skin texture through collagen remodelling.',
+    hasLearnMore: true,
+    expandedContent:
+      'Acne scars, rough texture, and enlarged pores are among the most common reasons patients choose Derma Roller Treatment. By stimulating collagen remodelling beneath the skin, microneedling helps improve the appearance of superficial acne scars while promoting smoother, more even skin over time. Treatment may help improve acne scars, post-acne marks, rough skin texture, enlarged pores, uneven skin surface, and mild skin irregularities. Results develop gradually as new collagen forms, creating natural improvements rather than immediate cosmetic changes.'
   },
   {
     id: 3,
-    title: 'Enhances Hair Growth',
+    title: 'Enhances Absorption of Professional Skincare Products',
     description:
-      'Stimulates the scalp, improves blood circulation, and strengthens hair follicles.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Improves the absorption of professionally recommended serums and active ingredients for enhanced skin rejuvenation.',
+    hasLearnMore: true,
+    expandedContent:
+      'The controlled micro-channels created during treatment temporarily increase the skin’s ability to absorb professionally recommended topical serums and active ingredients. When appropriate, this may enhance the effectiveness of selected skincare products used as part of your personalised treatment plan. This can support better hydration, improved skin nourishment, enhanced skin recovery, and healthier overall skin condition. Our specialists recommend products that are suitable for your skin type and post-treatment care.'
   },
   {
     id: 4,
-    title: 'Improves Product Absorption',
+    title: 'Safe Procedure with Minimal Downtime',
     description:
-      'Enhances penetration of serums and active ingredients for better results.',
-    hasLearnMore: false,
-    expandedContent: null
+      'A minimally invasive treatment performed using sterile medical-grade equipment with a short recovery period.',
+    hasLearnMore: true,
+    expandedContent:
+      'Derma Roller Treatment is performed using sterile, medical-grade equipment and established clinical protocols to ensure patient safety. Most patients experience temporary redness similar to a mild sunburn, which usually settles within 24–48 hours. Because recovery is generally quick, many individuals can return to normal daily activities shortly after treatment while following the recommended aftercare instructions. Your safety remains our highest priority throughout every stage of treatment.'
   },
   {
     id: 5,
-    title: 'Safe & Minimal Downtime',
+    title: 'Why Choose RamaCare Polyclinic?',
     description:
-      'Performed by professionals with quick recovery and visible improvement over time.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Receive personalised microneedling treatment from DHA-licensed aesthetic specialists using evidence-based techniques.',
+    hasLearnMore: true,
+    expandedContent:
+      'Choosing an experienced medical provider is essential for safe and effective skin rejuvenation. At RamaCare Polyclinic, we offer DHA-licensed aesthetic specialists, personalised skin assessments, medical-grade microneedling technology, individual treatment plans, evidence-based treatment protocols, comprehensive aftercare guidance, and patient-centred care in a comfortable clinical environment. Our goal is to improve your skin’s health, texture, and appearance while delivering natural-looking results that complement your individual features.'
   }
 ]
     },
   healingJourney: {
-  title: 'Your Derma Roller Journey: Step by Step',
+  title: 'Your Derma Roller Treatment Journey',
   description:
-    'A safe, structured, and doctor-guided approach to achieve a healthier scalp and improved hair growth with derma roller treatment.',
+    'At RamaCare Polyclinic, every Derma Roller Treatment follows a structured, patient-focused approach designed to maximize safety, comfort, and results. Our DHA-licensed aesthetic specialists create a personalized treatment plan based on your skin concerns, using medical-grade microneedling techniques and evidence-based protocols to support natural collagen production and long-term skin rejuvenation.',
   steps: [
     {
       id: 1,
       number: '01',
-      title: 'Initial Consultation & Scalp Assessment (45–60 min)',
+      title: 'Initial Consultation & Skin Assessment (30–45 Minutes)',
       duration: 'Step 1',
       description:
-        'A detailed evaluation to understand hair fall pattern, scalp health, and suitability for derma roller therapy.',
+        'Your treatment begins with a comprehensive consultation to understand your skin concerns, medical history, lifestyle, and aesthetic goals. Our specialists assess your skin condition and determine whether Derma Roller Treatment is suitable before creating a personalized treatment plan.',
       keyActivities: [
-        'Medical history review',
-        'Hair fall and scalp examination',
-        'Root strength and density assessment',
-        'Lifestyle and nutrition discussion',
-        'Personalized derma roller treatment plan'
+        'Comprehensive skin assessment',
+        'Review of medical history',
+        'Evaluation of acne scars, fine lines, and skin texture',
+        'Skin type analysis',
+        'Discussion of treatment expectations',
+        'Personalized microneedling treatment plan'
       ],
       side: 'right'
     },
     {
       id: 2,
       number: '02',
-      title: 'Scalp Preparation Phase',
+      title: 'Skin Preparation',
       duration: 'Step 2',
       description:
-        'Preparing the scalp to respond better to derma roller treatment by improving circulation and scalp condition.',
+        'Before treatment, the skin is carefully prepared to ensure maximum safety, comfort, and effectiveness. The treatment area is cleansed and disinfected, and a topical numbing cream may be applied if required.',
       keyActivities: [
-        'Scalp cleansing guidance',
-        'Oil or serum recommendations',
-        'Nutritional and lifestyle advice',
-        'Pre-treatment care instructions'
+        'Gentle cleansing of the treatment area',
+        'Skin disinfection',
+        'Application of topical numbing cream (if required)',
+        'Final skin evaluation',
+        'Preparation using sterile medical-grade equipment'
       ],
       side: 'left'
     },
     {
       id: 3,
       number: '03',
-      title: 'Active Derma Roller Treatment Phase',
+      title: 'Active Derma Roller Treatment',
       duration: 'Step 3',
       description:
-        'The main phase where derma roller sessions stimulate hair follicles and enhance absorption of growth-supporting solutions.',
+        'Our specialist performs the procedure using a medical-grade microneedling device that creates controlled micro-channels within the skin. This stimulates collagen and elastin production while supporting the skin’s natural healing process.',
       keyActivities: [
-        'Weekly or bi-weekly derma roller sessions',
-        'Controlled micro-needling by trained professionals',
-        'Application of growth serums or actives',
-        'Monitoring hair fall reduction and regrowth',
-        'Adjustments based on response'
+        'Medical-grade microneedling procedure',
+        'Controlled collagen stimulation',
+        'Even treatment across targeted areas',
+        'Professional serum application (when appropriate)',
+        'Continuous monitoring of patient comfort',
+        'Personalized adjustments based on skin response'
       ],
       side: 'right'
     },
     {
       id: 4,
       number: '04',
-      title: 'Maintenance & Follow-Up Phase',
+      title: 'Post-Treatment Care',
       duration: 'Step 4',
       description:
-        'Focused on sustaining results and supporting long-term hair health.',
+        'Following treatment, your skin may appear mildly red, similar to a light sunburn, which usually settles within 24–48 hours. Our specialists provide personalized aftercare instructions to support recovery and optimize treatment outcomes.',
       keyActivities: [
-        'Monthly follow-up visits',
-        'Maintenance derma roller sessions (if needed)',
-        'Home-care routine guidance',
-        'Ongoing diet and lifestyle support'
+        'Application of soothing skincare products',
+        'Personalized aftercare instructions',
+        'Guidance on hydration and sun protection',
+        'Recommendations for temporary skincare adjustments',
+        'Recovery monitoring'
       ],
       side: 'left'
+    },
+    {
+      id: 5,
+      number: '05',
+      title: 'Follow-Up & Maintenance',
+      duration: 'Step 5',
+      description:
+        'Collagen production continues for several weeks after treatment, making follow-up appointments an important part of your skin rejuvenation journey. Our specialists monitor your progress and recommend additional sessions when appropriate.',
+      keyActivities: [
+        'Progress evaluation',
+        'Assessment of skin improvement',
+        'Personalized maintenance recommendations',
+        'Scheduling of additional sessions (if appropriate)',
+        'Long-term skincare guidance'
+      ],
+      side: 'right'
     }
   ]
 },
-     benefits: {
-      title: 'Clinically-Observed Benefits',
-      description: 'Evidence-based results from our comprehensive Skin Booster treatment.',
-      comparisonTitle: 'Derma Roller Treatment vs. Regular Facials',
-      comparisonDescription: 'Understanding the Difference Before Choosing Your Care',
-      comparisonHeaders: {
-        feature: 'Aspect',
-        ourTreatment: 'Derma Roller Treatment',
-        traditional: 'Regular Facial'
-      },
-      benefits: [
-        {
-          id: 1,
-          title: ' Reduction in acne scars and marks',
-          percentage: 89,
-          description: null
-        },
-        {
-          id: 2,
-          title: 'Improved skin texture and smoothness',
-          percentage: 92,
-          description: null
-        },
-        {
-          id: 3,
-          title: ' Reduced fine lines and pore size',
-          percentage: 87,
-          description: null
-        },
-        {
-          id: 4,
-          title: 'Enhanced skin firmness and glow',
-          percentage: 95,
-          description:null
-        },
-        {
-          id: 5,
-          title: 'Natural and gradual skin rejuvenation',
-          percentage: 85,
-          description: null
-        },
-      
-      ],
-       comparisonData: [
-        {
-          feature: 'Depth of Action',
-          ayurvedic: 'Works within the skin layers',
-          conventional: 'Surface-level care'
-        },
-        {
-          feature: 'Collagen Stimulation',
-          ayurvedic: 'Yes, actively boosts collagen',
-          conventional: 'No collagen stimulation'
-        },
-        {
-          feature: 'Results',
-          ayurvedic: 'Long-term texture improvement',
-          conventional: 'Temporary glow'
-        },
-        {
-          feature: 'Medical Supervision',
-          ayurvedic: 'Doctor-guided treatment',
-          conventional: 'Non-medical skincare'
-        },
-        {
-          feature: 'Target Concerns',
-          ayurvedic: 'Scars, lines, texture',
-          conventional: 'Basic cleansing and hydration'
-        },
-      ]
+    benefits: {
+  title: 'Clinically Observed Benefits of Derma Roller Treatment in Dubai',
+  description:
+    "Derma Roller Treatment in Dubai is designed to improve overall skin quality by stimulating the body's natural collagen and elastin production. Rather than simply treating the surface of the skin, this advanced medical microneedling procedure supports the skin's natural repair process, helping achieve smoother texture, improved firmness, and healthier-looking skin over time. At RamaCare Polyclinic, every treatment plan is tailored to your skin condition, concerns, and aesthetic goals. While individual results vary, many patients notice gradual improvements after completing the recommended course of treatment and following the advised skincare routine.",
+
+  comparisonTitle: 'Derma Roller Treatment vs. Regular Facials',
+
+  comparisonDescription:
+    "Understanding the Difference Before Choosing Your Skin Rejuvenation Treatment. While both treatments improve skin health, regular facials focus on cleansing, exfoliation, hydration, and temporary skin refreshment. Derma Roller Treatment (medical microneedling) works beneath the skin's surface by stimulating natural collagen and elastin production, supporting long-term skin renewal and improving acne scars, enlarged pores, uneven texture, and early signs of ageing. Our DHA-licensed aesthetic specialists perform a detailed skin assessment before recommending the most suitable treatment based on your skin type, concerns, and desired results.",
+
+  comparisonHeaders: {
+    feature: 'Aspect',
+    ourTreatment: 'Derma Roller Treatment',
+    traditional: 'Regular Facial'
+  },
+
+  benefits: [
+    {
+      id: 1,
+      title: 'Reduction in Acne Scars & Post-Acne Marks',
+      percentage: 89,
+      description:
+        'Derma Roller Treatment stimulates collagen remodeling beneath the skin, helping improve the appearance of superficial acne scars and post-acne marks while promoting smoother, healthier-looking skin.',
+      hasLearnMore: true,
+      expandedContent:
+        'Patients may notice smoother skin texture, reduced visibility of acne scars, improved skin regeneration, a more even-looking complexion, and healthier overall skin appearance. Because collagen production is gradual, improvements continue to develop in the weeks following treatment.'
     },
+    {
+      id: 2,
+      title: 'Improved Skin Texture & Smoothness',
+      percentage: 92,
+      description:
+        'Medical microneedling encourages natural skin renewal, improving rough texture, enlarged pores, and overall skin quality for a smoother, healthier complexion.',
+      hasLearnMore: true,
+      expandedContent:
+        'Potential improvements include softer skin, refined texture, reduced roughness, healthier-looking complexion, and improved skin resilience as new collagen develops.'
+    },
+    {
+      id: 3,
+      title: 'Reduced Fine Lines & Refined Pore Appearance',
+      percentage: 87,
+      description:
+        'By supporting collagen and elastin production, Derma Roller Treatment helps soften early fine lines while improving skin elasticity and reducing the appearance of enlarged pores.',
+      hasLearnMore: true,
+      expandedContent:
+        'Benefits may include softer fine lines, improved skin elasticity, refined pore appearance, a smoother skin surface, and enhanced overall skin quality. Results develop gradually with continued collagen production.'
+    },
+    {
+      id: 4,
+      title: 'Enhanced Skin Firmness & Natural Glow',
+      percentage: 95,
+      description:
+        'Increased collagen production helps improve skin firmness, elasticity, hydration, and natural radiance for healthier-looking skin over time.',
+      hasLearnMore: true,
+      expandedContent:
+        'Patients often notice firmer-looking skin, improved elasticity, better skin tone, enhanced natural radiance, and a refreshed appearance. These improvements develop naturally without dramatically changing facial features.'
+    },
+    {
+      id: 5,
+      title: 'Natural & Gradual Skin Rejuvenation',
+      percentage: 85,
+      description:
+        'Rather than altering facial features, Derma Roller Treatment improves your skin through its own natural repair mechanisms, resulting in healthier, smoother, and more youthful-looking skin.',
+      hasLearnMore: true,
+      expandedContent:
+        'Many patients appreciate the gradual, natural-looking improvements that continue to develop with each recommended treatment session, creating fresher and healthier-looking skin over time.'
+    },
+    {
+      id: 6,
+      title: 'Why Patients Choose Derma Roller Treatment',
+      percentage: 94,
+      description:
+        'Derma Roller Treatment offers multiple skin rejuvenation benefits in a single minimally invasive procedure performed by DHA-licensed aesthetic specialists.',
+      hasLearnMore: true,
+      expandedContent:
+        'Key advantages include stimulating natural collagen and elastin production, improving acne scars and post-acne marks, refining skin texture, softening early fine lines, minimizing enlarged pores, promoting healthier skin renewal, enhancing overall skin quality, minimal downtime, suitability for most skin types following assessment, and personalized treatment plans. Treatment outcomes vary depending on individual skin condition, age, lifestyle, and adherence to the recommended treatment plan.'
+    },
+    {
+      id: 7,
+      title: 'Why Many Patients Choose Derma Roller Treatment',
+      percentage: 96,
+      description:
+        'Patients seeking long-lasting skin rejuvenation often choose Derma Roller Treatment because it improves the skin from within rather than providing only temporary surface benefits.',
+      hasLearnMore: true,
+      expandedContent:
+        'By supporting the body\'s natural healing process and encouraging collagen production, the treatment can deliver gradual improvements in skin texture, firmness, and overall appearance while maintaining natural-looking results. Following a consultation, our team will explain the expected outcomes, the recommended number of sessions, and whether Derma Roller Treatment, a facial, or a combination of treatments is the most appropriate option for your skin.'
+    }
+  ],
+
+  comparisonData: [
+    {
+      feature: 'Treatment Type',
+      ayurvedic: 'Medical microneedling procedure',
+      conventional: 'Non-invasive skincare treatment'
+    },
+    {
+      feature: 'Depth of Action',
+      ayurvedic: 'Works within the deeper layers of the skin',
+      conventional: 'Primarily treats the skin surface'
+    },
+    {
+      feature: 'Collagen Stimulation',
+      ayurvedic: 'Encourages natural collagen and elastin production',
+      conventional: 'Does not significantly stimulate collagen'
+    },
+    {
+      feature: 'Primary Benefits',
+      ayurvedic: 'Skin rejuvenation, improved texture, acne scar improvement, and fine line reduction',
+      conventional: 'Cleansing, exfoliation, hydration, and temporary glow'
+    },
+    {
+      feature: 'Results',
+      ayurvedic: 'Gradual, long-lasting improvement',
+      conventional: 'Immediate but temporary improvement'
+    },
+    {
+      feature: 'Treatment Goals',
+      ayurvedic: 'Improve overall skin quality and support natural skin renewal',
+      conventional: 'Maintain skin cleanliness and hydration'
+    },
+    {
+      feature: 'Downtime',
+      ayurvedic: 'Minimal, with temporary redness possible',
+      conventional: 'Little to no downtime'
+    },
+    {
+      feature: 'Medical Supervision',
+      ayurvedic: 'Performed by DHA-licensed aesthetic professionals',
+      conventional: 'Typically provided as a cosmetic skincare service'
+    },
+    {
+      feature: 'Suitable For',
+      ayurvedic: 'Acne scars, enlarged pores, fine lines, uneven texture, and skin rejuvenation',
+      conventional: 'Routine skincare maintenance and relaxation'
+    }
+  ]
+},
+  choosingRightApproach: {
+    title: 'Which Treatment Is Right for You?',
+    content: 'Both treatments have valuable roles in a skincare routine, but they serve different purposes.<br><br><b>A derma roller treatment may be suitable if you want to:</b><ul><li>Improve acne scars</li><li>Refine uneven skin texture</li><li>Reduce the appearance of enlarged pores</li><li>Stimulate natural collagen production</li><li>Improve skin firmness</li><li>Address early signs of ageing</li><li>Achieve gradual, long-term skin rejuvenation</li></ul><b>A regular facial may be suitable if you want to:</b><ul><li>Cleanse and refresh your skin</li><li>Remove surface impurities</li><li>Maintain a regular skincare routine</li><li>Hydrate the outer layer of the skin</li><li>Enjoy a relaxing skincare treatment</li></ul>',
+    closing: 'For some individuals, these treatments can complement each other. A professional skin assessment allows our aesthetic specialists to recommend a personalized treatment plan that aligns with your skin condition and long-term skincare goals.'
+  },
  pricing: {
   title: 'Transparent Pricing & Customized Treatment Packages',
   description:
@@ -1200,7 +1494,7 @@ rootCauses: [
   'aesthetic-dermatology-dubai-skin-treatment-skin-tightening': {
     hero: {
       subtitle: 'Advanced Non-Surgical Care for Firmer, Youthful Skin',
-      description: 'Loose or sagging skin is a natural part of aging, weight changes, and collagen loss. At ramacare polyclinic, we provide advanced Skin Tightening Treatment in Dubai to restore firmness, improve elasticity, and enhance your natural facial and body contours—without surgery.',
+      description: 'Loose or sagging skin is a natural result of aging, collagen loss, weight changes, pregnancy, and sun exposure.As collagen and elastin levels decline over time, the skin may lose its firmness, making fine lines, wrinkles, and skin laxity more noticeable.Fortunately, modern aesthetic treatments can effectively improve skin tightness and elasticity without the need for surgery. At RamaCare Polyclinic, we offer advanced skin tightening treatment in Dubai to help restore firmer, smoother, and younger-looking skin.Our non-surgical treatments stimulate your body\'s natural collagen production, improving skin elasticity while enhancing facial and body contours with natural-looking results.Every treatment plan is personalized to suit your skin type, concerns, and aesthetic goals. Whether you wish to tighten loose skin on the face, neck, jawline, abdomen, or other areas of the body, our experienced medical professionals use advanced technologies to deliver safe, effective, and comfortable care with minimal downtime.Our focus is on achieving gradual, long-lasting improvements while preserving your natural appearance. Choose RamaCare Polyclinic for trusted skin tightening treatment in Dubai and enjoy personalized care designed to help you achieve healthier, firmer, and more youthful-looking skin with confidence.',
       rating: '500+ Happy Clients',  
       stats: [
         { id: 1, number: '94%', label: 'Patient Satisfaction' },
@@ -1256,263 +1550,396 @@ rootCauses: [
     overview: {
      title: 'Understanding Skin Tightening Treatment',
         problemIntro: {
-          title: 'The Problem: Loose & Aging Skin',
+          title: 'The Problem: Why Does Skin Become Loose and Sag?',
           description:
-            'Many people delay treatment due to fear of surgery, downtime, or unnatural results.'
+            'Skin naturally loses firmness over time due to aging and reduced collagen production. Lifestyle habits, environmental factors, and weight fluctuations can accelerate this process, causing the skin to appear less toned and youthful. Understanding the underlying causes helps determine the most suitable treatment plan.'
         },
       solutionIntro: {
-  title: 'Our Solution: Skin Tightening in Dubai',
+  title: 'Advanced Skin Tightening Treatment in Dubai',
   description:
-    'Our Skin Tightening in Dubai treatments are designed to lift, firm, and rejuvenate the skin without surgery.'
+    'At RamaCare Polyclinic, our Skin Tightening Treatment in Dubai is designed to restore firmer, smoother, and younger-looking skin without the need for surgery. Using advanced non-invasive technologies, we stimulate your body\'s natural collagen and elastin production to improve skin elasticity, reduce mild to moderate skin laxity, and enhance facial and body contours. Every treatment plan is tailored to your skin condition, aesthetic goals, and the areas being treated, ensuring safe, comfortable, and natural-looking results.'
 },
    leftCards: [
   {
     id: 1,
     title: 'What Is Skin Tightening Treatment?',
     description:
-      'Skin Tightening Treatment in Dubai uses advanced technologies such as radiofrequency or energy-based systems to stimulate collagen and elastin production, helping skin become firmer, smoother, and more lifted over time.'
+      'Skin tightening treatment in Dubai is a non-surgical aesthetic procedure designed to improve skin firmness, elasticity, and overall texture by stimulating the body\'s natural production of collagen and elastin. As collagen levels decline with age, the skin gradually becomes loose and less defined. Advanced technologies such as radiofrequency (RF) and other energy-based treatments gently heat the deeper layers of the skin, encouraging collagen remodeling and gradual skin tightening. The result is smoother, firmer, and more youthful-looking skin without surgery, scars, or lengthy recovery. These treatments are suitable for both facial rejuvenation and body contouring, offering natural-looking improvements over time.'
   },
   {
     id: 2,
-    title: 'Who Needs Skin Tightening Treatment?',
+    title: 'Who Can Benefit from Skin Tightening Treatment?',
     sections: [
       {
-        heading: 'This treatment is recommended for individuals experiencing:',
+        heading: 'Skin-tightening treatments in Dubai may be an ideal option for adults experiencing mild to moderate skin laxity, including those with:',
         items: [
-          'Mild to moderate skin sagging',
-          'Loss of facial firmness or jawline definition',
-          'Loose skin on neck, arms, abdomen, or thighs',
-          'Early signs of aging',
-          'Post-weight loss skin laxity'
+          'Mild to moderate loose or sagging skin',
+          'Loss of facial firmness and jawline definition',
+          'Fine lines and early signs of skin ageing',
+          'Loose skin on the neck, arms, abdomen, or thighs',
+          'Skin laxity following weight loss',
+          'Reduced skin elasticity caused by ageing or sun damage',
+          'Individuals seeking non-surgical facial and body rejuvenation'
         ]
       }
     ]
   },
   {
     id: 3,
-    title: 'Trusted Skin Tightening Care You Can Depend On',
+    title: 'Why Choose RamaCare for Skin Tightening Treatment?',
+    description:
+      'At RamaCare Polyclinic, every treatment begins with a detailed skin assessment to understand your concerns and determine the most appropriate treatment approach. Our experienced medical professionals develop personalized treatment plans based on your skin condition, treatment goals, and overall health to achieve safe, natural-looking results.Our approach includes:',
     listItems: [
-      'Detailed skin assessment',
-      'Personalized skin tightening plans',
-      'Non-surgical, pain-minimal treatments',
-      'Suitable for face & body areas',
-      'Safe for adults of different skin types'
+      'Comprehensive skin analysis and consultation',
+      'Personalised treatment plans for every patient',
+      'Advanced non-surgical skin tightening technology',
+      'Comfortable procedures with minimal discomfort',
+      'Treatment for both the face and body areas',
+      'Suitable for various skin types',
+      'Little to no downtime with gradual, natural improvements',
     ]
   }
 ],
- rootCauses: [
+rootCauses: [
   {
     id: 1,
-    title: 'Loss of Skin Firmness ',
-    description: 'As collagen and elastin production decline with age, the skin begins to sag on the face, neck, arms, and abdomen. This loss of structural support reduces skin tightness and contour definition, making the appearance look older and less toned.',
+    title: 'Loss of Skin Firmness',
+    description:
+      'Collagen and elastin provide the structural support that keeps skin firm and resilient. As their production declines with age, the skin gradually loses elasticity, leading to sagging around the face, neck, jawline, arms, and abdomen while reducing natural contour definition.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Fine Lines & Wrinkles ',
-    description: 'Reduced elasticity and repetitive facial movements contribute to wrinkles and creases around the eyes, mouth, and forehead. Without collagen-boosting treatments in Dubai, these lines may deepen over time and become more noticeable.',
+    title: 'Fine Lines & Wrinkles',
+    description:
+      'Repeated facial expressions, declining collagen levels, and environmental exposure contribute to fine lines and wrinkles, particularly around the forehead, eyes, and mouth. Reduced elasticity makes these signs of ageing more noticeable over time.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Post-Weight Loss Sagging ',
-    description: 'Rapid or significant weight loss can leave behind excess loose skin, especially around the abdomen, thighs, and arms. This affects body contour and confidence, often requiring non-surgical skin tightening solutions.',
+    title: 'Post-Weight Loss Skin Laxity',
+    description:
+      'Significant or rapid weight loss can leave excess loose skin that does not fully retract, especially around the abdomen, upper arms, thighs, and waist. This may affect body contours and overall skin firmness.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Environmental Damage ',
-    description: 'Prolonged sun exposure, UV radiation, and pollution accelerate collagen breakdown. Oxidative stress weakens the skin barrier, leading to premature ageing, uneven tone, and reduced firmness.',
+    title: 'Environmental Damage',
+    description:
+      'Daily exposure to UV rays, pollution, and environmental stressors accelerates collagen breakdown and weakens the skin barrier, contributing to premature ageing, uneven texture, reduced elasticity, and loss of skin firmness.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
-  },
-
+  }
 ],
       quickFacts: [
-        { label: 'Treatment Type', value: 'Non-invasive' },
-        { label: 'Recovery Time', value: 'None' },
-        { label: 'Results', value: 'Gradual improvement' }
-      ],
+  {
+    label: 'Treatment Type',
+    value: 'Non-surgical Skin Tightening'
+  },
+  {
+    label: 'Procedure Time',
+    value: '30–60 Minutes*'
+  },
+  {
+    label: 'Anaesthesia',
+    value: 'Usually Not Required'
+  },
+  {
+    label: 'Recovery Time',
+    value: 'Minimal to None'
+  },
+  {
+    label: 'Downtime',
+    value: 'Return to Daily Activities Quickly'
+  },
+  {
+    label: 'Results',
+    value: 'Gradual Improvement Over Several Weeks'
+  },
+  {
+    label: 'Suitable For',
+    value: 'Face and Body Skin Tightening'
+  }
+],
     approachCards: [
   {
     id: 1,
     title: 'Firms & Lifts the Skin',
-    description: 'By activating deep tissue remodeling, the treatment improves skin elasticity and visibly tightens sagging areas such as the face, neck, arms, and abdomen.',
+    description:
+      'Advanced skin tightening treatments stimulate collagen remodeling within the deeper layers of the skin to improve firmness, elasticity, and natural contour definition.',
     hasLearnMore: true,
-    expandedContent: 'This enhances contour definition and creates a smoother, lifted appearance.'
+    expandedContent:
+      'As new collagen develops, loose or sagging skin gradually becomes tighter, creating a more defined jawline, firmer neck, and improved contours on the face, arms, abdomen, and thighs while maintaining a natural-looking appearance.'
   },
   {
     id: 2,
-    title: 'Reduces Wrinkles & Fine Lines',
-    description: 'Skin tightening therapy smooths fine lines and wrinkles by reinforcing the skin’s structural support.',
+    title: 'Reduces Fine Lines & Wrinkles',
+    description:
+      'By boosting natural collagen production, skin tightening treatments help soften fine lines, reduce wrinkles, and improve overall skin texture.',
     hasLearnMore: true,
-    expandedContent: 'It refines both facial and body contours, giving the skin a firmer and more youthful look.'
+    expandedContent:
+      'Improved skin elasticity contributes to smoother, healthier-looking skin and a naturally refreshed appearance over time without altering your natural facial features.'
   },
   {
     id: 3,
-    title: 'Safe & Comfortable Procedure',
-    description: 'This non-invasive skin tightening procedure requires no incisions, anesthesia, or downtime.',
+    title: 'Safe, Comfortable & Non-Surgical',
+    description:
+      'This non-invasive procedure requires no surgery, incisions, or general anaesthesia, making it a convenient option for skin rejuvenation.',
     hasLearnMore: true,
-    expandedContent: 'The treatment is safe for most skin types and allows patients to return to normal activities immediately.'
+    expandedContent:
+      'Most patients experience minimal discomfort during treatment and can usually return to their normal daily activities immediately, making it ideal for those with busy lifestyles.'
   },
   {
     id: 4,
-    title: 'Long-Lasting Results',
-    description: 'Results develop gradually as collagen continues to regenerate over several weeks.',
+    title: 'Natural & Long-Lasting Results',
+    description:
+      'Skin tightening encourages the body’s natural collagen renewal process, delivering gradual improvements in firmness and elasticity.',
     hasLearnMore: true,
-    expandedContent: 'The outcome is natural, progressive improvement in firmness, skin tone, and overall rejuvenation.'
-  },
-  
+    expandedContent:
+      'Results develop progressively over several weeks as collagen continues to rebuild. With recommended maintenance sessions and a healthy skincare routine, improvements in skin firmness, texture, elasticity, and overall appearance can be long-lasting.'
+  }
 ]
     },
-   healingJourney: {
-  title: 'Your Healing Journey: Step by Step',
+  healingJourney: {
+  title: 'Your Skin Tightening Journey: Step by Step',
   description:
-    'Our skin tightening in Dubai program follows a transparent, structured approach designed to deliver visible results while ensuring comfort, safety, and long-term skin health. Each phase is carefully planned to support your body’s natural healing and rejuvenation process.',
+    'At RamaCare Polyclinic, every Skin Tightening Treatment in Dubai begins with a personalized consultation and a customized treatment plan. Our experienced medical professionals carefully evaluate your skin concerns and recommend the most suitable non-surgical skin tightening solution based on your skin type, treatment goals, and the areas being treated. Each step is designed to ensure your comfort while achieving natural-looking, long-lasting results.',
   steps: [
     {
       id: 1,
       number: '01',
-      title: 'Initial Consultation (60 Minutes)',
+      title: 'Comprehensive Skin Consultation',
       duration: 'Step 1',
       description:
-        'Your journey begins with a detailed one-on-one consultation to understand your skin concerns, lifestyle, and overall health.',
+        'Your journey starts with a detailed consultation where we assess your skin condition, discuss your aesthetic concerns, and determine whether skin tightening treatment is suitable for you before creating a personalized treatment plan.',
       keyActivities: [
-        'In-depth health questionnaire',
-        'Prakriti (body constitution) analysis',
-        'Pulse diagnosis (Nadi Pariksha)',
-        'Skin and scalp examination',
-        'Personalized skin tightening treatment plan'
+        'Comprehensive skin assessment',
+        'Review of your medical history',
+        'Evaluation of skin laxity and elasticity',
+        'Discussion of treatment goals and expectations',
+        'Personalised treatment recommendations'
       ],
       side: 'right'
     },
     {
       id: 2,
       number: '02',
-      title: 'Detoxification Phase',
+      title: 'Personalised Treatment Planning',
       duration: 'Step 2',
       description:
-        'Before active treatment, we gently prepare your body by removing toxins (Ama) that can affect skin elasticity and healing.',
+        'Based on your consultation findings, our specialists create a customized treatment plan tailored to your skin condition, treatment areas, and desired results while outlining the recommended number of sessions.',
       keyActivities: [
-        'Targeted dietary guidance',
-        'Ayurvedic herbal support',
-        'Oil pulling (if required)',
-        'Lifestyle and routine adjustments'
+        'Selection of the most appropriate skin-tightening technology',
+        'Identification of treatment areas',
+        'Explanation of the procedure and expected outcomes',
+        'Treatment schedule planning',
+        'Pre-treatment guidance'
       ],
       side: 'left'
     },
     {
       id: 3,
       number: '03',
-      title: 'Active Treatment Phase',
+      title: 'Skin Tightening Treatment',
       duration: 'Step 3',
       description:
-        'This is the core phase of your skin tightening in Dubai program, where visible improvements begin to appear.',
+        'During the procedure, advanced non-invasive technology delivers controlled energy beneath the skin to stimulate collagen and elastin production. The treatment is comfortable, requires minimal downtime, and is performed with patient safety as the highest priority.',
       keyActivities: [
-        '2–3 therapy sessions per week',
-        'Therapies such as Shirodhara, head massage, and herbal applications',
-        'Guided home-care routine',
-        'Regular progress monitoring',
-        'Treatment plan adjustments based on results'
+        'Cleansing and preparation of the treatment area',
+        'Application of advanced skin tightening technology',
+        'Continuous monitoring for patient comfort',
+        'Personalised treatment adjustments when required',
+        'Post-treatment skin assessment'
       ],
       side: 'right'
     },
     {
       id: 4,
       number: '04',
-      title: 'Maintenance & Follow-Up',
+      title: 'Recovery & Follow-Up Care',
       duration: 'Step 4',
       description:
-        'To sustain and enhance results, we focus on long-term care and prevention.',
+        'Following treatment, our team provides personalized aftercare recommendations to maximize your results. As collagen production continues naturally over the following weeks, your skin gradually becomes firmer, smoother, and more youthful-looking.',
       keyActivities: [
-        'Monthly follow-up consultations',
-        'Seasonal maintenance treatments',
-        'Lifestyle and skincare guidance',
-        'Continuous expert support'
+        'Post-treatment skincare advice',
+        'Sun protection recommendations',
+        'Scheduled follow-up appointments',
+        'Progress evaluation',
+        'Maintenance treatment guidance for long-term results'
       ],
       side: 'left'
     }
   ]
 },
-     benefits: {
-        title: 'Clinically Observed Benefits',
-        description: 'Evidence-based results from our crown and bridge treatment procedures.',
-        comparisonTitle: 'Skin Tightening Treatment vs. Conventional Cosmetic Procedures',
-        comparisonDescription: 'Understanding the Difference Before Choosing Your Care',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Skin Tightening Treatment in Dubai',
-          traditional: 'Conventional Cosmetic Procedures'
-        },
-        benefits: [
-          {
-            id: 1,
-            title: 'Improved skin firmness',
-            percentage: 98,
-            description: null
-          },
-          {
-            id: 2,
-            title: ' Better elasticity and texture',
-            percentage: 97,
-            description: null
-          },
-          {
-            id: 3,
-            title: 'Lifted facial and body contours',
-            percentage: 95,
-            description: null
-          },
-          {
-            id: 4,
-            title: ' Reduced fine lines',
-            percentage: 92,
-            description: null
-          },
-          {
-            id: 5,
-            title: 'Enhanced confidence and skin quality',
-            percentage: 96,
-            description: null
-          },
-         
-        ],
-        comparisonData: [
-          {
-            feature: 'Approach',
-            ayurvedic: 'Stimulates natural collagen',
-            conventional: 'Surgically alters skin'
-          },
-          {
-            feature: 'Invasiveness',
-            ayurvedic: 'Non-surgical',
-            conventional: 'Invasive'
-          },
-          {
-            feature: 'Downtime',
-            ayurvedic: 'Minimal or none',
-            conventional: 'Long recovery'
-          },
-          {
-            feature: 'Results',
-            ayurvedic: 'Gradual, natural improvement',
-            conventional: 'Immediate but surgical'
-          },
-           {
-            feature: 'Safety',
-            ayurvedic: 'Medically guided & controlled',
-            conventional: 'Higher procedural risk'
-          },
-           {
-            feature: 'Long-Term Care',
-            ayurvedic: 'Maintains skin health',
-            conventional: 'Often a one-time procedure'
-          }
-        ]
+    benefits: {
+  title: 'Benefits of Skin Tightening Treatment in Dubai',
+  description:
+    "At RamaCare Polyclinic, our Skin Tightening Treatment in Dubai is designed to improve skin firmness, stimulate natural collagen production, and restore a smoother, more youthful appearance without surgery. By encouraging the body's natural healing process, treatment results develop gradually and naturally, helping patients achieve healthier-looking skin with minimal downtime.",
+
+  comparisonTitle:
+    'Skin Tightening Treatment vs. Conventional Cosmetic Procedures',
+
+  comparisonDescription:
+    'Understanding the Difference Before Choosing Your Care. When considering skin rejuvenation, it is important to understand the differences between skin tightening treatments and conventional cosmetic procedures. While surgical procedures may be appropriate for advanced skin laxity, non-surgical skin tightening offers a safe and effective solution for individuals seeking gradual, natural-looking improvements with minimal downtime. Our personalised approach focuses on enhancing natural collagen production to improve firmness, elasticity, and overall skin health without surgery.',
+
+  comparisonHeaders: {
+    feature: 'Aspect',
+    ourTreatment: 'Skin Tightening Treatment in Dubai',
+    traditional: 'Conventional Cosmetic Procedures'
+  },
+
+  benefits: [
+    {
+      id: 1,
+      title: 'Improved Skin Firmness',
+      percentage: 98,
+      description:
+        'Advanced skin tightening technology stimulates collagen remodelling to tighten loose or sagging skin, creating a firmer and more youthful appearance.',
+      hasLearnMore: true,
+      expandedContent:
+        'By encouraging natural collagen production, the treatment gradually improves skin structure and elasticity. Patients often notice tighter skin, better facial definition, and improved contours on areas such as the face, neck, arms, abdomen, and thighs.'
+    },
+    {
+      id: 2,
+      title: 'Enhanced Skin Elasticity & Texture',
+      percentage: 97,
+      description:
+        'Stimulating collagen and elastin production improves skin resilience, flexibility, and overall texture.',
+      hasLearnMore: true,
+      expandedContent:
+        'As collagen continues to regenerate, the skin becomes smoother, healthier-looking, and more resistant to everyday environmental stress. Improvements develop naturally over several weeks with recommended treatment sessions.'
+    },
+    {
+      id: 3,
+      title: 'More Defined Facial & Body Contours',
+      percentage: 95,
+      description:
+        'Skin tightening improves contour definition across the face and body without surgery.',
+      hasLearnMore: true,
+      expandedContent:
+        'The treatment can enhance the appearance of the jawline, cheeks, neck, abdomen, upper arms, and thighs by improving skin firmness. Results are subtle and natural-looking, helping restore youthful contours without changing facial features.'
+    },
+    {
+      id: 4,
+      title: 'Reduction in Fine Lines & Wrinkles',
+      percentage: 92,
+      description:
+        'New collagen formation helps soften early fine lines and wrinkles while improving overall skin quality.',
+      hasLearnMore: true,
+      expandedContent:
+        'Improved elasticity and healthier skin structure reduce the visibility of age-related lines over time. Patients often notice smoother skin texture and a fresher appearance as collagen continues to rebuild.'
+    },
+    {
+      id: 5,
+      title: 'Improved Confidence & Healthier-Looking Skin',
+      percentage: 96,
+      description:
+        'Firmer, smoother skin and gradual rejuvenation help many patients feel more confident in their appearance.',
+      hasLearnMore: true,
+      expandedContent:
+        'Additional benefits include minimal downtime, suitability for multiple treatment areas on the face and body, and natural-looking long-lasting results. Most patients return to normal daily activities shortly after treatment while following simple aftercare recommendations. Individual outcomes vary depending on skin condition, age, lifestyle, and adherence to the recommended treatment plan.'
+    }
+  ],
+
+  comparisonData: [
+    {
+      feature: 'Treatment Approach',
+      ayurvedic:
+        "Stimulates the body's natural collagen and elastin production for gradual skin tightening.",
+      conventional:
+        'Surgically removes or tightens excess skin to achieve immediate lifting.'
+    },
+    {
+      feature: 'Procedure Type',
+      ayurvedic:
+        'Non-surgical and minimally invasive using advanced energy-based technology.',
+      conventional:
+        'Invasive surgical procedure requiring incisions and anaesthesia.'
+    },
+    {
+      feature: 'Downtime',
+      ayurvedic:
+        'Little to no downtime, allowing most patients to resume normal activities quickly.',
+      conventional:
+        'Recovery may take several days or weeks depending on the procedure.'
+    },
+    {
+      feature: 'Results',
+      ayurvedic:
+        'Natural-looking improvements that develop gradually as collagen regenerates.',
+      conventional:
+        'Immediate visible changes with longer healing and recovery.'
+    },
+    {
+      feature: 'Comfort & Safety',
+      ayurvedic:
+        'Comfortable treatment performed under medical supervision with minimal discomfort.',
+      conventional:
+        'Higher procedural risks associated with surgery and anaesthesia.'
+    },
+    {
+      feature: 'Scarring',
+      ayurvedic: 'No surgical incisions or visible scars.',
+      conventional:
+        'Surgical scars may be present depending on the procedure.'
+    },
+    {
+      feature: 'Recovery',
+      ayurvedic:
+        'Minimal aftercare with simple skincare recommendations.',
+      conventional:
+        'Requires post-operative care, activity restrictions, and regular follow-up.'
+    },
+    {
+      feature: 'Long-Term Benefits',
+      ayurvedic:
+        'Supports ongoing collagen production and healthier skin over time.',
+      conventional:
+        'Primarily addresses existing skin laxity without naturally stimulating collagen.'
+    },
+    {
+      feature: 'Ideal Candidates',
+      ayurvedic:
+        'Individuals with mild to moderate skin laxity seeking non-surgical rejuvenation.',
+      conventional:
+        'Individuals with severe skin sagging who may require surgical correction.'
+    }
+  ]
+},
+  whyChooseSection: {
+    title: 'Why Choose RamaCare Polyclinic for Skin Tightening Treatment in Dubai?',
+    intro: 'Choosing the right clinic is an important step in achieving safe, effective, and natural-looking results. At RamaCare Polyclinic, we combine advanced skin tightening technology with personalized treatment plans to help improve skin firmness, elasticity, and overall skin health without surgery. Every patient receives an individual assessment to ensure the treatment is tailored to their skin condition, aesthetic goals, and lifestyle.',
+    features: [
+      {
+        id: 1,
+        title: 'Personalised Treatment Plans',
+        description: 'Every patient\'s skin is unique. We carefully evaluate your skin type, degree of skin laxity, medical history, and treatment expectations before creating a customized treatment plan that is appropriate for your individual needs.'
       },
+      {
+        id: 2,
+        title: 'Advanced Non-Surgical Technology',
+        description: 'Our skin tightening treatments utilize clinically accepted, energy-based technologies that encourage natural collagen remodeling beneath the skin\'s surface. These procedures are designed to improve skin firmness with minimal discomfort and little to no downtime.'
+      },
+      {
+        id: 3,
+        title: 'Experienced Medical Professionals',
+        description: 'Our qualified healthcare professionals perform every procedure with patient safety, comfort, and clinical excellence as the highest priorities. We carefully monitor your progress throughout your treatment journey to achieve the best possible outcome.'
+      },
+      {
+        id: 4,
+        title: 'Natural-Looking Results',
+        description: 'Skin tightening works by supporting your body\'s own collagen production, allowing results to develop gradually over several weeks. This creates smoother, firmer skin while maintaining your natural facial expressions and appearance.'
+      },
+      {
+        id: 5,
+        title: 'Comprehensive Aftercare',
+        description: 'Your care continues after treatment. We provide personalized aftercare instructions, skincare recommendations, and follow-up appointments to help maintain your results and support long-term skin health.'
+      }
+    ]
+  },
   pricing: {
   title: 'Transparent Pricing & Customized Treatment Packages',
   description:
@@ -1791,8 +2218,8 @@ rootCauses: [
 
   'aesthetic-dermatology-dubai-skin-treatment-microdermabrasion': {
    hero: {
-            subtitle: 'Gentle Skin Resurfacing for a Brighter, Smoother Glow',
-            description: 'Dull skin, uneven texture, and clogged pores can make your skin look tired. At ramacarepolyclinic, we offer professional Microdermabrasion in Dubai to gently exfoliate dead skin cells, refresh your complexion, and restore a healthy, natural glow—without harsh chemicals or downtime.',
+            subtitle: 'Gentle Skin Resurfacing for a Brighter, Smoother & Healthier Complexion',
+            description: 'Dull skin, uneven texture, clogged pores, and the early signs of aging can affect your skin\'s natural radiance and confidence.Over time, dead skin cells accumulate on the skin\'s surface, making the complexion appear rough, tired, and less vibrant.Microdermabrasion is a safe, non-invasive skin resurfacing treatment that gently exfoliates the outer layer of the skin, revealing a smoother, fresher, and more youthful-looking complexion. At RamaCare Polyclinic, we provide professional microdermabrasion in Dubai using advanced exfoliation technology to remove dead skin cells, refine skin texture, minimize the appearance of enlarged pores, and promote healthy skin renewal.This gentle treatment also enhances the absorption of skincare products, leaving your skin feeling refreshed, softer, and naturally radiant. Suitable for most skin types, microdermabrasion in Dubai can help improve dullness, mild acne scars, uneven skin tone, fine lines, and rough skin texture with little to no downtime.Every treatment is personalized to your skin concerns and performed by experienced professionals who prioritize your comfort, safety, and long-term skin health. Restore your skin\'s natural glow with personalized microdermabrasion treatment in Dubai at RamaCare Polyclinic and enjoy healthier, smoother, and more radiant skin with confidence. ',
             rating: '500+ Happy Clients',  
             stats: [
               {
@@ -1875,277 +2302,388 @@ rootCauses: [
       overview: {
         title: 'Understanding Microdermabrasion',
         problemIntro: {
-          title: 'The Problem: Dull Skin & Uneven Texture',
-          description: 'Many people struggle with dull skin but avoid treatments, fearing irritation or downtime.'
+          title: 'The Problem: Dull Skin, Uneven Texture & Clogged Pores',
+          description: 'Healthy skin naturally sheds dead skin cells, but this process slows with age, sun exposure, environmental pollution, and daily stress. As dead skin accumulates, the complexion can appear dull, rough, uneven, and less radiant. Professional Microdermabrasion in Dubai helps remove this build-up, encouraging healthier skin renewal and improving overall skin quality.'
         },
        solutionIntro: {
-  title: 'Our Solution: Microdermabrasion in Dubai',
+  title: 'Advanced Microdermabrasion in Dubai for Healthier, Smoother Skin',
   description:
-    'Our Microdermabrasion in Dubai is a gentle, non-invasive exfoliation treatment designed to refresh and rejuvenate your skin.'
+    'At RamaCare Polyclinic, our Microdermabrasion in Dubai is a safe, non-invasive skin resurfacing treatment designed to gently exfoliate the outer layer of dead skin cells while promoting healthier skin renewal. Using advanced medical-grade technology, the treatment helps improve skin texture, brighten dull complexions, unclog pores, and restore a smoother, more radiant appearance. Every treatment is personalised according to your skin type and concerns, ensuring safe, comfortable, and natural-looking results with little to no downtime.'
 },
        leftCards: [
   {
     id: 1,
     title: 'What Is Microdermabrasion?',
     description:
-      'Microdermabrasion in Dubai is a non-invasive skin treatment that uses controlled exfoliation to remove dead skin cells, unclog pores, and stimulate skin renewal, revealing smoother and brighter skin.'
+      'Microdermabrasion in Dubai is a safe, non-invasive skin resurfacing treatment that gently exfoliates the outermost layer of dead skin cells to reveal a fresher, smoother, and healthier-looking complexion. Using advanced medical-grade exfoliation technology, the procedure helps remove impurities, unclog pores, and stimulate the skin\'s natural renewal process. As new skin cells replace the old ones, the skin appears brighter, softer, and more even in tone and texture.Microdermabrasion is commonly used to improve dull skin, rough texture, enlarged pores, mild acne scars, fine lines, superficial pigmentation, and sun-damaged skin. The treatment also enhances the absorption of professional skincare products, allowing active ingredients to penetrate more effectively and support long-term skin health. Since it is gentle and requires little to no downtime, it is an excellent option for individuals seeking gradual skin rejuvenation without surgery or harsh chemical treatments.'
   },
   {
     id: 2,
     title: 'Who Can Benefit from Microdermabrasion?',
-    description: 'This treatment is ideal for individuals with:',
+    description: 'Microdermabrasion in Dubai is suitable for most adults who want to refresh their skin and improve its overall appearance. It may be recommended for individuals experiencing the following:',
     listItems: [
-      'Dull or uneven skin tone',
-      'Rough skin texture',
-      'Mild acne marks',
-      'Enlarged pores',
-      'Fine lines and early aging signs'
+      'Dull or tired-looking skin',
+'Uneven skin tone and texture',
+'Rough or dry skin',
+'Mild acne marks and superficial scars',
+'Enlarged or clogged pores',
+'Blackheads and whiteheads',
+'Fine lines and early signs of skin ageing',
+'Mild pigmentation and sun damage',
+'Individuals seeking healthier, brighter skin without invasive procedures'
     ]
   },
   {
     id: 3,
-    title: 'Trusted Microdermabrasion Care You Can Depend On',
+    title: 'Trusted Microdermabrasion Care at RamaCare Polyclinic',
+    description:'At RamaCare Polyclinic, every treatment begins with a comprehensive skin assessment to understand your skin type, concerns, and aesthetic goals. Our experienced professionals develop a personalized treatment plan to ensure safe, effective, and natural-looking results while protecting your skin barrier.Our approach includes:',
     listItems: [
-      'Medical-grade exfoliation systems',
-      'Customized treatment plans',
-      'Gentle and non-invasive procedure',
-      'Suitable for most skin types',
-      'Performed by trained professionals',
-      'Healthy, glowing skin—not aggressive treatments'
+      'Comprehensive skin consultation and analysis',
+'Medical-grade microdermabrasion technology',
+'Personalised treatment plans',
+'Gentle, non-invasive exfoliation',
+'SSuitable for most skin types',
+'Performed by trained skincare professionals',
+'Focus on healthy, naturally radiant skin',
+'Minimal discomfort with little to no downtime'
     ]
   }
 ],
-    rootCauses: [
+   rootCauses: [
   {
     id: 1,
     title: 'Dead Skin Cell Build-Up',
-    description: 'When dead skin cells accumulate on the surface, the complexion appears dull, rough, and uneven. This build-up blocks proper absorption of skincare products and slows natural skin renewal, making professional exfoliation treatments in Dubai essential for restoring smoothness and glow.',
+    description:
+      'Dead skin cells accumulate on the skin’s surface over time, leaving the complexion looking dull, rough, and tired. This build-up can also reduce the effectiveness of skincare products by preventing active ingredients from penetrating the skin. Regular microdermabrasion helps restore smoother, brighter, and healthier-looking skin.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Fine Lines & Early Aging',
-    description: 'Prolonged sun exposure and natural collagen decline contribute to fine lines and reduced skin smoothness. Without collagen-stimulating facial treatments, early ageing signs can become more visible over time.',
+    title: 'Fine Lines & Early Signs of Ageing',
+    description:
+      'Natural collagen decline, repeated facial expressions, and prolonged sun exposure contribute to the development of fine lines and reduced skin smoothness. Gentle skin resurfacing stimulates healthy skin renewal, helping soften the appearance of early ageing while improving overall skin texture.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Enlarged Pores & Blackheads',
-    description: 'Clogged pores filled with oil, dirt, and debris lead to blackheads, whiteheads, and uneven texture. Enlarged pores can make the skin look coarse and less refined, requiring deep cleansing facial treatments in Dubai for improvement.',
+    title: 'Enlarged Pores & Congested Skin',
+    description:
+      'Excess oil, dirt, makeup residue, and dead skin cells can clog pores, leading to blackheads, whiteheads, and uneven texture. Microdermabrasion provides deep exfoliation that helps keep pores cleaner, making the skin appear smoother and more refined.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Uneven Skin Tone',
-    description: 'Pigmentation, tanning, mild acne scars, and environmental damage create a patchy complexion. Without targeted skin brightening treatments, uneven tone may persist and reduce natural radiance.',
+    title: 'Uneven Skin Tone & Mild Pigmentation',
+    description:
+      'Sun exposure, post-acne marks, and environmental damage may cause uneven skin tone and superficial pigmentation. Regular exfoliation encourages new skin cell growth, helping improve skin brightness and create a more balanced complexion.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
-   {
+  {
     id: 5,
-    title: 'Dehydration & Rough Texture',
-    description: 'Lack of deep hydration weakens the skin barrier, causing dryness, flakiness, and uneven texture. Dehydrated skin appears tired and lacks elasticity.',
+    title: 'Dryness & Rough Skin Texture',
+    description:
+      'When dead skin builds up, the skin may become dry, flaky, and rough. By removing this outer layer, microdermabrasion improves skin softness while allowing moisturizers and skincare products to work more effectively, leaving the skin hydrated, refreshed, and naturally radiant.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
-  },
+  }
 ],
-        quickFacts: [
-          { label: 'Treatment Type', value: 'Non-invasive' },
-          { label: 'Anesthesia', value: 'Not required' },
-          { label: 'Recovery Time', value: 'Immediate' },
-          { label: 'Side Effects', value: 'Minimal to none' }
-        ],
+       quickFacts: [
+  { label: 'Treatment Type', value: 'Non-invasive Skin Resurfacing' },
+  { label: 'Procedure Time', value: '30–45 Minutes' },
+  { label: 'Anaesthesia', value: 'Not Required' },
+  { label: 'Recovery Time', value: 'Immediate' },
+  { label: 'Downtime', value: 'Minimal to None' },
+  { label: 'Side Effects', value: 'Mild Temporary Redness (if any)' },
+  { label: 'Suitable For', value: 'Most Skin Types' },
+  { label: 'Results', value: 'Brighter, Smoother Skin with Continued Treatments' }
+],
       approachCards: [
   {
     id: 1,
-    title: 'Deep Exfoliation',
+    title: 'Deep Skin Exfoliation',
     description:
-      'Removes dead skin cells to reveal smoother, brighter, and healthier-looking skin.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Gently removes dead skin cells, excess oil, and surface impurities to reveal smoother, brighter, and healthier-looking skin.',
+    hasLearnMore: true,
+    expandedContent:
+      'Microdermabrasion provides controlled exfoliation that encourages healthy skin renewal while restoring a naturally radiant complexion. Regular treatments help improve skin smoothness and allow skincare products to penetrate more effectively.'
   },
   {
     id: 2,
     title: 'Improves Skin Texture & Tone',
     description:
-      'Helps reduce fine lines, mild pigmentation, and surface irregularities.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Refines uneven skin texture, softens fine lines, and improves overall skin tone.',
+    hasLearnMore: true,
+    expandedContent:
+      'By promoting natural skin cell turnover, microdermabrasion helps reduce the appearance of mild pigmentation, surface irregularities, and dullness. With continued treatments, the skin often appears brighter, smoother, and healthier.'
   },
   {
     id: 3,
-    title: 'Unclogs Pores',
+    title: 'Unclogs Pores & Reduces Congestion',
     description:
-      'Minimizes blackheads and whiteheads while improving pore appearance.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Deep exfoliation helps remove trapped oil, debris, and dead skin cells for cleaner, healthier-looking pores.',
+    hasLearnMore: true,
+    expandedContent:
+      'The treatment helps reduce the appearance of blackheads, whiteheads, clogged pores, and enlarged pores while promoting a clearer complexion and smoother skin texture.'
   },
   {
     id: 4,
-    title: 'Boosts Skin Renewal',
+    title: 'Stimulates Healthy Skin Renewal',
     description:
-      'Stimulates natural cell turnover and enhances product absorption.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Supports natural skin regeneration and enhances the absorption of professional skincare products.',
+    hasLearnMore: true,
+    expandedContent:
+      'By encouraging the production of fresh skin cells, microdermabrasion helps maintain healthier skin over time. Improved absorption of active skincare ingredients can further support hydration, skin nourishment, and long-term skin health.'
   },
   {
     id: 5,
-    title: 'Quick, Safe & No Downtime',
+    title: 'Safe, Comfortable & No Downtime',
     description:
-      'Suitable for all skin types with immediate glow and minimal recovery time.',
-    hasLearnMore: false,
-    expandedContent: null
+      'A gentle, non-invasive treatment suitable for most skin types with little to no interruption to daily activities.',
+    hasLearnMore: true,
+    expandedContent:
+      'Microdermabrasion typically requires no anaesthesia or recovery period. Most patients return to their normal routine immediately after treatment, making it a convenient option for achieving smoother, brighter skin with minimal downtime.'
   }
 ]
       },
-     healingJourney: {
-  title: 'Your Skin Rejuvenation Journey: Step by Step',
+    healingJourney: {
+  title: 'Your Microdermabrasion Journey: Step by Step',
   description:
-    'Our microdermabrasion in Dubai treatment follows a structured, transparent approach designed to deliver safe, visible skin rejuvenation with maximum comfort. Each stage is guided by experienced skincare professionals to suit different skin types and concerns.',
+    'At RamaCare Polyclinic, every Microdermabrasion in Dubai treatment follows a personalised, step-by-step approach designed to improve skin texture, restore radiance, and support long-term skin health. Before beginning treatment, our skincare professionals assess your skin condition and create a customized plan based on your concerns, skin type, and aesthetic goals. Each session is performed using advanced medical-grade technology to ensure a safe, comfortable, and effective experience with minimal downtime.',
   steps: [
     {
       id: 1,
       number: '01',
-      title: 'Week 1: Initial Skin Consultation (60 Minutes)',
+      title: 'Comprehensive Skin Consultation',
       duration: 'Step 1',
       description:
-        'Your journey begins with a detailed skin consultation to determine whether microdermabrasion in Dubai is suitable for your skin goals.',
+        'Your journey begins with a detailed consultation to understand your skin concerns and determine whether microdermabrasion in Dubai is the most suitable treatment for your needs. We evaluate your skin condition and discuss your expectations before creating a personalized treatment plan.',
       keyActivities: [
-        'Skin concern discussion and medical history review',
+        'Comprehensive skin consultation',
+        'Medical history and lifestyle review',
         'Skin type and sensitivity assessment',
-        'Texture, pigmentation, and pore analysis',
-        'Evaluation of acne scars, fine lines, and dullness',
-        'Creation of a customized microdermabrasion treatment plan'
+        'Evaluation of skin texture, pores, pigmentation, and fine lines',
+        'Personalised treatment recommendations'
       ],
       side: 'right'
     },
     {
       id: 2,
       number: '02',
-      title: 'Weeks 1–2: Skin Preparation Phase',
+      title: 'Skin Preparation',
       duration: 'Step 2',
       description:
-        'Before starting active sessions, your skin is gently prepared to enhance the effectiveness of microdermabrasion treatment in Dubai.',
+        'Before the procedure, your skin is carefully cleansed and prepared to maximize treatment effectiveness while protecting the skin barrier. Our specialists provide guidance on skincare and sun protection to help achieve the best possible results.',
       keyActivities: [
-        'Mild exfoliation and cleansing guidance',
-        'Hydration and sun-protection recommendations',
-        'Temporary avoidance of harsh skincare products',
-        'Lifestyle and skincare routine adjustments'
+        'Deep cleansing of the treatment area',
+        'Skin preparation before exfoliation',
+        'Hydration recommendations',
+        'Sun protection guidance',
+        'Pre-treatment skincare advice'
       ],
       side: 'left'
     },
     {
       id: 3,
       number: '03',
-      title: 'Weeks 3–12: Active Microdermabrasion Sessions',
+      title: 'Microdermabrasion Treatment',
       duration: 'Step 3',
       description:
-        'This phase includes regular microdermabrasion sessions in Dubai to remove dead skin cells and support natural skin renewal.',
+        "During the procedure, advanced microdermabrasion technology gently exfoliates the outer layer of dead skin cells while removing impurities and excess oil from the skin's surface. This controlled exfoliation stimulates healthy skin renewal, improves skin texture, and promotes a brighter, smoother complexion. Throughout the session, our professionals monitor your comfort and adjust the treatment according to your skin's response.",
       keyActivities: [
-        '2–4 sessions per month, based on skin condition',
-        'Professional exfoliation using advanced microdermabrasion technology',
-        'Removal of dead skin, blackheads, and surface pigmentation',
-        'Improvement in skin texture, tone, and radiance',
-        'Ongoing progress tracking and treatment adjustments'
+        'Gentle medical-grade exfoliation',
+        'Removal of dead skin cells and surface impurities',
+        'Deep pore cleansing',
+        'Improvement of skin texture and radiance',
+        'Continuous treatment monitoring for patient comfort'
       ],
       side: 'right'
     },
     {
       id: 4,
       number: '04',
-      title: 'Months 4–12: Maintenance & Follow-Up Care',
+      title: 'Aftercare & Maintenance',
       duration: 'Step 4',
       description:
-        'Maintenance sessions help support skin health after completing your microdermabrasion in Dubai treatment plan.',
+        'Following your microdermabrasion treatment in Dubai, our team provides personalized aftercare instructions to help maintain your results and support healthy skin renewal. Depending on your skin goals, regular maintenance treatments may be recommended to keep your complexion smooth, refreshed, and radiant throughout the year.',
       keyActivities: [
-        'Monthly or seasonal maintenance sessions',
-        'Regular skin assessments',
-        'Personalized skincare recommendations',
-        'Ongoing professional guidance'
+        'Personalised post-treatment skincare advice',
+        'Daily sunscreen recommendations',
+        'Moisturising and hydration guidance',
+        'Scheduled follow-up assessments',
+        'Maintenance treatment plan for long-term skin health'
       ],
       side: 'left'
     }
   ]
 },
 
-      benefits: {
-        title: 'Clinically Observed Benefits',
-        description: 'Based on 15+ years of providing skin treatment in Dubai.',
-        benefits: [
-          {
-            id: 1,
-            title: ' Brighter, smoother skin',
-            percentage: 91,
-            description: null
-          },
-          {
-            id: 2,
-            title: ' Improved texture and tone ',
-            percentage: 88,
-            description: null
-          },
-          {
-            id: 3,
-            title: ' Reduced dullness',
-            percentage: 95,
-            description: 'Enhanced skin moisture and suppleness'
-          },
-          {
-            id: 4,
-            title: ' Refined pores',
-            percentage: 85,
-            description: null
-          },
-          {
-            id: 5,
-            title: 'Healthy natural glow',
-            percentage: 93,
-            description: null
-          }
-        ],
-        comparisonTitle: 'Skin Treatment vs Conventional Skincare',
-        comparisonDescription: 'Compare our professional skin treatment approach with conventional skincare methods',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Professional Skin Treatment',
-          traditional: 'Conventional Skincare'
-        },
-        comparisonData: [
-          {
-            feature: 'Treatment Method	',
-            ayurvedic: 'Combines internal support, lifestyle guidance, and topical care.',
-            conventional: 'Mainly topical products or procedures'
-          },
-          {
-            feature: 'Results',
-            ayurvedic: 'Gradual improvement with longer-lasting outcomes.',
-            conventional: 'Faster results, but often temporary'
-          },
-          {
-            feature: 'Ingredients & Products',
-            ayurvedic: 'Uses carefully selected, skin-friendly formulations.',
-            conventional: 'Often relies on chemical-based formulations'
-          },
-          {
-            feature: 'Side Effects',
-            ayurvedic: 'Generally minimal when professionally supervised.',
-            conventional: 'Possible irritation, dryness, or sensitivity'
-          },
-          {
-            feature: 'Skin Care Scope',
-            ayurvedic: 'Looks at overall skin balance and function.',
-            conventional: 'Targets specific skin issues only.'
-          },
-          {
-            feature: 'Long-Term Safety',
-            ayurvedic: 'Suitable for extended skin care plans.',
-            conventional: 'Limited for prolonged or repeated use'
-          }
-        ]
-      },
+benefits: {
+  title: 'Benefits of Microdermabrasion in Dubai',
+  description:
+    'At RamaCare Polyclinic, our Microdermabrasion in Dubai is designed to gently exfoliate the skin, stimulate natural skin renewal, and improve overall skin health without surgery or downtime. By removing dead skin cells and encouraging healthy cell turnover, the treatment helps restore a brighter, smoother, and more refreshed complexion. Regular sessions can also enhance the effectiveness of your daily skincare routine, supporting long-term skin vitality and radiance.',
+benefits: [
+  {
+    id: 1,
+    title: 'Brighter & More Radiant Skin',
+    percentage: 91,
+    description:
+      'Microdermabrasion removes the dull outer layer of dead skin cells, revealing fresher, brighter, and healthier-looking skin.',
+    hasLearnMore: true,
+    expandedContent:
+      'By gently exfoliating the outermost layer of the skin, microdermabrasion encourages healthy skin renewal and creates a more even complexion. Regular treatments help restore natural radiance while supporting long-term skin vitality and enhancing the effectiveness of your daily skincare routine.'
+  },
+  {
+    id: 2,
+    title: 'Smoother Skin Texture',
+    percentage: 88,
+    description:
+      'Gentle exfoliation helps refine rough skin and improve overall skin texture.',
+    hasLearnMore: true,
+    expandedContent:
+      'The treatment removes accumulated dead skin cells that contribute to roughness and uneven texture. As healthy new skin cells replace older ones, the skin gradually feels softer, smoother, and more refreshed while maintaining a natural appearance.'
+  },
+  {
+    id: 3,
+    title: 'Improved Skin Tone',
+    percentage: 95,
+    description:
+      'Regular treatments help improve mild pigmentation and promote a more balanced complexion.',
+    hasLearnMore: true,
+    expandedContent:
+      'Microdermabrasion supports natural skin cell turnover, which may help reduce the appearance of superficial sun damage, post-acne marks, and uneven skin tone over time. Results develop gradually with continued treatments and a personalized skincare routine.'
+  },
+  {
+    id: 4,
+    title: 'Refined Pores & Clearer Skin',
+    percentage: 85,
+    description:
+      'Deep exfoliation helps minimise enlarged pores and supports clearer-looking skin.',
+    hasLearnMore: true,
+    expandedContent:
+      'By removing excess oil, dirt, and dead skin cells that accumulate within pores, microdermabrasion helps reduce congestion and improve overall skin clarity. Cleaner pores contribute to a smoother complexion and healthier-looking skin.'
+  },
+  {
+    id: 5,
+    title: 'Healthy Natural Glow',
+    percentage: 93,
+    description:
+      'Fresh skin cells create a naturally brighter and healthier-looking complexion.',
+    hasLearnMore: true,
+    expandedContent:
+      'As the skin renews itself, the complexion becomes more radiant without appearing artificial. Improved texture, better hydration, and healthier skin turnover all contribute to a naturally refreshed and glowing appearance.'
+  },
+  {
+    id: 6,
+    title: 'Softer & Better Hydrated Skin',
+    percentage: 90,
+    description:
+      'Exfoliation allows skincare products to absorb more effectively, improving hydration.',
+    hasLearnMore: true,
+    expandedContent:
+      'Removing the outer layer of dead skin cells improves the penetration of moisturisers and professionally recommended skincare products. This supports better hydration, softer skin, and improved overall skin comfort after treatment.'
+  },
+  {
+    id: 7,
+    title: 'Reduction in Fine Lines',
+    percentage: 87,
+    description:
+      'Regular skin renewal helps soften the appearance of early signs of ageing.',
+    hasLearnMore: true,
+    expandedContent:
+      'Gentle resurfacing encourages healthy skin renewal and helps improve skin smoothness. With regular sessions, many patients notice that fine lines become less noticeable while the skin appears firmer, smoother, and more youthful.'
+  },
+  {
+    id: 8,
+    title: 'Minimal Downtime & Comfortable Treatment',
+    percentage: 96,
+    description:
+      'A gentle, non-invasive procedure suitable for most skin types with little to no recovery time.',
+    hasLearnMore: true,
+    expandedContent:
+      'Microdermabrasion is performed without surgery or anaesthesia and is generally well tolerated. Most patients can return to normal daily activities immediately after treatment, making it an excellent option for ongoing skin maintenance and rejuvenation with minimal interruption to daily life.'
+  }
+],
+
+  comparisonTitle: 'Professional Microdermabrasion vs. Conventional Skincare',
+
+  comparisonDescription:
+    "Understanding the Difference Before Choosing Your Skin Care. While daily skincare products are essential for maintaining healthy skin, they primarily work on the skin's surface. Professional Microdermabrasion in Dubai provides deeper exfoliation using advanced medical-grade technology to remove dead skin cells, improve skin texture, and stimulate healthy skin renewal. When performed by experienced professionals, microdermabrasion can enhance the effectiveness of your skincare routine and deliver more noticeable improvements in skin appearance.",
+
+  comparisonHeaders: {
+    feature: 'Aspect',
+    ourTreatment: 'Professional Microdermabrasion in Dubai',
+    traditional: 'Conventional Skincare'
+  },
+
+  comparisonData: [
+    {
+      feature: 'Treatment Method',
+      ayurvedic:
+        'Medical-grade exfoliation performed by trained skincare professionals.',
+      conventional:
+        'Daily cleansing, exfoliating, and moisturizing using over-the-counter products.'
+    },
+    {
+      feature: 'Depth of Exfoliation',
+      ayurvedic:
+        'Removes dead skin cells more effectively using specialized technology.',
+      conventional:
+        "Primarily exfoliates the skin's surface with limited penetration."
+    },
+    {
+      feature: 'Skin Concerns Addressed',
+      ayurvedic:
+        'Helps improve dull skin, rough texture, enlarged pores, mild pigmentation, and early signs of aging.',
+      conventional:
+        'Supports daily skin maintenance and hydration but may provide limited improvement for persistent concerns.'
+    },
+    {
+      feature: 'Results',
+      ayurvedic:
+        'Gradual improvements in skin texture, smoothness, and radiance with regular treatments.',
+      conventional:
+        'Results depend on product consistency and individual skin response.'
+    },
+    {
+      feature: 'Downtime',
+      ayurvedic:
+        'Minimal to no downtime, allowing most patients to resume normal activities immediately.',
+      conventional:
+        'No downtime required.'
+    },
+    {
+      feature: 'Professional Supervision',
+      ayurvedic:
+        'Performed after a personalized skin assessment by experienced professionals.',
+      conventional:
+        'Self-administered without professional skin evaluation.'
+    },
+    {
+      feature: 'Product Absorption',
+      ayurvedic:
+        'Improves the absorption and effectiveness of professional skincare products after treatment.',
+      conventional:
+        'Product absorption may be reduced when dead skin cells accumulate.'
+    },
+    {
+      feature: 'Long-Term Skin Health',
+      ayurvedic:
+        'Supports ongoing skin renewal and healthier-looking skin when combined with a personalized skincare routine.',
+      conventional:
+        'Helps maintain skin health with consistent daily use but does not replace professional skin treatments.'
+    }
+  ]
+},
+choosingRightApproach: {
+    title: 'Why Choose Microdermabrasion for Healthy, Radiant Skin?',
+    content: '<ul><li>Healthy skin naturally renews itself by shedding old skin cells and replacing them with new ones. However, factors such as aging, sun exposure, pollution, stress, and everyday environmental damage can slow this process, causing the skin to appear dull, rough, and uneven. Microdermabrasion in Dubai provides a safe and effective way to support this natural renewal process through gentle, controlled exfoliation. </li><br><li>Unlike harsh scrubs or over-the-counter exfoliating products, professional microdermabrasion uses advanced medical-grade technology to remove dead skin cells evenly while protecting the healthy skin beneath. This helps improve skin texture, brighten the complexion, minimize the appearance of enlarged pores, and enhance the absorption of professional skincare products.</li><br><li>Regular microdermabrasion treatment in Dubai can also complement other aesthetic treatments by preparing the skin for improved product penetration and healthier skin regeneration. Because the procedure is non-invasive and requires little to no downtime, it is suitable for individuals with busy lifestyles who want noticeable skin improvements without interrupting their daily routine.</li></ul>',
+    closing: 'At RamaCare Polyclinic, every treatment is customized according to your skin type, concerns, and long-term skincare goals. Our experienced professionals carefully assess your skin before recommending the most appropriate treatment plan, ensuring a comfortable experience and natural-looking results. Whether your goal is to reduce dullness, refine skin texture, improve mild pigmentation, or maintain healthy, glowing skin, our personalized approach focuses on achieving long-lasting skin health rather than temporary cosmetic improvements.'
+  },
+
     pricing: {
   title: 'Transparent Pricing & Customized Treatment Packages',
   description:
@@ -3093,7 +3631,7 @@ rootCauses: [
   'aesthetic-dermatology-dubai-skin-treatment-skin-allergy': {
      hero: {
             subtitle: 'Expert Care for Itching, Rashes & Sensitive Skin Relief',
-            description: 'Skin allergies can cause itching, redness, rashes, and discomfort, which can significantly impact daily life. At ramacarepolyclinic, we provide medically guided Skin Allergy Treatment in Dubai to identify triggers, control symptoms, and protect long-term skin health safely and effectively.',
+            description: 'Skin allergies can cause persistent itching, redness, rashes, swelling, dryness, and irritation that affect both your comfort and confidence.These reactions may be triggered by allergens, environmental factors, skincare products, food, medications, or underlying skin conditions.Without proper diagnosis and treatment, allergy symptoms can recur, worsen over time, and interfere with your daily activities and overall skin health. At RamaCare Polyclinic, we provide medically guided Skin Allergy Treatment in Dubai to accurately identify the underlying cause of your symptoms and develop a personalised treatment plan tailored to your needs.Our experienced medical professionals focus on relieving itching, reducing inflammation, calming irritated skin, and helping prevent future flare-ups through evidence-based medical care. Whether you are experiencing allergic skin rashes, eczema, contact dermatitis, hives (urticaria), or other allergy-related skin concerns, we offer comprehensive assessment and treatment to restore healthier skin safely and effectively.Every treatment plan is designed to provide symptom relief while supporting long-term skin health and improving your quality of life. If you are looking for trusted skin allergy treatment in Dubai, RamaCare Polyclinic offers compassionate, patient-centered care to help you achieve healthier, calmer, and more comfortable skin with confidence.',
             rating: '500+ Happy Clients',  
             stats: [
               {
@@ -3176,264 +3714,379 @@ rootCauses: [
       overview: {
         title: 'Understanding Skin Allergy Treatment',
         problemIntro: {
-          title: 'The Problem: Skin Allergies & Sensitivity',
-          description: 'Many people live with ongoing skin allergies without knowing the exact cause.'
+          title: 'The Problem: Skin Allergies & Sensitive Skin',
+          description: 'Skin allergies can affect people of all ages and may significantly impact daily life if left untreated. Persistent itching, redness, inflammation, and recurring rashes often indicate an underlying allergic response that requires professional evaluation. Identifying the trigger and managing the condition early can help reduce symptoms, prevent complications, and improve long-term skin health.'
         },
         solutionIntro: {
-  title: 'Our Solution: Skin Allergy Treatment in Dubai',
+  title: 'Comprehensive Skin Allergy Treatment in Dubai',
   description:
-    'Our Skin Allergy Treatment in Dubai focuses on identifying triggers and providing long-term relief rather than temporary suppression.'
+    'At RamaCare Polyclinic, our skin allergy treatment in Dubai focuses on identifying the underlying cause of allergic skin reactions rather than simply providing temporary symptom relief. Our experienced medical professionals perform a thorough clinical evaluation to understand your symptoms, identify possible allergy triggers, and develop a personalized treatment plan that supports both immediate comfort and long-term skin health. By combining accurate diagnosis, evidence-based medical care, skincare guidance, and preventive strategies, we help patients manage allergies more effectively and reduce the likelihood of recurring flare-ups.'
 },
        leftCards: [
   {
     id: 1,
     title: 'What Is a Skin Allergy?',
     description:
-      'Skin allergy occurs when the immune system reacts to certain substances like food, cosmetics, dust, metals, medications, or environmental factors. This reaction can cause rashes, itching, swelling, or dryness.'
+      'A skin allergy is an immune system reaction that occurs when the body comes into contact with substances known as allergens. These allergens may include certain foods, cosmetics, fragrances, medications, metals, dust mites, pollen, pet dander, detergents, or environmental factors. When the immune system identifies these substances as harmful, it releases inflammatory chemicals that can cause symptoms such as itching, redness, swelling, rashes, hives, dryness, or skin irritation. At RamaCare Polyclinic, our skin allergy treatment in Dubai focuses on identifying the underlying cause of allergic reactions, relieving uncomfortable symptoms, and helping prevent future flare-ups. Through a detailed medical assessment and personalized treatment plan, we aim to restore healthy skin while supporting long-term skin health and overall well-being.'
   },
   {
     id: 2,
-    title: 'Who Needs Skin Allergy Treatment?',
-    description: 'Skin Allergy Treatment in Dubai is recommended for individuals experiencing:',
+    title: 'Who Can Benefit from Skin Allergy Treatment?',
+    description: 'Skin allergy treatment in Dubai may be recommended for adults experiencing persistent or recurring allergy-related skin symptoms, including',
     listItems: [
-      'Persistent itching or redness',
-      'Recurrent skin rashes or hives',
-      'Dry, inflamed, or peeling skin',
-      'Sudden skin reactions to products or foods',
-      'Allergy flare-ups due to weather or stress',
-      'Early diagnosis helps prevent chronic skin issues'
+      'Persistent itching, redness, or irritation',
+      'Recurrent skin rashes or hives (urticaria)',
+      'Dry, inflamed, flaky, or peeling skin',
+      'Allergic reactions to cosmetics, skincare products, or metals',
+      'Food- or medication-related skin allergies',
+      'Contact dermatitis or eczema flare-ups',
+      'Seasonal or environmental allergy-related skin reactions',
+      'Skin sensitivity that affects daily comfort and quality of life'
     ]
   },
   {
     id: 3,
-    title: 'Trusted Skin Allergy Care You Can Depend On',
+    title: 'Trusted Skin Allergy Care at RamaCare Polyclinic',
+    description: 'At RamaCare Polyclinic, we believe that effective allergy treatment begins with an accurate diagnosis. Our experienced medical professionals carefully evaluate your symptoms, identify potential triggers, and develop a personalized treatment plan tailored to your condition and lifestyle.Our approach includes:',
     listItems: [
-      'Accurate diagnosis of skin allergies',
-      'Personalized allergy treatment plans',
-      'Safe medications and skin care guidance',
-      'Adult and elderly-friendly care',
-      'Long-term allergy management support'
+      'Comprehensive medical consultation and skin examination',
+      'Identification of possible allergy triggers',
+      'Personalised treatment plans based on individual needs',
+      'Safe, evidence-based medications when appropriate',
+      'Skincare guidance to protect the skin barrier',
+      'Adult and elderly-friendly treatment options',
+      'Long-term allergy management and follow-up care',
+      'Education on avoiding common allergens and preventing flare-ups'
     ]
   }
 ],
      rootCauses: [
   {
     id: 1,
-    title: 'Recurring Rashes & Itching',
-    description: 'Allergic skin reactions often present as redness, itching, hives, and irritated patches. Persistent scratching can worsen inflammation, damage the skin barrier, and disturb sleep and daily comfort. Professional allergy management in Dubai is essential to prevent recurring flare-ups.',
+    title: 'Recurring Rashes & Persistent Itching',
+    description:
+      'Allergic reactions commonly cause itchy rashes, redness, swelling, and raised patches on the skin. Frequent scratching may damage the skin barrier, increase the risk of infection, and make symptoms more difficult to control. Early medical treatment can help relieve discomfort and reduce repeated flare-ups.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Dry, Inflamed Skin',
-    description: 'Skin allergies frequently cause excessive dryness, scaling, swelling, and a burning sensation. A compromised skin barrier makes the skin more reactive and prone to irritation, requiring targeted dermatological care.',
+    title: 'Dry, Inflamed & Sensitive Skin',
+    description:
+      'Skin allergies often weaken the skin\'s protective barrier, leading to excessive dryness, scaling, peeling, burning sensations, and increased sensitivity. Appropriate medical care and skincare guidance help restore the skin barrier and reduce irritation.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 3,
-    title: 'Environmental & Food Triggers',
-    description: 'Common triggers such as dust, pollution, harsh skincare products, weather changes, and certain foods can provoke allergic reactions. Identifying these triggers through proper medical evaluation helps in long-term allergy control.',
+    title: 'Environmental & Lifestyle Triggers',
+    description:
+      'Dust, pollen, pollution, weather changes, detergents, fragrances, cosmetics, and certain foods can all trigger allergic skin reactions. Identifying these triggers allows patients to make practical lifestyle adjustments that support long-term symptom control.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 4,
-    title: 'Stress & Immune Imbalance',
-    description: 'Chronic stress weakens the immune system, increasing sensitivity and the severity of allergic reactions. Hormonal fluctuations and immune imbalance can further aggravate skin conditions like eczema and dermatitis.',
+    title: 'Stress & Immune System Factors',
+    description:
+      'Emotional stress and immune system changes may worsen skin conditions such as eczema, dermatitis, and chronic allergic reactions. A personalized treatment approach focuses on managing symptoms while addressing contributing factors that may increase skin sensitivity.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'
   },
   {
     id: 5,
-    title: 'Undiagnosed Contact Dermatitis',
-    description: 'Frequent exposure to cosmetics, detergents, or metals may cause contact dermatitis, leading to persistent redness and irritation. Without allergy testing in Dubai, symptoms may repeatedly return.',
+    title: 'Contact Dermatitis & Undiagnosed Allergies',
+    description:
+      'Repeated exposure to allergens such as nickel, latex, soaps, perfumes, or household cleaning products may cause contact dermatitis, resulting in persistent redness, itching, and inflammation. Early medical evaluation helps identify potential triggers and supports effective long-term allergy management.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
-  },
+  }
 ],
-        quickFacts: [
-          { label: 'Treatment Type', value: 'Non-invasive' },
-          { label: 'Anesthesia', value: 'Not required' },
-          { label: 'Recovery Time', value: 'Immediate' },
-          { label: 'Side Effects', value: 'Minimal to none' }
-        ],
-      approachCards: [
+quickFacts: [
+  {
+    label: 'Treatment Type',
+    value: 'Non-invasive Medical Management'
+  },
+  {
+    label: 'Procedure',
+    value: 'Consultation, Diagnosis & Personalised Treatment'
+  },
+  {
+    label: 'Anaesthesia',
+    value: 'Not Required'
+  },
+  {
+    label: 'Recovery Time',
+    value: 'Immediate (depending on the condition)'
+  },
+  {
+    label: 'Downtime',
+    value: 'Usually none'
+  },
+  {
+    label: 'Suitable For',
+    value: 'Adults with Allergy-Related Skin Conditions'
+  },
+  {
+    label: 'Goal',
+    value: 'Symptom Relief, Trigger Identification & Long-Term Skin Health'
+  }
+],
+     approachCards: [
   {
     id: 1,
-    title: 'Accurate Diagnosis & Allergy Testing',
-    description: 'We conduct detailed clinical evaluations and advanced allergy testing to identify the exact triggers causing skin reactions.',
+    title: 'Accurate Diagnosis & Allergy Assessment',
+    description:
+      'Successful treatment begins with identifying the cause of your skin allergy through a detailed review of your symptoms, medical history, lifestyle factors, and potential allergens.',
     hasLearnMore: true,
-    expandedContent: 'By addressing the root cause, we help prevent repeated flare-ups and ensure effective, long-term allergy management in Dubai.'
+    expandedContent:
+      'When clinically appropriate, allergy testing or further investigations may be recommended to help identify possible triggers and guide treatment decisions. An accurate diagnosis allows our medical team to develop a targeted management plan that supports effective symptom control and long-term skin health.'
   },
   {
     id: 2,
-    title: 'Personalized Medical Treatment',
-    description: 'Each patient receives a customized treatment plan based on their allergy type, skin sensitivity, and medical history.',
+    title: 'Personalised Treatment Plans',
+    description:
+      'Every skin allergy is different, which is why we create customised treatment plans based on your skin condition, allergy history, symptom severity, and overall health.',
     hasLearnMore: true,
-    expandedContent: 'Targeted therapies reduce inflammation, itching, redness, and irritation safely and effectively.'
+    expandedContent:
+      'Our personalised approach focuses on relieving itching, redness, inflammation, and irritation while supporting long-term control of allergy-related skin conditions. Treatment recommendations are tailored to your individual needs and adjusted based on your progress.'
   },
   {
     id: 3,
-    title: 'Skin Barrier Repair',
-    description: 'Our treatment approach includes barrier-repair therapies that strengthen the skin’s natural defense system.',
+    title: 'Skin Barrier Protection & Repair',
+    description:
+      'Our treatment approach includes medical therapies and skincare recommendations that help strengthen the skin barrier, improve hydration, and reduce sensitivity.',
     hasLearnMore: true,
-    expandedContent: 'Improved hydration and resilience help protect against environmental irritants and reduce future allergic reactions.'
+    expandedContent:
+      'Healthy skin acts as the body’s first line of defence against allergens and environmental irritants. By supporting the skin’s natural healing process and restoring barrier function, we aim to reduce irritation, improve comfort, and promote healthier skin over time.'
   },
   {
     id: 4,
-    title: 'Lifestyle & Trigger Management',
-    description: 'We provide expert guidance on skincare routines, diet adjustments, and environmental control measures.',
+    title: 'Lifestyle Guidance & Trigger Management',
+    description:
+      'Long-term allergy control often requires more than medication alone, which is why we provide practical guidance on skincare routines, allergen avoidance, and lifestyle modifications.',
     hasLearnMore: true,
-    expandedContent: 'Identifying and avoiding specific triggers plays a key role in minimizing allergic flare-ups.'
+    expandedContent:
+      'Our team offers personalised advice on trigger management, skincare habits, and dietary considerations where appropriate to help minimise exposure to common allergens and reduce the likelihood of future flare-ups. Regular follow-up appointments allow us to monitor your response to treatment and adjust your care plan whenever necessary.'
+  },
+   {
+    id: 5,
+    title: 'Ongoing Monitoring & Long-Term Support',
+    description:
+      'Managing skin allergies may require regular follow-up, especially for individuals with recurring or chronic conditions. ',
+    hasLearnMore: true,
+    expandedContent:
+      'Our team monitors your progress, reviews your response to treatment, and adjusts your care plan when necessary to help maintain healthier skin and improve your overall quality of life.'
   },
 ]
       },
-     healingJourney: {
-  title: 'Your Path to Relief: Step-by-Step Care',
+   healingJourney: {
+  title: 'Your Skin Allergy Treatment Journey: Step by Step',
   description:
-    'Our skin allergy treatment in Dubai follows a structured and transparent approach to identify triggers, relieve symptoms, and support long-term skin health. Each stage is carefully planned by experienced dermatology professionals to ensure safe, effective, and personalized care.',
+    'At RamaCare Polyclinic, our skin allergy treatment in Dubai follows a structured, patient-centered approach designed to identify the underlying cause of your skin allergy, relieve uncomfortable symptoms, and support long-term skin health. Every patient receives an individual assessment because skin allergies can vary significantly in their causes, severity, and recurrence. Our experienced medical professionals create personalized treatment plans that focus on accurate diagnosis, effective symptom control, and practical strategies to help reduce future flare-ups.',
   steps: [
     {
       id: 1,
       number: '01',
-      title: ' Initial Skin Allergy Consultation (60 Minutes)',
+      title: 'Comprehensive Skin Allergy Consultation',
       duration: 'Step 1',
       description:
-        'Your treatment journey begins with a comprehensive consultation to understand the cause, severity, and pattern of your skin allergy.',
+        'Your treatment journey begins with a detailed consultation to understand your symptoms, medical history, and possible allergy triggers. Our healthcare professionals perform a thorough skin examination and discuss factors that may contribute to recurring allergic reactions before developing a personalized treatment plan.',
       keyActivities: [
-        'Detailed medical and allergy history review',
-        'Assessment of current symptoms and flare-ups',
-        'Skin examination to identify allergic reactions',
-        'Evaluation of lifestyle, diet, and environmental triggers',
-        'Creation of a personalized skin allergy treatment plan in Dubai'
+        'Comprehensive medical and allergy history review',
+        'Assessment of current symptoms and flare-up patterns',
+        'Detailed skin examination',
+        'Review of medications, skincare products, and lifestyle factors',
+        'Personalized skin allergy treatment plan'
       ],
       side: 'right'
     },
     {
       id: 2,
       number: '02',
-      title: 'Allergy Identification & Skin Calming Phase',
+      title: 'Allergy Assessment & Symptom Control',
       duration: 'Step 2',
       description:
-        'This phase focuses on calming active allergic reactions and identifying possible allergens responsible for skin sensitivity.',
+        'After the initial evaluation, we focus on identifying potential allergy triggers while providing treatment to relieve itching, redness, inflammation, and skin irritation. Patients also receive guidance on protecting the skin barrier and avoiding common allergens whenever possible.',
       keyActivities: [
-        'Trigger identification and avoidance guidance',
-        'Soothing topical treatments or medications (if required)',
-        'Gentle skincare routine recommendations',
-        'Dietary and lifestyle modifications to reduce flare-ups'
+        'Identification of possible allergy triggers',
+        'Advice on allergen avoidance',
+        'Medical treatment to relieve active symptoms (when clinically appropriate)',
+        'Gentle skincare and skin barrier protection guidance',
+        'Lifestyle and environmental recommendations'
       ],
       side: 'left'
     },
     {
       id: 3,
       number: '03',
-      title: ' Active Skin Allergy Treatment Phase',
+      title: 'Personalised Allergy Management',
       duration: 'Step 3',
       description:
-        'During this stage, active skin allergy treatment in Dubai is provided to control itching, redness, and recurring reactions.',
+        'During this phase, your treatment plan is monitored and adjusted according to your progress. Our goal is to reduce recurring allergic reactions, improve skin comfort, and support long-term control through evidence-based medical care and ongoing patient education.',
       keyActivities: [
-        'Regular follow-up sessions based on condition severity',
-        'Prescription or non-prescription therapies as advised',
+        'Regular follow-up appointments',
         'Monitoring of symptom improvement',
-        'Adjustments to treatment and skincare plans',
-        'Patient education on flare-up prevention'
+        'Adjustment of medications or skincare recommendations when required',
+        'Education on preventing future flare-ups',
+        'Personalised long-term allergy management plan'
       ],
       side: 'right'
     },
     {
       id: 4,
       number: '04',
-      title: ' Maintenance & Follow-Up Care',
+      title: 'Long-Term Skin Health & Follow-Up',
       duration: 'Step 4',
       description:
-        'The maintenance phase focuses on preventing recurrence and maintaining healthy, balanced skin.',
+        'Managing skin allergies often requires continued care to minimize recurrence and maintain healthy skin. We provide ongoing follow-up consultations, preventive advice, and skincare recommendations to help you manage your condition confidently and improve your quality of life over the long term.',
       keyActivities: [
-        'Periodic dermatology check-ups',
-        'Long-term skincare and allergy-management guidance',
-        'Seasonal care recommendations',
-        'Ongoing professional support'
+        'Periodic skin health assessments',
+        'Long-term allergy monitoring',
+        'Personalised skincare recommendations',
+        'Seasonal allergy prevention advice',
+        'Continued professional support and follow-up care'
       ],
       side: 'left'
     }
   ]
 },
 
-      benefits: {
-        title: 'Clinically Observed Benefits',
-        description: 'Based on 15+ years of providing skin treatment in Dubai.',
-        benefits: [
-          {
-            id: 1,
-            title: 'Reduced itching and redness',
-            percentage: 91,
-            description: null
-          },
-          {
-            id: 2,
-            title: ' Faster skin healing',
-            percentage: 88,
-            description: null
-          },
-          {
-            id: 3,
-            title: ' Fewer allergy flare-ups',
-            percentage: 95,
-            description: 'Enhanced skin moisture and suppleness'
-          },
-          {
-            id: 4,
-            title: ' Improved skin comfort',
-            percentage: 85,
-            description: null
-          },
-          {
-            id: 5,
-            title: ' Better quality of life',
-            percentage: 93,
-            description: null
-          }
-        ],
-        comparisonTitle: 'Skin Allergy Treatment vs. Self-Medication',
-        comparisonDescription: 'Understanding the Difference Before Choosing Your Care',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Skin Allergy Treatment in Dubai',
-          traditional: 'Self-Medication'
-        },
-        comparisonData: [
-          {
-            feature: 'Diagnosis	',
-            ayurvedic: 'Medical evaluation',
-            conventional: 'Guess-based'
-          },
-          {
-            feature: 'Treatment',
-            ayurvedic: 'Targeted and safe',
-            conventional: 'Temporary relie'
-          },
-          {
-            feature: 'Side Effects',
-            ayurvedic: 'Monitored and minimal',
-            conventional: 'Higher risk'
-          },
-          {
-            feature: 'Long-Term Control',
-            ayurvedic: 'Yes',
-            conventional: 'No'
-          },
-          {
-            feature: 'Trigger Identification',
-            ayurvedic: 'Yes',
-            conventional: 'No'
-          },
-          {
-            feature: 'Safety',
-            ayurvedic: 'Doctor-guided',
-            conventional: 'Uncontrolled use'
-          }
-        ]
+     benefits: {
+  title: 'Benefits of Skin Allergy Treatment in Dubai',
+  description:
+    'At RamaCare Polyclinic, our skin allergy treatment in Dubai is designed to identify the underlying cause of allergic skin reactions while providing effective symptom relief and long-term skin protection. Rather than focusing only on temporary improvements, our personalized treatment approach helps reduce recurring flare-ups, restore the skin barrier, and improve overall skin health. Every treatment plan is tailored to your individual condition, ensuring safe, evidence-based care that supports lasting comfort and healthier skin.',
+
+  benefits: [
+    {
+      id: 1,
+      title: 'Relieves Itching & Redness',
+      percentage: 94,
+      description:
+        'Our treatment approach helps calm persistent itching, redness, and irritation caused by allergic skin reactions.',
+      hasLearnMore: true,
+      expandedContent:
+        'Persistent itching and inflammation can interfere with daily activities and damage the skin through repeated scratching. By controlling allergic reactions and soothing irritated skin, treatment helps reduce discomfort, calm inflammation, and improve overall skin comfort.'
+    },
+    {
+      id: 2,
+      title: 'Reduces Skin Inflammation',
+      percentage: 92,
+      description:
+        'Medical management helps reduce swelling, rashes, dryness, and irritation while supporting the skin’s natural healing process.',
+      hasLearnMore: true,
+      expandedContent:
+        'Skin allergies often weaken the skin barrier, leading to redness, dryness, and sensitivity. Appropriate treatment focuses on reducing inflammation, restoring skin comfort, and promoting healthier skin as symptoms gradually improve.'
+    },
+    {
+      id: 3,
+      title: 'Supports Faster Skin Recovery',
+      percentage: 90,
+      description:
+        'Treatment promotes healthier skin recovery by controlling allergic reactions and protecting the skin barrier.',
+      hasLearnMore: true,
+      expandedContent:
+        'As inflammation is brought under control, damaged or irritated skin can recover more effectively. Strengthening the skin barrier supports natural healing while helping the skin regain its normal appearance and function over time.'
+    },
+    {
+      id: 4,
+      title: 'Helps Prevent Recurring Flare-Ups',
+      percentage: 91,
+      description:
+        'Identifying allergy triggers and following a personalised treatment plan helps reduce the frequency of future allergic reactions.',
+      hasLearnMore: true,
+      expandedContent:
+        'Long-term allergy management focuses on identifying potential triggers, reducing exposure where possible, and providing practical strategies to minimise recurring flare-ups while maintaining healthier skin.'
+    },
+    {
+      id: 5,
+      title: 'Restores the Skin Barrier',
+      percentage: 95,
+      description:
+        'Treatment includes skincare guidance and barrier-supporting strategies to improve hydration and reduce skin sensitivity.',
+      hasLearnMore: true,
+      expandedContent:
+        'A healthy skin barrier helps protect against allergens, environmental irritants, and moisture loss. Strengthening this natural defence system improves hydration, reduces sensitivity, and supports long-term skin health.'
+    },
+    {
+      id: 6,
+      title: 'Improves Daily Comfort & Skin Health',
+      percentage: 93,
+      description:
+        'Better symptom control supports healthier skin, greater comfort, and improved quality of life.',
+      hasLearnMore: true,
+      expandedContent:
+        'As itching, redness, and irritation improve, many patients experience healthier-looking skin, improved sleep, greater confidence, and increased comfort during everyday activities.'
+    },
+    {
+      id: 7,
+      title: 'Personalised Long-Term Allergy Management',
+      percentage: 96,
+      description:
+        'Ongoing follow-up care and personalised treatment plans help support lasting skin health.',
+      hasLearnMore: true,
+      expandedContent:
+        'Because every patient’s condition is different, we provide regular follow-up appointments, skincare recommendations, and practical advice to monitor progress, adjust treatment when required, and help minimise future allergic reactions.'
+    }
+  ],
+       comparisonTitle: 'Skin Allergy Treatment vs. Self-Medication',
+comparisonDescription: 'Understanding the Difference Before Choosing Your Care',
+comparisonHeaders: {
+  feature: 'Aspect',
+  ourTreatment: 'Skin Allergy Treatment in Dubai',
+  traditional: 'Self-Medication'
+},
+comparisonData: [
+  {
+    feature: 'Diagnosis',
+    ayurvedic:
+      'Comprehensive medical evaluation to identify the likely cause of the skin allergy and assess the condition accurately.',
+    conventional:
+      'Based on self-diagnosis without professional medical assessment.'
+  },
+  {
+    feature: 'Treatment Approach',
+    ayurvedic:
+      'Personalised treatment plan tailored to your symptoms, medical history, and possible allergy triggers.',
+    conventional:
+      'Temporary symptom relief using over-the-counter products or home remedies.'
+  },
+  {
+    feature: 'Symptom Management',
+    ayurvedic:
+      'Helps relieve itching, redness, inflammation, rashes, and skin irritation while supporting long-term skin health.',
+    conventional:
+      'May reduce symptoms temporarily but often does not address the underlying cause.'
+  },
+  {
+    feature: 'Trigger Identification',
+    ayurvedic:
+      'Focuses on identifying and managing potential allergens to reduce recurring flare-ups.',
+    conventional:
+      'Triggers usually remain unidentified, increasing the risk of repeated allergic reactions.'
+  },
+  {
+    feature: 'Safety',
+    ayurvedic:
+      'Treatment is supervised by experienced medical professionals with appropriate follow-up care.',
+    conventional:
+      'Incorrect product selection or prolonged use may increase the risk of skin irritation or delayed diagnosis.'
+  },
+  {
+    feature: 'Long-Term Management',
+    ayurvedic:
+      'Includes ongoing monitoring, skincare guidance, and preventive strategies for better long-term control.',
+    conventional:
+      'Generally provides short-term relief without a structured management plan.'
+  },
+  {
+    feature: 'Personalised Care',
+    ayurvedic:
+      'Treatment recommendations are based on your individual skin condition and medical needs.',
+    conventional:
+      'One-size-fits-all approach that may not be suitable for every patient.'
+  }
+]
       },
     pricing: {
   title: 'Transparent Pricing & Customized Treatment Packages',
@@ -3766,8 +4419,8 @@ rootCauses: [
 
  'aesthetic-dermatology-dubai-skin-treatment-botox-hyperhidrosis': {
         hero: {
-            subtitle: 'Effective, Safe, and Clinically Proven Treatment',
-            description: 'Excessive sweating (hyperhidrosis) can affect daily life, confidence, and comfort. At Rama Care Polyclinic, we offer Botox Hyperhidrosis treatment in Dubai to reduce sweat in the underarms, palms, or feet safely and effectively.',
+            subtitle: 'Effective, Safe, and Clinically Proven Treatment for Excessive Sweating',
+            description: 'Excessive sweating, also known as hyperhidrosis, can affect your daily comfort, confidence, and quality of life.Sweating beyond what is needed to regulate body temperature may interfere with work, social interactions, sports, and everyday activities.Commonly affected areas include the underarms, palms, soles of the feet, and, in some cases, the face.While antiperspirants may provide temporary relief, they often fail to control moderate to severe hyperhidrosis effectively. At RamaCare Polyclinic, we offer medically supervised Botox for hyperhidrosis in Dubai to help reduce excessive sweating safely and effectively.This minimally invasive treatment works by temporarily blocking the nerve signals responsible for activating sweat glands, significantly reducing sweat production in the treated area without affecting the body\'s normal temperature regulation. Our experienced medical professionals perform a comprehensive assessment before recommending treatment, ensuring that every patient receives a personalized care plan based on their symptoms and lifestyle.Whether you struggle with excessive underarm sweating, sweaty palms, or sweaty feet, our goal is to help you feel more comfortable, confident, and in control of your daily life with safe, evidence-based Botox hyperhidrosis treatment in Dubai.',
             rating: '500+ Happy Clients',  
             stats: [
               {
@@ -3851,34 +4504,38 @@ rootCauses: [
         title: 'Understanding Botox Hyperhidrosis in Dubai',
         problemIntro: {
           title: 'The Problem: Excessive Sweating (Hyperhidrosis)',
-          description: ' Excessive sweating can interfere with daily life, work, and social activities. Many patients delay treatment due to misconceptions about injections or fear of side effects.'
+          description: 'Excessive sweating, or hyperhidrosis, is a medical condition that causes the body to produce more sweat than is necessary for normal temperature regulation. Unlike normal sweating caused by exercise or hot weather, hyperhidrosis may occur without an obvious trigger and can significantly affect daily comfort, confidence, work, and social interactions. Seeking professional Botox hyperhidrosis treatment in Dubai can help control symptoms safely and improve overall quality of life.'
         },
         solutionIntro: {
-  title: 'Our Solution: Botox Hyperhidrosis in Dubai',
+  title: 'Advanced Botox Hyperhidrosis Treatment in Dubai',
   description:
-    'Our Botox Hyperhidrosis in Dubai offers a safe, FDA-approved, and highly effective treatment for excessive sweating.'
+    'At RamaCare Polyclinic, our Botox hyperhidrosis treatment in Dubai is designed to provide safe, effective, and long-lasting relief from excessive sweating without the need for surgery. Using FDA-approved botulinum toxin injections, this minimally invasive treatment temporarily blocks the nerve signals responsible for activating overactive sweat glands, significantly reducing sweat production in the treated areas. The procedure is performed by experienced medical professionals and is tailored to your individual symptoms, ensuring safe care and natural-looking results that improve both comfort and confidence.'
 },
        leftCards: [
   {
     id: 1,
     title: 'What Is Botox Hyperhidrosis?',
-    description: 'Botox Hyperhidrosis is a non-surgical treatment that uses botulinum toxin injections to block overactive sweat glands. It effectively reduces excessive sweating in targeted areas without affecting normal body functions.'
+    description: 'Botox for hyperhidrosis in Dubai is a safe, non-surgical treatment designed to reduce excessive sweating by temporarily blocking the nerve signals that stimulate overactive sweat glands. Using carefully administered botulinum toxin injections, the treatment helps control sweat production in targeted areas without affecting the body\'s normal ability to regulate temperature. Hyperhidrosis commonly affects the underarms, palms, soles of the feet, and occasionally the forehead. Excessive sweating can occur even when the body does not require cooling, leading to discomfort, visible sweat stains, unpleasant odor, and reduced confidence. Botox treatment offers an effective solution for individuals who have not achieved satisfactory results with antiperspirants, medications, or lifestyle modifications.At RamaCare Polyclinic, every patient undergoes a comprehensive medical assessment before treatment. Our experienced medical professionals develop a personalized treatment plan based on the affected area, severity of sweating, and individual health needs to ensure safe, effective, and natural-looking results.'
   },
   {
     id: 2,
-    title: 'Who Needs Botox Hyperhidrosis?',
-    description: 'This treatment is suitable for individuals experiencing:',
+    title: 'Who Can Benefit from Botox Hyperhidrosis?',
+    description: 'Botox hyperhidrosis treatment in Dubai may be recommended for adults experiencing excessive sweating that interferes with daily activities or quality of life, including',
     listItems: [
-      'Excessive underarm sweating',
-      'Sweaty palms or feet',
-      'Embarrassment or social anxiety due to sweating',
-      'Inadequate results from antiperspirants or medications'
+      'Excessive underarm sweating (axillary hyperhidrosis)',
+      'Sweaty palms (palmar hyperhidrosis)',
+      'Excessive sweating of the feet (plantar hyperhidrosis)',
+      'Sweating that affects work, sports, or social interactions',
+      'Visible sweat stains despite good hygiene',
+      'Inadequate results from prescription antiperspirants or medications',
+      'Embarrassment or anxiety caused by excessive sweating',
+      'Individuals seeking a non-surgical treatment option'
     ]
   },
   {
     id: 3,
-    title: 'Duration',
-    description: 'Treatment typically takes 30–60 minutes. Results start showing within 2–5 days, lasting up to 6–8 months depending on individual response.'
+    title: 'Treatment Duration',
+    description: 'A typical Botox hyperhidrosis session in Dubai takes approximately 30 to 60 minutes, depending on the treatment area. Most patients begin noticing reduced sweating within 2 to 5 days, while optimal results generally develop within 1 to 2 weeks. The effects usually last 6 to 8 months, although the duration may vary depending on individual response and the treated area. Periodic maintenance treatments can help maintain long-term symptom control.'
   }
 ],
       rootCauses: [
@@ -3886,237 +4543,322 @@ rootCauses: [
     id: 1,
     title: 'Excessive Underarm Sweating',
     description:
-      'Uncontrolled sweating occurs even without heat or physical activity, causing discomfort, odor, and embarrassment.',
+      'Persistent underarm sweating can occur even in cool environments or while resting. It may lead to noticeable sweat stains, body odor, clothing damage, and self-consciousness during everyday activities.',
     severity: 'High',
     severityColor: 'bg-[#FEE2E2] text-[#991B1B]'
   },
   {
     id: 2,
-    title: 'Palms & Feet Sweating',
+    title: 'Sweaty Palms & Feet',
     description:
-      'Sweaty hands and feet interfere with daily activities, social interactions, and work confidence.',
+      'Excessive sweating of the hands and feet can make simple daily tasks challenging, including writing, using electronic devices, shaking hands, driving, or participating in sports. It may also affect professional and social confidence.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 3,
-    title: 'Clothing Stains & Skin Irritation',
+    title: 'Skin Irritation & Clothing Damage',
     description:
-      'Constant moisture leads to visible sweat marks, rashes, and recurring skin infections.',
+      'Constant moisture creates an environment where skin irritation, rashes, and friction can develop. Frequent sweating may also damage clothing and require repeated changes throughout the day.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   },
   {
     id: 4,
-    title: 'Stress-Triggered Sweating',   
+    title: 'Stress-Related Sweating',   
     description:
-      'Anxiety and stress further activate sweat glands, worsening hyperhidrosis symptoms.',
+      'Stress, anxiety, and emotional situations often activate the body\'s sweat response, creating a cycle in which excessive sweating increases anxiety, and anxiety further worsens sweating. Professional treatment helps interrupt this cycle by reducing sweat production in targeted areas.',
     severity: 'Medium',
     severityColor: 'bg-[#FEF3C7] text-[#92400E]'    
   }
 ],
-        quickFacts: [
-  { label: 'Treatment Type', value: 'Non-surgical Botox injection' },
-  { label: 'Anesthesia', value: 'Optional topical numbing' },
-  { label: 'Downtime', value: 'Minimal to none' },
-  { label: 'Results', value: 'Gradual, long-lasting sweat reduction' }
+     quickFacts: [
+  {
+    label: 'Treatment Type',
+    value: 'Non-surgical Botulinum Toxin Injections'
+  },
+  {
+    label: 'Procedure Time',
+    value: '30–60 Minutes'
+  },
+  {
+    label: 'Anaesthesia',
+    value: 'Optional Topical Numbing Cream'
+  },
+  {
+    label: 'Downtime',
+    value: 'Minimal to None'
+  },
+  {
+    label: 'Return to Daily Activities',
+    value: 'Usually, the Same Day'
+  },
+  {
+    label: 'Results Begin',
+    value: 'Within 2–5 Days'
+  },
+  {
+    label: 'Full Results',
+    value: 'Approximately 1–2 Weeks'
+  },
+  {
+    label: 'Duration of Results',
+    value: 'Typically 6–8 Months*'
+  }
 ],
-      approachCards: [
+     approachCards: [
   {
     id: 1,
-    title: 'Blocks Sweat Gland Activity',
+    title: 'Reduces Excessive Sweating',
     description:
-      'Botox temporarily stops nerve signals that activate sweat glands, significantly reducing sweating.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Botox works by temporarily blocking the communication between nerves and sweat glands, preventing excessive sweat production while allowing the body to continue regulating its normal temperature through untreated areas.',
+    hasLearnMore: true,
+    expandedContent:
+      'This targeted approach provides effective symptom control without affecting everyday activities. By reducing excessive sweating only in the treated areas, patients experience improved comfort while maintaining the body’s normal temperature regulation.'
   },
   {
     id: 2,
-    title: 'Quick & Minimally Invasive',
+    title: 'Quick, Comfortable & Minimally Invasive',
     description:
-      'Simple injection procedure with minimal discomfort and no downtime.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Botox hyperhidrosis treatment in Dubai is performed using a series of small injections in the affected area with little to no downtime.',
+    hasLearnMore: true,
+    expandedContent:
+      'The procedure usually takes 30 to 60 minutes and is well tolerated by most patients. Following treatment, most individuals can return to work and resume their normal daily activities immediately.'
   },
   {
     id: 3,
     title: 'Long-Lasting Sweat Control',
     description:
-      'Results typically last 6–9 months, keeping treated areas dry and comfortable.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Most patients notice a significant reduction in sweating within a few days, with full results developing over one to two weeks.',
+    hasLearnMore: true,
+    expandedContent:
+      'The benefits typically last 6 to 9 months, providing long-lasting relief from excessive sweating. Maintenance treatments can help sustain the results and continue improving daily comfort and confidence.'
   },
   {
     id: 4,
-    title: 'Effective for Multiple Areas',
+    title: 'Effective for Multiple Treatment Areas',
     description:
-      'Ideal for underarms, palms, soles, and forehead sweating.',
-    hasLearnMore: false,
-    expandedContent: null
+      'Botox is commonly used to treat excessive sweating in the underarms, palms, soles of the feet, and forehead.',
+    hasLearnMore: true,
+    expandedContent:
+      'Each treatment plan is customized according to the affected area, the severity of sweating, and your individual needs to achieve the best possible outcome while ensuring safe and effective treatment.'
   },
   {
     id: 5,
-    title: 'Improves Confidence & Comfort',
+    title: 'Improves Confidence & Quality of Life',
     description:
-      'Eliminates sweat-related anxiety, odor, and skin irritation for a better quality of life.',
-    hasLearnMore: false,
-    expandedContent: null
+      'By reducing unwanted perspiration, Botox for hyperhidrosis helps patients feel more comfortable and confident in their daily activities.',
+    hasLearnMore: true,
+    expandedContent:
+      'Treatment helps minimize sweat stains, body odor, and skin irritation, allowing patients to participate more comfortably in social situations, professional environments, and physical activities while improving their overall quality of life.'
   }
 ]
       },
-      healingJourney: {
-        title: 'Your Skin Healing Journey: Step by Step',
-        description: 'A transparent, structured approach to deliver safe and lasting skin improvement.',
-       steps: [
-  {
-    id: 1,
-    number: '01',
-    title: 'Step 1 – Consultation & Assessment',
-    duration: 'Step 1',
-    description: null,
-    keyActivities: [
-      'Evaluate sweating areas and severity',
-      'Medical history and contraindication check',
-      'Personalized treatment plan'
-    ],
-    side: 'right'
-  },
-  {
-    id: 2,
-    number: '02',
-    title: 'Step 2 – Preparation',
-    duration: 'Step 2',
-    description: null,
-    keyActivities: [
-      'Clean and mark target areas',
-      'Apply topical numbing cream if needed'
-    ],
-    side: 'left'
-  },
-  {
-    id: 3,
-    number: '03',
-    title: 'Step 3 – Botox Injection',
-    duration: 'Step 3',
-    description: null,
-    keyActivities: [
-      'Precise injection into sweat glands',
-      'Targeted treatment to reduce overactivity',
-      'Procedure duration: 20–40 minutes'
-    ],
-    side: 'right'
-  },
-  {
-    id: 4,
-    number: '04',
-    title: 'Step 4 – Post-Treatment Care',
-    duration: 'Step 4',
-    description: null,
-    keyActivities: [
-      'Avoid strenuous activity for 24 hours',
-      'Follow specific skin care instructions',
-      'Schedule follow-up for assessment and maintenance'
-    ],
-    side: 'left'
-  },
-  {
-    id: 5,
-    number: '05',
-    title: 'Result:',
-    duration: null,
-    description: ' Long-lasting sweat reduction, minimal discomfort, and renewed confidence in daily and social activities',
-    keyActivities: [],
-    side: 'right'
-  }
-]
+     healingJourney: {
+  title: 'Your Botox Hyperhidrosis Treatment Journey: Step by Step',
+  description:
+    'At RamaCare Polyclinic, our Botox Hyperhidrosis in Dubai follows a structured and personalized treatment process to help reduce excessive sweating safely and effectively. Before treatment, our experienced medical professionals assess your symptoms, identify the affected areas, and develop a customized treatment plan based on your individual needs. Every stage is designed to maximize comfort, ensure patient safety, and deliver long-lasting sweat reduction with minimal disruption to your daily routine.',
+  steps: [
+    {
+      id: 1,
+      number: '01',
+      title: 'Step 1: Consultation & Medical Assessment',
+      duration: 'Step 1',
+      description:
+        'Your journey begins with a comprehensive consultation to evaluate the severity of excessive sweating and determine whether Botox hyperhidrosis treatment in Dubai is the most suitable option for you. Our medical team reviews your symptoms, medical history, and lifestyle before creating a personalized treatment plan.',
+      keyActivities: [
+        'Assessment of excessive sweating and affected areas',
+        'Medical history and health evaluation',
+        'Identification of possible underlying causes',
+        'Review of previous treatments, if any',
+        'Personalised treatment planning and patient education'
+      ],
+      side: 'right'
+    },
+    {
+      id: 2,
+      number: '02',
+      title: 'Step 2: Preparation for Treatment',
+      duration: 'Step 2',
+      description:
+        'Before the procedure, the treatment area is thoroughly cleansed and carefully marked to ensure accurate injection placement. For sensitive areas such as the palms or soles, a topical numbing cream may be applied to improve comfort during the procedure.',
+      keyActivities: [
+        'Cleansing and preparation of the treatment area',
+        'Precise marking of injection sites',
+        'Application of topical numbing cream when required',
+        'Final review of the treatment plan',
+        'Preparation for safe and comfortable treatment'
+      ],
+      side: 'left'
+    },
+    {
+      id: 3,
+      number: '03',
+      title: 'Step 3: Botox Injections',
+      duration: 'Step 3',
+      description:
+        'The procedure involves a series of small, carefully placed Botox injections into the affected area to temporarily block the nerve signals that stimulate sweat glands. The treatment is performed using precise techniques to achieve even sweat reduction while maintaining normal movement and skin function. Most sessions are completed within 20 to 40 minutes, depending on the size and number of treatment areas.',
+      keyActivities: [
+        'Precise Botox injections into targeted sweat glands',
+        'Treatment of underarms, palms, feet, or other affected areas',
+        'Careful monitoring throughout the procedure',
+        'Comfortable, minimally invasive treatment',
+        'Procedure completed in approximately 20–40 minutes'
+      ],
+      side: 'right'
+    },
+    {
+      id: 4,
+      number: '04',
+      title: 'Step 4: Post-Treatment Care',
+      duration: 'Step 4',
+      description:
+        'Following treatment, patients can usually return to their normal daily activities with minimal downtime. Our team provides personalized aftercare instructions to help achieve the best possible results and minimize temporary side effects. A follow-up appointment may be recommended to assess your response to treatment and discuss future maintenance sessions if required.',
+      keyActivities: [
+        'Personalised aftercare instructions',
+        'Avoid strenuous exercise for the first 24 hours',
+        'Guidance on caring for the treated area',
+        'Follow-up assessment when appropriate',
+        'Long-term maintenance recommendations'
+      ],
+      side: 'left'
+    },
+    {
+      id: 5,
+      number: '05',
+      title: 'Expected Results',
+      duration: null,
+      description:
+        'Most patients begin noticing a reduction in excessive sweating within 2 to 5 days, with optimal results developing over the following 1 to 2 weeks. The effects typically last 6 to 9 months, depending on individual response and the treatment area. Regular maintenance sessions can help provide continued sweat control, allowing you to enjoy greater comfort, improved confidence, and a better quality of life.',
+      keyActivities: [],
+      side: 'right'
+    }
+  ]
       },
-      benefits: {
-        title: 'Clinically Observed Benefits',
-        description: 'Based on 15+ years of providing skin treatment in Dubai.',
-        benefits: [
-          {
-            id: 1,
-            title: ' Significant reduction of underarm, palm, and foot sweating',
-            percentage: 91,
-            description: null
-          },
-          {
-            id: 2,
-            title: ' Minimal downtime and fast procedure ',
-            percentage: 88,
-            description: null
-          },
-          {
-            id: 3,
-            title: 'Improved Hydration',
-            percentage: 95,
-            description: 'Safe, effective, and FDA-approved'
-          },
-          {
-            id: 4,
-            title: 'Improved quality of life and confidence',
-            percentage: 85,
-            description: null
-          },
-          {
-            id: 5,
-            title: 'Non-surgical and minimally invasive',
-            percentage: 93,
-            description: null
-          },
-        
-        ],
-        comparisonTitle: 'Botox Hyperhidrosis vs. Conventional Sweat Control',
-        comparisonDescription: 'Understanding the Difference Before Choosing Your Care',
-        comparisonHeaders: {
-          feature: 'Aspect',
-          ourTreatment: 'Botox Hyperhidrosis Treatment',
-          traditional: 'Conventional Sweat Control'
-        },
-        comparisonData: [
-          {
-    feature: 'Approach',
+     benefits: {
+  title: 'Benefits of Botox for Hyperhidrosis in Dubai',
+  description:
+    'At RamaCare Polyclinic, our Botox for hyperhidrosis in Dubai is designed to provide effective, long-lasting relief from excessive sweating while improving comfort, confidence, and quality of life. By temporarily blocking the nerve signals that activate overactive sweat glands, Botox helps control excessive perspiration without affecting the body\'s normal temperature regulation. The treatment is non-surgical, minimally invasive, and performed by experienced medical professionals using evidence-based techniques.',
+  benefits: [
+    {
+      id: 1,
+      title: 'Significantly Reduces Excessive Sweating',
+      percentage: 91,
+      description:
+        'Botox effectively reduces excessive sweating in commonly affected areas such as the underarms, palms, soles of the feet, and forehead.',
+      hasLearnMore: true,
+      expandedContent:
+        'Most patients notice a significant decrease in sweat production, allowing them to feel more comfortable throughout the day. By temporarily blocking the nerve signals that activate overactive sweat glands, Botox provides effective sweat control while allowing the body to regulate its normal temperature through untreated areas.'
+    },
+    {
+      id: 2,
+      title: 'Quick Procedure with Minimal Downtime',
+      percentage: 88,
+      description:
+        'The treatment is completed within 20 to 40 minutes and requires little to no recovery time.',
+      hasLearnMore: true,
+      expandedContent:
+        'Most patients can return to their normal work and daily activities immediately after the procedure, making Botox for hyperhidrosis a convenient treatment option for individuals with busy lifestyles.'
+    },
+    {
+      id: 3,
+      title: 'Long-Lasting Sweat Control',
+      percentage: 95,
+      description:
+        'Results typically begin to appear within a few days, with the full effect developing over one to two weeks.',
+      hasLearnMore: true,
+      expandedContent:
+        'The benefits generally last 6 to 9 months, depending on your individual response and the treatment area. Regular maintenance sessions can help sustain long-term sweat reduction and ongoing comfort.'
+    },
+    {
+      id: 4,
+      title: 'Safe, Clinically Proven Treatment',
+      percentage: 90,
+      description:
+        'Botox is widely used as an effective non-surgical treatment for managing excessive sweating.',
+      hasLearnMore: true,
+      expandedContent:
+        'When performed by qualified medical professionals, the procedure is generally well tolerated and focuses on patient safety, comfort, and evidence-based care while delivering predictable and reliable results.'
+    },
+    {
+      id: 5,
+      title: 'Improves Comfort & Quality of Life',
+      percentage: 93,
+      description:
+        'Reducing excessive sweating helps minimise sweat stains, body odour, skin irritation, and the inconvenience of frequent clothing changes.',
+      hasLearnMore: true,
+      expandedContent:
+        'Many patients experience greater confidence during work, social interactions, exercise, and everyday activities. Improved sweat control allows you to participate more comfortably in daily life without worrying about excessive perspiration.'
+    },
+    {
+      id: 6,
+      title: 'Minimally Invasive & Personalised Care',
+      percentage: 92,
+      description:
+        'Every treatment plan is tailored to your individual symptoms and the areas affected by hyperhidrosis.',
+      hasLearnMore: true,
+      expandedContent:
+        'Our personalised approach ensures precise treatment, natural-looking results, and ongoing support to help maintain long-term sweat control, improved comfort, and better overall well-being.'
+    }
+  ],
+       comparisonTitle: 'Botox Hyperhidrosis vs. Conventional Sweat Control',
+comparisonDescription: 'Understanding the Difference Before Choosing Your Treatment',
+comparisonHeaders: {
+  feature: 'Aspect',
+  ourTreatment: 'Botox Hyperhidrosis Treatment in Dubai',
+  traditional: 'Conventional Sweat Control'
+},
+comparisonData: [
+  {
+    feature: 'Treatment Approach',
     ayurvedic:
-      'Targets sweat glands directly by blocking nerve signals using Botox hyperhidrosis injections',
+      "Temporarily blocks the nerve signals that activate overactive sweat glands, helping reduce excessive sweating in targeted areas.",
     conventional:
-      'Manages symptoms with antiperspirants or medications'
+      "Relies on antiperspirants, oral medications, or lifestyle measures to manage symptoms without directly targeting sweat gland activity."
   },
   {
-    feature: 'Ingredients',
+    feature: 'Treatment Method',
     ayurvedic:
-      'Medical-grade botulinum toxin used in Botox hyperhidrosis',
+      "Minimally invasive Botox injections performed by qualified medical professionals.",
     conventional:
-      'Chemical-based antiperspirants or oral drugs'
+      "Daily use of topical antiperspirants or prescribed medications."
   },
   {
-    feature: 'Side Effects',
+    feature: 'Treatment Areas',
     ayurvedic:
-      'Minimal and temporary when administered by trained professionals',
+      "Suitable for the underarms, palms, soles of the feet, and selected facial areas affected by hyperhidrosis.",
     conventional:
-      'Possible skin irritation, rashes, or systemic side effects'
+      "Primarily used for underarm sweating and may be less effective for other areas."
   },
   {
     feature: 'Results',
     ayurvedic:
-      'Effective sweat reduction lasting 4–6 months',
+      "Noticeable reduction in sweating within a few days, with results typically lasting 6 to 9 months, depending on the individual.",
     conventional:
-      'Short-term relief requiring daily or frequent use'
+      "Temporary symptom control that often requires frequent or daily application."
   },
   {
-    feature: 'Treatment Scope',
+    feature: 'Downtime',
     ayurvedic:
-      'Suitable for underarms, palms, soles, and face',
+      "Minimal to no downtime, allowing most patients to return to normal activities immediately after treatment.",
     conventional:
-      'Mostly limited to underarm application'
+      "No procedural downtime, but daily management is often required."
+  },
+  {
+    feature: 'Safety',
+    ayurvedic:
+      "Performed under medical supervision using established treatment protocols and individual assessment.",
+    conventional:
+      "Overuse of certain products or medications may increase the risk of skin irritation or unwanted side effects in some individuals."
   },
   {
     feature: 'Long-Term Management',
     ayurvedic:
-      'Periodic sessions of Botox hyperhidrosis maintain dryness and comfort',
+      "Periodic maintenance treatments help provide consistent, long-term control of excessive sweating.",
     conventional:
-      'Ongoing daily dependency with inconsistent results'
+      "Ongoing dependence on daily products with variable effectiveness over time."
   }
-        ]
+]
       },
   pricing: {
   title: 'Transparent Pricing & Treatment Packages',

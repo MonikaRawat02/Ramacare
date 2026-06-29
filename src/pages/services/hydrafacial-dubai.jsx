@@ -12,6 +12,7 @@ import DoctorsSection from '../../../components/DoctorsSection';
 import PaymentInsurance from '../../../components/PaymentInsurance';
 import FAQSection from '../../../components/Faq';
 import BookConsultation from '../../../components/BookConsultation';
+import TreatmentAdditionalContent from '../../../components/TreatmentAdditionalContent';
 import { getSubcategoryContent } from '../../data/subcategoryContent';
 
 
@@ -21,6 +22,17 @@ export default function SignatureHydraFacialPage() {
 
    // Get content from data file
     const content = getSubcategoryContent('facial-dubai', 'signature-hydra-facial');
+
+  const navItems = [
+    { id: 'treatment-info', label: 'Treatment Info' },
+    { id: 'how-it-works', label: 'How It Works' },
+    { id: 'benefits', label: 'Benefits' },
+    { id: 'why-choose', label: 'Why Choose HydraFacial' },
+    { id: 'conditions-we-treat', label: 'Who Is It For' },
+    { id: 'our-doctors', label: 'Our Doctors' },
+    { id: 'faq', label: 'FAQ' },
+    { id: 'book-now', label: 'Book Now' }
+  ];
 
   return (
      <Layout>
@@ -100,7 +112,7 @@ export default function SignatureHydraFacialPage() {
       description={content?.hero?.description}
       hero={content?.hero}
     />
-     <QuickNavigation />
+     <QuickNavigation navItems={navItems} />
     
     <TreatmentOverview 
       subcategoryName={subcategoryName}
@@ -110,6 +122,7 @@ export default function SignatureHydraFacialPage() {
     <TreatmentBenefits 
       content={content?.benefits}
     />
+     <TreatmentAdditionalContent content={content} />
     <PatientTestimonials content={content?.testimonials} />
      <DoctorsSection content={content?.doctors} customDoctors={content?.doctors?.doctors} />
     

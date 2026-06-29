@@ -2987,7 +2987,7 @@ programs: {
       treatments: [
         {
           id: 1,
-          title: 'Signature Hydra Facial',
+          title: 'Hydra Facial',
           slug: 'hydra-facial',
           fullSlug: '/services/signature-hydra-facial-dubai/',
           icon: 'Sparkles',
